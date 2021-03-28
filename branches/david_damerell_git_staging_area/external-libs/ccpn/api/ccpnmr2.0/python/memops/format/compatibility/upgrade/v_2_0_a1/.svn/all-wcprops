@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/format/compatibility/upgrade/v_2_0_a1
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/format/compatibility/upgrade/v_2_0_a1/__init__.py
+END
+Minor.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/format/compatibility/upgrade/v_2_0_a1/Minor.py
+END
+Major.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/format/compatibility/upgrade/v_2_0_a1/Major.py
+END
+MapInfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/format/compatibility/upgrade/v_2_0_a1/MapInfo.py
+END
+General.py
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/format/compatibility/upgrade/v_2_0_a1/General.py
+END

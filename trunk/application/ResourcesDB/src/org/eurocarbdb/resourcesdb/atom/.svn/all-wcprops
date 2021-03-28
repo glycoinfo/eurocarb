@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom
+END
+AtomTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/AtomTemplate.java
+END
+Periodic.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Periodic.java
+END
+AtomConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/AtomConnection.java
+END
+Atom.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Atom.java
+END
+Isotope.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Isotope.java
+END
+Periodic.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Periodic.hbm.xml
+END
+Composition.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Composition.java
+END
+AtomConnection.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/AtomConnection.hbm.xml
+END
+Atom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Atom.hbm.xml
+END
+Isotope.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Isotope.hbm.xml
+END
+Mol2Type.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Mol2Type.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin
+END
+genwpop.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin/genwpop.c
+END
+layoutmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin/layoutmgr.c
+END
+genwcons.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin/genwcons.c
+END
+genwmenu.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin/genwmenu.c
+END
+gen_win.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin/gen_win.c
+END
+genwscr.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin/genwscr.c
+END
+layoutmgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin/layoutmgr.h
+END
+genwin.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin/genwin.h
+END
+genwcomm.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin/genwcomm.c
+END
+genwcurs.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin/genwcurs.c
+END
+genwprint.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mswin/genwprint.c
+END

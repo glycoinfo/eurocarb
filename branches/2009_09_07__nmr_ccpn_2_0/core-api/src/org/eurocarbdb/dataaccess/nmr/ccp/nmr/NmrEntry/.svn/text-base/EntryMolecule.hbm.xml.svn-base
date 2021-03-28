@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrEntry">
+  <class
+    name="EntryMolecule"
+    table="ENTR_ENTRYMOLECULE"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Molecule relevant to this entry</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.NmrEntry.NmrEntryStore"
+    not-null="true"
+    unique="false"
+    foreign-key="ENTR_ENTRMOLE_NMRENTRSTOR_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_productionMethod"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">Production method</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PRODUCTIONMETHOD" sql-type="VARCHAR(80)" length="80" not-null="true"/>
+  </property>
+  
+  <property
+    name="_sourceType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">Type of molecule natural source</meta>
+    <meta attribute="default-value">"organism"</meta>
+    <column name="SOURCETYPE" sql-type="VARCHAR(80)" length="80" not-null="true"/>
+  </property>
+  
+  <property
+    name="_vectorType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Type of expression vector</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VECTORTYPE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="ENTR_ENTRMOLE2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbEntry"
+    column="ENTRYID"
+    class="ccp.api.nmr.NmrEntry.Entry" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="ENTR_ENTRMOLE_ENTRY_FK" 
+    unique-key="entryMoleculeUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbExperimentalSource"
+    column="EXPERIMENTALSOURCEID"
+    class="ccp.api.general.Taxonomy.NaturalSource" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="ENTR_ENTRMOLE_EXPESOUR_FK" 
+  >
+    <meta attribute="field-description">Experimental source of Molecule</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbMolecule"
+    column="MOLECULEID"
+    class="ccp.api.molecule.Molecule.Molecule" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="ENTR_ENTRMOLE_MOLECULE_FK" 
+    unique-key="entryMoleculeUniqueKey" 
+  >
+    <meta attribute="field-description">Molecule defining this EntryMolecule (key)</meta>
+  </many-to-one>
+
+  </class>
+
+</hibernate-mapping>

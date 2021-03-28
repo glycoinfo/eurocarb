@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1612/trunk/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr
+END
+Casper_determine.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1595/trunk/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper_determine.java
+END
+Casper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1612/trunk/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper.java
+END
+Casper_curate.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1612/trunk/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper_curate.java
+END
+Casper_simulate.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1612/trunk/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper_simulate.java
+END
+PictureStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1549/trunk/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/PictureStream.java
+END

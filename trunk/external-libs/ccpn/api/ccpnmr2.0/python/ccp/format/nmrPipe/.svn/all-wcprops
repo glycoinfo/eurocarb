@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/nmrPipe
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/nmrPipe/__init__.py
+END
+conversionParsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/nmrPipe/conversionParsIO.py
+END
+generalIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/nmrPipe/generalIO.py
+END
+processingScriptIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/nmrPipe/processingScriptIO.py
+END

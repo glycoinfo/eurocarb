@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-SingleResonanceStatus</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>SingleResonanceStatus</H1>
+            <H2>Status single possibly equivalent resonance/atom</H2>
+        <P ALIGN="LEFT">Here you decide how to handle cases where, in the external files, information was found
+        for only one of two resonances/atoms that are often equivalent (e.g. info for the HD2 of a PHE, but
+        nothing for the HD1). The options are:</P>
+        <UL>
+        <LI><B>X and Y are equivalent</B>: Assume that both atoms are equivalent (i.e. treat 'HD2' as 'HD*')
+        <LI><B>X and Y are not equivalent</B>: Assume that these atoms are not equivalent (they are observed
+            separately, so treat 'HD1' and 'HD2' as separate).
+        </UL>   
+
+    </TABLE>
+  </BODY>
+</HTML>

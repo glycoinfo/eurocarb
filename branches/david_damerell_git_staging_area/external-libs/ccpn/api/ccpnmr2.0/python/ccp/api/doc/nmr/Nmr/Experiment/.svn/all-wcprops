@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/parent.html
+END
+labeledMixtures.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/labeledMixtures.html
+END
+spinningAngle.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/spinningAngle.html
+END
+citations.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/citations.html
+END
+shiftAnisotropyList.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/shiftAnisotropyList.html
+END
+volumeUnit.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/volumeUnit.html
+END
+hExchRateList.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/hExchRateList.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/index.html
+END
+sampleVolume.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/sampleVolume.html
+END
+expDims.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/expDims.html
+END
+spectrometer.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/spectrometer.html
+END
+isotropicS2List.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/isotropicS2List.html
+END
+date.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/date.html
+END
+refExperiment.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/refExperiment.html
+END
+dataSources.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/dataSources.html
+END
+nmrTubeType.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/nmrTubeType.html
+END
+shiftReferences.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/shiftReferences.html
+END
+molSystems.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/molSystems.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/name.html
+END
+t2List.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/t2List.html
+END
+shiftDifferenceList.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/shiftDifferenceList.html
+END
+derivedTo.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/derivedTo.html
+END
+jCouplingList.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/jCouplingList.html
+END
+t1rhoList.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/t1rhoList.html
+END
+numDim.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/numDim.html
+END
+spinningRate.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/spinningRate.html
+END
+hExchProtectionList.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/hExchProtectionList.html
+END
+rdcList.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/rdcList.html
+END
+sampleConditionSet.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/sampleConditionSet.html
+END
+derivationMethod.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/derivationMethod.html
+END
+derivedFrom.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/derivedFrom.html
+END
+probe.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/probe.html
+END
+pkaList.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/pkaList.html
+END
+entries.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/entries.html
+END
+spectralDensityList.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/spectralDensityList.html
+END
+shiftList.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/shiftList.html
+END
+noeList.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/noeList.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/serial.html
+END
+t1List.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/t1List.html
+END
+sample.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/sample.html
+END
+dipolarRelaxList.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/dipolarRelaxList.html
+END
+sampleState.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/sampleState.html
+END
+expChainStates.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/expChainStates.html
+END
+nmrProject.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/nmrProject.html
+END
+rawData.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/rawData.html
+END
+nmrExpSeries.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/nmrExpSeries.html
+END
+expTransfers.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/expTransfers.html
+END
+details.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/details.html
+END
+numScans.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/numScans.html
+END
+dataLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/Experiment/dataLists.html
+END

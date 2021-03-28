@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrConstraint">
+  <joined-subclass
+    name="DihedralConstraint"
+    extends="ccp.api.nmr.NmrConstraint.AbstractConstraint"
+    table="NMRC_DIHEDRALCONSTRAINT"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Dihedral angle constraint. Not ambiguous, must be assigned to a specific quartet of Resonances. The different Dihedral Constraint Items represent alternative possibilities for dihedral angle values, rather than alternative assignemnts.</meta>
+  <key column="ABSTRACTCONSTRAINTID" foreign-key="NMRC_DIHECONS_ABSTCONS_FK"/>
+  
+  <many-to-one
+    name="hbParentList"
+    column="PARENTLISTID"
+    class="ccp.api.nmr.NmrConstraint.DihedralConstraintList" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRC_DIHECONS_PARENTLIST_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbItems" 
+    table="NMRC_DIHEDRALCONSTRAINTITEM"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbItem</meta>
+    <cache usage="read-write"/>
+    <key column="CONSTRAINTID"/>
+    <one-to-many class="ccp.api.nmr.NmrConstraint.DihedralConstraintItem"/>
+  </set>
+  
+  <list
+    name="hbResonances" 
+    table="NMRC_DIHECONS2RESONANCES"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Resonances (in order from one end to the other) defining the dihedral angle being constrained</meta>
+    <meta attribute="base-name">hbResonance</meta>
+    <cache usage="read-write"/>
+    <key column="DIHEDRALCONSTRAINTID" foreign-key="NMRC_FIXERESO_DIHECONS_FK" not-null="true"/>
+    <list-index column="order_resonances_" base="1"/>
+    <many-to-many column="RESONANCEID" class="ccp.api.nmr.NmrConstraint.FixedResonance" foreign-key="NMRC_DIHECONS_RESONANCES_FK"/>
+  </list>
+
+  </joined-subclass>
+
+</hibernate-mapping>

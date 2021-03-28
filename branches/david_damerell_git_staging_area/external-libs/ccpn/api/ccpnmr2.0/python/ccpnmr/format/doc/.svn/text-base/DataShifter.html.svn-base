@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-DataShifter</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>DataShifter</H1>
+            <H2>Copy data between different CCPN projects.</H2>
+        <P ALIGN="LEFT"><B>WARNING: this is a beta version. Make backup copies of your
+        projects first!.</B></P>
+        <P ALIGN="LEFT">In this window you can copy <i>segments of data</i> from one project
+        to another. For example, when you copy a peak list all associated peaks down to the
+        assignments per peak dimension will be copied over.</P>
+        <P ALIGN="LEFT">First load in two projects: click on <i>'Select project file'</i> and
+        select the main XML file for two different projects.</P>
+        <P ALIGN="LEFT">Then select the relevant object you want to copy over, either on the
+        left or on the right side, and click the arrow in pointing away from the object you
+        want to copy. This should copy over your data.</P>
+        <P><b>Try to copy objects in the order they appear in the window (i.e. start with the
+        molecular system!)</b></P>
+        <P ALIGN="LEFT">Note that the code tries to make sure that all essential information
+        for a set of objects is copied over, although some minor connected objects may be
+        lost.</P>
+        <P ALIGN="LEFT">Report any problems to <a href='mailto:wim@ebi.ac.uk'>Wim Vranken</a>.</P>
+
+    </TABLE>
+  </BODY>
+</HTML>

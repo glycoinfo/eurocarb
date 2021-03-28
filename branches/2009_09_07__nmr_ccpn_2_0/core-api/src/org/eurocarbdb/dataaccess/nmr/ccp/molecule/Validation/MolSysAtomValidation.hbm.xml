@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.Validation">
+  <joined-subclass
+    name="MolSysAtomValidation"
+    extends="ccp.api.molecule.Validation.ValidationResult"
+    table="VALD_MOLSYSATOMVALIDATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Validation result for MolSystem Atom</meta>
+  <key column="VALIDATIONRESULTID" foreign-key="VALD_MOLSYSATOMVALI_VALIRESU_FK"/>
+  
+  <set 
+    name="hbAtoms" 
+    table="VALD_MOLSYSATOMVALI2ATOMS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">MolSystem Atoms being validated</meta>
+    <meta attribute="base-name">hbAtom</meta>
+    <cache usage="read-write"/>
+    <key column="MOLSYSATOMVALIDATIONID" foreign-key="MOLS_ATOM_MOLSYSATOMVALI_FK"/>
+    <many-to-many column="ATOMID" class="ccp.api.molecule.MolSystem.Atom" foreign-key="VALD_MOLSYSATOMVALI_ATOMS_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

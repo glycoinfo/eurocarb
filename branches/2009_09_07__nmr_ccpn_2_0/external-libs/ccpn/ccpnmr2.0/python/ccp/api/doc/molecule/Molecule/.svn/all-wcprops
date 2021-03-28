@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/Molecule
+END
+LinkDihedralAngle.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/Molecule/LinkDihedralAngle.html
+END
+SecStrucCode.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/Molecule/SecStrucCode.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/Molecule/index.html
+END
+MolType.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/Molecule/MolType.html
+END
+SmilesType.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/Molecule/SmilesType.html
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel
+END
+weight.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel/weight.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel/index.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel/parent.html
+END
+subType.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel/subType.html
+END
+isotopeCode.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel/isotopeCode.html
+END
+getChemAtom.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel/getChemAtom.html
+END
+chemAtom.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel/chemAtom.html
+END
+isotopomer.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel/isotopomer.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel/name.html
+END
+getIsotope.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel/getIsotope.html
+END
+isotope.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompLabel/AtomLabel/isotope.html
+END

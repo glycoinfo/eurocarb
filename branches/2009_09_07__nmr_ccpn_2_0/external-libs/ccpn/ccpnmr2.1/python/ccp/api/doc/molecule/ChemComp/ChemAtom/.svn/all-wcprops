@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom
+END
+boundLinkEnds.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom/boundLinkEnds.html
+END
+elementSymbol.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom/elementSymbol.html
+END
+nuclGroupType.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom/nuclGroupType.html
+END
+remoteLinkEnds.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom/remoteLinkEnds.html
+END
+shortVegaType.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom/shortVegaType.html
+END
+chemElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom/chemElement.html
+END
+getChemElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom/getChemElement.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom/index.html
+END
+chirality.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom/chirality.html
+END
+chemAtomSet.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom/chemAtomSet.html
+END
+waterExchangeable.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/ChemAtom/waterExchangeable.html
+END

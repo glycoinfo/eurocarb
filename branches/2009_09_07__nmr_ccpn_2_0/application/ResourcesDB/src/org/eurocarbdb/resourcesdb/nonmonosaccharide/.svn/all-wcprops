@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide
+END
+AglyconAlias.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconAlias.java
+END
+AminoAcid.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AminoAcid.hbm.xml
+END
+AglyconTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconTemplate.java
+END
+NonBasetypeLinkingPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/NonBasetypeLinkingPosition.java
+END
+NonmonosaccharideException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/NonmonosaccharideException.java
+END
+AglyconAlias.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconAlias.hbm.xml
+END
+AglyconTemplate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconTemplate.hbm.xml
+END
+NonBasetypeLinkingPosition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/NonBasetypeLinkingPosition.hbm.xml
+END
+AminoAcid.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AminoAcid.java
+END

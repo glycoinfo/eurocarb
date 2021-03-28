@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-SelectExperimentForAcq</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>SelectExperimentForAcq</H1>
+            <H2>Experiment selection
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid experiment within the Data Model before acquisition and processing parameters can be handled.
+        </P>
+        <P ALIGN="LEFT">Click the '<B>Create new</B>' button (if available) in case you have not yet created the right experiment in the Data Model.
+        </P>
+
+    </TABLE>
+  </BODY>
+</HTML>

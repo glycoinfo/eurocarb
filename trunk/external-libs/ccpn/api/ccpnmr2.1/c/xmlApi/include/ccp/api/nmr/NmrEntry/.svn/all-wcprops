@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrEntry
+END
+Entr_NmrEntryStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrEntry/Entr_NmrEntryStore.h
+END
+Entr_Entry.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrEntry/Entr_Entry.h
+END
+Entr_RelatedEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrEntry/Entr_RelatedEntry.h
+END
+Entr_EntryMolecule.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrEntry/Entr_EntryMolecule.h
+END
+Entr_Study.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrEntry/Entr_Study.h
+END

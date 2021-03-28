@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Sample">
+  <joined-subclass
+    name="CrystalSample"
+    extends="ccp.api.lims.Sample.Sample"
+    table="SAM_CRYSTALSAMPLE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">The CrystalSample contains information about an individual Crystal and its  physical properties : dimensions, color,...</meta>
+  <key column="SAMPLEID" foreign-key="SAM_CRYSSAMP_SAMPLE_FK"/>
+  
+  <property
+    name="_a"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Length of Cell axis a in angstrom.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="A" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_alpha"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Angle between Cell axis b and c in degrees.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ALPHA" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_b"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Length of Cell axis b in angstrom.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="B" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_beta"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Angle between Cell axis a and c in degrees.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="BETA" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_c"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Length of Cell axis c in angstrom.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="C" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_colour"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Description of the colour of the crystal.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="COLOUR" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_crystalType"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">The type of the crystal.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CRYSTALTYPE" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_gamma"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Angle between Cell axis a and b in degrees.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="GAMMA" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_morphology"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Description of the shape of the crystal.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MORPHOLOGY" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_spaceGroup"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">The spacegroup name.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SPACEGROUP" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_x"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Length of x dimension of crystal in millimeter (mm).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="X" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_y"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Length of y dimension of crystal in millimeter (mm).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="Y" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_z"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Length of z dimension of crystal in millimeter (mm).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="Z" sql-type="FLOAT" not-null="false"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

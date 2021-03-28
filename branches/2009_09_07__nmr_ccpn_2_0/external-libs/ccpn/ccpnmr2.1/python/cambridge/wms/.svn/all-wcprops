@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms
+END
+Project.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/Project.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/README
+END
+RepositoryPropertiesFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/RepositoryPropertiesFrame.py
+END
+Test1Frame.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/Test1Frame.py
+END
+WmsGui.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/WmsGui.py
+END
+RepositoryList.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/RepositoryList.py
+END
+ProjectVersion.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/ProjectVersion.py
+END
+ProtocolFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/ProtocolFrame.py
+END
+Test2Frame.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/Test2Frame.py
+END
+User.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/User.py
+END
+TestTask1Manager.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/TestTask1Manager.py
+END
+Repository.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/Repository.py
+END
+ExtendNmrFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/ExtendNmrFrame.py
+END
+WSString.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/WSString.py
+END
+ProjectFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/ProjectFrame.py
+END
+Test1Task.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/Test1Task.py
+END
+LoginFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/LoginFrame.py
+END
+WorkflowFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/WorkflowFrame.py
+END
+UserFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/UserFrame.py
+END
+RepositoryFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/RepositoryFrame.py
+END
+RepositoryProperties.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/RepositoryProperties.py
+END
+DataExchFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/DataExchFrame.py
+END
+TaskManager.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/TaskManager.py
+END
+FileBrowserFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/FileBrowserFrame.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/__init__.py
+END
+TasksFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/TasksFrame.py
+END
+Test1.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/Test1.py
+END
+FilterFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/FilterFrame.py
+END
+Task.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/cambridge/wms/Task.py
+END

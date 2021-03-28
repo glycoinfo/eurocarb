@@ -1,0 +1,318 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis (2):EditMolSystemsPopup</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis (2):EditMolSystemsPopup</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>Analysis (2)</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditCovalentLinksPopup.html">EditCovalentLinksPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditExperimentDetailsPopup.html">EditExperimentDetailsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditExperimentPopup.html">EditExperimentPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditExperimentSeriesPopup.html">EditExperimentSeriesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditExperimentTypePopup.html">EditExperimentTypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditFitGraphPopup.html">EditFitGraphPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditMacrosPopup.html">EditMacrosPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditMarksPopup.html">EditMarksPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditMeasurementListsPopup.html">EditMeasurementListsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditMeasurementsPopup.html">EditMeasurementsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditMoleculePopup.html">EditMoleculePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditMolResLinksPopup.html">EditMolResLinksPopup</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="EditMolSystemsPopup.html">EditMolSystemsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditNoeClassesPopup.html">EditNoeClassesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditOptionsPopup.html">EditOptionsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditPeakAliasingPopup.html">EditPeakAliasingPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditPeakDrawParamsPopup.html">EditPeakDrawParamsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditPeakFindParamsPopup.html">EditPeakFindParamsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="FindRegionPeaksPopup.html">FindRegionPeaksPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditPeakListPopup.html">EditPeakListPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditPeakListsPopup.html">EditPeakListsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditPeakPopup.html">EditPeakPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CopyPeakAssignmentsPopup.html">CopyPeakAssignmentsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditPolymerSequencePopup..html">EditPolymerSequencePopup.</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditResStructuresPopup.html">EditResStructuresPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSmallMoleculePopup.html">EditSmallMoleculePopup</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+      This popup is used to create molecule systems which contain all of the atoms, albeit organised
+      into residues and chains, that NMR resonances may be assigned to. Here the user builds
+      molecular chains based upon molecular templates created with <A HREF="EditMoleculePopup.html">EditMoleculePopup.</A>
+      <P>
+      A chain has one or more chain fragments, which is a sub-division that divides its residues
+      into what may be distinct polymer regions. For example a protein may comprise of separate
+      disulphide bonded polymer sections, e.g. insulin.
+      </P>
+      <H2>- Molecular Systems -</H2>
+        <P>
+        This table lists the molecular systems present in the current project. Each molecular system
+        describes a group of molecular chains which may all be assigned to. A molecular system may
+        correspond to all of the assignable molecules in the NMR tube, or a collection of associated
+        chains like a complex.
+        </P>
+        <P>
+        In most circumstances the resonances identified in a specific NMR experiment only derive
+        from atoms in one molecular system.
+        </P>
+        <H3>[ Add Mol System ]</H3>
+          <P>
+          Creates a new, empty molecular system within the current project to which chains and
+          residues may be added.
+          </P>
+        <H3>[ Delete Mol System]</H3>
+          <P>
+          Delete the currently selected molecular system if no NMR assignments have been made to it.
+          </P>
+      <H2>- Molecular chains -</H2>
+        <H3>[ Delete Chain ]</H3>
+          <P>
+          Deletes the currently selected chain if it has not been used for any assignments.
+          </P>
+        <H3>[ Copy Chain ]</H3>
+          <P>
+          Makes a copy of the selected chain in the current molecular system. This option may be
+          used to create oligomers where there are one or more chains with the same sequence. This
+          is the same as creating a new chain using the same molecular template as the existing
+          chain.
+          </P>
+        <H3>[ Make chain from template: ]</H3>
+          <P>
+          Makes a new NMR assignable chain in the current molecular system using the template
+          specified in the pulldown menu to the right.
+          </P>
+        <H3>Molecule template: &lt;list&gt;</H3>
+          <P>
+          Allows the user to specify a molecule from the current project which will be used as a
+          template to create a new chain within the selected molecular system.
+          </P>
+        <H3>[ Edit Molecule Templates ]</H3>
+          <P>
+          Opens a popup to allow the user to create and edit molecule templates which may then be
+          used to create chains for NMR assignable residues. Opens <A HREF="EditMoleculePopup.html">EditMoleculePopup.</A>
+          Note that templates that have already been used to create a chain may not be altered.
+          </P>
+      <H2>- Chain Fragments -</H2>
+        <P>
+        List all of the fragments (polymer subdivisions) in the currently selected molecular chain.
+        Each fragment comprises a section of polymer connected residues, which may be bonded
+        together in a user specified way to describe the molecule as a whole.
+        </P>
+        <H3>| Start Seq Number |</H3>
+          <P>
+          Double clicking this column allows the user to set the sequence start number for a chain
+          fragment (the residues will be renumbered sequentially). The numbering may not overlap with
+          any other chain fragments.
+          </P>
+          <P>
+          This renumbering involves setting the SeqCode value for the fragments residues. This does
+          not affect the assignment to these residues. The connection of atoms to resonances and
+          peaks remains unaltered, but the Analysis display will be updated to reflect the new
+          residue label.
+          </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

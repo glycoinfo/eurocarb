@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1933/trunk/core-api/conf
+END
+hibernate.properties.development
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/730/trunk/core-api/conf/hibernate.properties.development
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1933/trunk/core-api/conf/hibernate.cfg.xml
+END
+hibernate.properties.production
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1355/trunk/core-api/conf/hibernate.properties.production
+END
+hibernate.jndi.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/391/trunk/core-api/conf/hibernate.jndi.cfg.xml
+END
+hibernate.reveng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/391/trunk/core-api/conf/hibernate.reveng.xml
+END
+hibernate.properties.reference
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/730/trunk/core-api/conf/hibernate.properties.reference
+END
+eurocarbdb-core.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1390/trunk/core-api/conf/eurocarbdb-core.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1280/trunk/core-api/conf/log4j.properties
+END
+hibernate.properties
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1355/trunk/core-api/conf/hibernate.properties
+END

@@ -1,0 +1,563 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global
+END
+py_draw_handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_draw_handler.c
+END
+utility.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/utility.c
+END
+nonlinear_model.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/nonlinear_model.c
+END
+pdf_handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/pdf_handler.c
+END
+py_draw_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_draw_handler.h
+END
+utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/utility.h
+END
+py_mem_cache.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_mem_cache.c
+END
+nonlinear_model.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/nonlinear_model.h
+END
+sorts.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/sorts.c
+END
+pdf_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/pdf_handler.h
+END
+python_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/python_util.c
+END
+py_mem_cache.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_mem_cache.h
+END
+sorts.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/sorts.h
+END
+random.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/random.c
+END
+fit.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/fit.c
+END
+python_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/python_util.h
+END
+eigenvalue.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/eigenvalue.c
+END
+random.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/random.h
+END
+fit.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/fit.h
+END
+eigenvalue.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/eigenvalue.h
+END
+store_consts.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/store_consts.h
+END
+hash_table.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/hash_table.c
+END
+hash_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/hash_table.h
+END
+polyline.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/polyline.h
+END
+py_store_handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_store_handler.c
+END
+mem_cache.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/mem_cache.c
+END
+py_store_file.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_store_file.c
+END
+py_store_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_store_handler.h
+END
+linalg.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/linalg.c
+END
+mem_cache.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/mem_cache.h
+END
+py_gl_handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_gl_handler.c
+END
+py_store_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_store_file.h
+END
+linalg.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/linalg.h
+END
+py_gl_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_gl_handler.h
+END
+hash_list.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/hash_list.c
+END
+contourer.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/contourer.c
+END
+hash_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/hash_list.h
+END
+py_tk_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_tk_util.c
+END
+contourer.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/contourer.h
+END
+py_tk_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_tk_util.h
+END
+store_handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/store_handler.c
+END
+store_file.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/store_file.c
+END
+geometry.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/geometry.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/Makefile
+END
+point.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/point.h
+END
+store_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/store_handler.h
+END
+gl_handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/gl_handler.c
+END
+store_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/store_file.h
+END
+geometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/geometry.h
+END
+gl_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/gl_handler.h
+END
+py_shape_file.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_shape_file.c
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/list.c
+END
+py_shape_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_shape_file.h
+END
+color.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/color.c
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/list.h
+END
+py_tk_handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_tk_handler.c
+END
+color.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/color.h
+END
+diag_dbl.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/diag_dbl.c
+END
+w32func.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/w32func.c
+END
+py_ps_handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_ps_handler.c
+END
+py_tk_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_tk_handler.h
+END
+macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/macros.h
+END
+diag_dbl.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/diag_dbl.h
+END
+py_ps_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_ps_handler.h
+END
+w32func.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/w32func.h
+END
+drawing_funcs.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/drawing_funcs.h
+END
+shape_file.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/shape_file.c
+END
+py_block_file.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_block_file.c
+END
+mutex.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/mutex.c
+END
+_licenseInfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/_licenseInfo.py
+END
+shape_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/shape_file.h
+END
+py_block_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_block_file.h
+END
+mutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/mutex.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/types.h
+END
+tk_handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/tk_handler.c
+END
+py_pdf_handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_pdf_handler.c
+END
+consts.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/consts.h
+END
+ps_handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/ps_handler.c
+END
+gauss_jordan.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/gauss_jordan.c
+END
+tk_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/tk_handler.h
+END
+gamma.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/gamma.c
+END
+py_pdf_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_pdf_handler.h
+END
+ps_handler.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/ps_handler.h
+END
+gauss_jordan.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/gauss_jordan.h
+END
+gamma.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/gamma.h
+END
+int_array.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/int_array.c
+END
+block_file.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/block_file.c
+END
+line_fit.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/line_fit.c
+END
+py_fit.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_fit.c
+END
+int_array.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/int_array.h
+END
+line_fit.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/line_fit.h
+END
+block_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/block_file.h
+END
+py_fit.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/memops/global/py_fit.h
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general
+END
+Citation.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general/Citation.py
+END
+Annotation.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general/Annotation.py
+END
+Template.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general/Template.py
+END
+KeywordDefinition.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general/KeywordDefinition.py
+END
+Taxonomy.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general/Taxonomy.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general/__init__.py
+END
+Method.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general/Method.py
+END
+DataLocation.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general/DataLocation.py
+END
+DbRef.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general/DbRef.py
+END
+Affiliation.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general/Affiliation.py
+END
+Instrument.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/general/Instrument.py
+END

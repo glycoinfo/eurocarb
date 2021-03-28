@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Experiment
+END
+Expe_ImportSample.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Experiment/Expe_ImportSample.c
+END
+Expe_ExperimentGroup.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Experiment/Expe_ExperimentGroup.c
+END
+Expe_ExperimentStore.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Experiment/Expe_ExperimentStore.c
+END
+Expe_Experiment.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Experiment/Expe_Experiment.c
+END
+Expe_Parameter.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Experiment/Expe_Parameter.c
+END
+Expe_InputSample.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Experiment/Expe_InputSample.c
+END
+Expe_OutputSample.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Experiment/Expe_OutputSample.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Experiment/Makefile
+END

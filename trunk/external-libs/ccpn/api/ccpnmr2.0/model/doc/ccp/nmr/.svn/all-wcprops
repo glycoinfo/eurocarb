@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr
+END
+Nmr_AbstractMeasurement.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/Nmr_AbstractMeasurement.html
+END
+Nmr_DerivedData.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/Nmr_DerivedData.html
+END
+NmrConstraint_AbstractConstraint.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/NmrConstraint_AbstractConstraint.html
+END
+Nmr_Resonance.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/Nmr_Resonance.html
+END
+Nmr.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/Nmr.html
+END
+Nmr_Peak.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/Nmr_Peak.html
+END
+Nmr_ChainState.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/Nmr_ChainState.html
+END
+NmrExpPrototype.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/NmrExpPrototype.html
+END
+NmrConstraint.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/NmrConstraint.html
+END
+Nmr_Measurement.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/Nmr_Measurement.html
+END
+Nmr_Acquisition.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/Nmr_Acquisition.html
+END
+NmrConstraint_Constraint.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/NmrConstraint_Constraint.html
+END
+Nmr_ResonanceGroup.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/Nmr_ResonanceGroup.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/index.html
+END
+NmrReference.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/NmrReference.html
+END
+NmrEntry.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/NmrEntry.html
+END
+Nmr_Spectrum.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/nmr/Nmr_Spectrum.html
+END

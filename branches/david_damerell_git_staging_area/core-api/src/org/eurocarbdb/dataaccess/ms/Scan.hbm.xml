@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 3, 2007 6:49:04 PM by Hibernate Tools 3.1.0.beta4 -->
+<hibernate-mapping default-cascade="save-update">
+
+    <class name="org.eurocarbdb.dataaccess.ms.Scan" table="scan" schema="ms">
+    
+        <id name="scanId" type="int">
+            <column name="scan_id" />
+            <generator class="sequence">
+                <param name="sequence">ms.scan_scan_id_seq</param>
+            </generator>
+        </id>
+        
+        <many-to-one name="acquisition" class="org.eurocarbdb.dataaccess.ms.Acquisition" fetch="select" property-ref="acquisitionId">
+            <column name="acquisition_id" not-null="true" />
+        </many-to-one>
+        
+        <many-to-one name="peakProcessing" class="org.eurocarbdb.dataaccess.ms.PeakProcessing" fetch="select">
+            <column name="peak_processing_id" not-null="true" />
+        </many-to-one>	  
+
+	<many-to-one name="scanImage" class="org.eurocarbdb.dataaccess.ms.ScanImage" fetch="select">
+            <column name="scan_image_id" />
+        </many-to-one>	        
+    
+        <property name="msExponent" type="int">
+            <column name="ms_exponent" not-null="true" />
+        </property>
+        
+        <property name="polarity" type="boolean">
+            <column name="polarity" not-null="true" />
+        </property>
+        
+        <property name="deisotoped" type="boolean">
+            <column name="deisotoped" not-null="true" />
+        </property>
+        
+        <property name="chargeDeconvoluted" type="boolean">
+            <column name="charge_deconvoluted" not-null="true" />
+        </property>
+        
+        <property name="basePeakMz" type="double">
+            <column name="base_peak_mz" precision="8" scale="0" not-null="true" />
+        </property>
+        
+        <property name="basePeakIntensity" type="double">
+            <column name="base_peak_intensity" precision="8" scale="0" not-null="true" />
+        </property>
+        
+	<property name="startMz" type="double">
+            <column name="start_mz" precision="8" scale="0" not-null="true" />
+        </property>
+        
+        <property name="endMz" type="double">
+            <column name="end_mz" precision="8" scale="0" not-null="true" />
+        </property>
+        
+        <property name="lowMz" type="double">
+            <column name="low_mz" precision="8" scale="0" not-null="true" />
+        </property>
+        
+        <property name="highMz" type="double">
+            <column name="high_mz" precision="8" scale="0" not-null="true" />
+        </property>
+        
+        <property name="contributorQuality" type="double">
+            <column name="contributor_quality" precision="8" scale="0" not-null="true" />
+        </property>
+        
+	<set name="sumAverageRelationshipsForScanId" inverse="true">
+            <key>
+                <column name="scan_id" not-null="true" unique="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.SumAverageRelationship" />
+        </set>
+        
+        <set name="peakLabeleds" inverse="true">
+            <key>
+                <column name="scan_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.PeakLabeled" />
+        </set>     
+        
+        <set name="msMsRelationshipsWithChildren" inverse="true">
+            <key>
+                <column name="parent_id" not-null="true" unique="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.MsMsRelationship" />
+        </set>
+
+	<set name="msMsRelationshipsWithParents" inverse="true">
+            <key>
+                <column name="scan_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.MsMsRelationship" />
+        </set>
+        
+        <set name="dataProcessings" inverse="true">
+            <key>
+                <column name="scan_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.DataProcessing" />
+        </set>
+        
+        <set name="sumAverageRelationshipsForSubsetScanId" inverse="true">
+            <key>
+                <column name="subset_scan_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.SumAverageRelationship" />
+        </set>               
+
+	<set name="annotations" inverse="true">
+            <key>
+                <column name="scan_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.Annotation" />
+        </set>     
+
+    </class>
+    
+</hibernate-mapping>

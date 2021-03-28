@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/ExpBlueprint
+END
+Expb_ExpBlueprint.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/ExpBlueprint/Expb_ExpBlueprint.h
+END
+Expb_BlueprintDbRef.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/ExpBlueprint/Expb_BlueprintDbRef.h
+END
+Expb_BlueprintComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/ExpBlueprint/Expb_BlueprintComponent.h
+END
+Expb_BlueprintStatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/ExpBlueprint/Expb_BlueprintStatus.h
+END
+Expb_ExpBlueprintStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/ExpBlueprint/Expb_ExpBlueprintStore.h
+END

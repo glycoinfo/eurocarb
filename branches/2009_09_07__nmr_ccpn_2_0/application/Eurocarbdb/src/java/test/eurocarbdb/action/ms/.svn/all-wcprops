@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/test/eurocarbdb/action/ms
+END
+TestEditScan.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/test/eurocarbdb/action/ms/TestEditScan.java
+END
+TestCreateScan.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/test/eurocarbdb/action/ms/TestCreateScan.java
+END
+TestStartMSWorkflow.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/test/eurocarbdb/action/ms/TestStartMSWorkflow.java
+END

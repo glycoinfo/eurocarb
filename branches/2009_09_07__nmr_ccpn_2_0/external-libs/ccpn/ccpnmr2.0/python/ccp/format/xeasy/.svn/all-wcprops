@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/xeasy
+END
+peakAssignmentsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/xeasy/peakAssignmentsIO.py
+END
+generalIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/xeasy/generalIO.py
+END
+chemShiftsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/xeasy/chemShiftsIO.py
+END
+peaksIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/xeasy/peaksIO.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/xeasy/__init__.py
+END
+sequenceIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/xeasy/sequenceIO.py
+END

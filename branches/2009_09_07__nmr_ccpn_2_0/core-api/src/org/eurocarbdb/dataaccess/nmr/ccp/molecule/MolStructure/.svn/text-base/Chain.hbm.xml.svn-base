@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.MolStructure">
+  <class
+    name="Chain"
+    table="COOR_CHAIN"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Chain of Molecular System coordinate description.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.molecule.MolStructure.StructureEnsemble"
+    not-null="true"
+    unique="false"
+    foreign-key="COOR_CHAIN_STRUENSE_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_code"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">Chain code - key for object.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CODE" sql-type="VARCHAR(80)" length="80" not-null="true" unique-key="chainUniqueKey" />
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="COOR_CHAIN2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbStructureEnsemble"
+    column="STRUCTUREENSEMBLEID"
+    class="ccp.api.molecule.MolStructure.StructureEnsemble" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="COOR_CHAIN_STRUENSE_FK" 
+    unique-key="chainUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbResidues" 
+    table="COOR_RESIDUE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbResidue</meta>
+    <cache usage="read-write"/>
+    <key column="CHAINID"/>
+    <one-to-many class="ccp.api.molecule.MolStructure.Residue"/>
+  </set>
+  
+  <set 
+    name="hbChainValidations" 
+    table="VALD_CHAIVALI2CHAINS"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Validation results that include Chain</meta>
+    <meta attribute="base-name">hbChainValidation</meta>
+    <cache usage="read-write"/>
+    <key column="CHAINID" foreign-key="VALD_CHAIVALI_CHAINS_FK"/>
+    <many-to-many column="CHAINVALIDATIONID" class="ccp.api.molecule.Validation.ChainValidation" foreign-key="COOR_CHAIN_CHAIVALI_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

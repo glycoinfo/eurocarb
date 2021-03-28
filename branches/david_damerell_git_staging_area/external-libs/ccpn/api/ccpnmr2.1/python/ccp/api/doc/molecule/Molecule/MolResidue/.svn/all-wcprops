@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue
+END
+getChemCompVar.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/getChemCompVar.html
+END
+chemCompVar.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/chemCompVar.html
+END
+molecule.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/molecule.html
+END
+isotopeLabels.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/isotopeLabels.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/index.html
+END
+seqInsertCode.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/seqInsertCode.html
+END
+descriptor.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/descriptor.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/serial.html
+END
+setChemCompVar.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/setChemCompVar.html
+END
+seqCode.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/seqCode.html
+END
+molSeqFragment.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/molSeqFragment.html
+END
+molFeatures.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/molFeatures.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/parent.html
+END
+molResLinkEnds.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/molResLinkEnds.html
+END
+molType.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/molType.html
+END
+getMolType.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/getMolType.html
+END
+linking.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/linking.html
+END
+chemComp.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/chemComp.html
+END
+ccpCode.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/ccpCode.html
+END
+getCcpCode.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/Molecule/MolResidue/getCcpCode.html
+END

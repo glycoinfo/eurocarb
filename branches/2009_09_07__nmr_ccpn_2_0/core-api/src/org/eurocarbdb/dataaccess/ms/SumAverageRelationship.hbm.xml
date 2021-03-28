@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 3, 2007 6:49:06 PM by Hibernate Tools 3.1.0.beta4 -->
+<hibernate-mapping default-cascade="save-update">
+
+    <class name="org.eurocarbdb.dataaccess.ms.SumAverageRelationship" table="sum_average_relationship" schema="ms">
+    
+        <id name="sumAverageRelationshipId" type="int">
+            <column name="sum_average_relationship_id" />
+            <generator class="sequence">
+                <param name="sequence">ms.sum_average_relationship_sum_average_relationship_id_seq</param>
+            </generator>
+        </id>
+        
+        <many-to-one name="scanByScanId" class="org.eurocarbdb.dataaccess.ms.Scan" fetch="select">
+            <column name="scan_id" not-null="true" unique="true" />
+        </many-to-one>
+        
+        <many-to-one name="methodOfCombination" class="org.eurocarbdb.dataaccess.ms.MethodOfCombination" fetch="select">
+            <column name="method_of_combination_id" not-null="true" />
+        </many-to-one>
+        
+        <many-to-one name="scanBySubsetScanId" class="org.eurocarbdb.dataaccess.ms.Scan" fetch="select">
+            <column name="subset_scan_id" not-null="true" />
+        </many-to-one>
+        
+    </class>
+    
+</hibernate-mapping>

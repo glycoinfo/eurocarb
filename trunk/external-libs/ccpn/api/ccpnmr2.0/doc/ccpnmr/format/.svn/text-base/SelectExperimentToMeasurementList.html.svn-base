@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-FormatConverter selections:SelectExperimentToMeasurementList</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #C0C0FF;
+                background-color: #E0E0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr FormatConverter Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_FormatConverterinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoFormatConverter.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MenuOverview.html">Main menu</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>F.A.Q.</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="QuickStart.html">Quick start</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Tutorial.html">Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Examples.html">Examples</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AcqProcParsEditAzara.html">FormatConverter</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MeasurementSelect.html">FormatConverter selections</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Other</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Concepts_Resonance.html">Concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Glossary.html">Glossary</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>FormatConverter selections:SelectExperimentToMeasurementList</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>FormatConverter selections</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="MeasurementSelect.html">MeasurementSelect</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectChain.html">SelectChain</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectDataSource.html">SelectDataSource</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectEntry.html">SelectEntry</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectExperimentForAcq.html">SelectExperimentForAcq</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectExperimentFromPeakList.html">SelectExperimentFromPeakList</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="SelectExperimentToMeasurementList.html">SelectExperimentToMeasurementList</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectExperiment.html">SelectExperiment</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectMolSystem.html">SelectMolSystem</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectPeakListForAssignFile.html">SelectPeakListForAssignFile</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectSpectrometer.html">SelectSpectrometer</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectStrucGen.html">SelectStrucGen</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>        <H2>Select experiments associated with measurement lists</H2>
+        <P ALIGN="LEFT">Select from the list of experiments the ones that are associated with the measurement list (e.g. Shifts, Jcouplings, ...) you are importing.
+        </P>
+        <P ALIGN="LEFT">If none of these experiments are relevant, select 'none linked'.</P>    
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

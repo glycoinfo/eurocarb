@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrConstraint">
+  <joined-subclass
+    name="SingleConstraint"
+    extends="ccp.api.nmr.NmrConstraint.AbstractConstraint"
+    table="NMRC_SINGLECONSTRAINT"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Constraint with a single interval for the constrained value. May be used to constraint to a specific value (targetValue) to constrain to within an interval, or both.</meta>
+  <key column="ABSTRACTCONSTRAINTID" foreign-key="NMRC_SINGCONS_ABSTCONS_FK"/>
+  
+  <property
+    name="_error"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Uncertainty (standard deviation) of targetValue.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ERROR" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_lowerLimit"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Minimum allowed value of constrained parameter. If set, energy penalty is zero for values above lowerLimit.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LOWERLIMIT" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_targetValue"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Desired value of constrained parameter</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="TARGETVALUE" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_upperLimit"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Maximum allowed value of constrained parameter</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="UPPERLIMIT" sql-type="FLOAT" not-null="false"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

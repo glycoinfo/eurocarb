@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1870/trunk/application/Eurocarbdb/src/template/action/ms/edit_acquisition
+END
+select_structure.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1870/trunk/application/Eurocarbdb/src/template/action/ms/edit_acquisition/select_structure.ftl
+END
+review_reference.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1588/trunk/application/Eurocarbdb/src/template/action/ms/edit_acquisition/review_reference.ftl
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1870/trunk/application/Eurocarbdb/src/template/action/ms/edit_acquisition/input.ftl
+END
+select_scan.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1228/trunk/application/Eurocarbdb/src/template/action/ms/edit_acquisition/select_scan.ftl
+END
+select_structure_success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1375/trunk/application/Eurocarbdb/src/template/action/ms/edit_acquisition/select_structure_success.ftl
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/ms/edit_acquisition/error.ftl
+END

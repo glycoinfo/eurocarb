@@ -1,0 +1,302 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis (3):ViewNoeMatrix</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis (3):ViewNoeMatrix</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>Analysis (3)</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumFilePopup.html">EditSpectrumFilePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumPopup.html">EditSpectrumPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumRefPopup.html">EditSpectrumRefPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumTolPopup.html">EditSpectrumTolPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpinSystemPopup.html">EditSpinSystemPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditStructuresPopup.html">EditStructuresPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditWindowGroupPopup.html">EditWindowGroupPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditWindowPopup.html">EditWindowPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditWindowSpectraPopup.html">EditWindowSpectraPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="GetCenterCoordsPopup.html">GetCenterCoordsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="NewWindowPopup.html">NewWindowPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="OpenMacroPopup.html">OpenMacroPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="OpenSpectrumPopup.html">OpenSpectrumPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="PrintWindowPopup.html">PrintWindowPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ResidueInfoPopup.html">ResidueInfoPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectObjectPopup.html">SelectObjectPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectedPeaksPopup.html">SelectedPeaksPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SetReferencePopup.html">SetReferencePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ViewAssignmentPopup.html">ViewAssignmentPopup</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="ViewNoeMatrix.html">ViewNoeMatrix</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ViewPeakGroupsPopup.html">ViewPeakGroupsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ViewStructurePopup.html">ViewStructurePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="WindowPopup.html">WindowPopup</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+      This popup displays residue-residue assignment connectivity. Usually this
+      means those residues which have connecting peaks in a NOESY spectrum. The plot
+      is in the form of a colour coded grid, with the ordinates of the grid
+      corresponding to the residues of the selected molecule chains. The same chain
+      may be selected for both axes to give a diagonal plot, commonly used to visualise
+      secondary structure NOEs.
+      </P>
+      <H2>- Spectrum Selection - </H2>
+        <P>
+          Spectra selected in this table (blue coloured rows - see <A
+          HREF="ScrolledMatrix.html">ScrolledMatrix</A> for how to select) will be used in
+          the main grid plt on the right. If multiple spectra are selected the results are
+          simply combined.
+        </P>
+      <H2>- Residue Selection -</H2>
+        <P>
+          In this section the user can specify which residues the main plot displays
+          information for.
+        </P>
+        <H3>X axis: &lt;chainSelection&gt; [&lt;start&gt;] [&lt;end&gt;]</H3>
+        <P>
+          These options specify which residues appear on the X axis of the main plot.
+          The pulldown menu sets which chain the residues are from and the two number
+          entry boxes specify the numbers of the first and last residues that will go on
+          the axis.
+        </P>
+        <H3>Y axis: &lt;chainSelection&gt; [&lt;start&gt;] [&lt;end&gt;]</H3>
+        <P>
+          These options specify which residues appear on the Y axis of the main plot.
+          The pulldown menu sets which chain the residues are from and the two number
+          entry boxes specify the numbers of the first and last residues that will go on
+          the axis.
+        </P>
+      <H2>Main connectivity grid display</H2>
+        <P>
+         In this area the connectivity grid is displayed as a density matrix. The axes of
+         the matrix correspons to the residue selections. Each cell of the matrix correponds
+         to the interactio/connectivity of the two ordinate residues. The darker the shading
+         in a matrix cell, the greater the number of connections between the ordinate
+         residues. The cell shading is normalised relative to the residue-residue cell with
+         the greatest number of connections (the darkest shade).
+         </P>
+         <P>
+           Moving the mouse cursor over a connectivity matrix cell displays the residues
+           names (at the plot edges) that correspond to that cell position.
+         </P>
+      <H2>[ Draw Matrix ]</H2>
+        <P>
+          Draw the connectivity grid in the main panel on the right. Operates for the
+          selected spectra in the selected residue ranges.
+        </P>
+      <H2>[ Zoom In ]</H2>
+        <P>
+          Increses the size of the connectivity grid so that a small region can be viewed
+          more closely.
+        </P>
+      <H2>[ Zoom Out ]</H2>
+        <P>
+          Decreases the size of the connectivity grid. More of the grid will become visible
+          if it was previously outside the bound of the display.
+        </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

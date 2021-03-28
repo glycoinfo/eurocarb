@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser
+END
+GlycoTraverserValdidation.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserValdidation.java
+END
+GlycoTraverser.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverser.java
+END
+GlycoTraverserTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserTree.java
+END
+GlycoTraverserTreeSingle.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserTreeSingle.java
+END
+GlycoTraverserTreePreOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserTreePreOrder.java
+END
+GlycoTraverserEdges.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserEdges.java
+END
+GlycoTraverserNodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserNodes.java
+END
+GlycoTraverserSimple.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserSimple.java
+END

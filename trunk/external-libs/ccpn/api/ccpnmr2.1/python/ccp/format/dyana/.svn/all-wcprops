@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/dyana
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/dyana/__init__.py
+END
+sequenceIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/dyana/sequenceIO.py
+END
+coordinatesIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/dyana/coordinatesIO.py
+END
+generalIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/dyana/generalIO.py
+END
+rdcConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/dyana/rdcConstraintsIO.py
+END
+hBondConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/dyana/hBondConstraintsIO.py
+END
+distanceConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/dyana/distanceConstraintsIO.py
+END
+dihedralConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/dyana/dihedralConstraintsIO.py
+END

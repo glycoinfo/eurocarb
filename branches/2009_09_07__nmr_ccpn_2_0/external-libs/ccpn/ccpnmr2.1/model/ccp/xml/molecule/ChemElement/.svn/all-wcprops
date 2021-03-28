@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemElement
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemElement/package.xml
+END
+HalfLifeType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemElement/HalfLifeType.xml
+END
+Isotope.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemElement/Isotope.xml
+END
+ChemElementStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemElement/ChemElementStore.xml
+END
+ChemElement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemElement/ChemElement.xml
+END

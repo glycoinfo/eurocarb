@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/indexes
+END
+Index.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/indexes/Index.java
+END
+IndexByMostEvidence.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/indexes/IndexByMostEvidence.java
+END
+Indexable.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/indexes/Indexable.java
+END
+IndexByResidueCount.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/indexes/IndexByResidueCount.java
+END
+IndexByContributorName.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/indexes/IndexByContributorName.java
+END
+IndexByContributedDate.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/indexes/IndexByContributedDate.java
+END

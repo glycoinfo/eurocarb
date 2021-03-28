@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/WEB-INF
+END
+xwork.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/WEB-INF/xwork.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/WEB-INF/web.xml
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/WEB-INF/.cvsignore
+END

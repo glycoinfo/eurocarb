@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/test/eurocarbdb/util
+END
+BitSetTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/test/eurocarbdb/util/BitSetTest.java
+END
+VisitorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/test/eurocarbdb/util/VisitorTest.java
+END
+XmlSerialiserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/test/eurocarbdb/util/XmlSerialiserTest.java
+END
+VersionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/test/eurocarbdb/util/VersionTest.java
+END
+StringUtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/test/eurocarbdb/util/StringUtilsTest.java
+END

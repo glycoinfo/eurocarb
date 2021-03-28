@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrConstraint">
+  <joined-subclass
+    name="JCouplingConstraintItem"
+    extends="ccp.api.nmr.NmrConstraint.PairwiseConstraintItem"
+    table="NMRC_JCOUPLINGCONSTRAINTITEM"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Pair of Resonances involved in a J coupling restraint</meta>
+  <key column="PAIRWISECONSTRAINTITEMID" foreign-key="NMRC_JCOUPCONSITEM_PAIRCONSITEM_FK"/>
+  
+  <many-to-one
+    name="hbConstraint"
+    column="CONSTRAINTID"
+    class="ccp.api.nmr.NmrConstraint.JCouplingConstraint" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRC_JCOUPCONSITEM_CONSTRAINT_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

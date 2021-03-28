@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 3, 2007 6:49:07 PM by Hibernate Tools 3.1.0.beta4 -->
+<hibernate-mapping default-cascade="save-update">
+
+    <class name="org.eurocarbdb.dataaccess.ms.MsMsRelationship" table="ms_ms_relationship" schema="ms">
+    
+        <id name="msMsRelationshipId" type="int">
+            <column name="ms_ms_relationship_id" />
+            <generator class="sequence">
+                <param name="sequence">ms.ms_ms_relationship_ms_ms_relationship_id_seq</param>
+            </generator>
+        </id>
+        
+        <many-to-one name="childScan" class="org.eurocarbdb.dataaccess.ms.Scan" fetch="select">
+            <column name="scan_id" not-null="true" />
+        </many-to-one>
+        
+        <many-to-one name="parentScan" class="org.eurocarbdb.dataaccess.ms.Scan" fetch="select">
+            <column name="parent_id" not-null="true" unique="true" />
+        </many-to-one>
+        
+        <property name="precursorMz" type="double">
+            <column name="precursor_mz" precision="8" scale="0" not-null="true" />
+        </property>
+        
+        <property name="precursorIntensity" type="double">
+            <column name="precursor_intensity" precision="8" scale="0" not-null="true" />
+        </property>
+        
+        <property name="precursorMassWindowLow" type="java.lang.Double">
+            <column name="precursor_mass_window_low" precision="8" scale="0" />
+        </property>
+        
+        <property name="precursorMassWindowHigh" type="double">
+            <column name="precursor_mass_window_high" precision="8" scale="0" not-null="true" />
+        </property>
+        
+        <property name="precursorCharge" type="int">
+            <column name="precursor_charge" not-null="true" />
+        </property>
+        
+        <property name="msMsMethod" type="string">
+            <column name="ms_ms_methode" length="100" not-null="true" />
+        </property>
+        
+    </class>
+    
+</hibernate-mapping>

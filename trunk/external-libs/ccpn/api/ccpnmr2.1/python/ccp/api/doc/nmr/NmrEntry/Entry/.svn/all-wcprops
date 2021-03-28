@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry
+END
+authors.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/authors.html
+END
+details.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/details.html
+END
+laboratories.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/laboratories.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/parent.html
+END
+software.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/software.html
+END
+derivedDataLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/derivedDataLists.html
+END
+molSystem.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/molSystem.html
+END
+otherCitations.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/otherCitations.html
+END
+structureGroups.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/structureGroups.html
+END
+structureAnalyses.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/structureAnalyses.html
+END
+measurementLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/measurementLists.html
+END
+contactPersons.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/contactPersons.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/index.html
+END
+keywords.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/keywords.html
+END
+getNmrProbes.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/getNmrProbes.html
+END
+nmrSpectrometers.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/nmrSpectrometers.html
+END
+primaryCitation.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/primaryCitation.html
+END
+bmrbProcessing.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/bmrbProcessing.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/name.html
+END
+title.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/title.html
+END
+experimentListDetails.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/experimentListDetails.html
+END
+nmrEntryStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/nmrEntryStore.html
+END
+peakLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/peakLists.html
+END
+structureGenerations.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/structureGenerations.html
+END
+experiments.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/experiments.html
+END
+entryType.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/entryType.html
+END
+nmrProbes.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/nmrProbes.html
+END
+study.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/study.html
+END
+relatedEntries.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/relatedEntries.html
+END
+entryMolecules.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/entryMolecules.html
+END
+getNmrSpectrometers.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrEntry/Entry/getNmrSpectrometers.html
+END

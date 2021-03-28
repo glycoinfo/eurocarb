@@ -1,0 +1,357 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis Functions:ConstraintBasic</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis Functions:ConstraintBasic</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Coding Library:</NOBR> <NOBR>Analysis Functions</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">AssignmentBasic</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="AnalysisFunctions_ConstraintBasic.html">ConstraintBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_DataAnalysisBasic.html">DataAnalysisBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_ExperimentBasic.html">ExperimentBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_MarkBasic.html">MarkBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_MoleculeBasic.html">MoleculeBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_PeakBasic.html">PeakBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_QualityControlBasic.html">QualityControlBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_StructureBasic.html">StructureBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_WindowBasic.html">WindowBasic</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>  <TABLE WIDTH="100%">
+    <TR><TD COLSPAN=3 CLASS="pageHead">angleDifference <SPAN CLASS="i">(a1, a2, oneTurn)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">exportAriaTbl <SPAN CLASS="i">(constraintList, fileName)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Exports a constraint list to a file as an ARIA 1.x readable             .tbl file (similar to CNS format). For proper CNS format	     use CcpNmr FormmatConverter.    </TD><TD CLASS="pageBody"> NmrConstraint.ConstraintList, String (export file name)    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getAria2AtomSetPairs <SPAN CLASS="i">(ariaRestraint)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get a list of pairs of aria atom objects from an Aria2 restraint             Which correspond to the atom sets of a DistanceConstraint ite.    </TD><TD CLASS="pageBody"> Aria2 restraint object    </TD><TD CLASS="pageBody"> List of 2-List of Aria2 atom objects  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getAria2ObjectsFromPickle <SPAN CLASS="i">(fileName)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Given an ARIA2 pickle file (and an istallation) get the ARIA2             data model objects.    </TD><TD CLASS="pageBody"> Word (pickle file name)    </TD><TD CLASS="pageBody"> List of Aria2 Restraint objects  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getChainfromAria2 <SPAN CLASS="i">(objects, project)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get matching (or new) Ccp.MolSystem Chain from Aria2 restraint objects    </TD><TD CLASS="pageBody"> List of Aria2 restreaint objects, Implementation.Project    </TD><TD CLASS="pageBody"> MolSystem.chain  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getConstraintAtoms <SPAN CLASS="i">(constraint)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the atoms that may be assigned to the constrained resonances             The outer most list is due to restraint ambiguity, the middle list             is the list for different resonances and the inner list             is for equivalent atoms.    </TD><TD CLASS="pageBody"> NmrConstraint.AbstractConstraint    </TD><TD CLASS="pageBody"> List of List of List of MolSystem.Atoms  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getConstraintFromAria2 <SPAN CLASS="i">(ariaRestraint, constraintList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a distance constraint from an Aria2 restraint object    </TD><TD CLASS="pageBody"> Aria2 restraint object, NmrConstraint.DistanceConstraintList    </TD><TD CLASS="pageBody"> NmrRestraints.DistanceConstraint  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getConstraintStoreResonances <SPAN CLASS="i">(nmrConstraintStore, makeUnassingedResonances=1)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Makes any missing resonances for assigned fixedResonances in an NmrConstraintStore with             the option to also make new resonances for unassigned fixedResonances.             Returns all the resonances linkable from the constraints in an NmrConstraintStore object.    </TD><TD CLASS="pageBody"> Nmr.NmrConstraintStore, Boolean    </TD><TD CLASS="pageBody"> List of Nmr.Resonances  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getConstraintsFromAria2 <SPAN CLASS="i">(objects, chain, constraintSet, structures=None, details='ARIA2import')</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a constraint and violation list from Araia2 restraint objects in a constraint set.             Constraint asignments will be made relative to the input chain.             The violation analysis will be linked to the input structures.    </TD><TD CLASS="pageBody"> List of Aria2 restraint objects, MolSystem.chain,             MolSystem.MolStructures, Nmr.NmrConstraintStore, String    </TD><TD CLASS="pageBody"> NmrRestraints.DistanceConstraintList, NmrConstraint.ViolationList  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getDistancesFromIntensity <SPAN CLASS="i">(noeClasses, value)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get constraining distances appropriate to a given NOE intensity value using a distance relation table.    </TD><TD CLASS="pageBody"> List of Tuples of Floats (relative NOE intensity, target dist, min dist, max dist), Float (NOE intensity/average for peak list)    </TD><TD CLASS="pageBody"> Float, Float, Float (targetValue, upperLimit, lowerLimit)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getFixedAtomSet <SPAN CLASS="i">(nmrConstraintStore, atoms)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Finds or creates a fixed set of atoms that is used in an NMR constraint head object (equivalent to one             NmrConstraint file). Creating fixed atom sets allows assignments to change but old constraints to be preserved.    </TD><TD CLASS="pageBody"> Nmr.NmrConstraintStore, List of MolSystem.Atoms    </TD><TD CLASS="pageBody"> NmrConstraint.FixedAtomSet  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getFixedResonance <SPAN CLASS="i">(nmrConstraintStore, resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find or create a fixed resonance for an NMR constraint head object equivalent to the input normal resonance. The fixed resonance             will preserve assignment information at the time of constraint generation.    </TD><TD CLASS="pageBody"> Nmr.NmrConstraintStore, Nmr.Resonance    </TD><TD CLASS="pageBody"> NmrConsraints.FixedResonance  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getFixedResonanceFromAria2Atom <SPAN CLASS="i">(ariaAtom, chain, constraintSet)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the corresponding (or new) FixedResonance for the input Aria2 atom             given the input chain    </TD><TD CLASS="pageBody"> Aria2 atom object, MolSystem.Chain, Nmr.NmrConstraintStore    </TD><TD CLASS="pageBody"> NmrRestraints.FixedResonance  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getIntensityDistanceTable <SPAN CLASS="i">(spectrum)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> For a given spectrum ind or get a default table of NOE intensity to constraint distance relations.    </TD><TD CLASS="pageBody"> Nmr.DataSource    </TD><TD CLASS="pageBody"> List of Tuples of Floats (relative NOE intensity, target dist, min dist, max dist)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getJCouplingsFromConstraint <SPAN CLASS="i">(jCouplingConstraint, jCouplingList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> The the J couplings associated with a J coupling constraint    </TD><TD CLASS="pageBody"> NmrConstraint.JCouplingConstraint, Nmr.JCouplingList    </TD><TD CLASS="pageBody"> List of Nmr.JCouplings  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getMeanPeakIntensity <SPAN CLASS="i">(peaks, intensityType='volume', normalise=0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Calculate the mean of the intensities of input peaks.    </TD><TD CLASS="pageBody"> List of Nmr.Peaks, String (Nmr.PeakIntensity.intensityType)    </TD><TD CLASS="pageBody"> Float  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getNoeDistance <SPAN CLASS="i">(intensity, params)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Makes a constraint list with constraints based upon the assigned peaks within a NOESY peak list. Constraints will             be put in a new NMR constraint head object if none is specified. An NOE intensity-to-distance function, minimum peak merit	     and allowed residue ranges may be input for the calculation. A normalising peak list can be specified to help calibrate the             peak intensities according to the sensitivity of a corresponding root resonances.             The scale option is the value by which peak intensities are scaled for NOE table/function lookup.             Params relate to the generic NOE distance function if neither these nor a distance function is specified             a lookuptable is used.    </TD><TD CLASS="pageBody"> Nmr.PeakList (NOESY), Nmr.NmrConstraintStore, String (Nmr.PeakIntensity.intensityType), Nmr.PeakList,             Function (to get constraining distances), List of Floats (distance function parameters),             List of (List of Nmr.DataDims, Nmr.Chain, Integer, Integer),             Float (Nmr.Peak.figOfMerit), Float (baseline intensity)    </TD><TD CLASS="pageBody"> NmrConstraint.DistanceConstraintList  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakDimTolerance <SPAN CLASS="i">(peakDim, minTol, maxTol, multiplier)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Finds the shift matching tolerance for a peak dim based on its line width. Defaults to the minimum tolerance if no line width is present.    </TD><TD CLASS="pageBody"> Nmr.PeakDim, Float, Float, Float (Nmr,PeakDim.lineWidth to tolerance factor)    </TD><TD CLASS="pageBody"> Float (PPM tolerance)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getStructureViolations <SPAN CLASS="i">(constraintList, structures, violationList=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getStructuresFromAria2Dir <SPAN CLASS="i">(dirName, chain)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Load structures of the input chain, from the PDB style files in an Aria2 iteration directory    </TD><TD CLASS="pageBody"> Word - Aria2 run directory path. MolSystem.Chain    </TD><TD CLASS="pageBody"> List of MolSystem.MolStructures  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getViolationFromAria2 <SPAN CLASS="i">(ariaViolation, constraint, violationList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a constraint's violation object in the input violation list given an Aria2             violation analysis object.    </TD><TD CLASS="pageBody"> Aria2 violation analysis object, NmrConstraint.DistanceConstraint, NmrConstraint.ViolationList    </TD><TD CLASS="pageBody"> NmrConstraint.Violation  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">importAria2RunData <SPAN CLASS="i">(dirName, constraintSet=None, project=None, loadStructures=False)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Import ARIA2 structures plus restraints and violations from a Pickle file             riven an iteration director of an ARIA2 run.    </TD><TD CLASS="pageBody"> Word (run directory name), Nmr.NmrConstraintStore, Implementation.Project    </TD><TD CLASS="pageBody"> NmrConstraint.ConstraintList, NmrConstraint.ViolationList  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">isResidueInRange <SPAN CLASS="i">(residue, residueRanges, dataDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine if a residue is in a residue range table for a given data dim. The range table lists             residue bounds (first and last residue objects) for a chain appropriate to a list of data dims (often bonded).    </TD><TD CLASS="pageBody"> MolSystem.Residue, List of (List of Nmr.DataDims, MolSystem.Chain, MolSystem.Residue, MolSystem.Residue), Nmr.DataDim    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeCcpnViolationList <SPAN CLASS="i">(violationsTable, constraintlist, structures, applicationName='ARIA2.0')</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Makes a violation list from an ARIA 2 style table of violations for a given constraint list.    </TD><TD CLASS="pageBody"> List of (Integer, Boolean, Float, Float, Float, Float, Float, Float, Float), NmrConstraint.constraintList,             List of MolSystem.def im, String (application name)    </TD><TD CLASS="pageBody"> NmrConstraint.ViolationList  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeFixedResonance <SPAN CLASS="i">(nmrConstraintStore, resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a new fixed resonance for an NMR constraint head object based on a normal resonance. The fixed resonance             will preserve assignment information at the time of constraint generation.    </TD><TD CLASS="pageBody"> Nmr.NmrConstraintStore, Nmr.Resonance    </TD><TD CLASS="pageBody"> NmrConsraints.FixedResonance  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeNmrConstraintStore <SPAN CLASS="i">(nmrProject)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a new NMR constraint head object for a project which will contain constraints and violations.             Sets up a strorage so that the NmrConstraint package data is stored in its own XML file.    </TD><TD CLASS="pageBody"> Nmr.NmrProject    </TD><TD CLASS="pageBody"> Nmr.NmrConstraintStore  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeStructureGeneration <SPAN CLASS="i">(structures, constraintSet=None, generationType='denovo')</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a structure generation object to group structures together    </TD><TD CLASS="pageBody"> MoleSystem.Structure, Nmr.NmrConstraintStore    </TD><TD CLASS="pageBody"> Nmr.StructureGeneration  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeViolationsTableFromCcpn <SPAN CLASS="i">(violationList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Makes an ARIA 2 style violation table from a CCPN violation list.    </TD><TD CLASS="pageBody"> NmrConstraint.ViolationList    </TD><TD CLASS="pageBody"> List of (Integer, Boolean, Float, Float, Float, Float, Float, Float, Float)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">mergeConstraintLists <SPAN CLASS="i">(constraintListA, constraintListB)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Merge two constraint lists from a constraint set into one.    </TD><TD CLASS="pageBody"> NmrConstraint.ConstraintList, NmrConstraint.ConstraintList    </TD><TD CLASS="pageBody"> NmrConstraint.ConstraintList  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">mergeDuplicateConstraints <SPAN CLASS="i">(constraintList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Merge redundant constraints in a constraint list             (constraining the same resonances)    </TD><TD CLASS="pageBody"> NmrConstraint.ConstraintList    </TD><TD CLASS="pageBody"> NmrConstraint.ConstraintList  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">moveConstraintToList <SPAN CLASS="i">(constraint, constraintList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Move a constraint to a different constraint list and take care of any violations.    </TD><TD CLASS="pageBody"> NmrConstraint.Constraint,  NmrConstraint.ConstraintList    </TD><TD CLASS="pageBody"> NmrConstraint.Constraint  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">splitConstraintListAmbigUnambig <SPAN CLASS="i">(constraintList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Spit a constraint list into two lists according to whether             constraints are ambigous or unambiguous.    </TD><TD CLASS="pageBody"> NmrConstraint.ConstraintList    </TD><TD CLASS="pageBody"> NmrConstraint.ConstraintList, NmrConstraint.ConstraintList  </TD></TR>
+    <TR><TD></TD></TR>
+  </TABLE>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

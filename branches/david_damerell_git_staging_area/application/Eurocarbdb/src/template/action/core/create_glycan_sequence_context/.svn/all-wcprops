@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/core/create_glycan_sequence_context
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/core/create_glycan_sequence_context/input.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/core/create_glycan_sequence_context/success.ftl
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ChainMapping
+END
+analysisProject.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ChainMapping/analysisProject.html
+END
+chainCode.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ChainMapping/chainCode.html
+END
+residueMappings.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ChainMapping/residueMappings.html
+END
+chain.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ChainMapping/chain.html
+END
+getChain.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ChainMapping/getChain.html
+END
+molSystemCode.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ChainMapping/molSystemCode.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ChainMapping/index.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ChainMapping/parent.html
+END

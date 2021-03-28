@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrExpPrototype">
+  <class
+    name="ExpMeasurement"
+    table="NMRX_EXPMEASUREMENT"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Property being measured on a dimension of a multidimensional NMR experiment. Most common are shifts, but coupling constants, multi-quantum magnetisation, time (for relaxation time measurements) and others are possible.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.NmrExpPrototype.NmrExpPrototype"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRX_EXPMEAS_NMREXPPROT_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_measurementType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">Property being measured. Typically chemical shift, but could be e.g. J-coupling or multiple quantum magnetisation.</meta>
+    <meta attribute="default-value">"shift"</meta>
+    <column name="MEASUREMENTTYPE" sql-type="VARCHAR(80)" length="80" not-null="true"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="expMeasurementUniqueKey" />
+  </property>
+  
+  <list
+    name="hbAtomSiteWeights"
+    table="NMRX_EXPMEAS_ATOMSITEWEIG"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">Weight of contribution from atomSites to measurement being made, given in same order as the atomSites. Typically +/- 1. Serves to define multiple-quantum magnetisation, distinguishing between e.g. three-spin triple-quantum magnetisation and three-spin single-quantum magnetisation. Has no defined meaning in other cases. If both atomSiteWeights and atomSites are set, their length must be the same.</meta>
+    <cache usage="read-write" />
+    <key column="EXPMEASUREMENTID" foreign-key="NMRX_EXPMEAS_ATOMSITEWEIG_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.Float" not-null="true">
+      <column name="ATOMSITEWEIGHT" sql-type="FLOAT" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbApplicationData"
+    table="NMRX_EXPMEAS2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbNmrExpPrototype"
+    column="NMREXPPROTOTYPEID"
+    class="ccp.api.nmr.NmrExpPrototype.NmrExpPrototype" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRX_EXPMEAS_NMREXPPROT_FK" 
+    unique-key="expMeasurementUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbExpSteps" 
+    table="NMRX_EXPSTEP"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">ExpSteps where ExpMeasurement is being accessed. In a completed NmrExpPrototype all ExpMeasurements must be involved in at least one ExpStep.</meta>
+    <meta attribute="base-name">hbExpStep</meta>
+    <cache usage="read-write"/>
+    <key column="EXPMEASUREMENTID"/>
+    <one-to-many class="ccp.api.nmr.NmrExpPrototype.ExpStep"/>
+  </set>
+  
+  <set 
+    name="hbRefExpDimRefs" 
+    table="NMRX_REFEXPDIMREF"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">RefExpDimRefs that pertain to the ExpMeasurement.</meta>
+    <meta attribute="base-name">hbRefExpDimRef</meta>
+    <cache usage="read-write"/>
+    <key column="EXPMEASUREMENTID"/>
+    <one-to-many class="ccp.api.nmr.NmrExpPrototype.RefExpDimRef"/>
+  </set>
+  
+  <list
+    name="hbAtomSites" 
+    table="NMRX_EXPMEAS2ATOMSITES"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">AtomSites defining Measurement. For shifts a single one, defining which shift is being measured. For coupling constants a pair defining the sites coupled. For multiple quantum coherences the number apropriate to define the MQ coherence. The order of atomSites in the link is significant, as it corresponds to the order of Measurement.atomSiteWeights (if set).  </meta>
+    <meta attribute="base-name">hbAtomSite</meta>
+    <cache usage="read-write"/>
+    <key column="EXPMEASUREMENTID" foreign-key="NMRX_ATOMSITE_EXPMEAS_FK" not-null="true"/>
+    <list-index column="order_atomSites_" base="1"/>
+    <many-to-many column="ATOMSITEID" class="ccp.api.nmr.NmrExpPrototype.AtomSite" foreign-key="NMRX_EXPMEAS_ATOMSITES_FK"/>
+  </list>
+
+  </class>
+
+</hibernate-mapping>

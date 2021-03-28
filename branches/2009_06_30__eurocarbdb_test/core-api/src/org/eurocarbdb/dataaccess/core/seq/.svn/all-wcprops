@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/dataaccess/core/seq
+END
+GlycanMonosaccharide.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanMonosaccharide.hbm.xml
+END
+GlycanResidue.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanResidue.hbm.xml
+END
+GlycanSubstituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanSubstituent.java
+END
+SubstructureQueryGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/dataaccess/core/seq/SubstructureQueryGenerator.java
+END
+GlycanSubstituent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanSubstituent.hbm.xml
+END
+GlycanMonosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanMonosaccharide.java
+END
+GlycanResidue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanResidue.java
+END
+SubstructureQueryResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/dataaccess/core/seq/SubstructureQueryResult.java
+END
+SubstructureQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/dataaccess/core/seq/SubstructureQuery.java
+END

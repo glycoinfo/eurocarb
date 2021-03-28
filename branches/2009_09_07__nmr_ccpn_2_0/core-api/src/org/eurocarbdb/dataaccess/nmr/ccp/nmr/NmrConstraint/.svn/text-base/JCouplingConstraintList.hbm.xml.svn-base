@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrConstraint">
+  <joined-subclass
+    name="JCouplingConstraintList"
+    extends="ccp.api.nmr.NmrConstraint.AbstractConstraintList"
+    table="NMRC_JCOUPLINGCONSTRAINTLIST"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Lis of J coupling constraints, in the form of J coupling values that should be reproduced by the structure.</meta>
+  <key column="ABSTRACTCONSTRAINTLISTID" foreign-key="NMRC_JCOUPCONSLIST_ABSTCONSLIST_FK"/>
+  
+  <set 
+    name="hbConstraints" 
+    table="NMRC_JCOUPLINGCONSTRAINT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbConstraint</meta>
+    <cache usage="read-write"/>
+    <key column="PARENTLISTID"/>
+    <one-to-many class="ccp.api.nmr.NmrConstraint.JCouplingConstraint"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

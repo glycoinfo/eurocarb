@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Taxonomy">
+  <class
+    name="NaturalSource"
+    table="TAXO_NATURALSOURCE"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Natural source of molecule.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.general.Taxonomy.Taxonomy"
+    not-null="true"
+    unique="false"
+    foreign-key="TAXO_NATUSOUR_TAXONOMY_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_atccNumber"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">ATCC number of cell line. Should be removed?</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ATCCNUMBER" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_cellLine"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Source cell line.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CELLLINE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_cellLocation"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">The source cell location.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CELLLOCATION" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_cellType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Source cell type.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CELLTYPE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Details, comments, notes about natural source.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_fraction"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Is this the same as tissueFraction (which would then be a better name)?</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="FRACTION" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_geneMnemonic"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Gene Mnemonic.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="GENEMNEMONIC" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_genus"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Organism genus.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="GENUS" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_ictvCode"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">The code for the International Comitee on Taxonomy of Viruses.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ICTVCODE" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_kingdom"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">kingdom to which organism belongs (in theory derivable from genus and species). </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="KINGDOM" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_ncbiTaxonomyId"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">The ID for the NCBI taxonomy node.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NCBITAXONOMYID" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_organ"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Source Organ.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ORGAN" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_organelle"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Organelle from which molecule is derived.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ORGANELLE" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_organismAcronym"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">The organism acronym.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ORGANISMACRONYM" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_organismName"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="true"
+  >
+    <meta attribute="field-description">Common name of organism.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ORGANISMNAME" sql-type="VARCHAR(254)" length="254" not-null="true"/>
+  </property>
+  
+  <property
+    name="_plasmid"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Plasmid name, if molecule is (part of) a plasmid.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PLASMID" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_plasmidDetails"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PLASMIDDETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_scientificName"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">The NCBI scientific name. (= genius + species). This should really be a derived attribute!</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SCIENTIFICNAME" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_secretion"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Secretion from which molecule is derived.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SECRETION" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">The serial number is the key for class NaturalSource and together with the parent object serves as a unique identifier for the NaturalSource. Serial numbers are generated by the API. Serial numbers of deleted objects are not reused.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="naturalSourceUniqueKey" />
+  </property>
+  
+  <property
+    name="_species"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Organism species.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SPECIES" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_strain"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Organism strain.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="STRAIN" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_subVariant"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Organism sub-variant.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SUBVARIANT" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_superKingdom"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">super-kingdom to which organism belongs (in theory derivable from genus and species). </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SUPERKINGDOM" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_tissue"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Source tissue.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="TISSUE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_variant"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Organism variant.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VARIANT" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="TAXO_NATUSOUR2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbTaxonomy"
+    column="TAXONOMYID"
+    class="ccp.api.general.Taxonomy.Taxonomy" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="TAXO_NATUSOUR_TAXONOMY_FK" 
+    unique-key="naturalSourceUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbMolSeqFragments" 
+    table="MOLE_MOLSEQFRAGMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">MOlecule fragments arising from NaturalSource</meta>
+    <meta attribute="base-name">hbMolSeqFragment</meta>
+    <cache usage="read-write"/>
+    <key column="NATURALSOURCEID"/>
+    <one-to-many class="ccp.api.molecule.Molecule.MolSeqFragment"/>
+  </set>
+  
+  <set 
+    name="hbMolecules" 
+    table="MOLE_MOLECULE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Molecules from natural source.</meta>
+    <meta attribute="base-name">hbMolecule</meta>
+    <cache usage="read-write"/>
+    <key column="NATURALSOURCEID"/>
+    <one-to-many class="ccp.api.molecule.Molecule.Molecule"/>
+  </set>
+  
+  <set 
+    name="hbEntryMolecules" 
+    table="ENTR_ENTRYMOLECULE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Connection to Nmr Entries where this is used as experimental source of a molecule</meta>
+    <meta attribute="base-name">hbEntryMolecule</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTALSOURCEID"/>
+    <one-to-many class="ccp.api.nmr.NmrEntry.EntryMolecule"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

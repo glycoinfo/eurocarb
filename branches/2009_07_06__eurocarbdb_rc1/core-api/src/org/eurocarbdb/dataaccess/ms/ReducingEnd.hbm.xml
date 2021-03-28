@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-cascade="save-update">
+
+    <class name="org.eurocarbdb.dataaccess.ms.ReducingEnd" table="reducing_end" schema="ms">
+    
+        <id name="reducingEndId" type="int" access="field">
+            <column name="reducing_end_id" />
+            <generator class="sequence">
+                <param name="sequence">ms.reducing_end_reducing_end_id_seq</param>
+            </generator>
+        </id>
+        
+        <!--======================  properties  =============================-->
+        
+        <property name="abbreviation" type="string">
+            <column name="abbreviation" not-null="true" unique="true" />
+        </property>
+
+        <property name="name" type="string">
+            <column name="name" not-null="true"/>
+        </property>
+        
+        <set name="annotations" inverse="true">
+            <key>
+                <column name="reducing_end_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.Annotation" />
+        </set>
+
+        <!--=====================  named queries  ===========================-->
+
+        <!-- 
+        query : GET_ALL
+        desc  : returns all ReducingEnds in the db
+        author: ac
+        -->
+        <query name="GET_ALL"> 
+            from ReducingEnd as r
+	    order by r.reducingEndId
+        </query>
+        
+	<!-- 
+        query : BY_ABBREVIATION
+        desc  : Retrieve an reducing_end of a certain type
+        author: ac
+        -->
+        <query name="BY_ABBREVIATION" cacheable="true"> 
+            SELECT  r
+            FROM    ReducingEnd AS r
+            WHERE   r.abbreviation = :abbreviation
+        </query>
+
+	
+    </class>
+    
+</hibernate-mapping>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ResidueMapping
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ResidueMapping/index.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ResidueMapping/parent.html
+END
+atomSetMappings.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ResidueMapping/atomSetMappings.html
+END
+chainMapping.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ResidueMapping/chainMapping.html
+END
+getResidue.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ResidueMapping/getResidue.html
+END
+residue.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ResidueMapping/residue.html
+END
+seqId.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/ResidueMapping/seqId.html
+END

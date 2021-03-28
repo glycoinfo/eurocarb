@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemElement
+END
+Isotope.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemElement/Isotope.hbm.xml
+END
+ChemElementStore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemElement/ChemElementStore.hbm.xml
+END
+ChemElement.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemElement/ChemElement.hbm.xml
+END

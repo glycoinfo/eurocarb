@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrEntry
+END
+EntryMolecule.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrEntry/EntryMolecule.hbm.xml
+END
+Study.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrEntry/Study.hbm.xml
+END
+NmrEntryStore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrEntry/NmrEntryStore.hbm.xml
+END
+Entry.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrEntry/Entry.hbm.xml
+END
+RelatedEntry.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrEntry/RelatedEntry.hbm.xml
+END

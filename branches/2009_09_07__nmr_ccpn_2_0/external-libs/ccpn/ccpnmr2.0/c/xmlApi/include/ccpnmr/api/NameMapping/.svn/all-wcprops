@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/NameMapping
+END
+Nmap_AtomMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/NameMapping/Nmap_AtomMapping.h
+END
+Nmap_NameMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/NameMapping/Nmap_NameMapping.h
+END
+Nmap_ResonanceStatusMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/NameMapping/Nmap_ResonanceStatusMapping.h
+END
+Nmap_ChainMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/NameMapping/Nmap_ChainMapping.h
+END
+Nmap_MoleculeMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/NameMapping/Nmap_MoleculeMapping.h
+END
+Nmap_ResonanceLinkMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/NameMapping/Nmap_ResonanceLinkMapping.h
+END
+Nmap_NameMappingStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/NameMapping/Nmap_NameMappingStore.h
+END

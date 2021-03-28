@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/results
+END
+list_monosaccharides.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/results/list_monosaccharides.ftl
+END
+list_elements.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/results/list_elements.ftl
+END

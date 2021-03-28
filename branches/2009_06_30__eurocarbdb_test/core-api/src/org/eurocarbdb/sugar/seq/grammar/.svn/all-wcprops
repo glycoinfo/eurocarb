@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar
+END
+IupacLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/IupacLexer.java
+END
+ResidueToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/ResidueToken.java
+END
+IupacTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/IupacTest.java
+END
+RepeatResidueToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/RepeatResidueToken.java
+END
+GlycoctTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/GlycoctTest.java
+END
+IupacParserTokenTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/IupacParserTokenTypes.java
+END
+GlycoctLexer.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/GlycoctLexer.java
+END
+GlycoctParserTokenTypes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/GlycoctParserTokenTypes.txt
+END
+GlycoctParserTokenTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/GlycoctParserTokenTypes.java
+END
+ParserAdaptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/ParserAdaptor.java
+END
+LinkageToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/LinkageToken.java
+END
+iupac_grammar.g
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/iupac_grammar.g
+END
+IupacParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/IupacParser.java
+END
+glycoct_grammar.g
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/glycoct_grammar.g
+END
+GlycoctParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/GlycoctParser.java
+END
+AstTranslatorVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/AstTranslatorVisitor.java
+END
+MonosacResidueToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/MonosacResidueToken.java
+END
+IupacParserAdaptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/IupacParserAdaptor.java
+END
+GlycoctParserAdaptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/GlycoctParserAdaptor.java
+END
+SequenceTestHarness.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/seq/grammar/SequenceTestHarness.java
+END

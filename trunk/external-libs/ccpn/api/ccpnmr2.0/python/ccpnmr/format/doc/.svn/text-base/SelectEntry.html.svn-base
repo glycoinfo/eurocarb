@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-SelectEntry</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>SelectEntry</H1>
+            <H2>Entry selection
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid entry before the script can continue. An entry ('BmrbEntry') describes which information in the Data Model is relevant for saving to a project file (usually for archiving/deposition).
+        </P>
+        <P ALIGN="LEFT">If available, press the '<B>Create new</B>' button if you have to create a new entry in the Data Model. By default this will select all information currently available (a more sophisticated window that allows you to select which information you want to link together will be included in the future).
+        </P>
+
+    </TABLE>
+  </BODY>
+</HTML>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Instrument">
+  <joined-subclass
+    name="NmrSpectrometer"
+    extends="ccp.api.general.Instrument.AbstractInstrument"
+    table="INST_NMRSPECTROMETER"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Nmr Spectrometer used for data acquisition during a Project. </meta>
+  <key column="ABSTRACTINSTRUMENTID" foreign-key="INST_NMRSPEC_ABSTINST_FK"/>
+  
+  <property
+    name="_nominalFreq"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">Nominal rounded-off spectrometer frequency in MHz protons, given as a string. </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NOMINALFREQ" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_protonFreq"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Actual magnet field strength expressed as the proton resonance frequency in MHz. e.g. '500.013'.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PROTONFREQ" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <set 
+    name="hbExperiments" 
+    table="NMR_EXPERIMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Nmr Experiments carried out on spectrometer.</meta>
+    <meta attribute="base-name">hbExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="SPECTROMETERID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Experiment"/>
+  </set>
+  
+  <set 
+    name="hbCitations" 
+    table="INST_NMRSPEC2CITATIONS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Citations describing Nmr Spectrometer.</meta>
+    <meta attribute="base-name">hbCitation</meta>
+    <cache usage="read-write"/>
+    <key column="NMRSPECTROMETERID" foreign-key="CITA_CITATION_NMRSPEC_FK"/>
+    <many-to-many column="CITATIONID" class="ccp.api.general.Citation.Citation" foreign-key="INST_NMRSPEC_CITATIONS_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

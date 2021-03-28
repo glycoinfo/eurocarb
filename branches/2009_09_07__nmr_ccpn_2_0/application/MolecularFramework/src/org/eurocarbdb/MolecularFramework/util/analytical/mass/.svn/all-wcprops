@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/analytical/mass
+END
+GlycoVisitorRepeatLinkType.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/analytical/mass/GlycoVisitorRepeatLinkType.java
+END
+GlycoMassException.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/analytical/mass/GlycoMassException.java
+END
+GlycoVisitorMass.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/analytical/mass/GlycoVisitorMass.java
+END
+MassComponents.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/analytical/mass/MassComponents.java
+END

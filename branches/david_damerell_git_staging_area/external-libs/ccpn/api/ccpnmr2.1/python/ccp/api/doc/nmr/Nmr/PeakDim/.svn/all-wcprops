@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim
+END
+dataDim.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/dataDim.html
+END
+dim.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/dim.html
+END
+decayRateError.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/decayRateError.html
+END
+getValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/getValue.html
+END
+positionError.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/positionError.html
+END
+peakDimContribs.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/peakDimContribs.html
+END
+realValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/realValue.html
+END
+peakDimComponents.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/peakDimComponents.html
+END
+dataDerivations.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/dataDerivations.html
+END
+mainPeakDimContribs.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/mainPeakDimContribs.html
+END
+valueError.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/valueError.html
+END
+boxWidth.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/boxWidth.html
+END
+setValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/setValue.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/parent.html
+END
+getDataDim.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/getDataDim.html
+END
+position.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/position.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/index.html
+END
+numAliasing.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/numAliasing.html
+END
+measurements.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/measurements.html
+END
+phaseError.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/phaseError.html
+END
+annotation.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/annotation.html
+END
+value.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/value.html
+END
+getRealValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/getRealValue.html
+END
+peak.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/peak.html
+END
+getMainPeakDimContribs.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/getMainPeakDimContribs.html
+END
+getValueError.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/getValueError.html
+END
+lineWidth.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/lineWidth.html
+END
+phase.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/phase.html
+END
+dataDimRef.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/dataDimRef.html
+END
+decayRate.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/decayRate.html
+END
+setValueError.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/PeakDim/setValueError.html
+END

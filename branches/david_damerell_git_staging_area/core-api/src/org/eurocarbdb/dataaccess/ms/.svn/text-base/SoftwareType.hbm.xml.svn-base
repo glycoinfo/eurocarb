@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 3, 2007 6:49:06 PM by Hibernate Tools 3.1.0.beta4 -->
+<hibernate-mapping default-cascade="save-update">
+
+    <class name="org.eurocarbdb.dataaccess.ms.SoftwareType" table="software_type" schema="ms">
+    
+        <id name="softwareTypeId" type="int">
+            <column name="software_type_id" />
+            <generator class="sequence">
+                <param name="sequence">ms.software_type_software_type_id_seq</param>
+            </generator>
+        </id>
+        
+        <property name="softwareType" type="string">
+            <column name="software_type" length="100" not-null="true" unique="true" />
+        </property>
+        
+        <set name="dataProcessings" inverse="true">
+            <key>
+                <column name="software_type_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.DataProcessing" />
+        </set>
+        
+    </class>
+    
+</hibernate-mapping>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/executables
+END
+GlycoWorkbench_x86-64.exe
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/executables/GlycoWorkbench_x86-64.exe
+END
+mac_32.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/executables/mac_32.sh
+END
+mac_64.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/executables/mac_64.sh
+END
+GlycoWorkbench_x86.ini
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/executables/GlycoWorkbench_x86.ini
+END
+GlycoWorkbench_x86.exe
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/executables/GlycoWorkbench_x86.exe
+END

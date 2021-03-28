@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition
+END
+mandatory.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/mandatory.html
+END
+possibleValues.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/possibleValues.html
+END
+protocol.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/protocol.html
+END
+paramType.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/paramType.html
+END
+parameters.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/parameters.html
+END
+displayUnit.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/displayUnit.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/index.html
+END
+step.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/step.html
+END
+label.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/label.html
+END
+unit.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/unit.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/serial.html
+END
+minValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/minValue.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/name.html
+END
+defaultValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/defaultValue.html
+END
+maxValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/maxValue.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/ParameterDefinition/parent.html
+END

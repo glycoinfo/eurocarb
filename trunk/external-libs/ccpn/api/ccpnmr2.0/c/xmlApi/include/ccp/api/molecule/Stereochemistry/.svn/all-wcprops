@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/Stereochemistry
+END
+Ster_StereochemistryStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/Stereochemistry/Ster_StereochemistryStore.h
+END
+Ster_RefStereochemistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/Stereochemistry/Ster_RefStereochemistry.h
+END

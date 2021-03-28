@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1608/branches/2009_09_07__nmr_ccpn_2_0/conf
+END
+default.site.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1608/branches/2009_09_07__nmr_ccpn_2_0/conf/default.site.properties
+END
+server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/conf/server.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/conf/web.xml
+END

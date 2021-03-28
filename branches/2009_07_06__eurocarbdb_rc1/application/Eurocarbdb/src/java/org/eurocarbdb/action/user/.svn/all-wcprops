@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1503/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/java/org/eurocarbdb/action/user
+END
+UserDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1503/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/java/org/eurocarbdb/action/user/UserDetails.java
+END
+UserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/java/org/eurocarbdb/action/user/UserManager.java
+END
+OpenIdAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/java/org/eurocarbdb/action/user/OpenIdAuthenticator.java
+END

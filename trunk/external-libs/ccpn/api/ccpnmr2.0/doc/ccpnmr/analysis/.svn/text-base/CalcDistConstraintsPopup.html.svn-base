@@ -1,0 +1,336 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis (1):CalcDistConstraintsPopup</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis (1):CalcDistConstraintsPopup</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>Analysis (1)</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisPopup.html">AnalysisPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BackupProjectPopup.html">BackupProjectPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseAtomsPopup.html">BrowseAtomsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseConstraintSetsPopup.html">BrowseConstraintSetsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseConstraintsPopup.html">BrowseConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseReferenceShiftsPopup.html">BrowseReferenceShiftsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseResonancesPopup.html">BrowseResonancesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseStrucGenPopup.html">BrowseStrucGenPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseViolationsPopup.html">BrowseViolationsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcAmbigDistConstraintsPopup.html">CalcAmbigDistConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="CalcDistConstraintsPopup.html">CalcDistConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcHeteroNoePopup.html">CalcHeteroNoePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcRatesPopup.html">CalcRatesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ChangeAxisMappingPopup.html">ChangeAxisMappingPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisPopup.html">CreateAxisPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisTypePopup.html">CreateAxisTypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisUnitPopup.html">CreateAxisUnitPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreatePanelTypePopup.html">CreatePanelTypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SpinSystemTypingPopup.html">SpinSystemTypingPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SpinSystemTypeScoresPopup.html">SpinSystemTypeScoresPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditAssignmentPopup.html">EditAssignmentPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditAxisPanelPopup.html">EditAxisPanelPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditColorSchemesPopup.html">EditColorSchemesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditColorsPopup.html">EditColorsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditContourLevelsPopup.html">EditContourLevelsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditContourFilesPopup.html">EditContourFilesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AddContourFilePopup.html">AddContourFilePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateContourFilePopup.html">CreateContourFilePopup</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+      This popup allows the generation of distance constraints form the assigned peaks within
+      an input NOE spectrum. The values of distance for the constraint are derived form the
+      input (or default) NOE intensity - distance table set with <A HREF="EditNoeClassesPopup.html">EditNoeClassesPopup.</A>
+      </P>
+      <H2>- General Options -</H2>
+        <H3>NOSESY spectrum: &lt;list&gt;</H3>
+          <P>
+          Enables the selection of the input spectrum (from which a peak list is then
+          selected) given a list of possible NOE spectra present within the current project.
+          </P>
+        <H3>Peak list: &lt;list&gt;</H3>
+          <P>
+          Enables the selection of the input peak list from those present for the currently
+          selected spectra.
+          </P>
+        <H3>Bonded dimensions: &lt;list&gt;</H3>
+          <P>
+          Gives a list of hydrogen-heavy atom dimension pairs. The selected option specifies
+          which dimensions of the input spectrum are considered to be directly bonded. Bonded
+          dimensions enable the residue ranges to be applied to both bound dimensions at the
+          same time.
+          </P>
+        <H3>Constraint Set: &lt;list&gt;</H3>
+          <P>
+          Determines which constraint set any generated constraints are put into. This may be
+          an existing constraint set or a completely new constraint set. Note that the
+          creation of a new constraint set will produce (after the shift matching routine) a
+          separate NmrConstraints XML file for that set.
+          </P>
+        <H3>Minimum peak merit: [ float_entry ]</H3>
+          <P>
+          This value can be edited to specify the minimum merit value that a peak must posses
+          if it is to be used to make a constraint. Setting the merit of peaks is a means
+          of reversibly removing them from consideration.
+          </P>
+        <H3>Peak intensity type: &lt;list&gt;</H3>
+          <P>
+          Sets whether any distance constraints are calculated from the volume or height of the
+          input peaks.
+          </P>
+      <H2>- Residue ranges -</H2>
+        <P>
+        Restricts the input peaks to those with assignments that lie within the specified
+        residue sequence ranges,
+        </P>
+        <H3>Molecular system: &lt;list&gt;</H3>
+          <P>
+          Allows the user to select the molecular system the residue ranges apply to.
+          </P>
+        <H3>| Dimensions |</H3>
+          <P>
+          This column specifies which dimensions of the input peaks the range applies to. The
+          presence of multiple dimensions for one range indicates that the dimensions are
+          bonded and thus the residue range necessarily applies to both dimensions.
+          </P>
+        <H3>| Chain |</H3>
+          <P>
+          The molecular chain to which the residue range applies. This may be set by double
+          clicking. If the chain is changes the residue range defaults to the entire length of
+          the chain,
+          </P>
+        <H3>| Start | End |</H3>
+          <P>
+          The first and last allowable residues (according to sequence number) for the
+          residue range. These values are always appropriate to the selected chain (otherwise
+          they may be truncated/altered) and may be set by double clicking,
+          </P>
+        <H3>[ Add Residue Range ]</H3>
+          <P>
+          Add a new residue range to the list which may then be edited in terms of dimension,
+          molecule chain and bounds.
+          </P>
+        <H3>[ Delete Residue Range ]</H3>
+          <P>
+          Delete the currently selected residue range. One range must be present for each set
+          of bonded dimensions, thus the last range for a given set may not be removed.
+          </P>
+      <H2>[ Calculate constraints ]</H2>
+        <P>
+        Generate distance constraints for the assigned NOE peak in the input peak list
+        according to the specified (or default) NOE intensity - distance class table.
+        </P>
+      <H2>[ Set distance classes ]</H2>
+        <P>
+        Opens <A HREF="EditNoeClassesPopup.html">EditNoeClassesPopup</A>
+        which enables the user to set a table for how the relative
+        intensity of an NOE peak corresponds to target and limiting distances for a
+        constraint. The relative intensity is the peak intensity divided by average intensity
+        for the peak's peak list.
+        </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

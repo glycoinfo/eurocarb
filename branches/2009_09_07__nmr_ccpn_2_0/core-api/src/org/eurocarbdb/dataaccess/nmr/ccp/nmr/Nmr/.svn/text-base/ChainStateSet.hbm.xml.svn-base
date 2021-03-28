@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <class
+    name="ChainStateSet"
+    table="NMR_CHAINSTATESET"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Defines a set of states that apply to a chain. The ChainStates in a ChainStateSet are mutually exclusive. Their exact nature is defined by the StateSiteType.   ChainStates serve to distinguish Resonances that arise from the same atom in different states of the chain, to describe the State of molecules used for a structure generation, and to define the state (including fast exchange) of a chain under the conditions of a given experiment.   A ChainState only describes the situation for one particular set of alternatives, and implies nothing about others. For example, a molecule with seven prolines in slow cis/trans equilibrium would have seven ChainStateSets. A given resonance could then be described (by linking it to ChainStates) as Pro-47 cis, Pro-112 trans, without implying anything about the state of the remaining five prolines.    stateSetType and ChainState.name are freely changeable, reflecting the fact that the origin of sets of observed resonances is often unknown until a late stage of analysis. Once the precise situation is known, the following procedures should be used where applicable:  stateSetType: cis/trans ChainState names: cis, trans Links: to the two atoms that are cis or trans (in the case of peptide bonds to the two alpha carbons of the residues involved).   stateSetType: protonation ChainState names: protonated, deprotonated Links: To the proton that is removed on deprotonation.  stateSetType: isotopomer ChainState names : isotope codes of the relevant isotopes (e.g. 12C, 13C) Links: To the atom(s) that change isotope. NB this mechanism only handles atoms of the same type that change in parallel. If the isotope substitution pattern is more complex, is may be necessary to define several ChainStateSets, possibly redefining the ChainStates when the situation has been analysed.  stateSetType: folding ChainState names: folded, unfolded Links : to the residues involved in the transition.  stateSetType : conformation ChainState names: can be chosen freely Links: to the residues changing conformation.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_CHAISTATSET_NMRPROJECT_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text, for notes, explanatory comments, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="chainStateSetUniqueKey" />
+  </property>
+  
+  <property
+    name="_stateSetType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Type of State Set. Describes which factor distinguishes the various chainstates, be it protonation state, cis/trants isomerism, conformation, ... If the distinguishing factor is  unknown,  stateSetType should not be set.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="STATESETTYPE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="NMR_CHAISTATSET2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbChain"
+    column="CHAINID"
+    class="ccp.api.molecule.MolSystem.Chain" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_CHAISTATSET_CHAIN_FK" 
+  >
+    <meta attribute="field-description">Chain to which ChainStateSet belongs</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbNmrProject"
+    column="NMRPROJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_CHAISTATSET_NMRPROJECT_FK" 
+    unique-key="chainStateSetUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbChainStates" 
+    table="NMR_CHAINSTATE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbChainState</meta>
+    <cache usage="read-write"/>
+    <key column="CHAINSTATESETID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.ChainState"/>
+  </set>
+  
+  <set 
+    name="hbAtoms" 
+    table="NMR_CHAISTATSET2ATOMS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Atoms 'involved' in a ChainStateSet. The intention is that the link should describe atoms that change chemically or conformationally, rather than atoms that merely have changed NMR parameters. See documentation of ChainStateSet for recommendations for handling protonation, cis/trans, and isotopomers.</meta>
+    <meta attribute="base-name">hbAtom</meta>
+    <cache usage="read-write"/>
+    <key column="CHAINSTATESETID" foreign-key="MOLS_ATOM_CHAISTATSETS_FK"/>
+    <many-to-many column="ATOMID" class="ccp.api.molecule.MolSystem.Atom" foreign-key="NMR_CHAISTATSET_ATOMS_FK"/>
+  </set>
+  
+  <set 
+    name="hbResidues" 
+    table="NMR_CHAISTATSET2RESIDUES"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Residues involved in chainStates.</meta>
+    <meta attribute="base-name">hbResidue</meta>
+    <cache usage="read-write"/>
+    <key column="CHAINSTATESETID" foreign-key="MOLS_RESIDUE_CHAISTATSETS_FK"/>
+    <many-to-many column="RESIDUEID" class="ccp.api.molecule.MolSystem.Residue" foreign-key="NMR_CHAISTATSET_RESIDUES_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

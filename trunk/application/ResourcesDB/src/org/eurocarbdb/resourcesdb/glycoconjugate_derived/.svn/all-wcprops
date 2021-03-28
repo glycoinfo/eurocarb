@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived
+END
+EcdbResidueParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbResidueParser.java
+END
+GlycoconjugateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/GlycoconjugateException.java
+END
+LinkageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/LinkageType.java
+END
+ComparatorModification.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/ComparatorModification.java
+END
+EcdbMonosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbMonosaccharide.java
+END
+EcdbAnomer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbAnomer.java
+END
+EcdbSuperclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbSuperclass.java
+END
+EcdbModification.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbModification.java
+END
+EcdbModificationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbModificationType.java
+END
+EcdbBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbBaseType.java
+END

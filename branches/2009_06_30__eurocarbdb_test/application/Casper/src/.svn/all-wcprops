@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src
+END
+methods.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/methods.h
+END
+variables.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/variables.c
+END
+tables.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/tables.c
+END
+variables.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/variables.h
+END
+plot.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/plot.c
+END
+expr.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/expr.c
+END
+tables.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/tables.h
+END
+exrdtok.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/exrdtok.c
+END
+plot.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/plot.h
+END
+expr.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/expr.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/main.c
+END
+exrdtok.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/exrdtok.h
+END
+node.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/node.c
+END
+delta.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/delta.c
+END
+node.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/node.h
+END
+parser.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/parser.c
+END
+delta.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/delta.h
+END
+build.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/build.c
+END
+setup.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/setup.c
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/parser.h
+END
+commands.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/commands.c
+END
+calc.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/calc.c
+END
+perm.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/perm.c
+END
+build.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/build.h
+END
+setup.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/setup.h
+END
+commands.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/commands.h
+END
+calc.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/calc.h
+END
+rule.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/rule.c
+END
+perm.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/perm.h
+END
+rule.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/rule.h
+END
+glyco.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/glyco.c
+END
+type.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/type.c
+END
+glyco.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/glyco.h
+END
+ccpn.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/ccpn.c
+END
+gfx.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/gfx.c
+END
+function.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/function.c
+END
+type.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/type.h
+END
+XML_out.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/XML_out.c
+END
+ccpn.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/ccpn.h
+END
+gfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/gfx.h
+END
+function.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/function.h
+END
+XML_out.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/XML_out.h
+END
+ddelta.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/ddelta.c
+END
+gnuplot_i.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/gnuplot_i.c
+END
+shifts.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/shifts.c
+END
+residue.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/residue.c
+END
+extypes.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/extypes.c
+END
+spectra.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/spectra.c
+END
+ddelta.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/ddelta.h
+END
+methods.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/methods.c
+END
+gnuplot_i.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/gnuplot_i.h
+END
+residue.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/residue.h
+END
+shifts.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/shifts.h
+END
+extypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/extypes.h
+END
+spectra.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Casper/src/spectra.h
+END

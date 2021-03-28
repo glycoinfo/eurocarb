@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="T1List"
+    extends="ccp.api.nmr.Nmr.AbstractMeasurementList"
+    table="NMR_T1LIST"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">List of T1 measurements.  T1 values are referred to a single Resonance. Where more than one resonance is involved (coherence type 'zz'), it is assumed that the other one is obvious from context, and/or that identifying information is presented in the 'details' record.</meta>
+  <key column="ABSTRACTMEASUREMENTLISTID" foreign-key="NMR_T1LIST_ABSTMEASLIST_FK"/>
+  
+  <property
+    name="_coherenceType"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Type of coherence measured.</meta>
+    <meta attribute="default-value">"z"</meta>
+    <column name="COHERENCETYPE" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_sf"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Spectrometer frequency in MHz at which T1 values were measured.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SF" sql-type="FLOAT" not-null="true"/>
+  </property>
+  
+  <set 
+    name="hbExperiments" 
+    table="NMR_EXPERIMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Experiments for which T1 list is valid</meta>
+    <meta attribute="base-name">hbExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="T1LISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Experiment"/>
+  </set>
+  
+  <set 
+    name="hbMeasurements" 
+    table="NMR_T1"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbMeasurement</meta>
+    <cache usage="read-write"/>
+    <key column="PARENTLISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.T1"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

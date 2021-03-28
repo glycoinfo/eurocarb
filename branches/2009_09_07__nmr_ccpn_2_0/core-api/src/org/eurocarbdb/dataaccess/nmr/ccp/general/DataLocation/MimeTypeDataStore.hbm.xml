@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.DataLocation">
+  <joined-subclass
+    name="MimeTypeDataStore"
+    extends="ccp.api.general.DataLocation.AbstractDataStore"
+    table="DLOC_MIMETYPEDATASTORE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Data storage pointer for anything with a MimeType (e.g. JPEG or GIF) </meta>
+  <key column="ABSTRACTDATASTOREID" foreign-key="DLOC_MIMETYPEDATASTOR_ABSTDATASTOR_FK"/>
+  
+  <property
+    name="_mimeType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">mime type of datasource</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MIMETYPE" sql-type="VARCHAR(80)" length="80" not-null="true"/>
+  </property>
+  
+  <many-to-one
+    name="hbNmrDataSourceImage"
+    column="NMRDATASOURCEIMAGEID"
+    class="ccp.api.nmr.Nmr.DataSourceImage" 
+    not-null="false"
+    unique="true"
+    foreign-key="DLOC_MIMETYPEDATASTOR_NMRDATASOURIMAG_FK" 
+  >
+    <meta attribute="field-description">ccp.nmr.Nmr.DataSourceImage stored in this DataStore</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrReference
+END
+ChemCompNmrRef.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrReference/ChemCompNmrRef.xml
+END
+ChemAtomNmrRef.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrReference/ChemAtomNmrRef.xml
+END
+NmrReferenceStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrReference/NmrReferenceStore.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrReference/package.xml
+END
+ChemCompVarNmrRef.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrReference/ChemCompVarNmrRef.xml
+END
+ChemAtomShiftCorr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrReference/ChemAtomShiftCorr.xml
+END

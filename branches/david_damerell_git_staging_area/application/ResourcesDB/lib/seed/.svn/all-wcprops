@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/lib/seed
+END
+bcsdbSeed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/lib/seed/bcsdbSeed.xml
+END
+seed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/lib/seed/seed.xml
+END
+seed2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/lib/seed/seed2.xml
+END
+pdb_monosacc_aliasdefs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/lib/seed/pdb_monosacc_aliasdefs.xml
+END
+representation_files.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/lib/seed/representation_files.xml
+END

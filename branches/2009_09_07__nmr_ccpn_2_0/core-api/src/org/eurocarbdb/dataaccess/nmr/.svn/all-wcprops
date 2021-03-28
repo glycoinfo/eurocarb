@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1890/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr
+END
+NmrEvidence.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1756/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/NmrEvidence.java
+END
+NmrEvidence.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1752/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/NmrEvidence.hbm.xml
+END

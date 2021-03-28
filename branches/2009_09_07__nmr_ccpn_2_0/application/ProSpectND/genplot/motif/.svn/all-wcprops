@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/motif
+END
+gen_xm.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/motif/gen_xm.c
+END
+genmotif.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/motif/genmotif.h
+END
+genmscr.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/motif/genmscr.c
+END
+genmcomm.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/motif/genmcomm.c
+END
+genmcurs.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/motif/genmcurs.c
+END
+genmpop.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/motif/genmpop.c
+END
+genmmen.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/motif/genmmen.c
+END
+genmcons.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/motif/genmcons.c
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1576/branches/2009_07_06__eurocarbdb_rc1/core-api/src/test/eurocarbdb/dataaccess/core
+END
+BiologicalContextTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/test/eurocarbdb/dataaccess/core/BiologicalContextTest.java
+END
+ReferenceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/test/eurocarbdb/dataaccess/core/ReferenceTest.java
+END
+SubQueryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/test/eurocarbdb/dataaccess/core/SubQueryTest.java
+END
+AuthorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/test/eurocarbdb/dataaccess/core/AuthorTest.java
+END
+GlycanSequenceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/test/eurocarbdb/dataaccess/core/GlycanSequenceTest.java
+END

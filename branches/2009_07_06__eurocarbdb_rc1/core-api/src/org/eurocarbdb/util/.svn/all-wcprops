@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1503/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/util
+END
+ProgressWatchable.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/util/ProgressWatchable.java
+END
+Visitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/util/Visitor.java
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/util/Logger.java
+END
+JavaUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/util/JavaUtils.java
+END
+XmlSerialiser.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/util/XmlSerialiser.java
+END
+CompositionVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/util/CompositionVisitor.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/util/Version.java
+END
+FTP_Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/util/FTP_Client.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/util/StringUtils.java
+END
+BitSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/util/BitSet.java
+END

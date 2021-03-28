@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/bin
+END
+stop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/bin/stop.sh
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/bin/start.sh
+END

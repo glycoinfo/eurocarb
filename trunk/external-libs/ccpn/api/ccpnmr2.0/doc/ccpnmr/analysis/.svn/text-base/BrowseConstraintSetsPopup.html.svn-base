@@ -1,0 +1,325 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis (1):BrowseConstraintSetsPopup</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis (1):BrowseConstraintSetsPopup</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>Analysis (1)</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisPopup.html">AnalysisPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BackupProjectPopup.html">BackupProjectPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseAtomsPopup.html">BrowseAtomsPopup</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="BrowseConstraintSetsPopup.html">BrowseConstraintSetsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseConstraintsPopup.html">BrowseConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseReferenceShiftsPopup.html">BrowseReferenceShiftsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseResonancesPopup.html">BrowseResonancesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseStrucGenPopup.html">BrowseStrucGenPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseViolationsPopup.html">BrowseViolationsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcAmbigDistConstraintsPopup.html">CalcAmbigDistConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcDistConstraintsPopup.html">CalcDistConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcHeteroNoePopup.html">CalcHeteroNoePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcRatesPopup.html">CalcRatesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ChangeAxisMappingPopup.html">ChangeAxisMappingPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisPopup.html">CreateAxisPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisTypePopup.html">CreateAxisTypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisUnitPopup.html">CreateAxisUnitPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreatePanelTypePopup.html">CreatePanelTypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SpinSystemTypingPopup.html">SpinSystemTypingPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SpinSystemTypeScoresPopup.html">SpinSystemTypeScoresPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditAssignmentPopup.html">EditAssignmentPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditAxisPanelPopup.html">EditAxisPanelPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditColorSchemesPopup.html">EditColorSchemesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditColorsPopup.html">EditColorsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditContourLevelsPopup.html">EditContourLevelsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditContourFilesPopup.html">EditContourFilesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AddContourFilePopup.html">AddContourFilePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateContourFilePopup.html">CreateContourFilePopup</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+      This popup displays tables of information for the sets of constraints present within
+      the current project. A constraint set is a means of grouping together constraints
+      (distance, dihedral etc.), constraint violations and the assignments present at the
+      time that the constraints were generated.
+      </P>
+      <H2>- Constraint Sets -</H2>
+        <P>
+        This table lists the constraint sets within the current project. Clicking on an
+        occupied row in the table will fill the lower tables of the popup with details of
+        the constraint and violation lists within the selected constraint set. Each
+        constraint set corresponds to one seperately stored XML file (NmrConstraints
+        package). This means that each constraint set is loaded separately (and only when
+        required) from other sets and the main NMR data.
+        </P>
+        <P>
+        Columns indicating "Fixed" items indicate how many of these various assignment
+        objects are used within the constraint set. The "Fixed" data items are a snapshot
+        of the regular assignment items. In this manner assignment of the project may
+        subsequently be modified, but previously created constraints remain unaffected.
+        Also, the exact assignment status of the project at the time the constraint set was
+        created is recorded.
+        </P>
+      <H2>[ Import ]</H2>
+        <H3>This option is not yet functional.</H3>
+      <H2>[ Delete ]</H2>
+        <P>
+        Removes the currently selected constraint set from the current project. Note that
+        this will NOT remove the corresponding NmrConstrants package XML file from disk.
+        </P>
+      <H2>- Constraint Lists</H2>
+        <P>
+        This table displays information about the lists of constraints contained within the
+        currently selected constraint set.
+        </P>
+        <H3>| Type |</H3>
+          <P>
+          This column indicates what the constraints in the list are constraining, commonly
+          distance or dihedral angle.
+          </P>
+        <H3>| Experiments |</H3>
+          <P>
+          The experiments that give rise to the peaks from which the constraints in the list
+          were generated.
+          </P>
+        <H3>| Unit |</H3>
+          <P>
+          The units of measurement for the constraint. E.g. Angstroms, radians etc.
+          </P>
+        <H3>[ View Constraints ]</H3>
+          <P>
+          Display the individual constraint items of the currently/primary selected list in
+          a popup. Opens <A HREF="BrowseConstraintsPopup.html">BrowseConstraintsPopup.</A>
+          </P>
+        <H3>[ Create List ]</H3>
+          <P>
+          This option is not yet functional.
+          </P>
+        <H3>[ Delete Lists ]</H3>
+          <P>
+          Delete the currently selected lists and their constituent constraints.
+          </P>
+      <H2>- Violation Lists -</H2>
+        <P>
+        A table which displays basic information about the lists of violations within the
+        currently selected constraint set.
+        </P>
+        <H3>| Structures |</H3>
+          <P>
+          Indicates which structures the violations are calculated for.
+          </P>
+        <H3>[ View Violations]</H3>
+          <P>
+          Display the individual violation items of the currently/primary selected violation
+          lists in a popup table. Opens <A HREF="BrowseViolationsPopup.html">BrowseViolationsPopup.</A>
+          </P>
+        <H3>[ Delete Lists ]</H3>
+          <P>
+          Deleted the currently selected violation lists and their violation items.
+          </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

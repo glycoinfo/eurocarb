@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDim
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDim/index.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDim/parent.html
+END
+dim.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDim/dim.html
+END
+experiment.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDim/experiment.html
+END
+refExpDim.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDim/refExpDim.html
+END
+isAcquisition.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDim/isAcquisition.html
+END
+dataDims.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDim/dataDims.html
+END
+expDimRefs.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDim/expDimRefs.html
+END

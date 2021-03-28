@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-AcqProcParsEditNmrPipe</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>AcqProcParsEditNmrPipe</H1>
+            <H2>NmrPipe processing
+        </H2>
+        <P ALIGN="LEFT">This window allows you to edit the processing parameters for NmrPipe processing of an
+        experiment. Press '<B>Update</B>' to update the automatically changed values. The '<B>Reset</B>' button
+        does not work at present. </P>
+        <P ALIGN="LEFT">The '<B>Write processing files</B>' will pop up a window that allows you to write the
+        relevant files for this format. The '<B>Copy data to ...</B>' will copy the current processing
+        parameters to the ones for another processing program. Note that the phase settings might be
+        negated in this case. </P>
+        <UL>
+        <LI><B>Number of complex points for FR</B>: Set the number of complex points desired for the Fourier
+			transform here.
+        <LI><B>Value per point</B>: Calculated automatically based on above.
+        <LI><B>Phase 0</B>: Zero order phase correction for this dimension.
+        <LI><B>Phase 1</B>: First order phase correction for this dimension.
+        <LI><B>Window function</B>: Window function applied in this dimension.
+        <LI><B>Delete imaginary data</B>: If 'on', imaginary data will be deleted after transform.
+        <LI><B>nmrPipe label</B>: NmrPipe label to be used for this dimension.
+        <LI><B>Reference point</B>: The reference point for chemical shift calculation (<I>note that the type
+			of Reference can be toggled in '<B>Reference data</B>'!</I>)
+        <LI><B>Reference value</B>: The chemical shift value at the reference point.</UL>
+
+    </TABLE>
+  </BODY>
+</HTML>

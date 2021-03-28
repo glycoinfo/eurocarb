@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src
+END
+AnnotationReportOptionsDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/AnnotationReportOptionsDialog.form
+END
+PeakFinderOptionsDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/PeakFinderOptionsDialog.form
+END
+AnnotationOptionsDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/AnnotationOptionsDialog.form
+END
+ImportStructureDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ImportStructureDialog.form
+END
+ResiduePropertiesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ResiduePropertiesDialog.java
+END
+ScanDataPropertiesDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ScanDataPropertiesDialog.form
+END
+FragmentOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/FragmentOptionsDialog.java
+END
+ProfilerOptionsDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ProfilerOptionsDialog.form
+END
+RepetitionPropertiesDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/RepetitionPropertiesDialog.form
+END
+StoreStructuresDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/StoreStructuresDialog.form
+END
+ScanPropertiesDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ScanPropertiesDialog.form
+END
+CreateCompositionDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/CreateCompositionDialog.java
+END
+GraphicOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/GraphicOptionsDialog.java
+END
+PeakPickerOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/PeakPickerOptionsDialog.java
+END
+GAGDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/GAGDialog.java
+END
+ResiduePropertiesDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ResiduePropertiesDialog.form
+END
+FragmentOptionsDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/FragmentOptionsDialog.form
+END
+SearchDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/SearchDialog.java
+END
+UserDictionariesManagerDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/UserDictionariesManagerDialog.java
+END
+CreateCompositionDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/CreateCompositionDialog.form
+END
+ProfilesComparisonReportDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ProfilesComparisonReportDialog.java
+END
+GraphicOptionsDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/GraphicOptionsDialog.form
+END
+PeakPickerOptionsDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/PeakPickerOptionsDialog.form
+END
+MassOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/MassOptionsDialog.java
+END
+GAGDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/GAGDialog.form
+END
+AnnotationReportChoiceDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/AnnotationReportChoiceDialog.java
+END
+AnnotationReportOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/AnnotationReportOptionsDialog.java
+END
+PeakFinderOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/PeakFinderOptionsDialog.java
+END
+AnnotationOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/AnnotationOptionsDialog.java
+END
+SearchDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/SearchDialog.form
+END
+UserDictionariesManagerDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/UserDictionariesManagerDialog.form
+END
+ScanDataPropertiesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ScanDataPropertiesDialog.java
+END
+ImportStructureDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ImportStructureDialog.java
+END
+ProfilesComparisonReportDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ProfilesComparisonReportDialog.form
+END
+ProfilerOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ProfilerOptionsDialog.java
+END
+RepetitionPropertiesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/RepetitionPropertiesDialog.java
+END
+StoreStructuresDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/StoreStructuresDialog.java
+END
+MassOptionsDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/MassOptionsDialog.form
+END
+ScanPropertiesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/ScanPropertiesDialog.java
+END
+AnnotationReportChoiceDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/src/AnnotationReportChoiceDialog.form
+END

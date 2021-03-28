@@ -1,0 +1,611 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1849/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder
+END
+FileConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/FileConstants.java
+END
+SAXUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/SAXUtils.java
+END
+Glycan.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Glycan.java
+END
+PermutationGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/PermutationGenerator.java
+END
+MolecularFrameworkParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/MolecularFrameworkParser.java
+END
+ResiduePlacementDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResiduePlacementDictionary.java
+END
+FragmentGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/FragmentGroup.java
+END
+EscapeDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/EscapeDialog.java
+END
+XMLUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/XMLUtils.java
+END
+ResidueHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResidueHistory.java
+END
+CrossRingFragmentDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/CrossRingFragmentDictionary.java
+END
+BBoxManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/BBoxManager.java
+END
+FragmentEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/FragmentEntry.java
+END
+GlycoMindsParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycoMindsParser.java
+END
+Monitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Monitor.java
+END
+BaseWorkspace.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/BaseWorkspace.java
+END
+Fragmenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Fragmenter.java
+END
+ReportDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ReportDialog.java
+END
+LinkageStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/LinkageStyle.java
+END
+ResiduePropertiesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResiduePropertiesDialog.java
+END
+GraphicUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GraphicUtils.java
+END
+PositionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/PositionManager.java
+END
+ResidueSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResidueSelector.java
+END
+FileHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/FileHistory.java
+END
+LinkageRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/LinkageRenderer.java
+END
+ActionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ActionManager.java
+END
+GlycanCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanCanvas.java
+END
+BaseDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/BaseDocument.java
+END
+GlycanDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanDocument.java
+END
+TerminalType.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/TerminalType.java
+END
+CoreDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/CoreDictionary.java
+END
+CustomFocusTraversalPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/CustomFocusTraversalPolicy.java
+END
+RepetitionPropertiesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/RepetitionPropertiesDialog.java
+END
+SVGUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1849/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/SVGUtils.java
+END
+GroupingSVGGraphics2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GroupingSVGGraphics2D.java
+END
+ResidueSelectorDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResidueSelectorDialog.java
+END
+GlycanUndoRedoListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanUndoRedoListener.java
+END
+GlycanBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanBuilder.java
+END
+ResidueRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResidueRenderer.java
+END
+GraphicOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GraphicOptions.java
+END
+ResiduePlacement.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResiduePlacement.java
+END
+CoreType.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/CoreType.java
+END
+GlycanParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanParser.java
+END
+Pair.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Pair.java
+END
+Atom.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Atom.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/FileUtils.java
+END
+ConvertGWS.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ConvertGWS.java
+END
+LogUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/LogUtils.java
+END
+Molecule.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Molecule.java
+END
+BuilderWorkspace.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/BuilderWorkspace.java
+END
+IntPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/IntPair.java
+END
+Configuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Configuration.java
+END
+ResidueStyleDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResidueStyleDictionary.java
+END
+CombinationGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/CombinationGenerator.java
+END
+MouseUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/MouseUtils.java
+END
+GraphicOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GraphicOptionsDialog.java
+END
+Data.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Data.java
+END
+Linkage.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Linkage.java
+END
+ImportStructureDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ImportStructureDialog.java
+END
+IonCloud.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/IonCloud.java
+END
+LinkageMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/LinkageMatcher.java
+END
+CompositionOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/CompositionOptions.java
+END
+GlycanUndoRedoEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanUndoRedoEvent.java
+END
+FragmentOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/FragmentOptions.java
+END
+MassOptionsStructureDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/MassOptionsStructureDialog.java
+END
+GlycanParserFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanParserFactory.java
+END
+ExtensionFileFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ExtensionFileFilter.java
+END
+GlycanSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanSelection.java
+END
+BookingManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/BookingManager.java
+END
+CompositionDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/CompositionDialog.java
+END
+MassUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/MassUtils.java
+END
+SVGGlycanRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/SVGGlycanRenderer.java
+END
+DropDownList.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/DropDownList.java
+END
+Union.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Union.java
+END
+GlycanBuilderApplet.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanBuilderApplet.java
+END
+CrossRingFragmentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/CrossRingFragmentType.java
+END
+Residue.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Residue.java
+END
+ResAngle.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResAngle.java
+END
+TerminalDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/TerminalDictionary.java
+END
+FragmentDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/FragmentDocument.java
+END
+GlycanRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanRenderer.java
+END
+TextUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/TextUtils.java
+END
+GlycanAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanAction.java
+END
+GWSParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GWSParser.java
+END
+TypePattern.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/TypePattern.java
+END
+FragmentCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/FragmentCollection.java
+END
+MassOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/MassOptions.java
+END
+ResidueStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResidueStyle.java
+END
+LinkageStyleDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/LinkageStyleDictionary.java
+END
+GlycoCTParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycoCTParser.java
+END
+Isotope.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Isotope.java
+END
+Bond.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Bond.java
+END
+FragmentSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/FragmentSource.java
+END
+ResidueDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResidueDictionary.java
+END
+Geometry.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/Geometry.java
+END
+GlycanUndoManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycanUndoManager.java
+END
+StyledTextCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/StyledTextCellRenderer.java
+END
+ResidueType.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ResidueType.java
+END
+GlycoCTCondensedParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/GlycoCTCondensedParser.java
+END
+ClipUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/ClipUtils.java
+END
+LinucsParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycanBuilder/src/org/eurocarbdb/application/glycanbuilder/LinucsParser.java
+END

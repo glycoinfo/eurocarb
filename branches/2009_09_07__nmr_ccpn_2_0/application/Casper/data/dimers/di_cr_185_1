@@ -1,0 +1,33 @@
+# 1H data extracted from:
+# Complete proton- and carbon-13 NMR assignments for two sulfated
+# oligosaccharide alditols of hen ovomucin
+# Strecker G; Wieruszeski JM; Martel C; Montreuil J
+# Carbohydr Res (1989) 185: 1-13
+# 13C data from:
+# Carbon-13 nuclear magnetic resonance data for oligosaccharides
+# Bock K; Pedersen C; Pedersen H
+# Adv Carbohydr Chem Biochem (1984) 42: 193-225
+
+set ref 'Carb Res(1989) 185, Adv C. Ch. Bioch.(1984)42'
+# 1H extracted from:
+# b-D-Galp-(1-4)-b-D-GlcpNAc-(1-6)+
+#                                 |
+#                               D-GalNAc-ol
+#                                 |
+#                   b-D-Galp-(1-3)+
+
+# 13C extracted from:
+# a-L-Fucp-(1-2)-b-D-Galp-(1-4)-b-D-GlcpNAc-(1-6)+
+#                                                |
+#                                              D-GalNAc-ol
+#                                                |
+#                a-D-GlcpNAc-(1-4)-b-D-Galp-(1-3)+
+
+dimer 'bDGlcNAc(1->6)DGalNAcol' {
+shift 6.23 -0.18; -1.71 0.05; 0.99 0.01; -0.51 0.03; -0.2 -0.01; -0.95 0 0.02
+shift 0 0; 0
+shift -0.1 0 -0.02; 0.1 0; 0 0; -0.4 -0.04; -0.3 0.09; 4.7 0.03 0.24
+shift 0 0; 0
+error 2.5
+info $ref
+}

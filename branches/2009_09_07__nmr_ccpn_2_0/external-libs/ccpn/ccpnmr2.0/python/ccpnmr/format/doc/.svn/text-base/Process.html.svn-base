@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-Process</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>Process</H1>
+            <UL>
+        <LI><B>Run linkResonances</B>: Run this script after you have read in
+            sequence and NMR information. It links the Data Model Resonances to
+            Atoms, effectively assigning the NMR information to particular
+            atom(s).
+        <LI><B>Check stereo status prochirals</B>: Set the stereospecific
+            assignment status for resonances assigned to prochiral atoms.
+        <LI><B>Create chemical shifts from peaklist(s)</B>: Create chemical
+			shift list based on peak list(s) in the Data Model.
+        <LI><B>Group chemical shifts for deposition</B>: Display the percentage
+			of atoms that are currently assigned (based on atom groupings).
+        <LI><B>Write resonance->atom mapping file</B>: Write out a text file
+			with the resonance to atom links.
+        <LI><B>Write BMRB chem shift deposition</B>: This allows you to write a
+            BMRB chemical shift deposition file (<I>Note: this is for NMR-STAR
+            v2.1.1 only. It should work fine in most cases as long as shifts are
+            written out chain by chain.</I>)
+        </UL>
+
+    </TABLE>
+  </BODY>
+</HTML>

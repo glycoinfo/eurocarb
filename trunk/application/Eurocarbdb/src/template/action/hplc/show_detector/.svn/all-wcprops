@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/hplc/show_detector
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/hplc/show_detector/error.ftl
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/hplc/show_detector/input.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/hplc/show_detector/success.ftl
+END

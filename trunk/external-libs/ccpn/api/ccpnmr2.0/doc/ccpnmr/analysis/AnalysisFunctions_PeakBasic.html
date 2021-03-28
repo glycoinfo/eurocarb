@@ -1,0 +1,481 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis Functions:PeakBasic</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis Functions:PeakBasic</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Coding Library:</NOBR> <NOBR>Analysis Functions</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">AssignmentBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_ConstraintBasic.html">ConstraintBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_DataAnalysisBasic.html">DataAnalysisBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_ExperimentBasic.html">ExperimentBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_MarkBasic.html">MarkBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_MoleculeBasic.html">MoleculeBasic</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="AnalysisFunctions_PeakBasic.html">PeakBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_QualityControlBasic.html">QualityControlBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_StructureBasic.html">StructureBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_WindowBasic.html">WindowBasic</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>  <TABLE WIDTH="100%">
+    <TR><TD COLSPAN=3 CLASS="pageHead">addPeak <SPAN CLASS="i">(peakList, position, tile=None, parent=None, doFit=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Add a peak to a peak list at a position in a specified GUI tile location    </TD><TD CLASS="pageBody"> Nmr.PeakList, List of Floats (Nmr.PeakDim.positions), List of Ints (Nmr.PeakDim.numAliasing), Tkinter.widget (GUI parent)    </TD><TD CLASS="pageBody"> Nmr.Peak  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">addPeakToSelected <SPAN CLASS="i">(peak, parent=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Add a peak to the GUI current peak selection    </TD><TD CLASS="pageBody"> Nmr.Peak, Tkinter.widget    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">aliasedPeakDimPosition <SPAN CLASS="i">(peakDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give the aliased points position of a given peak dimension    </TD><TD CLASS="pageBody"> Nmr.PeakDim    </TD><TD CLASS="pageBody"> Float (Nmr.PeakDim.position points)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">arePeaksAssignedSame <SPAN CLASS="i">(peakA, peakB)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine whether peaks carry the same resonance assignments             PeakDimContrib order unimportant    </TD><TD CLASS="pageBody"> Nmr.Peak, Nmr.Peak    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">checkContourRegion <SPAN CLASS="i">(peak)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Ensure the contours of a peaks spectrum extend to cover the input peak's position.    </TD><TD CLASS="pageBody"> Nmr.Peak    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">copyPeakList <SPAN CLASS="i">(peakList, destPeakList, progressBar=None, rePick=False)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Copies peaks from one peak list to another if appropriate, i.e dimension isotopes match             Has the option to re-pick peaks, rather than doing a straight copy,             NB this routine will *not* handle subpeaks correctly    </TD><TD CLASS="pageBody"> Nmr.PeakList, Nmr.PeakList, ProgressBar, Boolean    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">copyPeakListNew <SPAN CLASS="i">(peakList, destDataSource, peakListParams=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Copies an entire peak list to another (or the same) DataSource)             There are no appropriateness tests (so far)             NB this routine *will* handle subpeaks corrently    </TD><TD CLASS="pageBody"> Nmr.PeakList, Nmr.DataSource, dictionary             peakListParams is a dictionary of parameters that will be passed             to the copy of the peaklist (for e.g. changing its name)    </TD><TD CLASS="pageBody"> Nmr.PeakList (new peak list)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">deletePeak <SPAN CLASS="i">(peaks)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Delete given peaks with a warning    </TD><TD CLASS="pageBody"> List of Nmr.Peaks    </TD><TD CLASS="pageBody"> Boolean (success)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">doPeaksOverlap <SPAN CLASS="i">(peakA, peakB)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine if two peaks overlap accordint to their data dim             assignment tolerance.    </TD><TD CLASS="pageBody"> Nmr.Peak, Nmr.Peak    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findClosePeaks <SPAN CLASS="i">(peak, peakList, tolerances=None, pickNewPeaks=False)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find peaks in a peak list within position tolerances of the input peak.             Default tolerances are the assignment tolerances for each dimension             The peak dimension distances are weighted according to the tolerances.             Option to pick new peaks if no existing peaks are found.    </TD><TD CLASS="pageBody"> Nmr.Peak, Nmr.PeakList, List of Floats, Boolean    </TD><TD CLASS="pageBody"> List of Nmr.Peaks  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findDataDimRegions <SPAN CLASS="i">(dataDim, region, axisUnit, thickness)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Define a region of a data dimension in terms of a  given axis unit with extra thickness if required    </TD><TD CLASS="pageBody"> Nmr.FreqDataDim, List of List of Floats (min,max poitions), Word (ShiftList.unit), List of Floats    </TD><TD CLASS="pageBody"> List of Tuple of Floats min,max poitions), Float (min value), Float (max value)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findMatchingPeaks <SPAN CLASS="i">(peakList, peakDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find peaks within a peak list that are within the data dim assignment tolerance    </TD><TD CLASS="pageBody"> Nmr.PeakList, Nmr.PeakDim    </TD><TD CLASS="pageBody"> List of Nmr.Peaks  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findNumAliasing <SPAN CLASS="i">(dataDimRef, p)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the number if aliased spectral widths at a given point for a reference data dimension    </TD><TD CLASS="pageBody"> Nmr.DataDimRef, Float    </TD><TD CLASS="pageBody"> Int (number of aliasings)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findPeakBoxValues <SPAN CLASS="i">(peak)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Estimates the value of a peak's box width    </TD><TD CLASS="pageBody"> Nmr.Peak    </TD><TD CLASS="pageBody"> List of List of Floats (min,max points positions for dim), List of Floats (Nmr.PeakDim.BoxWidth in points), List of Floats (centre position)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findPeakVolume <SPAN CLASS="i">(peak)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Finds the volume of a peak using the volume method stored in application specific data.    </TD><TD CLASS="pageBody"> Nmr.Peak    </TD><TD CLASS="pageBody"> Float  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findPeaks <SPAN CLASS="i">(peakList, region, parent=None, thickness=None, excludedRegions=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Pick new peaks in a given region (units: ppm) of a peak list.             Thickness (units: points) can be specified for orthogonal dimensions             to include extra planes (must be of length ndim).             ExcludedRegions (units: points) can be specified to exclude a list of             regions.  Each list is an ndim list of 2-tuples, with each 2-tuple the             (min, max) of that dimension.             Peaks are added to the GUI current selection.    </TD><TD CLASS="pageBody"> Nmr.PeakList, List of List of Floats (min,max positions) in ppm, 'w'idget, List of Floats, List of List of 2-tuples of Floats in points    </TD><TD CLASS="pageBody"> List of Nmr.Peaks  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findPositionMatches <SPAN CLASS="i">(peaks, dimNum, peakLists=None, matchTolerance=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Search the targetPeak list or the peak lists of the input peaks for other groups             of peaks which have matches to the positions of the input peaks in the given             dimension. Returns a ranked list of group positions in order of strength of match.             Option to pass in a tolerance for the match dimension.    </TD><TD CLASS="pageBody"> List of Nmr.Peaks, Int, Nmr.PeakLists, Float    </TD><TD CLASS="pageBody"> List of Floats (positions)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findSameAssignmentPeaks <SPAN CLASS="i">(peak, peakList=None, onlyFullyAssigned=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find a peak in a peak list (or all peak lists if none is specified)             with the same assignment as the input peak, if it exists. Option to             specifiy that the funtion only works for fully assigned peaks.    </TD><TD CLASS="pageBody"> Nmr.Peak, Nmr.PeakList    </TD><TD CLASS="pageBody"> List of Nmr.Peaks  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findShiftDistPeakMatches <SPAN CLASS="i">(peak, peakList, threshold, scaleFactorDict=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find peaks within a given shift distance threshold of a peak and rank them by distance.             A different threshold is uesd for each peak dim accoding to a dictonary             of scale factors keyed by isotope.    </TD><TD CLASS="pageBody"> Nmr.Peak, Nmr.PeakList, Floats (threshold), Dict of ExpdimRef.isotopeCode:Float    </TD><TD CLASS="pageBody"> List of 2-Lists [Float, Nmr.Peak] - (distance, peak)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findSymmetryPeaks <SPAN CLASS="i">(peak, tolerances=None, peakLists=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the symmetry related transpose peaks (e.g. NOE return)             within tolerances given an input peak.             Option to search a given set of peak lists the             default is otherwise the input peaks list.    </TD><TD CLASS="pageBody"> List of Nmr.Peak    </TD><TD CLASS="pageBody"> List of Nmr.Peaks  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getAliasedPeakDimPositions <SPAN CLASS="i">(peakDim, shiftRanges)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give all the aliased/unaliased positions of a peakDim either in a             specified shift range or the full range for the dimension type.             Units for the shift ranges are ppm    </TD><TD CLASS="pageBody"> Nmr.PeakDim, List of (Tuples of Floats (MinShift,MaxShift) )    </TD><TD CLASS="pageBody"> List of Floats (Nmr.PeakDim.positions)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getClosestPeak <SPAN CLASS="i">(peak, peaks, tolerances)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the closest peak to the input peak from a list of peaks.             The peak dimensions are weighted according to input tolerances.    </TD><TD CLASS="pageBody"> Nmr.Peak, List of Nmr.Peaks, List of Floats    </TD><TD CLASS="pageBody"> Nmr.Peak  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getDataDimRefMapping <SPAN CLASS="i">(dataSource, targetDataSource)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get a mapping of the dataDimRefs for a data source to the equivalent             dataDimRefs in a target data source.    </TD><TD CLASS="pageBody"> Nmr.DataSource, Nmr.DataSource    </TD><TD CLASS="pageBody"> Dict of Nmr.DataDimRef:Nmr.DataDimRef  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getDiagonalExclusion <SPAN CLASS="i">(dataDim1, dataDim2, exclusion)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the diagonal exclusion for (dataDim1, dataDim2)    </TD><TD CLASS="pageBody"> Nmr.AbstractDataDim, Nmr.AbstractDataDim    </TD><TD CLASS="pageBody"> The diagonal exclusion as a 5-tuple:             (dim1, dim2, dim1 scale, dim2 scale, dim1 to dim2 translation)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getDiagonalExclusions <SPAN CLASS="i">(spectrum)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the diagonal exclusions for a given spectrum (used in C world).    </TD><TD CLASS="pageBody"> Nmr.DataSource    </TD><TD CLASS="pageBody"> List of diagonal exclusions, each is a 5-tuple:             (dim1, dim2, dim1 scale, dim2 scale, dim1 to dim2 translation)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getExclusionInfo <SPAN CLASS="i">(dataDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the exclusion information for dataDim    </TD><TD CLASS="pageBody"> Nmr.AbstractDataDim    </TD><TD CLASS="pageBody"> The exclusion information as a 2-tuple:             (scale, translation)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getIsotopeWeightedTolerances <SPAN CLASS="i">(peak, tolerance, scaleFactorDict=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Weight a shift distance tolerance according to the isotopes             that correspond to a peak dimension, with the option to             pass in the isotope scale factors.             Also returns scale factors used for each dimension.    </TD><TD CLASS="pageBody"> Nmr.Peak,  Float (tolerance), Dict of Resonance.isotopeCode:Float (isotope: scale factor)    </TD><TD CLASS="pageBody"> List of Floats (tolerences), List of Floats (scale factors)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakAnnotation <SPAN CLASS="i">(peak, noPeakAnnotationChar='', noPeakDimAnnotationChar='', joinChar='')</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get annotation text for the peak.    </TD><TD CLASS="pageBody"> ccp.nmr.Nmr.Peak, String, String, String    </TD><TD CLASS="pageBody"> String  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakDimAtomName <SPAN CLASS="i">(peakDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> DEPRICATED not in use.    </TD><TD CLASS="pageBody"> Nmr.PeakDim    </TD><TD CLASS="pageBody"> String  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakDimPosition <SPAN CLASS="i">(peakDim, toUnit='point')</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give the position of peak dimension in specified units    </TD><TD CLASS="pageBody"> Nmr.PeakDim, Word (ShiftList.unit)    </TD><TD CLASS="pageBody"> Float  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakDimPpm <SPAN CLASS="i">(peakDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> **Often depricated given peakDim.value** Get the position of a peak dimension in PPM    </TD><TD CLASS="pageBody"> Nmr.PeakDim    </TD><TD CLASS="pageBody"> Float (ppm)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakHeight <SPAN CLASS="i">(peak)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Gives a peak's height    </TD><TD CLASS="pageBody"> Nmr.Peak    </TD><TD CLASS="pageBody"> Float (Nmr.PeakIntensity.value)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakIntensity <SPAN CLASS="i">(peak, intensityType)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Gives a peak's intensity value according to the input intensity type    </TD><TD CLASS="pageBody"> Nmr.Peak    </TD><TD CLASS="pageBody"> Float (Nmr.PeakIntensity.value)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakMatchRegion <SPAN CLASS="i">(peak, tolerances)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get a region (list of min max bound for each dimension) around a peak position with bounds set by input tolerances.             The region will be twice the tolerance width and centered on the peakDim position.    </TD><TD CLASS="pageBody"> Nmr.Peak, List of Floats (tolerances for each Nmr.PeakDim)    </TD><TD CLASS="pageBody"> List or (Float, Float)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakVolume <SPAN CLASS="i">(peak)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Gives a peak's volume    </TD><TD CLASS="pageBody"> Nmr.Peak    </TD><TD CLASS="pageBody"> Float (Nmr.PeakIntensity.value)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeaksOverlapScore <SPAN CLASS="i">(peakA, peakB, tolerances=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get a score for how well overlapped two peaks are. Scores for each peak dimension are normalised with respect to             input dimension tolerances (often DataDim assignment tolerance)             Default tolerances are the assignment tolerances for each dimension    </TD><TD CLASS="pageBody"> Nmr.Peak, Nmr.Peak, List of Floats (tolerances for each Nmr.PeakDim)    </TD><TD CLASS="pageBody"> Float  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getShiftIntersections <SPAN CLASS="i">(shiftsList, intersections=None, shifts=None, dim=0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getSpinSystemLinksLabel <SPAN CLASS="i">(peak)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Makes a setring describing the spin system connectivities of a peak.    </TD><TD CLASS="pageBody"> Nmr.Peak    </TD><TD CLASS="pageBody"> Line  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">isPeakInRegion <SPAN CLASS="i">(peak, region, acceptAlias=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine whether a peak is within a given region optionally considering aliasing    </TD><TD CLASS="pageBody"> Nmr.Peak, List of List of Floats (min,max poitions), Boolean    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeIntermediatePeak <SPAN CLASS="i">(peaks)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a peak which is intermediate in position to             the input peaks    </TD><TD CLASS="pageBody"> List of Nmr.Peaks    </TD><TD CLASS="pageBody"> Nmr.Peak  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makePeakAnnotation <SPAN CLASS="i">(peak)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Sets the annotation for a peak that indicates peak molSystem, merit and details             (not the annotation of peakDims)    </TD><TD CLASS="pageBody"> Nmr.Peak    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makePeakListFromShifts <SPAN CLASS="i">(spectrum, useUnassigned=True, progressBar=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make an arteficial peak list using shift intersections from a shift list             Boolean option to consider only shifts with atom assigned resonances    </TD><TD CLASS="pageBody"> Nmr.ShiftList, Nmr.DataSource, Boolean. memops.gui.ProgressBar    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeTransposePeakList <SPAN CLASS="i">(peakList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a transpose peak list, where equivalent dimension positions are swapped,             using peak positions form an existing peak list. The new peak list is created             in the same spectrum as the input. Assignments will be copied, and this will             not affect the shift values.    </TD><TD CLASS="pageBody"> ccp.nmr.Nmr.PeakList    </TD><TD CLASS="pageBody"> ccp.nmr.Nmr.PeakList  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">mergePeaks <SPAN CLASS="i">(peaks)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Merge two peaks together. * Function needs work/checking * Not really used in Analysis currently    </TD><TD CLASS="pageBody"> List of Nmr.Peaks    </TD><TD CLASS="pageBody"> Nmr.Peak  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">movePeak <SPAN CLASS="i">(peak, posn)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Move a peak to a given position. Automatically calculates any peak aliasing    </TD><TD CLASS="pageBody"> Nmr.Peak, List of Floats (Nmr.PeakDim.postion in points)    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">pickPeak <SPAN CLASS="i">(peakList, position, unit='point', doFit=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Pick a peak at a given position in given units in a peak list.    </TD><TD CLASS="pageBody"> Nmr.PeakList, List of Floats (Nmr.PeakDim.positions), Word (Nmr.ShiftList.unit), Boolean    </TD><TD CLASS="pageBody"> Nmr.Peak  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">propagatePeakUnaliasing <SPAN CLASS="i">(refPeak, peaks)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Gives the same positional unaliasing (as the input reference peak)             to a group of peaks.    </TD><TD CLASS="pageBody"> Nmr.Peak, List of Nmr.Peaks    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">refreshPeakAnnotations <SPAN CLASS="i">(project)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Refreshes all of the peak and peakDim annotations for all peaks in a project    </TD><TD CLASS="pageBody"> Project    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">removePeakFromSelected <SPAN CLASS="i">(peak, parent=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Remove a peak to the GUI current peak selection    </TD><TD CLASS="pageBody"> Nmr.Peak, Tkinter.widget    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">removePeaksAssignment <SPAN CLASS="i">(peaks)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Clear all peak dimension contribs for a list of peaks    </TD><TD CLASS="pageBody"> List of Nmr.Peaks    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">searchPeaks <SPAN CLASS="i">(peakLists, region, parent=None, thickness=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find existing peaks within a given region of a peak list. Add peaks to the current GUI selection.             Thickness (units: points) can be specified for orthogonal dimensions             to include extra planes (must be of length ndim or is ignored for a given peakList).    </TD><TD CLASS="pageBody"> Nmr.PeakList, List of List of Floats (min,max positions), 'w'idget, List of Floats    </TD><TD CLASS="pageBody"> List of Nmr.Peaks  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setManualPeakIntensity <SPAN CLASS="i">(peak, value, intensityType='height')</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Manually define a peaks volume/height    </TD><TD CLASS="pageBody"> Nmr.Peak, Float (Nmr.PeakIntensity.value), String (Nmr.PeakIntensity.intensityType)    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setPeakDimNumAliasing <SPAN CLASS="i">(peakDim, numAliasing, doWarning=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Set the number of peakDim aliasings to set a peakDim position and             put it at its non-folded, correct ppm    </TD><TD CLASS="pageBody"> Nmr.PeakDim, Integer (peakDim.numAliasing)    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setPeakPosition <SPAN CLASS="i">(peak, position, tile)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Define the position of a peak and its aliasing tile    </TD><TD CLASS="pageBody"> Nmr.Peak, List of Floats (Nmr.PeakDim.position), List of Ints (Nmr.PeakDim.numAliasing)    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setupPeak <SPAN CLASS="i">(peak, doFit=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Initialise reference data dimensions, peak position and intensities for a new peak.    </TD><TD CLASS="pageBody"> Nmr.Peak (new)    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setupPeakDataDimRef <SPAN CLASS="i">(peak)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Gives a peak a default data dim reference if it has none    </TD><TD CLASS="pageBody"> Nmr.Peak    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setupPeakFit <SPAN CLASS="i">(peak)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Fit a newly created Nmr.Peak to a position in the spectral data specified by its dataSource    </TD><TD CLASS="pageBody"> Nmr.Peak (new)    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setupPeakHeight <SPAN CLASS="i">(peak)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine a peaks height from the spectral data specified by its dataSource    </TD><TD CLASS="pageBody"> Nmr.Peak    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setupPeakVolume <SPAN CLASS="i">(peak)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine a peaks volume from the spectral data specified by its dataSource    </TD><TD CLASS="pageBody"> Nmr.Peak    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">snapPeak <SPAN CLASS="i">(peak, doFit=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Snap peak to the local maximum             (optionally do a fit for the center point)    </TD><TD CLASS="pageBody"> List of Nmr.Peaks, Boolean    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">snapPeaks <SPAN CLASS="i">(peaks, doFit=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Snap peaks to the local maximum             (optionally do a fit for the center point)    </TD><TD CLASS="pageBody"> List of Nmr.Peaks, Boolean    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">structurePredictNoePeakList <SPAN CLASS="i">(structure, spectrum, distThreshold=5.0, progressBar=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">translateSpectrumUsingPeaks <SPAN CLASS="i">(referencePeak, translatePeak, dimMapping)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Translate spectrum referencing using a translatePeak from that             spectrum and a referencePeak from another spectrum.  Use a dimMapping             to specify what dimensions in the translate spectrum are mapped             to what dimensions in the reference spectrum, and only these             dimensions are translated.    </TD><TD CLASS="pageBody"> ccp.nmr.Nmr.Peak, ccp.nmr.Nmr.Peak, dict: int->int    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+  </TABLE>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

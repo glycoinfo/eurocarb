@@ -1,0 +1,489 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis Functions:WindowBasic</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis Functions:WindowBasic</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Coding Library:</NOBR> <NOBR>Analysis Functions</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">AssignmentBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_ConstraintBasic.html">ConstraintBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_DataAnalysisBasic.html">DataAnalysisBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_ExperimentBasic.html">ExperimentBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_MarkBasic.html">MarkBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_MoleculeBasic.html">MoleculeBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_PeakBasic.html">PeakBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_QualityControlBasic.html">QualityControlBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_StructureBasic.html">StructureBasic</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="AnalysisFunctions_WindowBasic.html">WindowBasic</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>  <TABLE WIDTH="100%">
+    <TR><TD COLSPAN=3 CLASS="pageHead">assignPeak <SPAN CLASS="i">(argServer=None, event=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Assign peak at location (if any nearby).    </TD><TD CLASS="pageBody"> ArgumentServer, WindowPopup, WindowCanvas, float, float    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">autoPeakLabelPos <SPAN CLASS="i">(argServer)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Automatically tidy the annotation labels of selected peaks.    </TD><TD CLASS="pageBody"> ArgumentServer    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">centerAxisRegion <SPAN CLASS="i">(axisRegion, center)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Move and axis region so that it is centred on the input value    </TD><TD CLASS="pageBody"> Analysis.AsisRegion, Float    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">centerWindow <SPAN CLASS="i">(argServer=None, event=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Center window at location.    </TD><TD CLASS="pageBody"> ArgumentServer, TkEvent    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">changeViewMapping <SPAN CLASS="i">(guiParent, topWidget, view)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">cloneSpectrumWindow <SPAN CLASS="i">(window, name=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> clone an existing spectrum window to make a new one    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">contourLevelsDown <SPAN CLASS="i">(argServer=None, windowPopup=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">contourLevelsUp <SPAN CLASS="i">(argServer=None, windowPopup=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">copySpectrumWindowViewProperties <SPAN CLASS="i">(oldWindow, newWindow)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> copy view visibility properties from one window to another    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow, Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">createHorizontalRuler <SPAN CLASS="i">(argServer=None, event=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Create horizontal ruler at location.    </TD><TD CLASS="pageBody"> ArgumentServer, TkEvent    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">createMark <SPAN CLASS="i">(argServer=None, event=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Create mark at location.    </TD><TD CLASS="pageBody"> ArgumentServer, TkEvent    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">createVerticalRuler <SPAN CLASS="i">(argServer=None, event=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Create vertical ruler at location.    </TD><TD CLASS="pageBody"> ArgumentServer, TkEvent    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">defaultWindowName <SPAN CLASS="i">(project)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine a default window name.    </TD><TD CLASS="pageBody"> Project    </TD><TD CLASS="pageBody"> Window name  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">deleteSelected <SPAN CLASS="i">(argServer=None, analysisPopup=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Delete selected objects.    </TD><TD CLASS="pageBody"> ArgumentServer, AnalysisPopup    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">displayPeakStrips <SPAN CLASS="i">(analysis, peaks, window=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Create a number of strips at peak locations along a given strip axis.             The ortho value of the strips will be the mean peak position for             the orthogonal axis. A new window may be created if needed.    </TD><TD CLASS="pageBody"> Analysis (Tkinter top level), List of Nmr.Peaks, Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">displaySpinSystemStrips <SPAN CLASS="i">(analysis, spinSystems, window, splitIntoCells=0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> For a given window, display the strips appropriate for a given spin system.             Option to further divide the strips along the y axis according to spin system shifts,    </TD><TD CLASS="pageBody"> Analysis (Tkinter top level), Nmr.ResonanceGroup, Analysis.SpectrumWindow, Boolean    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">displayStrips <SPAN CLASS="i">(analysis, positions, orthoPositions=None, spectrum=None, window=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Create a number of strips at specified positions in a new or existing spectrum window             Positions are specified in dictionary form. e.g. {'x': 7.43, 'y': 4.21, 'z1': 121.96}             Orthogonal positions may be specified to further divide strips into cells.             A spectrum is specified so that the appropriate type of window can be made if needed.    </TD><TD CLASS="pageBody"> Analysis (Tkinter top level), List of Dicts (axis:location),             List of Floats, Nmr,DataSource, Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findOrthogonalWindows <SPAN CLASS="i">(queryWindow, positions, excludeQuery=True, minDims=3)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Given positions in the input query window, find all equivalent points in all spectrum windows             which have either a) a Z dimension that matches any one of the dimensions of the query window             or b) two dimemsions that match the query window.             Returns a list of mappings for each target window, comprising a mapping name (e.g. for GUIs) the             target spectrum window and the target position. There is boolean option, to say whether the             query window mapping is to be excluded form the output, this is usually true for searches             originating from windows, but may not be so  if the query comes from a table.             The minDims optional argument determines the minimum number of dimensions that a target             window must have to be considered.    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow, List of List of Floats (position), Boolean, Int    </TD><TD CLASS="pageBody"> List of Lists [String (Mapping Name), Analysis.SpectrumWindow , List of Floats (position)]  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findWindowTransposes <SPAN CLASS="i">(queryWindow, xyz)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Given a position in the input query window, find all equivalent points in the window             which represent a swapping of coordinates for similarly types axes.             Returns a list of mappings for each target window, comprising a mapping name (e.g. for GUIs) the             target spectrum window and the target position.    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow, List of Floats (position)    </TD><TD CLASS="pageBody"> List of Lists [String (Mapping Name), Analysis.SpectrumWindow , List of Floats (position)]  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getActiveWindows <SPAN CLASS="i">(project)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the currently active windows in a project    </TD><TD CLASS="pageBody"> Implementation.Project    </TD><TD CLASS="pageBody"> List of Analysis.SpectrumWindows  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getAxisRegionRegion <SPAN CLASS="i">(axisRegion)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getDataDimAxisMapping <SPAN CLASS="i">(spectrum, window)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find a mapping between axes in a spectrum window and the data dimensions of a spectrum:             Works initially with dataDim matches.    </TD><TD CLASS="pageBody"> Nmr.DataSource, Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> Dictionary of Nmr.DataDims keyed by 'x','y','z1' etc  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getDefaultAspectRatio <SPAN CLASS="i">(axisTypes)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getEquivalentWindows <SPAN CLASS="i">(queryWindow)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get a list of windows with the same axis types as the query window    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> List of Analysis.SpectrumWindows  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakDimAxisMapping <SPAN CLASS="i">(peak, window)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find a mapping between axes in a spectrum window and the dimensions of a peak:             Works initially with dataDim matches.    </TD><TD CLASS="pageBody"> Nmr.Peak, Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> Dictionary of Nmr.PeakDims keyed by 'x','y','z1' etc  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakWindowPosition <SPAN CLASS="i">(peak, window, default=None, useDefault=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the position of a peak in a given window's coordinates             Copes with peakDims ordering being different to window axis order.             If peaks do not match a window axis a default position may be used otherwise             the default position is the current window location. If useDefault is False             None will be entered instead of a default location.    </TD><TD CLASS="pageBody"> Nmr.Peak, Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> List of Floats  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getRepeatingAxes <SPAN CLASS="i">(window)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> For a spectrumm window, gets a list of pairs of axis panels that are of the same type.    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> List of Tuple of Analysis.AxisPanels (pairs of same type)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getSpectrumViews <SPAN CLASS="i">(spectrum)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get a list of all the window views of a spectrum.    </TD><TD CLASS="pageBody"> Nmr.DataSource    </TD><TD CLASS="pageBody"> List of Analysis.SpectrumWindowViews  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getSpectrumWindowView <SPAN CLASS="i">(spectrumWindow, spectrum)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the SpectrumWindowView object for a given spectrum an a window.    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow, Nmr.DataSource    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindowView  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getSpinSystemWindowShifts <SPAN CLASS="i">(spinSystems, window, shiftList=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the shifts (linked to primary/z axes) visible in a given window that are represented by the             resonances of a spin system. Also returns a list of orthogonal axis shifts.    </TD><TD CLASS="pageBody"> List of Nmr.ResonanceGroups, Analysis.SpectrumWindow, Nmr.ShiftList, String ('x' or 'y')    </TD><TD CLASS="pageBody"> List of Dict of Word:Nmr.Shift (dimName:position eg 'z1':Shift), List of Nmr.Shifts  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getWindowAxisTypes <SPAN CLASS="i">(window)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get a list of names representing the axis types of a window.    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> List of Strings (Analysis.AxisType.name)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getWindowCanvas <SPAN CLASS="i">(argServer, canvas=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the popup, and canvas if None passed in, for this argServer.    </TD><TD CLASS="pageBody"> ArgumentServer, WindowCanvas    </TD><TD CLASS="pageBody"> (WindowPopup, WindowCanvas)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getWindowCanvasLocation <SPAN CLASS="i">(argServer, event=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the popup, canvas and event location, for this argServer.    </TD><TD CLASS="pageBody"> ArgumentServer, 'e'vent    </TD><TD CLASS="pageBody"> (WindowPopup, WindowCanvas)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">gotoResonancePosition <SPAN CLASS="i">(analysis, resonance, window, shiftList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Go to the position of a given resonance (according to the input shiftlist)             in a given window. Note currently only goes to first available axis not all.    </TD><TD CLASS="pageBody"> Analysis (Tkinter top level), Nmr.Resonance, Analysis.SpectrumWindow, Nmr.ShiftList    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">initWindowMacros <SPAN CLASS="i">(project)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Initialise window macros, adding default ones that not already included    </TD><TD CLASS="pageBody"> Implementation.Project (the project)    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">isActiveWindow <SPAN CLASS="i">(window)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine if a window is active within its project    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">isSpectrumInWindow <SPAN CLASS="i">(spectrumWindow, spectrum)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine if a spectrum is displayable in a given window.    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow, Nmr.DataSource    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">movePeak <SPAN CLASS="i">(argServer=None, event=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Move peak to location.    </TD><TD CLASS="pageBody"> ArgumentServer, TkEvent    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">movePeakAnnotation <SPAN CLASS="i">(argServer=None, event=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Move peak to location.    </TD><TD CLASS="pageBody"> ArgumentServer, TkEvent    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">ncontoursDecr <SPAN CLASS="i">(argServer=None, windowPopup=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">ncontoursIncr <SPAN CLASS="i">(argServer=None, windowPopup=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">orthogScrollLeft <SPAN CLASS="i">(argServer=None, canvas=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Scroll to left in orthogonal (z1) dimension in window.    </TD><TD CLASS="pageBody"> ArgumentServer, WindowCanvas    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">orthogScrollRight <SPAN CLASS="i">(argServer=None, canvas=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Scroll to right in orthogonal (z1) dimension in window.    </TD><TD CLASS="pageBody"> ArgumentServer, WindowCanvas    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">popupMenu <SPAN CLASS="i">(argServer=None, event=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Popup right mouse menu    </TD><TD CLASS="pageBody"> ArgumentServer, TkEvent    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">refinePeakLabelPositions <SPAN CLASS="i">(peaks, spectrumWindow, analysis)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Automatically tidy the peak annotation labels in the x-y plane             of a window for a given list of peaks.    </TD><TD CLASS="pageBody"> List of nmr.Nmr,peaks, Analysis.SpectrumWindow, Analysis GUI    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">resetPeakLabelPositions <SPAN CLASS="i">(peaks, spectrumWindow)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Reset the peak annotation labels in the x-y plane             of a window for a given list of peaks.    </TD><TD CLASS="pageBody"> List of nmr.Nmr,peaks, Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">resetPeakLabelsPos <SPAN CLASS="i">(argServer)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Automatically tidy the annotation labels of selected peaks.    </TD><TD CLASS="pageBody"> ArgumentServer    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setWindowPeakListState <SPAN CLASS="i">(winPeakList, state)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Set the view state for a peak list in a window.             This will set the drawing state of the annotation             and the crosspeak symbol.    </TD><TD CLASS="pageBody"> Analysis.WindowPeakList, Boolean    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">showSelectedPeaks <SPAN CLASS="i">(argServer=None, analysisPopup=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Show selected peaks.    </TD><TD CLASS="pageBody"> ArgumentServer, AnalysisPopup    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">snapPeaks <SPAN CLASS="i">(argServer=None, windowPopup=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Move peak to location.    </TD><TD CLASS="pageBody"> ArgumentServer, TkEvent    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">swapStripAxis <SPAN CLASS="i">(analysis, window)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Swap vertical strips for horizontal ones and vice versa. Preserves number             active index and z positions    </TD><TD CLASS="pageBody"> Analysis (Tkinter top level), Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">togglePeakList <SPAN CLASS="i">(window, peakList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Toggle whether the picked peaks of a peak list are             displayed in a spectrum window.    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow, Nmr.PeakList    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">toggleSpectrum <SPAN CLASS="i">(window, shortcut=None, spectrum=None, isGlobal=False)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Toggle whether a spectrum is diaplayed in a spectrum window.    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow, Int, Nmr.DataSource, Boolean    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">traceRoute <SPAN CLASS="i">(N, axisTypes2, axisUnits2, i, paths, path)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD><TD CLASS="pageBody"></TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">translateWindowDown <SPAN CLASS="i">(argServer=None, canvas=None, fraction=0.25)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Translate window down by fraction (default 0.25)    </TD><TD CLASS="pageBody"> ArgumentServer, WindowCanvas, fraction    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">translateWindowLeft <SPAN CLASS="i">(argServer=None, canvas=None, fraction=0.25)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Translate window left by fraction (default 0.25)    </TD><TD CLASS="pageBody"> ArgumentServer, WindowCanvas, fraction    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">translateWindowRight <SPAN CLASS="i">(argServer=None, canvas=None, fraction=0.25)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Translate window right by fraction (default 0.25)    </TD><TD CLASS="pageBody"> ArgumentServer, WindowCanvas, fraction    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">translateWindowUp <SPAN CLASS="i">(argServer=None, canvas=None, fraction=0.25)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Translate window up by fraction (default 0.25)    </TD><TD CLASS="pageBody"> ArgumentServer, WindowCanvas, fraction    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">translationFraction <SPAN CLASS="i">(argServer, fraction)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Translate window by fraction, with up/down choice determined by pan mode    </TD><TD CLASS="pageBody"> ArgumentServer, fraction    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">windowHasValueAxis <SPAN CLASS="i">(window)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine if a window has a value axis    </TD><TD CLASS="pageBody"> Analysis.SpectrumWindow    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">zoomSliceRangeDown <SPAN CLASS="i">(argServer=None, windowPopup=None, factor=2.0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Zoom slice range by factor (default 2).    </TD><TD CLASS="pageBody"> ArgumentServer, WindowPopup, factor    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">zoomSliceRangeUp <SPAN CLASS="i">(argServer=None, windowPopup=None, factor=2.0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Zoom slice range by factor (default 2).    </TD><TD CLASS="pageBody"> ArgumentServer, WindowPopup, factor    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">zoomToShowPeaks <SPAN CLASS="i">(peaks, window, row, col)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Zoom in a given row and column a given window so that all of the input peaks are visible.    </TD><TD CLASS="pageBody"> List of Nmr.Peaks, Analysis.SpectrumWindow, Int (AxisPanel.axisRegion index)    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">zoomWindowIn <SPAN CLASS="i">(argServer=None, canvas=None, factor=2.0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Zoom in window by factor (default 2).    </TD><TD CLASS="pageBody"> ArgumentServer, WindowCanvas, factor    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">zoomWindowOut <SPAN CLASS="i">(argServer=None, canvas=None, factor=2.0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Zoom out window by factor (default 2).    </TD><TD CLASS="pageBody"> ArgumentServer, WindowCanvas, factor    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+  </TABLE>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

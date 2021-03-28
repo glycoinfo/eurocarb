@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Classification">
+  <joined-subclass
+    name="HolderCategory"
+    extends="ccp.api.lims.Classification.AbstractCategory"
+    table="CLAS_HOLDERCATEGORY"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">The category of the holder classified by namingSystem. Different organisations can have their own categories.</meta>
+  <key column="ABSTRACTCATEGORYID" foreign-key="CLAS_HOLDCATE_ABSTCATE_FK"/>
+  
+  <many-to-one
+    name="hbClassification"
+    column="CLASSIFICATIONID"
+    class="ccp.api.lims.Classification.Classification" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="CLAS_HOLDCATE_CLAS_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbAbstractHolderTypes" 
+    table="HOLD_ABSTHOLDTYPE2HOLDCATE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbAbstractHolderType</meta>
+    <cache usage="read-write"/>
+    <key column="HOLDERCATEGORYID" foreign-key="HOLD_ABSTHOLDTYPE_HOLDCATE_FK"/>
+    <many-to-many column="ABSTRACTHOLDERTYPEID" class="ccp.api.lims.Holder.AbstractHolderType" foreign-key="CLAS_HOLDCATE_ABSTHOLDTYPE_FK"/>
+  </set>
+  
+  <set 
+    name="hbHolders" 
+    table="HOLD_HOLDER2HOLDCATE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbHolder</meta>
+    <cache usage="read-write"/>
+    <key column="HOLDERCATEGORYID" foreign-key="HOLD_HOLDER_HOLDCATE_FK"/>
+    <many-to-many column="HOLDERID" class="ccp.api.lims.Holder.Holder" foreign-key="CLAS_HOLDCATE_HOLDERS_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

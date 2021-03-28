@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.ChemComp">
+  <class
+    name="LinkEnd"
+    table="CHEM_LINKEND"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Describes one end of link to other ChemComp.  linkAtoms[0] and chemAtoms[0] must be included in the same set of chemCompVars. linkAtoms[1] and chemAtoms[1] must be included in the same set of ChemCompVars as linkAtoms[0] or in a subset of it.  There are constraints on the linkEnd, linkEnd.linkCode, ChemCompVar and ChemCompVar.linking (see ChemCompVar documentation). To satisfy the constraints the LinkEnd must be created after the ChemCompVars are created and linked to the correct AbstractChemAtoms.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.molecule.ChemComp.ChemComp"
+    not-null="true"
+    unique="false"
+    foreign-key="CHEM_LINKEND_CHEMCOMP_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_linkCode"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">code ('name') for link. The following naming convention is used: The linkCode is the same as the name of the boundChemAtom. E.g. a cysteine disulfide link will have linkCode 'SG'. The first exception is the case where there is more than one link starting at the same atom - here the linkCodes are the name of the first linkAtom followed by '_1', '_2'. E.g. an atom CX with three links starting from it will have linkEnds with linkCodes CX_1, CX_2, CX_3. If two different atom subtypes both have a link, the linkCodes are of the same form - there are no fixed rules for how to apportion the various suffixes. Another exception is the 'prev' and 'next' that form the backbone of linear polymers.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LINKCODE" sql-type="VARCHAR(32)" length="32" not-null="true" unique-key="linkEndUniqueKey" />
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="CHEM_LINKEND2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbBoundChemAtom"
+    column="BOUNDCHEMATOMID"
+    class="ccp.api.molecule.ChemComp.ChemAtom" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="CHEM_LINKEND_BOUNCHEMATOM_FK" 
+  >
+    <meta attribute="field-description">One of the AbstractChemAtoms making up the Link. The direct bond is betweeen boundChemAtom (within this ChemComp) and boundLinkAtom (outside this ChemComp). The optional remoteChemAtom (within this ChemComp) and remoteLinkAtom (outside this ChemComp) arebound to the their respective boundAtoms. If defined they serve to define angles and torsions that involve the out-of-ChemComp bond.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbBoundLinkAtom"
+    column="BOUNDLINKATOMID"
+    class="ccp.api.molecule.ChemComp.LinkAtom" 
+    not-null="true"
+    unique="true"
+    foreign-key="CHEM_LINKEND_BOUNLINKATOM_FK" 
+  >
+    <meta attribute="field-description">One of the AbstractChemAtoms making up the Link. The direct bond is betweeen boundChemAtom (within this ChemComp) and boundLinkAtom (outside this ChemComp). The optional remoteChemAtom (within this ChemComp) and remoteLinkAtom (outside this ChemComp) arebound to the their respective boundAtoms. If defined they serve to define angles and torsions that involve the out-of-ChemComp bond.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbChemComp"
+    column="CHEMCOMPID"
+    class="ccp.api.molecule.ChemComp.ChemComp" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="CHEM_LINKEND_CHEMCOMP_FK" 
+    unique-key="linkEndUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbRemoteChemAtom"
+    column="REMOTECHEMATOMID"
+    class="ccp.api.molecule.ChemComp.ChemAtom" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="CHEM_LINKEND_REMOCHEMATOM_FK" 
+  >
+    <meta attribute="field-description">One of the AbstractChemAtoms making up the Link. The direct bond is betweeen boundChemAtom (within this ChemComp) and boundLinkAtom (outside this ChemComp). The optional remoteChemAtom (within this ChemComp) and remoteLinkAtom (outside this ChemComp) arebound to the their respective boundAtoms. If defined they serve to define angles and torsions that involve the out-of-ChemComp bond.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbRemoteLinkAtom"
+    column="REMOTELINKATOMID"
+    class="ccp.api.molecule.ChemComp.LinkAtom" 
+    not-null="false"
+    unique="true"
+    foreign-key="CHEM_LINKEND_REMOLINKATOM_FK" 
+  >
+    <meta attribute="field-description">One of the AbstractChemAtoms making up the Link. The direct bond is betweeen boundChemAtom (within this ChemComp) and boundLinkAtom (outside this ChemComp). The optional remoteChemAtom (within this ChemComp) and remoteLinkAtom (outside this ChemComp) arebound to the their respective boundAtoms. If defined they serve to define angles and torsions that involve the out-of-ChemComp bond.</meta>
+  </many-to-one>
+
+  </class>
+
+</hibernate-mapping>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/queries
+END
+query_aglyc_start.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/queries/query_aglyc_start.ftl
+END
+query_subst_start.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/queries/query_subst_start.ftl
+END
+query_start.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/queries/query_start.ftl
+END
+query_element_start.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/queries/query_element_start.ftl
+END
+query_monosacch_start.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/queries/query_monosacch_start.ftl
+END
+query_monosacch_properties_form.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/queries/query_monosacch_properties_form.ftl
+END

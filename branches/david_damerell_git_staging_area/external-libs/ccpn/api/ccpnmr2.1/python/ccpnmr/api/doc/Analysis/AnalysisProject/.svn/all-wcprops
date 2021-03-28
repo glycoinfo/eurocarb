@@ -1,0 +1,395 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject
+END
+spectrumWindowGroups.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/spectrumWindowGroups.html
+END
+printWinPaperSize.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinPaperSize.html
+END
+peakIntensityScale.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakIntensityScale.html
+END
+doDetailAnnotations.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/doDetailAnnotations.html
+END
+memopsRoot.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/memopsRoot.html
+END
+axisRegionGroups.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/axisRegionGroups.html
+END
+printWinFileName.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinFileName.html
+END
+rulers.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/rulers.html
+END
+printWinOtherWidth.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinOtherWidth.html
+END
+printWinTitle.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinTitle.html
+END
+printWinTickPlacement.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinTickPlacement.html
+END
+chainMappings.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/chainMappings.html
+END
+printWinTickOutside.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinTickOutside.html
+END
+maxRulers.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/maxRulers.html
+END
+linkSeqSpinSystemsData.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/linkSeqSpinSystemsData.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/parent.html
+END
+printWinInColor.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinInColor.html
+END
+printWinOutputFormat.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinOutputFormat.html
+END
+printWinOtherHeight.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinOtherHeight.html
+END
+analysisSpectra.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/analysisSpectra.html
+END
+peakFindDrop.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakFindDrop.html
+END
+linkPeakListsData.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/linkPeakListsData.html
+END
+doAssignmentAnnotations.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/doAssignmentAnnotations.html
+END
+peakFindVolumeMethod.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakFindVolumeMethod.html
+END
+printWinScaling.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinScaling.html
+END
+peakVolumeScale.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakVolumeScale.html
+END
+activeWindowGroup.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/activeWindowGroup.html
+END
+doMeritAnnotations.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/doMeritAnnotations.html
+END
+contourToUnaliased.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/contourToUnaliased.html
+END
+maxMarks.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/maxMarks.html
+END
+peakFindHaveHigh.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakFindHaveHigh.html
+END
+peakFindNonadjacent.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakFindNonadjacent.html
+END
+printWinOrientation.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinOrientation.html
+END
+doMolSysAnnotations.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/doMolSysAnnotations.html
+END
+axisUnits.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/axisUnits.html
+END
+useBootstrap.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/useBootstrap.html
+END
+peakFindThickness.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakFindThickness.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/index.html
+END
+defaultSpectrumFileType.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/defaultSpectrumFileType.html
+END
+isThreadingAllowed.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/isThreadingAllowed.html
+END
+peakFindBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakFindBuffer.html
+END
+autoBackupFreq.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/autoBackupFreq.html
+END
+doSpinSystemAnnotations.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/doSpinSystemAnnotations.html
+END
+meritAnnotationBad.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/meritAnnotationBad.html
+END
+nmrProject.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/nmrProject.html
+END
+panelTypes.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/panelTypes.html
+END
+doMinimalAnnotations.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/doMinimalAnnotations.html
+END
+peakFindScale.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakFindScale.html
+END
+analysisPopups.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/analysisPopups.html
+END
+peakDrawMethod.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakDrawMethod.html
+END
+printWinShowsFileName.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinShowsFileName.html
+END
+peakFindHaveLow.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakFindHaveLow.html
+END
+printWinShowsDateTime.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinShowsDateTime.html
+END
+printWinOtherUnit.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/printWinOtherUnit.html
+END
+marks.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/marks.html
+END
+peakPixelSize.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/peakPixelSize.html
+END
+spectrumWindows.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/spectrumWindows.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/name.html
+END
+doAutoBackup.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/doAutoBackup.html
+END
+globalContourScale.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/globalContourScale.html
+END
+doChainAnnotations.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/doChainAnnotations.html
+END
+meritAnnotationMediocre.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/meritAnnotationMediocre.html
+END
+meritAnnotationGood.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/meritAnnotationGood.html
+END
+spectrumFont.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/spectrumFont.html
+END
+axisTypes.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AnalysisProject/axisTypes.html
+END

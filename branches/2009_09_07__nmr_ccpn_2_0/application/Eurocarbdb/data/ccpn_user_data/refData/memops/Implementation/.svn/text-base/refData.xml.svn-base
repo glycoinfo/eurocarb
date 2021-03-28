@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_StorageUnit release="2.0.b2" originator="CCPN Python XmlIO" packageGuid="www.ccpn.ac.uk_Fogh_2006-08-16-14:22:53_00025" time="Sat Aug 29 16:21:56 2009">
+
+<IMPL.MemopsRoot _ID="_1" createdBy="user" name="refData">
+  <IMPL.MemopsRoot.repositories>
+    <IMPL.Repository _ID="_2">
+      <IMPL.Repository.name>
+        <IMPL.Line>backup</IMPL.Line>
+      </IMPL.Repository.name>
+      <IMPL.Repository.url>
+        <IMPL.Url>
+          <IMPL.Url.path>
+            <IMPL.PathString>/home/jionides/work/CCPN/ccpn/java/testData/refData_backup</IMPL.PathString>
+          </IMPL.Url.path>
+        </IMPL.Url>
+      </IMPL.Repository.url>
+    </IMPL.Repository>
+    <IMPL.Repository _ID="_3">
+      <IMPL.Repository.name>
+        <IMPL.Line>generalData</IMPL.Line>
+      </IMPL.Repository.name>
+      <IMPL.Repository.stored> _4</IMPL.Repository.stored>
+      <IMPL.Repository.url>
+        <IMPL.Url>
+          <IMPL.Url.path>
+            <IMPL.PathString>/home/jionides/.ccpn/data</IMPL.PathString>
+          </IMPL.Url.path>
+        </IMPL.Url>
+      </IMPL.Repository.url>
+    </IMPL.Repository>
+    <IMPL.Repository _ID="_5">
+      <IMPL.Repository.name>
+        <IMPL.Line>refData</IMPL.Line>
+      </IMPL.Repository.name>
+      <IMPL.Repository.stored> _6 _7 _8 _4 _9 _10 _11 _12 _13</IMPL.Repository.stored>
+      <IMPL.Repository.url>
+        <IMPL.Url>
+          <IMPL.Url.path>
+            <IMPL.PathString>/home/jionides/work/CCPN/ccpn/data</IMPL.PathString>
+          </IMPL.Url.path>
+        </IMPL.Url>
+      </IMPL.Repository.url>
+    </IMPL.Repository>
+    <IMPL.Repository _ID="_14">
+      <IMPL.Repository.name>
+        <IMPL.Line>userData</IMPL.Line>
+      </IMPL.Repository.name>
+      <IMPL.Repository.stored> _9 _11 _7 _15</IMPL.Repository.stored>
+      <IMPL.Repository.url>
+        <IMPL.Url>
+          <IMPL.Url.path>
+            <IMPL.PathString>/home/jionides/work/CCPN/ccpn/java/testData/refData</IMPL.PathString>
+          </IMPL.Url.path>
+        </IMPL.Url>
+      </IMPL.Repository.url>
+    </IMPL.Repository>
+  </IMPL.MemopsRoot.repositories>
+  <IMPL.MemopsRoot.packageLocators>
+    <IMPL.PackageLocator _ID="_15">
+      <IMPL.PackageLocator.repositories> _14</IMPL.PackageLocator.repositories>
+    </IMPL.PackageLocator>
+    <IMPL.PackageLocator _ID="_7" targetName="ccp.molecule.ChemComp">
+      <IMPL.PackageLocator.repositories> _14 _5</IMPL.PackageLocator.repositories>
+    </IMPL.PackageLocator>
+    <IMPL.PackageLocator _ID="_12" targetName="ccp.molecule.ChemCompCharge">
+      <IMPL.PackageLocator.repositories> _5</IMPL.PackageLocator.repositories>
+    </IMPL.PackageLocator>
+    <IMPL.PackageLocator _ID="_6" targetName="ccp.molecule.ChemCompCoord">
+      <IMPL.PackageLocator.repositories> _5</IMPL.PackageLocator.repositories>
+    </IMPL.PackageLocator>
+    <IMPL.PackageLocator _ID="_9" targetName="ccp.molecule.ChemCompLabel">
+      <IMPL.PackageLocator.repositories> _14 _5</IMPL.PackageLocator.repositories>
+    </IMPL.PackageLocator>
+    <IMPL.PackageLocator _ID="_8" targetName="ccp.molecule.ChemElement">
+      <IMPL.PackageLocator.repositories> _5</IMPL.PackageLocator.repositories>
+    </IMPL.PackageLocator>
+    <IMPL.PackageLocator _ID="_13" targetName="ccp.molecule.StereoChemistry">
+      <IMPL.PackageLocator.repositories> _5</IMPL.PackageLocator.repositories>
+    </IMPL.PackageLocator>
+    <IMPL.PackageLocator _ID="_11" targetName="ccp.nmr.NmrExpPrototype">
+      <IMPL.PackageLocator.repositories> _14 _5</IMPL.PackageLocator.repositories>
+    </IMPL.PackageLocator>
+    <IMPL.PackageLocator _ID="_10" targetName="ccp.nmr.NmrReference">
+      <IMPL.PackageLocator.repositories> _5</IMPL.PackageLocator.repositories>
+    </IMPL.PackageLocator>
+    <IMPL.PackageLocator _ID="_4" targetName="ccpnmr.AnalysisProfile">
+      <IMPL.PackageLocator.repositories> _3 _5</IMPL.PackageLocator.repositories>
+    </IMPL.PackageLocator>
+  </IMPL.MemopsRoot.packageLocators>
+</IMPL.MemopsRoot>
+
+</_StorageUnit>
+<!--End of Memops Data-->

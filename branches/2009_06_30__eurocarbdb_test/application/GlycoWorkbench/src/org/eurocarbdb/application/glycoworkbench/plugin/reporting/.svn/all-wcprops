@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting
+END
+ProfilesComparisonReportDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/ProfilesComparisonReportDocument.java
+END
+ProfilesComparisonReportDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/ProfilesComparisonReportDialog.java
+END
+AnnotationReportEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/AnnotationReportEditor.java
+END
+ProfilesComparisonReportTableFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/ProfilesComparisonReportTableFrame.java
+END
+AnnotationObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/AnnotationObject.java
+END
+StructureSelectorDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/StructureSelectorDialog.java
+END
+AnnotationReportChoiceDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/AnnotationReportChoiceDialog.java
+END
+AnnotationReportOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/AnnotationReportOptions.java
+END
+AnnotationReportOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/AnnotationReportOptionsDialog.java
+END
+AnnotationReportCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/AnnotationReportCanvas.java
+END
+AnnotationReportDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/AnnotationReportDocument.java
+END
+ProfilesComparisonReportOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/ProfilesComparisonReportOptions.java
+END
+ProfilesComparisonReportChartFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/ProfilesComparisonReportChartFrame.java
+END
+ProfilesComparisonReportChartCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/reporting/ProfilesComparisonReportChartCanvas.java
+END

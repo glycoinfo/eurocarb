@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Citation">
+  <joined-subclass
+    name="ThesisCitation"
+    extends="ccp.api.general.Citation.Citation"
+    table="CITA_THESISCITATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Citation (litterature reference) to  a Thesis.</meta>
+  <key column="CITATIONID" foreign-key="CITA_THESCITA_CITATION_FK"/>
+  
+  <property
+    name="_city"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">City where institution is located</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CITY" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_country"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Country where institution is located</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="COUNTRY" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_institution"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Institution where thesis is submitted</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="INSTITUTION" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_stateProvince"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">State or province where institution is located</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="STATEPROVINCE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

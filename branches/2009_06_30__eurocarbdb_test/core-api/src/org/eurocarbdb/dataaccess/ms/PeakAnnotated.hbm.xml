@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 3, 2007 6:49:04 PM by Hibernate Tools 3.1.0.beta4 -->
+<hibernate-mapping default-cascade="save-update">
+    <class name="org.eurocarbdb.dataaccess.ms.PeakAnnotated" table="peak_annotated" schema="ms">
+        <id name="peakAnnotatedId" type="int">
+            <column name="peak_annotated_id" />
+            <generator class="sequence">
+                <param name="sequence">ms.peak_annotated_peak_annotated_id_seq</param>
+            </generator>
+        </id>
+
+        <property name="glycoCtId" type="int">
+            <column name="glyco_ct_id" not-null="true" />
+        </property>
+
+        <property name="sequenceGWS" type="string">
+            <column name="sequence_gws" not-null="true" />
+        </property>
+
+        <property name="formula" type="string">
+            <column name="formula" not-null="true" />
+        </property>
+
+        <property name="formulaCarry" type="double">
+            <column name="formula_carry" precision="8" scale="0" not-null="true" />
+        </property>
+
+        <property name="calculatedMass" type="double">
+            <column name="calculated_mass" precision="8" scale="0" not-null="true" />
+        </property>
+
+        <property name="contributorQuality" type="double">
+            <column name="contributor_quality" precision="8" scale="0" not-null="true" />
+        </property>
+
+	<many-to-one name="peakAnnotation" class="org.eurocarbdb.dataaccess.ms.PeakAnnotation" fetch="select">
+            <column name="peak_annotation_id" not-null="true" />
+        </many-to-one>
+
+        <set name="peakAnnotatedToSmallMolecules" inverse="true">
+            <key>
+                <column name="peak_annotated_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.PeakAnnotatedToSmallMolecule" />
+        </set>
+
+        <set name="peakAnnotatedToIons" inverse="true">
+            <key>
+                <column name="peak_annotated_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.PeakAnnotatedToIon" />
+        </set>
+
+        <set name="fragmentations" inverse="true">
+            <key>
+                <column name="peak_annotated_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.Fragmentation" />
+        </set>
+
+    </class>
+</hibernate-mapping>

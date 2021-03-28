@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/LinkAtom
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/LinkAtom/index.html
+END
+boundLinkEnd.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/LinkAtom/boundLinkEnd.html
+END
+getElementSymbol.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/LinkAtom/getElementSymbol.html
+END
+elementSymbol.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/LinkAtom/elementSymbol.html
+END
+remoteLinkEnd.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemComp/LinkAtom/remoteLinkEnd.html
+END

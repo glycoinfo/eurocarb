@@ -1,0 +1,175 @@
+10
+
+dir
+26
+http://eurocarbdb-nmr.googlecode.com/svn/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Protocol
+http://eurocarbdb-nmr.googlecode.com/svn
+
+
+
+2009-07-09T11:35:58.877203Z
+4
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ccabb5d2-bd44-11dd-94c0-21daf384169b
+
+index.html
+file
+
+
+
+
+2016-01-08T01:27:25.174677Z
+843899625ea5e7a2b07e3adc56441917
+2009-07-09T11:35:58.877203Z
+4
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14575
+
+Step
+dir
+
+FlowType.html
+file
+
+
+
+
+2016-01-08T01:27:25.174677Z
+93f1b1d1dda45bfc49432afc2de29cea
+2009-07-09T11:35:58.877203Z
+4
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6089
+
+CentrifugationStep
+dir
+
+ProtocolStore
+dir
+
+AddStep
+dir
+
+ParamDefType.html
+file
+
+
+
+
+2016-01-08T01:27:25.174677Z
+2aa37490e0490ee33d600c274d012c26
+2009-07-09T11:35:58.877203Z
+4
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6186
+
+Procedure
+dir
+
+PressStep
+dir
+
+ParameterDefinition
+dir
+
+TemperatureStep
+dir
+
+RefInputSample
+dir
+
+RefOutputSample
+dir
+
+WaitStep
+dir
+
+Protocol
+dir
+
+SonicationStep
+dir
+
+FlowStep
+dir
+
+FiltrationStep
+dir
+

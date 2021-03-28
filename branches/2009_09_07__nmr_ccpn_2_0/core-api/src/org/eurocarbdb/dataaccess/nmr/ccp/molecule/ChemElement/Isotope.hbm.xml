@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.ChemElement">
+  <class
+    name="Isotope"
+    table="CHEL_ISOTOPE"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Nuclear Isotope</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.molecule.ChemElement.ChemElementStore"
+    not-null="true"
+    unique="false"
+    foreign-key="CHEL_ISOTOPE_CHEMELEMSTOR_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_abundance"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Fractional natural abundance natural abundance (e.g. 0.015 for 1.5%).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ABUNDANCE" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_gyroMagneticRatio"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Gyromagnetic ratio (in rad/Ts)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="GYROMAGNETICRATIO" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_halfLife"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Halflife of isotope, in seconds. The interpretation of the value depends on the value of halfLifeType</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="HALFLIFE" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_halfLifeError"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Estimated Standard Deviation ('error') fo the halfLife</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="HALFLIFEERROR" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_halfLifeType"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Enumerated string, describing how to interpret the halfLife value. If the value is 'stable' the isotope does not decay. See  DataType HalfLifeType for details</meta>
+    <meta attribute="default-value">"unknown"</meta>
+    <column name="HALFLIFETYPE" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_magneticMoment"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">in multiples of the nuclear magneton.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MAGNETICMOMENT" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_mass"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Isotope mass (in atomic mass units).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MASS" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_massNumber"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Isotope number (mass number). E.g. 1 for proton, 2 for deuterium, 13 for 13C etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MASSNUMBER" sql-type="INTEGER" not-null="true" unique-key="isotopeUniqueKey" />
+  </property>
+  
+  <property
+    name="_quadrupoleMoment"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">in units of barns (10**-24cm**2)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="QUADRUPOLEMOMENT" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_receptivity"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Relative NMR receptivity. 1H receptivity set to 1.0</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="RECEPTIVITY" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_spin"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">nuclear spin (e.g. 0, 1/2, 5, 7/2 ...)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SPIN" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="CHEL_ISOTOPE2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbChemElement"
+    column="CHEMELEMENTID"
+    class="ccp.api.molecule.ChemElement.ChemElement" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="CHEL_ISOTOPE_CHEMELEM_FK" 
+    unique-key="isotopeUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+
+  </class>
+
+</hibernate-mapping>

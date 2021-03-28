@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref
+END
+GlyaffinityReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/GlyaffinityReference.java
+END
+GlycosciencesDeReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/GlycosciencesDeReference.hbm.xml
+END
+CarbbankReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/CarbbankReference.hbm.xml
+END
+GlycobaseLilleReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/GlycobaseLilleReference.java
+END
+GlycobaseDublinReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/GlycobaseDublinReference.hbm.xml
+END
+CfgReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/CfgReference.java
+END
+KeggReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/KeggReference.hbm.xml
+END
+BcsdbReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/BcsdbReference.hbm.xml
+END
+GlycosciencesDeReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/GlycosciencesDeReference.java
+END
+CarbbankReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/CarbbankReference.java
+END
+GlycobaseDublinReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/GlycobaseDublinReference.java
+END
+GlyaffinityReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/GlyaffinityReference.hbm.xml
+END
+BcsdbReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/BcsdbReference.java
+END
+KeggReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/KeggReference.java
+END
+GlycobaseLilleReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/GlycobaseLilleReference.hbm.xml
+END
+CfgReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/core/ref/CfgReference.hbm.xml
+END

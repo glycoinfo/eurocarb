@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 63
+dist
+lib
+temp
+build
+tmp
+.classpath
+project.properties
+run
+work
+
+END

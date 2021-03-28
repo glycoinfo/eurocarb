@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui
+END
+CreateBucketDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/CreateBucketDialog.java
+END
+PreferencesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/PreferencesDialog.java
+END
+AccessControlDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/AccessControlDialog.java
+END
+StartupDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/StartupDialog.java
+END
+LoginPassphrasePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/LoginPassphrasePanel.java
+END
+AWSDevPayProductPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/AWSDevPayProductPanel.java
+END
+BucketLoggingDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/BucketLoggingDialog.java
+END
+LoginCredentialsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/LoginCredentialsPanel.java
+END
+BucketTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/BucketTableModel.java
+END
+AWSCredentialsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/AWSCredentialsDialog.java
+END
+RequesterPaysDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/RequesterPaysDialog.java
+END
+SignedGetUrlDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/SignedGetUrlDialog.java
+END
+ObjectTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/ObjectTableModel.java
+END
+LoginLocalFolderPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/gui/LoginLocalFolderPanel.java
+END

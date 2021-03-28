@@ -1,0 +1,825 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Basic Tutorial:CcpNmr Analysis Tutorial 1.4</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Basic Tutorial:CcpNmr Analysis Tutorial 1.4</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+        Note this tutorial uses spectrum data which is downloadable at:
+        <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/analysisTutorialData.tar.gz">analysisTutorialData.tar.gz</A>
+      </P>
+      <P>
+      <H1>CcpNmr Analysis Tutorial v1.4</H1>
+      &nbsp;&nbsp;<I>Tim Stevens 12 Oct 2005</I>
+      </P>
+        <P>
+         <H2>Topics covered in this tutorial</H2>
+          <UL>
+            <LI>Project files and data locations
+            <LI>Setting up spectra, experiments and shift lists
+            <LI>Window navigation, mappings and strips
+            <LI>Countours and manipulating peaks.
+            <LI>Entering molecular infomation including small components
+            <LI>The different assignment strategies.
+            <LI>Running macros
+            <LI>Looking at peak lists and data within tables.
+          </UL>
+        </P>
+       <P>
+	 <DIV STYLE="float: left;">
+          <H3>Mouse functions</H3>
+	  <TABLE>
+            <TR><TD CLASS="pageHead">Mouse Button + Keys   </TD><TD CLASS="pageHead">Function               </TD></TR>
+            <TR><TD CLASS="pageBody">Left                  </TD><TD CLASS="pageBody">Select peak            </TD></TR>
+            <TR><TD CLASS="pageBody">Left + Shift          </TD><TD CLASS="pageBody">Select peaks in region<BR>(additive)</TD></TR>
+            <TR><TD CLASS="pageBody">Left + Control        </TD><TD CLASS="pageBody">Pick peak              </TD></TR>
+            <TR><TD CLASS="pageBody">Left + Shift + Control</TD><TD CLASS="pageBody">Pick peaks in region   </TD></TR>
+            <TR><TD CLASS="pageBody">Middle                </TD><TD CLASS="pageBody">Drag canvas            </TD></TR>
+            <TR><TD CLASS="pageBody">Middle + Shift        </TD><TD CLASS="pageBody">Zoom (with up/down)    </TD></TR>
+            <TR><TD CLASS="pageBody">Right                 </TD><TD CLASS="pageBody">Canvas options menu    </TD></TR>
+          </TABLE>
+	  </DIV>
+	  <DIV>
+          <H3>Keyboard shortcuts</H3>
+          <TABLE >
+            <TR><TD CLASS="pageHead">Key</TD><TD CLASS="pageHead">Function</TD></TR>
+            <TR><TD CLASS="pageBody">Cursor</TD><TD CLASS="pageBody">Pan in window</TD></TR>
+            <TR><TD CLASS="pageBody">PgUp</TD><TD CLASS="pageBody">Zoom Out</TD></TR>
+            <TR><TD CLASS="pageBody">PgDn</TD><TD CLASS="pageBody">Zoom In</TD></TR>
+            <TR><TD CLASS="pageBody">Del</TD><TD CLASS="pageBody">Delete Selected peaks</TD></TR>
+            <TR><TD CLASS="pageBody">1-9</TD><TD CLASS="pageBody">Toggle spectrum n</TD></TR>
+            <TR><TD CLASS="pageBody"> a </TD><TD CLASS="pageBody">Assign peak</TD></TR>
+            <TR><TD CLASS="pageBody"> h </TD><TD CLASS="pageBody">Add horizontal ruler</TD></TR>
+            <TR><TD CLASS="pageBody"> m </TD><TD CLASS="pageBody">Mark cursor position</TD></TR>
+            <TR><TD CLASS="pageBody"> p </TD><TD CLASS="pageBody">Move selected peak</TD></TR>
+            <TR><TD CLASS="pageBody"> v </TD><TD CLASS="pageBody">Add vertical ruler</TD></TR>
+          </TABLE>
+	  </DIV>
+        </P>
+        <P>
+          <H3>Document Abbreviations</H3>
+          <TABLE>
+            <TR><TD CLASS="pageHead">Abbreviation</TD><TD CLASS="pageHead">Meaning</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>M:n1</PRE></TD><TD CLASS="pageBody">A top-level menu named "n1", accessed from the main Analysis menu</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>M:n1:n2</PRE></TD><TD CLASS="pageBody">A sub-menu item accessed from top-level menu "n1"</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>R:n1:n2</PRE></TD><TD CLASS="pageBody">A menu item accessed from a spectrum window with a right mouse click</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>P:n1:n2</PRE></TD><TD CLASS="pageBody">A menu item accessed from a pull-down menu named n1</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>&lt;Return&gt;</PRE></TD><TD CLASS="pageBody">The Return key</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>[text]</PRE></TD><TD CLASS="pageBody">A button named "text"</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>text[]</PRE></TD><TD CLASS="pageBody">A text entry box named "text"</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>-></PRE></TD><TD CLASS="pageBody">OS command line prompt</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>>>></PRE></TD><TD CLASS="pageBody">Python shell line prompt</TD></TR>
+          </TABLE>
+        </P>
+      <H2>1. Opening a CCPN project</H2>
+      <P>
+      Start Analysis at the command line:
+      </P>
+      <PRE>-> analysis</PRE>
+      <P>
+      Once the main Analysis popup has appeared and the
+      menus are active select <SPAN CLASS='item'>M:Project:New</SPAN>&nbsp;
+      Enter a project name (<SPAN CLASS='item'>"TutorialProject"</SPAN> - or similar without spaces) into the dialogue box and
+      click <SPAN CLASS='item'>[OK]</SPAN>&nbsp;.
+      </P>
+      <P>
+      Existing projects may me opened from within Analysis at the expense of any extant current project.
+      Alternatively, a project file name may be passed as a command line argument when Analysis is started:
+      <PRE">-> analysis TutorialProject.xml</PRE>
+      </P>
+      <P>
+      Once a project has been created many options within the main Analysis menu become active.
+      The project can now be saved (<SPAN CLASS='item'>M:Project:Save</SPAN>&nbsp;)
+      and the automated backup facility may be configured (<SPAN CLASS='item'>M:Project:Backup</SPAN>&nbsp;).
+      </P>
+      <P>
+      The first time you save project a popup window will appear. Here you have the opportunity to modify the
+      locations at which the various XML data files will be stored. The next time the project is saved it will
+      use the locations that you initially set and will save without you having to specify anything. However, the
+      storage locations may be modified at any time in the future using the Save As option -
+      <SPAN CLASS='item'>M:Project:Save As.</SPAN>
+      </P>
+      <P>
+      Have a look in the Save Project popup. You will see three blue arrows on the left. Click on each of these to
+      open up the various tables of storage information, then increase the size of the window (grab the edges) so
+      that you can see all of the columns. The top <SPAN CLASS='item'>Urls</SPAN> table shows you all of the
+      directories in which data is stored. For this new project you will see that there is one directory for the
+      project (where you are working at the moment), one data directory inside this with the same name as the
+      project and two data directories for reference information (in this case chemical element and
+      reference experiment data) located
+      amongst the CCPN software files. If you were to move your project files or the reference data you may have
+      to update the various locations (although Analysis will prompt you if it can't find something).
+      </P>
+      <P>
+      Looking now at the middle <SPAN CLASS='item'>Storages</SPAN> table you
+      will see that various XML files and which of the above URL directories they residue in. You can see that 
+      the project XML file is saved at the first URL. Analysis.xml, Method.xml, and Nmr.xml are saved in
+      subdirectories at the second URL. The chemElement.xml file, which as reference data is not modifiable, is
+      stored at the last URL directory. As your project grows, for example with molecules, NMR constraints, structures and
+      such like, other storage locations will automatically appear in this table.
+      </P>
+      <P>
+      The lower <SPAN CLASS='item'>Data locations</SPAN> table, although currently empty, will display the
+      locations (URL and file name) of any spectrum files you are using in the project. After spectra have been
+      loaded you may like to look at the entries which appear in the table. If you move your data you may need to
+      edit this table.
+      </P>
+      <P>
+      In the Save Project popup lick on <SPAN CLASS='item'>[Save]</SPAN> and then click
+      <SPAN CLASS='item'>[Yes]</SPAN> when you are prompted about making a new data directory.
+      You should now  <SPAN CLASS='item'>[Close]</SPAN> the popup.
+      </P>
+      <H2>2. Setup HSQC spectrum</H2>
+      <H3>Open HSQC spectrum</H3>
+      <P>
+      Select <SPAN CLASS='item'>M:Experiment:Open Spectra</SPAN>&nbsp; to bring up the Open Spectrum popup.
+      Looking in the initial directory, you will see that the displayed files are 
+      restricted to Azara parameter files (<SPAN
+      CLASS='item'>P:File Format:Azara (*.par)</SPAN>&nbsp;is selected). Select file <SPAN
+      CLASS='item'>5.spc.par</SPAN>&nbsp;, fill in the experiment and spectrum name in the lower table.
+      If you double click in the element of a table that has a small <SPAN CLASS='item'>E</SPAN> in its 
+      lower left corner you will be able to edit the value. Do this on the table cell that contains
+      <SPAN CLASS='item'>Expt_1</SPAN>.
+      </P>
+      <P>
+      Experiment name is often indicative of the experiment type, so <SPAN CLASS='item'>HSQC</SPAN>&nbsp; will do here
+      for our purposes. Click on the table, somewhere outside the newly edited experiment name, to set it.
+      The spectrum name can be set is a similar manner. The spectrum name may be something simple like <SPAN
+      CLASS='item'>"a"</SPAN>&nbsp;, but it is common to give a file reference number (<SPAN
+      CLASS='item'>"5"</SPAN>&nbsp; here) to remind you of the data file you're using.
+      </P>
+      <P>
+      You will notice that there is one more editable column in the lower table, for Shift List. Although
+      you will not need to alter shift lists for this tutorial (the Data Analysis tutorial will use it) it
+      is an important point to consider when loading spectra. Different shift lists may be set for 
+      different experiments if, because they are performed under distinct conditions, they have different
+      chemical shifts for the same atoms. In this way, the variation in chemical shift which arises from
+      experimental differences won't affect the standard deviation of the shifts. Experiments under the same
+      conditions are all assigned within the scope their shift list.
+      </P>
+      <P>
+      With the experiment and spectrum names set, click <SPAN CLASS="item">[Open Spectra]</SPAN>&nbsp;.
+      Two modal popup windows will appear sequentially. Each give an opportunity to modify the parameter
+      information that was contained within the parameter file. For the first popup set <SPAN CLASS='item'>Is
+      data big endian</SPAN>&nbsp; to ON (so that the button is red). All the remaining parameter information is
+      correct for the demo, so just click <SPAN CLASS='item'>[OK]</SPAN>&nbsp; on this and again on the
+      subsequent popup.
+      </P>
+      <P>
+      In the third popup we are given the opportunity to specify the type of NMR experiment that was performed.
+      In the <SPAN CLASS='item'>Full Type</SPAN>.column doubel click on the table cell corresponding to the HSQC
+      and select the <SPAN CLASS='item'>H[N]</SPAN> option. You will notice that this fills on the other columns of
+      the table. Alternatively you could set the <SPAN CLASS='item'>Category</SPAN> to
+      <SPAN CLASS='item'>through-bond</SPAN> and <SPAN CLASS='item'>Type Synonym</SPAN> to
+      <SPAN CLASS='item'>15N HSQC/HMQC</SPAN> to restrict the possibilites before setting the type. When done
+      click on <SPAN CLASS='item'>[Close]</SPAN> to continue.
+      </P>
+      <P>
+      After a few moments a spectrum window to display the spectrum will automatically be created.
+      A window is only automatically created in projects that do not already have an existing one that
+      is suitable. Once the
+      spectrum is loaded some contours will be visible in this window. Click <SPAN
+      CLASS='item'>[Close]</SPAN>&nbsp; on the Open Spectrum popup (possibly behind the spectrum window)
+      as it will not be needed for a while.
+      You will notice that, because of the contrasting number of data points in the two experimental
+      dimensions, the contours appear stretched. To address this we need to alter the aspect ratio of this
+      window (<SPAN CLASS='item'>window1</SPAN>&nbsp;). Thus, select <SPAN CLASS='item'>M:Window:Edit
+      Window</SPAN>&nbsp; and in the resulting popup double click on the <SPAN
+      CLASS='item'>1.00</SPAN>&nbsp; figure in the Aspect Ratio column of the table. Enter an aspect ratio
+      of 8 and hit <SPAN CLASS='item'>&lt;Return&gt;</SPAN>&nbsp;. Return to <SPAN
+      CLASS='item'>Window1</SPAN>&nbsp; and zoom in (<SPAN CLASS='item'>&lt;PgDn&gt;</SPAN>&nbsp;) to view
+      the contours in detail.
+      </P>
+      <H3>Setup spectrum contours</H3>
+      <P>
+      Next the spectrum needs to have its contour levels adjusted. At the top of <SPAN
+      CLASS='item'>Window1</SPAN>&nbsp; click on the blue triangle next to <SPAN
+      CLASS='item'>Contours</SPAN>&nbsp;. This will provide some contouring options at the top of the
+      window. Select <SPAN CLASS='item'>[Detailed Settings]</SPAN>&nbsp;. Note that this is equivalent to
+      selecting <SPAN CLASS='item'>M:Experiment:Edit Spectra</SPAN>&nbsp; and clicking
+      <SPAN CLASS='item'>[Contour levels]</SPAN>.
+      </P>
+      <P>
+      In the contour level popup turn
+      off <SPAN CLASS='item'>negative contours</SPAN>&nbsp;and set the <SPAN
+      CLASS='item'>Base level[]</SPAN>&nbsp; to 0.5 and press <SPAN CLASS='item'>&lt;Return&gt;</SPAN>.
+      You will see contour display change in <SPAN
+      CLASS='item'>window1</SPAN>&nbsp; to reflect these new settings. Click <SPAN
+      CLASS="item">[Done]</SPAN>&nbsp; to remove the contour popup.
+      </P>
+      <P>
+      To change the contour colours select <SPAN CLASS='item'>M:Experiment:Edit
+      Spectra</SPAN>&nbsp;. In the Edit Spectrum popup double click on the <SPAN CLASS='item'>Pos.
+      contour colours</SPAN>&nbsp; entry and select a new colour (or colour scheme) from the
+      pull-down menu. Also, you may double click to edit any of the parameters in the table (if
+      there is a small <SPAN CLASS='item'>"E"</SPAN>&nbsp; in the lower left of a table cell). You
+      will notice that once a parameter is changed (like contour colour) all of the other parts of
+      the Analysis program that refer to the same parameter are automatically notified and the
+      screen is updated accordingly.
+      </P>
+      <H3>Pick crosspeaks</H3>
+      <P>
+      To pick crosspeaks for our freshly loaded HSQC spectrum use the left mouse button while holding down the <SPAN
+      CLASS="item">&lt;Shift&gt;</SPAN>&nbsp; and <SPAN CLASS='item'>&lt;Control&gt;</SPAN>&nbsp;. The <SPAN
+      CLASS="item">&lt;Shift&gt;</SPAN>&nbsp; key acts as a modifier to allow you to drag a box over the contours. <SPAN
+      CLASS="item">&lt;Control&gt;</SPAN>&nbsp; instructs Analysis to pick new crosspeaks in the boxed region, without it
+      the mouse will just select existing crosspeaks. Pick the whole spectrum by dragging boxes over regions of the
+      spectrum devoid of noise and
+      artefacts.
+      </P>
+      <P>
+      Any dubious or incorrectly aliased peaks may be deleted by using <SPAN
+      CLASS='item'>&lt;Del&gt;</SPAN>&nbsp; or selecting <SPAN CLASS='item'>R:Peak:Delete selected
+      peaks</SPAN>&nbsp; at any time. Try this out by picking and deleting an artefact, but be
+      careful make sure that this is the only selected peak: Click on a blank patch of the spectrum,
+      and then drag a box (left click and + <SPAN CLASS='item'>&lt;Shift&gt;</SPAN>) over the desired peak. You can view which peaks
+      are selected at any time, even if they are not immediately visible within the windows, by
+      selecting <SPAN CLASS='item'>R:Peak:Selected peaks...</SPAN>&nbsp;.
+      </P>
+      <H3>Assign resonances</H3>
+      <P>
+      Next we will assign one of the peaks in a rather basic and anonymous manner. We will
+      assign a 15N and a 1H resonance to an HSQC peak, appropriate to its experimental
+      dimensions, and then group these resonances together into an unnamed spin system.
+      </P>
+      <P>
+      For the next part we will focus upon the peak at 1H,15N ppms 7.12,119.5, as it is one
+      that we will refer to later. While holding the mouse cursor over the HSQC peak select
+      <SPAN CLASS='item'>R:Assign:Assign peak</SPAN>&nbsp; with the right mouse button. If this
+      option is not available, zoom in on the peak and try again at a portion closer to the
+      centre of the peak. When the option is selected the Edit Assignment popup will appear.
+      Alternatively you can press the <SPAN CLASS='item'>"a"</SPAN> key when the mouse cursor
+      is over the peak.
+      </P>
+      <P>a
+      Along the left of this are columns representing the 1H and 15N dimensions of the peak,
+      and on the right, in line with each dimension, are lists of resonances to which the
+      peak may be assigned. As this is a new project there are currently no resonances
+      present, so for each of the dimensions click anywhere on the line beginning <SPAN
+      CLASS='item'>"New"</SPAN>&nbsp;. This will assign a new resonance to both of the peaks
+      dimensions. You will note that the contribution of these resonances to the peak
+      dimensions with the <SPAN CLASS='item'>[1]</SPAN>&nbsp; and <SPAN
+      CLASS='item'>[2]</SPAN>&nbsp; labels. Each peak dimension has a list associated with
+      it because it can potentially point to several resonances, as is often found for
+      unresolved prochiral hydrogens; e.g. where HB2 and HB3 resonances cannot be
+      distinguished. Note that once you have made the assignment, the annotation of the peak
+      in the spectrum window changes to reflect its new connectivity; to the new resonances
+      <SPAN CLASS='item'>[1]</SPAN>&nbsp; and <SPAN CLASS='item'>[2]</SPAN>&nbsp;.
+      </P>
+      <P>
+      Next we will group these newly assigned resonances into a spin system. Close the
+      distracting Edit Assignment popup and select the newly assigned peak (left click so
+      that it has a square box around it) then
+      select <SPAN CLASS='item'>R:Assign:Add to spin system</SPAN>&nbsp; from the right mouse
+      menu. You will now notice that the peak annotation has been prepended with <SPAN
+      CLASS='item'>{1}</SPAN>&nbsp; to indicate the resonances have been grouped into spin
+      system 1. Note that the actual residue assignment can readily be assigned, or even
+      reassigned, at a later point, so the spin system numbering at the moment is just for
+      bookkeeping.
+      </P>
+      <H3>Run an initialisation macro</H3>
+      <P>
+      Initially we made resonance and spin system assignments by manually performing each of
+      the required steps. However, to save time and avoid performing repetitive, brainless
+      tasks several assignment macros have been written. With one of these we will repeat
+      the same type of anonymous assignments we made for the first HSQC peak for all of the
+      peaks in the spectrum.
+      </P>
+      <P>
+      Firstly we will put the macro in the main menu. Select 
+      <SPAN CLASS='item'>M:Macros:Edit Macros</SPAN> and then in the macros popup double click
+      on the <SPAN CLASS='item'>In main menu</SPAN> for the <SPAN CLASS='item'>initialiseHSQC</SPAN>
+      macro (top line) so that the value becomes <SPAN CLASS='item'>Yes</SPAN>. 
+      To run the assignment macro just select <SPAN
+      CLASS='item'>M:Macros:initialiseHSQC</SPAN>&nbsp; from the main menu. 
+      As there is
+      currently only one spectrum in the project no further information has to be passed in.
+      However, if there were multiple spectra, we would have to say which we wanted to
+      perform the macro operation upon. Once the macro has run you will see that all of the
+      peaks will carry new resonance assignments and that these are grouped into spin
+      systems, one for each peak. If you select <SPAN CLASS='item'>M:Assignment:Spin
+      systems</SPAN>&nbsp; you can see all of these groupings. Note that as the macro acts
+      blindly on all the peaks the various side chain HN peaks have been initially put into
+      distinct spin systems. Once we can connect side chain peaks to each of their atoms or to
+      resonances it is a simple matter to merge spin systems together.
+      </P>
+      <P>
+      The HSQC spectrum is now assigned anonymously to a degree that will serve as a basis
+      for the sequential assignment. Because all of the backbone amide 1H and 15N resonances
+      now exist, when we come to connect side chain resonances we will simply select the
+      appropriate pre-existing spin system for joining.
+      </P>
+      <H2>3. Setup molecular system</H2>
+      <P>
+      To provide full, atomic level assignments we need to input the protein sequence into
+      Analysis. This is done by the creation of a molecular system. The molecular system
+      represents all the assignable molecules that may reside within the NMR sample, these
+      include proteins, nucleic acids and small molecules. For this tutorial we
+      make a mock molecular system with one protein chain and one small
+      molecule.
+      </P>
+      <P>
+      Open <SPAN CLASS='item'>M:Molecules:Molecular Systems</SPAN>&nbsp; and click <SPAN
+      CLASS='item'>[Add Mol System]</SPAN>&nbsp;. This will create new blank molecular
+      system to which we can add our protein chain (albeit only part for this tutorial).
+      Click on the <SPAN CLASS='item'>MS1</SPAN>&nbsp; line to activate the lower section of
+      the popup, then click <SPAN CLASS='item'>[Edit Molecule Templates]</SPAN>&nbsp;.
+      </P>
+      <P>
+      The popup which now appears allows you to create a molecule template which you can
+      then use to create polymer chains within a molecular system. Such molecule templates
+      determine the sequence information to make the residues of the chain. From here select
+      <SPAN CLASS='item'>[Add New Molecule]</SPAN>&nbsp;. You will then be prompted for the
+      template name. Here you can either accept the default or enter a new name, then click
+      <SPAN CLASS='item'>[OK]</SPAN>&nbsp;.
+      </P>
+      <P>
+      Now we will add a sequence to the new molecule template. So select the row in the top
+      table containing the new molecule then click on <SPAN CLASS='item'>[Add Polymer
+      Residues]</SPAN>&nbsp; in the middle section.
+      The next popup provides an input box for macromolecular sequences. First ensure <SPAN
+      CLASS='item'>[] Three Letter Codes</SPAN>&nbsp;, is selected, then cut and paste the
+      following sequence (left mouse to select in the browser and middle mouse to paste)
+      into the text window:
+      </P>
+      <P>
+      <SPAN CLASS='item'>
+      LYS ALA SER SER PRO SER SER LEU THR TYR
+      LYS GLU MET ILE LEU LYS SER MET PRO GLN
+      LEU ASN ASP GLY LYS GLY SER SER ARG ILE
+      VAL LEU LYS LYS TYR VAL LYS ASP THR TYR
+      </SPAN>&nbsp;
+      </P>
+      <P>
+      The input sequence does not have to be perfectly formatted. You can click <SPAN
+      CLASS='item'>[Tidy]</SPAN>&nbsp; at any time to see what Analysis has interpreted as
+      the sequence. Also, you can switch between one- and three-letter codes after the
+      sequences has been entered. If you look in the <SPAN CLASS='item'>P:Ccp Codes</SPAN>
+      pull-down menu you will see all of the residue codes that are currently available, many
+      of which are modified amino acids.
+      </P>
+      <P>
+      Once the sequence has been entered, click <SPAN
+      CLASS='item'>[OK]</SPAN>&nbsp;. The molecular with all its associated atoms, bonds
+      etc. will take a short time to build. When it is done the new molecule will appear in
+      the Molecule Templates popup. Note that for new templates you can double click on the
+      residues in the table to change them. Try this for a LYS to set its Descriptor to
+      indicate a different protonation state.
+      </P>
+      <P>
+      Just for fun, we will now add a small molecule to our project. This could be part of
+      the first molecule we made, i.e. linked to the protein in some way. However, here we
+      will make a new molecule with <SPAN CLASS='item'>[Add New Molecule]</SPAN> and after
+      accepting the name click  <SPAN CLASS='item'>[Add Other Compound]</SPAN>. The Select
+      Small Molecule popup will open. Here choose <SPAN CLASS='item'>[Protein]</SPAN> at the
+      top then in the right hand table select a compound, perhaps and unusual amino acid, to
+      display an idealised structure in the left hand panel. You can rotate the cartoon
+      compound by clicking and dragging with the middle mouse button. Using  <SPAN
+      CLASS='item'>&lt;Shift&gt;</SPAN> while dragging up and down with the middle mouse
+      button will change the zoom level.
+      </P>
+      <P>
+      With any compound selected click <SPAN CLASS='item'>[OK]</SPAN> to enter it into your
+      second molecule template.
+      Now <SPAN CLASS='item'>[Close]</SPAN>&nbsp;the Molecule Templates popup.
+      The templates with the sequence and compound you just entered
+      will now be available form the Edit Molecular Systems popup.
+      </P>
+      <P>
+      Returning to the Edit Molecular Systems popup you will see the name of your newly
+      created sequence template is displayed at the bottom of the central panel. Now click
+      on <SPAN CLASS='item'>[Make chain from template:]</SPAN>&nbsp; just to the left of the
+      template name. You will be prompted about whether aromatic atom sets are equivalent due
+      to rotation - just click <SPAN CLASS='item'>[Yes]</SPAN>.
+      Analysis will now build a polymer chain within the molecular system with a
+      sequence derived from the template. This chain contains the residues and atoms that
+      you can assign crosspeaks to in the spectra.
+      </P>
+      <P>
+      To view the new polymer chain have a look at <SPAN CLASS='item'>M:Molecules:Atom
+      Browser</SPAN>&nbsp;. You can scroll through the sequence and by toggling the <SPAN
+      CLASS='item'>[H]</SPAN>, <SPAN CLASS='item'>[N]</SPAN>&nbsp; etc. you can display all
+      of the assignable sets of atoms.
+      </P>
+      <H2>4. Setup 3D spectra</H2>
+      <P>
+      In this part of the tutorial we will load some three dimensional spectra, connect
+      their peaks to the HSQC spectrum that we've already set up and then assign the
+      resonances to given atoms.
+      </P>
+      <H3>Open spectra - 3D TOCSY, 3d NOESY</H3>
+      <P>
+      We will open two new spectra at <SPAN CLASS='item'>M:Experiment:Open
+      Spectrum</SPAN>&nbsp;. In the same directory as the initial experiment, load the
+      parameter files <SPAN CLASS='item'>6.spc.par</SPAN>&nbsp; and <SPAN
+      CLASS="item">7.spc.par</SPAN>&nbsp; for the HSQC-NOESY and HSQC-TOCSY respectively.
+      You can select both files at once by clicking the file names while holding the
+      <SPAN CLASS='item'>&lt;Ctrl&gt;</SPAN>
+      key. Remember to set the experiment name appropriately for each in the lower table.
+      Now set <SPAN CLASS='item'>Skip verification dialogs</SPAN> to ON - as I know that the 
+      Azara parameter files are all OK and click <SPAN CLASS='item'>[Open spectra]</SPAN>.
+      </P>
+      <P>
+      Either from the top of the new window that has just been created select <SPAN
+      CLASS='item'>[Detailed Settings]</SPAN>&nbsp; under the <SPAN
+      CLASS='item'>Contours</SPAN>&nbsp; tab, or via <SPAN CLASS='item'>M:Experiment:Edit
+      Spectra</SPAN>&nbsp; select .<SPAN CLASS='item'>[Contour levels]</SPAN>&nbsp;. Then
+      from the contour levels popup set the appropriate <SPAN
+      CLASS='item'>P:Experiment</SPAN>&nbsp;. For both of the new spectra switch off <SPAN
+      CLASS="item">negative contours</SPAN>&nbsp; and set <SPAN CLASS='item'>Number of
+      levels[]</SPAN>&nbsp; to 10. Then, for each set the <SPAN CLASS='item'>Base
+      level[]</SPAN>&nbsp; to a value that is just above the noise.
+      </P>
+      <P>
+      When the experiment type popup appears set the type of the HSQC-NOESY 
+      to <SPAN CLASS='item'>H[N]_H.NOESY</SPAN> and the TOCSY to
+      <SPAN CLASS='item'>H[N]_H.TOCSY</SPAN> then <SPAN CLASS='item'>[Close]</SPAN>.
+      </P>
+      <P>
+      In the menu <SPAN CLASS='item'>M:Experiment:Edit Spectra</SPAN>&nbsp; 
+      you can set the contour
+      colours of the new spectra to something distinctive.
+      </P>
+      <P>
+      You will notice that in the new, three-dimensional spectrum window that there is an
+      extra scroll bar at the bottom for the extra dimension. Here, you can move the
+      position of the slider to select any region of orthogonal planes. The depth can be
+      changed by dragging with the left mouse button, or by setting a PPM position in the
+      <SPAN CLASS='item'>15N[]</SPAN>&nbsp; box. Also, you can grab the sides of the slider
+      with the middle mouse button to change the width of the region that you're looking at.
+      </P>
+      <P>
+      If you open the <SPAN CLASS='item'>Spectra</SPAN>&nbsp; panel at the top of <SPAN
+      CLASS='item'>window2</SPAN>&nbsp; you will notice that there is a button for each of
+      the mapped spectra. You can use these buttons to toggle the display of each the
+      spectra within its window. Thus we can display either, none or both of our
+      three-dimensional spectra. This is particularly useful when picking crosspeaks, as
+      the peak picking routine works only upon the contours you have displayed.
+      </P>
+      <H2>5. Pick and assign 3D Spectra</H2>
+      <P>
+      Next we will go on to assign the 3D spectra to the 'root' resonances that we created
+      for the HSQC. </P>
+      <P>
+      Choose the isolated, backbone amide peak in the HSQC spectrum at 1H,15N ppms
+      7.12,119.5. Mark this peak by holding the mouse cursor over its centre and pressing
+      the <SPAN CLASS='item'>&lt;m&gt;</SPAN>&nbsp; on the keyboard. This mark will show up
+      in <SPAN CLASS="item">window2</SPAN>&nbsp; at the equivalent PPM values. Then, with
+      the cursor over the same peak use the right mouse button to select <SPAN
+      CLASS='item'>R:Navigate:1H 1H 15N in window2</SPAN>&nbsp;. You will notice that
+      this command has changed the viewpoint in <SPAN CLASS='item'>window2</SPAN>&nbsp;.to
+      cover the appropriate 1H,15N positions (horizontal and depth) for the HSQC peak.
+      Making sure that the 3D spectra are toggled on and that the depth range is not too
+      wide, you will see the columns or 'strips' of the 3D TOCSY and NOESY.
+      </P>
+      <P>
+      Pick the peaks in the TOCSY and NOESY which correspond to the marked NH position.
+      Zoom to an appropriate level and drag a box over the whole column of peaks (left
+      mouse + <SPAN CLASS='item'>&lt;Shift&gt;</SPAN>&nbsp; + <SPAN
+      CLASS="item">&lt;Control&gt;</SPAN>&nbsp;). If none or very few peaks are picked,
+      then try widening the depth range a little, as a peak will only be picked at the
+      maximum in the depth dimension, and this may not be within the current range.
+      </P>
+      <P>
+      Now we will assign the common 1H and 15N dimensions of all of these peaks. To do this
+      we will assign one peak to the same resonances (and hence spin system) as the HSQC
+      peak, and then spread this assignment over all the peaks. Assign one of the peaks by
+      putting the cursor over its centre and selecting <SPAN CLASS='item'>R:Peak:Assign
+      ...</SPAN>&nbsp; from the right mouse menu. Then in the Edit Assignment popup assign
+      the first 1H dimension and the 15N dimension. To do this just click on the lines of
+      the right hand tables. You will notice that these assignment tables have several
+      options, from these just select the same resonances that are assigned to the HSQC
+      peak. If you make a mistake and want to change the resonance assignment just select
+      the offending resonance in the left hand tables and click <SPAN CLASS="item">[Clear
+      contrib]</SPAN>&nbsp; or select a different resonance to replace it. Now you can
+      <SPAN CLASS="item">[Close]</SPAN>&nbsp;. the assignment popup.
+      </P>
+      <P>
+      Returning to <SPAN CLASS='item'>window2</SPAN>&nbsp; you will see that the peak
+      annotation has be updated in light of the assignment. Next we will spread this
+      assignment to the other newly picked peaks in both the NOESY and TOCSY. Left click on
+      an empty part of the spectrum to deselect any peaks then drag a box over the 3D TOCSY
+      and NOESY peaks (left mouse + <SPAN CLASS='item'>&lt;Shift&gt;</SPAN>&nbsp;), taking
+      care to select the assigned peak with the others. Then select <SPAN
+      CLASS='item'>R:Assign:Propagate assignments</SPAN>&nbsp;.from the right mouse menu. The
+      assigns, as long as they are within chemical shift tolerances, will be applied to all
+      the selected peaks.
+      </P>
+      <H3>Assign to atoms</H3>
+      <P>
+      Once we posses sufficient information, the resonances to which crosspeaks are
+      connected may be connected to specific atoms. For the purposes of this tutorial we
+      will cheat with prior knowledge and link the spin system that we have been working on
+      to Leucine 21.
+      </P>
+      <P>
+      All we have to do is choose any peak that we have assigned to the new spin steam and
+      connect its resonances to 21 Leu Hn and 21 Leu N. With the cursor over the centre of
+      the peak, select <SPAN CLASS='item'>R:Assign:Assign peak</SPAN>&nbsp; from the right
+      mouse menu. Once the popup appears select the first hydrogen resonance (to left
+      table) and then click on <SPAN CLASS='item'>[Assign {1}[1]]</SPAN>&nbsp;. This will
+      bring up the Edit Assignment popup. Here, make sure that the hydrogen and nitrogen
+      atoms are displayed (click <SPAN CLASS='item'>[H]</SPAN>&nbsp; and <SPAN
+      CLASS='item'>[N]</SPAN>&nbsp;), then scroll down to click on <SPAN
+      CLASS='item'>Hn</SPAN>&nbsp; in the 21 Leu column. Return to the Edit Assignment
+      popup and now click on the nitrogen resonance (lower left) and then <SPAN
+      CLASS='item'>[Assign {1}[2]]</SPAN>&nbsp;. Return to the Atom Browser and now click on
+      21 Leu <SPAN CLASS='item'>N</SPAN>&nbsp;. You will note that the atom sets you have
+      chosen in the browser will change colour to reflect their assigned status.
+      </P>
+      <P>
+      Now that the Resonances are connected to atoms you will see that the peak annotations
+      have changed to <SPAN CLASS="item">21LeuH&nbsp;-&nbsp;21LeuN.</SPAN>&nbsp;, not only for the
+      peak we directly assigned, but also for all of the peaks, including the HSQC peak,
+      that are connected to the same resonances. If you look in <SPAN
+      CLASS='item'>M:Assignment:Spin systems</SPAN>&nbsp; you will also see that the spin
+      system has been unambiguously assigned by virtue of our choice of atoms.
+      </P>
+      <P>
+      During these atomic assignments it is often useful to have representative chemical
+      shift values for the possible atomic assignments. These can be accessed at any time
+      at <SPAN CLASS='item'>M:Molecules:Ref Chemical Shifts</SPAN>&nbsp; and selecting the
+      appropriate residue code and atom types (heavy atoms or hydrogens).
+      </P>
+      <H3>Assign a connected residue</H3>
+      <P>
+      Next we will make an inter-residue connection. In <SPAN
+      CLASS='item'>window2</SPAN>&nbsp; mark (<SPAN CLASS="item">&lt;m&gt;</SPAN>&nbsp;)
+      the NOESY 21 Leu derived peak just below the diagonal at 7.4 ppm. Returning to <SPAN
+      CLASS="item">window1</SPAN>&nbsp; you will note that two vertical lines are present
+      on the HSQC, one through the 21 Leu spin system and the other at the Hn shift of a
+      nearby residue. Looking at the HSQC along the line at 7.4 ppm we see that two peaks
+      are intersected, although neither is dead centre (the marked NOESY peak is distorted
+      by the diagonal peak).
+      Cheating again, the peak at 111 ppm in the 15N dimension is the residue N-terminal to
+      21 Leu.
+      </P>
+      <P>
+      We will bring the 3D TOCSY and NOESY peaks of this neighbouring spin system up in a
+      new window stri: In the 2D windows select both the 21 Leu HSQC peak and the peak at 7.36,
+      111.0 ppm by (left click and drag with <SPAN CLASS='item'>&lt;Shift&gt;</SPAN>) so that 
+      they are highlighed by surrounding squares.
+      Now in the right mouse menu select
+      <SPAN CLASS='item'>M:Strip:Peak Location Strips:1H 1H 15N in window2</SPAN>
+      </P>
+      <P>
+      Alternatively we could have manually added a new strip to
+      <SPAN CLASS='item'>window2</SPAN> and, after having activated the dstination strip,
+      used the same navigation function as before in the second HSQC peak.
+      </P>
+      <P>
+      In the new
+      strip of <SPAN CLASS="item">window2</SPAN>&nbsp; you will see the neighbouring spin
+      system with its return Hn-Hn NOESY peaks. The spin system in this strip is 20
+      Gln. So as before, pick the appropriate peaks in the spin system, assign one of them
+      to the resonances in the HSQC spectrum, then propagate the assignments to the
+      remainder.
+      </P>
+      <P>
+      Finally we will assign the connecting Hn-Hn crosspeaks. In the 21 Leu strip
+      select <SPAN CLASS="item">R:Assign:Assign peak</SPAN>&nbsp;
+      over the marked peak (just below the diagonal). In the assignment
+      popup you should select the 20 Gln Hn resonance for the second hydrogen dimension.
+      Now assign the reciprocal Hn-Hn NOESY peak in second strip.
+      With the assignment complete, select <SPAN
+      CLASS="item">M:Assignment:Assignment Graph</SPAN>&nbsp; and then click on the button
+      named after your 3D NOESY experiment. You will then see the connection you have just
+      made to the spin systems in the graphical display.
+      </P>
+      <H2>6. View Peak List Tables</H2>
+      <P>
+      In the main menu select <SPAN CLASS='item'>M:Crosspeaks:Edit Peak List</SPAN>.
+      This will bring up a table of peaks in the peak list - there are many tables like this
+      within Analysis for the various data objects. Ensure that the HSQC spectrum is selected
+      in the <SPAN CLASS="item">Spectrum:</SPAN> pulldown menu. 
+      </P>
+      <P>
+      Many of the peak functions available in the right mouse menu are also present in this
+      popup. However, there are also some
+      extra features too. For example you can find a peak in a window by cliking on the
+      peaks row in the table and then selecting <SPAN CLASS="item">[Find Peak]</SPAN> at 
+      the top right of the popup.
+      </P>
+      <P>
+      The tables within Analysis also have several functions to chcnge the way the data is
+      viewed. At the top of the columns there's a feint <SPAN CLASS="item">?</SPAN> which
+      allows you to filter out various rows, a <SPAN CLASS="item">[-]</SPAN> which shrinks and
+      expands a column and cliking on the top of the column in general sorts the table
+      rows according to the entries in that column.
+      </P> 
+      <P>
+      As an example sort the <SPAN CLASS="item">Height</SPAN> column by clicking on its title.
+      Then you can select from the right mouse menu
+      <SPAN CLASS="item">R:Graph:X Row Number:Y Height</SPAN> to show a graph of these sorted
+      values.
+      </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

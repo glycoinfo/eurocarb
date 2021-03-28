@@ -1,0 +1,1471 @@
+
+#ifndef __incl__ccp_api_nmr_Nmr_ShiftAnisotropy_h__
+#define __incl__ccp_api_nmr_Nmr_ShiftAnisotropy_h__
+
+#include "ccp.h"
+
+/*
+  Chemical shift anisotropy measurement.
+*/
+
+/* package ccp.api.nmr.Nmr */
+
+/**
+  Add for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  Impl_ApplicationData value
+**/
+extern void *Nmr_ShiftAnisotropy_AddApplicationData(Nmr_ShiftAnisotropy self, Impl_ApplicationData value);
+
+/**
+  Add for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  Nmr_AbstractDataDerivation value
+**/
+extern void *Nmr_ShiftAnisotropy_AddDataDerivation(Nmr_ShiftAnisotropy self, Nmr_AbstractDataDerivation value);
+
+/**
+  Add for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  Vald_NmrMeasurementValidation value
+**/
+extern void *Nmr_ShiftAnisotropy_AddNmrMeasurementValidation(Nmr_ShiftAnisotropy self, Vald_NmrMeasurementValidation value);
+
+/**
+  Add for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  Nmr_Peak value
+**/
+extern void *Nmr_ShiftAnisotropy_AddPeak(Nmr_ShiftAnisotropy self, Nmr_Peak value);
+
+/**
+  Add for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in the 
+derivation of the measurement value. The description in the 'method' may 
+refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  Nmr_PeakDim value
+**/
+extern void *Nmr_ShiftAnisotropy_AddPeakDim(Nmr_ShiftAnisotropy self, Nmr_PeakDim value);
+
+/**
+  CheckAllValid for ccp.nmr.Nmr.ShiftAnisotropy
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiBoolean complete
+**/
+extern void *Nmr_ShiftAnisotropy_CheckAllValid(Nmr_ShiftAnisotropy self, ApiBoolean complete);
+
+/**
+  CheckValid for ccp.nmr.Nmr.ShiftAnisotropy
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiBoolean complete
+**/
+extern void *Nmr_ShiftAnisotropy_CheckValid(Nmr_ShiftAnisotropy self, ApiBoolean complete);
+
+/**
+  FindAll for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiMap conditions
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiList Nmr_ShiftAnisotropy_FindAllApplicationData(Nmr_ShiftAnisotropy self, ApiMap conditions);
+
+/**
+  FindAll for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiList Nmr_ShiftAnisotropy_FindAllApplicationData_keyval0(Nmr_ShiftAnisotropy self);
+
+/**
+  FindAll for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key
+  @param  ApiObject value
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiList Nmr_ShiftAnisotropy_FindAllApplicationData_keyval1(Nmr_ShiftAnisotropy self, char * key, ApiObject value);
+
+/**
+  FindAll for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiList Nmr_ShiftAnisotropy_FindAllApplicationData_keyval2(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2);
+
+/**
+  FindAll for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiList Nmr_ShiftAnisotropy_FindAllApplicationData_keyval3(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3);
+
+/**
+  FindAll for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @param  char * key4
+  @param  ApiObject value4
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiList Nmr_ShiftAnisotropy_FindAllApplicationData_keyval4(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3, char * key4, ApiObject value4);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiMap conditions
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllDataDerivations(Nmr_ShiftAnisotropy self, ApiMap conditions);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllDataDerivations_keyval0(Nmr_ShiftAnisotropy self);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key
+  @param  ApiObject value
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllDataDerivations_keyval1(Nmr_ShiftAnisotropy self, char * key, ApiObject value);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllDataDerivations_keyval2(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllDataDerivations_keyval3(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @param  char * key4
+  @param  ApiObject value4
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllDataDerivations_keyval4(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3, char * key4, ApiObject value4);
+
+/**
+  FindAll for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiMap conditions
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllNmrMeasurementValidations(Nmr_ShiftAnisotropy self, ApiMap conditions);
+
+/**
+  FindAll for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllNmrMeasurementValidations_keyval0(Nmr_ShiftAnisotropy self);
+
+/**
+  FindAll for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key
+  @param  ApiObject value
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllNmrMeasurementValidations_keyval1(Nmr_ShiftAnisotropy self, char * key, ApiObject value);
+
+/**
+  FindAll for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllNmrMeasurementValidations_keyval2(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2);
+
+/**
+  FindAll for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllNmrMeasurementValidations_keyval3(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3);
+
+/**
+  FindAll for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @param  char * key4
+  @param  ApiObject value4
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllNmrMeasurementValidations_keyval4(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3, char * key4, ApiObject value4);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiMap conditions
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeakDims(Nmr_ShiftAnisotropy self, ApiMap conditions);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeakDims_keyval0(Nmr_ShiftAnisotropy self);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key
+  @param  ApiObject value
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeakDims_keyval1(Nmr_ShiftAnisotropy self, char * key, ApiObject value);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeakDims_keyval2(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeakDims_keyval3(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @param  char * key4
+  @param  ApiObject value4
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeakDims_keyval4(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3, char * key4, ApiObject value4);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiMap conditions
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeaks(Nmr_ShiftAnisotropy self, ApiMap conditions);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeaks_keyval0(Nmr_ShiftAnisotropy self);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key
+  @param  ApiObject value
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeaks_keyval1(Nmr_ShiftAnisotropy self, char * key, ApiObject value);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeaks_keyval2(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeaks_keyval3(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3);
+
+/**
+  FindAll for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @param  char * key4
+  @param  ApiObject value4
+  @returns  all value that satisfy the conditions 
+**/
+extern ApiSet Nmr_ShiftAnisotropy_FindAllPeaks_keyval4(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3, char * key4, ApiObject value4);
+
+/**
+  FindFirst for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiMap conditions
+  @returns  the first value that satisfies the conditions 
+**/
+extern Impl_ApplicationData Nmr_ShiftAnisotropy_FindFirstApplicationData(Nmr_ShiftAnisotropy self, ApiMap conditions);
+
+/**
+  FindFirst for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @returns  the first value that satisfies the conditions 
+**/
+extern Impl_ApplicationData Nmr_ShiftAnisotropy_FindFirstApplicationData_keyval0(Nmr_ShiftAnisotropy self);
+
+/**
+  FindFirst for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key
+  @param  ApiObject value
+  @returns  the first value that satisfies the conditions 
+**/
+extern Impl_ApplicationData Nmr_ShiftAnisotropy_FindFirstApplicationData_keyval1(Nmr_ShiftAnisotropy self, char * key, ApiObject value);
+
+/**
+  FindFirst for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @returns  the first value that satisfies the conditions 
+**/
+extern Impl_ApplicationData Nmr_ShiftAnisotropy_FindFirstApplicationData_keyval2(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2);
+
+/**
+  FindFirst for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @returns  the first value that satisfies the conditions 
+**/
+extern Impl_ApplicationData Nmr_ShiftAnisotropy_FindFirstApplicationData_keyval3(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3);
+
+/**
+  FindFirst for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @param  char * key4
+  @param  ApiObject value4
+  @returns  the first value that satisfies the conditions 
+**/
+extern Impl_ApplicationData Nmr_ShiftAnisotropy_FindFirstApplicationData_keyval4(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3, char * key4, ApiObject value4);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiMap conditions
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_AbstractDataDerivation Nmr_ShiftAnisotropy_FindFirstDataDerivation(Nmr_ShiftAnisotropy self, ApiMap conditions);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_AbstractDataDerivation Nmr_ShiftAnisotropy_FindFirstDataDerivation_keyval0(Nmr_ShiftAnisotropy self);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key
+  @param  ApiObject value
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_AbstractDataDerivation Nmr_ShiftAnisotropy_FindFirstDataDerivation_keyval1(Nmr_ShiftAnisotropy self, char * key, ApiObject value);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_AbstractDataDerivation Nmr_ShiftAnisotropy_FindFirstDataDerivation_keyval2(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_AbstractDataDerivation Nmr_ShiftAnisotropy_FindFirstDataDerivation_keyval3(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @param  char * key4
+  @param  ApiObject value4
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_AbstractDataDerivation Nmr_ShiftAnisotropy_FindFirstDataDerivation_keyval4(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3, char * key4, ApiObject value4);
+
+/**
+  FindFirst for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiMap conditions
+  @returns  the first value that satisfies the conditions 
+**/
+extern Vald_NmrMeasurementValidation Nmr_ShiftAnisotropy_FindFirstNmrMeasurementValidation(Nmr_ShiftAnisotropy self, ApiMap conditions);
+
+/**
+  FindFirst for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @returns  the first value that satisfies the conditions 
+**/
+extern Vald_NmrMeasurementValidation Nmr_ShiftAnisotropy_FindFirstNmrMeasurementValidation_keyval0(Nmr_ShiftAnisotropy self);
+
+/**
+  FindFirst for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key
+  @param  ApiObject value
+  @returns  the first value that satisfies the conditions 
+**/
+extern Vald_NmrMeasurementValidation Nmr_ShiftAnisotropy_FindFirstNmrMeasurementValidation_keyval1(Nmr_ShiftAnisotropy self, char * key, ApiObject value);
+
+/**
+  FindFirst for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @returns  the first value that satisfies the conditions 
+**/
+extern Vald_NmrMeasurementValidation Nmr_ShiftAnisotropy_FindFirstNmrMeasurementValidation_keyval2(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2);
+
+/**
+  FindFirst for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @returns  the first value that satisfies the conditions 
+**/
+extern Vald_NmrMeasurementValidation Nmr_ShiftAnisotropy_FindFirstNmrMeasurementValidation_keyval3(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3);
+
+/**
+  FindFirst for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @param  char * key4
+  @param  ApiObject value4
+  @returns  the first value that satisfies the conditions 
+**/
+extern Vald_NmrMeasurementValidation Nmr_ShiftAnisotropy_FindFirstNmrMeasurementValidation_keyval4(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3, char * key4, ApiObject value4);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiMap conditions
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_Peak Nmr_ShiftAnisotropy_FindFirstPeak(Nmr_ShiftAnisotropy self, ApiMap conditions);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiMap conditions
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_PeakDim Nmr_ShiftAnisotropy_FindFirstPeakDim(Nmr_ShiftAnisotropy self, ApiMap conditions);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_PeakDim Nmr_ShiftAnisotropy_FindFirstPeakDim_keyval0(Nmr_ShiftAnisotropy self);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key
+  @param  ApiObject value
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_PeakDim Nmr_ShiftAnisotropy_FindFirstPeakDim_keyval1(Nmr_ShiftAnisotropy self, char * key, ApiObject value);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_PeakDim Nmr_ShiftAnisotropy_FindFirstPeakDim_keyval2(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_PeakDim Nmr_ShiftAnisotropy_FindFirstPeakDim_keyval3(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @param  char * key4
+  @param  ApiObject value4
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_PeakDim Nmr_ShiftAnisotropy_FindFirstPeakDim_keyval4(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3, char * key4, ApiObject value4);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_Peak Nmr_ShiftAnisotropy_FindFirstPeak_keyval0(Nmr_ShiftAnisotropy self);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key
+  @param  ApiObject value
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_Peak Nmr_ShiftAnisotropy_FindFirstPeak_keyval1(Nmr_ShiftAnisotropy self, char * key, ApiObject value);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_Peak Nmr_ShiftAnisotropy_FindFirstPeak_keyval2(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_Peak Nmr_ShiftAnisotropy_FindFirstPeak_keyval3(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3);
+
+/**
+  FindFirst for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  char * key1
+  @param  ApiObject value1
+  @param  char * key2
+  @param  ApiObject value2
+  @param  char * key3
+  @param  ApiObject value3
+  @param  char * key4
+  @param  ApiObject value4
+  @returns  the first value that satisfies the conditions 
+**/
+extern Nmr_Peak Nmr_ShiftAnisotropy_FindFirstPeak_keyval4(Nmr_ShiftAnisotropy self, char * key1, ApiObject value1, char * key2, ApiObject value2, char * key3, ApiObject value3, char * key4, ApiObject value4);
+
+/**
+  GetAttr for ccp.nmr.Nmr.ShiftAnisotropy
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiString name
+  @returns  get attribute or link by name
+**/
+extern ApiObject Nmr_ShiftAnisotropy_Get(Nmr_ShiftAnisotropy self, ApiString name);
+
+/**
+  Get for memops.Implementation.DataObject.access
+
+Access object that 
+controls object access
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern Acco_AccessObject Nmr_ShiftAnisotropy_GetAccess(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiList Nmr_ShiftAnisotropy_GetApplicationData(Nmr_ShiftAnisotropy self);
+
+/**
+  GetByKey for ccp.nmr.Nmr.ShiftAnisotropy
+  @param  Nmr_ShiftAnisotropy self
+  @param  Impl_MemopsObject startObj
+  @param  ApiList fullKey
+  @returns  object corresponding to key
+**/
+extern Nmr_ShiftAnisotropy Nmr_ShiftAnisotropy_GetByKey(Nmr_ShiftAnisotropy self, Impl_MemopsObject startObj, ApiList fullKey);
+
+/**
+  Get for memops.Implementation.ComplexDataType.className
+
+Name of class 
+of object. If class names differ for different implementations, name of 
+the coresponding Python class. This is really a class attribute and may 
+be implemented as such by languages that support the concept.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiString Nmr_ShiftAnisotropy_GetClassName(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiSet Nmr_ShiftAnisotropy_GetDataDerivations(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for ccp.nmr.Nmr.AbstractMeasurement.details
+
+Free text, for notes, 
+explanatory comments, etc.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiString Nmr_ShiftAnisotropy_GetDetails(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for ccp.nmr.Nmr.AbstractMeasurement.error
+
+Error (standard 
+deviation) of measurement
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiFloat Nmr_ShiftAnisotropy_GetError(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for memops.Implementation.ComplexDataType.fieldNames
+
+Names of all 
+object fields in alphabetical order. Attribute names and role  names 
+(where relevant) are given in alphabetical order (for each type). 
+
+If 
+you need more information about the classes, the place to look is in the 
+obejct .metaclass MetaModel object.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiList Nmr_ShiftAnisotropy_GetFieldNames(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for ccp.nmr.Nmr.AbstractMeasurement.figOfMerit
+
+Figure of Merit for 
+measurement, i.e. a number that describes the reliablity. Goes from 1.0 
+(fully reliable, the default), to 0.0 (unreliable).
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiFloat Nmr_ShiftAnisotropy_GetFigOfMerit(Nmr_ShiftAnisotropy self);
+
+/**
+  GetFullKey for ccp.nmr.Nmr.ShiftAnisotropy
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiBoolean useGuid
+  @returns  list containing full object key
+**/
+extern ApiList Nmr_ShiftAnisotropy_GetFullKey(Nmr_ShiftAnisotropy self, ApiBoolean useGuid);
+
+/**
+  Get for 
+memops.Implementation.ComplexDataType.inConstructor
+
+Implementation 
+switch that determines if an object is being constructed, and turns off 
+some validity checking.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiBoolean Nmr_ShiftAnisotropy_GetInConstructor(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for memops.Implementation.MemopsObject.isDeleted
+
+Implementation 
+attribute, set automatically. If True the object has been deleted. 
+Deleted objects are never returned by any API call, so there is normally 
+no need to check this attribute. But if you keep your own lists (or 
+other data structures) containing CCP objects, you may need to look.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiBoolean Nmr_ShiftAnisotropy_GetIsDeleted(Nmr_ShiftAnisotropy self);
+
+/**
+  GetLocalKey for ccp.nmr.Nmr.ShiftAnisotropy
+  @param  Nmr_ShiftAnisotropy self
+  @returns  Local object key
+**/
+extern ApiObject Nmr_ShiftAnisotropy_GetLocalKey(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for ccp.nmr.Nmr.AbstractMeasurement.method
+
+Method used to calculate 
+this specific measurment value. Overrides MeasurementList.method
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern Meth_Method Nmr_ShiftAnisotropy_GetMethod(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiSet Nmr_ShiftAnisotropy_GetNmrMeasurementValidations(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for memops.Implementation.ComplexDataType.packageName
+
+Name of 
+package containing class, as a dot-separated string. E.g. 'ccp.nmr.Nmr'. 
+This is really a class attribute and may be implemented as such by 
+languages that support the concept.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiString Nmr_ShiftAnisotropy_GetPackageName(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for memops.Implementation.ComplexDataType.packageShortName
+
+Short 
+name of package containing class, generally as four or fewer upper case 
+characters. E.g. 'NMRC'. Package shortnames are unique across packages. 
+They are not set (value None) for packages that contain other packages. 
+This is really a class attribute and may be implemented as such by 
+languages that support the concept.1
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiString Nmr_ShiftAnisotropy_GetPackageShortName(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for ccp.nmr.Nmr.ShiftAnisotropy.parent
+
+link to parent object - 
+synonym for parentList
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern Nmr_ShiftAnisotropyList Nmr_ShiftAnisotropy_GetParent(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for ccp.nmr.Nmr.ShiftAnisotropy.parentList
+
+parent link
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern Nmr_ShiftAnisotropyList Nmr_ShiftAnisotropy_GetParentList(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in the 
+derivation of the measurement value. The description in the 'method' may 
+refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiSet Nmr_ShiftAnisotropy_GetPeakDims(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiSet Nmr_ShiftAnisotropy_GetPeaks(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for memops.Implementation.ComplexDataType.qualifiedName
+
+Fully 
+qualified name of class, equal to (packageName + '.' + className). If 
+class names differ between implementations, name of corresponding Python 
+class. This is really a class attribute and may be implemented as such 
+by languages that support the concept.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiString Nmr_ShiftAnisotropy_GetQualifiedName(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for ccp.nmr.Nmr.ShiftAnisotropy.resonance
+
+Resonance that holds 
+chemical shift anisotropy measurement.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern Nmr_Resonance Nmr_ShiftAnisotropy_GetResonance(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for memops.Implementation.MemopsObject.root
+
+MemopsRoot object at 
+top of parent tree.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern Impl_MemopsRoot Nmr_ShiftAnisotropy_GetRoot(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for memops.Implementation.DataObject.topObject
+
+TopObject - topmost 
+parent in package.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern Impl_TopObject Nmr_ShiftAnisotropy_GetTopObject(Nmr_ShiftAnisotropy self);
+
+/**
+  Get for ccp.nmr.Nmr.AbstractMeasurement.value
+
+Value of measurement
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiFloat Nmr_ShiftAnisotropy_GetValue(Nmr_ShiftAnisotropy self);
+
+/**
+  Constructor for ccp.nmr.Nmr.ShiftAnisotropy
+  @param  Nmr_ShiftAnisotropyList parent
+  @param  ApiMap attrlinks
+  @returns  the new object
+**/
+extern Nmr_ShiftAnisotropy Nmr_ShiftAnisotropy_Init(Nmr_ShiftAnisotropyList parent, ApiMap attrlinks);
+
+/**
+  Constructor for ccp.nmr.Nmr.ShiftAnisotropy
+  @param  Nmr_ShiftAnisotropyList parent
+  @param  Nmr_Resonance resonance
+  @param  float value
+  @returns  the new object
+**/
+extern Nmr_ShiftAnisotropy Nmr_ShiftAnisotropy_Init_reqd(Nmr_ShiftAnisotropyList parent, Nmr_Resonance resonance, float value);
+
+/**
+  Remove for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  Impl_ApplicationData value
+**/
+extern void *Nmr_ShiftAnisotropy_RemoveApplicationData(Nmr_ShiftAnisotropy self, Impl_ApplicationData value);
+
+/**
+  Remove for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  Nmr_AbstractDataDerivation value
+**/
+extern void *Nmr_ShiftAnisotropy_RemoveDataDerivation(Nmr_ShiftAnisotropy self, Nmr_AbstractDataDerivation value);
+
+/**
+  Remove for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  Vald_NmrMeasurementValidation value
+**/
+extern void *Nmr_ShiftAnisotropy_RemoveNmrMeasurementValidation(Nmr_ShiftAnisotropy self, Vald_NmrMeasurementValidation value);
+
+/**
+  Remove for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  Nmr_Peak value
+**/
+extern void *Nmr_ShiftAnisotropy_RemovePeak(Nmr_ShiftAnisotropy self, Nmr_Peak value);
+
+/**
+  Remove for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  Nmr_PeakDim value
+**/
+extern void *Nmr_ShiftAnisotropy_RemovePeakDim(Nmr_ShiftAnisotropy self, Nmr_PeakDim value);
+
+/**
+  SetAttr for ccp.nmr.Nmr.ShiftAnisotropy
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiString name
+  @param  ApiObject value
+**/
+extern void *Nmr_ShiftAnisotropy_Set(Nmr_ShiftAnisotropy self, ApiString name, ApiObject value);
+
+/**
+  Set for memops.Implementation.DataObject.access
+
+Access object that 
+controls object access
+  @param  Nmr_ShiftAnisotropy self
+  @param  Acco_AccessObject value
+**/
+extern void *Nmr_ShiftAnisotropy_SetAccess(Nmr_ShiftAnisotropy self, Acco_AccessObject value);
+
+/**
+  Set for 
+memops.Implementation.DataObject.applicationData
+
+Application-specific 
+data
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiList values
+**/
+extern void *Nmr_ShiftAnisotropy_SetApplicationData(Nmr_ShiftAnisotropy self, ApiList values);
+
+/**
+  Set for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiSet values
+**/
+extern void *Nmr_ShiftAnisotropy_SetDataDerivations(Nmr_ShiftAnisotropy self, ApiSet values);
+
+/**
+  Set for ccp.nmr.Nmr.AbstractMeasurement.details
+
+Free text, for notes, 
+explanatory comments, etc.
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiString value
+**/
+extern void *Nmr_ShiftAnisotropy_SetDetails(Nmr_ShiftAnisotropy self, ApiString value);
+
+/**
+  Set for ccp.nmr.Nmr.AbstractMeasurement.error
+
+Error (standard 
+deviation) of measurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiFloat value
+**/
+extern void *Nmr_ShiftAnisotropy_SetError(Nmr_ShiftAnisotropy self, ApiFloat value);
+
+/**
+  Set for ccp.nmr.Nmr.AbstractMeasurement.figOfMerit
+
+Figure of Merit for 
+measurement, i.e. a number that describes the reliablity. Goes from 1.0 
+(fully reliable, the default), to 0.0 (unreliable).
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiFloat value
+**/
+extern void *Nmr_ShiftAnisotropy_SetFigOfMerit(Nmr_ShiftAnisotropy self, ApiFloat value);
+
+/**
+  Set for ccp.nmr.Nmr.AbstractMeasurement.method
+
+Method used to calculate 
+this specific measurment value. Overrides MeasurementList.method
+  @param  Nmr_ShiftAnisotropy self
+  @param  Meth_Method value
+**/
+extern void *Nmr_ShiftAnisotropy_SetMethod(Nmr_ShiftAnisotropy self, Meth_Method value);
+
+/**
+  Set for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiSet values
+**/
+extern void *Nmr_ShiftAnisotropy_SetNmrMeasurementValidations(Nmr_ShiftAnisotropy self, ApiSet values);
+
+/**
+  Set for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in the 
+derivation of the measurement value. The description in the 'method' may 
+refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiSet values
+**/
+extern void *Nmr_ShiftAnisotropy_SetPeakDims(Nmr_ShiftAnisotropy self, ApiSet values);
+
+/**
+  Set for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiSet values
+**/
+extern void *Nmr_ShiftAnisotropy_SetPeaks(Nmr_ShiftAnisotropy self, ApiSet values);
+
+/**
+  Set for ccp.nmr.Nmr.ShiftAnisotropy.resonance
+
+Resonance that holds 
+chemical shift anisotropy measurement.
+  @param  Nmr_ShiftAnisotropy self
+  @param  Nmr_Resonance value
+**/
+extern void *Nmr_ShiftAnisotropy_SetResonance(Nmr_ShiftAnisotropy self, Nmr_Resonance value);
+
+/**
+  Set for ccp.nmr.Nmr.AbstractMeasurement.value
+
+Value of measurement
+  @param  Nmr_ShiftAnisotropy self
+  @param  ApiFloat value
+**/
+extern void *Nmr_ShiftAnisotropy_SetValue(Nmr_ShiftAnisotropy self, ApiFloat value);
+
+/**
+  Sorted for ccp.nmr.Nmr.AbstractMeasurement.dataDerivations
+
+Data 
+Derivations where Measurement is used.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiList Nmr_ShiftAnisotropy_SortedDataDerivations(Nmr_ShiftAnisotropy self);
+
+/**
+  Sorted for 
+ccp.nmr.Nmr.AbstractMeasurement.nmrMeasurementValidations
+
+Validation 
+results that include AbstractMeasurement
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiList Nmr_ShiftAnisotropy_SortedNmrMeasurementValidations(Nmr_ShiftAnisotropy self);
+
+/**
+  Sorted for ccp.nmr.Nmr.AbstractMeasurement.peakDims
+
+PeakDims used in 
+the derivation of the measurement value. The description in the 'method' 
+may refer to these peakDims.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiList Nmr_ShiftAnisotropy_SortedPeakDims(Nmr_ShiftAnisotropy self);
+
+/**
+  Sorted for ccp.nmr.Nmr.AbstractMeasurement.peaks
+
+Peaks used in the 
+derivation of the measurement value. The description in the Method may 
+refer to these peaks.
+  @param  Nmr_ShiftAnisotropy self
+  @returns   the result
+**/
+extern ApiList Nmr_ShiftAnisotropy_SortedPeaks(Nmr_ShiftAnisotropy self);
+
+#endif /* __incl__ccp_api_nmr_Nmr_ShiftAnisotropy_h__ */

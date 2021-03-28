@@ -1,0 +1,521 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr
+END
+Nmr_HExchRate.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_HExchRate.c
+END
+Nmr_DerivedData.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_DerivedData.c
+END
+Nmr_AbstractPeakDimContrib.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_AbstractPeakDimContrib.c
+END
+Nmr_T1List.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_T1List.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Makefile
+END
+Nmr_DipolarRelaxation.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_DipolarRelaxation.c
+END
+Nmr_FreqDataDim.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_FreqDataDim.c
+END
+Nmr_PeakCluster.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_PeakCluster.c
+END
+Nmr_ResidueProb.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ResidueProb.c
+END
+Nmr_NmrExpSeries.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_NmrExpSeries.c
+END
+Nmr_T2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_T2.c
+END
+Nmr_SparseSampling.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_SparseSampling.c
+END
+Nmr_ResonanceGroup.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ResonanceGroup.c
+END
+Nmr_DataSource.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_DataSource.c
+END
+Nmr_StructureAnalysis.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_StructureAnalysis.c
+END
+Nmr_AbstractMeasurementList.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_AbstractMeasurementList.c
+END
+Nmr_ShiftList.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ShiftList.c
+END
+Nmr_SpectralDensityList.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_SpectralDensityList.c
+END
+Nmr_PeakDimContribN.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_PeakDimContribN.c
+END
+Nmr_Datum.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_Datum.c
+END
+Nmr_Pka.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_Pka.c
+END
+Nmr_AtomSet.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_AtomSet.c
+END
+Nmr_PeakList.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_PeakList.c
+END
+Nmr_IsotropicS2.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_IsotropicS2.c
+END
+Nmr_Noe.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_Noe.c
+END
+Nmr_NmrProject.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_NmrProject.c
+END
+Nmr_ShiftDifferenceList.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ShiftDifferenceList.c
+END
+Nmr_AbstractDataDim.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_AbstractDataDim.c
+END
+Nmr_SampleCondition.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_SampleCondition.c
+END
+Nmr_JCoupling.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_JCoupling.c
+END
+Nmr_PeakDimContrib.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_PeakDimContrib.c
+END
+Nmr_DataSourceImage.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_DataSourceImage.c
+END
+Nmr_DataDimRef.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_DataDimRef.c
+END
+Nmr_ExpChainState.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ExpChainState.c
+END
+Nmr_ExpTransfer.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ExpTransfer.c
+END
+Nmr_ShiftAnisotropyList.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ShiftAnisotropyList.c
+END
+Nmr_HExchProtectionList.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_HExchProtectionList.c
+END
+Nmr_RdcList.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_RdcList.c
+END
+Nmr_DataList.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_DataList.c
+END
+Nmr_HExchRateList.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_HExchRateList.c
+END
+Nmr_DerivedDataList.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_DerivedDataList.c
+END
+Nmr_SampledDataDim.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_SampledDataDim.c
+END
+Nmr_ResonanceGroupProb.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ResonanceGroupProb.c
+END
+Nmr_Resonance.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_Resonance.c
+END
+Nmr_T2List.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_T2List.c
+END
+Nmr_DipolarRelaxList.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_DipolarRelaxList.c
+END
+Nmr_AbstractDataDerivation.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_AbstractDataDerivation.c
+END
+Nmr_ExpDimRef.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ExpDimRef.c
+END
+Nmr_T1.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_T1.c
+END
+Nmr_DimensionScaling.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_DimensionScaling.c
+END
+Nmr_ExpDim.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ExpDim.c
+END
+Nmr_FidDataDim.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_FidDataDim.c
+END
+Nmr_T1rhoList.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_T1rhoList.c
+END
+Nmr_InternalShiftReference.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_InternalShiftReference.c
+END
+Nmr_ShiftReference.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ShiftReference.c
+END
+Nmr_ExpDimRefMapping.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ExpDimRefMapping.c
+END
+Nmr_ChainStateSet.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ChainStateSet.c
+END
+Nmr_ExternalShiftReference.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ExternalShiftReference.c
+END
+Nmr_SpectralDensityDerivation.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_SpectralDensityDerivation.c
+END
+Nmr_IsotropicS2Derivation.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_IsotropicS2Derivation.c
+END
+Nmr_PkaList.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_PkaList.c
+END
+Nmr_AbstractMeasurement.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_AbstractMeasurement.c
+END
+Nmr_PeakDim.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_PeakDim.c
+END
+Nmr_IsotropicS2List.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_IsotropicS2List.c
+END
+Nmr_StructureGeneration.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_StructureGeneration.c
+END
+Nmr_SpectralDensity.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_SpectralDensity.c
+END
+Nmr_NoeList.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_NoeList.c
+END
+Nmr_Shift.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_Shift.c
+END
+Nmr_Peak.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_Peak.c
+END
+Nmr_Experiment.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_Experiment.c
+END
+Nmr_ChainState.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ChainState.c
+END
+Nmr_ResidueTypeProb.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ResidueTypeProb.c
+END
+Nmr_JCouplingList.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_JCouplingList.c
+END
+Nmr_PeakIntensity.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_PeakIntensity.c
+END
+Nmr_ShiftDifference.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ShiftDifference.c
+END
+Nmr_ResonanceSet.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ResonanceSet.c
+END
+Nmr_PeakDimComponent.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_PeakDimComponent.c
+END
+Nmr_T1Rho.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_T1Rho.c
+END
+Nmr_DataDerivation.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_DataDerivation.c
+END
+Nmr_ResonanceProb.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ResonanceProb.c
+END
+Nmr_PKaDerivation.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_PKaDerivation.c
+END
+Nmr_PeakContrib.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_PeakContrib.c
+END
+Nmr_SampleConditionSet.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_SampleConditionSet.c
+END
+Nmr_ShiftAnisotropy.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_ShiftAnisotropy.c
+END
+Nmr_HExchProtection.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_HExchProtection.c
+END
+Nmr_Rdc.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/nmr/Nmr/Nmr_Rdc.c
+END

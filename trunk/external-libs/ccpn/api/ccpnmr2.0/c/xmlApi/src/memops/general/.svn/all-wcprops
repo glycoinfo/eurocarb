@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/16/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/Makefile
+END
+Util.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/16/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/Util.c
+END
+ApiFloat.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/ApiFloat.c
+END
+ApiObject.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/ApiObject.c
+END
+ApiString.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/ApiString.c
+END
+ApiDouble.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/ApiDouble.c
+END
+ApiSet.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/ApiSet.c
+END
+ApiList.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/ApiList.c
+END
+ApiInteger.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/ApiInteger.c
+END
+Io.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/Io.c
+END
+ApiMap.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/ApiMap.c
+END
+ApiException.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/ApiException.c
+END
+ApiBoolean.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/ApiBoolean.c
+END
+ApiLong.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/general/ApiLong.c
+END

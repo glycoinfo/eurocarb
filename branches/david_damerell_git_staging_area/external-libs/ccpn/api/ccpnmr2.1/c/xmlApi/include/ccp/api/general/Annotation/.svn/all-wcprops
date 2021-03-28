@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/general/Annotation
+END
+Anno_AnnotationStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/general/Annotation/Anno_AnnotationStore.h
+END
+Anno_Annotation.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/general/Annotation/Anno_Annotation.h
+END
+Anno_MolFeature.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/general/Annotation/Anno_MolFeature.h
+END

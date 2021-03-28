@@ -1,0 +1,2465 @@
+<SECTION>Software
+
+  <SUBSECTION>Core concepts
+  
+    <PAGE HELP>index
+
+      <P>The CcpNmr FormatConverter is a set of Python scripts that you can use
+      to interact with external data formats from the CCPN Data Model. The
+      documentation here refers mainly to the top Graphical User Interface (GUI)
+      layer of the <A href="FormatConverterGeneral.html">FormatConverter</A>.</P>
+
+	  <P CLASS="legend">
+        <IMG SRC="../../graphics/fc_gui.jpg"><BR>
+	    <I>The FormatConverter graphical interface</I>
+	  </P>
+
+    <PAGE HELP>FormatConverterGeneral
+
+      <H2>Overview</H2>
+      
+      <P ALIGN="LEFT">The FormatConverter is a package of scripts that allow
+      import and export of existing NMR and related data formats into the CCP
+      Data Model. It can also read/write/edit NMR acquisition and processing
+      parameters/scripts. It is written in Python and originally developed by
+      Wim Vranken (Molecular Structure Database group, European Bioinformatics
+      Institute). </P>
+
+      <P ALIGN="LEFT">The format converter package can be accessed by individual
+      python function calls or from a GUI. All code is subject to the GPGL
+      licence. </P>
+
+      <H2>Development</H2>
+
+      <P ALIGN="LEFT">Particular thanks with regard to development go to Wayne
+      Boucher (who provided much of the GUI code and for discussions), Rasmus
+      Fogh (for discussions and Data Modelling), Aart Nederveen (for extensive
+      testing), Jurgen Doreleijers (for providing his Python STAR
+      reader/writer), and Peter Guentert (for allowing the use of his CYANA
+      library). The reference data used within CCP and this package is based on
+      the internal MSD database and to reference information from AQUA and the
+      BMRB. </P>
+      
+      <H2>References</H2>
+      
+      <P ALIGN="LEFT">If you use this software, please quote the following references:</P>
+      <UL>
+      <LI>R. Fogh, J. Ionides, E. Ulrich, W. Boucher, W. Vranken, J.P. Linge, M. Habeck, W. Rieping, T.N. Bhat, J. Westbrook, K. Henrick, G. Gilliland, H. Berman, J. Thornton, M. Nilges, J. Markley and E. Laue (2002). </I>The CCPN project: An interim report on a data model for the NMR community (Progress report)</I>. <B>Nature Struct. Biol. 9</B>, 416-418.
+      <LI>Wim F. Vranken, Wayne Boucher, Tim J. Stevens, Rasmus H. Fogh, Anne Pajon, Miguel Llinas, Eldon L. Ulrich, John L. Markley, John Ionides and Ernest D. Laue (2005). <I>The CCPN Data Model for NMR Spectroscopy: Development of a Software Pipeline</I>. <B>Proteins 59</B>, 687 - 696.
+      </UL>
+      
+  <SUBSECTION>Installation
+
+    <PAGE>FormatConverter installation script
+    
+        <P>The third-party applications required are Python 2.2 and Tcl/Tk 8.3. 
+        Users who want to use their own copies of this code can do so.
+        FormatConverter will not work with Python < 2.2 but might work
+        with Python 2.3 (we have not tested this).  FormatConverter might
+        work with other Tcl/Tk 8.x distributions (we have not tested this).</P>
+
+        <P>Please see the INSTALL file in the ccpnmr/ directory for detailed information</P>
+      
+  <SUBSECTION>Future Features
+
+    <PAGE>Coming soon to FormatConverter
+      <H2>Other formats....</H2>
+      <P>
+      If there is another data format you would like to see in the FormatConverter, contact us
+      and we will try to implement it. As long as we can get some example files most formats should
+      be easy to handle... .
+      </P>
+      <P>
+      The data formats we currently handle are all 'derived' NMR data. We will implement a conversion
+      for NMR raw data formats in the future.
+      </P>
+      
+  <SUBSECTION>Credits & Contact
+
+    <PAGE>The Authors
+
+      <H2>The Authors<H2>
+      <TABLE>
+        <TR>
+          <TD class='pageHead'>CcpNmr Analysis</TD>
+          <TD class='pageHead'>CcpNmr FormatConverter</TD>
+        </TR>
+        <TR>
+          <TD class='pageBody'>
+            Wayne Boucher and Tim Stevens<BR>
+            Department of Biochemistry<BR>
+            University of Cambridge
+          </TD>
+          <TD class='pageBody'>
+            Wim Vranken<BR>
+            The European Bioinformatics Institute<BR>
+            Wellcome Trust Genome Campus
+          </TD>
+        </TR>
+      </TABLE>
+      <H2>The programming team</H2>
+      <TABLE>
+        <TR>
+          <TD class='pageHead'>University of Cambridge</TD>
+          <TD class='pageHead'>EBI (not CCPN funded)</TD>
+        </TR>
+        <TR>
+          <TD class='pageBody'>
+            Wayne Boucher
+          </TD>
+          <TD class='pageBody'>
+            John Ionides
+          </TD>
+        <TR>
+          <TD class='pageBody'>
+            Rasmus Fogh
+          </TD>
+          <TD class='pageBody'>
+            Anne Pajon
+          </TD>
+        <TR>
+          <TD class='pageBody'>
+            Tim Stevens
+          </TD>
+          <TD class='pageBody'>
+            Wim Vranken
+          </TD>
+        </TR>
+      </TABLE>
+      <H2>Email</H2>
+      <P>
+      If you have any comments or queries you can contact the authors at:
+      <A HREF="mailto:ccpn@mole.bio.cam.ac.uk">ccpn@mole.bio.cam.ac.uk</A>
+      </P>
+      <H2>Discussion Group</H2>
+      <P>
+      Alternatively you may wish to join the CCPN email discussion group at:
+      <A HREF="http://www.jiscmail.ac.uk/lists/CCPNMR.html">http://www.jiscmail.ac.uk/lists/CCPNMR.html</A>
+      where the CcpNmr software suite is regularly
+      discussed. Responses to bug reports are relatively quick using this route.
+      </P>
+  <SUBSECTION>Download
+
+    <PAGE>CcpNmr Suite
+      <P>
+       There are three independent releases, in general you only need to download one
+       of them. The third party code is packaged separately in case you do not need
+       it.&nbsp; Unpack all the tar files you download in one directory.  There is a README
+       and INSTALL instructions in the ccpnmr directory which is thus created. 
+      </P>
+      <H2 ALIGN=CENTER>
+        <TABLE>
+         <TR>
+            <TD class="pageHead">
+              <P>
+              <B>CcpNmr Analysis <BR></B>(includes API and FormatConverter) <BR>
+              <A HREF="http://www.ccpn.ac.uk/downloads/temporary_license/temporary_license.html"><I>CCPN (temporary testing) license</I></A>
+              </P>
+            </TD>
+
+            <TD class="pageBody">
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/analysis1.0.b19.tar.gz">analysis1.0.b19.tar.gz</A>
+              (unpacks into ccpnmr/ccpnmr1.0)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/python2.2.tar.gz">python2.2.tar.gz</A>
+              (unpacks into ccpnmr/python2.2)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/tcltk8.3.tar.gz">tcltk8.3.tar.gz</A>
+              (unpacks into ccpnmr/tcl8.3 and tk8.3)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/mesa6.0.tar.gz">mesa6.0.tar.gz</A>
+              ( unpacks into ccpnmr/mesa6.0)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/analysisTutorial.tar.gz">analysisTutorial.tar.gz</A>
+              (unpacks into analysisTutorial)<BR>
+              (contains two 3D data sets and is around 65Mb in size)
+            </TD>
+          </TR>
+          <TR>
+            <TD class="pageHead">
+              <P>
+              <B>CcpNmr FormatConverter <BR></B>(includes API)<BR><A HREF="http://www.gnu.org/copyleft/lesser.html"><I>LGPL license</I></A>
+              </P>
+             </TD>
+            <TD class="pageBody">
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/format1.0.b21.tar.gz">format1.0.b21.tar.gz</A>
+              (unpacks into ccpnmr/ccpnmr1.0)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/python2.2.tar.gz">python2.2.tar.gz</A>
+              (unpacks into ccpnmr/python2.2)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/tcltk8.3.tar.gz">tcltk8.3.tar.gz</A>
+              (unpacks into ccpnmr/tcl8.3 and tk8.3)
+            </TD>
+          </TR>
+          <TR>
+            <TD class="pageHead">
+              <P>
+              <B>CCPN Data Model </B><BR>(API only)<BR>
+              <A HREF="http://www.gnu.org/copyleft/lesser.html"><I>LGPL license</I></A>
+             </P>
+             </TD>
+
+            <TD class="pageBody">
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/api1.0.b15.tar.gz">api1.0.b15.tar.gz</A> (unpacks into ccpnmr/ccpnmr1.0)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/python2.2.tar.gz">python2.2.tar.gz</A> (unpacks into ccpnmr/python2.2)
+            </TD>
+          </TR>
+         </TABLE>
+      </H2>
+    
+<SECTION>Menu Options
+
+  <SUBSECTION>Main menu
+
+    <PAGE HELP>MenuOverview
+
+        <UL>
+
+        <LI><A HREF = 'Project.html'>Project menu</A>: To create a project, and
+			save and close the current project.
+
+        <LI><A HREF = 'Setup.html'>Setup menu</A>: To create NMR experiment(s)
+			in the current project.
+
+        <LI><A HREF = 'Process.html'>Process menu</A>: To handle data inside the
+			current project.
+
+        <LI><A HREF = 'Import.html'>Import menu</A>: To import data from
+			external data format file(s).
+
+        <LI><A HREF = 'Export.html'>Export menu</A>: To export data to external
+			data format file(s).
+
+        <LI><A HREF = 'Other.html'>Other menu</A>: Additional functionality.
+
+        <LI><A HREF = 'Help.html'>Help menu</A>: General help for the
+			FormatConverter.
+
+        </UL>
+
+    <PAGE HELP>Project
+        <UL>
+        
+        <LI><B>New</B>: Create a new CCP project.
+        
+        <LI><B>Open</B>: Open an existing CCP project .xml file.
+        
+        <LI><B>Close</B>: Close the current CCP project.
+        
+        <LI><B>Save</B>: Save the current CCP project.
+        
+        <LI><B>Save As</B>: Save the current CCP project as a different .xml
+			file.
+
+        <LI><B>Quit</B>: Quit this package.
+        </UL>
+    
+    <PAGE HELP>Setup
+        <UL>
+
+        <LI><B>Edit default experiment types</B>: Edit list of NMR experiment
+			types.
+
+        <LI><B>Create 2D experiment</B>: Create a 2D NMR experiment in the data
+			model.
+
+        <LI><B>Create 3D experiment</B>: Create a 3D NMR experiment in the data
+			model.
+
+        <LI><B>Create 4D experiment</B>: Create a 4D NMR experiment in the data
+			model.
+
+        </UL>
+    
+    <PAGE HELP>Process
+        <UL>
+        
+        <LI><B>Run linkResonances</B>: Run this script after you have read in
+            sequence and NMR information. It links the Data Model Resonances to
+            Atoms, effectively assigning the NMR information to particular
+            atom(s).
+
+        <LI><B>Check stereo status prochirals</B>: Set the stereospecific
+            assignment status for resonances assigned to prochiral atoms.
+
+        <LI><B>Create chemical shifts from peaklist(s)</B>: Create chemical
+			shift list based on peak list(s) in the Data Model.
+
+        <LI><B>Group chemical shifts for deposition</B>: Display the percentage
+			of atoms that are currently assigned (based on atom groupings).
+
+        <LI><B>Write resonance->atom mapping file</B>: Write out a text file
+			with the resonance to atom links.
+
+        <LI><B>Write BMRB chem shift deposition</B>: This allows you to write a
+            BMRB chemical shift deposition file (<I>Note: this is for NMR-STAR
+            v2.1.1 only. It should work fine in most cases as long as shifts are
+            written out chain by chain.</I>)
+
+        </UL>
+
+    <PAGE HELP>Import
+    
+        <UL>
+        
+        <LI><UL><LH><B>Single files:</B>Read in a single file, and...</LH>
+
+        <LI><B>Sequence</B>: Create relevant molecule(s), chain(s), residue(s)
+            and atom(s) in the Data Model.
+
+        <LI><B>Chemical Compounds</B>: Create a reference chemical compound
+            (e.g. a ligand) in the Data Model.
+
+        <LI><B>Coordinates</B>: Create structural coordinates in the Data Model.
+            Will create the relevant molecules/chains if possible.
+
+        <LI><B>Chemical Shifts</B>: Create chemical shift list and corresponding
+			resonances in the Data Model.
+
+        <LI><B>Peaks</B>: Create a peak list and corresponding resonances in the
+			Data Model.
+
+        <LI><B>Peak assignments</B>: Reset peak list assignments for an existing
+			peak list in the Data Model.
+
+        <LI><B>Dihedral constraints</B>: Create dihedral constraint list and
+			corresponding resonances in the Data Model.
+
+        <LI><B>Distance constraints</B>: Create distance constraint list and
+			corresponding resonances in the Data Model.
+
+        <LI><B>H-bond constraints</B>: Create H-bond constraint list and
+			corresponding resonances in the Data Model.
+
+        <LI><B>Rdc constraints</B>: Create residual dipolar coupling constraint
+			list and corresponding resonances in the Data Model.
+
+        <LI><B>Acquisition parameters</B>: Get the acquisition parameters from
+            original spectrometer files, and create the relevant NMR experiment
+            and raw dataSource in the Data Model. <I>After the file is read a
+            window to edit the parameters will automatically pop up.</I>
+
+        <LI><B>Processing parameters</B>: Get processing parameters from
+            processing files, and create the relevant NMR experiment and
+            processed dataSource in the Data Model.
+
+        <LI><B>Project file</B>: Also reads in all files that are referred to in
+            the project file. Creates all relevant objects (resonances,
+            corresponding resonances in the Data Model, peak lists, ...) in the
+            Data Model.
+
+        </UL>
+
+        <P>&nbsp;</P>
+
+        <LI><UL><LH><B>Combined files:</B>Read in a specific combination of
+            external data files.</LH>
+
+        <LI><B>Chemical shifts and peaks</B>: Reads in a chemical shift list and
+            peak list as for single files, but also connects the information
+            from these files in the Data Model.
+
+        </UL>
+
+        <P>&nbsp;</P>
+        
+        <LI><UL><LH><B>Multiple files:</B> Read in multiple files from one data
+			format.</LH>.
+
+        </UL>
+
+        </UL>
+
+    <PAGE HELP>Export
+
+        <UL>
+
+        <LI><B>By format</B>: This will pop up a window where the desired
+            objects in the Data Model can be selected for export to a file in
+            the selected format. Note that export is not supported for all
+            components (<I>e.g.</I> sequence) for all formats.
+
+        </UL>
+
+
+    <PAGE HELP>Other
+        <UL>
+
+        <LI><B>General editor</B>: This will pop up a general editor for objects
+            inside the Data Model. It allows you to browse, set and delete
+            objects and values.
+
+        <LI><B>Edit acq/proc pars</B>: This will pop up an editor for values
+            relating to acquisition and processing parameters for an experiment.
+            Currently only works if you have a raw dataSource available for an
+            experiment. It also allows writing of processing scripts and
+            parameters.
+
+        </UL>
+
+    <PAGE HELP>Help
+        <UL>
+        
+        <LI><B>Glossary</B>: Glossary of commonly used terms in the help text
+        
+        <LI><B>Menus</B>: This help
+        
+        <LI><B>Quick start</B>: Quick overview on how to do a conversion.
+        
+        <LI><B>Tutorial</B>: A tutorial on how to use this package.
+
+        <LI><B>About</B>: About this package.
+        
+        <LI><B>Version</B>: Gives the version you are currently using.
+
+        </UL>
+
+
+<SECTION>F.A.Q.
+
+  <SUBSECTION>Bug reporting
+     
+    <PAGE>CcpNmr Suite
+    
+      <H2>CcpNmr Analysis</H2>
+      
+      <H3>Project & Spectrum Loading, Contour displays & Spectrum Windows</H3>
+      <P>
+      Contact Wayne Boucher
+      </P>
+      <H3>For everything else</H3>
+      <P>
+      Contact Tim Stevens
+      </P>
+      <H2>CcpNmr FormatConverter</H2>
+      <P>
+      Contact Wim Vranken.
+      </P>
+      <H2>The report</H2>
+      <P>
+      State what you did in vague terms.
+      Remember to include any error text that appears on the command line,
+      remembering to include the stack trace, which looks similar to:
+      <PRE>
+    return apply(self.func, args)<BR>
+  File "/ccpn/cvs_root/python/memops/gui/ScrolledMatrix.py", line 510, in mouseClick<BR>
+    self.selectCell(row,col)<BR>
+  File "/ccpn/cvs_root/python/memops/gui/ScrolledMatrix.py", line 1364, in selectCell<BR>
+    self.callback(self.currentObject, objRow, objCol)<BR>
+  File "/ccpn/cvs_root/python/ccpnmr/analysis/EditMoleculePopup.py", line 366, in selectMolecule<BR>
+    self.updateMolData()<BR>
+  File "/ccpn/cvs_root/python/ccpnmr/analysis/EditMoleculePopup.py", line 426, in updateMolData<BR>
+    if self.molecule.isAromatic:<BR>
+  File "/ccpn/cvs_root/python/ccp/api/Molecule.py", line 6049, in getIsAromatic<BR>
+    if rr.chemCompVar.isAromatic == True:<BR>
+AttributeError: 'NoneType' object has no attribute 'isAromatic'<BR>
+      </PRE>
+      </P>
+      <H2>Documentation errors</H2>
+      <P>
+      Contact Tim Stevens and give the name of the section and the html file name.
+      </P>
+  
+<SECTION>Tutorials
+  <SUBSECTION>Quick start
+    <PAGE HELP>QuickStart
+
+        <H1>Quick guide to using the format conversion software</H1>
+
+        <P ALIGN="LEFT"><B>Step 1</B>: Create a CCP project...</P>
+        
+        <P ALIGN="LEFT">Go to '<I>Project:New</I>', and enter a name. This will
+        create a CCP project in memory. </P>
+
+        <P ALIGN="LEFT"><B>Step 2</B>: Import one or more files in a particular
+		format...</P>
+
+        <P ALIGN="LEFT">Go to '<I>Import</I>'. There are three ways of importing
+        files: </P>
+
+        <UL>
+
+        <LI> '<I>Single files</I>': Read one file at a time (also includes
+		project files).
+
+        <LI> '<I>Combined files</I>': Read a set of interconnected files (e.g. a
+		shift and peak list).
+
+        <LI> '<I>Multiple files</I>': Read multiple files for one format in one
+		go.
+
+        </UL>	  
+
+        <P ALIGN="LEFT">Select the appropriate format, click on 'Select file' to
+        select the file name(s), then press 'IMPORT'.</P>	
+
+        <P ALIGN="LEFT"><B>Step 3</B>: Run linkResonances...</P>
+
+        <P ALIGN="LEFT">Go to '<I>Process:Run linkResonances</I>'</P>       
+
+        <P ALIGN="LEFT">This will give meaning within the Data Model to the <A
+        href="Concepts_Resonance.html">resonance objects</A> using the imported resonance
+        names from the file you just read in. </P>   
+
+        <P ALIGN="LEFT"><B>Step 4</B>: Export one or more files in a certain
+		format...</P>
+
+        <P ALIGN="LEFT">Go to '<I>Export</I>', select the appropriate format.
+        </P>
+
+        <P ALIGN="LEFT">Select the appropriate peak list, ... from the data
+        model, click '<I>Export</I>' and give the file name to write to. </P>   
+
+        <P ALIGN="LEFT">Note that only one file at a time can be exported this
+        way. </P>
+
+  <SUBSECTION>Tutorial
+    <PAGE HELP>Tutorial
+
+        <H1>Quick tutorial on how to use the Data Model.</H1>
+
+        <H2>How to convert?</H2>
+
+        <P>This tutorial describes how to import an NMRVIEW sequence and peak list file
+        into the Data Model framework, how to create a chemical shift list from the peak
+        list data, and finally how to export the data to XEASY format files. The example
+        NMRVIEW files used in this tutorial can be downloaded as a tar file <A
+        href="http://www.ebi.ac.uk/msd-srv/docs/NMR/NMRtoolkit/tutorial/fcTutorial.tar">
+        here</A> (only downloadable via normal browser).</P>
+
+        <H2>Creating a project</H2>
+
+        <P>The first thing to do when starting with a new set of data is to create a
+        <B>Project</B> in the Data Model. A Project groups data together, and you need
+        to have such a Project available in the Data Model before you can do anything
+        else.</P>
+
+        <P>After starting the FormatConverter, either create a new project from
+        <I>'Project->New'</I> (and type in a name for your project, e.g. 'test'), or
+        load an existing one from a CCPN XML file via <I>'Project->Load'</I>.</P>
+
+        <H2>The data to be imported</H2>
+
+        <P>The NMRVIEW data files describe a simple hypothetical peptide homodimer. The
+        'nmrView.seq' file contains the sequence of the molecule, the 'nmrView.xpk'
+        file a peak list for a <SUP>15</SUP>N HSQC NOESY. In the peak list files, the
+        residues for the first chain in the homodimer are numbered from 1-12, for the
+        second chain from 101-112.</P>
+
+        <H2>Importing a sequence</H2>
+
+        <P>The molecular information in the Data Model is highly organized, and
+        consists of a layer of reference chemical compounds (the <B>ChemComp</B>), a
+        layer that describes the molecules used in this project (the <B>Molecule</B>),
+        and a final layer that describes the actual situation in the sample(s) that are
+        being used (the <B>Molecular System</B>). For example, a homodimer would
+        consist of only one <B>Molecule</B> that describes the sequence (and links to
+        the correct reference chemical compounds), and one <B>Molecular System</B>,
+        with two <B>Chains</B>, each of which is linked to the <B>Molecule</B>. Each
+        chain then has <B>Residues</B> and <B>Atoms</B>.</P>
+
+        <P>Now go to <I>'Import->Single files->Sequence->NmrView'</I>. The window that
+        pops up allows you to specify the file location and additional settings (in
+        this type of  window, you can click on the <B>'i'</B> button to get short
+        information on what a specific setting means). First, click on 'Select file'. A
+        file browser window will pop up: select the 'nmrView.seq' file, and press
+        'Select' at the bottom of this window. The file name should appear where
+        'Select file' was displayed. To see the additional (non-obligatory) options,
+        press on the blue arrow next to 'Additional options'. Do not change the default
+        settings for now.</P>
+
+        <P>To import the file, press the 'IMPORT' button. The (simple) sequence in the
+        'nmrView.seq' file will now be parsed and converted to the Data Model
+        framework. Note that a text output window should appear that displays the
+        output from the conversion scripts.</P>
+
+        <P>The window that appears next allows you to edit the information from the
+        sequence file that was just read in. On the left is the information from the
+        original external file, on the right the information that is Data Model
+        specific. First, click on the <I>'GLU-ASP-VAL-...-GLY-GLY-LEU'</I> button. In
+        the window that appears now you can change the protonation state of residues
+        and modify the sequence (e.g. split it up into separate molecules). This is not
+        the aim of this tutorial, but click the <I>'Help'</I> button for more
+        information on how to do this. Click the <I>'Cancel'</I> button and go back to
+        the previous window. The molecule name can be reset by clicking on the
+        button(s) below <I>'Molecule name'</I>. Leave the name as is for now. Finally,
+        the number of chains that have to be created for this molecule can be set.
+        Since this is a homodimer, enter '2' in the 'Number of chains' box, and finally
+        press <I>'OK'</I> to continue.</P>
+
+        <P>The next window asks for a name for the molecular system you are about to
+        create. Leave the name as is and press <I>'OK'</I>. Then, you will be prompted
+        to give chain codes for the two chains that are created. Press <I>'OK'</I> for
+        both. A window stating <I>'Successfully imported file: ...'</I> should now
+        appear. Press 'OK' - you have now successfully created the molecular
+        information inside the Data Model!</P>
+
+        <H2>Saving a project</H2>
+
+        <P>It is always safest to save a project after a successful import. Go to
+        'Project->Save'. The first time you do this, a window will appear where you
+        can define all the specific information on where storage files are located.
+        Leave this as is for now and press 'Save'. The name of your project is used
+        as the default file name: a '<project name>.xml' file (this contains all
+        high-level information), and a <project name> directory will be created. The
+        directory contains subdirectories with XML files that describe all low-level
+        information stored in the Data Model. Press <I>'OK'</I> when the file is
+        saved, and <I>'Close'</I> in the <I>'Save Project'</I> window.</P>
+
+        <H2>Importing a peak list</H2>
+
+        <P>Go to <I>'Import->Single files->Peaks->NmrView'</I>. Select the
+        'nmrView.xpk' file in the same way as described before. You can here also
+        select the 'Assignment separator' that is used in the NMRVIEW peak list file -
+        it is currently a space. Leave all settings as they are and press
+        <I>'IMPORT'</I>.</P>
+
+        <P>In the Data Model, you have to describe the NMR <B>Experiment</B> from which
+        the peak list is derived before you can create the peak list itself. You will now
+        get a popup where you can create an NMR experiment based on the list of 'NMR
+        Experiment Prototypes' that CCPN provides. These 'reference experiments' contain
+        information on the experiment steps, atoms involved, ... . It is important that
+        you select the right experiment as this information is used later on, for example
+        when doing backbone assignments.</P>
+
+        <P>From the <I>'Create Experiment'</I> popup, select the '15N HSQC-NOESY' with
+        experiment name 'H[N]_H.NOESY', and press 'Create'. Next, you can give your own
+        name to the experiment - you can change this or leave as is, then press 'OK'.
+        You will now be prompted for a name for the <B>DataSource</B>. A DataSource is an
+        'implementation' of the NMR experiment: for example you need a DataSource for the
+        raw original NMR data, and then a separate DataSource for each differently
+        processed spectrum (<I>e.g.</I> the full 3D version, 2D projections, ...). Just
+        press <I>'OK'</I> to continue.</P>
+
+        <P>The next prompt asks for a name for the peak list. Again press <I>'OK'</I>.
+        The window that appears now is very important: the order of the spectrum
+        dimensions in the Data Model and inside the external peak file might not be the
+        same, and here you can specify what each dimension means. On the left (in
+        black) are the peak dimensions (with chemical shift range) from the external
+        file, on the right (in blue) the experiment dimensions for this particular
+        Experiment in the Data Model. The 2nd and 3rd dimension have to be switched in
+        this case: for 'Peak dim' number 1 (in the middle), change 'DataDimRef
+        selection' to 'Dim 2, nucl 15N, ...', and for 'Peak dim' number 2 (the last
+        one), change 'DataDimRef selection' to 'Dim 3, nucl 1H, ...'. The mapping is
+        now set correctly, so press <I>'OK'</I> to continue.</P>
+        
+        
+        <P>A window will now pop up that allows you to correct or modify the parameters
+        describing the reference data and the spectrum processing for the NMR experiment
+        (like number of points, ...). The formatConverter will try to pick up as much
+        information as possible, but this is sometimes difficult. Change the settings as
+        desired, or leave as is, and press 'Exit/continue'.</P>
+
+        <P>A window stating <I>'Successfully imported file: ...'</I> should now appear.
+        Press 'OK' - you have now successfully created an NMR experiment and peak list
+        inside the Data Model!</P>
+ 
+        <H2>LinkResonances: Defining what the external atom names mean...</H2>
+
+        <P>A 'Run linkResonances' popup should now appear. At this stage you have created
+        on the one hand the molecular system with all the chains, residues and atoms, and
+        on the other hand a peak list and chemical shift list. However, this information
+        is currently <B>not</B> linked to each other. This is possible because the NMR
+        information is not linked directly to <B>Atoms</B>, but is instead connected to
+        what we call <B>Resonances</B>. These <B>Resonances</B> do not have the
+        traditional NMR meaning, but instead link all information that arises from one
+        atom or a group of atoms together (click <A
+        href="Concepts_Resonance.html">here</A> for a detailed description - only
+        available in online version of documentation). For example, a Resonance exists
+        that connects all the information from what is called '4.HN' in the external
+        NMRVIEW file. We now have to connect this Resonance to the HN Atom in residue 4,
+        chain A.</P>
+
+        <P>The script that does this for you is called linkResonances (click <A
+        href="Concepts_LinkResonances.html">here</A> for more information. Only available
+        online). Click 'Yes' in the 'Run linkResonances' popup that appeared (not that you
+        can run the linkResonances script at any time by going to 'Process->Run
+        linkResonances'). Another popup will then appear that will ask you if you want to
+        'Use fast linking'. Click 'No' for the purposes of this tutorial. If you click
+        'Yes', the linkResonances script will be executed with default settings - skip the
+        next paragraph should you do that.</P>
+
+        <P>A window will now appear where you can set the preferences for this script.
+        Again, it is not the aim of this tutorial to go into details at this stage - click
+        on <I>'Help'</I> for more information. Leave all settings as they are, and click
+        on <I>'Link resonances to atoms'</I> to continue.</P>
+
+        <P>First, you will have to specify what the sequence numbering in the external
+        file means in relation to the molecular system inside the Data Model. This
+        window will only pop up if it is not obvious how the information from the
+        external file connects to the information in the Data Model. In this case, the
+        sequence codes 1-12 from the external NMRVIEW file connect to Data Model
+        residues 1-12 for chain A, while external sequence codes 101-112 connect to
+        residues 1-12 for chain B. On the left, in blue, is the molecular system
+        information inside the Data Model, on the right, in black, the information from
+        the external file.</P>
+        
+        <P>For <I>'Ccp chain code'</I> row <I>'A (12 res...)'</I>, click on the <I>'Do not
+        link'</I> selection, and select <I>'Link to code ' ' (range '2 '-'5 ')'</I>. The
+        numbering here ranges from 2 to 5 because no information was present for 1 and
+        6-12 in the provided peak list. Under <I>'Sequence Id (code) start'</I>, the <I>'2
+        (2)'</I> entry should be automatically selected. You have now specified that
+        sequence codes 2-5 in the external file correspond to residues 2-5 for chain A in
+        the Data Model. Do the same thing for <I>'Ccp chain code'</I> row <I>'B (12
+        res...)'</I>, but now select <I>'Link to code ' ' (range '102 '-'105 ')'</I>. You
+        also have to select <I>'2 (2)'</I> on the left hand side in this case. Finally,
+        press <I>'OK'</I> to accept this mapping. You will be asked if you want to change
+        the sequence codes for chain B to reflect the ones from the external file
+        (<I>i.e.</I> 102-105). Click 'Yes'. If you selected 'Yes' earlier for 'Use fast
+        linking', skip to the last paragraph of this heading.</P>
+
+        <P>A 'Choose namingSys' window will appear next. In this window, you can select
+        the naming system that best applies to the atom names read in from the external
+        file. If you click on the selection list, you will see that many naming systems
+        are available, but that only 'XPLOR' and 'XPLOR-INV' match 94.12 percent of the
+        external atom names. In this case, XPLOR gives the best match, so click
+        <I>'OK'</I> to continue. </P>
+
+        <P>If an atom name does not match the naming system you selected, you will have
+        to manually tell the script what this atom name means. The ' .3.HXX' atom in
+        this case corresponds to the HA atom of residue 3, chain A. First click
+        <I>'Show all atoms'</I> to show all the atoms for residue 3, chain A in the
+        'Pick atom' list, then select 'HA' from this list. You can also propagate this
+        HXX->HA atom name mapping to other residues by selecting an option in
+        <I>'Propagate mapping to'</I>. Leave this as is for now, and press <I>'OK'</I>
+        to continue.</P>
+
+        <P>There are cases where only one atom of a prochiral pair is listed in the
+        external file format (e.g. HB2 for an ASP). This can either mean that, in this
+        case, the HB3 atom carries the same information as the HB2 (has the same
+        chemical shift here, essentially), or that it is not visible. The window that
+        is shown now allows you to select the correct handling of such a case. Click on
+        the selection menu to see the options, but leave as is and click <I>'OK'</I> to
+        continue.</P>
+
+        <P>Similar to the prochiral case, it is possible that only one atom of a
+        usually equivalent atom pair is listed in the external file format (<I>e.g.</I>
+        only aromatic atom HE1 for a PHE). This can either mean that, in this case, the
+        HE2 atom is equivalent to the HE1 atom, or that they are not equivalent
+        (<I>i.e.</I> are separately visible in the spectrum). The window that is shown
+        now allows you to select the correct handling of such a case. Click on the
+        selection menu to see the options, but leave as is and click <I>'OK'</I> to
+        continue.</P>
+
+        <P>The window 'LinkResonances ran successfully' should now appear. The
+        Resonances are now linked to Atoms, and their assignment is unambiguously
+        described. You can also have a look at the text output window to see how the
+        link between the Resonances (on the left) and the atom(s) (on the right) was
+        made.</P>
+
+        <P>Save the project again at this stage.</P>
+
+        <H2>Creating a chemical shift list inside the Data Model</H2>
+
+        <P>Now that the peak list information is stored inside the Data Model, you can
+        run a simple generic script that creates a chemical shift list
+        (<B>ShiftList</B>). Go to <I>'Process->Create chemical shifts from
+        peaklist(s)'</I>. You can select the peak list(s) you want to use from the top
+        selection window. There is only one available: select this one. Since no current
+        chemical shift list exists inside the Data Model, leave the next selection to
+        'None'. Click the 'Use multiple assignments': this way peaks with ambiguous
+        assignments will still be used for deriving the chemical shift values. Leave the
+        default shift error as is, and click <I>'Create shift list'</I>. Give a name for
+        the chemical shift list, and press <I>'OK'</I>. The peak list will now be created
+        - press <I>'OK'</I> when the popup announcing this appears.</P>
+
+        <P>Save the project again at this stage.</P>
+
+        <H2>Exporting a sequence, chemical shift and peak list</H2>
+
+        <P>You can only export assignments after you have successfully linked the
+        Resonances to the Atoms. Since this is now done, go to 'Export->XEasy' to write
+        out XEASY files based on the NMRVIEW information that we imported.</P>
+
+        <P>The window that pops up only lists information that is currently available
+        in the Data Model. In this case, sequence, chemical shift, peak and peak
+        assignment files can be written out.</P>
+
+        <P>First write out the sequence file: select both the 'A' and 'B' chain from
+        the <I>'Select chains to export'</I> selection, click on the <I>'Select export
+        file'</I> button and press <I>'Select'</I> in the file selection window (or
+        change the output name if you want to). Click <I>'export sequence'</I> to write
+        out the XEASY sequence file. A window will now pop up where you can set the
+        mapping to the external file. Since XEASY does not handle multiple chain codes,
+        enter '101' in the box for <I>'Ccp Chain Code'</I> entry 'B', so that residues
+        for chain B will be written out with sequence codes 101-112. <I>This mapping
+        will also be used for the chemical shift and peak lists!</I> Press <I>'OK'</I>
+        after the file is exported.</P>
+
+        <P>Now write out a chemical shift file: for XEASY this has to be done before
+        writing the peak list, otherwise assignments cannot be written out. Leave the
+        <I>'Select shift list to export'</I> selection as is (there is only one
+        chemical shift list), click on <I>'Select export file'</I> button and press
+        <I>'Select'</I> in the file selection window (or change the output name if you
+        want to). Click <I>'export shifts'</I> to write out the XEASY chemical shift
+        file, and press <I>'OK'</I> when the file is exported.</P>
+
+        <P>Finally, export the peak file. Leave the <I>'Select peak list to export'</I>
+        selection as is (there is only one peak list), click on <I>'Select export
+        file'</I> button and press <I>'Select'</I> in the file selection window (or
+        change the output name if you want to). Click <I>'export peaks'</I> to write
+        out the XEASY peak list file. You will (similar to the NMRVIEW peak list
+        import) get a window to map the peak dimensions for the external peak list file
+        to the experiment dimensions in the Data Model. Change this at will, or leave
+        as is, and press <I>'OK'</I>. Finally, press <I>'OK'</I> again when the file is
+        exported.</P>
+
+        <P>Note that the XEASY peak list format does not support ambiguous assignments:
+        you have to write out a 'peak assignments' file to handle this.</P>
+
+
+        <H2>Final notes</H2>
+
+        <P>This quick tutorial for the FormatConverter hopefully gave you an idea of
+        how to handle import/export of external files. If you have any comments on this
+        tutorial or would like to see other steps explained, please let us know!</P>
+
+  <SUBSECTION>Examples
+    <PAGE HELP>Examples
+
+        <H1>Examples of how to use the Python layer of the FormatConverter</H1>
+
+        <P ALIGN="LEFT">In the python/ccpnmr/format/examples/ directory you can find
+        some example Python scripts that show you how to use the FormatConverter without
+        having to access the GUI layer. This is very useful if you have to repeat an
+        import/export many times - it allows you to automate the process.</P>
+        
+        <P ALIGN="LEFT">The example scripts are: </P>
+
+        <UL>
+
+        <LI><I>convertCns2Pdb.py</I>: Shows how to convert CNS-type coordinate files to PDB-like
+        coordinate files with the correct PDB atom naming. Also resets the path names. <B>Level:
+        intermediate</B>
+
+        <LI><I>convertNmrView2XEasy.py</I>: Shows how to convert NmrView to XEasy files via the data
+        model using the FormatConverter Python layer. <B>Level: intermediate</B>
+
+        <LI><I>importCnsConstraints.py</I>:Shows how to import a CNS constraint file into the data
+        model by directly using the FormatConverter Python layer. <B>Level: basic</B>
+        
+        <LI><I>importSequenceFile.py</I>:Shows how to import a Fasta sequence file into the data
+        model by directly using the FormatConverter Python layer. <B>Level: basic</B>
+
+        </UL>	  
+
+       <P ALIGN="LEFT">Note that example scripts on how to use the (lowest level) Python API itself
+       are also available in the python/ccp/examples directory. </P>
+
+
+<SECTION>Popups
+
+  <SUBSECTION>Guide to widgets
+
+    <PAGE>Tables - ScrolledMatrix
+      <P>
+      The ScrolledMatrix can be identified by
+      the grey heading row with faint [-] and ? symbols in the headings and bordered table
+      elements below, usually in light grey.
+      </P>
+      <H2>Headings & Columns</H2>
+
+        <H3>Shrink a column</H3>
+          <P>
+          Click on the faint [-] symbol in the top left corner of a a column. You cannot shrink
+          all the columns. Once shrunk, columns gain a blue [+] symbol that replaces the
+          heading, clicking this will cause the column and its contents to re-appear.
+          </P>
+        <H3>Sort a column</H3>
+          <P>
+          Click once on a column heading (avoiding the '?' and [-] symbols) and the rows of the
+          table will be sorted in ascending order according to the contents of the column. Click
+          again on the same column and the order of the column will be reversed. The direction
+          of the sorting will be displayed at the head of the sorted column with a blue triangle
+          pointing in the direction of the sort ascension.
+          </P>
+          <P>
+          Sorting is alphabetical for text and numerical for numbers. When a column contains
+          elements with numbers at the start then text after, the rows will be sorted numerically
+          first on the numbers and then alphabetically on the remaining text.
+          </P>
+          <P>
+          You cannot sort on shrunk/hidden columns, but sorting will remain for a column that was
+          sorted before it was shrunk.
+          </P>
+        <H3>Filter according to column content</H3>
+          <P>
+          Click on the '?' in the top right of a column heading. This will open the Filter
+          Options Popup and will set it to the appropriate column. Once a table of data has been
+          filtered, the column(s) to which the filter was applied now has a blue '!' symbol in
+          the top right of the heading element to replace the question mark.
+          </P>
+          <P>
+          If a scrollbar is visible on the right of the table, the [?] element above the
+          scrollbar will also open the <A HREF="FilterOptionsPopup.html">FilterOptionsPopup</A>.
+          </P>
+      <H2>Rows</H2>
+
+        <H3>Single Selection</H3>
+          <P>
+          Single click on any element of a row to select the row. A few tables have selectable
+          elements, rather than complete rows. In these instances it is usually obvious which
+          element should be selected. For example, in <A HREF="BrowseAtomsPopup.html">BrowseAtomsPopup</A>
+        atom groups or whole
+          residues may be selected in a given row.
+          </P>
+        <H3>Multiple selection</H3>
+          <P>
+          Tables may have multiple selection, but this is not always present. An example with
+          multiple selection is <A HREF="EditPeakListPopup.html">EditPeakListPopup.</A>
+         This allows functions to be performed upon
+          multiple objects (e.g. delete several peaks).
+          </P>
+          <P>
+          If a table has multiple selected rows one of the rows will be darker that the others,
+          indicating that this is the primary row. The primary row is the one that will be used
+          for functions that need only one selected object, rather than several.
+          </P>
+          <P>
+          The extent of row selection can be extended by holding the &lt;Shift&gt; key while clicking
+          on the row to which the extension should be extended to. Holding &lt;Shift&gt; while clicking
+          within a group of selected rows also has the function of designating the primary row
+          (darker).
+          <P>
+          Individual rows may be added to or removed from a selection by holding down the &lt;Ctrl&gt;
+          key while clicking the desired row. The last added row will become the primary row. If
+          the primary row is removed from the selected, the primary row defaults to the first in
+          the selection.
+          </P>
+          <P>
+          The &lt;Del&gt; key can be used to remove all selection from a table.
+          </P>
+      <H2>Right mouse menu</H2>
+
+        <H3>Filter</H3>
+          <P>
+          This opens the Filter Selection Popup which allows you to remove columns from the table
+          according to whether elements in a selected column match an input
+          expression.
+          </P>
+          <P>
+          Filter column[]:
+          Selects which column the filter should be applied to. May also be set
+          to all to search the whole table.
+          </P>
+          <P>
+
+          []Literal:
+          Means the input search text may be matched regardless of letter case
+           </P>
+          <P>
+
+          []Case sensitive:
+          Means that the search text must match the input characters exactly.
+          </P>
+          <P>
+ 
+          []Regular expression:
+          Means that the input expression is treated as a regular
+          expression. The regular expressions used are the same as those in Python. See a
+          Python manual for details.
+          </P>
+          <P>
+ 
+          [Reset]:
+          Restores the original rows to the table.
+          </P>
+          <P>
+ 
+          [Filter]:
+          Searches the table for matches to the input expression and removes rows
+          which do not match.
+          </P>
+        <H3>Export</H3>
+          <P>
+          Opens the Export Data Popup:
+            <P>
+            This allows the contents of the table to be saves as a text file.
+            </P>
+            <P>
+            The check boxes allow you to specify which columns are to be exported. The first
+            option ("Number") refers to the number of the row as displayed in the table. This
+            value does not appear in the table itself.
+ 
+            [File:] allows you to choose the destination file using a file browser. Otherwise you
+            may input the file name in the entry box. By default files will be saved in the same
+            directory as the current project file.
+            </P>
+            <P>
+            Format:[] gives selection of tab or comma separated format for the output.
+ 
+            [Save] commits the selected data to file in the specified format.
+
+        <H3>Graph</H3>
+          <P>
+          Allows you to select an X axis and Y axis from the columns of the table which will then
+          be plotted with ScrolledGraph. Note that only columns containing numerical data may be
+          plotted. Plots may be manipulated further and saved as PostScript form within the
+          ScrolledGraph.
+          </P>
+        <H3>Print</H3>
+          <P>
+          Brings up a <A HREF="FileSelect.html">FileSelect</A> popup
+        which allows you to select a file name and location to
+          save the VISIBLE part of the table as a PostScript file. The file extension defaults to
+          *.ps.
+
+  <SUBSECTION>FormatConverter
+
+    <PAGE HELP>AcqProcParsEditAzara
+    
+        <H2>Azara processing</H2>
+    
+        <P ALIGN="LEFT">This window allows you to edit the processing parameters for Azara processing of an
+        experiment. Press '<B>Update</B>' to update the automatically changed values. The '<B>Reset</B>' button
+        does not work at present. </P>
+
+        <P ALIGN="LEFT">The '<B>Write processing files</B>' will pop up a window that allows you to write the
+        relevant files for this format. The '<B>Copy data to ...</B>' will copy the current processing
+        parameters to the ones for another processing program. Note that the phase settings might be
+        negated in this case. </P>
+
+        <UL>
+
+        <LI><B>Number of complex points for FT</B>: Set the number of complex points desired for the Fourier
+			transform here.
+
+        <LI><B>Value per point</B>: Calculated automatically based on above.
+
+        <LI><B>Phase 0</B>: Zero order phase correction for this dimension.
+
+        <LI><B>Phase 1</B>: First order phase correction for this dimension.
+
+        <LI><B>Window function</B>: Window function applied in this dimension.
+
+        <LI><B>Delete imaginary data</B>: If 'on', imaginary data will be deleted after transform.
+
+        <LI><B>Reference point</B>: The reference point for chemical shift calculation (<I>note that the type
+			of Reference can be toggled in '<B>Reference data</B>'!</I>)
+
+        <LI><B>Reference value</B>: The chemical shift value at the reference point.</UL>
+
+    <PAGE HELP>AcqProcParsEditFidPars
+    
+        <H2>Time domain data edit
+        </H2>
+        
+        <P ALIGN="LEFT">This window allows you to edit the original acquisition parameters for an experiment.
+        Press '<B>Update</B>' to update the automatically changed values. The '<B>Reset</B>' button does not
+        work at present. </P>
+
+        <UL>
+        
+        <LI><B>Complex data</B>: Toggle on or off for each dimension
+        
+        <LI><B>Number of valid FID points</B>: Number of valid (<I>i.e.</I> actually recorded) data points per
+			dimension.
+
+        <LI><B>Spectral width</B>: The spectral width for each dimension (in Hz).
+        
+        <LI><B>Value per point</B>: Calculated automatically based on above settings.
+        
+        <LI><B>TPPI</B>: Toggle on for a dimension if it was recorded as TPPI (alternate complex points will be
+			sign changed)
+
+        <LI><B>Flip axis</B>: Toggle on for a dimension if the axis direction has to be switched (complex part
+			of complex points will be sign changed)
+
+        </UL>
+   
+    <PAGE HELP>AcqProcParsEditMain
+
+        <H2>Acquisition and processing parameters edit
+        </H2>
+        
+        <P ALIGN="LEFT">This window allows you to edit the acquisition and processing parameters for an
+        experiment. Listed below are the parameters you can set on the top end of this window. To access the
+        '<B>Time domain data</B>', the '<B>Reference data</B>', and the '<B>processing</B>' data for supported
+        applications click on the red toggle buttons. </P>
+
+        <UL>
+        
+        <LI><B>Time domain data file</B>: the original time domain data file
+        
+        <LI><B>Sensitivity enhanced dimension</B>: if the spectrum was recorded with sensitivity enhancement,
+            select the relevant dimension (other than the acquisition dimension) that was involved here. This
+            assumes 'Echo-anti-echo' type data for Bruker and 'Rance-Kay' type data for Varian.
+
+        <LI><B>Varian acquisition order</B>: this will appear only for Varian data. Select the acquisition
+			order relevant for the recorded spectrum here.
+
+        <LI><B>Swap data</B>: Computer platform dependent. If the processed spectra look like just noise, try
+        	clicking this button and reprocessing.
+        
+        </UL>
+    
+    <PAGE HELP>AcqProcParsEditNmrPipe
+    
+        <H2>NmrPipe processing
+        </H2>
+        
+        <P ALIGN="LEFT">This window allows you to edit the processing parameters for NmrPipe processing of an
+        experiment. Press '<B>Update</B>' to update the automatically changed values. The '<B>Reset</B>' button
+        does not work at present. </P>
+
+        <P ALIGN="LEFT">The '<B>Write processing files</B>' will pop up a window that allows you to write the
+        relevant files for this format. The '<B>Copy data to ...</B>' will copy the current processing
+        parameters to the ones for another processing program. Note that the phase settings might be
+        negated in this case. </P>
+
+        <UL>
+
+        <LI><B>Number of complex points for FR</B>: Set the number of complex points desired for the Fourier
+			transform here.
+
+        <LI><B>Value per point</B>: Calculated automatically based on above.
+
+        <LI><B>Phase 0</B>: Zero order phase correction for this dimension.
+
+        <LI><B>Phase 1</B>: First order phase correction for this dimension.
+
+        <LI><B>Window function</B>: Window function applied in this dimension.
+
+        <LI><B>Delete imaginary data</B>: If 'on', imaginary data will be deleted after transform.
+
+        <LI><B>nmrPipe label</B>: NmrPipe label to be used for this dimension.
+
+        <LI><B>Reference point</B>: The reference point for chemical shift calculation (<I>note that the type
+			of Reference can be toggled in '<B>Reference data</B>'!</I>)
+
+        <LI><B>Reference value</B>: The chemical shift value at the reference point.</UL>
+    
+    <PAGE HELP>AcqProcParsEditRefPars
+    
+        <H2>Reference data
+        </H2>
+        
+        <P ALIGN="LEFT">This window allows you to edit the reference settings for an experiment. Press
+        '<B>Update</B>' to update the automatically changed values. The '<B>Reset</B>' button does not work at
+        present. </P>
+
+        <UL>
+        
+        <LI><B>Cycle reference</B>: Cycles between reference settings for this dimension (<I>e.g.</I> when this
+            dimension contains combined <sup>13</sup>C/<sup>15</sup>N information you can toggle between the
+            <sup>13</sup>C and <sup>15</sup>N settings. Note that this will affect the reference settings for
+            processing parameters.).
+
+        <LI><B>Carrier frequency</B>: Carrier frequency for this reference in each dimension.
+        
+        <LI><B>Base frequency</B>: Base frequency for this reference in each dimension.
+        
+        <LI><B>Nucleus</B>: Nucleus type for each this reference in each dimension.
+        
+        <LI><B>Folded</B>: Toggle on if there are folded signals for this reference in this dimension.
+        
+        </UL>
+    
+    <PAGE HELP>AtomSelect
+    
+        <H2>Atom selection</H2>
+
+        <P ALIGN="LEFT">This window appears when no match was found for a resonance/atom name within the
+		selected naming system.</P>
+
+        <P ALIGN="LEFT">'<B>Residue type</B>' lists the 3 letter code used for this residue.</P>
+
+        <P ALIGN="LEFT">'<B>Resonance</B>' lists the atom information as detected in the external files(s).
+        Click on this button to see detailed information. If a chemical shift value is connected to this
+        resonance, it will also be listed here.</P>
+
+        <P ALIGN="LEFT">Next to '<B>Pick atom</B>' a selection list appears that contains suggested matches for
+        this resonance/atom. The atom names are IUPAC. If the desired atom is not present in this list, press
+        the '<B>Show all atoms</B>' button at the bottom of the window to list all atoms available in this
+        residue. Note that it is possible that the atom name from the external format is the same as the IUPAC
+        name in this list - this happens when the naming system that is currently used for matching does not
+        contain the external atom name.</P>
+
+        <P ALIGN="LEFT">For <B>prochiral atoms</B>, there will be four choices depending on the situation. For
+        example, for the <B>HA protons for glycine</B> the following selections are possible:</P>
+
+        <UL>
+
+        <LI><B>HA*</B>: Both HA protons carry the same information (the resonance is linked to both HA2 and HA3
+            and all information is shared with resonances linked to these atoms).
+
+        <LI><B>HA2/HA3</B>: The HA protons carry separate information but are not stereospecifically assigned
+            (the resonance is linked to both HA2 and HA3, but the NMR information linked to the current
+            resonance is not shared with any other resonances)
+
+        <LI><B>HA2 (stereo)</B>: Stereospecifically assign the resonance to the HA2 proton
+
+        <LI><B>HA3 (stereo)</B>: Stereospecifically assign the resonance to the HA3 proton
+
+        </UL>
+
+        <P ALIGN="LEFT">The atom name mapping you selected here can be propagated to other residues, so that
+        identical external atom names will be automatically linked to the correct Data Model atom name. From
+        the selector next to <B>Propagate mapping to</B>, select one of the following options:
+
+        <UL>
+
+        <LI><B>Only this residue</B>: Only use mapping for this particular residue.
+
+        <LI><B>All residues with seqID x in same molecule(s)</B>: Use mapping for all residues with this
+            sequence ID in all chains representing this molecule (e.g. residue 22 in homodimer chains A and B).
+
+        <LI><B>All residues of XXX type in this chain</B>: Use mapping for all residues of a certain type (e.g.
+            ILE), but only this chain
+
+        <LI><B>All residues of XXX type in same molecule(s)</B>: Use mapping for all residues of a certain type
+            (e.g. ILE) in all chains representing this molecule (e.g. chains A and B for a homodimer).
+
+        <LI><B>All residues of XXX type in molSystem</B>: Use mapping for all residues of a certain type (e.g.
+            ILE) in all chains in the molecular system (e.g. chains A and B for a heterodimer).
+
+        <LI><B>All residues in chain</B>: Use mapping for all residues irrespective of type, but only in this
+            chain. Best to use for backbone atoms only.
+
+        <LI><B>All residues in same molecule(s)</B>: Use mapping for all residues irrespective of type in all
+            chains representing this molecule (e.g. chains A and B for a homodimer). Best to use for backbone
+            atoms only.
+
+        <LI><B>All residues in molSystem</B>: for all residues irrespective of type in all chains in the
+            molecular system (e.g. chains A and B for a heterodimer). Best to use for backbone atoms only.
+
+        </UL> </P>
+
+        <P ALIGN="LEFT">Press '<B>Do not link</B>' if none of the atom names apply or you are not sure about
+        the mapping. In this case the NMR information is still connected to the correct resonance, but it is
+        not assigned to a particular (set of) atom(s), and you will not be able to export this information.</P>
+
+        <P ALIGN="LEFT">Press '<B>OK</B>' to continue after you have made your selections.</P>
+    
+    <PAGE HELP>ChainExport
+    
+        <H2>Chain mapping for export to external format</H2>
+
+        <P ALIGN="LEFT">Here you determine how the chains from the Data Model are written out to the external
+        format. For external formats that do not support chain codes (and if you have more than one chain), you
+        will have to select sequence codes so that there is no sequence code overlap between the different chains.
+        For external formats that do support chain codes, you can also select a chain code different from the one
+        used in the Data Model.</P>
+
+        <P ALIGN="LEFT">On the left ('<B>Data model</B>', <FONT COLOR=0000ff>in blue</FONT>) is the information
+        from the chains in the Data Model. The '<B>Ccp chain code</B>' gives the chain code, number of residues
+        and the name of the molecule this chain represents. Under '<B>Sequence ID (code)</B>', the '<B>start</B>'
+        ID of the chain (always 1) and the '<B>end</B>' ID of the chain, and (in brackets) their respective
+        sequence codes are listed.</P>
+
+        <P ALIGN="LEFT">On the right ('<B>Export</B>') the export information for this chain can be set. If the
+        export format supports <B>chain codes</B> it is possible to define your own chain code (the name of the
+        chain code depends on the export format). Leave this field blank if you do not want to use a chain code.
+        In the '<B>Sequence code start</B>' field, you set the sequence code that will be used for the residue
+        with Sequence ID 1 in the external format.</P>
+
+    <PAGE HELP>ChainLink
+    
+        <H2>Link chains</H2>
+
+        <P ALIGN="LEFT">The atom names from the external files can only be handled correctly if the
+        chain/residue information from the external files is correctly mapped to the chain/residue information
+        inside the Data Model. For example, some external formats cannot handle multiple chains, and use
+        different sequence codes to distinguish between them (e.g. the first chain starts at 1, the second at
+        300). These codes then have to be mapped to the chains inside the Data Model.</P>
+
+        <P ALIGN="LEFT">This window, then, allows you to link the <I>Data Model chains and residues</I> to the
+        <I>chains and residue information from the external file(s)</I>.</P>
+
+        <P ALIGN="LEFT">The chains that are part of the selected molecular system inside the Data Model are
+        displayed on the left (under '<B>Data model</B>', <FONT COLOR=0000ff>in blue</FONT>). The '<B>Ccp chain
+        code</B>' column lists the chain code, the number of residues in the chain and the name of the molecule
+        it represents. The '<B>Sequence ID (code) start</B>' column lists the sequence ID (which invariably
+        starts at 1) and, in brackets, the current sequence (plus sequence insertion) code (which can start at
+        any number).</P>
+
+        <P ALIGN="LEFT">On the right (in black, under '<B>Information from file</B>') the information from the
+        external data files is displayed. From '<B>Format chain code</B>' you can select the chain codes and
+        sequence code ranges that were detected in the external data files (<I>note that ' ' is the default
+        used if no chain code is present in the imported data files</I>). Once you select here, the relevant
+        residue sequence codes will be listed under 'Sequence Code start'. If more than one sequence insertion
+        code was found within the same format chain code (e.g. both '1' and '1A' as sequence codes), then you
+        will also be able to select only residues with a specific insertion code.</P>
+
+        <P ALIGN="LEFT">Now select the 'Format chain code' relevant for the appropriate chain in the data
+        model. Select the <I>first</I> sequence code from the external file that is also present in the data
+        model chain, then select the corresponding sequence ID/code for the Data Model chain. If there are
+        sequence codes listed under 'Sequence Code start' that you do NOT want to link, then select them and
+        press '<B>Remove</B>'.</P>
+
+        <P>Warnings will appear on the right hand side if there are multiple sequence insertion codes present
+        for the same format chain, or when there are 'gaps' in the sequence (e.g. numbering jumps from 6 to
+        12). In this case the 'gaps' will be automatically filled in when matching to the sequence in the Data
+        Model. <B>If you do not want this to happen, remove the unwanted sequence numbers, run linkResonances,
+        and rerun it afterwards to link the second set of sequence codes</B></P>
+
+        <P ALIGN="LEFT">Press '<B>OK</B>' to continue when you have linked the information from the external
+        files to the chains in the Data Model.</P>
+
+    <PAGE HELP>ChemCompAtomBondInfo
+    
+        <H2>ChemComp atom definition window</H2>
+
+        <P>In this window you can define the atom names and characteristics for this chemComp. Currently no other
+        information can be set: the overall definition has to be correct in the imported file.</P>
+
+        <P>Note that if you selected '<B>protein</B>', '<B>DNA</B>' or '<B>RNA</B>', then you have to name the
+        correct backbone atoms. These are used in the Data Model to define the 'linking' between residues.</P>
+
+        <UL>
+        <LH>The attributes that can be set per atom are:</LH>
+  
+        <LI><B>name</B>: the (IUPAC) name for the atom. Has to be unique.
+  
+        <LI><B>elementSymbol</B>: the chemical element for this atom
+  
+        <LI><B>isIonizable</B>: is this atom ionizable in 'normal' conditions?
+  
+        <LI><B>chirality</B>: if this is a stereocenter, select the chirality
+  
+        <LI><B>waterNmrObs</B>: is this atom usually observed in water solution by NMR?
+  
+        <LI><B>bondedAtoms</B>: the atoms bonded to this atom. Click 'Update' to refresh this information.
+  
+        </UL>
+
+        <P>Click <B>Update</B> to refresh the atom name information in this window. Press <B>OK</B> when you have
+        set all information correctly. You will then be asked for a 'descriptor' for this chemComp: this
+        describes the 'state' of this chemComp you are describing (e.g. 'neutral').</P>
+
+    <PAGE HELP>ChemCompInfo
+    
+        <H2>ChemComp information window</H2>
+
+        <P>The 'ChemComp' contains the definitions of what makes up a chemical component (e.g. the atoms, bonds,
+        etc. found in an alanine residue, in glucose, ...). In this window, you have to do define information
+        about the chemComp you are creating.</P>
+
+        <UL>
+        <LH>Take care to set the following correctly:</LH>
+
+        <LI><B>molType</B>: The molecular type of the chemComp (e.g. 'protein' for an amino acid residue).
+
+        <LI><B>ccpCode</B>: a unique code to describe this chemComp (only letters and digits)
+
+        <LI><B>name</B>: a clear name for the chemComp
+
+        <LI><B>hasStdChirality</B>: click this button if your chemComp has defined stereochemistry. 
+
+        </UL>
+
+        <P>The other fields are less crucial, but do fill them in if you can.</P>
+
+        <P>Press <B>OK</B> to continue when all information was entered.</P>
+    
+    <PAGE HELP>ChemCompSelection
+    
+        <H2>ChemComp selection window</H2>
+
+        <P>This window can pop up for two reasons:
+        <UL>
+        
+        <LI><B>An unknown residue/molecule code was found in a sequence file</B>: At this stage you can
+        define the chemical component ('ChemComp') that describes this residue/molecule (if it is
+        available). First, in the top half of the window, determine which chemical compound you want to
+        use, and double click on its 'show details' column. The 'variants' for this chemComp will show up
+        in the lower window. Select the one you require and click 'OK'. Note that you can use the <A
+        href="http://www.ebi.ac.uk/msd-srv/chempdb/cgi-bin/cgi.pl">MSDchem</A> service to find the
+        correct CIF code for your chemComp (this will make searching much easier when a large number of
+        compounds are available). 
+
+        <LI><B>You want to select a variant of a known chemical compound</B>: Select the chemComp variant you
+        require from the bottom window and click 'OK'.
+
+        </UL>
+
+        <P><B>What is a chemComp</B>: A 'ChemComp' contains the definitions of what makes up a chemical
+        compound (e.g. the atoms, bonds, etc. found in an alanine residue, in glucose, ...). This
+        information is derived from the <A href="http://www.ebi.ac.uk/msd">E-MSD database</A>, but
+        additional NMR specific information about naming systems, ...  was added for CCPN. The final
+        information is stored in reference files in XML format.</P>
+        
+        <P>&nbsp;</P>
+
+
+        <P>The top half of the window shows:</P>
+
+        <UL>
+        <LI><B>number</B>: a serial number for identification only
+
+        <LI><B>show details</B>: double-click this column to show the chemComp variants in the bottom part of the window
+        
+        <LI><B>molType</B>: the 'molecular type' of the chemComp
+
+        <LI><B>ccpCode</B>: the code used internally by CCPN for this chemComp
+
+        <LI><B>code1Letter</B>: the one letter code for this chemComp (if any)
+
+        <LI><B>cifCode</B>: the CIF code for this chemComp (if any)
+
+        <LI><B>name</B>: the name of this chemComp
+
+
+        </UL>
+
+        <P>The button '<B>Show all in details window</B>' will list all available chemComps in the bottom
+        window. The button '<B>Clear details window</B>' will remove all available chemComps from the
+        bottom window.</P>
+
+        <P>&nbsp;</P>
+
+        <P>The bottom half of the window shows:</P>
+
+        <UL>
+
+        <LI><B>number</B>: a serial number for identification only
+
+        <LI><B>molType</B>: the 'molecular type' of the chemComp
+
+        <LI><B>ccpCode</B>: the code used internally by CCPN for this chemComp
+
+        <LI><B>linking</B>: if part of a polymer, the sequence location of the chemCompVar
+
+        <LI><B>descriptor</B>: the protonation/binding state of the chemCompVar
+
+        <LI><B>molecularMass</B>: the  molecular weight of the chemCompVar
+
+        <LI><B>formula</B>: the chemical formula of the chemCompVar
+
+        <LI><B>nonStereoSmiles/stereoSmiles</B>: the SMILES representation(s) of the chemComp (if
+        available).
+
+        </UL>
+
+        <P>Select the correct chemComp from the lower list and press <B>OK</B> to continue. If you cannot find the correct chemComp, press <B>CANCEL</B>. The sequence cannot be handled correctly in this case.</P>
+    
+    <PAGE HELP>CitationCreate
+    
+        <H2>Give a name and type for the new Citation.</H2>
+        
+        <P ALIGN="LEFT">Type a title and the citation type for the new Citation. These values
+        cannot be changed later.</P>
+
+        <P ALIGN="LEFT">Press 'Skip' to cancel the Citation creation.</P>
+
+    <PAGE HELP>CitationEdit
+    
+        <H2>Entering details for a Citation.</H2>
+        
+        <P ALIGN="LEFT">Enter all the information related to this article. For the keyword
+        entry, you can add keywords to the list, by clicking 'Add value'. To delete keywords,
+        select the value and click 'Delete selected'. The authors and editors selection works
+        as in the main Entry edit window.</P>
+
+        <P ALIGN="LEFT">Click 'Create new' to create a new Citation, 'Delete current' to delete
+        the currently selected Citation, 'Update current' to update the window values, and
+        'Close' to close this window.</P>
+
+    <PAGE HELP>CoordinateAtomSelect
+    
+        <H2>Coordinate atom selection</H2>
+
+        <P ALIGN="LEFT">This window appears when no match was found for a coordinate atom name within
+        the selected naming system.</P>
+
+        <P ALIGN="LEFT">'<B>Residue type</B>' lists the 3 letter code used for this residue.</P>
+
+        <P ALIGN="LEFT">'<B>Atom</B>' lists the coordinate atom name from the imported data file (<I>note that this is always converted into the format 'chainCode.sequenceCode.atomName'</I>)</P>
+
+        <P ALIGN="LEFT">Next to '<B>Pick atom</B>' a selection list appears that contains suggested matches for this atom coordinate. The atom names are IUPAC. If the desired atom is not present in this list, press '<B>Show all</B>' to list all atoms available in this residue.</P>
+
+        <P ALIGN="LEFT"><B>Propagation of the selected mapping</B> can be done using the bottom selection. This way similar cases will be automatically handled when encountered. The mapping is used in the following way in these options:
+        <UL>
+        <LH></LH>
+        <LI><B>Only this residue</B>: only for this residue in this chain
+        <LI><B>All residues of XXX type in this chain</B>: for all residues of a certain type (e.g. ILE) in only this chain
+        <LI><B>All residues of XXX type in coordinate file</B>: for all residues of a certain type (e.g. ILE) in all chains in the coordinate file
+        </UL>
+        </P>
+
+        <P ALIGN="LEFT">Press '<B>Do not link</B>' if none of the atom names apply - the coordinate atom will be ignored.</P>
+        <P ALIGN="LEFT">Press '<B>OK</B>' if you agree with your selections.</P>
+    
+    <PAGE HELP>CreateShiftList
+    
+        <H2>Create chemical shift list from peak lists</H2>
+
+        <P ALIGN="LEFT">From '<B>Peak lists</B>' select at least one peak list. These
+        peak list(s) will be used to generate the chemical shift list.</P>
+
+        <P ALIGN="LEFT">'<B>Use existing shift list</B>': if you want to add/change the
+        values of an existing chemical shift list select it here. Leave as 'None' to
+        create a new chemical shift list.</P>
+
+        <P ALIGN="LEFT">'<B>Use multiple assignments</B>': if selected, information from
+        ambiguous assignments is also used. If a peak dimension is assigned to two or
+        more atoms the chemical shift of that peak in that dimension will be used to
+        generate the chemical shift for all these atoms. If deselected ambiguous
+        assignments are not used to generate the chemical shift list.</P>
+
+        <P ALIGN="LEFT">'<B>Default proton/carbon/nitrogen shift error</B>': the default
+        error given to a chemical shift value for a particular nucleus type.</P>
+
+        <P ALIGN="LEFT">Press '<B>Create shift list</B>' to create a new / change an
+        existing chemical shift list.</P>
+
+    <PAGE HELP>DataShifter
+    
+        <H2>Copy data between different CCPN projects.</H2>
+
+        <P ALIGN="LEFT"><B>WARNING: this is a beta version. Make backup copies of your
+        projects first!.</B></P>
+
+        <P ALIGN="LEFT">In this window you can copy <i>segments of data</i> from one project
+        to another. For example, when you copy a peak list all associated peaks down to the
+        assignments per peak dimension will be copied over.</P>
+
+        <P ALIGN="LEFT">First load in two projects: click on <i>'Select project file'</i> and
+        select the main XML file for two different projects.</P>
+
+        <P ALIGN="LEFT">Then select the relevant object you want to copy over, either on the
+        left or on the right side, and click the arrow in pointing away from the object you
+        want to copy. This should copy over your data.</P>
+        
+        <P><b>Try to copy objects in the order they appear in the window (i.e. start with the
+        molecular system!)</b></P>
+
+        <P ALIGN="LEFT">Note that the code tries to make sure that all essential information
+        for a set of objects is copied over, although some minor connected objects may be
+        lost.</P>
+
+        <P ALIGN="LEFT">Report any problems to <a href='mailto:wim@ebi.ac.uk'>Wim Vranken</a>.</P>
+        
+    <PAGE HELP>DataDimRefSelectByPeakDim
+    
+        <H2>DataDimRef selection by PeakDim
+        </H2>
+        
+        <P ALIGN="LEFT">This window allows you to link up the peak dimensions from the imported
+        file (leftmost column) to the peak dimensions within the Data Model (selection lists in
+        rightmost column). To make the linking easier the chemical shift range observed for each
+        peak dimension in the imported file is also listed. </P>
+
+        <P ALIGN="LEFT">To link up, select the peak dimension within the Data Model
+        corresponding to the peak dimension. The usual order for common formats is (3,2,1) for
+        XEasy (acquisition dimension last), (1,2,3) for nmrView, and (2,3,1) for Ansig. </P>
+
+        <P ALIGN="LEFT">Note that each peak dimension within the Data Model can be used only
+        once.</P>    
+
+    <PAGE HELP>EntryEdit
+    
+        <H2>Creating an Entry for deposition.
+        </H2>
+        
+        <P ALIGN="LEFT">In this window you can create an 'Entry' object. An Entry groups data
+        from your project together for archiving purposes. For example, if you want to deposit
+        your coordinate and NMR information via the MSD website, or if you want to create an
+        NMR-STAR file, you should create an Entry that groups together all the final data in
+        your project. You can then send your CCPN XML files to the E-MSD deposition site, where
+        all the relevant information will be extracted, and you will then have the option to
+        further your NMR information on to the BioMagResBank for deposition there.</P>
+
+        <P ALIGN="LEFT"><B>NOTE: Deposition via the <a
+        href="www.ebi.ac.uk/msd-srv/autodep4/index.jsp">MSD</a> is not yet working. It should be
+        functional by the end of 2005!</b></P>
+
+        <P ALIGN="LEFT">You can have multiple entries that you can select from the 'Pick entry'
+        list. To create a new Entry, click the 'Create New' button at the bottom of the page.
+        'Delete current' will delete the currently selected Entry, 'Update current' will update
+        the window values, and 'Close' will close this window.</P>
+
+        <P ALIGN="LEFT">A Study connects multiple entries together (e.g. if you have a project
+        that contains information on both the free and ligand-bound protein, you can create
+        different Entries for them and group them under the same Study.). To create a new Study,
+        click the 'Edit/new Study' button.</P>
+
+        <P ALIGN="LEFT">You should also enter information on the people and laboratories
+        involved in the project (this will be automatically used during deposition). Using the
+        'Select contactPersons', 'Select authors' and 'Select laboratories' options. Create new
+        persons/labs or edit existing ones with the 'Edit/new' buttons. Note that <b>only</b>
+        the selected (grey highlighted) persons/labs are the ones currently connected to this
+        Entry!</P>
+
+        <P ALIGN="LEFT">Next, select the MolSystem (molecular system) in your project that is
+        relevant for this Entry. You can add information on the journal, book, thesis or
+        conference citations connected to the currently selected MolSystem using 'Select
+        citations'. Create new citations or edit existing ones with the 'Edit/new' buttons.
+        Note that <b>only</b> the selected (grey highlighted) citations are the ones currently
+        connected to this Entry!</P>
+        
+        <P ALIGN="LEFT">Finally, you can select all the relevant Experiments, Structure
+        Generations, and Measurement and Derived Data List that you want to connect to this
+        Entry.</P>
+
+    <PAGE HELP>GroupCreate
+    
+        <H2>Give the name of the new Group.</H2>
+        
+        <P ALIGN="LEFT">Type full the name of the new Group belonging to the current
+        Organisation. This value cannot be changed later.</P>
+
+        <P ALIGN="LEFT">Press 'Skip' to cancel the Group creation.</P>
+
+    <PAGE HELP>GroupEdit
+    
+        <H2>Entering details for a Group.</H2>
+        
+        <P ALIGN="LEFT">Enter details related to this Group.</P>
+
+        <P ALIGN="LEFT">Note that this Group can be connected to the relevant Persons only
+        from the Person edit window.</P>
+
+        <P ALIGN="LEFT">Click 'Create new' to create a new Group, 'Delete current' to delete
+        the currently selected Group, 'Update current' to update the window values, and
+        'Close' to close this window.</P>
+
+
+    <PAGE HELP>ExperimentCreate
+    
+        <H2>Experiment creation
+        </H2>
+        
+        <P ALIGN="LEFT">This window allows you to create an experiment (and all its associated dimensions)
+        within the Data Model. An experiment has to be present in the Data Model before, for example, a
+        peak list can be created, as the peak dimensions are linked to the (reference) dimensions
+        of the experiment.</P>
+
+        <P ALIGN="LEFT">First select the appropriate experiment type from the selection list. Within the
+        data model the reference experiments are organised according to magnetization pathway. The
+        selection table shows the common name for this pathway, the 'official' name of the experiment, its
+        dimensionality, the 'official' name of the pathway and the type of pathway.</P>
+
+        <P ALIGN="LEFT">Note that multiple experiments are possible within the same pathway. Within the
+        'official' experiment or pathway name, right brackets [] indicate 'in-out' magnetization, curly
+        brackets {} indicate multiple nuclei within the same pathway step, and underscores _ indicate the
+        type of transfer (which is listed at the end of the name).</P>
+
+        <P ALIGN="LEFT">Only experiment types with the relevant dimensionality will be listed in the
+        experiment types list. Click the <B>Show all experiments</B> button to show experiments of all
+        dimensionalities.</P>
+
+        <P ALIGN="LEFT">Press <B>Skip</B> to skip creation of the experiment (and anything else linked to
+        it like peak lists or acquisition parameters)</P>
+
+        <P ALIGN="LEFT">After you click 'Create' you will be asked to give a name to the experiment. If an
+        experiment name was already available from an imported file, it should be displayed here.</P>
+
+        <P ALIGN="LEFT">If the required experiment type is not available then it can be created via the
+        '<I>Setup:Edit default experiment types</I>' menu option.</P>
+
+
+    <PAGE HELP>ExperimentTypeEdit
+    
+        <H2>
+        Experiment Type Editing
+        </H2>
+        
+        <P ALIGN="LEFT">
+        In this window you can edit, add and delete the currently existing experiment types. You can then
+        use these for creating actual experiments in the Data Model.</P>
+        <P ALIGN = "LEFT">
+        The information about these experiment types is currently contained within a string, and will be
+        replaced by a special Data Model section that describes NMR experiments
+        (will be available in spring 2005).</P>
+
+    <PAGE HELP>ExportFormat
+    
+        <H2>Export format</H2>
+
+        <P ALIGN="LEFT">This window allows you to select objects in the Data Model and export them to the chosen
+        external format. Press the '<B>i</B>' button on the right hand side to get concise information about the
+        selections/buttons.</P>
+
+        <P ALIGN="LEFT">To export a particular file (e.g. a <I>peak list</I>), select the relevant Data Model
+        object (e.g. a <I>peakList</I>) from the '<B>Select ... to export</B>' selection list. This selection list
+        can allow either single or multi selection depending on the format and the component. Then select the file
+        to export to by pressing '<B>Select export file</B>', and press the '<B>export ...</B> button to export
+        the file.</P>
+
+        <P ALIGN="LEFT">You can also click on the '<B>Additional options</B>' blue arrow to obtain more
+        (non-essential) options for export. Common options are:</P>
+
+        <UL>
+        
+        <LI>'<B>Use original resonance names</B>': If selected, the originally imported resonance (atom) names
+            will be exported instead of the names that were selected for this particular format. <I><B>Caution</B>:
+            if changes were made to the resonances in the Data Model this can result in errors in the output,
+            since the originally imported names are never changed (it would be impossible to know how and when).
+            Also, if the chosen format only allows a particular type of naming system the originally imported
+            names will not be used.</I>
+
+        <LI>'<B>Compress names in output</B>' If available and selected, the atom names will be 'compressed' in
+            the output. For constraints, this means that constraint items will be regrouped into atom sets (e.g. a
+            constraint with items HA-HB1, HA-HB2 becomes HA-HB*), for measurements this means that atoms with
+            exactly the same measurement value and with a shared atom set are grouped (e.g. if in a shift list HB2
+            and HB3 have shift 2.74, it will be written out as HB* with shift 2.74. This also works for isopropyl
+            methyl groups).
+
+        </UL>
+    
+    <PAGE HELP>ImportFormatComponent
+    
+        <H2>Import single file</H2>
+        <P ALIGN="LEFT">A single file for a particular component is imported via this window. Press '<B>Select file</B>' to select the relevant file(s) for each component.</P>
+        <P>Click on the '<B>Additional options</B>' blue arrow to obtain more options for import. Press '<B>i</B>' on the right hand side to get information about specific options.</P>
+        <P ALIGN="LEFT">Press the '<B>IMPORT</B>' button at the bottom to go ahead with the import of all selected files.
+        </P>
+    
+    <PAGE HELP>ImportFormat
+
+        <H2>Import multiple files
+        </H2>
+        <P ALIGN="LEFT">Multiple files can be imported in one go using this window. Press '<B>Select file</B>' to select the relevant file(s) for each component. A file will only be read in when the top '<B>Import ...</B>' button in its section is selected.</P>
+        <P>Click on the '<B>Additional options</B>' blue arrow to obtain more options for import. Press '<B>i</B>' on the right hand side to get information about specific options.</P>
+        <P ALIGN="LEFT">Press the '<B>IMPORT</B>' button at the bottom to go ahead with the import of all selected files.
+        </P>    
+
+    <PAGE HELP>LinkResonances
+    
+        <H2>Link resonances setup</H2>
+
+        <P ALIGN="LEFT">In this window you can set the parameters for running the linkResonances script. This
+        script is essential to fully assimilate the assignments from external data files into the Data Model.</P>
+        
+        <P ALIGN="LEFT">To run this script, you will need to have created on the one hand a valid <b>molecular
+        system</b> with chains, residues and atoms (try Import->Single Files->Sequence), and on the other hand
+        <b>resonances</b>. These resonances will be created automatically when you import NMR information (e.g.
+        chemical shift lists, ...). This script will then link the existing resonances to existing atoms. To
+        run it, select your preferred settings and click '<B>Link resonances to atoms</B>' to start.</P>
+
+        <P ALIGN="LEFT">The following options are available:</P>
+
+        <P ALIGN="LEFT">'<B>File format reference</B>': The data formats of the external files you imported are
+        listed here. You can only run linkResonances on one data format at a time - rerun the script if you
+        imported from multiple data formats.</P>
+
+        <P ALIGN="LEFT">'<B>Try to link unrecognized atom names</B>': If selected, a popup will appear if
+        the script is not able to recognize an atom name from the external file(s). You will be prompted to
+        select the correct atom match in such cases.</P>
+
+        <P ALIGN="LEFT">'<B>Try IUPAC names (as backup)</B>': If selected, atom names from the external
+        file(s) that are not recognized within the selected naming system will also be matched against IUPAC
+        names.</P>
+
+        <P ALIGN="LEFT">'<B>Use ambiguous name information</B>': If selected, ambiguous names will be
+        translated; some atom names (e.g. HG* for THR) will be converted using their expected meaning (in this
+        case to HG1 and HG2*). Use with care as this can result in misassignments.</P>
+
+        <P ALIGN="LEFT">'<B>Complete stereospecific assignment</B>': If selected, all prochiral atoms are
+        assumed to be stereospecifically assigned.</P>
+
+        <P ALIGN="LEFT">'<B>Force shift merges</B>': If selected, ambiguous chemical shift values (two or more
+        values in one chemical shift list for the same resonance) will be merged automatically. The average of
+        all values will be used as the new value.</P>
+
+        <P ALIGN="LEFT">'<B>Status other atom for all single prochiral atoms</B>': This determines how to
+        handle cases where, in the external files, information was found for only one of two prochiral
+        resonances/atoms (e.g. info for the HB2 of an ASP, but nothing for the HB3). The options are:</P>
+
+        <UL>
+
+        <LI><B>Unknown</B>: Handle each case individually (a popup will appear).
+
+        <LI><B>Same information</B>: Always assume the other prochiral contains the same information (i.e. they
+			have the same chemical shift)
+
+        <LI><B>Always ignore</B>: Always assume that nothing is known about the other prochiral (i.e. you
+			cannot find it in the spectra); do not create a resonance for it.
+
+        </UL>
+
+        <P ALIGN="LEFT">'<B>Status other atom for all possibly equivalent single atoms</B>': This determines
+        how to handle cases where, in the external files, information was found for only one of two
+        resonances/atoms that are often equivalent (e.g. info for the HD2 of a PHE, but nothing for the HD1).
+        The options are:</P>
+
+        <UL>
+
+        <LI><B>Unknown</B>: Handle each case individually (a popup will appear).
+
+        <LI><B>Always equivalent</B>: Always assume that the atoms are equivalent (i.e. treat 'HD2' as 'HD*')
+
+        <LI><B>Always ignore</B>: Always assume that the single atom is not equivalent (i.e. treat 'HD1' and
+			'HD2' as separate)
+
+        </UL>
+
+        <P ALIGN="LEFT">'<B>Use minimal number of popups</B>': If selected, a minimal number of popups will
+        appear. <B>Warning:</B> this also means that the script will make as many automatic choices as
+        possible, and these might not always be to your liking!</P>
+
+        <P ALIGN="LEFT">'<B>Verbose output</B>': If selected, detailed information on how the linkResonance
+        script handles the data will be printed out.</P>
+
+    <PAGE HELP>NamingSystem
+    
+        <H2>Naming system selection</H2>
+
+        <P ALIGN="LEFT">Here you select the naming system that best describes the atom names from the external
+        data files. Each naming system present in the CCPN reference data is listed, together with the
+        percentage of atom names that match it. The best match is the one selected by default.</P>
+
+    <PAGE HELP>OrganisationCreate
+    
+        <H2>Give the name of the new Organisation.</H2>
+        
+        <P ALIGN="LEFT">Type full the name of the new Organisation. This value cannot be
+        changed later.</P>
+
+        <P ALIGN="LEFT">Press 'Skip' to cancel the Organisation creation.</P>
+
+    <PAGE HELP>OrganisationEdit
+    
+        <H2>Entering details for an Organisation.</H2>
+        
+        <P ALIGN="LEFT">Enter all the information related to this Organisation. For the
+        addresses entry, you can add addresses to the list, by clicking 'Add value'. To
+        delete addresses, select the value and click 'Delete selected'.</P>
+
+        <P ALIGN="LEFT">Note that you should create a 'Group' that can be connected to the
+        relevant Persons. Click on 'Edit/new Group' to do this. All Groups listed are part of
+        the current Organisation.</P>
+
+        <P ALIGN="LEFT">Click 'Create new' to create a new Organisation, 'Delete current' to
+        delete the currently selected Organisation, 'Update current' to update the window
+        values, and 'Close' to close this window.</P>
+
+    <PAGE HELP>PeakDimSelect
+    
+        <H2>DataDimRef selection for exported peak dimensions</H2>
+
+        <P ALIGN="LEFT">This window allows you to select which peak dimension in the exported file ('<B><format> peak dim</B>') corresponds to which peak dimension for the peak list in the Data Model ('<B>PeakDim selection</B>'). The commonly used order for the PeakDims in a 3D is (3,2,1) for XEasy, (1,2,3) for nmrView, (2,3,1) for Ansig.</P>
+    
+    <PAGE HELP>PersonCreate
+    
+        <H2>Give a name and type for the new Person.</H2>
+        
+        <P ALIGN="LEFT">Type the family and the given name for the new Person. These values
+        cannot be changed later.</P>
+
+        <P ALIGN="LEFT">Press 'Skip' to cancel the Person creation.</P>
+
+    <PAGE HELP>PersonEdit
+    
+        <H2>Entering details for a Person.</H2>
+        
+        <P ALIGN="LEFT">Enter all the information related to this Person. For the
+        middleInitials entry, you can add initials to the list, by clicking 'Add value'. To
+        delete initials, select the value and click 'Delete selected'.</P>
+
+        <P ALIGN="LEFT">Note that you should create a 'PersonInGroup' to enter specific details
+        about the current whereabouts of this Person. Also, 'currentGroup' should only be set
+        to a group that is connected to a 'PersonInGroup'. You can only create a new Group if
+        there are Organisations present.</P>
+
+        <P ALIGN="LEFT">Click 'Create new' to create a new Person, 'Delete current' to delete
+        the currently selected Person, 'Update current' to update the window values, and
+        'Close' to close this window.</P>
+
+    <PAGE HELP>PersonInGroupCreate
+    
+        <H2>Select the group this Person is part of.</H2>
+        
+        <P ALIGN="LEFT">Select the Group this Person is part of. This value
+        cannot be changed later.</P>
+
+        <P ALIGN="LEFT">Press 'Skip' to cancel the PersonInGroup creation.</P>
+
+    <PAGE HELP>PersonInGroupEdit
+    
+        <H2>Entering details for a Person in a Group.</H2>
+        
+        <P ALIGN="LEFT">Enter details related to this Person in this particular Group. For the
+        phoneNumbers entry, you can add a phone number to the list by clicking 'Add value'. To
+        delete phone numbers, select the value and click 'Delete selected'.</P>
+ 
+        <P ALIGN="LEFT">Click 'Create new' to create a new PersonInGroup, 'Delete current' to
+        delete the currently selected PersonInGroup, 'Update current' to update the window
+        values, and 'Close' to close this window.</P>
+
+    <PAGE HELP>ProcFile
+    
+        <H2>Selection of processing files
+        </H2>
+
+        <P ALIGN="LEFT">Conversion and/or processing parameters or scripts are usually written to several
+        files. All these input and output files are displayed in this window. <I>Please note that the original
+        raw data file is defined in the main window for editing acquisition and processing parameters.</I> </P>
+
+        <P ALIGN="LEFT">Press the <B>'Write ...'</B> button to write out some or all of the scripts. Note that
+		you will have to run the files yourself once they are written to disk to do the actual processing. </P>
+
+        <UL>
+        
+        <LH><H4>NmrPipe</H4></LH>
+        
+        <LI><B>Conversion script file</B>: Script to convert original raw data into nmrPipe FIDs. Creates
+			nmrPipe FIDs. Run this script in your shell after writing it to disk.
+
+        <LI><B>nmrPipe FIDs</B>: Filename for the nmrPipe FIDs. These FIDS are created when running the
+            conversion script file, and serve as input for the processing script. <I>This filename is in nmrPipe
+            style: use %03d type formatting to designate the incremented number for the set of files.</I>
+
+        <LI><B>Processing script file</B>: Script to Fourier Transform the nmrPipe FIDs. Creates processed
+			data. Run this script in your shell after writing it to disk.
+
+        <LI><B>Processed data</B>: Filename for the processed data. This data is created when running the
+            processing script. <I>This filename is in nmrPipe style: use %03d type formatting to designate the
+            incremented number for the set of files.</I>
+
+        </UL>
+
+
+        <UL>
+        
+        <LH><H4>Azara</H4></LH>
+        
+        <LI><B>Processing parameters file</B>: File with the parameters describing the original data. This
+            file is used by the processing script file.
+
+        <LI><B>Processing script file</B>: Script to process the raw data (FIDs). You have to run this
+        	script with the 'process <filename>' command after writing it to disk.
+
+        <LI><B>Processed data</B>: Filename for the processed data. This data is created when running the
+            processing script.
+
+        <LI><B>Processed data paramater file</B>: File with the parameters describing the processed data
+            (referencing, ...). Is written when running the processing script.
+
+        </UL>
+    
+    <PAGE HELP>ProchiralStatus
+
+        <H2>Setting the stereospecific status for prochiral atoms.</H2>
+
+        <P ALIGN="LEFT">In this window you can determine the stereospecific status of prochiral atoms/atom
+        groups. Inside the CCPN Data Model this status is determined by the link between the prochiral atoms and
+        the resonances representing them in the 'NMR world'. This window allows you to set that link, providing
+        some information is already available that describes which resonances are connect to which atoms. </P>
+
+        <P><B>If this screen is empty you might have to run linkResonances first!</B></P>
+
+        <P>To start, select the list of resonances that you want to examine from the top left pulldown menu.
+        This is necessary because constraint lists, unlike other NMR information, are stored with their own
+        fixed separate resonance-atom link. Then select the chain from the top right pulldown menu on the top.
+        The list of atoms in the main part of the window will be adapted accordingly (if you already made
+        changes to another chain they will be remembered, and implemented if the <B>'Set all'</B> button is
+        pressed).</P>
+
+        <P><B>Warning: The changes made in the main window will ONLY be implemented if the 'Set all' or 'Set
+        chain' buttons at the bottom of the window are pressed!</B></P>
+
+        <P>The main window has the following columns:</P>
+
+        <UL>
+        <LH>Main window</LH>
+        <LI><B>Stereospecific status</B>: press this button to change the stereospecific assignment status of the prochiral atoms. If pressed (red), the prochiral atoms are stereospecifically assigned (the corresponding resonances will also appear red), if depressed (grey), the prochiral atoms are <B>not</B> stereospecifically assigned.
+        <LI><B>Residue ccpCode</B>: the ccp residue code
+        <LI><B>Residue sequence code</B>: the sequence code for this residue (user-defined)
+        <LI><B>Prochiral atomSet names</B>: the names for the prochiral atomSets (<I>i.e.</I> only one entry per methyl group).
+        <LI><B>Connection status</B>: the connection status between the atomSets and the corresponding resonances. If this is a straight line, the atomSet on the left of the line is <I>only and directly</I> linked (via one resonanceSet) to the resonance displayed on the right of the line. If this is a cross, then both atomSets on the left are linked to both resonances on the right (this is the non-stereospecific case).
+        <LI><B>Corresponding resonances</B>: these are the resonances representing the atomSets in the 'NMR world'. If displayed in red (the stereospecific case only), the top resonance can be changed by clicking on the pulldown menu. This will also change the bottom resonance, and the resonances will be switched compared to the atomSets, effectively switching the stereospecific assignment. Chemical shifts will be displayed here when available.
+        </UL>
+
+        <P>Press '<B>Set all</B>' to implement the changes made in all the chains you examined.</P>
+        <P>Press '<B>Set chain</B>' to implement the changes made for the current chain only.</P>
+        <P>Press '<B>Exit</B>' to exit without changes.</P>    
+
+    <PAGE HELP>ResonanceGroup
+
+        <H2>Group resonances together</H2>
+
+        <P ALIGN="LEFT">This window appears if there is unresolved ambiguity between resonance names. The
+        resonances listed here should belong to two groups. Please select all resonances that belong to one
+        group. These will be joined, as will be the resonances belonging to the other group.</P>    
+
+
+    <PAGE HELP>SequenceChemCompSelect
+    
+        <H2>Set chemComp information for an imported sequence.</H2>
+
+        <P ALIGN="LEFT">In this window you can delete or move sequence elements, and select the correct
+		chemCompVar for a particular sequence element.</P>
+
+        <P>On the left, under <B>'Original code'</B>, the original sequence identifier and code are displayed
+        for information.</P>
+
+        <P>In the middle, under <B>'Modify ChemCompVar'</B>, the currently selected (if any) reference data
+        chemCompVar is displayed. If this chemCompVar is not defined or if you want to change it, you can click
+        on it and a window will pop up that allows you to select the desired chemCompVar.</P>
+
+        <P>On the right, under <B>'Status'</B>, you can modify the status of a particular sequence element. Each
+        sequence element has a pulldown list that is set to 'OK' by default (this means the sequence element is
+        in the right place in the sequence and has to be imported into the Data Model). If you set the status to
+        'Delete', the sequence element will be removed from the sequence. You can also move sequence elements to
+        other molecules - click on the <B>'Add new molecule'</B> button if you want to create another molecule
+        to move sequence elements to. You can move a sequence element to the 'start' or the 'end' of another
+        molecule (this only has meaning for linear polymers). Note that moving multiple sequence elements
+        simultaneously to the 'start' of the same molecule will inverse their order from the one currently
+        displayed!</P>
+
+        <P>Press '<B>Change</B>' to implement the changes from the 'Status' column.</P>
+        
+        <P>Press '<B>Change and quit</B>' to implement the changes from the 'Status' column and return to the
+		sequence linking window.</P>
+
+        <P>Press '<B>Cancel</B>' to ignore everything that was done in this window.</P>    
+
+    <PAGE HELP>SequenceLink
+
+        <H2>Import original sequence</H2>
+
+        <P ALIGN="LEFT">This window allows you to do a full interpretation of the sequence that was read in for
+        a data format file, so that it can be imported into the Data Model correctly.</P>
+
+        <P ALIGN="LEFT">On the left (under '<B>Original import</B>) the original sequence(s) that were read in
+        are displayed. You can click on this sequence to remove sequence elements or to move them to other
+        molecules. You can also set particular chemCompVars (e.g. protonated ARG) from here.</P>
+
+        <P ALIGN="LEFT">On the right (under '<B>Data model</B>', in blue) the information that will be used
+        inside the Data Model is displayed. The '<B>Molecular type</B>' depends on the sequence elements that
+        were found. Current valid molecular types are 'protein', 'DNA', and 'RNA' for pure linear biopolymers,
+        and 'other' for everything else. Clicking on '<B>Molecule name</B>' allows you to set your own name for
+        the molecule that will be created (this option is not available if the molecule is already present
+        inside the Data Model). You can set the '<B>Number of chains</B>' to determine the number of chains that
+        will be created for this molecule inside the molecular system (e.g. set this to 2 for a homodimer). This
+        number can also be set to '0' if you only want to create a molecule, and no molecular system with
+        chains.</P>
+
+        <P ALIGN="LEFT">Finally, warning messages can appear in red on the right hand side. This occurs when
+        sequence elements could not be automatically recognized and have to be identified by the user. If they
+        are not identified, they will be ignored when the molecule is created!</P>
+
+        <P ALIGN="LEFT">Press '<B>OK</B>' to continue after you have set everything correctly. Press '<B>Reset
+        to original</B>' if you want to return the window to its original state. Press '<B>Cancel</B>' to use
+        the automatically set options.</P>
+
+   
+    <PAGE HELP>SingleProchiralStatus
+
+        <H2>Status single prochiral</H2>
+
+        <P ALIGN="LEFT">Here you decide how to handle cases where, in the external files, information was found
+        for only one of two prochiral resonances/atoms (e.g. info for the HB2 of an ASP, but nothing for the
+        HB3). The options are:</P>
+
+        <UL>
+
+        <LI><B>X assigned, has same information as Y</B>: Assume the other prochiral (X) carries the same
+            information as this one (Y). In practice this means they have the same chemical shift.
+
+        <LI><B>X not assigned, no stereo information</B>: Nothing is known about the other prochiral X (i.e.
+            you cannot find it in the spectra); do not create a resonance for it.
+
+        </UL>   
+        
+    <PAGE HELP>SingleResonanceStatus
+
+        <H2>Status single possibly equivalent resonance/atom</H2>
+
+        <P ALIGN="LEFT">Here you decide how to handle cases where, in the external files, information was found
+        for only one of two resonances/atoms that are often equivalent (e.g. info for the HD2 of a PHE, but
+        nothing for the HD1). The options are:</P>
+
+        <UL>
+
+        <LI><B>X and Y are equivalent</B>: Assume that both atoms are equivalent (i.e. treat 'HD2' as 'HD*')
+
+        <LI><B>X and Y are not equivalent</B>: Assume that these atoms are not equivalent (they are observed
+            separately, so treat 'HD1' and 'HD2' as separate).
+
+        </UL>   
+
+    <PAGE HELP>StudyCreate
+    
+        <H2>Give a name for the new Study.</H2>
+        
+        <P ALIGN="LEFT">Type a name for the new Study. This name cannot be changed later.</P>
+
+        <P ALIGN="LEFT">Press 'Skip' to cancel the Study creation.</P>
+
+    <PAGE HELP>StudyEdit
+    
+        <H2>Entering details for a Study.</H2>
+        
+        <P ALIGN="LEFT">Enter the type of Study (e.g. NMR), and any details and/or keywords. To
+        add keywords to the list, click 'Add value'. To delete keywords, select the value and
+        click 'Delete selected'.</P>
+
+        <P ALIGN="LEFT">Click 'Create new' to create a new Study, 'Delete current' to delete the
+        currently selected Study, 'Update current' to update the window values, and 'Close' to
+        close this window.</P>
+
+    <PAGE HELP>TextOutput
+
+        <P>This window shows the output generated by the formatConverter software suite.</P>
+
+        <P>Warnings are shown in <FONT COLOR=ff7c25>orange</FONT>.</P>
+
+        <P>Errors are shown in <FONT COLOR=ff0e16>red</FONT>.</P>
+   
+    <PAGE HELP>WindowFunctionSelect
+
+        <H2>Window function selection
+        </H2>
+        <P ALIGN="LEFT">This window is designed to select window functions appropriate for a particular processing program. Please refer to the documentation of that program for the exact meaning of the window functions and parameters: 
+        <A HREF="http://www.bio.cam.ac.uk/azara/azara_docs/azara.html">Azara</A>,
+        <A HREF="http://spin.niddk.nih.gov/bax/software/NMRPipe/NMRPipe.html">NmrPipe</A>
+        </P>.   
+
+    <PAGE HELP>WriteBmrbChemShiftDep
+
+        <H2>Write BMRB chemical shift deposition file</H2>
+
+        <P><B>Important</B>: this is a temporary solution for writing deposition files. It is not thoroughly tested but should work in most cases. Eventually a full nmrStar file writer will be incorporated that bypasses the need to write separate information (like these chemical shifts).</P>
+
+        <P ALIGN="LEFT">From '<B>Shift lists</B>' select the chemical shift list you want to write out. The appropriate chains will then be listed in the <B>Chains</B> pulldown menu: <I>you have to select one chain only for export</I>!</P>
+
+        <P ALIGN="LEFT">'<B>Chemical shift deposition file</B>': press '<B>Select file</B>' to choose the file to write the chemical shifts to.</P>
+
+        <P ALIGN="LEFT">Press '<B>Write file</B>' to write out the BMRB chemical shift deposition file. If there are any problems with atom names please report them back to us.</P>
+   
+    <PAGE HELP>WriteMapping
+    
+        <H2>Write ccp mapping file</H2>
+
+        <P ALIGN="LEFT">From '<B>File formats</B>' select for which originally imported formats you want to write out the mapping information. By default all file formats are selected.</P>
+
+        <P ALIGN="LEFT">'<B>Mapping output file</B>': press '<B>Select file</B>' to choose the file to write the mapping to.</P>
+
+        <P ALIGN="LEFT">Press '<B>Write mapping</B>' to write out the file with the mapping. This file is a text reference for checking whether everything was linked as expected and cannot be used for import or future mapping.</P>
+    
+   
+  <SUBSECTION>FormatConverter selections
+
+    <PAGE HELP>MeasurementSelect
+
+        <H2>NMR measurement selection
+        </H2>
+
+        <P ALIGN="LEFT">Multiple measurement values were found for this resonance - select the one you want
+		to use.</P>
+
+    <PAGE HELP>SelectChain
+
+        <H2>Chain selection
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid chain in this molecular system before the script can continue. A chain describes a 'real' molecule in the molecular system (e.g. a homodimer has two chains that have the same molecule template data).
+        </P>
+        <P ALIGN="LEFT">If available, press the '<B>create new chain</B>' button if you have to create a new chain for this molecular system in the Data Model.
+        </P>    
+
+    <PAGE HELP>SelectDataSource
+
+        <H2>Data source selection
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid data source before the script can continue. A data source ('DataSource') describes the raw (acquisition) data for an experiment, or a particular transform of that raw data (e.g. if you process your data with both NMRPipe and Azara you would have three data sources: one for the acquisition data, one for NMRPipe and one for Azara. If you would do a different transform (e.g. a 2D projection of a 3D) you would also have to create a new datasource).
+        </P>
+        <P ALIGN="LEFT">If available, press the '<B>create new datasource</B>' button if you have to create a new data source for this experiment in the Data Model.
+        </P>
+        
+    <PAGE HELP>SelectEntry
+
+        <H2>Entry selection
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid entry before the script can continue. An entry ('BmrbEntry') describes which information in the Data Model is relevant for saving to a project file (usually for archiving/deposition).
+        </P>
+        <P ALIGN="LEFT">If available, press the '<B>Create new</B>' button if you have to create a new entry in the Data Model. By default this will select all information currently available (a more sophisticated window that allows you to select which information you want to link together will be included in the future).
+        </P>
+    
+    <PAGE HELP>SelectExperimentForAcq
+    
+        <H2>Experiment selection
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid experiment within the Data Model before acquisition and processing parameters can be handled.
+        </P>
+        <P ALIGN="LEFT">Click the '<B>Create new</B>' button (if available) in case you have not yet created the right experiment in the Data Model.
+        </P>
+    
+    <PAGE HELP>SelectExperimentFromPeakList
+
+        <H2>Select experiments contained within one peak list</H2>
+        <P ALIGN="LEFT">This peak list contains information for multiple experiments: please select the ones that want to import.
+        </P>
+        <P>Select 'Do not load' if you do not want to import any data from this peak list.</P>    
+
+    <PAGE HELP>SelectExperimentToMeasurementList
+
+        <H2>Select experiments associated with measurement lists</H2>
+        <P ALIGN="LEFT">Select from the list of experiments the ones that are associated with the measurement list (e.g. Shifts, Jcouplings, ...) you are importing.
+        </P>
+        <P ALIGN="LEFT">If none of these experiments are relevant, select 'none linked'.</P>    
+
+    <PAGE HELP>SelectExperiment
+    
+        <H2>Experiment selection
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid experiment within the Data Model before a peak list can be imported. The peak list will then be linked to this experiment (and its dimensions). Only select an experiment from the selection list if you already created an experiment for this peak list beforehand or if this is the second (or higher) peak list you are reading in for the same experiment.
+        </P>
+        <P ALIGN="LEFT">Press the '<B>create new experiment</B>' button if you do not yet created the right experiment in the Data Model.
+        </P>    
+
+    <PAGE HELP>SelectMolSystem
+    
+        <H2>Molecular system selection
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid molecular system before the script can continue. A molecular system ('MolSystem') describes the molecule(s) under investigation.
+        </P>
+        <P ALIGN="LEFT">If available, press the '<B>create new molecular system</B>' button if you have to create a new molecular system in the Data Model.
+        </P>
+    
+    <PAGE HELP>SelectPeakListForAssignFile
+    
+        <H2>Peak list selection for assignment file
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid peak list to connect to the peak assignment information that you are reading.
+        </P>
+    
+    <PAGE HELP>SelectSpectrometer
+    
+        <H2>NMR spectrometer selection
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid NMR spectrometer before the script can continue. An NMR spectrometer ('NmrSpectrometer') describes the general parameters for such an instrument.
+        </P>
+        <P ALIGN="LEFT">If available, press the '<B>Create new spectrometer</B>' button if you have to create a new NMR spectrometer in the Data Model.
+        </P>    
+
+    <PAGE HELP>SelectStrucGen
+    
+        <H2>Structure generation selection
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid structure generation before the script can continue. A structure generation ('StructureGeneration') connects together all objects relevant for one structure generation cycle (e.g. contraint lists, coordinates, ...).
+        </P>
+        <P ALIGN="LEFT">If available, press the '<B>Create new</B>' button if you have to create a new structure generation in the Data Model.
+        </P>        
+
+<SECTION>Other
+
+  <SUBSECTION>Concepts
+
+    <PAGE>Resonance
+        
+        <H2>What does 'resonance' mean in the Data Model?</H2>
+        
+        <P>The Data Model separates the assignment of NMR information and the assignment to atoms, so
+        that it is possible to group NMR information arising from the same atom(s) without knowing
+        which atom(s) are involved. The Data Model handles this via the Resonance object (see figure
+        below). A Data Model Resonance transcends the traditional meaning attributed to the word in
+        NMR: <B>one Resonance object can have many different shift values belonging to different
+        experiments</B>.</P>
+
+        <P CLASS="legend">
+          
+            <IMG SRC="../../graphics/ccp_resonance.jpg"><BR>
+
+        </P>
+        
+        <P>In other words, the Resonance object links all NMR information, and makes it possible to
+        directly connect chemical shifts, peak assignments, constraints, ... . In this way the
+        assignment of the NMR data and the assignment to atoms are separated. This also means that
+        when the atom assignment for a Resonance is changed (e.g. a different stereospecific
+        assignment), all NMR information also automatically 'knows' about this new atom assignment
+        state.</P>
+        
+        <P>&nbsp;</P>
+
+        
+        <H2>An example of Resonances at work...</H2>
+        
+        <P>Consider the following example: you have identified two separate signals in NMR Spectrum
+        1, and assigned the first one to <FONT COLOR=0000ff>Resonance 'A' (blue)</FONT>, the second
+        one to <FONT COLOR=ff0000>Resonance 'B' (red)</FONT>. In spectrum 1, <FONT
+        COLOR=0000ff>Resonance 'A'</FONT> has chemical shift value 7.89 ppm, <FONT
+        COLOR=ff0000>Resonance 'B'</FONT> is at 3.22 ppm. At this stage you know nothing about which
+        atoms these Resonances correspond to.</P>
+
+        <IMG SRC="../../graphics/ccp_resonanceExample.jpg"><BR>
+
+        <P>You then peak pick Spectrum 1. You know that for peaks 322 and 323 the first dimension
+        <I>(dim. 1)</I> corresponds to the signal at 3.22 ppm (in Spectrum 1), so you connect the
+        first dimension for these peaks to <FONT COLOR=ff0000>Resonance 'B'</FONT>. Similarly, for
+        peak 377 you know that the third dimension <I>(dim. 3)</I> corresponds to the signal at 7.89
+        ppm, so you connect the third dimension for this peak to <FONT COLOR=0000ff>Resonance
+        'A'</FONT>.</P>
+
+        <P>At this stage, you know the following:</P>
+        <UL>
+        <LI><FONT COLOR=0000ff>Resonance 'A'</FONT>:
+            <UL>
+            <LI> Chemical shift value of 7.89 ppm in Spectrum 1
+            <LI> Assigned to the third dimension of peak 377 in Peak list 1
+            </UL>
+        <LI><FONT COLOR=ff0000>Resonance 'B'</FONT>:
+            <UL>
+            <LI> Chemical shift value of 3.22 ppm in Spectrum 1
+            <LI> Assigned to the first dimension of peaks 322 and 323 in Peak list 1
+            </UL>
+        </UL>
+        
+        <P>You now record Spectrum 2. Because you recorded this spectrum at, for example, a different
+        temperature or pH, it has changed compared to Spectrum 1. By comparing the two, you
+        see that the signal at 3.22 ppm is now at 3.26 ppm, and the signal at 7.89 ppm has shifted to
+        8.03 ppm. The signal, of course, still comes from the same source, so you connect the
+        chemical shift value of 8.03 ppm to <FONT COLOR=0000ff>Resonance 'A'</FONT>, and the chemical
+        shift value of 3.26 ppm to <FONT COLOR=ff0000>Resonance 'B'</FONT>.</P>
+
+        <P>At this stage, you know the following:</P>
+        <UL>
+        <LI><FONT COLOR=0000ff>Resonance 'A'</FONT>:
+            <UL>
+            <LI> Chemical shift value of 7.89 ppm in Spectrum 1
+            <LI> Chemical shift value of 8.03 ppm in Spectrum 2
+            <LI> Assigned to the third dimension of peak 377 in Peak list 1
+            </UL>
+        <LI><FONT COLOR=ff0000>Resonance 'B'</FONT>:
+            <UL>
+            <LI> Chemical shift value of 3.22 ppm in Spectrum 1
+            <LI> Chemical shift value of 3.26 ppm in Spectrum 2
+            <LI> Assigned to the first dimension of peaks 322 and 323 in Peak list 1
+            </UL>
+        </UL>
+        
+        <P>You then start a sequential assignment based on the information you have, and find out
+        that <FONT COLOR=0000ff>Resonance 'A'</FONT> corresponds to the HN atom of residue 11 in
+        chain A. You connect Resonance 'A' to this Atom in the Data Model (click <A
+        href="Concepts_ResonanceAtomLinks.html">here</A> to see how this works), and this way assign it
+        unambiguously. All the NMR information you previously linked to <FONT COLOR=0000ff>Resonance
+        'A'</FONT> is now connected to the correct atom. For <FONT COLOR=ff0000>Resonance 'B'</FONT>,
+        you do not have a definite assignment, but you think it is the HB atom of residue 15 in chain
+        A, so start using 'A.15.HB?', <I>a plain text string</I>, as the <I>name</I> of <FONT
+        COLOR=ff0000>Resonance 'B'</FONT>. This is <B>not</B> the same as connecting it to the HB
+        atom of residue 15 in chain A, as 'A.15.HB?' is only a string, and though it might carry
+        useful information for the user, it does not unambiguously describe the Atom assignment of
+        Resonance 'B'. You might later decide that <FONT COLOR=ff0000>Resonance 'B'</FONT> actually
+        corresponds to atoms HD1 and HD2 of residue 25 - once you connect <FONT
+        COLOR=ff0000>Resonance 'B'</FONT> to these Atoms, this is all you need to know, and the name
+        of the Resonance ('A.15.HB?') is meaningless.</P>
+
+        <P>The situation is then the following:</P>
+        <UL>
+        <LI><FONT COLOR=0000ff>Resonance 'A', corresponding to atom HN in residue 11 of chain A:</FONT>:
+            <UL>
+            <LI> Chemical shift value of 7.89 ppm in Spectrum 1
+            <LI> Chemical shift value of 8.03 ppm in Spectrum 2
+            <LI> Assigned to the third dimension of peak 377 in Peak list 1
+            </UL>
+        <LI><FONT COLOR=ff0000>Resonance 'A.15.HB?'</FONT>:
+            <UL>
+            <LI> Chemical shift value of 3.22 ppm in Spectrum 1
+            <LI> Chemical shift value of 3.26 ppm in Spectrum 2
+            <LI> Assigned to the first dimension of peaks 322 and 323 in Peak list 1
+            </UL>
+        </UL>
+
+        <P>If you would then make a constraint list based on the information coming from your
+        spectra, you also link the constraint item members to Resonances. In this case, however, the
+        Atom assignment situation is stored separately <I>at the time of the creation of the
+        constraint list</I>, so that a constraint list never changes. If you change your mind about
+        an assignment, you have to create a new constraint list.</P>
+
+        <H2>How is it used in the FormatConverter?</H2>
+        
+        <P>In the FormatConverter, all NMR related information that is imported is first linked to
+        resonances. The original chain/residue/atom names from the external format are used as the
+        temporary 'key' for each resonance.</P>
+
+        <P>On the other hand, sequence information is read in from an external format to create
+        molecules, a molecular system, chains, residues and atoms in the Data Model</P>
+        
+        <P>At this stage, you have on one hand the NMR information, linked to Resonances, and on the
+        other hand information about all the Atoms in the molecular system. There are as yet no links
+        between the Resonances and the Atoms.</P>
+        
+        <P>The <A href="Concepts_LinkResonances.html">linkResonances</A> script (also part of the FormatConverter suite) is then used to link
+        Resonances to Atoms. Once this is done, you can export the data in any external format, as
+        the Resonance-Atom link is now unambiguously described.</P>
+
+    <PAGE>ResonanceAtomLinks
+        
+        <H2>Schemas describing the Resonance-Atom link...</H2>
+    
+        <P>The following schemas illustrates how the connection between the Data Model Resonance to
+        Atom objects is handled via the ResonanceSet and AtomSet objects. The ResonanceSet object
+        handles ambiguity on the resonance-atom assignment level, the AtomSet object handles 'atom
+        groups' that are in fast exchange on the NMR timescale, for example methyls.</P>
+
+
+        <P CLASS="legend">
+        <B>Schema 1: Treatment of single atoms, single methyls and aromatic atoms.</B><BR>
+        <IMG SRC="../../graphics/ccp_resonanceAtom1.jpg"><BR>
+        </P>
+        
+        <P>&nbsp;</P>
+        
+        <P CLASS="legend">
+        <B>Schema 2: Treatment of prochiral methylene groups.</B><BR>
+        <IMG SRC="../../graphics/ccp_resonanceAtom2.jpg"><BR>
+        </P>
+        
+        <P>&nbsp;</P>
+
+        <P CLASS="legend">
+        <B>Schema 3: Treatment of prochiral methyl groups.</B><BR>
+        <IMG SRC="../../graphics/ccp_resonanceAtom3.jpg"><BR>
+        </P>
+        
+
+    <PAGE>LinkResonances
+    
+        
+        <H2>The linkResonances script</H2>
+
+        <P>The linkResonances script works in several stages (see figure for a simplified
+        representation). First, the following criteria are checked:</P>
+        
+        <UL>
+        <LI>is a valid molecular system defined in the Data Model?
+        <LI>are there any resonances that are not yet linked to atoms?
+        <LI>do these resonances have a chain/residue/atom 'key' derived from the external format?
+        </UL>
+        
+        In the second step, a 'naming system' is chosen - this could be different from the original
+        format (e.g. Sparky allows any name for an atom, so it is a format, not a naming system.
+        XEasy, on the other hand, has a fixed atom naming system so is both a format and a naming
+        system). Then, using this naming system, the strings describing the atoms from the original
+        files are interpreted. If it is clear which atom(s) they refer to, the link is made
+        automatically. If this is not clear, then a popup appears that allows the user to select the
+        correct atom(s). At the end of this process, all resonances are linked to atoms.</P>
+
+        <IMG SRC="../../graphics/fc_linkResonances.jpg"><BR>
+
+  <SUBSECTION>Glossary
+
+    <PAGE HELP>Glossary
+    
+        <B>Resonance</B>
+        
+        <P ALIGN="LEFT">This is the CCP resonance object. All NMR information is linked to resonance
+        objects in the Data Model. A resonance object is linked to atom objects via resonanceSet and
+        atomSet objects: the resonance derives its meaning (is 'assigned') from the way it is linked
+        to an atom via these objects. </P>
+
+        <P ALIGN="LEFT"><B>Imported resonance name
+        </B></P>
+        <P ALIGN="LEFT">This is the original name given to a resonance object when first created during file import. It is in the form '<chainID>.<seqCode>.<atomName>', but is fully file format and naming system specific. It is used in the linkResonances script to set the resonance to atom link - only then is the resonance 'assigned' within the Data Model. In certain cases it can be re-used for export, although errors are likely if changes were made to the Data Model objects between import and export.
+        </P>
+        <P ALIGN="LEFT"><B>CCP resonance name
+        </B></P>
+        <P ALIGN="LEFT">This is a name given to the resonance object when it is linked to atom(s) with the linkResonances script. It is in the form '<chainID>.<seqCode>.<atomName>', with the chainID and seqCode conform to the chain and residue objects in the Data Model. The atomName is derived from the atomSet(s) the resonance is linked to. In the case of non-stereospecifically assigned prochirals the name will end in a/b to denote its status (e.g. HBa and HBb for an Asp).
+        </P>
+        <P ALIGN="LEFT"><B>File format
+        </B></P>
+        <P ALIGN="LEFT">This is the format of a file. It only describes the way in which data is represented in a file (e.g. in an nmrStar file the format would be 'nmrStar', even though the information contained within it could come from XPLOR). Examples of file formats are nmrView, nmrStar, XEasy, ... .
+        </P>
+        <P ALIGN="LEFT"><B>Naming system
+        </B></P>
+        <P ALIGN="LEFT">This is the naming system used for import/export of atom names. All atom names conforming to the chosen naming system will be automatically translated: during import, the resonance to atom link will be set automatically, during export, the resonance to atom link will be interpreted and the relevant atom name written out automatically. Examples of naming systems are XPLOR, DIANA, IUPAC, ... . Within the Data Model IUPAC names are used.
+        </P>
+        <P ALIGN="LEFT"><B>Resonance set
+        </B></P>
+        <P ALIGN="LEFT">A resonance can be linked to one resonance set only, but one resonance set can have many resonances. The resonance set is also linked to atom sets. The purpose of the resonance set is to describe the ambiguity of the resonance assignment.
+        </P>
+        <P ALIGN="LEFT"><B>Atom set
+        </B></P>
+        <P ALIGN="LEFT">An atom set combines atoms that are equivalent for NMR purposes. For example, a methyl group is described by one atom set which is linked to three atoms (e.g. for alanine an HB* atom set is linked to atoms HB1, HB2, HB3). It can be linked to multiple resonance sets.
+        </P>
+        <P ALIGN="LEFT"><B>Atom
+        </B></P>
+        <P ALIGN="LEFT">An atom describes an actual atom within a molecule. It is linked to a residue and to reference information contained in the chemAtom object, which describes bond, nucleus, isotope, charge, names for the atom in different naming systems, and other information.
+        </P>  

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Classification">
+  <joined-subclass
+    name="SampleCategory"
+    extends="ccp.api.lims.Classification.AbstractCategory"
+    table="CLAS_SAMPLECATEGORY"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">The category of the sample classified by namingSystem. Different organisations can have their own categories.</meta>
+  <key column="ABSTRACTCATEGORYID" foreign-key="CLAS_SAMPCATE_ABSTCATE_FK"/>
+  
+  <many-to-one
+    name="hbClassification"
+    column="CLASSIFICATIONID"
+    class="ccp.api.lims.Classification.Classification" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="CLAS_SAMPCATE_CLAS_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbExperimentTypes" 
+    table="CLAS_SAMPCATE2EXPETYPE"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">List of experiment type associated a sample category.</meta>
+    <meta attribute="base-name">hbExperimentType</meta>
+    <cache usage="read-write"/>
+    <key column="SAMPLECATEGORYID" foreign-key="CLAS_EXPETYPE_SAMPCATE_FK"/>
+    <many-to-many column="EXPERIMENTTYPEID" class="ccp.api.lims.Classification.ExperimentType" foreign-key="CLAS_SAMPCATE_EXPETYPE_FK"/>
+  </set>
+  
+  <set 
+    name="hbAbstractSamples" 
+    table="SAM_ABSTSAMP2SAMPCATE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">List of sample asociated to a sample category.</meta>
+    <meta attribute="base-name">hbAbstractSample</meta>
+    <cache usage="read-write"/>
+    <key column="SAMPLECATEGORYID" foreign-key="SAM_ABSTSAMP_SAMPCATE_FK"/>
+    <many-to-many column="ABSTRACTSAMPLEID" class="ccp.api.lims.Sample.AbstractSample" foreign-key="CLAS_SAMPCATE_ABSTSAMP_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

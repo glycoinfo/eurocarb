@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation
+END
+GlycoVisitorContainsNodeBelow.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/GlycoVisitorContainsNodeBelow.java
+END
+SugarGraphAglycon.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/SugarGraphAglycon.java
+END
+GlycoVisitorSugarGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/GlycoVisitorSugarGraph.java
+END
+GlycoVisitorContainsNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/GlycoVisitorContainsNode.java
+END
+GlycoVisitorValidation.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/GlycoVisitorValidation.java
+END
+SugarGraphInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/SugarGraphInformation.java
+END

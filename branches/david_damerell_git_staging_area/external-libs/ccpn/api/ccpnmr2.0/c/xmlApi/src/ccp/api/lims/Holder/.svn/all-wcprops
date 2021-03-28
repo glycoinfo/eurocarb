@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Holder
+END
+Hold_HolderType.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Holder/Hold_HolderType.c
+END
+Hold_RefSamplePosition.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Holder/Hold_RefSamplePosition.c
+END
+Hold_AbstractHolderType.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Holder/Hold_AbstractHolderType.c
+END
+Hold_HolderTypePosition.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Holder/Hold_HolderTypePosition.c
+END
+Hold_HolderLocation.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Holder/Hold_HolderLocation.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Holder/Makefile
+END
+Hold_PinType.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Holder/Hold_PinType.c
+END
+Hold_HolderStore.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Holder/Hold_HolderStore.c
+END
+Hold_Holder.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/lims/Holder/Hold_Holder.c
+END

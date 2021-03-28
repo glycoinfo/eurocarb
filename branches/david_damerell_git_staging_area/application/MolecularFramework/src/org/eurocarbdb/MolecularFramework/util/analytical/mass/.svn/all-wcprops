@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/analytical/mass
+END
+MassComponents.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/analytical/mass/MassComponents.java
+END
+GlycoVisitorRepeatLinkType.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/analytical/mass/GlycoVisitorRepeatLinkType.java
+END
+GlycoMassException.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/analytical/mass/GlycoMassException.java
+END
+GlycoVisitorMass.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/analytical/mass/GlycoVisitorMass.java
+END

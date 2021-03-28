@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/azara
+END
+generalIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/azara/generalIO.py
+END
+processingScriptIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/azara/processingScriptIO.py
+END
+processingParsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/azara/processingParsIO.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/azara/__init__.py
+END

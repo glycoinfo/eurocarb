@@ -1,0 +1,895 @@
+10
+
+dir
+26
+http://eurocarbdb-nmr.googlecode.com/svn/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr
+http://eurocarbdb-nmr.googlecode.com/svn
+
+
+
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ccabb5d2-bd44-11dd-94c0-21daf384169b
+
+ExpChainState
+dir
+
+DataDimRef
+dir
+
+PeakContrib
+dir
+
+HExchProtectionList
+dir
+
+RdcList
+dir
+
+ShiftAnisotropy
+dir
+
+T2CoherenceType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+0a1cce54ee0204eed149f0c6112729a2
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6045
+
+DerivedDataList
+dir
+
+index.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+484238cdeb76953fd0911af059d52b51
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+53283
+
+HExchRate
+dir
+
+AbstractPeakDimContrib
+dir
+
+DipolarRelaxation
+dir
+
+FreqDataDim
+dir
+
+StructureGenerationType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+45c33fa7d38e79572b4fde8b2e80a9c4
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6055
+
+DipolarRelaxList
+dir
+
+AbstractDataDerivation
+dir
+
+ResidueProb
+dir
+
+T1
+dir
+
+T2
+dir
+
+DimensionScaling
+dir
+
+ExpDim
+dir
+
+FidDataDim
+dir
+
+IntensityType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+1dcd7f15869de38d33e731b4665ff21d
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6408
+
+ShiftReference
+dir
+
+ShiftDifferenceType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+cd139d969a2edd97f7c47ab111d33e30
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6083
+
+SpectralDensityDerivation
+dir
+
+ExpSampleState.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+668e737b2dfd2f44004ce108918998ef
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6059
+
+ChainStateSetType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+338e5ca4c06d570a3955219d6b8df532
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6086
+
+AbstractMeasurementList
+dir
+
+ShiftList
+dir
+
+SpectralDensityList
+dir
+
+PeakDimContribN
+dir
+
+PeakDim
+dir
+
+Pka
+dir
+
+StructureGeneration
+dir
+
+IsotropicS2List
+dir
+
+Experiment
+dir
+
+Peak
+dir
+
+Noe
+dir
+
+NmrProject
+dir
+
+NoeValueType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+52f499bfef210dd25fd2bc90edcfb3cd
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6061
+
+JCouplingList
+dir
+
+AbstractDataDim
+dir
+
+ShiftDifference
+dir
+
+PeakDimContrib
+dir
+
+DataSourceImage
+dir
+
+DataDerivation
+dir
+
+ResonanceProb
+dir
+
+PKaDerivation
+dir
+
+ExpTransfer
+dir
+
+ShiftAnisotropyList
+dir
+
+SampleConditionSet
+dir
+
+TempCalibMethod.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+e0c870e7234b9eae993375342df9527a
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6011
+
+DataList
+dir
+
+T1CoherenceType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+15922cf6d70b909d8167ce039dc53bda
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6005
+
+HExchProtection
+dir
+
+HExchRateList
+dir
+
+Rdc
+dir
+
+SampledDataDim
+dir
+
+TempControlMethod.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+4bc9a8b0a5a5938c27164ba8bd020d03
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5988
+
+DerivedData
+dir
+
+ResonanceGroupProb
+dir
+
+Resonance
+dir
+
+T1List
+dir
+
+T2List
+dir
+
+PeakCluster
+dir
+
+ExpDimRef
+dir
+
+NmrExpSeries
+dir
+
+ShiftReferenceMolecule.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+b33940e58bd1b9c6098d5d0a9cdb01f7
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6133
+
+SparseSampling
+dir
+
+InternalShiftReference
+dir
+
+T1rhoList
+dir
+
+ResonanceGroup
+dir
+
+DataSource
+dir
+
+SampleConditionType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+911383776cecc46727f26dfa91fa1295
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6173
+
+ExternalShiftReference
+dir
+
+ExpDimRefMapping
+dir
+
+ChainStateSet
+dir
+
+LinkType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+04247f204d2a8dff913bcddd71f85ecf
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6076
+
+StructureAnalysis
+dir
+
+IsotropicS2Derivation
+dir
+
+PkaList
+dir
+
+AbstractMeasurement
+dir
+
+Datum
+dir
+
+HExchProtectionType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+6510dfc41dc555f8353f27dcc8dd0562
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6056
+
+AtomSet
+dir
+
+PeakList
+dir
+
+SpectralDensity
+dir
+
+NoeList
+dir
+
+Shift
+dir
+
+ShiftRefType.html
+file
+
+
+
+
+2016-01-08T01:32:39.324882Z
+0dc4157ff26b285e4e6e8b937ea1f279
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6395
+
+IsotropicS2
+dir
+
+ChainState
+dir
+
+ShiftDifferenceList
+dir
+
+ResidueTypeProb
+dir
+
+PeakIntensity
+dir
+
+PeakClusterType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+9a349c4af17a86bc77875cd5680badfb
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6052
+
+SampleCondition
+dir
+
+ResonanceSet
+dir
+
+DataSourceDataType.html
+file
+
+
+
+
+2016-01-08T01:32:39.328882Z
+940be5ac4e9dc2da10c17469416e58b0
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6056
+
+JCoupling
+dir
+
+T1Rho
+dir
+
+PeakDimComponent
+dir
+

@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/index.html
+END
+isotopeCode.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/isotopeCode.html
+END
+resonanceSerial.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/resonanceSerial.html
+END
+getResonance.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/getResonance.html
+END
+resonance.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/resonance.html
+END
+nmrConstraintStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/nmrConstraintStore.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/serial.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/name.html
+END
+isotope.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/isotope.html
+END
+getIsotope.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/getIsotope.html
+END
+chainStateLinks.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/chainStateLinks.html
+END
+details.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/details.html
+END
+resonanceSet.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/resonanceSet.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/parent.html
+END
+pairwiseConstraintItems.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/pairwiseConstraintItems.html
+END
+csaConstraints.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/csaConstraints.html
+END
+chemShiftConstraints.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/chemShiftConstraints.html
+END
+resCoords.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/resCoords.html
+END
+dihedralConstraints.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint/FixedResonance/dihedralConstraints.html
+END

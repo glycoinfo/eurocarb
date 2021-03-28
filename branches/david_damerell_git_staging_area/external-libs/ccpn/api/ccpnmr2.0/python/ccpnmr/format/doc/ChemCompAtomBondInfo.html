@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-ChemCompAtomBondInfo</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>ChemCompAtomBondInfo</H1>
+            <H2>ChemComp atom definition window</H2>
+        <P>In this window you can define the atom names and characteristics for this chemComp. Currently no other
+        information can be set: the overall definition has to be correct in the imported file.</P>
+        <P>Note that if you selected '<B>protein</B>', '<B>DNA</B>' or '<B>RNA</B>', then you have to name the
+        correct backbone atoms. These are used in the Data Model to define the 'linking' between residues.</P>
+        <UL>
+        <LH>The attributes that can be set per atom are:</LH>
+        <LI><B>name</B>: the (IUPAC) name for the atom. Has to be unique.
+        <LI><B>elementSymbol</B>: the chemical element for this atom
+        <LI><B>isIonizable</B>: is this atom ionizable in 'normal' conditions?
+        <LI><B>chirality</B>: if this is a stereocenter, select the chirality
+        <LI><B>waterNmrObs</B>: is this atom usually observed in water solution by NMR?
+        <LI><B>bondedAtoms</B>: the atoms bonded to this atom. Click 'Update' to refresh this information.
+        </UL>
+        <P>Click <B>Update</B> to refresh the atom name information in this window. Press <B>OK</B> when you have
+        set all information correctly. You will then be asked for a 'descriptor' for this chemComp: this
+        describes the 'state' of this chemComp you are describing (e.g. 'neutral').</P>
+
+    </TABLE>
+  </BODY>
+</HTML>

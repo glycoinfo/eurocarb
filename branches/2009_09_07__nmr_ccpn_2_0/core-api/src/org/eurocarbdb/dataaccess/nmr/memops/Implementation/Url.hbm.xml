@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="memops.api.Implementation">
+  <class
+    name="Url"
+    table="IMPL_URL"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">URl for data location. Example: directory, database. </meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="MEMOPSDATATYPEOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <property
+    name="_host"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Host computer or web site.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="HOST" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_password"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">User password for URL</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PASSWORD" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_path"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="true"
+  >
+    <meta attribute="field-description">Absolute URL path. </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PATH" sql-type="VARCHAR(254)" length="254" not-null="true"/>
+  </property>
+  
+  <property
+    name="_port"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">Port number to use for the URL.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PORT" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_protocol"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">URL transfer protocol. </meta>
+    <meta attribute="default-value">"file"</meta>
+    <column name="PROTOCOL" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_user"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">User ID for URL</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="USER_" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+
+  </class>
+
+</hibernate-mapping>

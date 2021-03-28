@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/Symmetry
+END
+SymmetryOpCode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/Symmetry/SymmetryOpCode.xml
+END
+Symmetry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/Symmetry/Symmetry.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/Symmetry/package.xml
+END
+Segment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/Symmetry/Segment.xml
+END
+MolSystemSymmetrySet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/Symmetry/MolSystemSymmetrySet.xml
+END

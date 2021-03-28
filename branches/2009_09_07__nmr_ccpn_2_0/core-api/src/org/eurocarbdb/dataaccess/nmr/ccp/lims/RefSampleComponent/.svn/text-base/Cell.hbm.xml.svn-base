@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.RefSampleComponent">
+  <joined-subclass
+    name="Cell"
+    extends="ccp.api.lims.RefSampleComponent.AbstractComponent"
+    table="REFS_CELL"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Cell is a subclass of AbstractComponent. The information on the cell component.</meta>
+  <key column="ABSTRACTCOMPONENTID" foreign-key="REFS_CELL_ABSTCOMP_FK"/>
+  
+  <property
+    name="_competentMethod"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">The method used to obtain competent cells.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="COMPETENTMETHOD" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_cultureCollection"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CULTURECOLLECTION" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_divided"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DIVIDED" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_features"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">The specific properties of the cell. e.g. 'cannot used galactose'.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="FEATURES" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_phase"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PHASE" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

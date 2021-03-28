@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <class
+    name="PeakContrib"
+    table="NMR_PEAKCONTRIB"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Crosspeak contribution.  PeakContribs serve two slightly different purposes. They describe a Peak as a sum of different contributions (e.g. ovelapped peaks), whose relative values is determined by their relative weights. They also serve simply as a way of describing mutually exclusive sets of assignment possibilities, without any implication about the peak arising from multiple contributions. The two aspects are almost identical in practice. If all PeakContrib weights are 0.0, as is the default, it can be assumed that the Contribs are only describing assignment possibilities.  Each PeakContrib may have any number (including zero) peakDimContrib for every dim. The set of possible complete assignments for a PeakContrib is found as follows: For each dimension all PeakDimContribs belonging to the dimension are potential assignments. If there are say 3, 2, and 5 possibilities in the three dimensions (of a 3D peak) there will be a total of 3*2*5=30 possible assignment states belonging to the PeakContrib. If there are no possibilities for one dimension (say 3, 0, and 5 for the three dimensions), there will be 3*5=15 alternative (partial) assignment states. </meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_PEAKCONT_NMRPROJECT_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="peakContribUniqueKey" />
+  </property>
+  
+  <property
+    name="_weight"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Weight (relative probability or relative contribution) of PeakContrib for a given Peak. If the division in PeakContribs is not significant, but simply a way of describing alternative assignments, all weights may be set to zero.</meta>
+    <meta attribute="default-value">new java.lang.Float(0.0)</meta>
+    <column name="WEIGHT" sql-type="FLOAT" not-null="true"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="NMR_PEAKCONT2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbPeak"
+    column="PEAKID"
+    class="ccp.api.nmr.Nmr.Peak" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_PEAKCONT_PEAK_FK" 
+    unique-key="peakContribUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbPeakDimContribs" 
+    table="NMR_PEAKCONT2PEAKDIMCONT"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">peakDimContribs that are possible assignments for the peak within a given PeakContrib. May belong to different dimensions  `</meta>
+    <meta attribute="base-name">hbPeakDimContrib</meta>
+    <cache usage="read-write"/>
+    <key column="PEAKCONTRIBID" foreign-key="NMR_ABSTPEAKDIMCONT_PEAKCONT_FK"/>
+    <many-to-many column="PEAKDIMCONTRIBID" class="ccp.api.nmr.Nmr.AbstractPeakDimContrib" foreign-key="NMR_PEAKCONT_PEAKDIMCONT_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

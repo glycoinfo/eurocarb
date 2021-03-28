@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/search_structure
+END
+create.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/search_structure/create.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/search_structure/success.ftl
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/search_structure/input.ftl
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation
+END
+Vald_ResidueValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_ResidueValidation.h
+END
+Vald_AtomValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_AtomValidation.h
+END
+Vald_StructureValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_StructureValidation.h
+END
+Vald_EntryValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_EntryValidation.h
+END
+Vald_NmrConstraintValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_NmrConstraintValidation.h
+END
+Vald_NmrMeasurementValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_NmrMeasurementValidation.h
+END
+Vald_MolSysAtomValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_MolSysAtomValidation.h
+END
+Vald_MolSysResidueValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_MolSysResidueValidation.h
+END
+Vald_PeakListValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_PeakListValidation.h
+END
+Vald_ValidationResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_ValidationResult.h
+END
+Vald_PeakValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_PeakValidation.h
+END
+Vald_ChainValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_ChainValidation.h
+END
+Vald_MolSysChainValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_MolSysChainValidation.h
+END
+Vald_EnsembleValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_EnsembleValidation.h
+END
+Vald_ValidationStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_ValidationStore.h
+END
+Vald_MolSystemValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_MolSystemValidation.h
+END
+Vald_NmrConstraintListValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_NmrConstraintListValidation.h
+END
+Vald_NmrMeasurementListValidation.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/Validation/Vald_NmrMeasurementListValidation.h
+END

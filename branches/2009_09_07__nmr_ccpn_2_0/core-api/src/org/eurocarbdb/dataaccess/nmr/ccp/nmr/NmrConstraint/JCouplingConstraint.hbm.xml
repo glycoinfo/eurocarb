@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrConstraint">
+  <joined-subclass
+    name="JCouplingConstraint"
+    extends="ccp.api.nmr.NmrConstraint.SingleConstraint"
+    table="NMRC_JCOUPLINGCONSTRAINT"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">J coupling constraint. Ambiguous, may contain several JCouplingConstraintItems, each with a different assignment, describing alternative assignment possibilities.</meta>
+  <key column="SINGLECONSTRAINTID" foreign-key="NMRC_JCOUPCONS_SINGCONS_FK"/>
+  
+  <many-to-one
+    name="hbParentList"
+    column="PARENTLISTID"
+    class="ccp.api.nmr.NmrConstraint.JCouplingConstraintList" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRC_JCOUPCONS_PARENTLIST_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbItems" 
+    table="NMRC_JCOUPLINGCONSTRAINTITEM"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbItem</meta>
+    <cache usage="read-write"/>
+    <key column="CONSTRAINTID"/>
+    <one-to-many class="ccp.api.nmr.NmrConstraint.JCouplingConstraintItem"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

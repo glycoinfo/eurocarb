@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar
+END
+dihedralConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/dihedralConstraintsIO.py
+END
+csaIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/csaIO.py
+END
+hExchProtectionIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/hExchProtectionIO.py
+END
+projectIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/projectIO.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/__init__.py
+END
+rdcIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/rdcIO.py
+END
+sequenceIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/sequenceIO.py
+END
+coordinatesIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/coordinatesIO.py
+END
+hExchRateIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/hExchRateIO.py
+END
+generalIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/generalIO.py
+END
+t1RelaxIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/t1RelaxIO.py
+END
+t2RelaxIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/t2RelaxIO.py
+END
+distanceConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/distanceConstraintsIO.py
+END
+hBondConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/hBondConstraintsIO.py
+END
+hetNoeIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/hetNoeIO.py
+END
+constants.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/constants.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/util.py
+END
+peopleAndCitationsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/peopleAndCitationsIO.py
+END
+t1RhoRelaxIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/t1RhoRelaxIO.py
+END
+jCouplingIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/jCouplingIO.py
+END
+orderParamIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/orderParamIO.py
+END
+chemShiftsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/chemShiftsIO.py
+END
+rdcConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/rdcConstraintsIO.py
+END

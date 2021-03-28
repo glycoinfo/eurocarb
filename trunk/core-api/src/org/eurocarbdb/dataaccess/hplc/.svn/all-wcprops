@@ -1,0 +1,431 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1525/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc
+END
+MultistructuresGlycoct.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/MultistructuresGlycoct.java
+END
+Profile.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1019/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Profile.hbm.xml
+END
+Autogu.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/255/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Autogu.hbm.xml
+END
+Mandetector.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Mandetector.hbm.xml
+END
+ProfileData.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/ProfileData.java
+END
+RefLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/RefLink.java
+END
+Enzyme.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Enzyme.hbm.xml
+END
+StructuresGlycoct.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/797/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/StructuresGlycoct.hbm.xml
+END
+Detector.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/858/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Detector.hbm.xml
+END
+GlycanTissue.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/447/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanTissue.hbm.xml
+END
+Profile.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Profile.java
+END
+GlycanPerturbation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/447/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanPerturbation.hbm.xml
+END
+GlycanTaxonomy.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/447/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanTaxonomy.hbm.xml
+END
+Autogu.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Autogu.java
+END
+MultistructuresGlycoct.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/788/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/MultistructuresGlycoct.hbm.xml
+END
+StructuresGlycoct.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/StructuresGlycoct.java
+END
+IntegrationMethod.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/23/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/IntegrationMethod.hbm.xml
+END
+GlycanPerturbation.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanPerturbation.java
+END
+GlycanTaxonomy.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanTaxonomy.java
+END
+DigestSingle.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1525/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/DigestSingle.java
+END
+IntegrationMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/IntegrationMethod.java
+END
+Column.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Column.java
+END
+Report.hbm.xml~
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/797/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Report.hbm.xml~
+END
+ParentProfile.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/896/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/ParentProfile.hbm.xml
+END
+GlycanSourceLink.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/65/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanSourceLink.hbm.xml
+END
+Ref.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/870/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Ref.hbm.xml
+END
+ContributorIndustry.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/925/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/ContributorIndustry.hbm.xml
+END
+Multipleglycoct.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/647/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Multipleglycoct.hbm.xml
+END
+Mandetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Mandetector.java
+END
+RefTaxLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/RefTaxLink.java
+END
+Detector.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Detector.java
+END
+Content.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Content.java
+END
+GlycanDisease.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanDisease.java
+END
+Ref.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Ref.java
+END
+ContributorIndustry.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/ContributorIndustry.java
+END
+GlycanSourceLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanSourceLink.java
+END
+RefLink.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/655/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/RefLink.hbm.xml
+END
+ProfileData.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/ProfileData.hbm.xml
+END
+GlycanSequenceTemp.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/55/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanSequenceTemp.hbm.xml
+END
+Multipleglycoct.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Multipleglycoct.java
+END
+MethodRun.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/23/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/MethodRun.hbm.xml
+END
+RefTaxLink.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/RefTaxLink.hbm.xml
+END
+DisRefine.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/255/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/DisRefine.hbm.xml
+END
+GlycanSequenceTemp.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanSequenceTemp.java
+END
+HplcPeaksAnnotated.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/329/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/HplcPeaksAnnotated.hbm.xml
+END
+PictorialRepresentation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/PictorialRepresentation.hbm.xml
+END
+GlycanDisease.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/447/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanDisease.hbm.xml
+END
+Glycan.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1180/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Glycan.hbm.xml
+END
+HplcPeaksIntegrated.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/23/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/HplcPeaksIntegrated.hbm.xml
+END
+Disappeared.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/255/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Disappeared.hbm.xml
+END
+DisRefine.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/DisRefine.java
+END
+HplcPeaksAnnotated.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/HplcPeaksAnnotated.java
+END
+GlycanTissue.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/GlycanTissue.java
+END
+Digest.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Digest.java
+END
+DigestProfile.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1019/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/DigestProfile.hbm.xml
+END
+Instrument.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/329/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Instrument.hbm.xml
+END
+Content.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/904/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Content.hbm.xml
+END
+DigestProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/DigestProfile.java
+END
+Digest.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Digest.hbm.xml
+END
+MethodRun.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/MethodRun.java
+END
+DigestSingle.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/782/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/DigestSingle.hbm.xml
+END
+RefLinkId.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/RefLinkId.java
+END
+Enzyme.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Enzyme.java
+END
+Instrument.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Instrument.java
+END
+PictorialRepresentation.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/PictorialRepresentation.java
+END
+ParentProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/ParentProfile.java
+END
+svn-commit.tmp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/797/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/svn-commit.tmp
+END
+Glycan.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Glycan.java
+END
+HplcPeaksIntegrated.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/HplcPeaksIntegrated.java
+END
+Disappeared.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Disappeared.java
+END
+Column.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/hplc/Column.hbm.xml
+END

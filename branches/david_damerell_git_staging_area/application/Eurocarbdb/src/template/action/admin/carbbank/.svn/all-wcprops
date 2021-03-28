@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/admin/carbbank
+END
+parsing_in_progress.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/admin/carbbank/parsing_in_progress.ftl
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/admin/carbbank/input.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/admin/carbbank/success.ftl
+END

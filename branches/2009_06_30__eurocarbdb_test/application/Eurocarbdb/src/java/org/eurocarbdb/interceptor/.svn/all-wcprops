@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/interceptor
+END
+XmlSerialiserInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/interceptor/XmlSerialiserInterceptor.java
+END
+PersistenceLifecycleInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/interceptor/PersistenceLifecycleInterceptor.java
+END
+AuthorisationInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/interceptor/AuthorisationInterceptor.java
+END
+SessionAttachmentInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/interceptor/SessionAttachmentInterceptor.java
+END
+DefaultCookieInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/interceptor/DefaultCookieInterceptor.java
+END

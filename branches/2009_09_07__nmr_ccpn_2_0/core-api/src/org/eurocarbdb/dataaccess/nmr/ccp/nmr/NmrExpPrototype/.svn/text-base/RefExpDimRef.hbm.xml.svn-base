@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrExpPrototype">
+  <class
+    name="RefExpDimRef"
+    table="NMRX_REFEXPDIMREF"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">ExpDimRef for prototype experiment. Maps ExpDimRef on ExpStep, from which the information necessary for creating ExpDimRef can be found.  If there is more than one ExpGraph in the NmrExpPrototype, in general each RefExpDim will have an equivalent set of RefExpDimRef for every ExpGraph. Where this is not the case it may be assumed that the 'missing' RefExpDimRefs are 1) identical in content to those present and 2) correspond to the same ExpStep as those given. This convention is used to avoid having several identical RefExpDimRefs just because there are several ExpGraphs.  Note that the serial attribute is used to match Nmr.ExpDimRefs to RefExpDimRefs, so that objects with the same serial correspond to each other. </meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.NmrExpPrototype.NmrExpPrototype"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRX_REFEXPDIMREF_NMREXPPROT_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_constantTime"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Is the dimension constant time, variable time, or partial (harmonica type)?</meta>
+    <meta attribute="default-value">"variable"</meta>
+    <column name="CONSTANTTIME" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_groupingId"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">groupingId divides RefExpDimRef from the same parent into groups - all RefExpDimRef with the same groupingId belong in the same group. RefExpDimRef from the same group can appear on the same peak - RefExpDimRef from different groups can not.</meta>
+    <meta attribute="default-value">new java.lang.Integer(1)</meta>
+    <column name="GROUPINGID" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="refExpDimRefUniqueKey" />
+  </property>
+  
+  <list
+    name="hbCoupledIsotopeCodes"
+    table="NMRX_REFEXPDIMREF_COUPISOTCODE"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">Isotope codes for isotopes, couplings to which are active in the dimension. Note that homonuclear couplings (e.g. proton couplings in a proton dimension) must be specified explicitly if they are to be treated as active. Except for constant-time experiments, homonuclear couplings are normally active, but they may be ignored if they are not resolved and not of interest. </meta>
+    <cache usage="read-write" />
+    <key column="REFEXPDIMREFID" foreign-key="NMRX_REFEXPDIMREF_COUPISOTCODE_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.String" not-null="true">
+      <column name="COUPLEDISOTOPECODE" sql-type="VARCHAR(32)" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbValidScalingFactors"
+    table="NMRX_REFEXPDIMREF_VALISCALFACT"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">List of valid scaling factors for RefExpDimRef. If empty, many different factors are allowed. The position of a peak is calculated as the sum over ExpDimRef scaling factors times position values (e.g. position in ppm).</meta>
+    <cache usage="read-write" />
+    <key column="REFEXPDIMREFID" foreign-key="NMRX_REFEXPDIMREF_VALISCALFACT_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.Float" not-null="true">
+      <column name="VALIDSCALINGFACTOR" sql-type="FLOAT" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbApplicationData"
+    table="NMRX_REFEXPDIMREF2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbExpMeasurement"
+    column="EXPMEASUREMENTID"
+    class="ccp.api.nmr.NmrExpPrototype.ExpMeasurement" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRX_REFEXPDIMREF_EXPMEAS_FK" 
+  >
+    <meta attribute="field-description">ExpMeasurement to which the RefExpDimRef applies. The reference may be relevant for one or several ExpGraphs.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbRefExpDim"
+    column="REFEXPDIMID"
+    class="ccp.api.nmr.NmrExpPrototype.RefExpDim" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRX_REFEXPDIMREF_REFEXPDIM_FK" 
+    unique-key="refExpDimRefUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbExpSteps" 
+    table="NMRX_REFEXPDIMREF2EXPSTEPS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">ExpSteps that corresponds to RefExpDimRef. The connection to the ExpMeasurenment is handled via the direct link to ExpMeasurement. The expStep link serves to distinguish which of several ExpSteps compatible with the ExpMeasurement was actually to make a measurement (e.g. was the N15 magnetisation measured before or after the CA magnetisaion in an HNCA experiment.</meta>
+    <meta attribute="base-name">hbExpStep</meta>
+    <cache usage="read-write"/>
+    <key column="REFEXPDIMREFID" foreign-key="NMRX_EXPSTEP_REFEXPDIMREFS_FK"/>
+    <many-to-many column="EXPSTEPID" class="ccp.api.nmr.NmrExpPrototype.ExpStep" foreign-key="NMRX_REFEXPDIMREF_EXPSTEPS_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

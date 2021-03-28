@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 30
+lib
+bak
+out
+bin
+external_libs
+
+END

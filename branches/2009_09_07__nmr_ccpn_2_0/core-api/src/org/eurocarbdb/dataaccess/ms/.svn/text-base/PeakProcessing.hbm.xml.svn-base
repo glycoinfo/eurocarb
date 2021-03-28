@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 3, 2007 6:49:06 PM by Hibernate Tools 3.1.0.beta4 -->
+<hibernate-mapping default-cascade="save-update">
+
+    <class name="org.eurocarbdb.dataaccess.ms.PeakProcessing" table="peak_processing" schema="ms">
+        <id name="peakProcessingId" type="int">
+            <column name="peak_processing_id" />
+            <generator class="sequence">
+                <param name="sequence">ms.peak_processing_peak_processing_id_seq</param>
+            </generator>
+        </id>
+        <property name="peakProcessingType" type="string">
+            <column name="peak_processing_type" length="50" unique="true" />
+        </property>
+        <set name="scans" inverse="true">
+            <key>
+                <column name="peak_processing_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.Scan" />
+        </set>
+
+
+	<!--=====================  named queries  =============================-->
+     
+	<!-- 
+        query : BY_TYPE
+        author: ac
+        -->
+        <query name="BY_TYPE" cacheable="true"> 
+            SELECT  pp
+            FROM    PeakProcessing AS pp
+            WHERE   pp.peakProcessingType = :type
+        </query>
+
+    </class>
+</hibernate-mapping>

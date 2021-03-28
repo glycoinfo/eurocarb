@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/ReducingEndSubgraphMatch
+END
+RESMEdgeComparatorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/ReducingEndSubgraphMatch/RESMEdgeComparatorFuzzy.java
+END
+RESMNodeComparatorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/ReducingEndSubgraphMatch/RESMNodeComparatorFuzzy.java
+END
+RESMVisitorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/ReducingEndSubgraphMatch/RESMVisitorFuzzy.java
+END
+RESMFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/ReducingEndSubgraphMatch/RESMFuzzy.java
+END
+ExampleUsage.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/ReducingEndSubgraphMatch/ExampleUsage.java
+END

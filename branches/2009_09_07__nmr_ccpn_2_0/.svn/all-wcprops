@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1994/branches/2009_09_07__nmr_ccpn_2_0
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/README.txt
+END
+casper_batch_run.pl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1765/branches/2009_09_07__nmr_ccpn_2_0/casper_batch_run.pl
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1724/branches/2009_09_07__nmr_ccpn_2_0/build.xml
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/LICENSE.txt
+END
+build.common.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1909/branches/2009_09_07__nmr_ccpn_2_0/build.common.xml
+END
+ivy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/ivy.xml
+END
+nmr_batch_load.pl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1765/branches/2009_09_07__nmr_ccpn_2_0/nmr_batch_load.pl
+END
+ivysettings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/ivysettings.xml
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/general/Affiliation
+END
+Affi_AffiliationStore.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/general/Affiliation/Affi_AffiliationStore.c
+END
+Affi_Person.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/general/Affiliation/Affi_Person.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/general/Affiliation/Makefile
+END
+Affi_PersonInGroup.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/general/Affiliation/Affi_PersonInGroup.c
+END
+Affi_Group.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/general/Affiliation/Affi_Group.c
+END
+Affi_Organisation.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/general/Affiliation/Affi_Organisation.c
+END

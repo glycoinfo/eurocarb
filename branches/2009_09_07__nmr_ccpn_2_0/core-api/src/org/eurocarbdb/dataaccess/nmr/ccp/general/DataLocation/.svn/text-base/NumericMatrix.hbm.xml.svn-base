@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.DataLocation">
+  <joined-subclass
+    name="NumericMatrix"
+    extends="ccp.api.general.DataLocation.AbstractDataStore"
+    table="DLOC_NUMERICMATRIX"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">DataSource containing one or more N-dimensional numerical matrix records, which may be real or (hyper)complex</meta>
+  <key column="ABSTRACTDATASTOREID" foreign-key="DLOC_NUMEMATR_ABSTDATASTOR_FK"/>
+  
+  <property
+    name="_complexStoredBy"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">The ordering of real and imaginary parts of hypercomplex numbers in the data matrix. See ComplexStorage type for details </meta>
+    <meta attribute="default-value">"dimension"</meta>
+    <column name="COMPLEXSTOREDBY" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_fileType"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">Data file type.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="FILETYPE" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_isBigEndian"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Are data big-endian (alternative little-endian)? Irrelevant for ascii data.</meta>
+    <meta attribute="default-value">true</meta>
+    <column name="ISBIGENDIAN" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_numRecords"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Number of matrix records in file. All other information in the object describes a single record.</meta>
+    <meta attribute="default-value">new java.lang.Integer(1)</meta>
+    <column name="NUMRECORDS" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_numberType"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Type of numbers held in matrix</meta>
+    <meta attribute="default-value">"float"</meta>
+    <column name="NUMBERTYPE" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_scaleFactor"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Scale factor for data stored in matrix. The numbers as stored must be multiplied by the scaleFactor before being used. E.g. a stored value of 2 (int) with a scaling factor of 1.6 means the number to use in calculations would be 3.2.</meta>
+    <meta attribute="default-value">new java.lang.Float(1.0)</meta>
+    <column name="SCALEFACTOR" sql-type="FLOAT" not-null="true"/>
+  </property>
+  
+  <list
+    name="hbIsComplex"
+    table="DLOC_NUMEMATR_ISCOMPLEX"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">Are numbers complex (if True) or real/integer (if False).</meta>
+    <cache usage="read-write" />
+    <key column="NUMERICMATRIXID" foreign-key="DLOC_NUMEMATR_ISCOMPLEX_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.Boolean" not-null="true">
+      <column name="ISCOMPLEX" sql-type="BOOLEAN" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbNumPoints"
+    table="DLOC_NUMEMATR_NUMPOINTS"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">number of points for each matrix dimension - also defines dimensionality of matrix. The number of points is the same for real or complex data, in the sense that n complex points require 2n real numbers for storage. Dimensions are in storage order, fastest varying first.</meta>
+    <cache usage="read-write" />
+    <key column="NUMERICMATRIXID" foreign-key="DLOC_NUMEMATR_NUMPOINTS_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.Integer" not-null="true">
+      <column name="NUMPOINTS" sql-type="INTEGER" not-null="true"/>
+    </element>
+  </list>
+  
+  <set 
+    name="hbNmrDataSources" 
+    table="NMR_DATASOURCE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">ccp.nmr.Nmr.DataSources stored in the DataStore</meta>
+    <meta attribute="base-name">hbNmrDataSource</meta>
+    <cache usage="read-write"/>
+    <key column="DATASTOREID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.DataSource"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

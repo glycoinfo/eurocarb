@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/1903/trunk/conf
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1100/trunk/conf/web.xml
+END
+site.properties
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1903/trunk/conf/site.properties
+END
+default.site.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1898/trunk/conf/default.site.properties
+END
+server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1100/trunk/conf/server.xml
+END

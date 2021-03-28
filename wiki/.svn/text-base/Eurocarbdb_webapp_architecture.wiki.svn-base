@@ -1,0 +1,42 @@
+=Eurocarbdb web application architecture=
+
+<wiki:toc />
+
+
+== Key components ==
+
+=== Database ===
+
+A database ([http://postgres.org postgres]) instance running on a local machine comprising one or more instances of the [[EurocarbDB data model]].
+
+=== XML ===
+
+XML file representions of the objects (tables) in the data model, primarily for the purposes of data exchange with external groups for whom the web/query interface is insufficient.
+
+=== Hibernate ===
+
+[http://hibernate.org Hibernate] is an open source object-relational mapping ([http://en.wikipedia.org/wiki/Object-relational_mapping ORM]) framework for object persistence, normally to a relational database. Hibernate provides a "meta-layer" between the database schema and the API of the data objects that represent that schema through the use of object-relational mapping files.
+
+=== Data objects ===
+
+These are essentially [http://en.wikipedia.org/wiki/Plain_Old_Java_Object POJOs] that encapsulate each of the major concepts of the [[EurocarbDB data model]]. They are (by default) populated from, and saved to, the database by Hibernate. These objects are primarily an API facade for data in the database, containing only a minimal amount of "logic" insofar as it pertains to the concept encapsulated by the object, eg: a mass spectrum object may contain methods for calculating total ion count, finding the base peak, and calculating signal-to-noise, but only because that logic is well within the scope of the semantics of a mass spectrum.
+
+=== Actions ===
+
+Actions comprise the bulk of our application logic. Simplistically, an action is the fundamental "unit of work" in the application, although an action might also be a logical grouping of sub-actions, such as a "wizard". The value of reducing application logic down to individual units of work (ie: actions), is that it provides a clear, common interface for all application logic at a finely-grained level, and the resulting conponentisation of logic promotes reusability and provides for simple divisibility of labour.
+
+For these and other reasons, the notion of separating application logic into semantic data objects and objects that implement operations upon those objects (ie: actions). However, while actions can, and should return data objects, data objects do not "know" about Actions. That is, Actions are effectively ''clients'' of the data object API.
+
+Example actions are: "enter new sequence", "update existing user", "login", "match glycan sub-sequence" and the like.
+
+=== Struts (Webwork) ===
+
+[http://struts.apache.org Struts] is a well-known open-source web application framework for Java that has been used for several years and has seen widespread use amongst web developers, as well as explicit support by several IDE and IT-training vendors. [http://struts.apache.org/2.x/index.html Struts 2] is the logical successor to the original Struts, and features widened support for presentation technologies besides HTML/Web. It is effectively a merger of Struts 1 with the (also open-source) [http://opensymphony.com/webwork Webwork framework]. Struts 2 however, is at the time of writing, still in alpha/beta; accordingly, we are using the current [http://www.opensymphony.com/webwork/wikidocs/Release%20Notes.html 2.2 production release of Webwork], the 2.3 version of which will become the first Struts 2 production release. 
+
+[http://wiki.opensymphony.com/display/WW/WebWork Webwork], and by extension Struts2, is an [http://wiki.opensymphony.com/display/WW/Architecture Action-based framework], which provides a primary controlling servlet that translates HTTP requests into action invocations based upon server-side [http://wiki.opensymphony.com/display/WW/Configuration+Files configuration files] and passed CGI parameters. It also provides the basic [http://opensymphony.com/webwork/api/com/opensymphony/xwork/Action.html Action interface] and for a clear management of the [http://wiki.opensymphony.com/display/WW/Architecture lifecycle of Actions] and the mapping of the results of Action invocations to [http://wiki.opensymphony.com/display/WW/Result+Types result types], which comprise the presentation layer of the application (also known as Views). That is, the performance of an action returns an arbitrary string result such as 'success', 'failure', 'error', 'input' that is mapped to Views defined in server configuration files. A View may be any file or presentation technology, such as a JSP, Freemarker, or Velocity template, but may also be a PDF file, image, or even a Swing component.
+
+The framework also provides for several other convenient features, such as CGI parameter marshalling/unmarshalling (mapping parameters to object fields), [http://wiki.opensymphony.com/display/WW/Exception+Handling exception handling], session & state management, [http://wiki.opensymphony.com/display/WW/Validation parameter validation], [http://wiki.opensymphony.com/display/WW/Internationalization internationalisation], and [http://wiki.opensymphony.com/display/WW/Themes+and+Templates themes], as well as pluggable input/output filter components collectively known as [http://wiki.opensymphony.com/display/WW/Interceptors Interceptors].
+
+=== Standalone applications and components ===
+
+This entity represents applications or services that comprise a significant amount of standalone functionality external to the Action system. Ideally, major chunks of even standalone application functionality should be implemented as Actions that are then used within the application. Conversely, it may be more practical or natural to wrap an Action interface around chunks of standalone application functionality or to wrap the entire standalone application itself in an Action.

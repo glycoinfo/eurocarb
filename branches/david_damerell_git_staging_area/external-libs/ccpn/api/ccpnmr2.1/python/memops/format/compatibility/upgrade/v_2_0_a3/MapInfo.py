@@ -1,0 +1,279 @@
+
+# Packages, classElements and AbstractDataTypes skipped in new model
+# (prefix, typeName, elemName, newGuid, elemType)
+skipElements = [
+ ('ACCO', 'AccessControlStore', 'permissions', 'www.ccpn.ac.uk_Fogh_2006-09-04-17:21:38_00005', 'MetaRole'), 
+ ('ACCO', 'Permission', 'accessControlStore', 'www.ccpn.ac.uk_Fogh_2006-09-04-17:21:38_00004', 'MetaRole'), 
+ ('ANAL', 'AxisPanel', 'spectrumWindow', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00017', 'MetaRole'), 
+ ('ANAL', 'SlicePanel', 'spectrumWindow', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00015', 'MetaRole'), 
+ ('ANAL', 'SpectrumWindow', 'axisPanels', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00018', 'MetaRole'), 
+ ('ANAL', 'SpectrumWindow', 'slicePanels', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00016', 'MetaRole'), 
+ ('ANAL', 'SpectrumWindow', 'spectrumWindowViews', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00014', 'MetaRole'), 
+ ('ANAL', 'SpectrumWindowView', 'spectrumWindow', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00013', 'MetaRole'), 
+]
+
+# classElements skipped in new model, but available for simple data transfer
+# (prefix, typeName, elemName, newGuid, elemMap, valueTypeGuid)
+delayElements = [
+]
+
+# MetaConstraints added in new model
+# (qualifiedName, guid)
+newConstraints = [
+]
+
+# Mandatory classElements added in new model
+# New ClassElements with locard !=0, no default, not derived or Implementation
+# (prefix, typeName, elemName, newGuid)
+newMandatories = [
+ ('ANAL', 'AxisPanel', 'spectrumWindowPane', 'www.ccpn.ac.uk_Fogh_2008-09-24-15:20:52_00007'), 
+ ('ANAL', 'SlicePanel', 'spectrumWindowPane', 'www.ccpn.ac.uk_Fogh_2008-09-24-15:20:52_00005'), 
+ ('ANAL', 'SpectrumWindowPane', 'serial', 'www.ccpn.ac.uk_Fogh_2008-09-24-15:20:52_00009'), 
+ ('ANAL', 'SpectrumWindowPane', 'spectrumWindow', 'www.ccpn.ac.uk_Fogh_2008-09-24-15:20:52_00001'), 
+ ('ANAL', 'SpectrumWindowView', 'spectrumWindowPane', 'www.ccpn.ac.uk_Fogh_2008-09-24-15:20:52_00003'), 
+ ('CALC', 'ConstraintStoreData', 'constraintStoreSerial', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00003'), 
+ ('CALC', 'Data', 'run', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00016'), 
+ ('CALC', 'Data', 'serial', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00009'), 
+ ('CALC', 'DefaultParameter', 'code', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00014'), 
+ ('CALC', 'DefaultParameter', 'nmrCalcStore', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00003'), 
+ ('CALC', 'DerivedListData', 'derivedDataListSerial', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00018'), 
+ ('CALC', 'MeasurementListData', 'measurementListSerial', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00023'), 
+ ('CALC', 'MolResidueData', 'chainCode', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00010'), 
+ ('CALC', 'MolResidueData', 'molSystemCode', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00009'), 
+ ('CALC', 'MolSystemData', 'molSystemCode', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00019'), 
+ ('CALC', 'NmrCalcStore', 'memopsRoot', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:00_00001'), 
+ ('CALC', 'NmrCalcStore', 'name', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00007'), 
+ ('CALC', 'NmrCalcStore', 'nmrProject', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00002'), 
+ ('CALC', 'Run', 'nmrCalcStore', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00005'), 
+ ('CALC', 'Run', 'serial', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00022'), 
+ ('CALC', 'RunParameter', 'code', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00029'), 
+ ('CALC', 'RunParameter', 'run', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00018'), 
+ ('CALC', 'RunParameter', 'serial', 'www.ccpn.ac.uk_Fogh_2009-06-04-16:11:57_00001'), 
+ ('CALC', 'SpinSystemData', 'resonanceGroupSerial', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00038'), 
+ ('CALC', 'StructureEnsembleData', 'ensembleId', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00044'), 
+ ('CALC', 'StructureEnsembleData', 'molSystemCode', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00043'), 
+ ('CALC', 'ViolationListData', 'constraintStoreSerial', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00037'), 
+ ('CALC', 'ViolationListData', 'violationListSerial', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00038'), 
+ ('DLOC', 'Component', 'serial', 'www.ccpn.ac.uk_Fogh_2009-06-19-17:42:00_00001'), 
+ ('DLOC', 'Component', 'shapeMatrix', 'www.ccpn.ac.uk_Fogh_2009-06-19-17:42:00_00006'), 
+ ('DLOC', 'ShapeMatrix', 'isResolved', 'www.ccpn.ac.uk_Fogh_2009-06-19-17:42:00_00010'), 
+ ('DLOC', 'ShapeMatrix', 'numShapes', 'www.ccpn.ac.uk_Fogh_2009-06-19-17:42:00_00008'), 
+ ('WMS', 'Basket', 'name', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00003'), 
+ ('WMS', 'Basket', 'wmsSegment', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00012'), 
+ ('WMS', 'Project', 'location', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00006'), 
+ ('WMS', 'Project', 'name', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00005'), 
+ ('WMS', 'Project', 'wmsSegment', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00030'), 
+ ('WMS', 'ProjectVersion', 'creationTime', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00016'), 
+ ('WMS', 'ProjectVersion', 'project', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00003'), 
+ ('WMS', 'ProjectVersion', 'versionTag', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00014'), 
+ ('WMS', 'RawFile', 'location', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00019'), 
+ ('WMS', 'RawFile', 'path', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00018'), 
+ ('WMS', 'RawFile', 'serial', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00017'), 
+ ('WMS', 'RawFile', 'wmsSegment', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00028'), 
+ ('WMS', 'Task', 'serial', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00001'), 
+ ('WMS', 'Task', 'wmsSegment', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00032'), 
+ ('WMS', 'User', 'password', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00025'), 
+ ('WMS', 'User', 'userId', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00024'), 
+ ('WMS', 'User', 'wmsSegment', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00026'), 
+ ('WMS', 'WmsSegment', 'memopsRoot', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:54_00001'), 
+ ('WMS', 'WmsSegment', 'name', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00034'), 
+]
+
+# Packages, classElements and AbstractDataTypes added in new model
+# Optional, i.e. excluding mandatory classElements given above
+# (prefix, typeName, elemName, newGuid)
+newElements = [
+ ('ACCO', 'User', 'passwordHashed', 'www.ccpn.ac.uk_Fogh_2009-08-19-17:31:11_00005'), 
+ ('AFFI', 'Organisation', 'province', 'www.ccpn.ac.uk_Fogh_2009-01-19-14:21:00_00001'), 
+ ('AFFI', 'Person', 'nmrCalcRuns', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00042'), 
+ ('ANAL', 'SpectrumWindow', 'spectrumWindowPanes', 'www.ccpn.ac.uk_Fogh_2008-09-24-15:20:52_00002'), 
+ ('ANAL', 'SpectrumWindowPane', None, 'www.ccpn.ac.uk_Fogh_2008-09-24-15:20:49_00001'), 
+ ('ANAL', 'SpectrumWindowPane', 'axisPanels', 'www.ccpn.ac.uk_Fogh_2008-09-24-15:20:52_00008'), 
+ ('ANAL', 'SpectrumWindowPane', 'name', 'www.ccpn.ac.uk_Fogh_2008-09-24-15:20:52_00010'), 
+ ('ANAL', 'SpectrumWindowPane', 'slicePanels', 'www.ccpn.ac.uk_Fogh_2008-09-24-15:20:52_00006'), 
+ ('ANAL', 'SpectrumWindowPane', 'spectrumWindowViews', 'www.ccpn.ac.uk_Fogh_2008-09-24-15:20:52_00004'), 
+ ('CALC', None, None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:57_00001'), 
+ ('CALC', 'ConstraintStoreData', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:58_00005'), 
+ ('CALC', 'ConstraintStoreData', 'constraintListSerials', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00004'), 
+ ('CALC', 'Data', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:57_00006'), 
+ ('CALC', 'Data', 'details', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00013'), 
+ ('CALC', 'Data', 'ioRole', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00011'), 
+ ('CALC', 'Data', 'name', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00010'), 
+ ('CALC', 'Data', 'runParameters', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00027'), 
+ ('CALC', 'Data', 'weight', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00012'), 
+ ('CALC', 'DefaultParameter', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:57_00003'), 
+ ('CALC', 'DefaultParameter', 'groupId', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00016'), 
+ ('CALC', 'DefaultParameter', 'name', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00015'), 
+ ('CALC', 'DerivedListData', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:58_00004'), 
+ ('CALC', 'ExternalData', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:58_00002'), 
+ ('CALC', 'ExternalData', 'dataStore', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00005'), 
+ ('CALC', 'IoRole', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:57_00007'), 
+ ('CALC', 'MeasurementListData', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:58_00003'), 
+ ('CALC', 'MolResidueData', None, 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:11_00003'), 
+ ('CALC', 'MolResidueData', 'residueSeqIds', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00011'), 
+ ('CALC', 'MolSystemData', None, 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:11_00002'), 
+ ('CALC', 'MolSystemData', 'chainCodes', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00020'), 
+ ('CALC', 'MolSystemData', 'symmetrySetId', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00021'), 
+ ('CALC', 'NmrCalcStore', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:57_00002'), 
+ ('CALC', 'NmrCalcStore', 'defaultParameters', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00004'), 
+ ('CALC', 'NmrCalcStore', 'runs', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00006'), 
+ ('CALC', 'NmrCalcStore', 'software', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00043'), 
+ ('CALC', 'NmrCalcStore', 'validationStore', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00027'), 
+ ('CALC', 'PeakListData', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:58_00007'), 
+ ('CALC', 'PeakListData', 'dataSourceSerial', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00034'), 
+ ('CALC', 'PeakListData', 'experimentSerial', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00033'), 
+ ('CALC', 'PeakListData', 'peakListSerial', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00029'), 
+ ('CALC', 'Run', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:57_00004'), 
+ ('CALC', 'Run', 'data', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00017'), 
+ ('CALC', 'Run', 'details', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00024'), 
+ ('CALC', 'Run', 'operator', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00041'), 
+ ('CALC', 'Run', 'runParameters', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00019'), 
+ ('CALC', 'Run', 'status', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00023'), 
+ ('CALC', 'Run', 'structureGeneration', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00015'), 
+ ('CALC', 'RunParameter', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:58_00001'), 
+ ('CALC', 'RunParameter', 'data', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00028'), 
+ ('CALC', 'RunParameter', 'groupId', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00031'), 
+ ('CALC', 'RunParameter', 'name', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00030'), 
+ ('CALC', 'SpectrumData', None, 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:11_00005'), 
+ ('CALC', 'SpectrumData', 'dataSourceSerial', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00034'), 
+ ('CALC', 'SpectrumData', 'experimentSerial', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00033'), 
+ ('CALC', 'SpinSystemData', None, 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:11_00001'), 
+ ('CALC', 'Status', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:57_00005'), 
+ ('CALC', 'StructureEnsembleData', None, 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:11_00004'), 
+ ('CALC', 'StructureEnsembleData', 'modelSerials', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00045'), 
+ ('CALC', 'ViolationListData', None, 'www.ccpn.ac.uk_Fogh_2009-04-16-16:23:58_00006'), 
+ ('COOR', 'StructureEnsemble', 'details', 'www.ccpn.ac.uk_Fogh_2009-01-21-15:56:25_00001'), 
+ ('DLOC', 'AbstractDataStore', 'externalDatas', 'www.ccpn.ac.uk_Fogh_2009-05-20-16:32:16_00004'), 
+ ('DLOC', 'BlockedBinaryMatrix', 'blockHeaderSize', 'www.ccpn.ac.uk_Fogh_2009-04-23-15:13:31_00001'), 
+ ('DLOC', 'Component', None, 'www.ccpn.ac.uk_Fogh_2009-06-19-17:41:34_00001'), 
+ ('DLOC', 'Component', 'amplitude', 'www.ccpn.ac.uk_Fogh_2009-06-19-17:42:00_00002'), 
+ ('DLOC', 'Component', 'annotation', 'www.ccpn.ac.uk_Fogh_2009-06-19-17:42:00_00005'), 
+ ('DLOC', 'Component', 'regionId', 'www.ccpn.ac.uk_Fogh_2009-06-19-17:42:00_00003'), 
+ ('DLOC', 'Component', 'status', 'www.ccpn.ac.uk_Fogh_2009-06-19-17:42:00_00004'), 
+ ('DLOC', 'ComponentStatus', None, 'www.ccpn.ac.uk_Fogh_2009-06-19-17:41:34_00002'), 
+ ('DLOC', 'MatrixFileType', None, 'www.ccpn.ac.uk_Fogh_2009-06-11-15:00:22_00001'), 
+ ('DLOC', 'NumericMatrix', 'fileType', 'www.ccpn.ac.uk_Fogh_2009-06-11-15:00:26_00001'), 
+ ('DLOC', 'ShapeMatrix', 'components', 'www.ccpn.ac.uk_Fogh_2009-06-19-17:42:00_00007'), 
+ ('DLOC', 'ShapeMatrix', 'isReconstructable', 'www.ccpn.ac.uk_Fogh_2009-06-19-17:42:00_00009'), 
+ ('ENTR', 'RelatedEntry', 'details', 'www.ccpn.ac.uk_Fogh_2009-01-19-14:21:01_00007'), 
+ ('HADD', 'HaddockPartner', 'airUpperDistanceLimit', 'www.ccpn.ac.uk_Fogh_2009-02-20-13:12:00_00001'), 
+ ('HADD', 'HaddockPartner', 'semiFlexMode', 'www.ccpn.ac.uk_Fogh_2009-02-20-13:12:00_00002'), 
+ ('HADD', 'Run', 'cnsExecutable', 'www.ccpn.ac.uk_Fogh_2009-02-20-13:12:00_00004'), 
+ ('HADD', 'Run', 'cpuNumber', 'www.ccpn.ac.uk_Fogh_2009-02-20-13:12:00_00006'), 
+ ('HADD', 'Run', 'haddockDir', 'www.ccpn.ac.uk_Fogh_2009-02-20-13:12:00_00003'), 
+ ('HADD', 'Run', 'queueCommand', 'www.ccpn.ac.uk_Fogh_2009-02-20-13:12:00_00005'), 
+ ('HADD', 'SemiFlexMode', None, 'www.ccpn.ac.uk_Fogh_2009-02-20-13:11:56_00001'), 
+ ('IMPL', 'MemopsRoot', 'accessControlOn', 'www.ccpn.ac.uk_Fogh_2009-08-19-17:31:11_00004'), 
+ ('IMPL', 'MemopsRoot', 'currentGroupName', 'www.ccpn.ac.uk_Fogh_2009-08-19-17:31:11_00003'), 
+ ('IMPL', 'MemopsRoot', 'currentNmrCalcStore', 'ccpn_automatic_memops.Implementation.MemopsRoot.currentNmrCalcStore'), 
+ ('IMPL', 'MemopsRoot', 'currentWmsSegment', 'ccpn_automatic_memops.Implementation.MemopsRoot.currentWmsSegment'), 
+ ('IMPL', 'MemopsRoot', 'nmrCalcStores', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:00_00002'), 
+ ('IMPL', 'MemopsRoot', 'wmsSegments', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:54_00002'), 
+ ('METH', 'Software', 'nmrCalcStores', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00044'), 
+ ('MOLE', 'Molecule', 'fragmentDetails', 'www.ccpn.ac.uk_Fogh_2009-01-19-14:20:59_00001'), 
+ ('MOLE', 'Molecule', 'mutationDetails', 'www.ccpn.ac.uk_Fogh_2009-01-19-14:20:59_00002'), 
+ ('MOLS', 'Atom', 'molSysAtomValidations', 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:13_00002'), 
+ ('MOLS', 'Chain', 'molSysChainValidations', 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:13_00004'), 
+ ('MOLS', 'MolSystem', 'molSystemValidations', 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:13_00006'), 
+ ('MOLS', 'Residue', 'molSysResidueValidations', 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:13_00008'), 
+ ('NMR', 'NmrProject', 'nmrCalcStores', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00001'), 
+ ('NMR', 'StructureGeneration', 'runs', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:04_00014'), 
+ ('NMR', 'T1rhoList', 'tempCalibMethod', 'www.ccpn.ac.uk_Fogh_2009-02-05-11:33:18_00001'), 
+ ('NMR', 'T1rhoList', 'tempControlMethod', 'www.ccpn.ac.uk_Fogh_2009-02-05-11:33:18_00002'), 
+ ('NMR', 'T2List', 'tempCalibMethod', 'www.ccpn.ac.uk_Fogh_2009-02-05-11:33:18_00003'), 
+ ('NMR', 'T2List', 'tempControlMethod', 'www.ccpn.ac.uk_Fogh_2009-02-05-11:33:18_00004'), 
+ ('NMR', 'TempCalibMethod', None, 'www.ccpn.ac.uk_Fogh_2009-02-05-11:33:12_00001'), 
+ ('NMR', 'TempControlMethod', None, 'www.ccpn.ac.uk_Fogh_2009-02-05-11:33:12_00002'), 
+ ('NSIM', 'NmrSimStore', 'application', 'www.ccpn.ac.uk_Fogh_2009-01-19-16:41:42_00001'), 
+ ('TAXO', 'NaturalSource', 'kingdom', 'www.ccpn.ac.uk_Fogh_2009-01-19-14:21:01_00001'), 
+ ('TAXO', 'NaturalSource', 'superKingdom', 'www.ccpn.ac.uk_Fogh_2009-01-19-14:21:01_00002'), 
+ ('VALD', 'MolSysAtomValidation', None, 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:06_00004'), 
+ ('VALD', 'MolSysAtomValidation', 'atoms', 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:13_00001'), 
+ ('VALD', 'MolSysChainValidation', None, 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:06_00002'), 
+ ('VALD', 'MolSysChainValidation', 'chains', 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:13_00003'), 
+ ('VALD', 'MolSysResidueValidation', None, 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:06_00003'), 
+ ('VALD', 'MolSysResidueValidation', 'residues', 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:13_00007'), 
+ ('VALD', 'MolSystemValidation', None, 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:06_00001'), 
+ ('VALD', 'MolSystemValidation', 'molSystems', 'www.ccpn.ac.uk_Fogh_2009-09-08-17:17:13_00005'), 
+ ('VALD', 'ValidationStore', 'nmrCalcStores', 'www.ccpn.ac.uk_Fogh_2009-04-16-16:24:03_00026'), 
+ ('WMS', None, None, 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:52_00001'), 
+ ('WMS', 'Basket', None, 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:15_00001'), 
+ ('WMS', 'Basket', 'projectVersions', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00002'), 
+ ('WMS', 'Project', None, 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:52_00005'), 
+ ('WMS', 'Project', 'details', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00007'), 
+ ('WMS', 'Project', 'projectVersions', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00004'), 
+ ('WMS', 'ProjectVersion', None, 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:52_00006'), 
+ ('WMS', 'ProjectVersion', 'baskets', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00001'), 
+ ('WMS', 'ProjectVersion', 'createdByTask', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00005'), 
+ ('WMS', 'ProjectVersion', 'outputTasks', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00007'), 
+ ('WMS', 'ProjectVersion', 'status', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00015'), 
+ ('WMS', 'RawFile', None, 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:52_00004'), 
+ ('WMS', 'RawFile', 'details', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00020'), 
+ ('WMS', 'Task', None, 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:52_00007'), 
+ ('WMS', 'Task', 'dateCompleted', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00009'), 
+ ('WMS', 'Task', 'dateStarted', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00008'), 
+ ('WMS', 'Task', 'generatedVersion', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00004'), 
+ ('WMS', 'Task', 'inputVersion', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00006'), 
+ ('WMS', 'Task', 'status', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00002'), 
+ ('WMS', 'Task', 'taskType', 'www.ccpn.ac.uk_Fogh_2009-03-12-18:29:05_00001'), 
+ ('WMS', 'Task', 'user', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00010'), 
+ ('WMS', 'User', None, 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:52_00003'), 
+ ('WMS', 'User', 'person', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00023'), 
+ ('WMS', 'User', 'tasks', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00011'), 
+ ('WMS', 'WmsSegment', None, 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:52_00002'), 
+ ('WMS', 'WmsSegment', 'baskets', 'www.ccpn.ac.uk_Fogh_2009-03-09-12:00:17_00013'), 
+ ('WMS', 'WmsSegment', 'projects', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00031'), 
+ ('WMS', 'WmsSegment', 'rawFiles', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00029'), 
+ ('WMS', 'WmsSegment', 'tasks', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00033'), 
+ ('WMS', 'WmsSegment', 'users', 'www.ccpn.ac.uk_Fogh_2009-01-29-15:16:56_00027'), 
+]
+
+# Class elements that exist in both models but that require handcode for
+# transfer. E.g. elements that go from derived to non-derived.
+# Note that old derivation functions can not be relied on to work during
+# data transfer
+# (prefix, typeName, elemName, newGuid, elemType)
+neutraliseElements = [
+]
+
+# Differences between equivalent classElements and AbstractDataTypes :
+
+# name changes
+# (prefix, typeName, elemName, newName, newGuid
+renames = [
+ ('ACCO', 'AccessObject', 'dataObjects', 'dataObject', 'www.ccpn.ac.uk_Fogh_2006-12-31-09:03:01_00015'), 
+ ('ENTR', 'Entry', 'spectrometerListDetails', 'experimentListDetails', 'www.ccpn.ac.uk_Fogh_2008-09-26-14:12:30_00007'), 
+ ('NMR', 'NmrProject', 'structureAnalysiss', 'structureAnalyses', 'www.ccpn.ac.uk_Fogh_2008-03-06-18:40:31_00001'), 
+ ('NSIM', 'Run', 'outputEnsemble', 'outputEnsembles', 'www.ccpn.ac.uk_Fogh_2007-06-05-13:45:53_00001'), 
+ ('NSIM', 'RunParameter', 'id', 'paramId', 'www.ccpn.ac.uk_Fogh_2008-04-16-11:56:18_00004'), 
+]
+
+# ValueType changes
+# change types are : 'ignore': do nothing, 'delay': available for calculation
+# (prefix, typeName, elemName, action, newGuid, elemMap, valueTypeGuid)
+typeChanges = [
+ ('NMR', 'ResonanceGroup', 'details', 'delay', 'www.ccpn.ac.uk_Fogh_2006-08-16-18:20:11_00004', {'eType': 'cplx', 'tag': 'NMR.ResonanceGroup.details', 'type': 'attr', 'name': 'details'}, 'www.ccpn.ac.uk_Fogh_2006-08-16-14:22:53_00035'), 
+]
+
+# Different elements with matching qualifiedNames
+# (element.qName, differentTags, oldGuid, newGuid
+nameMatches = [
+]
+
+# Differences for matching elements, 
+# excluding those where only names and/or valueTypes differ
+# (oldElem.qName, newElem.name, oldGuid, newGuid, differentTags
+allDiffs = [
+ ('ccp.nmr.Nmr.NoeValueType', 'NoeValueType', 'www.ccpn.ac.uk_Fogh_2006-08-16-14:22:50_00001', 'www.ccpn.ac.uk_Fogh_2006-08-16-14:22:50_00001', set(['enumeration'])), 
+ ('ccp.nmr.NmrEntry.DataBaseName', 'DataBaseName', 'www.ccpn.ac.uk_Fogh_2008-07-11-16:03:02_00001', 'www.ccpn.ac.uk_Fogh_2008-07-11-16:03:02_00001', set(['enumeration'])), 
+ ('ccp.nmr.NmrExpPrototype.ExpTransferType', 'ExpTransferType', 'www.ccpn.ac.uk_Fogh_2006-08-16-14:22:45_00029', 'www.ccpn.ac.uk_Fogh_2006-08-16-14:22:45_00029', set(['documentation', 'enumeration'])), 
+ ('ccpnmr.Analysis.AxisPanel', 'AxisPanel', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:22_00007', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:22_00007', set(['parentRole'])), 
+ ('ccpnmr.Analysis.SlicePanel', 'SlicePanel', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:22_00008', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:22_00008', set(['parentRole'])), 
+ ('ccpnmr.Analysis.SpectrumWindow.aspectRatio', 'aspectRatio', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00025', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00025', set(['container'])), 
+ ('ccpnmr.Analysis.SpectrumWindow.sliceRange', 'sliceRange', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00028', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00028', set(['container'])), 
+ ('ccpnmr.Analysis.SpectrumWindowView', 'SpectrumWindowView', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:22_00003', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:22_00003', set(['parentRole'])), 
+ ('memops.AccessControl.AccessObject.permissions', 'permissions', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00001', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:27_00001', set(['hierarchy'])), 
+ ('memops.AccessControl.Permission', 'Permission', 'www.ccpn.ac.uk_Fogh_2006-08-16-14:22:54_00018', 'www.ccpn.ac.uk_Fogh_2006-08-16-14:22:54_00018', set(['parentRole', 'keyNames'])), 
+ ('memops.AccessControl.Permission.accessObject', 'accessObject', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:26_00042', 'www.ccpn.ac.uk_Fogh_2006-08-17-14:16:26_00042', set(['hierarchy', 'aggregation'])), 
+ ('molsim.NmrSim.RunParameter', 'RunParameter', 'www.ccpn.ac.uk_Fogh_2008-04-16-11:56:14_00001', 'www.ccpn.ac.uk_Fogh_2008-04-16-11:56:14_00001', set(['keyNames'])), 
+]

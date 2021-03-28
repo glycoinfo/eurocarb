@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/xml
+END
+NameMapping.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/xml/NameMapping.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/xml/__init__.py
+END
+Analysis.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/xml/Analysis.py
+END
+AnalysisProfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/xml/AnalysisProfile.py
+END

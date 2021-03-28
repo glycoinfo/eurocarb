@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.ChemComp">
+  <class
+    name="ChemTorsion"
+    table="CHEM_CHEMTORSION"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Tosrion angle between four ChenmAtoms. Serves as definition for reference.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.molecule.ChemComp.ChemComp"
+    not-null="true"
+    unique="false"
+    foreign-key="CHEM_CHEMTORS_CHEMCOMP_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">name of ChemTorsion</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="CHEM_CHEMTORS2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbChemComp"
+    column="CHEMCOMPID"
+    class="ccp.api.molecule.ChemComp.ChemComp" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="CHEM_CHEMTORS_CHEMCOMP_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbSysNames" 
+    table="CHEM_CHEMTORSIONSYSNAME"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">ChemTorsionSysNames that apply to ChemTorsion. Describe systematic names in various naming systems</meta>
+    <meta attribute="base-name">hbSysName</meta>
+    <cache usage="read-write"/>
+    <key column="CHEMTORSIONID"/>
+    <one-to-many class="ccp.api.molecule.ChemComp.ChemTorsionSysName"/>
+  </set>
+  
+  <list
+    name="hbChemAtoms" 
+    table="CHEM_CHEMTORS2CHEMATOMS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">AbstractChemAtoms making up ChemTorsion</meta>
+    <meta attribute="base-name">hbChemAtom</meta>
+    <cache usage="read-write"/>
+    <key column="CHEMTORSIONID" foreign-key="CHEM_ABSTCHEMATOM_CHEMTORS_FK" not-null="true"/>
+    <list-index column="order_chemAtoms_" base="1"/>
+    <many-to-many column="CHEMATOMID" class="ccp.api.molecule.ChemComp.AbstractChemAtom" foreign-key="CHEM_CHEMTORS_CHEMATOMS_FK"/>
+  </list>
+
+  </class>
+
+</hibernate-mapping>

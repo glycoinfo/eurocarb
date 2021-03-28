@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/SpectrumWindowView
+END
+isInToolbar.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/SpectrumWindowView/isInToolbar.html
+END
+analysisSpectrum.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/SpectrumWindowView/analysisSpectrum.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/SpectrumWindowView/index.html
+END
+windowPeakLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/SpectrumWindowView/windowPeakLists.html
+END
+isSliceVisible.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/SpectrumWindowView/isSliceVisible.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/SpectrumWindowView/parent.html
+END
+isPosVisible.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/SpectrumWindowView/isPosVisible.html
+END
+spectrumWindowPane.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/SpectrumWindowView/spectrumWindowPane.html
+END
+isNegVisible.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/SpectrumWindowView/isNegVisible.html
+END
+axisMappings.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/SpectrumWindowView/axisMappings.html
+END

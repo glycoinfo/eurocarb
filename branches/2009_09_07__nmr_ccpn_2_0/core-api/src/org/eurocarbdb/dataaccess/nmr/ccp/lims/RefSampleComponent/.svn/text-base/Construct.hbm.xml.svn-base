@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.RefSampleComponent">
+  <joined-subclass
+    name="Construct"
+    extends="ccp.api.lims.RefSampleComponent.MolComponent"
+    table="REFS_CONSTRUCT"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">This is a subtype of MolComponent. It is used to summarise information about a construct such as an expression vector plasmid.</meta>
+  <key column="MOLCOMPONENTID" foreign-key="REFS_CONSTRUCT_MOLCOMP_FK"/>
+  
+  <property
+    name="_constructStatus"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">The status of the construct e.g. empty, with target, ...</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CONSTRUCTSTATUS" sql-type="VARCHAR(80)" length="80" not-null="true"/>
+  </property>
+  
+  <property
+    name="_function"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">The Construct class is also used to describe vectors and so the function attribute can be used to indicate the function of the vector e.g. expression.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="FUNCTION" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_markerDetails"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Detail field for marker information. Precise information should go to a MolCompFeature.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MARKERDETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_promoterDetails"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Detail field for promoter information. Precise information should go to a MolCompFeature.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PROMOTERDETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_resistanceDetails"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Detail field for resistance information. Precise information should go to a MolCompFeature.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="RESISTANCEDETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_sequenceType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">The type of nucleic acid sequence in the construct. Note that to find all the DNA molecules it is necessary to search for DNA + cDNA and for RNA, RNA + mRNA + tRNA.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SEQUENCETYPE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

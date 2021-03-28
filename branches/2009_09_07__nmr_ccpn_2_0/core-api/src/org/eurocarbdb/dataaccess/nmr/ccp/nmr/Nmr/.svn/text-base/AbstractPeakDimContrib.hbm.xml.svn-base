@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <class
+    name="AbstractPeakDimContrib"
+    table="NMR_ABSTRACTPEAKDIMCONTRIB"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">PeakDim assignment contribution, one of the multiple assignments of a PeakDim. This is a connection record, connecting a PeakDim and a PeakContrib to a Resonance or a set of Resonances. Note that two different AbstractPeakDimContribs may have both the same PeakDim and the same Resonance.   If there is only one peakContrib (or none) for the relevant PeakDim, the peakContribs link defaults to the only PeakContrib possible, creating it if necessary. This is the normal case. Note that this makes peakContribs an optional input parameter to the PeakDimContrib constructor, even though each AbstractPeakDimContrib must have at least one PeakContrib.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_ABSTPEAKDIMCONT_NMRPROJECT_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="abstractPeakDimContribUniqueKey" />
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="NMR_ABSTPEAKDIMCONT2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbPeakDim"
+    column="PEAKDIMID"
+    class="ccp.api.nmr.Nmr.PeakDim" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_ABSTPEAKDIMCONT_PEAKDIM_FK" 
+    unique-key="abstractPeakDimContribUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbPeakDimComponent"
+    column="PEAKDIMCOMPONENTID"
+    class="ccp.api.nmr.Nmr.PeakDimComponent" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_ABSTPEAKDIMCONT_PEAKDIMCOMP_FK" 
+  >
+    <meta attribute="field-description">PeakDimComponent to which this AbstractPeakDimContrib is attached. if it is attached to none, it belongs instead to teh main assignment component of the peak.</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbPeakContribs" 
+    table="NMR_PEAKCONT2PEAKDIMCONT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">PeakContribs(s) within which the PeakDimContrib are possible assignments</meta>
+    <meta attribute="base-name">hbPeakContrib</meta>
+    <cache usage="read-write"/>
+    <key column="PEAKDIMCONTRIBID" foreign-key="NMR_PEAKCONT_PEAKDIMCONT_FK"/>
+    <many-to-many column="PEAKCONTRIBID" class="ccp.api.nmr.Nmr.PeakContrib" foreign-key="NMR_ABSTPEAKDIMCONT_PEAKCONT_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

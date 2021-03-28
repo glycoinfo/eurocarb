@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Affiliation">
+  <class
+    name="Person"
+    table="AFFI_PERSON"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">An individual person.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.general.Affiliation.AffiliationStore"
+    not-null="true"
+    unique="false"
+    foreign-key="AFFI_PERSON_AFFISTOR_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_familyName"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">Family name ('last name' for western names).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="FAMILYNAME" sql-type="VARCHAR(80)" length="80" not-null="true"/>
+  </property>
+  
+  <property
+    name="_familyTitle"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">Family title (e.g. Jr.)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="FAMILYTITLE" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_givenName"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Given name ('first name' for western names).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="GIVENNAME" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="personUniqueKey" />
+  </property>
+  
+  <property
+    name="_title"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Title, 'Mr.', 'Mrs.', 'Ms.', 'Dr.', 'Professor',...</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="TITLE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbMiddleInitials"
+    table="AFFI_PERSON_MIDDINIT"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">Middle initials (including first one).</meta>
+    <cache usage="read-write" />
+    <key column="PERSONID" foreign-key="AFFI_PERSON_MIDDINIT_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.String" not-null="true">
+      <column name="MIDDLEINITIAL" sql-type="VARCHAR(32)" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbApplicationData"
+    table="AFFI_PERSON2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbAffiliationStore"
+    column="AFFILIATIONSTOREID"
+    class="ccp.api.general.Affiliation.AffiliationStore" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="AFFI_PERSON_AFFISTOR_FK" 
+    unique-key="personUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentPersonInGroup"
+    column="CURRENTPERSONINGROUPID"
+    class="ccp.api.general.Affiliation.PersonInGroup" 
+    not-null="false"
+    unique="false"
+    foreign-key="AFFI_PERSON_CURRPERSINGROU_FK" 
+  >
+    <meta attribute="field-description">PersonInGroup record describing where the person is currently located. To get the current group, do self.currentPersonInGroup.group</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbPersonInGroups" 
+    table="AFFI_PERSONINGROUP"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbPersonInGroup</meta>
+    <cache usage="read-write"/>
+    <key column="PERSONID"/>
+    <one-to-many class="ccp.api.general.Affiliation.PersonInGroup"/>
+  </set>
+  
+  <set 
+    name="hbUsers" 
+    table="ACCO_USER"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">AcessControl.Users correponding to Person</meta>
+    <meta attribute="base-name">hbUser</meta>
+    <cache usage="read-write"/>
+    <key column="PERSONID"/>
+    <one-to-many class="memops.api.AccessControl.User"/>
+  </set>
+  
+  <set 
+    name="hbAuthorCitations" 
+    table="CITA_CITATION2AUTHORS"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Citations where Person is author</meta>
+    <meta attribute="base-name">hbAuthorCitation</meta>
+    <cache usage="read-write"/>
+    <key column="AUTHORID" foreign-key="CITA_CITATION_AUTHORS_FK"/>
+    <many-to-many column="AUTHORCITATIONID" class="ccp.api.general.Citation.Citation" foreign-key="AFFI_PERSON_AUTHCITA_FK"/>
+  </set>
+  
+  <set 
+    name="hbEditorCitations" 
+    table="CITA_CITATION2EDITORS"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Citations wher Person is editor</meta>
+    <meta attribute="base-name">hbEditorCitation</meta>
+    <cache usage="read-write"/>
+    <key column="EDITORID" foreign-key="CITA_CITATION_EDITORS_FK"/>
+    <many-to-many column="EDITORCITATIONID" class="ccp.api.general.Citation.Citation" foreign-key="AFFI_PERSON_EDITCITA_FK"/>
+  </set>
+  
+  <set 
+    name="hbAuthoredEntries" 
+    table="ENTR_ENTRY2AUTHORS"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">BMRBentries authored by person.</meta>
+    <meta attribute="base-name">hbAuthoredEntry</meta>
+    <cache usage="read-write"/>
+    <key column="AUTHORID" foreign-key="ENTR_ENTRY_AUTHORS_FK"/>
+    <many-to-many column="AUTHOREDENTRYID" class="ccp.api.nmr.NmrEntry.Entry" foreign-key="AFFI_PERSON_AUTHENTR_FK"/>
+  </set>
+  
+  <set 
+    name="hbContactEntries" 
+    table="ENTR_ENTRY2CONTPERS"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">BMRBentries where person is contact person</meta>
+    <meta attribute="base-name">hbContactEntry</meta>
+    <cache usage="read-write"/>
+    <key column="CONTACTPERSONID" foreign-key="ENTR_ENTRY_CONTPERS_FK"/>
+    <many-to-many column="CONTACTENTRYID" class="ccp.api.nmr.NmrEntry.Entry" foreign-key="AFFI_PERSON_CONTENTR_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

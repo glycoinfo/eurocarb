@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="T1rhoList"
+    extends="ccp.api.nmr.Nmr.AbstractMeasurementList"
+    table="NMR_T1RHOLIST"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">T1 rho measurement list</meta>
+  <key column="ABSTRACTMEASUREMENTLISTID" foreign-key="NMR_T1RHOLIST_ABSTMEASLIST_FK"/>
+  
+  <property
+    name="_coherenceType"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Type of coherence measured  T1rho values are referred to a single Resonance. Where more than one resonance is involved (coherence types other than 'SQ'), it is assumed that the other one is obvious from context, and/or that identifying information is presented in the 'details' record.</meta>
+    <meta attribute="default-value">"SQ"</meta>
+    <column name="COHERENCETYPE" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_sf"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Spectrometer frequency in MHz at which T1rho values were measured.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SF" sql-type="FLOAT" not-null="true"/>
+  </property>
+  
+  <property
+    name="_tempCalibMethod"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Temperature calibration method (open string enumeration)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="TEMPCALIBMETHOD" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_tempControlMethod"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Temperature control method (open string enumeration)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="TEMPCONTROLMETHOD" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <set 
+    name="hbExperiments" 
+    table="NMR_EXPERIMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Experiments for which T1rho relaxation is valid</meta>
+    <meta attribute="base-name">hbExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="T1RHOLISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Experiment"/>
+  </set>
+  
+  <set 
+    name="hbMeasurements" 
+    table="NMR_T1RHO"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbMeasurement</meta>
+    <cache usage="read-write"/>
+    <key column="PARENTLISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.T1Rho"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+#summary sidebar navigation
+
+General
+  * [How_to_help]
+  * [Introduction_for_scientists]
+  * [Introduction_for_developers]
+  * [DeveloperFaq FAQ (developer oriented)]
+
+Core concepts in EurocarbDB
+  * [Glycan_sequence]
+  * [Biological_context]
+  * [Evidence]
+  * [Reference]
+
+Development
+  * [http://www.ebi.ac.uk/~matt/eurocarb/core-api/doc/api/index.html Eurocarb core API]
+  * [http://www.ebi.ac.uk/~matt/eurocarb/application/Eurocarbdb/doc/api/index.html Eurocarb web-application API]
+  * [Eurocarbdb_webapp_architecture Eurocarbdb Webapp architecture]
+  * [Eurocarbdb_webapp_lifecycle Lifecycle of a http request]
+  * [Using_nested_sets Using nested sets]
+
+Freemarker macro libs
+  * [Macro_Lib_Eurocarb Eurocarb.lib.ftl]
+  * [Macro_Lib_TextUtils TextUtils.lib.ftl]

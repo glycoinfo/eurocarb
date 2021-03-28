@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/ms/create_device
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/ms/create_device/success.ftl
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/ms/create_device/error.ftl
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/ms/create_device/input.ftl
+END

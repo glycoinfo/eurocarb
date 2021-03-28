@@ -1,0 +1,126 @@
+<project name="eurocarb-glycanbuilder" default="build" >
+  
+    <!--
+    !   this import defines the following:
+    !
+    !   1) 'project.*' properties  
+    !   2) 'project.classpath' path, containing all external and eurocarb-compiled jars.
+    !   3) 'build-XXX' tasks, where 'XXX' is the name of a sub-project                
+    !
+    -->
+    <import file="../../build.common.xml" />
+
+    
+    <!--===================== PROPERTIES =========================-->
+    
+    <property name="java.source.dir" value="${basedir}/src" />
+    <property name="java.build.dir" value="${basedir}/build" />
+    <property name="doc.dir" value="${basedir}/doc"/>  
+
+    <property name="java.extlib.dir" value="${project.java.extlib.dir}"/>
+    <property name="java.dist.dir" value="${project.java.lib.dir}" />
+    <property name="applet.dist.dir" value="${project.binary.dir}" />
+    
+    
+    <!--======================== PATHS ===========================-->
+
+    
+    <!--======================= TARGETS  =========================-->
+    <!--            (in alphabetical order please)                -->
+
+
+    <!-- TARGET: build ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <target name="build" depends="build-resourcesdb, build-molframework" description="Compiles GlycanBuilder"> 
+        <mkdir dir="${java.build.dir}" />
+        <javac 
+            srcdir="${java.source.dir}"
+            destdir="${java.build.dir}"
+            target="1.5"
+            debug="on"
+            deprecation="on"
+            >
+            <!-- compilerarg value="-Xlint:unchecked"/ -->
+            <classpath refid="project.classpath"/>
+        </javac>
+    </target>
+
+    
+    <!-- TARGET: clean ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <target name="clean" depends="" description="Removes locally compiled code">
+        <echo>Cleaning ${ant.project.name}</echo>
+        <delete>
+            <fileset dir="${java.build.dir}" includes="**/*"/>
+        </delete>
+    </target>   
+
+    
+    <!-- TARGET: copy-resources ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <target name="copy-resources">
+        <copy todir="${java.build.dir}">
+            <fileset dir="${java.source.dir}">
+                <exclude name="**/*.java"/>
+                <exclude name="*/help_builder/*"/>
+                <exclude name="manifest_convert.mf"/>
+                <exclude name="manifest_applet.mf"/>
+            </fileset>
+        </copy>
+    </target>
+
+    
+    <!-- TARGET: dist ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <target name="dist" depends="build,copy-resources,dist-applet" description="Creates GlycanBuilder library jar">
+        <jar 
+            destfile="${java.dist.dir}/${project.glycanbuilder.jar}" 
+            basedir="${java.build.dir}"
+            >
+            <manifest>
+                <attribute name="Main-Class" value="org.eurocarbdb.application.glycanbuilder.GlycanBuilder"/>
+                <!--<attribute name="Class-Path" value="${jar-class-path}"/>-->
+            </manifest>
+        </jar>
+    </target>
+
+
+    <!-- TARGET: dist-applet ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <target name="dist-applet" depends="build,copy-resources" description="Creates GlycanBuilder applet">
+        <jar 
+            destfile="${applet.dist.dir}/${project.glycanbuilder.applet.jar}" 
+            manifest="${java.source.dir}/manifest_applet.mf"
+            basedir="${java.build.dir}"
+            >
+            <zipfileset dir="${java.extlib.dir}" includes="swing-layout*.jar"/>
+            <zipfileset dir="${java.extlib.dir}" includes="log4j*.jar"/>
+        </jar>
+    </target>
+    
+    
+    <!-- TARGET: dist-zipfile ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <target name="dist-zipfile" depends="dist">
+    
+        <copy todir="${java.dist.dir}/Libs">
+            <fileset dir="${java.extlib.dir}">
+                <include name="**/*"/>
+            </fileset>
+        </copy>
+        
+        <zip destfile="${java.dist.dir}/GlycanBuilder.zip">
+            <fileset file="${java.source.dir}/config.xml"/>
+            <fileset file="${java.dist.dir}/GlycanBuilder.jar"/>
+            <fileset dir="${java.dist.dir}">
+            
+                <!-- ATTN!!! have to specify exact libs here... -->
+                <include name="Libs/*"/>
+            </fileset>
+        </zip>
+    </target>
+
+    
+    <!-- TARGET: run ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <target name="run" depends="build,copy-resources">
+        <java classname="org.eurocarbdb.application.glycanbuilder.GlycanBuilder" fork="true" >
+            <classpath refid="project.classpath"/>
+        </java>
+    </target>
+
+
+</project>

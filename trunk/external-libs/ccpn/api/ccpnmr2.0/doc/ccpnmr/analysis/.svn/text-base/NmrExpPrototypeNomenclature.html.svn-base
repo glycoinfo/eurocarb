@@ -1,0 +1,352 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-CCP:NmrExpPrototypeNomenclature</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>CCP:NmrExpPrototypeNomenclature</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>CCP</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="NmrExpPrototypePopup.html">NmrExpPrototypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ExpGraphPopup.html">ExpGraphPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="RefExperimentPopup.html">RefExperimentPopup</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="NmrExpPrototypeNomenclature.html">NmrExpPrototypeNomenclature</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SaveProjectAs.html">SaveProjectAs</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+      There are too many experiments for any systematic naming scheme to cover all
+      possibilities. These rules give a systematic name for many of them, and we
+      recommend sticking to them whenever possible. There will be cases where a
+      free-form text name is better (or unavoidable). Even though we do not cover all
+      possibilites the system is still quite complicated. Hopefully it will be easier to
+      interpret existing names than to make new ones.
+      </P>
+      <P>
+      - 1 There is only one ExpPrototype for every magnetisation transfer path, even
+      where this would result in a 5D or 6D experiment. The various 2D, 3D, 4D,
+      projections, reversed direction, reduced dimensionality or coupled/decoupled
+      variants etc. are RefExperiments under the same ExpPrototype.
+      E.g. the 5D HCACONH ExpPrototype would cover 4D HCAcoNH, 3D HncoCAH, etc.
+      </P>
+      <P>
+      - 2 Experiments are normally named by concatenating the AtomSiteTypes  that
+      describe the magnetisation transfer path ( e.g. HCACONH). You are free to use
+      atom names that do not correspond to existing AtomSiteTypes where this is easier
+      to understand, e.g. HNCAHA instead of HNCAH or HBCBCGCDHD, instead of
+      HCaliCaroCaroH. Note that HN means 'H then N', and *not* 'peptide backbone
+      proton'.
+      </P>
+      <P>
+      - 3 By default transfer is by J coupling or one-bond transfer. Other transfer types
+      are indicated
+      by putting an underline in the transfer path, and appending the transfer type to
+      the end of the name. E.g. H_H.TOCSY, H_H_H.TOCSY,NOESY, HC_CH.TOCSY. 
+      TROSY transfer is not distinguished from other kinsd of one-bond transfer.
+      </P>
+      <P>
+      - 4 Out-and-back segments are indicated by putting the out-and-back trace in
+      square brackets. E.g. H[N]_H.NOESY is the normal HSQC-NOESY, H[C]_H[C].NOESY
+      the 4D carbon-carbon NOESY. In HNCAHA magnetisation starts on backbone H and
+      ends on HA, whereas the out-and-back version is called H[N[CA[HA]]].
+      </P>
+      <P>
+      - 5 Some experiments may have several possible nuclei for a given axis, or several
+      alternative magnetisation transfer paths. These are shown by putting the
+      alternatives in curly braces. If the possibilities are mutually exclusive, they are
+      separated by a vertical line. Examples would
+      be e.g. H[{N|C}]_H.NOESY, an HSQC-NOESY with both C and N in parallel on the
+      second axis, or H{CA|Cca}CONH, the protein backbone
+      experiment more commonly known as HBCB/HACACONNH. Separate transfer paths that both 
+      followed in parallel are also put in curly braces, but separated by a plus sign. Examples
+      would be H{[N]+[HA]}, the HNHA experiment, or H_H{[c(0)]+[n(0)]}.NOESY, a NOESY with 
+      protons bound to unlabelled heavy atoms selected in the second dimension.
+      </P>
+      <P>
+      - 6 AtomSites that are part of the coupling network but are not actually
+      part of any ExpMeasurement are given in lower case. This is used for
+      experiments that filter on coupling partners without necessarily
+      transferring magnetisation to them, such as the H[C[co]] CO-filtered HSQC.
+      It is also used for atoms in the transfer path that cannot be sensibly
+      measured, as in the H{CA|Cca}CONH (HBCB/HACACONNH) experiment. The latter
+      usage is the same as used for lower-dimensionality RefExperiments (see
+      below).
+      </P>
+      <P>
+      - 7 If you want to indicate the number of atoms of a given type that serve as
+      coupling partners you simply affix the number, in parentheses. A 3D HSQC-NOESY
+      set up to suppress signals starting on CH2 groups would be HC[h(2n+1)]_H.NOESY.
+      An HCC-3D set up to select quaternary carbons in the third dimension would be
+      H[C[C[h(0)]]]
+      </P>
+      <P>
+      The most complex examples you can imagine are probably the double-half filtered
+      NOESYs - fortunately there are not that many of them. A double-half-filtered
+      15N/13C NOESY, which serves to select intermolecular NOEs between doubly labeled
+      molecules and unlabeled molecules is be written
+      {&nbsp;H[{n|c}]_H{[n(0)]+[c(0)]}&nbsp;|&nbsp;H{[n(0)]+[c(0)]}_H[{n|c}]&nbsp;}.NOESY.
+      </P>
+      <P>
+      - 8 Non-shift dimensions are given as their type followed by the AtomSites in
+      parentheses. E.g. J(HH) (proton-proton coupling), DQ(CN) (carbon-nitrogen double
+      quantum magnetisation).
+      </P>
+      <P>
+      - 9 RefExperiments are specific variants of their ExpPrototypes. While it is not
+      possible to cover all possibilities it is recommended to follow these rules. Extra
+      information can always be added as a dot-separated suffix.:
+      </P>
+      <P>
+      Lower-dimensional subsets: The most common RefExperiments are simply cases where not all
+      possible dimensiopns are measured. These are named by writing in lower case the
+      dimensions that are not measured. E.g. the 5D HCACONH ExpPrototype would give 4D
+      HCAcoNH, 3D HncoCAH, etc
+      </P>
+      <P>
+      Couplings: Couplings will often be unresolved, and will rarely be of interest in
+      the analysis. The 'coupled isotopes' attribute is only relevant if there are
+      couplings that need to be measured and assigned. The recommended naming style is
+      e.g. 'HC.C coupled to CO', or 'HNCAH.H1,H2 coupled to C'.
+      </P>
+      <P>
+      Reversed experiments: The ExpPrototype describes the magnetisation transfer
+      path. so that e.g. HNCAH and HCANH will be described in the same ExpPrototype.
+      The recommended naming style is simply to reverse the name (as shown here) and set
+      isReversed to True, while leaving the rest of the RefExperiment description 
+      unchanged.</P>
+      <P>
+      NOESY and ROESY: These are indistinguishable as far as transfer paths etc. are
+      concerned. For convenience ROESY is a RefExperiment under the H_H.NOESY
+      ExpPrototype.
+      </P>
+      <P> Reduced-dimensionality and projection experiments: Here several measurements
+      from the ExpPrototype are measured in the same dimension as a linear combination.
+      Here the total dimension of the experiment is added as a suffix, followed by a
+      curly brace describing the composition of the combined axis. Examples:
+      HNCOCA, CA as splitting on CO axis:     H[N[CO[CA]]].3D.{CO:1;CA:0.5,-0.5} 
+      HNCOCA, N-CO+2CA projection:            H[N[CO[CA]]].2D.{N:1;CO:-1;CA:2}
+      HNCOCA, N+CO projection:                H[N[CO[ca]]].2D.{N:1;CO:1}
+      In the unlikely case that more than one dimension is acquired as a combination,
+      it is possible to add more than one curly brace suffix.<BR>
+      Examples of this kind of name can be found in the NmrExpPrototype distribution for the
+      H[N[CO[CA]]] and the H{CA|Cca}CONH experiments.
+      <BR>
+      Note that projection experiments may be treated as individual DataSources under a single
+      Experiment. In that case the NmrExpPrototype given to the Experiment is that of the
+      full-dimensionality version, and the DatSources do not have individual RefExperiments. The
+      appropriate scaling factors are stoerd in the Nmr.DimensionScaling class.
+      </P>
+      <P>TROESY: TROESY is strictly speaking a combination of a shift and a coupling
+      and could be described as such. However this would require that TROESY and non-TROESY
+      versions were described by separate NmrExpPrototypes, and would give horribly
+      complex names. Instead TROSEY is considered as a subtype of onebond and is not
+      described in the experiment prototype description at all. If desired it can be added as a
+      '.TROESY' suffix. The precise type of transfer can be specified in
+      ccp.nmr.Nmr.ExpTransfer.transferSubType. 
+      </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

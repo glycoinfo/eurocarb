@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom
+END
+Isotope.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Isotope.java
+END
+Periodic.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Periodic.hbm.xml
+END
+Composition.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Composition.java
+END
+AtomConnection.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/AtomConnection.hbm.xml
+END
+Atom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Atom.hbm.xml
+END
+Isotope.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Isotope.hbm.xml
+END
+Mol2Type.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Mol2Type.java
+END
+AtomTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/AtomTemplate.java
+END
+Periodic.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Periodic.java
+END
+AtomConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/AtomConnection.java
+END
+Atom.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Atom.java
+END

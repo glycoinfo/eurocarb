@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates
+END
+about.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/about.ftl
+END
+msdb_index.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/msdb_index.html
+END
+contact.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/contact.ftl
+END
+msdb_styles.css
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/msdb_styles.css
+END
+footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/footer.ftl
+END
+msdb_error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/msdb_error.ftl
+END
+show_monosaccharide.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/show_monosaccharide.ftl
+END
+msdb_start.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/msdb_start.ftl
+END
+todo.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/todo.ftl
+END
+header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/header.ftl
+END
+show_substituent.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/show_substituent.ftl
+END
+builder_form_atomgroups.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/builder_form_atomgroups.ftl
+END
+show_element.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/show_element.ftl
+END

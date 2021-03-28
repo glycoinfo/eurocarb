@@ -1,0 +1,659 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <class
+    name="Experiment"
+    table="NMR_EXPERIMENT"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">A description of an NMR experiment. This corresponds to a single collection of data and so is roughly equivalent to a single Bruker expName/n or a Varian .. directory. The data model contains no description of either a generic experiment or a combination of pulse sequence, sample, conditions and so on that may be recorded several times.  Creating an Experiment autiomatically creates the correct number of ExpDims as well.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_NMRPROJECT_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_date"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Date experiment was acquired (starting date).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DATE_" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text, for notes, explanatory comments, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">name of Experiment, freely chosen and modifiable.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(80)" length="80" not-null="true"/>
+  </property>
+  
+  <property
+    name="_nmrTubeType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">text field describing NMR tube type. E.g. "Shigemi 10mm"</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NMRTUBETYPE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_numDim"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">number of dimensions.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NUMDIM" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_numScans"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">Number of transients averaged per data point. A single scan for a complex point counts as numScans 1, not 2.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NUMSCANS" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_sampleState"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">State of sample during experiment.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SAMPLESTATE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_sampleVolume"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Sample volume</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SAMPLEVOLUME" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="experimentUniqueKey" />
+  </property>
+  
+  <property
+    name="_spinningAngle"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">NMR tube spinning angle (in degrees) relative to the magnet bore axis.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SPINNINGANGLE" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_spinningRate"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">NMR tube spinning rate (in Hz)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SPINNINGRATE" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_volumeUnit"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">Unit for sample volume.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VOLUMEUNIT" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="NMR_EXPERIMENT2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbDerivationMethod"
+    column="DERIVATIONMETHODID"
+    class="ccp.api.general.Method.Method" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_DERIMETH_FK" 
+  >
+    <meta attribute="field-description">Method used to derive Experiment - only meaningful for Experiments where derivedFrom is not empty</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbDipolarRelaxList"
+    column="DIPOLARRELAXLISTID"
+    class="ccp.api.nmr.Nmr.DipolarRelaxList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_DIPORELALIST_FK" 
+  >
+    <meta attribute="field-description">Dipole-diploe relaxation list valid for Experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbHExchProtectionList"
+    column="HEXCHPROTECTIONLISTID"
+    class="ccp.api.nmr.Nmr.HExchProtectionList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_HEXCHPROTLIST_FK" 
+  >
+    <meta attribute="field-description">Hydrogen exchange protection factor list valid for experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbHExchRateList"
+    column="HEXCHRATELISTID"
+    class="ccp.api.nmr.Nmr.HExchRateList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_HEXCHRATELIST_FK" 
+  >
+    <meta attribute="field-description">Hydrogen exchange rate list valid for experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbIsotropicS2List"
+    column="ISOTROPICS2LISTID"
+    class="ccp.api.nmr.Nmr.IsotropicS2List" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_ISOTS2LIST_FK" 
+  >
+    <meta attribute="field-description">isotroisc order parameter list valid for Experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbJCouplingList"
+    column="JCOUPLINGLISTID"
+    class="ccp.api.nmr.Nmr.JCouplingList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_JCOUPLIST_FK" 
+  >
+    <meta attribute="field-description">JcouplingList valid for Experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbNmrProject"
+    column="NMRPROJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_NMRPROJECT_FK" 
+    unique-key="experimentUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbNoeList"
+    column="NOELISTID"
+    class="ccp.api.nmr.Nmr.NoeList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_NOELIST_FK" 
+  >
+    <meta attribute="field-description">List of homonuclear NOEs for experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbPkaList"
+    column="PKALISTID"
+    class="ccp.api.nmr.Nmr.PkaList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_PKALIST_FK" 
+  >
+    <meta attribute="field-description">pKa list valid for Experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbProbe"
+    column="PROBEID"
+    class="ccp.api.general.Instrument.NmrProbe" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_PROBE_FK" 
+  >
+    <meta attribute="field-description">Probe used for acquiring experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbRawData"
+    column="RAWDATAID"
+    class="ccp.api.nmr.Nmr.DataSource" 
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_RAWDATA_FK" 
+  >
+    <meta attribute="field-description">DataSource containing raw unprocessed data for experiment.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbRdcList"
+    column="RDCLISTID"
+    class="ccp.api.nmr.Nmr.RdcList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_RDCLIST_FK" 
+  >
+    <meta attribute="field-description">List of Reduced Dipolar Couplings for Experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbRefExperiment"
+    column="REFEXPERIMENTID"
+    class="ccp.api.nmr.NmrExpPrototype.RefExperiment" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_REFEXPE_FK" 
+  >
+    <meta attribute="field-description">Reference experiment corresponding to Experiment.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbSample"
+    column="SAMPLEID"
+    class="ccp.api.lims.Sample.Sample" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_SAMPLE_FK" 
+  >
+    <meta attribute="field-description">Sample on which experiment is carried out.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbSampleConditionSet"
+    column="SAMPLECONDITIONSETID"
+    class="ccp.api.nmr.Nmr.SampleConditionSet" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_SAMPCONDSET_FK" 
+  >
+    <meta attribute="field-description">Set of sample conditions that apply to an experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbShiftAnisotropyList"
+    column="SHIFTANISOTROPYLISTID"
+    class="ccp.api.nmr.Nmr.ShiftAnisotropyList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_SHIFANISLIST_FK" 
+  >
+    <meta attribute="field-description">ShiftAnisotropyList valid for Experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbShiftDifferenceList"
+    column="SHIFTDIFFERENCELISTID"
+    class="ccp.api.nmr.Nmr.ShiftDifferenceList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_SHIFDIFFLIST_FK" 
+  >
+    <meta attribute="field-description">Chemical shift difference list relevant for Experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbShiftList"
+    column="SHIFTLISTID"
+    class="ccp.api.nmr.Nmr.ShiftList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_SHIFTLIST_FK" 
+  >
+    <meta attribute="field-description">Chemical shift list relevant for Experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbSpectralDensityList"
+    column="SPECTRALDENSITYLISTID"
+    class="ccp.api.nmr.Nmr.SpectralDensityList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_SPECDENSLIST_FK" 
+  >
+    <meta attribute="field-description">List of spectral densities valid for Experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbSpectrometer"
+    column="SPECTROMETERID"
+    class="ccp.api.general.Instrument.NmrSpectrometer" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_SPEC_FK" 
+  >
+    <meta attribute="field-description">Spectrometer used for Experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbT1List"
+    column="T1LISTID"
+    class="ccp.api.nmr.Nmr.T1List" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_T1LIST_FK" 
+  >
+    <meta attribute="field-description">T1 measurement list valid for Experiment.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbT1rhoList"
+    column="T1RHOLISTID"
+    class="ccp.api.nmr.Nmr.T1rhoList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_T1RHOLIST_FK" 
+  >
+    <meta attribute="field-description">List of T1rho relaxation valid for Experiment</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbT2List"
+    column="T2LISTID"
+    class="ccp.api.nmr.Nmr.T2List" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPERIMENT_T2LIST_FK" 
+  >
+    <meta attribute="field-description">T2 list valid for Experiment</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbDataSources" 
+    table="NMR_DATASOURCE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbDataSource</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.DataSource"/>
+  </set>
+  
+  <set 
+    name="hbExpChainStates" 
+    table="NMR_EXPCHAINSTATE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbExpChainState</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.ExpChainState"/>
+  </set>
+  
+  <set 
+    name="hbExpDims" 
+    table="NMR_EXPDIM"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbExpDim</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.ExpDim"/>
+  </set>
+  
+  <set 
+    name="hbExpTransfers" 
+    table="NMR_EXPTRANSFER"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbExpTransfer</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.ExpTransfer"/>
+  </set>
+  
+  <set 
+    name="hbCitations" 
+    table="NMR_EXPERIMENT2CITATIONS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Citation for NMR experiment pulse sequence.</meta>
+    <meta attribute="base-name">hbCitation</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTID" foreign-key="CITA_CITATION_EXPE_FK"/>
+    <many-to-many column="CITATIONID" class="ccp.api.general.Citation.Citation" foreign-key="NMR_EXPERIMENT_CITATIONS_FK"/>
+  </set>
+  
+  <set 
+    name="hbDataLists" 
+    table="NMR_EXPERIMENT2DATALISTS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">measurement lists valid for Experiment. There can be several, seeing that there may be measurements of different types.</meta>
+    <meta attribute="base-name">hbDataList</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTID" foreign-key="NMR_DATALIST_EXPE_FK"/>
+    <many-to-many column="DATALISTID" class="ccp.api.nmr.Nmr.DataList" foreign-key="NMR_EXPERIMENT_DATALISTS_FK"/>
+  </set>
+  
+  <set 
+    name="hbDerivedFrom" 
+    table="NMR_EXPERIMENT2DERIVEDTO"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Experiments from which the current Experiment is derived</meta>
+    <meta attribute="base-name">hbDerivedFrom</meta>
+    <cache usage="read-write"/>
+    <key column="DERIVEDTOID" foreign-key="NMR_EXPERIMENT_DERIVEDTO_FK"/>
+    <many-to-many column="DERIVEDFROMID" class="ccp.api.nmr.Nmr.Experiment" foreign-key="NMR_EXPERIMENT_DERIFROM_FK"/>
+  </set>
+  
+  <set 
+    name="hbDerivedTo" 
+    table="NMR_EXPERIMENT2DERIVEDTO"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Experiments that are derived from the data in this one.</meta>
+    <meta attribute="base-name">hbDerivedTo</meta>
+    <cache usage="read-write"/>
+    <key column="DERIVEDFROMID" foreign-key="NMR_EXPERIMENT_DERIFROM_FK"/>
+    <many-to-many column="DERIVEDTOID" class="ccp.api.nmr.Nmr.Experiment" foreign-key="NMR_EXPERIMENT_DERIVEDTO_FK"/>
+  </set>
+  
+  <set 
+    name="hbLabeledMixtures" 
+    table="NMR_EXPERIMENT2LABEMIXT"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">LabeledMixtures that describe molecules for Experiment. There should be only one LabeledMixture for every Molecule, but the constraint is not currently enforced.</meta>
+    <meta attribute="base-name">hbLabeledMixture</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTID" foreign-key="LMOL_LABEMIXT_EXPE_FK"/>
+    <many-to-many column="LABELEDMIXTUREID" class="ccp.api.molecule.LabeledMolecule.LabeledMixture" foreign-key="NMR_EXPERIMENT_LABEMIXT_FK"/>
+  </set>
+  
+  <set 
+    name="hbMolSystems" 
+    table="NMR_EXPERIMENT2MOLSYSTEMS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">MolSystems involved in Experiment</meta>
+    <meta attribute="base-name">hbMolSystem</meta>
+    <cache usage="read-write"/>
+    <key column="NMREXPERIMENTID" foreign-key="MOLS_MOLSYSTEM_NMREXPE_FK"/>
+    <many-to-many column="MOLSYSTEMID" class="ccp.api.molecule.MolSystem.MolSystem" foreign-key="NMR_EXPERIMENT_MOLSYSTEMS_FK"/>
+  </set>
+  
+  <set 
+    name="hbNmrExpSeries" 
+    table="NMR_NMREXPSERI2EXPE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Experiment series that involve experiment</meta>
+    <meta attribute="base-name">hbNmrExpSeries</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTID" foreign-key="NMR_NMREXPSERI_EXPE_FK"/>
+    <many-to-many column="NMREXPSERIESID" class="ccp.api.nmr.Nmr.NmrExpSeries" foreign-key="NMR_EXPERIMENT_NMREXPSERI_FK"/>
+  </set>
+  
+  <set 
+    name="hbShiftReferences" 
+    table="NMR_SHIFREFE2EXPE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Shift references used for Experiment</meta>
+    <meta attribute="base-name">hbShiftReference</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTID" foreign-key="NMR_SHIFREFE_EXPE_FK"/>
+    <many-to-many column="SHIFTREFERENCEID" class="ccp.api.nmr.Nmr.ShiftReference" foreign-key="NMR_EXPERIMENT_SHIFREFE_FK"/>
+  </set>
+  
+  <set 
+    name="hbEntries" 
+    table="ENTR_ENTRY2EXPE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Bmrb Entries for Nmr Experiment</meta>
+    <meta attribute="base-name">hbEntry</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTID" foreign-key="ENTR_ENTRY_EXPE_FK"/>
+    <many-to-many column="ENTRYID" class="ccp.api.nmr.NmrEntry.Entry" foreign-key="NMR_EXPERIMENT_ENTRIES_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

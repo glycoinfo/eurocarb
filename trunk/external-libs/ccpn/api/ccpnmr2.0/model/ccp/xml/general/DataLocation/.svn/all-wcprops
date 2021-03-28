@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation
+END
+MimeTypeDataStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/MimeTypeDataStore.xml
+END
+DataEncoding.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/DataEncoding.xml
+END
+ComponentShape.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/ComponentShape.xml
+END
+ShapeMatrix.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/ShapeMatrix.xml
+END
+NumericMatrix.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/NumericMatrix.xml
+END
+NumberType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/NumberType.xml
+END
+AbstractDataStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/AbstractDataStore.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/package.xml
+END
+DataUrl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/DataUrl.xml
+END
+ComplexStorage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/ComplexStorage.xml
+END
+BlockedBinaryMatrix.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/BlockedBinaryMatrix.xml
+END
+DataLocationStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/general/DataLocation/DataLocationStore.xml
+END

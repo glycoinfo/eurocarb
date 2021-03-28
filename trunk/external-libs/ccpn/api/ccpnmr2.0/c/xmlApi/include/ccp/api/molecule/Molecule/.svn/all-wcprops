@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/Molecule
+END
+Mole_MolResLinkEnd.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/Molecule/Mole_MolResLinkEnd.h
+END
+Mole_MolResidue.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/Molecule/Mole_MolResidue.h
+END
+Mole_Alignment.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/Molecule/Mole_Alignment.h
+END
+Mole_MolResLink.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/Molecule/Mole_MolResLink.h
+END
+Mole_MolSeqFragment.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/Molecule/Mole_MolSeqFragment.h
+END
+Mole_MoleculeSysName.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/Molecule/Mole_MoleculeSysName.h
+END
+Mole_Molecule.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/Molecule/Mole_Molecule.h
+END

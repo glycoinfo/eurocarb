@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar
+END
+GlycoGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/GlycoGraph.java
+END
+GlycoEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/GlycoEdge.java
+END
+UnvalidatedGlycoNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/UnvalidatedGlycoNode.java
+END
+Edge.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/Edge.java
+END
+Modification.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/Modification.java
+END
+ModificationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/ModificationType.java
+END
+SugarUnitCyclic.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/SugarUnitCyclic.java
+END
+UnderdeterminedSubTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/UnderdeterminedSubTree.java
+END
+Linkage.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/Linkage.java
+END
+BaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/BaseType.java
+END
+LinkageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/LinkageType.java
+END
+Monosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/Monosaccharide.java
+END
+SugarUnitAlternative.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/SugarUnitAlternative.java
+END
+Anomer.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/Anomer.java
+END
+Sugar.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/Sugar.java
+END
+SugarUnitRepeat.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/SugarUnitRepeat.java
+END
+GlycoNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/GlycoNode.java
+END
+Superclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/Superclass.java
+END
+Substituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/Substituent.java
+END
+NonMonosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/NonMonosaccharide.java
+END
+SubstituentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/SubstituentType.java
+END
+GlycoconjugateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/GlycoconjugateException.java
+END
+GlycoGraphAlternative.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/sugar/GlycoGraphAlternative.java
+END

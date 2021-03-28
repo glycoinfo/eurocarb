@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Classification">
+  <joined-subclass
+    name="HazardPhrase"
+    extends="ccp.api.lims.Classification.AbstractCategory"
+    table="CLAS_HAZARDPHRASE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Phrases required for describing the hazard properties of a sample.</meta>
+  <key column="ABSTRACTCATEGORYID" foreign-key="CLAS_HAZAPHRA_ABSTCATE_FK"/>
+  
+  <property
+    name="_phrase"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">The hazard phrase, e.g. 'Keep container tightly closed in a cool place.'</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PHRASE" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <many-to-one
+    name="hbClassification"
+    column="CLASSIFICATIONID"
+    class="ccp.api.lims.Classification.Classification" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="CLAS_HAZAPHRA_CLAS_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint
+END
+Nmrc_ConditionState.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_ConditionState.c
+END
+Nmrc_RdcConstraintItem.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_RdcConstraintItem.c
+END
+Nmrc_FixedResonance.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_FixedResonance.c
+END
+Nmrc_ConstraintPeakContrib.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_ConstraintPeakContrib.c
+END
+Nmrc_CsaConstraintList.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_CsaConstraintList.c
+END
+Nmrc_PairwiseConstraintItem.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_PairwiseConstraintItem.c
+END
+Nmrc_FixedResonanceSet.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_FixedResonanceSet.c
+END
+Nmrc_CsaConstraint.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_CsaConstraint.c
+END
+Nmrc_DihedralConstraintList.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_DihedralConstraintList.c
+END
+Nmrc_ResCoord.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_ResCoord.c
+END
+Nmrc_DihedralConstraint.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_DihedralConstraint.c
+END
+Nmrc_SingleConstraint.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_SingleConstraint.c
+END
+Nmrc_DistanceConstraintList.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_DistanceConstraintList.c
+END
+Nmrc_JCouplingConstraintList.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_JCouplingConstraintList.c
+END
+Nmrc_HBondConstraintList.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_HBondConstraintList.c
+END
+Nmrc_FixedAtomSet.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_FixedAtomSet.c
+END
+Nmrc_DistanceConstraint.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_DistanceConstraint.c
+END
+Nmrc_HBondConstraint.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_HBondConstraint.c
+END
+Nmrc_JCouplingConstraint.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_JCouplingConstraint.c
+END
+Nmrc_DihedralConstraintItem.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_DihedralConstraintItem.c
+END
+Nmrc_ViolationList.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_ViolationList.c
+END
+Nmrc_ChainStateLink.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_ChainStateLink.c
+END
+Nmrc_ConstraintGroup.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_ConstraintGroup.c
+END
+Nmrc_AbstractConstraintList.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_AbstractConstraintList.c
+END
+Nmrc_Violation.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_Violation.c
+END
+Nmrc_AbstractConstraint.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_AbstractConstraint.c
+END
+Nmrc_RdcConstraintList.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_RdcConstraintList.c
+END
+Nmrc_ResStructure.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_ResStructure.c
+END
+Nmrc_ChemShiftConstraintList.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_ChemShiftConstraintList.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Makefile
+END
+Nmrc_RdcConstraint.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_RdcConstraint.c
+END
+Nmrc_JCouplingConstraintItem.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_JCouplingConstraintItem.c
+END
+Nmrc_HBondConstraintItem.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_HBondConstraintItem.c
+END
+Nmrc_NmrConstraintStore.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/6/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_NmrConstraintStore.c
+END
+Nmrc_DistanceConstraintItem.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_DistanceConstraintItem.c
+END
+Nmrc_ChemShiftConstraint.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/nmr/NmrConstraint/Nmrc_ChemShiftConstraint.c
+END

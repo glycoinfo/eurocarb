@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/update
+END
+UpdateAgent.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/update/UpdateAgent.py
+END
+UpdatePopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/update/UpdatePopup.py
+END
+UpdateAdministratorPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/update/UpdateAdministratorPopup.py
+END
+UpdateAuto.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/update/UpdateAuto.py
+END
+uploadFile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/update/uploadFile
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/update/__init__.py
+END

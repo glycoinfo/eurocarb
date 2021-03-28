@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1996/trunk/application/Eurocarbdb/conf
+END
+tomcat-users.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/conf/tomcat-users.xml
+END
+eurocarb-gpf.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1431/trunk/application/Eurocarbdb/conf/eurocarb-gpf.action.xml
+END
+xwork-conversion.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1344/trunk/application/Eurocarbdb/conf/xwork-conversion.properties
+END
+emailConf.properties
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1945/trunk/application/Eurocarbdb/conf/emailConf.properties
+END
+eurocarb-examples.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/conf/eurocarb-examples.action.xml
+END
+eurocarb-ms.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1996/trunk/application/Eurocarbdb/conf/eurocarb-ms.action.xml
+END
+eurocarb-gwb.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1870/trunk/application/Eurocarbdb/conf/eurocarb-gwb.action.xml
+END
+contributer.properties
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1996/trunk/application/Eurocarbdb/conf/contributer.properties
+END
+log4j.properties.production
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1355/trunk/application/Eurocarbdb/conf/log4j.properties.production
+END
+eurocarb-hplc.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1551/trunk/application/Eurocarbdb/conf/eurocarb-hplc.action.xml
+END
+eurocarb-admin.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/652/trunk/application/Eurocarbdb/conf/eurocarb-admin.action.xml
+END
+eurocarb-core.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1891/trunk/application/Eurocarbdb/conf/eurocarb-core.action.xml
+END
+eurocarbdb-application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/923/trunk/application/Eurocarbdb/conf/eurocarbdb-application.properties
+END
+server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/406/trunk/application/Eurocarbdb/conf/server.xml
+END
+eurocarb-nmr.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1443/trunk/application/Eurocarbdb/conf/eurocarb-nmr.action.xml
+END
+log4j.properties.devel
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/conf/log4j.properties.devel
+END
+binding.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/conf/binding.xml
+END
+xwork.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1431/trunk/application/Eurocarbdb/conf/xwork.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1552/trunk/application/Eurocarbdb/conf/log4j.properties
+END
+eurocarb-devel.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/778/trunk/application/Eurocarbdb/conf/eurocarb-devel.action.xml
+END
+webwork.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/conf/webwork.properties
+END
+eurocarb-auth.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/conf/eurocarb-auth.action.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1518/trunk/application/Eurocarbdb/conf/web.xml
+END
+context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1100/trunk/application/Eurocarbdb/conf/context.xml
+END

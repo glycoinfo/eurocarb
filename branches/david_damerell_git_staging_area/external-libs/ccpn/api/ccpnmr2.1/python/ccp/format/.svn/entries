@@ -1,0 +1,216 @@
+10
+
+dir
+26
+http://eurocarbdb-nmr.googlecode.com/svn/trunk/api/ccpnmr2.1/python/ccp/format
+http://eurocarbdb-nmr.googlecode.com/svn
+
+
+
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ccabb5d2-bd44-11dd-94c0-21daf384169b
+
+azara
+dir
+
+molmol
+dir
+
+spectra
+dir
+
+mars
+dir
+
+auremol
+dir
+
+shiftx
+dir
+
+concoord
+dir
+
+charmm
+dir
+
+felix
+dir
+
+mol2
+dir
+
+nmrDraw
+dir
+
+aria
+dir
+
+autoAssign
+dir
+
+csi
+dir
+
+varian
+dir
+
+talos
+dir
+
+pistachio
+dir
+
+module
+dir
+
+nmrView
+dir
+
+aqua
+dir
+
+mol
+dir
+
+xeasy
+dir
+
+cyana
+dir
+
+dyana
+dir
+
+fasta
+dir
+
+ansig
+dir
+
+cosmos
+dir
+
+pdb
+dir
+
+pipp
+dir
+
+sparky
+dir
+
+nmrPipe
+dir
+
+general
+dir
+
+discover
+dir
+
+pronto
+dir
+
+monte
+dir
+
+cns
+dir
+
+_licenseInfo.py
+file
+
+
+
+
+2016-01-08T01:32:22.913190Z
+47a3f6a0a30eca3958cc09ba69b4a394
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2782
+
+pseudoPdb
+dir
+
+nmrStar
+dir
+
+__init__.py
+file
+
+
+
+
+2016-01-08T01:32:22.913190Z
+d41d8cd98f00b204e9800998ecf8427e
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+bruker
+dir
+
+marvin
+dir
+

@@ -1,0 +1,407 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin
+END
+SortingTablePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SortingTablePanel.java
+END
+WorkspacePlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/WorkspacePlugin.java
+END
+ProfilerOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ProfilerOptionsDialog.java
+END
+WorkspacePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/WorkspacePanel.java
+END
+ProgressDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ProgressDialog.java
+END
+PeakFinderPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakFinderPlugin.java
+END
+MultiLineCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/MultiLineCellRenderer.java
+END
+AnnotationPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/AnnotationPlugin.java
+END
+GAGOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GAGOptionsDialog.java
+END
+PeakListPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakListPlugin.java
+END
+Plugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/Plugin.java
+END
+FragmentCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/FragmentCanvas.java
+END
+FragmentSummaryPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/FragmentSummaryPanel.java
+END
+FragmentsPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/FragmentsPlugin.java
+END
+PeakAnnotationSummaryPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakAnnotationSummaryPanel.java
+END
+DictionarySelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DictionarySelection.java
+END
+StructureScorer.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/StructureScorer.java
+END
+CollectionStructureGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/CollectionStructureGenerator.java
+END
+PeakFinderOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakFinderOptions.java
+END
+GAGDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GAGDictionary.java
+END
+StructureDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/StructureDictionary.java
+END
+PeakAnnotationReportPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakAnnotationReportPanel.java
+END
+SearchDetailsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SearchDetailsPanel.java
+END
+ProfilerOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ProfilerOptions.java
+END
+GAGType.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GAGType.java
+END
+MSUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/MSUtils.java
+END
+StructureType.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/StructureType.java
+END
+TablePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/TablePanel.java
+END
+NotesPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/NotesPlugin.java
+END
+ProfilerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ProfilerThread.java
+END
+GAGOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GAGOptions.java
+END
+StoreStructuresDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/StoreStructuresDialog.java
+END
+SpectraPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SpectraPlugin.java
+END
+SearchPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SearchPlugin.java
+END
+GlycanTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GlycanTable.java
+END
+SearchDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SearchDialog.java
+END
+Generator.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/Generator.java
+END
+ReportingPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ReportingPlugin.java
+END
+DictionariesManagerPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DictionariesManagerPanel.java
+END
+PeakListPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakListPanel.java
+END
+DictionaryStructureGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DictionaryStructureGenerator.java
+END
+ProfilerPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ProfilerPlugin.java
+END
+MultiLineHeaderRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/MultiLineHeaderRenderer.java
+END
+SearchSummaryPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SearchSummaryPanel.java
+END
+ScanDataPropertiesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ScanDataPropertiesDialog.java
+END
+AnnotationReportApplet.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/AnnotationReportApplet.java
+END
+GAGPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GAGPlugin.java
+END
+PeakListChartPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakListChartPanel.java
+END
+ScanPropertiesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ScanPropertiesDialog.java
+END
+SpectraPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SpectraPanel.java
+END
+DictionariesSearchPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DictionariesSearchPanel.java
+END
+TableSorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/TableSorter.java
+END
+FragmentDetailsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/FragmentDetailsPanel.java
+END
+PluginManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PluginManager.java
+END
+FragmentEditorPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/FragmentEditorPanel.java
+END
+GeneratorListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GeneratorListener.java
+END
+DocumentPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DocumentPanel.java
+END
+PeakFinderThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakFinderThread.java
+END
+PeakAnnotationDetailsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakAnnotationDetailsPanel.java
+END
+AnnotationThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/AnnotationThread.java
+END
+ResizingTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ResizingTable.java
+END
+PeakAnnotationCalibrationPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakAnnotationCalibrationPanel.java
+END
+DictionariesEditPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DictionariesEditPanel.java
+END
+PeakFinderOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakFinderOptionsDialog.java
+END
+StructureGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/StructureGenerator.java
+END
+NotesPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/NotesPanel.java
+END
+PeakAnnotationStatsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakAnnotationStatsPanel.java
+END

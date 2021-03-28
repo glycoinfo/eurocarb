@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp
+END
+Chem_ChemAtomSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_ChemAtomSet.h
+END
+Chem_NamingSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_NamingSystem.h
+END
+Chem_LinkAtom.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_LinkAtom.h
+END
+Chem_ChemBond.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_ChemBond.h
+END
+Chem_NonStdChemComp.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_NonStdChemComp.h
+END
+Chem_AbstractChemAtom.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_AbstractChemAtom.h
+END
+Chem_ChemAngle.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_ChemAngle.h
+END
+Chem_LinkEnd.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_LinkEnd.h
+END
+Chem_Stereochemistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_Stereochemistry.h
+END
+Chem_ChemTorsion.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_ChemTorsion.h
+END
+Chem_ChemTorsionSysName.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_ChemTorsionSysName.h
+END
+Chem_ChemCompSysName.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_ChemCompSysName.h
+END
+Chem_ChemComp.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_ChemComp.h
+END
+Chem_ChemAtom.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_ChemAtom.h
+END
+Chem_AtomSysName.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_AtomSysName.h
+END
+Chem_ChemCompVar.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_ChemCompVar.h
+END
+Chem_StdChemComp.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/ChemComp/Chem_StdChemComp.h
+END

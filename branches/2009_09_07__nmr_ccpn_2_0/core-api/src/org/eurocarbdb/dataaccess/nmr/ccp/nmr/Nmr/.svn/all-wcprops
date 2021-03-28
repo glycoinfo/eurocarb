@@ -1,0 +1,515 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr
+END
+PeakDimComponent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/PeakDimComponent.hbm.xml
+END
+DataDerivation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/DataDerivation.hbm.xml
+END
+ChainStateSet.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ChainStateSet.hbm.xml
+END
+StructureAnalysis.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/StructureAnalysis.hbm.xml
+END
+SampleConditionSet.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/SampleConditionSet.hbm.xml
+END
+AbstractMeasurementList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/AbstractMeasurementList.hbm.xml
+END
+IsotropicS2Derivation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/IsotropicS2Derivation.hbm.xml
+END
+PeakDimContribN.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/PeakDimContribN.hbm.xml
+END
+SpectralDensityList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/SpectralDensityList.hbm.xml
+END
+SampledDataDim.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/SampledDataDim.hbm.xml
+END
+Datum.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/Datum.hbm.xml
+END
+PeakDim.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/PeakDim.hbm.xml
+END
+Pka.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/Pka.hbm.xml
+END
+StructureGeneration.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/StructureGeneration.hbm.xml
+END
+IsotropicS2List.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/IsotropicS2List.hbm.xml
+END
+Shift.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/Shift.hbm.xml
+END
+ResonanceGroupProb.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ResonanceGroupProb.hbm.xml
+END
+T1List.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/T1List.hbm.xml
+END
+Noe.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/Noe.hbm.xml
+END
+T2List.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/T2List.hbm.xml
+END
+DipolarRelaxList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/DipolarRelaxList.hbm.xml
+END
+DimensionScaling.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/DimensionScaling.hbm.xml
+END
+PeakIntensity.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/PeakIntensity.hbm.xml
+END
+AbstractDataDim.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/AbstractDataDim.hbm.xml
+END
+ShiftDifference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ShiftDifference.hbm.xml
+END
+SparseSampling.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/SparseSampling.hbm.xml
+END
+InternalShiftReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/InternalShiftReference.hbm.xml
+END
+JCoupling.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/JCoupling.hbm.xml
+END
+ResonanceGroup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ResonanceGroup.hbm.xml
+END
+DataSource.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/DataSource.hbm.xml
+END
+T1Rho.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/T1Rho.hbm.xml
+END
+DataSourceImage.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/DataSourceImage.hbm.xml
+END
+ExternalShiftReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ExternalShiftReference.hbm.xml
+END
+ExpChainState.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ExpChainState.hbm.xml
+END
+ShiftAnisotropyList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ShiftAnisotropyList.hbm.xml
+END
+ExpTransfer.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ExpTransfer.hbm.xml
+END
+HExchProtection.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/HExchProtection.hbm.xml
+END
+Rdc.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/Rdc.hbm.xml
+END
+HExchRate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/HExchRate.hbm.xml
+END
+DerivedData.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/DerivedData.hbm.xml
+END
+Peak.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/Peak.hbm.xml
+END
+DipolarRelaxation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/DipolarRelaxation.hbm.xml
+END
+PeakCluster.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/PeakCluster.hbm.xml
+END
+ChainState.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ChainState.hbm.xml
+END
+DataDimRef.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/DataDimRef.hbm.xml
+END
+SpectralDensityDerivation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/SpectralDensityDerivation.hbm.xml
+END
+DataList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/DataList.hbm.xml
+END
+PkaList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/PkaList.hbm.xml
+END
+AbstractMeasurement.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/AbstractMeasurement.hbm.xml
+END
+ShiftList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ShiftList.hbm.xml
+END
+AtomSet.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/AtomSet.hbm.xml
+END
+SpectralDensity.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/SpectralDensity.hbm.xml
+END
+NoeList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/NoeList.hbm.xml
+END
+AbstractPeakDimContrib.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/AbstractPeakDimContrib.hbm.xml
+END
+IsotropicS2.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/IsotropicS2.hbm.xml
+END
+AbstractDataDerivation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/AbstractDataDerivation.hbm.xml
+END
+T1.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/T1.hbm.xml
+END
+NmrExpSeries.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/NmrExpSeries.hbm.xml
+END
+ShiftDifferenceList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ShiftDifferenceList.hbm.xml
+END
+T2.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/T2.hbm.xml
+END
+ResidueTypeProb.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ResidueTypeProb.hbm.xml
+END
+FidDataDim.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/FidDataDim.hbm.xml
+END
+ExpDim.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ExpDim.hbm.xml
+END
+JCouplingList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/JCouplingList.hbm.xml
+END
+SampleCondition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/SampleCondition.hbm.xml
+END
+ShiftReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ShiftReference.hbm.xml
+END
+ExpDimRefMapping.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ExpDimRefMapping.hbm.xml
+END
+PKaDerivation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/PKaDerivation.hbm.xml
+END
+ResonanceProb.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ResonanceProb.hbm.xml
+END
+PeakContrib.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/PeakContrib.hbm.xml
+END
+HExchProtectionList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/HExchProtectionList.hbm.xml
+END
+RdcList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/RdcList.hbm.xml
+END
+ShiftAnisotropy.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ShiftAnisotropy.hbm.xml
+END
+HExchRateList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/HExchRateList.hbm.xml
+END
+DerivedDataList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/DerivedDataList.hbm.xml
+END
+PeakList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/PeakList.hbm.xml
+END
+Resonance.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/Resonance.hbm.xml
+END
+Experiment.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/Experiment.hbm.xml
+END
+FreqDataDim.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/FreqDataDim.hbm.xml
+END
+ExpDimRef.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ExpDimRef.hbm.xml
+END
+ResidueProb.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ResidueProb.hbm.xml
+END
+NmrProject.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/NmrProject.hbm.xml
+END
+T1rhoList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/T1rhoList.hbm.xml
+END
+ResonanceSet.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/ResonanceSet.hbm.xml
+END
+PeakDimContrib.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/Nmr/PeakDimContrib.hbm.xml
+END

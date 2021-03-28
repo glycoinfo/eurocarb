@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 3, 2007 6:49:05 PM by Hibernate Tools 3.1.0.beta4 -->
+<hibernate-mapping default-cascade="save-update">
+
+    <class name="org.eurocarbdb.dataaccess.ms.PeakAnnotatedToIon" table="peak_annotated_to_ion" schema="ms">
+    
+        <id name="peakAnnotatedToIonId" type="int">
+            <column name="peak_annotated_to_ion_id" />
+            <generator class="sequence">
+                <param name="sequence">ms.peak_annotated_to_ion_peak_annotated_to_ion_id_seq</param>
+            </generator>
+        </id>
+        
+        <many-to-one name="ion" class="org.eurocarbdb.dataaccess.ms.Ion" fetch="select">
+            <column name="ion_id" not-null="true" />
+        </many-to-one>
+        
+        <many-to-one name="peakAnnotated" class="org.eurocarbdb.dataaccess.ms.PeakAnnotated" fetch="select">
+            <column name="peak_annotated_id" not-null="true" />
+        </many-to-one>
+        
+        <property name="charge" type="int">
+            <column name="charge" not-null="true" />
+        </property>
+        
+        <property name="gain" type="boolean">
+            <column name="gain" not-null="true" />
+        </property>
+        
+    </class>
+    
+</hibernate-mapping>

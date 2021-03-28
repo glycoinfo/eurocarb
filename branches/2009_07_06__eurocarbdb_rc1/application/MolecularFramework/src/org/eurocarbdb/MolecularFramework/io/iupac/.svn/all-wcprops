@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/iupac
+END
+SugarImporterIupacCondenced.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/iupac/SugarImporterIupacCondenced.java
+END
+IupacSubTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/iupac/IupacSubTree.java
+END
+SugarImporterIupacShortV1.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/iupac/SugarImporterIupacShortV1.java
+END
+SugarImporterIupacShortV2.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/iupac/SugarImporterIupacShortV2.java
+END

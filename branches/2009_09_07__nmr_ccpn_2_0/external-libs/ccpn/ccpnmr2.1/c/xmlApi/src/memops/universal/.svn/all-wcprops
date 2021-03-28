@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/memops/universal
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/memops/universal/Makefile
+END
+Util.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/memops/universal/Util.c
+END
+Io.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/memops/universal/Io.c
+END

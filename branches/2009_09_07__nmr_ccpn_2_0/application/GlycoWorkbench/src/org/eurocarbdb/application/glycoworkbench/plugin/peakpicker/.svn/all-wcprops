@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker
+END
+SignalToNoiseEstimatorMedian.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/SignalToNoiseEstimatorMedian.java
+END
+GaussFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/GaussFilter.java
+END
+ContinuousWaveletTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/ContinuousWaveletTransform.java
+END
+PeakPickerCWT.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/PeakPickerCWT.java
+END
+Param.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/Param.java
+END
+PeakShape.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/PeakShape.java
+END
+MathH.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/MathH.java
+END
+DefaultParamHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/DefaultParamHandler.java
+END
+TopHatFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/TopHatFilter.java
+END
+SignalToNoiseEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/SignalToNoiseEstimator.java
+END
+PeakPickerOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/PeakPickerOptionsDialog.java
+END
+OptimizePeakDeconvolution.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/OptimizePeakDeconvolution.java
+END
+PeakPicker.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/PeakPicker.java
+END
+ContinuousWaveletTransformNumIntegration.java
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/ContinuousWaveletTransformNumIntegration.java
+END
+SmoothFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/peakpicker/SmoothFilter.java
+END

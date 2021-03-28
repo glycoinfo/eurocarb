@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool
+END
+bacdic.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/bacdic.c
+END
+window.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/window.c
+END
+hsvdrfl.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/hsvdrfl.c
+END
+fourier.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/fourier.c
+END
+peakpick1d.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/peakpick1d.c
+END
+dft.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/dft.c
+END
+convolution.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/convolution.c
+END
+integrate.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/integrate.c
+END
+baseline.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/baseline.c
+END
+watwa.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/watwa.c
+END
+hilbert.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/hilbert.c
+END
+contour.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/contour.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/Makefile
+END
+disnmr.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/disnmr.c
+END
+linpredict.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/linpredict.c
+END
+xxarray.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/xxarray.c
+END
+nmrtool.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/nmrtool.h
+END
+rmsnoise.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/rmsnoise.c
+END
+phase.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/phase.c
+END
+brukx32.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/brukx32.c
+END
+ftlipr.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ProSpectND/nmrtool/ftlipr.c
+END

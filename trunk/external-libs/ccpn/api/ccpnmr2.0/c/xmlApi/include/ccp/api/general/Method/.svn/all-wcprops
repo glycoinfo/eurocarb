@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/general/Method
+END
+Meth_Software.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/general/Method/Meth_Software.h
+END
+Meth_MethodStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/general/Method/Meth_MethodStore.h
+END
+Meth_Parameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/general/Method/Meth_Parameter.h
+END
+Meth_Method.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/general/Method/Meth_Method.h
+END

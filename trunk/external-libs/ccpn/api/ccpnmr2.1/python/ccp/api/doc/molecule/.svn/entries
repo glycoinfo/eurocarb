@@ -1,0 +1,95 @@
+10
+
+dir
+26
+http://eurocarbdb-nmr.googlecode.com/svn/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule
+http://eurocarbdb-nmr.googlecode.com/svn
+
+
+
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ccabb5d2-bd44-11dd-94c0-21daf384169b
+
+Molecule
+dir
+
+ChemCompCharge
+dir
+
+ChemElement
+dir
+
+MolStructure
+dir
+
+Stereochemistry
+dir
+
+Validation
+dir
+
+index.html
+file
+
+
+
+
+2016-01-08T01:30:00.431843Z
+0801fcad53dfcd8390fd7738fc81d5dc
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10911
+
+ChemCompLabel
+dir
+
+ChemComp
+dir
+
+MolSystem
+dir
+
+LabeledMolecule
+dir
+
+ChemCompCoord
+dir
+

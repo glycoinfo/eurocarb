@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="IsotropicS2List"
+    extends="ccp.api.nmr.Nmr.DerivedDataList"
+    table="NMR_ISOTROPICS2LIST"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">List of order parameters (S2), calculated assuming isotropic motion.</meta>
+  <key column="DERIVEDDATALISTID" foreign-key="NMR_ISOTS2LIST_DERIDATALIST_FK"/>
+  
+  <property
+    name="_sf"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Spectrometer frequency (in MHz) where order parameters were determined.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SF" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_tauEUnit"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Unit for tau-e (overall correlation time).</meta>
+    <meta attribute="default-value">"s"</meta>
+    <column name="TAUEUNIT" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_tauSUnit"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Unit for tau-s (internal motion correlation time).</meta>
+    <meta attribute="default-value">"s"</meta>
+    <column name="TAUSUNIT" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <set 
+    name="hbDerivations" 
+    table="NMR_ISOTROPICS2DERIVATION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbDerivation</meta>
+    <cache usage="read-write"/>
+    <key column="PARENTLISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.IsotropicS2Derivation"/>
+  </set>
+  
+  <set 
+    name="hbExperiments" 
+    table="NMR_EXPERIMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Experiments for which isotropic order parameter lis is valid.</meta>
+    <meta attribute="base-name">hbExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="ISOTROPICS2LISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Experiment"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

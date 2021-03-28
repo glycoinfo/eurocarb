@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrConstraint">
+  <joined-subclass
+    name="RdcConstraint"
+    extends="ccp.api.nmr.NmrConstraint.SingleConstraint"
+    table="NMRC_RDCCONSTRAINT"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Reduced dipolar coupling constraint. Ambiguous, may contain several RdcConstraintItems, each with a different assignment, describing alternative assignment possibilities.</meta>
+  <key column="SINGLECONSTRAINTID" foreign-key="NMRC_RDCCONS_SINGCONS_FK"/>
+  
+  <property
+    name="_vectorLength"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Length of vector betwen coupled atoms - in Angstrom</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VECTORLENGTH" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <many-to-one
+    name="hbParentList"
+    column="PARENTLISTID"
+    class="ccp.api.nmr.NmrConstraint.RdcConstraintList" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRC_RDCCONS_PARENTLIST_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbItems" 
+    table="NMRC_RDCCONSTRAINTITEM"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbItem</meta>
+    <cache usage="read-write"/>
+    <key column="CONSTRAINTID"/>
+    <one-to-many class="ccp.api.nmr.NmrConstraint.RdcConstraintItem"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

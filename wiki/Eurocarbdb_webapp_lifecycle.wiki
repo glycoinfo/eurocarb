@@ -1,0 +1,54 @@
+=Lifecycle of a http request in the Eurocarbdb web application=
+
+<img src="http://img222.imageshack.us/img222/3717/webapplicationlifecycle.jpg" border="0" align="right" />
+<wiki:toc />
+
+== Lifecycle stages ==
+
+=== Controller servlet ===
+
+This is a [http://opensymphony.com/webwork/ Webwork]/[http://struts.apache.org/2.x/index.html Struts2]-supplied Java applet whose main purpose is to delegate incoming requests to an action instance as determined by reference to passed parameters and application configuration once a basal level of authentication & authorisation has been performed. The controller servlet performs the following logical functions:
+* reception of the initial request
+* determination of which action to perform
+* instantion of this action 
+* delegation of passed parameters to this action
+* forwarding control to the action via action.execute()
+* determination of which view to return based upon the return value of the action.execute() method
+* delegation of rendering this view to the appropriate presentation renderer
+* return of the response
+
+=== Authentication & authorisation ===
+
+The first logical stage in the lifecycle is authentication -- the verification of the identity of the request owner as determined by the possession of a valid session id obtained from either a session cookie passed by the browser, or from passed CGI (or SOAP) parameters. If authenticated, the request is authorised by checking whether the request owner's credentials are sufficient to allow the requesed action or service to proceed. An authentication failure redirects to a login page, whereas an authentication failure would normally return an authentication failure page.
+
+=== Action determination ===
+
+The action to be performed for a given request is normally determined by the request's URL, although may also be determined from a passed parameter in the request, and/or any other pluggable logic mechanism. Note that 1 request (frequently) does not equate to 1 action -- 1 action may take several requests to complete (eg: a "wizard"), and/or 1 request may involve multiple actions, as actions may call other actions internally, may be configured to perform subsequent, chained actions, and/or directives in a returned view may invoke additional actions.
+
+=== Pre-action execution interceptors ===
+
+Webwork/Struts2 defines the concept of an [http://wiki.opensymphony.com/display/WW/Interceptors Interceptor], which is essentially a class that implements the [http://www.opensymphony.com/webwork/api/com/opensymphony/xwork/interceptor/Interceptor.html Interceptor interface]. Interceptors are reusable chunks of arbitrarily complicated code that are run before (and/or after) an action is executed. For example, interceptors can modify the path of execution of an action, veto or change an action's result type, perform special pre- or post-initialisation or cleanup, etc. A large proportion of the functionality provided by Webwork is actually implemented as Interceptors. Typically, interceptors are applied in a "interceptor stack" that is configurable at an action, application, or global level in the xwork.xml configuration file.
+
+Interceptors that wish to run code before as well as after an action should implement the [http://www.opensymphony.com/webwork/api/com/opensymphony/xwork/interceptor/AroundInterceptor.html AroundInterceptor interface], in particular, the [http://www.opensymphony.com/webwork/api/com/opensymphony/xwork/interceptor/AroundInterceptor.html#before(com.opensymphony.xwork.ActionInvocation) before()] and [http://www.opensymphony.com/webwork/api/com/opensymphony/xwork/interceptor/AroundInterceptor.html#after(com.opensymphony.xwork.ActionInvocation,%20java.lang.String) after()] methods.
+
+=== Action execution ===
+
+The [http://www.opensymphony.com/webwork/api/com/opensymphony/xwork/Action.html#execute() Action.execute() method] is the main execution hook for Actions. This is where the main logic of an action is implemented.
+
+=== Post-action execution interceptors ===
+
+As in the section on pre-action execution interceptors, interceptors that are configured for use with a given action have an (optional) opportunity to run additional code/cleanup once an action has been completed by implementing the [http://www.opensymphony.com/webwork/api/com/opensymphony/xwork/interceptor/AroundInterceptor.html#after(com.opensymphony.xwork.ActionInvocation,%20java.lang.String) AroundInterceptor.after() method].
+
+=== View/Outcome determination ===
+
+The return value from the [http://opensymphony.com/webwork/api/com/opensymphony/xwork/Action.html#execute() Action.execute() method] is a String key that determines which user-interface [http://wiki.opensymphony.com/display/WW/Result+Types result-type] (ie: View) should be returned to the user/client by reference to the xwork.xml configuration file. That is, the string returned from Action.execute() is the key that looks up the hash/dictionary of possible views for a given action listed in the xwork.xml configuration file by name. By default, webwork defines a few "common" result types: Action.SUCCESS, Action.ERROR, Action.INPUT and a few others. A typical action that presents a page to a user for input and then stores that data into the DB would require only these 3 Views - an input form, a success page, and an error page. As per the usual web practise, invoking an action with missing or invalid parameters would return the INPUT view, along with any/all parameter errors. An action that required multiple input forms might have several input views, while storing temporary/accumulated data in either the input page itself as hidden attributes and/or in the SessionContext hash.
+
+=== View rendering ===
+
+Views for a HTML-based web application are usually some kind of dynamically rendered template, such as [http://java.sun.com/products/jsp/ Java Server Pages] (JSPs), or [http://freemarker.sourceforge.net/ FreeMarker]/[http://jakarta.apache.org/velocity/ Velocity] templates. Once a view has been determined by name, views that require rendering are passed off to whatever renderer technology is appropriate for its View type. That is, JSPs would be rendered by the Java-supplied JSP renderer servlet, FreeMarker templates by the FreeMarker rendering engine, [http://jasperreports.sourceforge.net/ Jasper report] templates dynamically rendered into PDF documents by Jasper, etc.
+
+It is important to note that directives within the View templates themselves may request other actions or services to be performed; these are handled recursively. A common mechanism to all HTML templating technologies is the concept of recursively including and rendering sub-templates, in order to factor out common chunks of presentation HTML, such as title bars, menus, headers/footers, as well as basic layout CSS & Javascript includes.
+
+== Application configuration ==
+
+The application configuration file 'xwork.xml' is the "core" of the application. It specifies what actions are available, what views are available for each action, application workflow (action order), as well as what interceptors, exceptions & validation components apply to which actions.

@@ -1,0 +1,89 @@
+10
+
+dir
+1997
+http://eurocarb.googlecode.com/svn/trunk/application/Eurocarbdb
+http://eurocarb.googlecode.com/svn
+
+
+
+2010-11-05T18:58:24.619750Z
+1996
+hasysf@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+b1b7f5f2-413c-11de-998b-8fedbbe774c7
+
+build.xml
+file
+
+
+
+
+2016-01-08T01:25:37.292603Z
+6c781735c0a5913324e43ab767cbbd33
+2010-08-19T14:13:35.727910Z
+1955
+hasysf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17943
+
+build
+dir
+
+webapps
+dir
+
+tranche
+dir
+
+conf
+dir
+
+doc
+dir
+
+src
+dir
+
+bin
+dir
+
+data
+dir
+
+resources
+dir
+

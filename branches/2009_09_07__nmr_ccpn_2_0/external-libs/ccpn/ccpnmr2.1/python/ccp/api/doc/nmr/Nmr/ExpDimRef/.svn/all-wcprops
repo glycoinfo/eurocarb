@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef
+END
+maxAliasedFreq.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/maxAliasedFreq.html
+END
+expDim.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/expDim.html
+END
+variableIncrFraction.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/variableIncrFraction.html
+END
+measurementType.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/measurementType.html
+END
+nominalRefValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/nominalRefValue.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/parent.html
+END
+isFolded.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/isFolded.html
+END
+baseFrequency.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/baseFrequency.html
+END
+isAxisReversed.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/isAxisReversed.html
+END
+isotopeCodes.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/isotopeCodes.html
+END
+groupingNumber.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/groupingNumber.html
+END
+isotopes.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/isotopes.html
+END
+getIsotopes.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/getIsotopes.html
+END
+displayName.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/displayName.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/index.html
+END
+sf.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/sf.html
+END
+dimensionScalings.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/dimensionScalings.html
+END
+constantTimePeriod.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/constantTimePeriod.html
+END
+getHasAliasedFreq.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/getHasAliasedFreq.html
+END
+hasAliasedFreq.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/hasAliasedFreq.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/serial.html
+END
+unit.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/unit.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/name.html
+END
+refExpDimRef.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/refExpDimRef.html
+END
+expDimRefMappings.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/expDimRefMappings.html
+END
+dataDimRefs.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/dataDimRefs.html
+END
+minAliasedFreq.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/minAliasedFreq.html
+END
+expTransfers.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/expTransfers.html
+END
+derivedTo.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/Nmr/ExpDimRef/derivedTo.html
+END

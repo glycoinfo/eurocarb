@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1/trunk/database/sql/ms_data
+END
+reducing_end.sql
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/database/sql/ms_data/reducing_end.sql
+END
+manufacturer.sql
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/database/sql/ms_data/manufacturer.sql
+END
+device.sql
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/trunk/database/sql/ms_data/device.sql
+END
+persubstitution.sql
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/database/sql/ms_data/persubstitution.sql
+END
+ion.sql
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/database/sql/ms_data/ion.sql
+END

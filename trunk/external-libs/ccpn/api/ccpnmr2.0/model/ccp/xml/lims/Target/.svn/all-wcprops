@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/lims/Target
+END
+Project.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/lims/Target/Project.xml
+END
+Target.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/lims/Target/Target.xml
+END
+TargetStatus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/lims/Target/TargetStatus.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/lims/Target/package.xml
+END
+TargetStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/lims/Target/TargetStore.xml
+END
+TargetGroup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/lims/Target/TargetGroup.xml
+END

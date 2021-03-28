@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="ShiftAnisotropy"
+    extends="ccp.api.nmr.Nmr.AbstractMeasurement"
+    table="NMR_SHIFTANISOTROPY"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Chemical shift anisotropy measurement.</meta>
+  <key column="ABSTRACTMEASUREMENTID" foreign-key="NMR_SHIFANIS_ABSTMEAS_FK"/>
+  
+  <many-to-one
+    name="hbParentList"
+    column="PARENTLISTID"
+    class="ccp.api.nmr.Nmr.ShiftAnisotropyList" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_SHIFANIS_PARENTLIST_FK" 
+    unique-key="shiftAnisotropyUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbResonance"
+    column="RESONANCEID"
+    class="ccp.api.nmr.Nmr.Resonance" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_SHIFANIS_RESONANCE_FK" 
+    unique-key="shiftAnisotropyUniqueKey" 
+  >
+    <meta attribute="field-description">Resonance that holds chemical shift anisotropy measurement.</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

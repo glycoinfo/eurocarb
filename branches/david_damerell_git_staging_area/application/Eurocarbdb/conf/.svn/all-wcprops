@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1869/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf
+END
+eurocarb-core.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1862/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/eurocarb-core.action.xml
+END
+eurocarb-admin.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/eurocarb-admin.action.xml
+END
+eurocarbdb-application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/eurocarbdb-application.properties
+END
+server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/server.xml
+END
+eurocarb-nmr.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/eurocarb-nmr.action.xml
+END
+log4j.properties.devel
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/log4j.properties.devel
+END
+binding.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/binding.xml
+END
+xwork.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/xwork.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/log4j.properties
+END
+eurocarb-devel.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/eurocarb-devel.action.xml
+END
+webwork.properties
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/webwork.properties
+END
+eurocarb-auth.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/eurocarb-auth.action.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/web.xml
+END
+context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/context.xml
+END
+tomcat-users.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/tomcat-users.xml
+END
+eurocarb-gpf.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/eurocarb-gpf.action.xml
+END
+xwork-conversion.properties
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/xwork-conversion.properties
+END
+eurocarb-examples.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/eurocarb-examples.action.xml
+END
+eurocarb-ms.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1869/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/eurocarb-ms.action.xml
+END
+eurocarb-gwb.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/eurocarb-gwb.action.xml
+END
+log4j.properties.production
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/log4j.properties.production
+END
+eurocarb-hplc.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/conf/eurocarb-hplc.action.xml
+END

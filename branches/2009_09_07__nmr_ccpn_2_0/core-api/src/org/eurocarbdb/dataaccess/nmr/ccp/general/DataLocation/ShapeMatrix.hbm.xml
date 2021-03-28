@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.DataLocation">
+  <joined-subclass
+    name="ShapeMatrix"
+    extends="ccp.api.general.DataLocation.NumericMatrix"
+    table="DLOC_SHAPEMATRIX"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">NumericMatrix stored in decomposed form, as a sum of components, each an outer product of lower-dimensionality shapes. The number of components is given by numRecords. Individual records do not have headers, and the header size refers to the header of the entire dataasource.</meta>
+  <key column="NUMERICMATRIXID" foreign-key="DLOC_SHAPMATR_NUMEMATR_FK"/>
+  
+  <property
+    name="_dataEncoding"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Data Encoding</meta>
+    <meta attribute="default-value">"ascii"</meta>
+    <column name="DATAENCODING" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_isReconstructable"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Is spectrum reconstructable? If true all components can be summed to give a representation of the entire spectrum.</meta>
+    <meta attribute="default-value">false</meta>
+    <column name="ISRECONSTRUCTABLE" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_isResolved"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Is spectrum resolved? If True all components marked 'clean' can be summed to give a correct representation of all significant signal in the spectrum. A spectrum without raw components should be set to resolved.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISRESOLVED" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_numShapes"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Number of shapes per component. Differs from numDims only if some shapes are 2D or higher</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NUMSHAPES" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <set 
+    name="hbComponentShapes" 
+    table="DLOC_COMPONENTSHAPE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbComponentShape</meta>
+    <cache usage="read-write"/>
+    <key column="SHAPEMATRIXID"/>
+    <one-to-many class="ccp.api.general.DataLocation.ComponentShape"/>
+  </set>
+  
+  <set 
+    name="hbComponents" 
+    table="DLOC_COMPONENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbComponent</meta>
+    <cache usage="read-write"/>
+    <key column="SHAPEMATRIXID"/>
+    <one-to-many class="ccp.api.general.DataLocation.Component"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/notation
+END
+notation_schemes.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/notation/notation_schemes.ftl
+END
+notation_basetype.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/notation/notation_basetype.ftl
+END
+notation_start.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/notation/notation_start.ftl
+END
+notation_aglyca.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/notation/notation_aglyca.ftl
+END
+notation_subst.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/notation/notation_subst.ftl
+END
+notation_monosacc.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/web/templates/notation/notation_monosacc.ftl
+END

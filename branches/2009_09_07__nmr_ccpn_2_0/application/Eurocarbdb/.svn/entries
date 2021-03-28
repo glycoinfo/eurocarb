@@ -1,0 +1,89 @@
+10
+
+dir
+1997
+http://eurocarb.googlecode.com/svn/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb
+http://eurocarb.googlecode.com/svn
+
+
+
+2010-10-05T15:23:09.387315Z
+1994
+magnusl@organ.su.se
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+b1b7f5f2-413c-11de-998b-8fedbbe774c7
+
+src
+dir
+
+bin
+dir
+
+data
+dir
+
+resources
+dir
+
+build.xml
+file
+
+
+
+
+2016-01-08T01:26:43.887419Z
+66ec5276e8d3b934df6786ffa4b81310
+2009-09-07T17:31:24.289173Z
+1603
+john.ionides
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17941
+
+build
+dir
+
+webapps
+dir
+
+tranche
+dir
+
+conf
+dir
+
+doc
+dir
+

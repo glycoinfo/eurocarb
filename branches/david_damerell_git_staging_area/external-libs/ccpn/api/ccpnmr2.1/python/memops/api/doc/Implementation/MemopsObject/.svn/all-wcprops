@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsObject
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsObject/index.html
+END
+getByNavigation.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsObject/getByNavigation.html
+END
+getExpandedKey.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsObject/getExpandedKey.html
+END
+isDeleted.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsObject/isDeleted.html
+END
+root.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsObject/root.html
+END

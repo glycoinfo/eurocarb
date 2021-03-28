@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/core/show_tissue_taxonomy
+END
+success.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/core/show_tissue_taxonomy/success.xml.ftl
+END
+distributed-success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/core/show_tissue_taxonomy/distributed-success.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/core/show_tissue_taxonomy/success.ftl
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/core/show_tissue_taxonomy/error.ftl
+END

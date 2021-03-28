@@ -1,0 +1,156 @@
+<#import "/template/lib/Eurocarb.lib.ftl" as ecdb />
+<#assign title>GlycoBase</#assign>
+<#include "/template/common/header.ftl" />
+
+<script type="text/javascript">
+  function toggle_it(itemID){
+  // Toggle visibility between none and inline
+  if ((document.getElementById(itemID).style.display == 'none'))
+  {
+   document.getElementById(itemID).style.display = 'inline';
+  } else {
+   document.getElementById(itemID).style.display = 'none';
+         }
+  }
+</script>
+
+
+<@ecdb.context_box title="Classification">
+<form action="show_glycobaseRefine.action">
+<table>
+<tr class="style7">
+  <td width="100%" align="left"><a href="#" onClick="toggle_it('a1')">A1:</a></td>
+</tr>
+<tr >
+  <td colspan="2">
+        <table width="100%" id="a1" name="a1" style="display:none;">
+          <tr>
+             <td><span class="style7">
+                <INPUT TYPE=CHECKBOX NAME="a1s" value="1">S<br>
+                <INPUT TYPE=CHECKBOX NAME="a1f" value="1">F(6)<br>
+                <INPUT TYPE=CHECKBOX NAME="a1b" value="1">Bisect<br>
+                <INPUT TYPE=CHECKBOX NAME="a1bgal" value="1">B Gal<br>
+                <INPUT TYPE=CHECKBOX NAME="a1agal" value="1">A Gal<br>
+                <INPUT TYPE=CHECKBOX NAME="a1galnac" value="1">GalNAc<br>
+                <INPUT TYPE=CHECKBOX NAME="a1polylac" value="1">Polylac<br>
+                <INPUT TYPE=CHECKBOX NAME="a1fouterarm" value="1">Fuc. Outer<br>
+                <INPUT TYPE=CHECKBOX NAME="a1hybrid" value="1">Hybrid<br>
+                <INPUT TYPE=CHECKBOX NAME="a1mannose" value="1">Mannose<br>
+                </span> </td>
+           </tr>
+         </table>
+    </td>
+</tr>
+
+<tr class="style7">
+  <td width="100%" align="left" height="23" valign="middle"><a href="#" onClick="toggle_it('pr2')">A2:</a></td>
+</tr>
+<tr >
+<td colspan="2">
+       <table width="100%" id="pr2" name="a2" style="display:none;">
+          <tr>
+            <td><span class="style7">
+                <INPUT TYPE=CHECKBOX NAME="a2s" value="1">S<br>
+                <INPUT TYPE=CHECKBOX NAME="a2f" value="1">F(6)<br>
+                <INPUT TYPE=CHECKBOX NAME="a2b" value="1">Bisect<br>
+                <INPUT TYPE=CHECKBOX NAME="a2bgal" value="1">B Gal<br>
+                <INPUT TYPE=CHECKBOX NAME="a2agal" value="1">A Gal<br>
+                <INPUT TYPE=CHECKBOX NAME="a2galnac" value="1">GalNAc<br>
+                <INPUT TYPE=CHECKBOX NAME="a2polylac" value="1">Polylac<br>
+                <INPUT TYPE=CHECKBOX NAME="a2fouterarm" value="1">Fuc. Outer<br>
+                <INPUT TYPE=CHECKBOX NAME="a2hybrid" value="1">Hybrid<br>
+                <INPUT TYPE=CHECKBOX NAME="a2mannose" value="1">Mannose<br>
+                </span> </td>
+	   </tr>
+
+        </table>
+</td>
+</tr>
+<tr class="style7">
+  <td width="100%" align="left" height="23" valign="middle"><a href="#" onClick="toggle_it('pr3')">A3:</a></td>
+ </tr>
+<tr >
+<td colspan="2">
+       <table width="100%" id="pr3" name="a3" style="display:none;">
+          <tr>
+            <td><span class="style7">
+                <INPUT TYPE=CHECKBOX NAME="a3s" value="1">S<br>
+                <INPUT TYPE=CHECKBOX NAME="a3f" value="1">F(6)<br>
+                <INPUT TYPE=CHECKBOX NAME="a3b" value="1">Bisect<br>
+                <INPUT TYPE=CHECKBOX NAME="a3bgal" value="1">B Gal<br>
+                <INPUT TYPE=CHECKBOX NAME="a3agal" value="1">A Gal<br>
+                <INPUT TYPE=CHECKBOX NAME="a3galnac" value="1">GalNAc<br>
+                <INPUT TYPE=CHECKBOX NAME="a3polylac" value="1">Polylac<br>
+                <INPUT TYPE=CHECKBOX NAME="a3fouterarm" value="1">Fuc. Outer<br>
+                <INPUT TYPE=CHECKBOX NAME="a3hybrid" value="1">Hybrid<br>
+                <INPUT TYPE=CHECKBOX NAME="a3mannose" value="1">Mannose<br>
+                </span> </td>
+           </tr>
+
+        </table>
+</td>
+</tr>
+<tr class="style7">
+  <td width="100%" align="left" height="23" valign="middle"><a href="#" onClick="toggle_it('pr4')">A4:</a></td>
+</tr>
+<tr >
+<td colspan="2">
+       <table width="100%" id="pr4" name="4" style="display:none;">
+          <tr>
+            <td><span class="style7">
+                <INPUT TYPE=CHECKBOX NAME="a4s" value="1">S<br>
+                <INPUT TYPE=CHECKBOX NAME="a4f" value="1">F(6)<br>
+                <INPUT TYPE=CHECKBOX NAME="a4b" value="1">Bisect<br>
+                <INPUT TYPE=CHECKBOX NAME="a4bgal" value="1">B Gal<br>
+                <INPUT TYPE=CHECKBOX NAME="a4agal" value="1">A Gal<br>
+                <INPUT TYPE=CHECKBOX NAME="a4galnac" value="1">GalNAc<br>
+                <INPUT TYPE=CHECKBOX NAME="a4polylac" value="1">Polylac<br>
+                <INPUT TYPE=CHECKBOX NAME="a4fouterarm" value="1">Fuc. Outer<br>
+                <INPUT TYPE=CHECKBOX NAME="a4hybrid" value="1">Hybrid<br>
+                <INPUT TYPE=CHECKBOX NAME="a4mannose" value="1">Mannose<br>
+                </span> </td>
+              </tr>
+        </table>
+</td>
+</tr>
+</table>
+<INPUT TYPE=SUBMIT VALUE="Refine Selection">
+</form>
+</@ecdb.context_box>
+
+<h1>GlycoBase</h1>
+<p>A novel database containing published details on 2-aminobenzamide (2AB) label
+led released glycans. Each glycan entry is comprehenisvely annotated with a gluc
+ose unit (GU) value, monosaccharide composition, exoglycosidase digestion pathwa
+ys, MS and MS/MS evidence together with each PubMed reference. Where glycans hav
+e been reported more than once, an average GU value is presented along with the
+standard deviation.
+</p>
+<p>
+We would like to expand the number of glycans identified with different labels a
+nd HPLC techniques, therefore, any groups interested in distributing data via Gl
+ycoBase and EUROCarbDB are invited to contact Matthew Campbell (matthew.campbell
+ [@] nibrt.ie). A majority of the glycans were characterised at the Oxford Glyco
+biology Institute.
+</p>
+<p>GlycoBase: <a href="http://glycobase.ucd.ie">Dubin-Oxford Glycobiology Lab. 2
+AB database</a> developed at <a href="http://www.nibrt.ie">NIBRT</a></p>
+
+
+<@ecdb.page_navigator action_name="show_glycobaseRefine.action?a1s=${a1s}&a1b=${a1b}&a1bgal=${a1bgal}&a1agal=${a1agal}&a1galnac=${a1galnac}&a1polylac=${a1polylac}&a1fouterarm=${a1fouterarm}&a1hybrid=${a1hybrid}&a1mannose=${a1mannose}&a2s=${a2s}&a2b=${a2b}&a2bgal=${a2bgal}&a2agal=${a2agal}&a2galnac=${a2galnac}&a2polylac=${a2polylac}&a2fouterarm=${a2fouterarm}&a2hybrid=${a2hybrid}&a2mannose=${a2mannose}&a3s=${a3s}&a3b=${a3b}&a3bgal=${a3bgal}&a3agal=${a3agal}&a3galnac=${a3galnac}&a3polylac=${a3polylac}&a3fouterarm=${a3fouterarm}&a3hybrid=${a3hybrid}&a3mannose=${a3mannose}&a4s=${a4s}&a4b=${a4b}&a4bgal=${a4bgal}&a4agal=${a4agal}&a4galnac=${a4galnac}&a4polylac=${a4polylac}&a4fouterarm=${a4fouterarm}&a4hybrid=${a4hybrid}&a4mannose=${a4mannose}&"/>
+
+<br/>
+<br/>
+<table class="table_top_header full_width">
+
+<th>Glycan Name</th><th>Structure</th><th>Mean GU Value</th>
+</tr>
+      <#list results as glyco>
+      <tr><td><a href="show_glycanEntry.action?glycanId=${glyco[3]?c}">${glyco[0]}</a><td><img src="get_sugar_image.action?download=true&scale=0.4&outputType=png&glycanSequenceId=${glyco[1]?c}"/><td>${glyco[2]}</tr>
+      </#list>
+</table>
+
+<@ecdb.page_navigator action_name="show_glycobaseRefine.action?a1s=${a1s}&a1b=${a1b}&a1bgal=${a1bgal}&a1agal=${a1agal}&a1galnac=${a1galnac}&a1polylac=${a1polylac}&a1fouterarm=${a1fouterarm}&a1hybrid=${a1hybrid}&a1mannose=${a1mannose}&a2s=${a2s}&a2b=${a2b}&a2bgal=${a2bgal}&a2agal=${a2agal}&a2galnac=${a2galnac}&a2polylac=${a2polylac}&a2fouterarm=${a2fouterarm}&a2hybrid=${a2hybrid}&a2mannose=${a2mannose}&a3s=${a3s}&a3b=${a3b}&a3bgal=${a3bgal}&a3agal=${a3agal}&a3galnac=${a3galnac}&a3polylac=${a3polylac}&a3fouterarm=${a3fouterarm}&a3hybrid=${a3hybrid}&a3mannose=${a3mannose}&a4s=${a4s}&a4b=${a4b}&a4bgal=${a4bgal}&a4agal=${a4agal}&a4galnac=${a4galnac}&a4polylac=${a4polylac}&a4fouterarm=${a4fouterarm}&a4hybrid=${a4hybrid}&a4mannose=${a4mannose}&"/>
+
+<#include "/template/common/footer.ftl" />
+

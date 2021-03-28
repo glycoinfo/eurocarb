@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io
+END
+BcsdbImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/BcsdbImporter.java
+END
+MonosaccharideImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MonosaccharideImporter.java
+END
+Mol2Exporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/Mol2Exporter.java
+END
+BcsdbExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/BcsdbExporter.java
+END
+MonosaccharideConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MonosaccharideConverter.java
+END
+MonosaccharideExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MonosaccharideExporter.java
+END
+MsdbSeedImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MsdbSeedImporter.java
+END
+MonosaccharideExchangeObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MonosaccharideExchangeObject.java
+END
+CfgImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/CfgImporter.java
+END
+StandardImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/StandardImporter.java
+END
+HibernateAccess.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/HibernateAccess.java
+END
+NameParsingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/NameParsingException.java
+END
+SubstituentExchangeObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/SubstituentExchangeObject.java
+END
+HibernateGenericEnumUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/HibernateGenericEnumUserType.java
+END
+CarbbankImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/CarbbankImporter.java
+END
+MonosaccharideConversion.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MonosaccharideConversion.java
+END
+GlycoCTImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/GlycoCTImporter.java
+END
+CfgExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/CfgExporter.java
+END
+StandardExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/StandardExporter.java
+END
+CarbbankExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/CarbbankExporter.java
+END
+GlycoCTExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/GlycoCTExporter.java
+END

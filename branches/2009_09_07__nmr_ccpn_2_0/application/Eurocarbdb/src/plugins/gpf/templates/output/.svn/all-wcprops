@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gpf/templates/output
+END
+glycopeakfinder_result.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_result.ftl
+END
+glycopeakfinder_save.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_save.ftl
+END
+glycopeakfinder_load.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_load.ftl
+END
+glycopeakfinder_settings.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_settings.ftl
+END
+glycosciences_structure.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gpf/templates/output/glycosciences_structure.ftl
+END
+glycopeakfinder_error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_error.ftl
+END
+glycopeakfinder_structure_glycosciences.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_structure_glycosciences.ftl
+END

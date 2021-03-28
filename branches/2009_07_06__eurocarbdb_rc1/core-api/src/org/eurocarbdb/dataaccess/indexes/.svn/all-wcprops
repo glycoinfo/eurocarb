@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1576/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/dataaccess/indexes
+END
+Index.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/dataaccess/indexes/Index.java
+END
+IndexByMostEvidence.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1576/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/dataaccess/indexes/IndexByMostEvidence.java
+END
+Indexable.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/dataaccess/indexes/Indexable.java
+END
+IndexByResidueCount.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/dataaccess/indexes/IndexByResidueCount.java
+END
+IndexByContributorName.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/dataaccess/indexes/IndexByContributorName.java
+END
+IndexByContributedDate.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/src/org/eurocarbdb/dataaccess/indexes/IndexByContributedDate.java
+END

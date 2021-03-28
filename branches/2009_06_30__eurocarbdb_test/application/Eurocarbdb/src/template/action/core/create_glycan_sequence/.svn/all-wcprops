@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/create_glycan_sequence
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/create_glycan_sequence/success.ftl
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/create_glycan_sequence/input.ftl
+END

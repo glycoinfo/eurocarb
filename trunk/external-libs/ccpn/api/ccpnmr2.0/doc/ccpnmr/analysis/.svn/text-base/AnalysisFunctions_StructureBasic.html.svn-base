@@ -1,0 +1,409 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis Functions:StructureBasic</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis Functions:StructureBasic</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Coding Library:</NOBR> <NOBR>Analysis Functions</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">AssignmentBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_ConstraintBasic.html">ConstraintBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_DataAnalysisBasic.html">DataAnalysisBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_ExperimentBasic.html">ExperimentBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_MarkBasic.html">MarkBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_MoleculeBasic.html">MoleculeBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_PeakBasic.html">PeakBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_QualityControlBasic.html">QualityControlBasic</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="AnalysisFunctions_StructureBasic.html">StructureBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_WindowBasic.html">WindowBasic</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>  <TABLE WIDTH="100%">
+    <TR><TD COLSPAN=3 CLASS="pageHead">alignCoordinates <SPAN CLASS="i">(coords1, coords0, allCoords, W)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Align on two sets of coordinates (may be sub sets of whole)             and then update all coordinates given this new position.             Coordinates are weighted for alignment.    </TD><TD CLASS="pageBody"> List of List of Floats (x,y,z), List of List of Floats (reference x,y,z),             List of List of Floats (x,y,z), List of Floats (weights)    </TD><TD CLASS="pageBody"> List of List of Floats (aligned x,y,z), List of List of Floats (all updated x,y,z), Float (fitting score)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">alignResStructures <SPAN CLASS="i">(resStructures, refResStructure, atomSelection=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Align two resonance structures. Can restrict aligned resonances by resonance.assignName    </TD><TD CLASS="pageBody"> NmrConstraint.ResStructure, NmrConstraint.ResStructure, List of Strings    </TD><TD CLASS="pageBody"> Float (RMSD of alignment)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">alignResStructuresToAll <SPAN CLASS="i">(resStructures)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Align a series of resonances structures with themselves.    </TD><TD CLASS="pageBody"> List of NmrConstraint.ResStructures    </TD><TD CLASS="pageBody"> Float (RMSD of alignment)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">alignStructures <SPAN CLASS="i">(structures, atomSelection='backbone')</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Align structures according to an atomic selection ('backbone','heavy','carbon','nitrogen' or 'all')    </TD><TD CLASS="pageBody"> List of MolSystem.MolStructure. String    </TD><TD CLASS="pageBody"> Float (overall RMSD), List of Floats (RMSDs to mean)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">centerCoordinates <SPAN CLASS="i">(coords)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> More the centre of mass of input coordinates to the origin.    </TD><TD CLASS="pageBody"> List of List of Floats (x,z,y coords)    </TD><TD CLASS="pageBody"> List of List of Floats (x,z,y coords)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">centerStructures <SPAN CLASS="i">(structures, coordSet=0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Move the input structures' centre of mass  to the origin.    </TD><TD CLASS="pageBody"> List of MolSystem.MolStructures/NmrConstraint.ResStructures, Integer    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">eigenJacobi <SPAN CLASS="i">(M)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Translated from Numerical Recipes in C: 11.1 Jacobi Transformations of a Symmetric Matrix    </TD><TD CLASS="pageBody"> List of Floats    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">eigenSort <SPAN CLASS="i">(d, V)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> A sort a matrix to give decreasing eigenvalues in its eigenvector    </TD><TD CLASS="pageBody"> List of Floats (eigenvalues), List of List of Floats    </TD><TD CLASS="pageBody"> List of Floats (eigenvalues), List of List of Floats  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findMatchingMolSystemAtom <SPAN CLASS="i">(atomName, residue, namingSystem)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the best matching CCPN atom name in a residue for the input atom name in the input naming system             Will try other naming systems if the input one doesn't work    </TD><TD CLASS="pageBody"> Word (imported atom name), MolSystem.Residue, Word (ChemAtomSysName.namingSystem)    </TD><TD CLASS="pageBody"> Word (MolSystem.Atom.name)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getAtomSetCoords <SPAN CLASS="i">(atomSet, structure, coordSet=0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the coordinates corresponsing to an NMR atom set in a given structure.             An optional coordinate set may be specified if the structure has many models.    </TD><TD CLASS="pageBody"> Nmr.AtomSet, MolSystem.MolStructure, Integer    </TD><TD CLASS="pageBody"> List of List of Floats (x,y,z for each atom)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getAtomSetsDihedral <SPAN CLASS="i">(atomSets, structure, coordSet=0, inDegrees=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Measure the dihedral angle in a structure between four groups             of atoms (lists of atom sets). Input atom sets are a list of lists             to allow for ambigous assignments (e.g. Ser Hb*) here the mean position is used.             Option to specify degrees or radians.    </TD><TD CLASS="pageBody"> 4 List of List of Nmr.AtomSets, MolSystem.MolStructure, Int, Boolean    </TD><TD CLASS="pageBody"> Float  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getAtomSetsDistance <SPAN CLASS="i">(atomSets1, atomSets2, structure, coordSet=0, method='noe')</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the distance between to atom sets in a specified structure             Distances for multi atom atom sets are calculated using the NOE sum.             An optional coordinate set may be specified if the structure has             many models, otherwise all coordinate sets of an ensemble will             be considered and an avergate distance is returned.             The method can be either "noe" for NOE sum, "min" for minimum distance             or "max" for maximum distance.    </TD><TD CLASS="pageBody"> Nmr.AtomSet, Nmr.AtomSet, MolSystem.MolStructure, Integer or None, Word    </TD><TD CLASS="pageBody"> Float (distance)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getBestChemComp <SPAN CLASS="i">(project, resName, atomNames)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the best matching ccpCode (often 3 letters) for the input residue name             that has the input atomNames    </TD><TD CLASS="pageBody"> Implementation.Project, Word (imported residue name), List of Words (imported atom names)    </TD><TD CLASS="pageBody"> Word (Molecule.MolResidue.ccpCodes)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getBestMolType <SPAN CLASS="i">(atomNames, ccpCodes=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine the best molecule type (protein, DNA, RNA, carohydrate or nonpolymer) given the input atom names             and residue ccpCodes    </TD><TD CLASS="pageBody"> List of Words (imported atom names), List of Words (Molecule.MolResidue.ccpCodes)    </TD><TD CLASS="pageBody"> Word (Molecule.Molecule.molType)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getBestNamingSystem <SPAN CLASS="i">(residues, atomNamesList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine the best naming system for a list of list of atom names which             correspond to the input residues.    </TD><TD CLASS="pageBody"> List of MolSystem.Residues, List of List of Words (imported atom names)    </TD><TD CLASS="pageBody"> Word (ChemAtomSysName.namingSystem)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getCentreOfMass <SPAN CLASS="i">(coords)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the center of mass of data model coordinates. (Uss atomic weights)    </TD><TD CLASS="pageBody"> List of MolStructure.Coords    </TD><TD CLASS="pageBody"> List of Floats (x,y,z centre of mass)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getMeanCoords <SPAN CLASS="i">(coordList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the mean position of data model coordinates.    </TD><TD CLASS="pageBody"> List of MolStructure.Coords    </TD><TD CLASS="pageBody"> List of Floats (x,y,z coords of mean)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getMeanStrucCoords <SPAN CLASS="i">(structureCoords)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the mean position of input coordinates of multiple structures.    </TD><TD CLASS="pageBody"> List of List of List of Floats (x,y,z per atom per structure)    </TD><TD CLASS="pageBody"> List of List of Floats (mean x,y,z per atom)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getResiduePhiPsi <SPAN CLASS="i">(residue, inDegrees=True, coordSet=0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the Phi and Psi backbone dihedral angles for a residue in a structure.             Option inDegrees can be set to False to get an angle in radians.    </TD><TD CLASS="pageBody"> MolStructure.Residue, Boolean, Int    </TD><TD CLASS="pageBody"> 2-List of Floats (Phi, Psi)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getResonancesForStructureGeneration <SPAN CLASS="i">(structureGeneration, constraintType='DistanceConstraint')</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the resonances used in a structure generation rum in order of their serial numbers.             Queries constraint lists of the specified type for the resonances.    </TD><TD CLASS="pageBody"> Nmr.StructureGeneration, String (constraint type)    </TD><TD CLASS="pageBody"> List of Nmr.Resonances  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getRmsd <SPAN CLASS="i">(structureCoords)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the root mean square devatation for a list of structures (their coordinates in lists)    </TD><TD CLASS="pageBody"> List of List of List of Floats (x,y,z per atom per structure)    </TD><TD CLASS="pageBody"> Float  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getStructureCoordinateWeights <SPAN CLASS="i">(structure, atomSelection, coordSet=0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get the coordinates and weights of the atoms in a structure. May select according to atom type             ('backbone','heavy','carbon','nitrogen' or 'all').    </TD><TD CLASS="pageBody"> MolSystem.MolStructure, List of Strings (atom.name), Integer (MolStructure.Atom coords selection)    </TD><TD CLASS="pageBody"> List of List of Floats (x,z,y coords), List of Floats (atomic weights)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getStructureFromFile <SPAN CLASS="i">(molSystem, fileName, fileType='rough', doWarnings=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Creates a structure in a molecular system by loading a PDB style file.             Option to specfiy the type of file loaded (proper PDB, rough PDB or CNS style)    </TD><TD CLASS="pageBody"> MolSystem.MolSystem, String (File Name), String (file type)    </TD><TD CLASS="pageBody"> List of MolSystem.MolStructures  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">invertResStructure <SPAN CLASS="i">(resStructure)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make the mirror image of a resonance structure    </TD><TD CLASS="pageBody"> NmrConstraint.ResStructure    </TD><TD CLASS="pageBody"> NmrConstraint.ResStructure  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makePdbFromResStructure <SPAN CLASS="i">(fileName, resStructure)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a PDB file from a resonance structure.    </TD><TD CLASS="pageBody"> String (file name), NmrConstraint.ResStructure    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makePdbFromStructure <SPAN CLASS="i">(fileName, structure, coordSet=0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a PDB file from a structure (one model).    </TD><TD CLASS="pageBody"> String (file name), MolSystem.MolStructure, Integer (model)    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeResStructureFromPdb <SPAN CLASS="i">(fileName, project, structureGeneration=None, elementSymbols=['H'])</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a resonance structure from a PDB style file.    </TD><TD CLASS="pageBody"> String (file name), Project, Nmr.StructureGeneration, Strings (chem element symbol)    </TD><TD CLASS="pageBody"> NmrConstraint.ResStructure  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeResStructureFromStructure <SPAN CLASS="i">(structure, structureGeneration=None, atomSelection='all')</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a resonance structure from a mol system structure.             Atom selection may be 'methyl', 'amide' or 'all'.    </TD><TD CLASS="pageBody"> MolSystem.MolStructure, Nmr.StructureGeneration, String    </TD><TD CLASS="pageBody"> NmrConstraint.ResStructure  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeStructureDictFromCnsPdb <SPAN CLASS="i">(fileName)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a structure dictionary [model][chainCode][resNum][atomName] = (x,y,z coords)             from a CNS format PDB file.    </TD><TD CLASS="pageBody"> String (file name)    </TD><TD CLASS="pageBody"> Dictionary  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeStructureDictFromRoughPdb <SPAN CLASS="i">(fileName)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a structure dictionary [model][chainCode][resNum][atomName] = (x,y,z coords)             from a non-standard PDB file.    </TD><TD CLASS="pageBody"> String (file name)    </TD><TD CLASS="pageBody"> Dictionary  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeStructureDictFromTruePdb <SPAN CLASS="i">(fileName)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a structure dictionary [model][chainCode][resNum][atomName] = (x,y,z coords)             from a well formatted PDB file.    </TD><TD CLASS="pageBody"> String (file name)    </TD><TD CLASS="pageBody"> Dictionary  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeStructures <SPAN CLASS="i">(structureDict, molSystem, doWarnings=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Makes structures from a structure dictionary [model][chainCode][resNum][atomName] = (x,y,z coords) in a mol system.    </TD><TD CLASS="pageBody"> Dictionary, MolSystem.MolSystem    </TD><TD CLASS="pageBody"> List of MolSystem.MolStructures  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">matrixDeterminant3d <SPAN CLASS="i">(M)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the determinant of a 3x3 matrix    </TD><TD CLASS="pageBody"> List of List of Floats (3x3 matrix)    </TD><TD CLASS="pageBody"> Float  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">matrixIdentity <SPAN CLASS="i">(n)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make an identity matrix of specified size.    </TD><TD CLASS="pageBody"> Integer    </TD><TD CLASS="pageBody"> List of List of Floats  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">matrixMultiply <SPAN CLASS="i">(M, N)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Multiply two matrices    </TD><TD CLASS="pageBody"> List of List of Floats, List of List of Floats    </TD><TD CLASS="pageBody"> List of List of Floats  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">matrixTranspose <SPAN CLASS="i">(M)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a transpose matrix (with columns that correspond to the rows of an input matrix)    </TD><TD CLASS="pageBody"> List of List of Floats    </TD><TD CLASS="pageBody"> List of List of Floats  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">matrixVecMultiply <SPAN CLASS="i">(M, V)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Apply a matrix transformation to a vector    </TD><TD CLASS="pageBody"> List of List of Floats (matrix), List of Floats (vector)    </TD><TD CLASS="pageBody"> List of Floats (vector)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">moveCoords <SPAN CLASS="i">(coords, vector)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Move data model coordinates according to a vactor.    </TD><TD CLASS="pageBody"> List of MolStructure.Coords, List of Floats (translation vector)    </TD><TD CLASS="pageBody"> List of MolStructure.Coords  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">rotate <SPAN CLASS="i">(a, i, j, k, l, s, tau)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Used in eigenJacobi() only    </TD><TD CLASS="pageBody"> List of List of Floats, Integer, Integer, Integer, Integer, Float, Float    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">scalarProduct3d <SPAN CLASS="i">(V, W)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the scalar product of two vectors    </TD><TD CLASS="pageBody"> List of Floats,  List of Floats    </TD><TD CLASS="pageBody"> Float  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">squareVector <SPAN CLASS="i">(V)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the sum of the squares of a vectors values    </TD><TD CLASS="pageBody"> List of Floats    </TD><TD CLASS="pageBody"> Float  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">unitVector <SPAN CLASS="i">(V)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the vecot of unit length in the same direction as the input vector.    </TD><TD CLASS="pageBody"> List of Floats    </TD><TD CLASS="pageBody"> List of Floats (unit vector)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">vectorModulus <SPAN CLASS="i">(V)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the length of a vector    </TD><TD CLASS="pageBody"> List of Floats    </TD><TD CLASS="pageBody"> Float  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">vectorProduct3d <SPAN CLASS="i">(v, w)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the cross product of two 3D vectors.    </TD><TD CLASS="pageBody"> List of Floats, List of Floats    </TD><TD CLASS="pageBody"> List of Floats (vector product)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">vectorScale <SPAN CLASS="i">(V, f)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Scale the magnitude of a vector by a specified value.    </TD><TD CLASS="pageBody"> List of Floats (vector), Float (scale value)    </TD><TD CLASS="pageBody"> List of Floats (scaled vector)  </TD></TR>
+    <TR><TD></TD></TR>
+  </TABLE>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

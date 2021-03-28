@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Instrument">
+  <joined-subclass
+    name="Column"
+    extends="ccp.api.general.Instrument.Instrument"
+    table="INST_COLUMN"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">The column instrument.</meta>
+  <key column="INSTRUMENTID" foreign-key="INST_COLUMN_INSTRUMENT_FK"/>
+  
+  <property
+    name="_columnType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">The type of the column.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="COLUMNTYPE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_volume"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The volume of the column in m3.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VOLUME" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_volumeDisplayUnit"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">This is the unit entered by user and used for display.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VOLUMEDISPLAYUNIT" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <many-to-one
+    name="hbLoadingMethod"
+    column="LOADINGMETHODID"
+    class="ccp.api.general.Method.Method" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="INST_COLUMN_LOADMETH_FK" 
+  >
+    <meta attribute="field-description">The method used to load the sample into the column e.g. injected (HPLC), gravity, ...</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

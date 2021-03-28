@@ -1,0 +1,377 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation
+END
+Line.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Line.xml
+END
+MemopsObject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/MemopsObject.xml
+END
+NonNegativeInt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/NonNegativeInt.xml
+END
+NegativeFloat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/NegativeFloat.xml
+END
+SingleLine.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/SingleLine.xml
+END
+LongWord.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/LongWord.xml
+END
+FileStorageObject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/FileStorageObject.xml
+END
+NegativeDouble.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/NegativeDouble.xml
+END
+DbTopObject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/DbTopObject.xml
+END
+Long.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Long.xml
+END
+DataObject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/DataObject.xml
+END
+AppDataFloat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/AppDataFloat.xml
+END
+FloatRatio.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/FloatRatio.xml
+END
+PrintFormat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/PrintFormat.xml
+END
+Float.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Float.xml
+END
+AppDataDouble.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/AppDataDouble.xml
+END
+String.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/String.xml
+END
+PaperUnit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/PaperUnit.xml
+END
+NonNegativeDouble.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/NonNegativeDouble.xml
+END
+RgbColor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/RgbColor.xml
+END
+DbMemopsRoot.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/DbMemopsRoot.xml
+END
+Page.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Page.xml
+END
+ImplementationObject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/ImplementationObject.xml
+END
+NegativeInt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/NegativeInt.xml
+END
+GuidString.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/GuidString.xml
+END
+Repository.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Repository.xml
+END
+Dict.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Dict.xml
+END
+MemopsDataTypeObject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/MemopsDataTypeObject.xml
+END
+PathString.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/PathString.xml
+END
+StringKeyDict.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/StringKeyDict.xml
+END
+Text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Text.xml
+END
+UrlProtocol.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/UrlProtocol.xml
+END
+AppDataInt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/AppDataInt.xml
+END
+Any.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Any.xml
+END
+PositiveFloat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/PositiveFloat.xml
+END
+TopObject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/TopObject.xml
+END
+FileTopObject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/FileTopObject.xml
+END
+AppDataLong.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/AppDataLong.xml
+END
+Int.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Int.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/package.xml
+END
+DateTime.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/DateTime.xml
+END
+ApplicationData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/ApplicationData.xml
+END
+PositiveDouble.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/PositiveDouble.xml
+END
+AppDataString.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/AppDataString.xml
+END
+Url.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Url.xml
+END
+ComplexDataType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/ComplexDataType.xml
+END
+NonNegativeFloat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/NonNegativeFloat.xml
+END
+FileMemopsRoot.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/FileMemopsRoot.xml
+END
+MemopsRoot.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/MemopsRoot.xml
+END
+SpacelessString.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/SpacelessString.xml
+END
+Double.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Double.xml
+END
+AppDataBoolean.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/AppDataBoolean.xml
+END
+Word.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Word.xml
+END
+IntSign.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/IntSign.xml
+END
+StorageFormat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/StorageFormat.xml
+END
+PositiveInt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/PositiveInt.xml
+END
+Boolean.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Boolean.xml
+END
+PackageLocator.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/PackageLocator.xml
+END
+Token.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/Token.xml
+END
+PaperFormat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/PaperFormat.xml
+END
+SymmTracelessMatrix.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/SymmTracelessMatrix.xml
+END
+PaperOrientation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/memops/xml/Implementation/PaperOrientation.xml
+END

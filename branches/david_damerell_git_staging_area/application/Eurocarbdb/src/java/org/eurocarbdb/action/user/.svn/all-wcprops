@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/user
+END
+UserDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/user/UserDetails.java
+END
+UserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/user/UserManager.java
+END
+OpenIdAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/user/OpenIdAuthenticator.java
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params
+END
+NmrPipeParams.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/NmrPipeParams.py
+END
+BrukerParams.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/BrukerParams.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/__init__.py
+END
+AzaraParamsOld.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/AzaraParamsOld.py
+END
+AzaraParams.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/AzaraParams.py
+END
+NmrPipeData.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/NmrPipeData.py
+END
+VarianParams.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/VarianParams.py
+END
+UcsfParams.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/UcsfParams.py
+END
+ExternalParams.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/ExternalParams.py
+END
+FactorisedParams.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/FactorisedParams.py
+END
+FelixParams.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/FelixParams.py
+END
+NmrViewParams.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/spectra/params/NmrViewParams.py
+END

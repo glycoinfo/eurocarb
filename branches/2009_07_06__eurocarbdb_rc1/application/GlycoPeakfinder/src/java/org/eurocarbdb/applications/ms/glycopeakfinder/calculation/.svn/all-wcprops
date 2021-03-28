@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation
+END
+ParameterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/ParameterException.java
+END
+ParameterParsingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/ParameterParsingException.java
+END
+GlycoPeakfinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/GlycoPeakfinder.java
+END

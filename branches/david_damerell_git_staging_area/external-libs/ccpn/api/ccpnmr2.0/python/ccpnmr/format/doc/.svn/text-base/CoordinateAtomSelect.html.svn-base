@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-CoordinateAtomSelect</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>CoordinateAtomSelect</H1>
+            <H2>Coordinate atom selection</H2>
+        <P ALIGN="LEFT">This window appears when no match was found for a coordinate atom name within
+        the selected naming system.</P>
+        <P ALIGN="LEFT">'<B>Residue type</B>' lists the 3 letter code used for this residue.</P>
+        <P ALIGN="LEFT">'<B>Atom</B>' lists the coordinate atom name from the imported data file (<I>note that this is always converted into the format 'chainCode.sequenceCode.atomName'</I>)</P>
+        <P ALIGN="LEFT">Next to '<B>Pick atom</B>' a selection list appears that contains suggested matches for this atom coordinate. The atom names are IUPAC. If the desired atom is not present in this list, press '<B>Show all</B>' to list all atoms available in this residue.</P>
+        <P ALIGN="LEFT"><B>Propagation of the selected mapping</B> can be done using the bottom selection. This way similar cases will be automatically handled when encountered. The mapping is used in the following way in these options:
+        <UL>
+        <LH></LH>
+        <LI><B>Only this residue</B>: only for this residue in this chain
+        <LI><B>All residues of XXX type in this chain</B>: for all residues of a certain type (e.g. ILE) in only this chain
+        <LI><B>All residues of XXX type in coordinate file</B>: for all residues of a certain type (e.g. ILE) in all chains in the coordinate file
+        </UL>
+        </P>
+        <P ALIGN="LEFT">Press '<B>Do not link</B>' if none of the atom names apply - the coordinate atom will be ignored.</P>
+        <P ALIGN="LEFT">Press '<B>OK</B>' if you agree with your selections.</P>
+
+    </TABLE>
+  </BODY>
+</HTML>

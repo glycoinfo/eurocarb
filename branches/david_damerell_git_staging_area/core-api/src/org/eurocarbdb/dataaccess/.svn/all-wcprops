@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1859/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/package.html
+END
+Eurocarb.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1804/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/Eurocarb.java
+END
+Contributed.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/Contributed.java
+END
+EntityDoesntExistException.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/EntityDoesntExistException.java
+END
+EntityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/EntityManager.java
+END
+HibernateEntityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/HibernateEntityManager.java
+END
+EurocarbObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/EurocarbObject.java
+END
+HibernateXMLEntityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/HibernateXMLEntityManager.java
+END
+BasicEurocarbObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/BasicEurocarbObject.java
+END

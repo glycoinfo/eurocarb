@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Citation">
+  <joined-subclass
+    name="ConferenceCitation"
+    extends="ccp.api.general.Citation.Citation"
+    table="CITA_CONFERENCECITATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Citation (litterature reference) to Conference presentation</meta>
+  <key column="CITATIONID" foreign-key="CITA_CONFCITA_CITATION_FK"/>
+  
+  <property
+    name="_abstractNumber"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Abstract 'number' (not an integer) of presentation.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ABSTRACTNUMBER" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_city"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">City where conference is held</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CITY" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_conferenceSite"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Location of conference</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CONFERENCESITE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_conferenceTitle"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Title of cnference</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CONFERENCETITLE" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_country"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Country where conference is held</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="COUNTRY" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_endDate"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Finishing date of conference</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ENDDATE" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_startDate"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Starting date of conference</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="STARTDATE" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_stateProvince"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">State or provinde where conference is held</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="STATEPROVINCE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

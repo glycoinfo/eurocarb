@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-Glossary:Glossary</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #C0C0FF;
+                background-color: #E0E0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr FormatConverter Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_FormatConverterinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoFormatConverter.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MenuOverview.html">Main menu</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>F.A.Q.</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="QuickStart.html">Quick start</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Tutorial.html">Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Examples.html">Examples</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AcqProcParsEditAzara.html">FormatConverter</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MeasurementSelect.html">FormatConverter selections</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Other</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Concepts_Resonance.html">Concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Glossary.html">Glossary</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Glossary:Glossary</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>        <B>Resonance</B>
+        <P ALIGN="LEFT">This is the CCP resonance object. All NMR information is linked to resonance
+        objects in the Data Model. A resonance object is linked to atom objects via resonanceSet and
+        atomSet objects: the resonance derives its meaning (is 'assigned') from the way it is linked
+        to an atom via these objects. </P>
+        <P ALIGN="LEFT"><B>Imported resonance name
+        </B></P>
+        <P ALIGN="LEFT">This is the original name given to a resonance object when first created during file import. It is in the form '<chainID>.<seqCode>.<atomName>', but is fully file format and naming system specific. It is used in the linkResonances script to set the resonance to atom link - only then is the resonance 'assigned' within the Data Model. In certain cases it can be re-used for export, although errors are likely if changes were made to the Data Model objects between import and export.
+        </P>
+        <P ALIGN="LEFT"><B>CCP resonance name
+        </B></P>
+        <P ALIGN="LEFT">This is a name given to the resonance object when it is linked to atom(s) with the linkResonances script. It is in the form '<chainID>.<seqCode>.<atomName>', with the chainID and seqCode conform to the chain and residue objects in the Data Model. The atomName is derived from the atomSet(s) the resonance is linked to. In the case of non-stereospecifically assigned prochirals the name will end in a/b to denote its status (e.g. HBa and HBb for an Asp).
+        </P>
+        <P ALIGN="LEFT"><B>File format
+        </B></P>
+        <P ALIGN="LEFT">This is the format of a file. It only describes the way in which data is represented in a file (e.g. in an nmrStar file the format would be 'nmrStar', even though the information contained within it could come from XPLOR). Examples of file formats are nmrView, nmrStar, XEasy, ... .
+        </P>
+        <P ALIGN="LEFT"><B>Naming system
+        </B></P>
+        <P ALIGN="LEFT">This is the naming system used for import/export of atom names. All atom names conforming to the chosen naming system will be automatically translated: during import, the resonance to atom link will be set automatically, during export, the resonance to atom link will be interpreted and the relevant atom name written out automatically. Examples of naming systems are XPLOR, DIANA, IUPAC, ... . Within the Data Model IUPAC names are used.
+        </P>
+        <P ALIGN="LEFT"><B>Resonance set
+        </B></P>
+        <P ALIGN="LEFT">A resonance can be linked to one resonance set only, but one resonance set can have many resonances. The resonance set is also linked to atom sets. The purpose of the resonance set is to describe the ambiguity of the resonance assignment.
+        </P>
+        <P ALIGN="LEFT"><B>Atom set
+        </B></P>
+        <P ALIGN="LEFT">An atom set combines atoms that are equivalent for NMR purposes. For example, a methyl group is described by one atom set which is linked to three atoms (e.g. for alanine an HB* atom set is linked to atoms HB1, HB2, HB3). It can be linked to multiple resonance sets.
+        </P>
+        <P ALIGN="LEFT"><B>Atom
+        </B></P>
+        <P ALIGN="LEFT">An atom describes an actual atom within a molecule. It is linked to a residue and to reference information contained in the chemAtom object, which describes bond, nucleus, isotope, charge, names for the atom in different naming systems, and other information.
+        </P>  
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

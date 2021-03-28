@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/general/DataLocation/ShapeMatrix
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/general/DataLocation/ShapeMatrix/index.html
+END
+isReconstructable.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/general/DataLocation/ShapeMatrix/isReconstructable.html
+END
+isResolved.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/general/DataLocation/ShapeMatrix/isResolved.html
+END
+dataEncoding.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/general/DataLocation/ShapeMatrix/dataEncoding.html
+END
+headerSize.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/general/DataLocation/ShapeMatrix/headerSize.html
+END
+numShapes.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/general/DataLocation/ShapeMatrix/numShapes.html
+END
+components.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/general/DataLocation/ShapeMatrix/components.html
+END
+componentShapes.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/general/DataLocation/ShapeMatrix/componentShapes.html
+END

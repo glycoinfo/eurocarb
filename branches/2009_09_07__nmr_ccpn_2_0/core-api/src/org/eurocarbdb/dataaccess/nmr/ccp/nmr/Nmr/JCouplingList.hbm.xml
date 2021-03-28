@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="JCouplingList"
+    extends="ccp.api.nmr.Nmr.AbstractMeasurementList"
+    table="NMR_JCOUPLINGLIST"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">List of J coupling measurements</meta>
+  <key column="ABSTRACTMEASUREMENTLISTID" foreign-key="NMR_JCOUPLIST_ABSTMEASLIST_FK"/>
+  
+  <property
+    name="_sf"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Spectrometer frequency in MHz at which J couplings were measured.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SF" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <set 
+    name="hbExperiments" 
+    table="NMR_EXPERIMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Experiments for which JCouplingList is valid</meta>
+    <meta attribute="base-name">hbExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="JCOUPLINGLISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Experiment"/>
+  </set>
+  
+  <set 
+    name="hbMeasurements" 
+    table="NMR_JCOUPLING"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbMeasurement</meta>
+    <cache usage="read-write"/>
+    <key column="PARENTLISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.JCoupling"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

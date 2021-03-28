@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-Examples</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>Examples</H1>
+            <H1>Examples of how to use the Python layer of the FormatConverter</H1>
+        <P ALIGN="LEFT">In the python/ccpnmr/format/examples/ directory you can find
+        some example Python scripts that show you how to use the FormatConverter without
+        having to access the GUI layer. This is very useful if you have to repeat an
+        import/export many times - it allows you to automate the process.</P>
+        <P ALIGN="LEFT">The example scripts are: </P>
+        <UL>
+        <LI><I>convertCns2Pdb.py</I>: Shows how to convert CNS-type coordinate files to PDB-like
+        coordinate files with the correct PDB atom naming. Also resets the path names. <B>Level:
+        intermediate</B>
+        <LI><I>convertNmrView2XEasy.py</I>: Shows how to convert NmrView to XEasy files via the data
+        model using the FormatConverter Python layer. <B>Level: intermediate</B>
+        <LI><I>importCnsConstraints.py</I>:Shows how to import a CNS constraint file into the data
+        model by directly using the FormatConverter Python layer. <B>Level: basic</B>
+        <LI><I>importSequenceFile.py</I>:Shows how to import a Fasta sequence file into the data
+        model by directly using the FormatConverter Python layer. <B>Level: basic</B>
+        </UL>	  
+       <P ALIGN="LEFT">Note that example scripts on how to use the (lowest level) Python API itself
+       are also available in the python/ccp/examples directory. </P>
+
+    </TABLE>
+  </BODY>
+</HTML>

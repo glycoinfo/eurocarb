@@ -1,0 +1,103 @@
+#summary One-sentence summary of this page.
+
+<wiki:toc>
+
+
+=Getting the code=
+
+If you're serious about contributing to the project, you will want to [http://groups.google.com/group/eurocarb-devel/topics contact us] to request to become a member of the project. It's probably a good idea to join this mailing list regardless of whether you intend to contribute code back to the project. Alternatively, or additionally, you may like to join just the [http://groups.google.com/group/eurocarb-users/topics eurocarb users] mailing list.
+
+===Read only access===
+{{{
+svn checkout http://eurocarb.googlecode.com/svn/trunk/ eurocarb-read-only
+}}}
+
+_Git instructions_
+{{{
+mkdir eurocarb
+cd eurocarb
+git svn init  http://eurocarb.googlecode.com/svn/ -T trunk -b branches -t tags
+git svn fetch
+}}}
+
+===Read/Write access===
+If you have write access to the project please use these commands instead.  When using either git or SVN you will be asked for a password - as long as you are logged into google with the email address you registered with the Eurocarb project you can find the password [http://code.google.com/hosting/settings here].
+{{{
+svn checkout https://eurocarb.googlecode.com/svn/trunk/ eurocarb --username yourUserName@someDomain.com
+}}}
+
+_Git instructions_
+{{{
+mkdir eurocarb
+cd eurocarb
+git svn init --username yourUserName@someDomain.com  https://eurocarb.googlecode.com/svn/ -T trunk -b branches -t tags
+git svn fetch
+}}}
+More information on using svn can be found [http://code.google.com/p/eurocarb/source/checkout here] and detailed [GitInstructions git usage instructions] here.
+
+=Installation=
+
+==Quick summary for the impatient==
+A lot of changes have been made recently to the Eurocarb code - as a result the older and slightly smaller set of installation instructions are no longer valid.  Please follow the commands below one-by-one.  If your prompted for a password the default is "flipper".  Please make sure you have installed Apache Tomcat and Postgresql before proceeding.
+
+{{{
+export TOMCAT_BIN=/location/for/tomcat/bin/
+ant setup
+mkdir database/data
+wget http://nixbioinf.org/eurocarb/ebi_2nd_dec_2009.sql -O database/data/ebi_2nd_dec_2009.sql
+cd database/scripts/org/eurocarb/database/upgrade/
+ant upgrade-ebi_2nd_dec_2009-r1804-clean
+ant upgrade-ebi_10th_mar_2010-r1894
+ant upgrade-ebi_13th_jun_2010-r1916-schema
+cd ../../../../../../
+ant webapp-sync-live
+}}}
+
+This will compile everything from source using all the default (production) settings, and assuming Tomcat and Postgres are installed, will start a server running Eurocarbdb on the local machine on port 8123, at the local address http://localhost:8123/eurocarb/home.action
+
+The patch upgrade-ebi_10th_mar_2010-r1894 will encrypt the passwords in the contributor (uses jasypt). So, the plain text password is 'mowgli12'. please use this password inorder to login. 
+
+The whole installation will take roughly 20 minutes, depending on your hardware and internet connections.
+
+To empty the core schema use this command: 
+{{{
+cd database/scripts/org/eurocarb/database/upgrade/
+ant upgrade-ebi_13th_jun_2010-r1916-empty-core-schema
+}}}
+
+==Configuration==
+
+{{{ant setup}}} creates a default local configuration, of which the single most important file is {{{conf/site.properties}}}, which is created from [http://code.google.com/p/eurocarb/source/browse/trunk/conf/default.site.properties conf/default.site.properties]. Properties set in this file are included by all sub-projects and applications, effectively overriding eurocarb default settings. This is where database connection properties are normally found, amongst other things.
+ 
+There are various other configuration files that are specific to sub-projects, eg: [http://code.google.com/p/eurocarb/source/browse/trunk/core-api/conf/eurocarbdb-core.properties core-api/conf/eurocarbdb-core.properties] for the core-api, and [http://code.google.com/p/eurocarb/source/browse/trunk/application/Eurocarbdb/conf/eurocarbdb-application.properties application/Eurocarbdb/conf/eurocarbdb-application.properties] for the main Eurocarbdb web application. Eurocarb properties from these sub-project config files may be freely copied into {{{conf/site.properties}}} and edited as needed. 
+
+One important configuration you must change is emailConf.propteries. This file is under eurocarbRoot/application/Eurocarbdb/conf folder. Please update this file inorder to have email notifications working.
+
+==Installing the database==
+
+This procedure is still being finalised; you'll need to 
+[http://groups.google.com/group/eurocarb-devel/topics contact one of the developers]
+in order to obtain a current database dump.
+
+==Building==
+
+The whole project can be built from the top level with:
+{{{
+    ant build
+}}}
+
+or a specific project built by one of the other {{{ant build-*}}} targets (see the output of {{{ant -p}}}), or by cd'ing into a sub-project directory and running {{{ant build}}} locally. In all cases, sub-projects are configured to build their own cross-project dependencies.
+
+==Running==
+
+{{{
+    ant start
+}}}
+
+looks for a Tomcat somewhere in /usr/ , which is where the Tomcat usually can be found. If your tomcat is in another location, or you wish to skip the search for the tomcat binary, you can set an environment variable to point to the bin directory of the tomcat
+
+For example, if your tomcat is located in your /usr/local/tomcat-5.5 directory:
+
+{{{
+    export TOMCAT_BIN=/usr/local/tomcat-5.5/bin
+}}}

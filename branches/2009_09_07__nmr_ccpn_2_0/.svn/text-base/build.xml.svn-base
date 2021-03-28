@@ -1,0 +1,230 @@
+<project name="eurocarb" default="help" xmlns:ac="antlib:net.sf.antcontrib" >
+
+    <!--
+    !   this import defines the following:
+    !
+    !   1) 'project.*' properties  
+    !   2) 'project.classpath' path, containing all external and eurocarb-compiled jars.
+    !   3) 'build-XXX' tasks, where 'XXX' is the name of a sub-project                
+    !
+    -->
+    <import file="./build.common.xml"/>
+  
+    
+    <!--============================ TARGETS ===============================-->
+    <!--                  in alphabetical order please                      -->
+    
+    
+    <!-- TARGET: build ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <path id="classpath">
+       <pathelement path="${api.xml.dir}" />
+       <fileset dir="${toolslib.dir}">
+            <include name="*.jar" />
+        </fileset>
+        <fileset dir="${lib.dir}">
+            <include name="postgresql-8.1-405.jdbc3.jar" />
+        </fileset>
+    </path>
+
+    <target name="build" 
+        depends="build-check, build-eurocarbdb" 
+        description="Builds all sub-projects" 
+        >
+        <echo>Finished building sub-projects</echo>
+
+    </target>
+
+  
+    <!-- TARGET: clean ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Removes compiled binaries/libs from all sub-projects.
+    -->
+	<target name="clean" depends="" description="Removes compiled binaries/libs from all sub-projects">
+        <echo>Cleaning ${ant.project.name}</echo>
+        <delete includeemptydirs="true" >
+            <fileset dir="${project.binary.dir}" includes="**/*"/>
+            <fileset dir="${project.java.lib.dir}" includes="**/*"/>
+            <fileset dir="${project.webapp.dir}" includes="**/*"/>
+        </delete>     	        
+        <subant failonerror="false" verbose="true">
+            <fileset dir="." includes="core-api/build.xml" excludes="build.xml"/>
+            <fileset dir="." includes="application/*/build.xml" excludes="build.xml"/>
+            <target name="clean"/>
+        </subant>
+    </target>	
+    
+
+    <target name="initialise">
+        <java fork="true" maxmemory="512M" classname="LoadRefData" classpathref="project.classpath">
+          <arg line="refData" />
+          <arg line="${project.dir}/application/Eurocarbdb/data/ccpn_user_data/refData"/>
+          <arg line="${project.dir}/application/Eurocarbdb/data/ccpn_ref_data/"/>
+	  <env key="CATALINA_OPTS" value="-Xms128m -Xmx256m -XX:+CMSClassUnloadingEnabled -XX:+CMSPermGenSweepingEnabled -XX:PermSize=64m -XX:MaxPermSize=128m" />
+	  <env key="JAVA_OPTS" value="-Xms128m -Xmx1024m -XX:+CMSClassUnloadingEnabled -XX:+CMSPermGenSweepingEnabled -XX:PermSize=64m -XX:MaxPermSize=512m" />
+        </java>
+    </target>
+
+    <target name="load-batch-nmr">
+        <java fork="true" maxmemory="512M" classname="org.eurocarbdb.action.nmr.LoadBatchData" classpathref="project.classpath">
+          <arg line="${arg1}" />
+          <arg line="${arg2}" />
+          <arg line="${arg3}" />
+          <arg line="${arg4}" />
+          <arg line="${arg5}" />
+
+	  <env key="CATALINA_OPTS" value="-Xms128m -Xmx256m -XX:+CMSClassUnloadingEnabled -XX:+CMSPermGenSweepingEnabled -XX:PermSize=64m -XX:MaxPermSize=128m" />
+	  <env key="JAVA_OPTS" value="-Xms128m -Xmx1024m -XX:+CMSClassUnloadingEnabled -XX:+CMSPermGenSweepingEnabled -XX:PermSize=64m -XX:MaxPermSize=512m" />
+        </java>
+    </target>
+
+    <target name="run-batch-casper">
+        <java fork="true" maxmemory="512M" classname="org.eurocarbdb.action.nmr.RunBatchCasper" classpathref="project.classpath">
+          <arg line="${arg1}" />
+          <arg line="${arg2}" />
+          <arg line="${arg3}" />
+          <arg line="${arg4}" />
+          <arg line="${arg5}" />
+
+	  <env key="CATALINA_OPTS" value="-Xms128m -Xmx256m -XX:+CMSClassUnloadingEnabled -XX:+CMSPermGenSweepingEnabled -XX:PermSize=64m -XX:MaxPermSize=128m" />
+	  <env key="JAVA_OPTS" value="-Xms128m -Xmx1024m -XX:+CMSClassUnloadingEnabled -XX:+CMSPermGenSweepingEnabled -XX:PermSize=64m -XX:MaxPermSize=512m" />
+        </java>
+    </target>
+    
+    <!-- TARGET: setup ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <target name="setup" 
+        depends="resolve-external-dependencies" 
+        description="Initialises config files from a fresh checkout of eurocarb, or when config properties have been changed"
+        >
+        <echo>initialising site project properties from default:</echo>
+        <echo>    ${project.conf.dir}/default.site.properties</echo>
+        <copy file="${project.conf.dir}/default.site.properties" 
+            tofile="${project.conf}" 
+            verbose="true" />
+    </target>
+    
+
+    <!-- TARGET: install ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+
+    <target name="dropdb" description="Drops the database.">
+          <exec failOnError="false" executable="dropdb"><arg line="-U ${ecdb.db.username} '${ecdb.db.name}'" /></exec>
+    </target>
+
+
+    <target name="install" description="Downloads and installs the database">
+        <echo>    Installing new database into ${ecdb.db.name}</echo>
+
+        <echo>    Creating new database ${ecdb.db.name}</echo>
+        <exec failOnError="true" executable="createdb"><arg line="-U ${ecdb.db.username} '${ecdb.db.name}' -E UTF8" /></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/create_schema_core.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/create_schema_core.sql"/></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/create_schema_core_views.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/create_schema_core_views.sql"/></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/create_schema_core_comments.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/create_schema_core_comments.sql"/></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/create_schema_seq.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/create_schema_seq.sql"/></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/create_schema_local.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/create_schema_local.sql"/></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/create_schema_hplc.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/create_schema_hplc.sql"/></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/create_schema_ms.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/create_schema_ms.sql"/></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/create_schema_nmr.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/create_schema_nmr.sql"/></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/create_schema_ccpn.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/create_schema_ccpn.sql"/></exec>
+    
+    
+        <echo>    Adding DDL from ${project.sql.dir}/create_substructure_queries.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/create_substructure_queries.sql"/></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/create_substructure.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/create_substructure.sql"/></exec>
+
+        <echo>Database build complete</echo>
+
+        <fail>TODO</fail>
+    </target>
+
+
+    <target name="install-data" description="Populate DB">
+
+        <echo>Populating</echo>
+
+   <!-- This looks as though it loads from an xml but it creates a table first. Need to check
+    !   what this is up to (does this table already exist etc)
+
+        <echo>    Adding DDL from ${project.sql.dir}/import_glycomedb.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/import_glycomedb.sql"/></exec>
+    -->    
+
+    
+        <echo>    Adding DDL from ${project.sql.dir}/load_ms_data.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/load_ms_data.sql"/></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/hplc_data_starting.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/hplc_data_starting.sql"/></exec>
+
+        <echo>    Adding DDL from ${project.sql.dir}/import_hplc.sql</echo>
+        <exec output="${project.log.dir}/install-ddl.out" failOnError="true" executable="${postgres.binary}"><arg line="-q -U ${ecdb.db.username} -d ${ecdb.db.name} -f ${project.sql.dir}/import_hplc.sql"/></exec>
+
+        <fail>TODO</fail>
+    </target>
+        
+    
+    <!-- TARGET: start ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <target name="start" description="">
+        <echo>starting tomcat</echo>
+        <mkdir dir="${project.log.dir}" />
+        <mkdir dir="${project.temp.dir}"/>
+        <touch file="${project.log.dir}/catalina.out"/>
+        <!--
+        <touch file="${project.log.dir}/catalina.out"/>
+        <java jar="${tomcat.home}/bin/bootstrap.jar" fork="true" spawn="true">
+            <jvmarg value="-Dcatalina.home=${tomcat.home}" />
+            <jvmarg value="-Dcatalina.base=${project.dir}" />
+            <jvmarg value="-Dcatalina.pid=${project.log.dir}/catalina.pid" />
+            <arg line="start"/>
+        </java>
+        -->
+        <exec executable="${project.dir}/application/Eurocarbdb/bin/start.sh">
+	  <env key="CCPNMR_TOP_DIR" value="${project.ccpn.top.dir}" />
+	  <env key="PYTHONPATH" value="${project.ccpn.top.dir}/python" />
+	  <env key="CATALINA_OPTS" value="-Xms128m -Xmx256m -XX:+CMSClassUnloadingEnabled -XX:+CMSPermGenSweepingEnabled -XX:PermSize=64m -XX:MaxPermSize=128m" />
+	  <env key="JAVA_OPTS" value="-Xms128m -Xmx256m -XX:+CMSClassUnloadingEnabled -XX:+CMSPermGenSweepingEnabled -XX:PermSize=64m -XX:MaxPermSize=128m" />
+	</exec>
+    </target>
+
+
+    <!-- TARGET: stop ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <target name="stop" description="">
+        <!-- <java jar="${tomcat.home}/bin/bootstrap.jar" fork="true">
+            <jvmarg value="-Dcatalina.home=${tomcat.home}" />
+            <jvmarg value="-Dcatalina.base=${project.dir}" />
+            <jvmarg value="-Dcatalina.pid=${project.log.dir}/catalina.pid" />
+            <arg line="stop"/>
+        </java> -->
+        <exec executable="${project.dir}/application/Eurocarbdb/bin/stop.sh"/>
+    </target>    
+
+
+    <!-- TARGET: help ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+	<target name="help" depends="">
+		<echo>the 'help' target is being reworked. be patient.</echo>
+	</target>
+	
+</project>

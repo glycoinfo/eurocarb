@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement
+END
+measurementType.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement/measurementType.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement/index.html
+END
+atomSites.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement/atomSites.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement/parent.html
+END
+expSteps.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement/expSteps.html
+END
+nmrExpPrototype.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement/nmrExpPrototype.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement/serial.html
+END
+atomSiteWeights.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement/atomSiteWeights.html
+END
+expGraphs.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement/expGraphs.html
+END
+getExpGraphs.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement/getExpGraphs.html
+END
+refExpDimRefs.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrExpPrototype/ExpMeasurement/refExpDimRefs.html
+END

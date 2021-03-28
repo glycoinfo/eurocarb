@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 3, 2007 6:49:08 PM by Hibernate Tools 3.1.0.beta4 -->
+<hibernate-mapping default-cascade="save-update">
+
+    <!-- ms.Acquisition subclasses core.Evidence -->
+    <joined-subclass name="org.eurocarbdb.dataaccess.ms.Acquisition"
+                     extends="org.eurocarbdb.dataaccess.core.Evidence"
+                     table="acquisition" 
+                     schema="ms"
+                     node="mass_spec_evidence"
+    >
+        <!-- joins evidence table on fkey evidence_id -->
+        <key column="evidence_id" unique="true" property-ref="evidenceId" />
+        
+        <!--======================  properties  =============================-->
+        
+        <property name="acquisitionId" unique="true" type="int" insert="false" generated="insert" access="field">
+            <column name="acquisition_id" />
+        </property>
+
+        <property name="filename" type="string">
+            <column name="filename" length="256" not-null="true" />
+        </property>
+        
+        <property name="filetype" type="string">
+            <column name="filetype" length="50" not-null="true" />
+        </property>
+        
+        <property name="contributorQuality" type="double">
+            <column name="contributor_quality" precision="8" scale="0" not-null="true" />
+        </property>
+
+        <property name="dateObtained" type="timestamp">
+            <column name="date_obtained" length="8" />
+        </property>
+        
+        <!--======================  associations  ===========================-->
+        
+        <many-to-one name="device" class="org.eurocarbdb.dataaccess.ms.Device">
+            <column name="device_id" not-null="true" />
+        </many-to-one>
+        
+<!--        
+        <many-to-one name="contributor" class="org.eurocarbdb.dataaccess.core.Contributor" node="contributor/@id">
+            <column name="contributor_id" not-null="true" />
+        </many-to-one>       
+-->        
+        <set name="scans" inverse="true" embed-xml="false">
+            <key column="acquisition_id" not-null="true" unique="true" property-ref="acquisitionId"/>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.Scan" />
+        </set>
+        
+        <set name="deviceSettingses" inverse="true">
+            <key column="acquisition_id" not-null="true" unique="true" property-ref="acquisitionId"/>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.DeviceSettings" />
+        </set>
+
+        <!--=====================  named queries  =============================-->
+     
+        <!-- 
+        query : BY_ID
+        author: ac
+        -->
+        <query name="BY_ID" comment="Retrieve an acquisition by :acquisitionId."> 
+            select a from Acquisition as a 
+            where a.acquisitionId = :acquisitionId
+        </query>
+        
+    </joined-subclass>
+    
+</hibernate-mapping>

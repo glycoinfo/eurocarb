@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/util
+END
+SMTPAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/util/SMTPAuthenticator.java
+END
+ComparatorAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/util/ComparatorAnnotation.java
+END
+DBInterfaceMasses.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/util/DBInterfaceMasses.java
+END
+GlycoPeakfinderException.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/util/GlycoPeakfinderException.java
+END
+DBInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/util/DBInterface.java
+END
+Configuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/util/Configuration.java
+END
+ComparatorPeak.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/util/ComparatorPeak.java
+END
+ErrorTextEnglish.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/util/ErrorTextEnglish.java
+END

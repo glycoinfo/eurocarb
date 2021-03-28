@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1100/trunk/application/GlycoPeakfinder/src/templates
+END
+introduction.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1100/trunk/application/GlycoPeakfinder/src/templates/introduction.ftl
+END
+critical_error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1100/trunk/application/GlycoPeakfinder/src/templates/critical_error.ftl
+END
+contact_success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1100/trunk/application/GlycoPeakfinder/src/templates/contact_success.ftl
+END
+download.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1100/trunk/application/GlycoPeakfinder/src/templates/download.ftl
+END
+side_menu.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1100/trunk/application/GlycoPeakfinder/src/templates/side_menu.ftl
+END
+header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1100/trunk/application/GlycoPeakfinder/src/templates/header.ftl
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1100/trunk/application/GlycoPeakfinder/src/templates/error.ftl
+END
+footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1100/trunk/application/GlycoPeakfinder/src/templates/footer.ftl
+END
+contact_form.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1100/trunk/application/GlycoPeakfinder/src/templates/contact_form.ftl
+END

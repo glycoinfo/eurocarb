@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates
+END
+todo.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/todo.ftl
+END
+header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/header.ftl
+END
+show_substituent.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/show_substituent.ftl
+END
+builder_form_atomgroups.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/builder_form_atomgroups.ftl
+END
+show_element.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/show_element.ftl
+END
+about.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/about.ftl
+END
+msdb_index.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/msdb_index.html
+END
+contact.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/contact.ftl
+END
+msdb_styles.css
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/msdb_styles.css
+END
+footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/footer.ftl
+END
+msdb_error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/msdb_error.ftl
+END
+show_monosaccharide.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/show_monosaccharide.ftl
+END
+msdb_start.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/web/templates/msdb_start.ftl
+END

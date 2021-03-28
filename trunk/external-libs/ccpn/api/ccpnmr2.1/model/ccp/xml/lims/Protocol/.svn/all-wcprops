@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol
+END
+AddStep.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/AddStep.xml
+END
+PressStep.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/PressStep.xml
+END
+Procedure.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/Procedure.xml
+END
+ParameterDefinition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/ParameterDefinition.xml
+END
+TemperatureStep.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/TemperatureStep.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/package.xml
+END
+RefInputSample.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/RefInputSample.xml
+END
+RefOutputSample.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/RefOutputSample.xml
+END
+WaitStep.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/WaitStep.xml
+END
+Protocol.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/Protocol.xml
+END
+SonicationStep.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/SonicationStep.xml
+END
+FlowStep.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/FlowStep.xml
+END
+FiltrationStep.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/FiltrationStep.xml
+END
+FlowType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/FlowType.xml
+END
+Step.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/Step.xml
+END
+CentrifugationStep.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/CentrifugationStep.xml
+END
+ProtocolStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/ProtocolStore.xml
+END
+ParamDefType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Protocol/ParamDefType.xml
+END

@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/serial.html
+END
+distribution.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/distribution.html
+END
+getChemAtoms.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/getChemAtoms.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/name.html
+END
+chemAtoms.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/chemAtoms.html
+END
+randomCoilValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/randomCoilValue.html
+END
+refPoint.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/refPoint.html
+END
+addDistribution.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/addDistribution.html
+END
+stdDev.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/stdDev.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/parent.html
+END
+subType.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/subType.html
+END
+numPoints.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/numPoints.html
+END
+getNumPoints.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/getNumPoints.html
+END
+removeDistribution.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/removeDistribution.html
+END
+valuePerPoint.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/valuePerPoint.html
+END
+chemCompVarNmrRefs.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/chemCompVarNmrRefs.html
+END
+chemAtomShiftCorrs.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/chemAtomShiftCorrs.html
+END
+chemCompNmrRef.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/chemCompNmrRef.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/index.html
+END
+refValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/refValue.html
+END
+meanValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrReference/ChemAtomNmrRef/meanValue.html
+END

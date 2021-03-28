@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/AbstractChemAtom
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/AbstractChemAtom/name.html
+END
+stereochemistries.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/AbstractChemAtom/stereochemistries.html
+END
+chemBonds.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/AbstractChemAtom/chemBonds.html
+END
+chemAngles.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/AbstractChemAtom/chemAngles.html
+END
+chemCompVars.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/AbstractChemAtom/chemCompVars.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/AbstractChemAtom/index.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/AbstractChemAtom/parent.html
+END
+subType.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/AbstractChemAtom/subType.html
+END
+chemComp.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/AbstractChemAtom/chemComp.html
+END
+chemTorsions.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/AbstractChemAtom/chemTorsions.html
+END

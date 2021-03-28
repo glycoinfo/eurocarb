@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/ansig
+END
+peaksIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/ansig/peaksIO.py
+END
+projectIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/ansig/projectIO.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/ansig/__init__.py
+END
+sequenceIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/ansig/sequenceIO.py
+END
+generalIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/ansig/generalIO.py
+END

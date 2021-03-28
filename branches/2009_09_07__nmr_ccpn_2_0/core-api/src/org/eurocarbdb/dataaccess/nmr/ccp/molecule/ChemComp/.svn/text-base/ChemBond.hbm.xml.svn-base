@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.ChemComp">
+  <class
+    name="ChemBond"
+    table="CHEM_CHEMBOND"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Bond between chemAtoms. Defines topology of ChemCompVars</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.molecule.ChemComp.ChemComp"
+    not-null="true"
+    unique="false"
+    foreign-key="CHEM_CHEMBOND_CHEMCOMP_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_bondType"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Type of bond (single, double, etc.); possible values given in the BondType datatype.</meta>
+    <meta attribute="default-value">"single"</meta>
+    <column name="BONDTYPE" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_stereochem"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">Bond stereochemistry in IUPAC notation(E/Z/unknown). Only applicable to double bonds and similar.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="STEREOCHEM" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="CHEM_CHEMBOND2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbChemComp"
+    column="CHEMCOMPID"
+    class="ccp.api.molecule.ChemComp.ChemComp" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="CHEM_CHEMBOND_CHEMCOMP_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbChemAtoms" 
+    table="CHEM_CHEMBOND2CHEMATOMS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">AbstractChemAtoms making up ChemBond</meta>
+    <meta attribute="base-name">hbChemAtom</meta>
+    <cache usage="read-write"/>
+    <key column="CHEMBONDID" foreign-key="CHEM_ABSTCHEMATOM_CHEMBONDS_FK"/>
+    <many-to-many column="CHEMATOMID" class="ccp.api.molecule.ChemComp.AbstractChemAtom" foreign-key="CHEM_CHEMBOND_CHEMATOMS_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

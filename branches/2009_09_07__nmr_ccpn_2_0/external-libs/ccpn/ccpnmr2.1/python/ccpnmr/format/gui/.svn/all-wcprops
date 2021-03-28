@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui
+END
+ChainLinkPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ChainLinkPopup.py
+END
+ChemCompSelectionPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ChemCompSelectionPopup.py
+END
+WriteMappingPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/WriteMappingPopup.py
+END
+PeakDimSelectPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/PeakDimSelectPopup.py
+END
+BasePopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/BasePopup.py
+END
+GroupChemShiftsPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/GroupChemShiftsPopup.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/__init__.py
+END
+ObjectEditPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ObjectEditPopup.py
+END
+CrossLine.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/CrossLine.py
+END
+NamingSystemPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/NamingSystemPopup.py
+END
+LinkResonancesPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/LinkResonancesPopup.py
+END
+ColumnInfoSelectionPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ColumnInfoSelectionPopup.py
+END
+AutoAssignProjectInfoPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/AutoAssignProjectInfoPopup.py
+END
+ChainExportPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ChainExportPopup.py
+END
+ProchiralStatusPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ProchiralStatusPopup.py
+END
+WindowFunctionSelect.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/WindowFunctionSelect.py
+END
+InfoPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/InfoPopup.py
+END
+FormatConverter.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/FormatConverter.py
+END
+AtomSelectPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/AtomSelectPopup.py
+END
+SequenceChemCompSelect.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/SequenceChemCompSelect.py
+END
+ProcFilePopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ProcFilePopup.py
+END
+ExperimentCreatePopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ExperimentCreatePopup.py
+END
+TextOutputPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/TextOutputPopup.py
+END
+ChemCompInfoPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ChemCompInfoPopup.py
+END
+DataShifter.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/DataShifter.py
+END
+ResonanceSelectPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ResonanceSelectPopup.py
+END
+ObjectButton.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ObjectButton.py
+END
+ProcParToExpDimPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ProcParToExpDimPopup.py
+END
+SelectionListPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/SelectionListPopup.py
+END
+WriteBmrbChemShiftDepPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/WriteBmrbChemShiftDepPopup.py
+END
+SingleResonanceStatusPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/SingleResonanceStatusPopup.py
+END
+AcqProcParsEditPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/AcqProcParsEditPopup.py
+END
+AutoAssignIOCyclePopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/AutoAssignIOCyclePopup.py
+END
+ImportExportFormatPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ImportExportFormatPopup.py
+END
+SequenceLinkPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/SequenceLinkPopup.py
+END
+DataDimRefSelectByPeakDimPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/DataDimRefSelectByPeakDimPopup.py
+END
+MultiDialog.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/MultiDialog.py
+END
+FormatFilePopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/FormatFilePopup.py
+END
+ResonanceGroupPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ResonanceGroupPopup.py
+END
+ChemCompAtomBondInfoPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/ChemCompAtomBondInfoPopup.py
+END
+MultiSelectionListPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/MultiSelectionListPopup.py
+END
+EntryListPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/EntryListPopup.py
+END
+CreateShiftListPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/gui/CreateShiftListPopup.py
+END

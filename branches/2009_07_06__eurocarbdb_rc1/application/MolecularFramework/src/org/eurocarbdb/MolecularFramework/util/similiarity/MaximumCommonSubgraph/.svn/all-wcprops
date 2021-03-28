@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MaximumCommonSubgraph
+END
+ExampleUsage.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MaximumCommonSubgraph/ExampleUsage.java
+END
+MCSVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MaximumCommonSubgraph/MCSVisitor.java
+END
+MCSEdgeComparatorExact.java
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MaximumCommonSubgraph/MCSEdgeComparatorExact.java
+END
+MCSExactMatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MaximumCommonSubgraph/MCSExactMatch.java
+END
+MCSNodeComparatorExact.java
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MaximumCommonSubgraph/MCSNodeComparatorExact.java
+END

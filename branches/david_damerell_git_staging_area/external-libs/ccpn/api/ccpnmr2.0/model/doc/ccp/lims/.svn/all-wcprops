@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims
+END
+Experiment_ExpProtocol.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/Experiment_ExpProtocol.html
+END
+Experiment.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/Experiment.html
+END
+Protocol.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/Protocol.html
+END
+ExpBlueprint.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/ExpBlueprint.html
+END
+Sample.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/Sample.html
+END
+RefSampleComponent.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/RefSampleComponent.html
+END
+Experiment_Lims.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/Experiment_Lims.html
+END
+Target.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/Target.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/index.html
+END
+Location.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/Location.html
+END
+Crystallization.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/Crystallization.html
+END
+Classification.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/Classification.html
+END
+Holder.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/doc/ccp/lims/Holder.html
+END

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry including="*.xml" kind="src" path="lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/hibernate3.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/antlr-2.7.5.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/asm.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/jta.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/postgresql-8.1-405.jdbc3.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/cdk-0.99.1.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/jniinchi-0.4.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="/data/eurocarbdb/trunk/external-libs/java/batik-all-1.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

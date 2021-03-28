@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/web/templates/results
+END
+list_elements.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/web/templates/results/list_elements.ftl
+END
+list_monosaccharides.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/web/templates/results/list_monosaccharides.ftl
+END

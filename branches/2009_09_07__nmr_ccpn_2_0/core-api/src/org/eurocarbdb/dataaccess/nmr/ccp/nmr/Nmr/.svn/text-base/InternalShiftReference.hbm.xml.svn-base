@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="InternalShiftReference"
+    extends="ccp.api.nmr.Nmr.ShiftReference"
+    table="NMR_INTERNALSHIFTREFERENCE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Chemical Shift referencing. The reference actually used (not the one quoted against). Used for references internal to (part of) the sample.</meta>
+  <key column="SHIFTREFERENCEID" foreign-key="NMR_INTESHIFREFE_SHIFREFE_FK"/>
+
+  </joined-subclass>
+
+</hibernate-mapping>

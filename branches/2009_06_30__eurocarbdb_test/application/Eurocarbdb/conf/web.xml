@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <display-name>EUROCarbDB</display-name>
+
+  <filter>
+    <filter-name>webwork</filter-name>
+    <filter-class>com.opensymphony.webwork.dispatcher.FilterDispatcher</filter-class>
+  </filter>
+
+  <filter>
+  	<filter-name>ecdb-hibernatesessionrequest</filter-name>
+  	<filter-class>org.eurocarbdb.servlet.filter.HibernateSessionRequestFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>ecdb-hibernatesessionrequest</filter-name>
+    <url-pattern>*.action</url-pattern>
+  </filter-mapping>
+  
+  <filter-mapping>
+    <filter-name>webwork</filter-name>
+    <url-pattern>*.action</url-pattern>
+  </filter-mapping>
+
+   <!-- Define application events listeners -->
+  <listener>
+    <listener-class>
+         org.eurocarbdb.servlet.init.EurocarbApplicationContextHandler
+    </listener-class>
+  </listener>
+
+  
+  <servlet>
+    <servlet-name>ecdb-soap-handler</servlet-name>
+    <servlet-class>org.eurocarbdb.soap.servlet.ServiceHandlerServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ecdb-soap-handler</servlet-name>
+  <url-pattern>/soap/*</url-pattern>
+  </servlet-mapping>
+  <!-- Add in the headless parameter to the general context of the 
+       web application to allow the AWT drawing routines to work
+  -->
+  <context-param>
+      <param-name>java.awt.headless</param-name>
+      <param-value>true</param-value>
+  </context-param>
+  
+  <!-- As of 2.2, Spring is the preferred IoC container rather than XWork,
+       so you'll have to include the spring jars if you want to use
+       Spring's IoC capabilities in WebWork. (Thanks Hani for commenting)
+       If you want to use deprecated integrated IoC container instead, you may
+       want to omit the following listener configuration.
+  -->
+<!--
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+-->
+  <!-- The following taglib directive would be needed if your servlet container would comply
+       to Servlet Spec <= 2.2
+-->
+  <taglib>
+    <taglib-uri>/webwork</taglib-uri>
+    <taglib-location>/WEB-INF/lib/webwork.jar</taglib-location>
+  </taglib>
+</web-app>

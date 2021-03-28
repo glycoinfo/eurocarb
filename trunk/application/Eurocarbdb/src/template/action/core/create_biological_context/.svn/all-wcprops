@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1870/trunk/application/Eurocarbdb/src/template/action/core/create_biological_context
+END
+create.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/core/create_biological_context/create.ftl
+END
+scripts.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/core/create_biological_context/scripts.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/core/create_biological_context/success.ftl
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1870/trunk/application/Eurocarbdb/src/template/action/core/create_biological_context/input.ftl
+END
+select.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1225/trunk/application/Eurocarbdb/src/template/action/core/create_biological_context/select.ftl
+END
+style.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/core/create_biological_context/style.ftl
+END

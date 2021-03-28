@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb
+END
+gen_atom_list_allaa.star
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/gen_atom_list_allaa.star
+END
+dna.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/dna.pdb
+END
+pseudoatom_nom.tbl
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/pseudoatom_nom.tbl
+END
+atom_nom.tbl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/atom_nom.tbl
+END
+gen_atom_list_allnuc.star
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/gen_atom_list_allnuc.star
+END
+rna.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/rna.pdb
+END

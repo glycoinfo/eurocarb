@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/index.html
+END
+numPointsValid.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/numPointsValid.html
+END
+valuePerPoint.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/valuePerPoint.html
+END
+getSpectralWidth.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/getSpectralWidth.html
+END
+spectralWidth.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/spectralWidth.html
+END
+alternateSign.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/alternateSign.html
+END
+pointOffset.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/pointOffset.html
+END
+phase0.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/phase0.html
+END
+phase1.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/phase1.html
+END
+getMaxValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/getMaxValue.html
+END
+oversamplingInfo.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/oversamplingInfo.html
+END
+maxValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/maxValue.html
+END
+negateImaginary.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/negateImaginary.html
+END
+firstValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/FidDataDim/firstValue.html
+END

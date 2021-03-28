@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.Validation">
+  <joined-subclass
+    name="NmrMeasurementListValidation"
+    extends="ccp.api.molecule.Validation.ValidationResult"
+    table="VALD_NMRMEASUREMENTLISTVALIDATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Validation result for one or more Nmr.MeasuermentLists</meta>
+  <key column="VALIDATIONRESULTID" foreign-key="VALD_NMRMEASLISTVALI_VALIRESU_FK"/>
+  
+  <set 
+    name="hbNmrMeasurementLists" 
+    table="NMR_ABSTMEASLIST2NMRMEASLISTVALI"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">AbstractMeasurementLists being validated</meta>
+    <meta attribute="base-name">hbNmrMeasurementList</meta>
+    <cache usage="read-write"/>
+    <key column="NMRMEASUREMENTLISTVALIDATIONID" foreign-key="NMR_ABSTMEASLIST_NMRMEASLISTVALI_FK"/>
+    <many-to-many column="NMRMEASUREMENTLISTID" class="ccp.api.nmr.Nmr.AbstractMeasurementList" foreign-key="VALD_NMRMEASLISTVALI_NMRMEASLIST_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

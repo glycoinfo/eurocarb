@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrExpPrototype">
+  <class
+    name="AtomSite"
+    table="NMRX_ATOMSITE"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">An Atom site on the graph of atoms through which magnetisation passes in an experiment. If there is more than one ExpGraph, each AtomSite may be relevant for one or more of these. The AtomSite may be given even if it is never a carrier of magnetisation, for instance to show that coupling to a given nucleus is used for filtering during an experiment.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.NmrExpPrototype.NmrExpPrototype"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRX_ATOMSITE_NMREXPPROT_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_isotopeCode"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Isotope code for Isotope making up the ExpAtomSite </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISOTOPECODE" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_maxNumber"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">Maximum number of occurrences of atom corresponding to atomSite. maxNumber 2 would mena no more than two atoms could appear in this position. If, for instance a carbon atomSite has a J coupling transfer to a proton AtomSite with maxNumber=2, it means that this ExpGraph will give no observable result for CH3 groups. May be set to zero, which indicates that no atoms of this type are allowed.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MAXNUMBER" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_maxShift"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">maximum value of shift allowed for AtomSite, in ppm. Is not set in normal cases. Together with minShift serves to distinguish frequency-selective sites. For some common cases it is recommended to use standard limits : Aliphatic carbon: 90ppm Aromatic carbon: 90-150ppm CO carbon:  150ppm CA (for proteins): 40-90ppm</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MAXSHIFT" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_minNumber"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Minimum number of occurrences of atom corresponding to atomSite. MinNumber two wiould mean at least two atoms. If, for instance a carbon atomSite has a J coupling transfer to a proton AtomSite with minNumber=2, it means that this ExpGraph will give observable results only for CH2 and  CH3 groups.</meta>
+    <meta attribute="default-value">new java.lang.Integer(1)</meta>
+    <column name="MINNUMBER" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_minShift"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">minimum value of shift allowed for AtomSite, in ppm. Is not set in normal cases. Together with maxShift serves to distinguish frequency-selective sites. The most common use is for distinguishing CO, aliphatic carbon, and 'just' carbon. Aliphatic carbon: 90ppm Aromatic carbon: 90-150ppm CO carbon:  150ppm CA (for proteins): 40-90ppm</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MINSHIFT" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">A short string to be used in generating experiment names. If the attribute is not set, the nucleus symbol should be used. Examples of names would be 'CO', 'CA', for e.g. HNCOCA.Note that the name does not have to match with protein or any other naming conventions (proteins use 'C', where we might use 'CO'). </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_numberStep"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Integer step between allowed number of occurrences of atoms corresponding to this atomSite. If, for instance a carbon atomSite has a J coupling transfer to a proton AtomSite with minNumber=1 and numberStep = 2, there must be 1, 3, 5, ... atoms corresponding to the AtomSite. Uased for instance to indicate 'carbon coupled to an odd number of protons', where you would have a carbon AtomSite, with a JCoupling ExpTransfer to a proton AtomSite witn minNumber 1 and numberStep 2.</meta>
+    <meta attribute="default-value">new java.lang.Integer(1)</meta>
+    <column name="NUMBERSTEP" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="atomSiteUniqueKey" />
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="NMRX_ATOMSITE2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbNmrExpPrototype"
+    column="NMREXPPROTOTYPEID"
+    class="ccp.api.nmr.NmrExpPrototype.NmrExpPrototype" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRX_ATOMSITE_NMREXPPROT_FK" 
+    unique-key="atomSiteUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbExpMeasurements" 
+    table="NMRX_EXPMEAS2ATOMSITES"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">ExpMeasurements involving AtomSite</meta>
+    <meta attribute="base-name">hbExpMeasurement</meta>
+    <cache usage="read-write"/>
+    <key column="ATOMSITEID" foreign-key="NMRX_EXPMEAS_ATOMSITES_FK"/>
+    <many-to-many column="EXPMEASUREMENTID" class="ccp.api.nmr.NmrExpPrototype.ExpMeasurement" foreign-key="NMRX_ATOMSITE_EXPMEAS_FK"/>
+  </set>
+  
+  <set 
+    name="hbExpTransfers" 
+    table="NMRX_EXPTRAN2ATOMSITES"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Magnetisation transfer (non-directional) connecting two AtomSites</meta>
+    <meta attribute="base-name">hbExpTransfer</meta>
+    <cache usage="read-write"/>
+    <key column="ATOMSITEID" foreign-key="NMRX_EXPTRAN_ATOMSITES_FK"/>
+    <many-to-many column="EXPTRANSFERID" class="ccp.api.nmr.NmrExpPrototype.ExpTransfer" foreign-key="NMRX_ATOMSITE_EXPTRAN_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

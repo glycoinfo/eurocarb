@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/kcf
+END
+KCFResidue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/kcf/KCFResidue.java
+END
+SugarImporterKCF.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/kcf/SugarImporterKCF.java
+END
+KCFBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/kcf/KCFBlock.java
+END
+KCFLinkage.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/kcf/KCFLinkage.java
+END

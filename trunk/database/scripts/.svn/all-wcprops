@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1980/trunk/database/scripts
+END
+parse_mesh_txt.pl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/database/scripts/parse_mesh_txt.pl
+END
+parse_mesh_tree.pl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1/trunk/database/scripts/parse_mesh_tree.pl
+END
+reference_data.pl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1/trunk/database/scripts/reference_data.pl
+END
+parse_ddl.pl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/database/scripts/parse_ddl.pl
+END

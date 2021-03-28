@@ -1,0 +1,17 @@
+K 10
+svn:ignore
+V 181
+work
+.classpath
+.cvsignore
+.project
+.tomcatplugin
+build_local.xml
+localbuild.xml
+bin
+mylocal_build.xml
+local_build.xml
+build_local_deploy_jar.xml
+build_local_deploy.xml
+
+END

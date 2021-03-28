@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure
+END
+struct_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/struct_util.c
+END
+bond.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/bond.c
+END
+struct_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/struct_util.h
+END
+bond.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/bond.h
+END
+py_struct_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/py_struct_util.c
+END
+py_bond.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/py_bond.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/Makefile
+END
+py_struct_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/py_struct_util.h
+END
+py_bond.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/py_bond.h
+END
+atom.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/atom.c
+END
+structure.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/structure.c
+END
+_licenseInfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/_licenseInfo.py
+END
+structure.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/structure.h
+END
+atom.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/atom.h
+END
+py_structure.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/py_structure.c
+END
+py_atom.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/py_atom.c
+END
+py_structure.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/py_structure.h
+END
+py_atom.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/ccp/structure/py_atom.h
+END

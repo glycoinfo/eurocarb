@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoPeakfinder
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoPeakfinder/build.xml
+END
+build.heidelberg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoPeakfinder/build.heidelberg.xml
+END
+build.strato.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoPeakfinder/build.strato.xml
+END

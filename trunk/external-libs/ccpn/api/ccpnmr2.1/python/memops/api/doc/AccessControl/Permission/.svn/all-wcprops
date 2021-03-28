@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/AccessControl/Permission
+END
+accessObject.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/AccessControl/Permission/accessObject.html
+END
+permission.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/AccessControl/Permission/permission.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/AccessControl/Permission/parent.html
+END
+userGroup.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/AccessControl/Permission/userGroup.html
+END
+permissionClass.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/AccessControl/Permission/permissionClass.html
+END
+opType.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/AccessControl/Permission/opType.html
+END
+roleName.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/AccessControl/Permission/roleName.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/AccessControl/Permission/index.html
+END

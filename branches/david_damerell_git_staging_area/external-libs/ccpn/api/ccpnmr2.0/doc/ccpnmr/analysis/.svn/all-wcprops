@@ -1,0 +1,869 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis
+END
+MainMenu_Window.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/MainMenu_Window.html
+END
+ResidueInfoPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/ResidueInfoPopup.html
+END
+Coreconcepts_DataModel.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Coreconcepts_DataModel.html
+END
+CalcDistConstraintsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/CalcDistConstraintsPopup.html
+END
+AnalysisFunctions_WindowBasic.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AnalysisFunctions_WindowBasic.html
+END
+MainMenu_Crosspeaks.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/MainMenu_Crosspeaks.html
+END
+EditPeakListPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditPeakListPopup.html
+END
+OpenMacroPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/OpenMacroPopup.html
+END
+Changes_release.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Changes_release.html
+END
+Guidetowidgets_scaleValueRamp.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Guidetowidgets_scaleValueRamp.html
+END
+Guidetowidgets_ColorSelectionColorChooser.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Guidetowidgets_ColorSelectionColorChooser.html
+END
+Guidetowidgets_TriangleToggleToggleFrames.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Guidetowidgets_TriangleToggleToggleFrames.html
+END
+Coreconcepts_ExperimentsandSpectra.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Coreconcepts_ExperimentsandSpectra.html
+END
+EditPeakAliasingPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditPeakAliasingPopup.html
+END
+BrowseReferenceShiftsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/BrowseReferenceShiftsPopup.html
+END
+EditPeakListsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditPeakListsPopup.html
+END
+WindowPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/WindowPopup.html
+END
+OtherMenus_TablesScrolledMatrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/OtherMenus_TablesScrolledMatrix.html
+END
+WindowMenu_Assign.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/WindowMenu_Assign.html
+END
+Guidetowidgets_MatrixColourDisplayScrolledDensityMatrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Guidetowidgets_MatrixColourDisplayScrolledDensityMatrix.html
+END
+AnalysisPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AnalysisPopup.html
+END
+EditMarksPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditMarksPopup.html
+END
+SaveProjectAs.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/SaveProjectAs.html
+END
+EditMolSystemsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditMolSystemsPopup.html
+END
+MainMenu_Macros.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/MainMenu_Macros.html
+END
+EditStructuresPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditStructuresPopup.html
+END
+WindowMenu_Strip.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/WindowMenu_Strip.html
+END
+CreateAxisTypePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/CreateAxisTypePopup.html
+END
+GetCenterCoordsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/GetCenterCoordsPopup.html
+END
+EditColorSchemesPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditColorSchemesPopup.html
+END
+WindowMenu_Markers.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/WindowMenu_Markers.html
+END
+BackupProjectPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/BackupProjectPopup.html
+END
+Coreconcepts_MolecularSystems.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Coreconcepts_MolecularSystems.html
+END
+Coreconcepts_SpectrumWindows.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Coreconcepts_SpectrumWindows.html
+END
+EditResStructuresPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditResStructuresPopup.html
+END
+Coreconcepts_FormatConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Coreconcepts_FormatConverter.html
+END
+AnalysisFunctions_MarkBasic.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AnalysisFunctions_MarkBasic.html
+END
+Installation_Finalsteps.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Installation_Finalsteps.html
+END
+EditMolResLinksPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditMolResLinksPopup.html
+END
+AnalysisFunctions_StructureBasic.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AnalysisFunctions_StructureBasic.html
+END
+Guidetowidgets_TablesScrolledMatrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Guidetowidgets_TablesScrolledMatrix.html
+END
+RefExperimentPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/RefExperimentPopup.html
+END
+CalcAmbigDistConstraintsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/CalcAmbigDistConstraintsPopup.html
+END
+EditAssignmentPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditAssignmentPopup.html
+END
+MainMenu_DataAnalysis.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/MainMenu_DataAnalysis.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/index.html
+END
+About.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/About.html
+END
+EditSpectrumTolPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditSpectrumTolPopup.html
+END
+AnalysisFunctions_DataAnalysisBasic.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AnalysisFunctions_DataAnalysisBasic.html
+END
+CreditsContact_TheAuthors.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/CreditsContact_TheAuthors.html
+END
+Download_CcpNmrSuite.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Download_CcpNmrSuite.html
+END
+Coreconcepts_GraphicalWidgets.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Coreconcepts_GraphicalWidgets.html
+END
+SelectObjectPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/SelectObjectPopup.html
+END
+FindRegionPeaksPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/FindRegionPeaksPopup.html
+END
+Macros_DefaultMacros.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Macros_DefaultMacros.html
+END
+BrowseStrucGenPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/BrowseStrucGenPopup.html
+END
+ViewNoeMatrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/ViewNoeMatrix.html
+END
+ExpGraphPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/ExpGraphPopup.html
+END
+Coreconcepts_CcpnCcpNmrCcpMemops.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Coreconcepts_CcpnCcpNmrCcpMemops.html
+END
+Coreconcepts_ProjectsandFiles.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Coreconcepts_ProjectsandFiles.html
+END
+BrowseResonancesPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/BrowseResonancesPopup.html
+END
+PrintWindowPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/PrintWindowPopup.html
+END
+Coreconcepts_AssignmentandResonanceObjects.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Coreconcepts_AssignmentandResonanceObjects.html
+END
+WindowMenu_Navigate.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/WindowMenu_Navigate.html
+END
+NmrExpPrototypeNomenclature.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/NmrExpPrototypeNomenclature.html
+END
+CreateAxisUnitPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/CreateAxisUnitPopup.html
+END
+Macros_ArgumentServer.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Macros_ArgumentServer.html
+END
+Installation_Manualinstallation.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Installation_Manualinstallation.html
+END
+EditOptionsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditOptionsPopup.html
+END
+AddContourFilePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AddContourFilePopup.html
+END
+EditSmallMoleculePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditSmallMoleculePopup.html
+END
+EditPolymerSequencePopup..html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditPolymerSequencePopup..html
+END
+MainMenu_Structure.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/MainMenu_Structure.html
+END
+EditContourLevelsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditContourLevelsPopup.html
+END
+MainMenu_Project.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/MainMenu_Project.html
+END
+ViewPeakGroupsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/ViewPeakGroupsPopup.html
+END
+MainMenu_Assignment.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/MainMenu_Assignment.html
+END
+EditMeasurementsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditMeasurementsPopup.html
+END
+EditContourFilesPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditContourFilesPopup.html
+END
+EditExperimentPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditExperimentPopup.html
+END
+FutureFeatures_ComingsoontoAnalysis.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/FutureFeatures_ComingsoontoAnalysis.html
+END
+TableExportPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/TableExportPopup.html
+END
+Guidetowidgets_PlottingScrolledGraph.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Guidetowidgets_PlottingScrolledGraph.html
+END
+NmrExpPrototypePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/NmrExpPrototypePopup.html
+END
+EditSpectrumFilePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditSpectrumFilePopup.html
+END
+EditSpectrumPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditSpectrumPopup.html
+END
+BrowseViolationsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/BrowseViolationsPopup.html
+END
+EditWindowPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditWindowPopup.html
+END
+BasicTutorial_CcpNmrAnalysisTutorial14.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/BasicTutorial_CcpNmrAnalysisTutorial14.html
+END
+AnalysisFunctions_AssignmentBasic.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AnalysisFunctions_AssignmentBasic.html
+END
+ChangeAxisMappingPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/ChangeAxisMappingPopup.html
+END
+Installation_Analysisinstallationscript.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Installation_Analysisinstallationscript.html
+END
+AnalysisFunctions_PeakBasic.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AnalysisFunctions_PeakBasic.html
+END
+FileSelect.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/FileSelect.html
+END
+ViewStructurePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/ViewStructurePopup.html
+END
+EditExperimentDetailsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditExperimentDetailsPopup.html
+END
+AnalysisFunctions_ConstraintBasic.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AnalysisFunctions_ConstraintBasic.html
+END
+Bugreporting_CcpNmrSuite.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Bugreporting_CcpNmrSuite.html
+END
+BrowseAtomsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/BrowseAtomsPopup.html
+END
+WindowMenu_Peak.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/WindowMenu_Peak.html
+END
+EditPeakDrawParamsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditPeakDrawParamsPopup.html
+END
+SetReferencePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/SetReferencePopup.html
+END
+EditMeasurementListsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditMeasurementListsPopup.html
+END
+SelectedPeaksPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/SelectedPeaksPopup.html
+END
+AnalysisFunctions_MoleculeBasic.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AnalysisFunctions_MoleculeBasic.html
+END
+EditCovalentLinksPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditCovalentLinksPopup.html
+END
+MainMenu_Experiment.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/MainMenu_Experiment.html
+END
+CreatePanelTypePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/CreatePanelTypePopup.html
+END
+EditPeakPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditPeakPopup.html
+END
+MainMenu_Other.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/MainMenu_Other.html
+END
+CreateAxisPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/CreateAxisPopup.html
+END
+BrowseConstraintsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/BrowseConstraintsPopup.html
+END
+EditAxisPanelPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditAxisPanelPopup.html
+END
+EditWindowGroupPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditWindowGroupPopup.html
+END
+EditPeakFindParamsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditPeakFindParamsPopup.html
+END
+SpinSystemTypeScoresPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/SpinSystemTypeScoresPopup.html
+END
+Coreconcepts_TheAnalysisProgram.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Coreconcepts_TheAnalysisProgram.html
+END
+EditWindowSpectraPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditWindowSpectraPopup.html
+END
+GeneralEditor.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/GeneralEditor.html
+END
+CalcRatesPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/CalcRatesPopup.html
+END
+WindowMenu_View.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/WindowMenu_View.html
+END
+AnalysisFunctions_QualityControlBasic.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AnalysisFunctions_QualityControlBasic.html
+END
+Guidetowidgets_ButtonTogglePartitionedSelector.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/Guidetowidgets_ButtonTogglePartitionedSelector.html
+END
+SpinSystemTypingPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/SpinSystemTypingPopup.html
+END
+EditMoleculePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditMoleculePopup.html
+END
+CalcHeteroNoePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/CalcHeteroNoePopup.html
+END
+WindowMenu_Macros.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/WindowMenu_Macros.html
+END
+CreateContourFilePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/CreateContourFilePopup.html
+END
+NewWindowPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/NewWindowPopup.html
+END
+OpenSpectrumPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/OpenSpectrumPopup.html
+END
+EditSpinSystemPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditSpinSystemPopup.html
+END
+CopyPeakAssignmentsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/CopyPeakAssignmentsPopup.html
+END
+EditExperimentTypePopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditExperimentTypePopup.html
+END
+AnalysisFunctions_ExperimentBasic.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/AnalysisFunctions_ExperimentBasic.html
+END
+EditMacrosPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditMacrosPopup.html
+END
+MainMenu_Molecules.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/MainMenu_Molecules.html
+END
+EditExperimentSeriesPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditExperimentSeriesPopup.html
+END
+ExtendedTutorial_CcpNmrAnalysisTutorial16.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/ExtendedTutorial_CcpNmrAnalysisTutorial16.html
+END
+ViewAssignmentPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/ViewAssignmentPopup.html
+END
+BrowseConstraintSetsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/BrowseConstraintSetsPopup.html
+END
+EditNoeClassesPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditNoeClassesPopup.html
+END
+EditSpectrumRefPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditSpectrumRefPopup.html
+END
+EditColorsPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditColorsPopup.html
+END
+EditFitGraphPopup.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/analysis/EditFitGraphPopup.html
+END

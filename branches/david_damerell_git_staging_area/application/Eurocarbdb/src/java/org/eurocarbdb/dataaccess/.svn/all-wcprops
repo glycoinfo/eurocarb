@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/dataaccess
+END
+DateConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/dataaccess/DateConverter.java
+END
+AuthenticationInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/dataaccess/AuthenticationInterceptor.java
+END
+InsertionQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/dataaccess/InsertionQueue.java
+END
+SavedGlycanSequenceSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/dataaccess/SavedGlycanSequenceSearch.java
+END

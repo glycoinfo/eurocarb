@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="PKaDerivation"
+    extends="ccp.api.nmr.Nmr.AbstractDataDerivation"
+    table="NMR_PKADERIVATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Derivation for set of pKa(s) and associated parameters</meta>
+  <key column="ABSTRACTDATADERIVATIONID" foreign-key="NMR_PKADERI_ABSTDATADERI_FK"/>
+  
+  <many-to-one
+    name="hbParentList"
+    column="PARENTLISTID"
+    class="ccp.api.nmr.Nmr.PkaList" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_PKADERI_PARENTLIST_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbDerivedData" 
+    table="NMR_PKA"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbDerivedData</meta>
+    <cache usage="read-write"/>
+    <key column="DERIVATIONID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Pka"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

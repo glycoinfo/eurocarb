@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gwb/templates
+END
+contact.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gwb/templates/contact.ftl
+END
+manual.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gwb/templates/manual.ftl
+END
+download_builder.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gwb/templates/download_builder.ftl
+END
+examples.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gwb/templates/examples.ftl
+END
+footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gwb/templates/footer.ftl
+END
+download_builder_applet.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gwb/templates/download_builder_applet.ftl
+END
+builder.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gwb/templates/builder.ftl
+END
+download.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gwb/templates/download.ftl
+END
+index.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gwb/templates/index.ftl
+END
+header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/plugins/gwb/templates/header.ftl
+END

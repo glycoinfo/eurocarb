@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/exception
+END
+EurocarbException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/exception/EurocarbException.java
+END
+InvalidAssociationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/exception/InvalidAssociationException.java
+END
+DataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/exception/DataException.java
+END
+DataAccessException.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/exception/DataAccessException.java
+END
+InvalidPropertyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/exception/InvalidPropertyException.java
+END
+UnauthorisedAccessException.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/exception/UnauthorisedAccessException.java
+END

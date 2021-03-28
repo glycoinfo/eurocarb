@@ -1,0 +1,513 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis Functions:AssignmentBasic</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis Functions:AssignmentBasic</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Coding Library:</NOBR> <NOBR>Analysis Functions</NOBR></TD></TR><TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="AnalysisFunctions_AssignmentBasic.html">AssignmentBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_ConstraintBasic.html">ConstraintBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_DataAnalysisBasic.html">DataAnalysisBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_ExperimentBasic.html">ExperimentBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_MarkBasic.html">MarkBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_MoleculeBasic.html">MoleculeBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_PeakBasic.html">PeakBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_QualityControlBasic.html">QualityControlBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_StructureBasic.html">StructureBasic</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisFunctions_WindowBasic.html">WindowBasic</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>  <TABLE WIDTH="100%">
+    <TR><TD COLSPAN=3 CLASS="pageHead">addPeakResonancesToSeqSpinSystems <SPAN CLASS="i">(peak, seqOffsets)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Set the spin systems of a peak's resonances to have sequential connectivity             according to sequence offsets. Sequence offsets for HN(CO)CA would be (None,-1,None), for H,C,N dims    </TD><TD CLASS="pageBody"> Nmr.Peak, List of Int (Nmr.ResonanceGroupProb.sequenceOffset)    </TD><TD CLASS="pageBody"> List of Nmr.ResonanceGroups  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">addPeakResonancesToSpinSystem <SPAN CLASS="i">(peaks)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Add the resonances assigned to given peaks to a spin system.             Makes a new spin system if none exists for the resonances             Multiple spin systems will be merged, if present, for resonances upon confirmation    </TD><TD CLASS="pageBody"> List of Nmr.Peaks    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">addSpinSystemResonance <SPAN CLASS="i">(spinSystem, resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Add a resonance to a given spin system    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup, Nmr.Resonance    </TD><TD CLASS="pageBody"> List of Nmr.Resonances (belonging to the spin system)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">aliasedPeakDimPosition <SPAN CLASS="i">(peakDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give the position in PPM for a peak dimension    </TD><TD CLASS="pageBody"> Nmr.PeakDim    </TD><TD CLASS="pageBody"> Float (ppm)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">areResonancesProchiral <SPAN CLASS="i">(resonanceA, resonanceB)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine if a pair of resonances are assigned to a potentially prochiral pair             of atoms.    </TD><TD CLASS="pageBody"> Nmr.Resonance, Nmr.Resonance    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">assignAtomsToRes <SPAN CLASS="i">(atomSets, resonance, resonanceSet=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Assign a resonance to given atom sets via a resonanceSet (optionally specified)             Checks ensure that the resonance ends up in the correct spin system    </TD><TD CLASS="pageBody"> List of Nmr.AtomSets, Nmr.Resonance, Nmr.ResonanceSet    </TD><TD CLASS="pageBody"> Nmr.ResonanceSet  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">assignPeakDim <SPAN CLASS="i">(resonance, peakDim, atomSets=None, contrib=None, tolerance=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Assigns a given peak dimension to a given resonance, via a given peakDim contribution if specified             and assign the resonance to atom sets if specified    </TD><TD CLASS="pageBody"> Nmr.Resonance, Nmr.PeakDim, List of Nmr.AtomSets, Nmr.PeakDimContrib, Float    </TD><TD CLASS="pageBody"> Nmr.PeakDimContrib  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">assignResToDim <SPAN CLASS="i">(peakDim, resonance=None, contrib=None, tolerance=None, doWarning=True, peakContribs=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Assign a resonance to a peak dimension, via a specified peakDimContrib if needed.             Assigns a new resonance if none is input. Can also specify a set of peakContribs (grouped             assigment possibilities) that the assignment relates to.    </TD><TD CLASS="pageBody"> Nmr.PeakDim, Nmr.Resonance, Nmr.PeakDimContrib    </TD><TD CLASS="pageBody"> Nmr.PeakDimContrib  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">assignResonanceResidue <SPAN CLASS="i">(resonance, residue)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Changes the assignment of a resonance to a given residue if an             appropriately named atom set can be found for the resonance's assignName    </TD><TD CLASS="pageBody"> Nmr.Resonsnce, Nmr.Residue    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">assignResonanceType <SPAN CLASS="i">(resonance, atomSets)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Sets the assign names for a resonance according to given AtomSets             without performing a real assignment. If no atom sets or None are given             then all typing information is removed.    </TD><TD CLASS="pageBody"> Nmr.Resonance, List of Nmr.AtomSets or None    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">assignSpinSystemResidue <SPAN CLASS="i">(spinSystem, residue=None, warnMerge=0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Connect a given spin system to a residue. Resonances in the spin system are assigned             where possible. Also used to disconnect from a residue if Residue is None.             Optionally merge spin systems assigned to same residue, given warning.    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup, Nmr.Residue, Boolean, Boolean    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">assignSpinSystemType <SPAN CLASS="i">(spinSystem, ccpCode=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Assigns a spin system to a given type of possible residue    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup, Word(Molecule.MolResidue.ccpCode)    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">averageShiftValue <SPAN CLASS="i">(shift)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Calculates the value for a given shift based upon the peaks to which its             resonance is assigned.    </TD><TD CLASS="pageBody"> Nmr.Shift    </TD><TD CLASS="pageBody"> Float (shift.value)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">clearPeakDim <SPAN CLASS="i">(peakDim, contrib=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Clear a peak dimension of any or a specified peakDim contribution             Recalculates shifts of the resonances involved    </TD><TD CLASS="pageBody"> Nmr.PeakDim, Nmr.PeakDimContrib    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">clearResonancePeakDimContribs <SPAN CLASS="i">(resonance, peaks=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Remove a resonance's peak dim contributions present in a             specified list of peaks or all peaks in project (if peak=None)    </TD><TD CLASS="pageBody"> Nmr.Resonance, List of Nmr.Peaks    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">clearSeqSpinSystemLinks <SPAN CLASS="i">(spinSystem, delta=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Remove sequential links for a spin system. A sequence offset may be specified             otherwise all sequential links are removed.    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup, Int    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">deassignResonance <SPAN CLASS="i">(resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Disconnects a resonance from any assigned atomSets    </TD><TD CLASS="pageBody"> Nmr.Resonance    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findConnectedSpinSystem <SPAN CLASS="i">(spinSystem, delta=-1)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find a spin system sequentially connected to the input one with given sequence offset.    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup, Int    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findMatchingPeakDimShifts <SPAN CLASS="i">(peakDim, shiftRanges=None, tolerance=None, aliasing=True, findAssigned=False)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> For peakDim give the NMR shifts within a tolerance             (which may be specified) of its position in a given set of ranges             with options if the peakDim position might be aliased             and to find only shifts with resonances assigned to atoms    </TD><TD CLASS="pageBody"> Nmr.PeakDim, List of Tuples (Float, Float) Float, Boolean, Boolean    </TD><TD CLASS="pageBody"> List of Nmr.Shifts  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findMatchingShifts <SPAN CLASS="i">(dataDimRef, position, tolerance=None, findAssigned=0)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> For a dataDimRef give the NMR shifts within a tolerance             (which may be specified) to a given position with an option             to find only shifts with resonances assigned to atoms    </TD><TD CLASS="pageBody"> Nmr.DataDimRef, Float, Float, Boolean    </TD><TD CLASS="pageBody"> List of Nmr.Shifts  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findResonanceSet <SPAN CLASS="i">(resonance, atomSets)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the resonance set, if any, that connects a resonance to given atomSets    </TD><TD CLASS="pageBody"> Nmr.Resonance, List of Nmr.AtomSets    </TD><TD CLASS="pageBody"> Nmr.ResonanceSet  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">findSpinSystem <SPAN CLASS="i">(resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the spin system in which a resonance resides             makes a new spin system if none is found    </TD><TD CLASS="pageBody"> Nmr.Resonance    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getAliasedPeakDimPositions <SPAN CLASS="i">(peakDim, shiftRanges=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give all the aliased/unaliased positions of a peakDim either in a             specified shift range or the full range for the dimension type.             Units for the shift ranges are ppm    </TD><TD CLASS="pageBody"> Nmr.PeakDim, List of (Tuples of Floats (MinShift,MaxShift) )    </TD><TD CLASS="pageBody"> List of Floats (Nmr.PeakDim.positions)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getAmbigProchiralLabel <SPAN CLASS="i">(resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Deterimine if an ambigous prochiral resonance (non-stereospecifically assigned)             Has an "a" label or a "b" label. "a" is reserved for the upfield proton and any             other nulceus bound to it.    </TD><TD CLASS="pageBody"> Nmr.Resonance    </TD><TD CLASS="pageBody"> Character  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getAtomSetShifts <SPAN CLASS="i">(atomSet, shiftList=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Gives the shifts that an atom set may be assigned to in a specified shift list             or the first shift list in the project if none is specified.    </TD><TD CLASS="pageBody"> Nmr.AtomSet, Nmr.ShiftList    </TD><TD CLASS="pageBody"> List of Nmr.Shifts  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getBoundResonances <SPAN CLASS="i">(resonance, recalculate=False, contribs=None, doWarning=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find all resonances that have a single bond connection to the input resonance             Option to recalculate given assignment status (e.g. if something changes)             Option to specify peakDimContribs to search    </TD><TD CLASS="pageBody"> Nmr.Resonance, Boolean, List of Nmr.PeakDimContribs    </TD><TD CLASS="pageBody"> Lost of Nmr.Rssonances  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getDataDimFullShiftRange <SPAN CLASS="i">(dataDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give the min and max possible chem shifts for a spectrums data dim             based on set min/max epDim frequencies or full spec with    </TD><TD CLASS="pageBody"> Nmr.FreqDataDim    </TD><TD CLASS="pageBody"> List of Floats  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getFixedResonanceName <SPAN CLASS="i">(resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give the name for a fixedResonance, based upon a normal resonance    </TD><TD CLASS="pageBody"> Nmr.Resonance    </TD><TD CLASS="pageBody"> String  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getOnebondResonance <SPAN CLASS="i">(resonance, isotopeCode=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find any resonance that may have a single bond connetion to the input resonance             Option to specify the isotope type    </TD><TD CLASS="pageBody"> Nmr.Resonance, Nmr.Resonance.isotopeCode    </TD><TD CLASS="pageBody"> Nmr.Rssonance  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakDimFullShiftRange <SPAN CLASS="i">(peakDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give the min and max possible chem shifts for a peak dim             based on set min/max epDim frequencies or full spec with    </TD><TD CLASS="pageBody"> Nmr.PeakDim    </TD><TD CLASS="pageBody"> List of Floats  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getPeakDimPpm <SPAN CLASS="i">(peakDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Gives the position in PPM for a given peak dimension    </TD><TD CLASS="pageBody"> Nmr.PeakDim    </TD><TD CLASS="pageBody"> Float (ppm)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getResidueResonances <SPAN CLASS="i">(residue, atomType=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the resonances (for a given atom type if specified) assigned to a given residue    </TD><TD CLASS="pageBody"> Nmr.Residue, Word (ChemComp.ChemAtom.elementSymbol)    </TD><TD CLASS="pageBody"> List of Nmr.Resonances  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getResonanceAtomTuple <SPAN CLASS="i">(resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give a tupe of string identifiers for a resonance indicating, chain, residue and atomic assignment    </TD><TD CLASS="pageBody"> Nmr.Resonance    </TD><TD CLASS="pageBody"> Tuple of Words (MolSystem.Chain.code, MolSystem.Residue identifier, Nmr.Resonance identifier)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getResonanceMolSystem <SPAN CLASS="i">(resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find, if any exists, the molecular system associated with a given resonance             by virtue of a direct assignment or spin system link.    </TD><TD CLASS="pageBody"> Nmr.Resonance    </TD><TD CLASS="pageBody"> Nmr.MolSystem or None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getResonanceName <SPAN CLASS="i">(resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Generate a name for a resonance or fixedResonance based upon its assignment    </TD><TD CLASS="pageBody"> Nmr.Resonance or NmrConstraint.FixedResonance    </TD><TD CLASS="pageBody"> String  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getResonanceResidue <SPAN CLASS="i">(resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Find the residue, if any, to which a resonance is assigned via atomSets etc    </TD><TD CLASS="pageBody"> Nmr.Resonance    </TD><TD CLASS="pageBody"> Nmr.Residue or None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getSeqSpinSystemLinks <SPAN CLASS="i">(spinSystem, delta=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get any sequential spin system links (resonanceGroupProbs).             An optional sequence offset may be specified.    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup, Int    </TD><TD CLASS="pageBody"> List of Nmr.ResonanceGroupProbs  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">getShiftLists <SPAN CLASS="i">(nmrProject)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Get all the shift lists associated with an NMR project.    </TD><TD CLASS="pageBody"> Nmr.NmrProject    </TD><TD CLASS="pageBody"> Nmr.ShiftList  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">initResonance <SPAN CLASS="i">(resonance, doMerge=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Initialise a resonance. If the resonance is assigned it is placed in a spin system if appropriate             and its assignName is set. Optional argument to set whether merging spin systems is allowed.             Typically this is not allowed opon load, but is allowed when assigning within Analysis.    </TD><TD CLASS="pageBody"> Nmr.Resonance, Boolean    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">isAtomAssigned <SPAN CLASS="i">(atom)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determines if an atom is assigned to any resonances    </TD><TD CLASS="pageBody"> MolSystem.Atom    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">isChainAssigned <SPAN CLASS="i">(chain)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determines if an NMR chain has any atoms in its residues that are assigned to resonances    </TD><TD CLASS="pageBody"> Nmr.Chain    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">isPeakAssigned <SPAN CLASS="i">(peak, fully=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determines if a peak is assigned, ether fully or partially    </TD><TD CLASS="pageBody"> Peak, Boolean    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">isResidueAssigned <SPAN CLASS="i">(residue)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determines if an NMR residue has any atoms that are assigned to resonances    </TD><TD CLASS="pageBody"> MolSystem.Residue    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">isShiftInRange <SPAN CLASS="i">(shiftValue, shiftRanges)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Determine whether a chemical shift value is contained within             one of the input ranges.    </TD><TD CLASS="pageBody"> Float (Nmr.Shift.value), List of Tuples of Floats (min, max range bounds)    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeAtomSetsGuiName <SPAN CLASS="i">(atomSets)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give the name of a given set of atoms for GUIs    </TD><TD CLASS="pageBody"> List of Nmr.AtomSets    </TD><TD CLASS="pageBody"> Word  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makePeakDimAnnotation <SPAN CLASS="i">(peakDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Makes an annotation string for a given peak dimension according to its assignment status    </TD><TD CLASS="pageBody"> Nmr.PeakDim    </TD><TD CLASS="pageBody"> String (Nmr.PeakDim.annotation)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeResidueGuiName <SPAN CLASS="i">(residue)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give the name of an NMR residue for GUIs    </TD><TD CLASS="pageBody"> MolSystem.Residue    </TD><TD CLASS="pageBody"> Word (case adjusted Molecule.MolResidue.ccpCode)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeResonanceGuiName <SPAN CLASS="i">(resonance, fullName=True)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Give the name of a resonance for GUIs. Either full identifier or just the atom type name (if any)    </TD><TD CLASS="pageBody"> Nmr.Resonance, boolean    </TD><TD CLASS="pageBody"> Word  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">makeSeqSpinSystemLink <SPAN CLASS="i">(spinSystemA, spinSystemB, delta=1)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a sequential link with a give offset between two spin systems.             Assigning A to B with a delta of 1 assumes B is C-terminal/upstream of A    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup, Nmr.ResonanceGroup, Int    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroupProb  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">mergeResonances <SPAN CLASS="i">(resonanceB, resonanceA)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Merge two resonances and their shifts into one    </TD><TD CLASS="pageBody"> Nmr.Resonance, Nmr.Resonance    </TD><TD CLASS="pageBody"> Nmr.Resonance  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">mergeSpinSystems <SPAN CLASS="i">(spinSystemB, spinSystemA)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Merge the resonances from two spin systems into one spin system    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup, Nmr.ResonanceGroup    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">newPeakDimContrib <SPAN CLASS="i">(peakDim, resonance, peakContribs=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a peakDim to resonance assignment via a PeakDimContrib. Optional argument to specify which             PeakContrib assignment possibilities the peakDim assignment relates to.    </TD><TD CLASS="pageBody"> Nmr.PeakDim, Nmr.Resonance, List of Nmr.PeakContribs    </TD><TD CLASS="pageBody"> Nmr.PeakDimContrib  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">newResonance <SPAN CLASS="i">(project, isotopeCode='unknown')</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a new resonance in a given project. Sets initial isotopeCode.    </TD><TD CLASS="pageBody"> Project, Word (Resonance.isotopeCode)    </TD><TD CLASS="pageBody"> Nmr.Resonance  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">newSpinSystem <SPAN CLASS="i">(project)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Make a new spin system for a project    </TD><TD CLASS="pageBody"> Project    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup (spin system)  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">propagatePeakAssignments <SPAN CLASS="i">(peaks, refPeak=None, cleanNonRef=0, tolerances=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Propogates approprate assignments across a group of peaks             e.g. to spead F1 F3 assignments to a column of peaks in the same spin system.             If a refPeak is present it will not be affected but its assignments will             be used instead of the assignments from the other peaks.             cleanNonRef Boolean option is used when there is a reference peak so             that the non-reference peaks may be cleaned prior to propagation.             Optional argument to pass in the tolerences for each dimension.    </TD><TD CLASS="pageBody"> List of Nmr.Peaks, Nmr.Peak, Boolean, Dict of Resonance.isotopeCode:Float    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">removeAssignmentNotifiers <SPAN CLASS="i">()</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Remove the notification calls to automatically update annotations             and quick shift lookups when assignments change.    </TD><TD CLASS="pageBody"> None    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">removeSpinSystemResonance <SPAN CLASS="i">(spinSystem, resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Remove a resonance from a given spin system    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup, Nmr.Resonance    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setAssignmentMolSystem <SPAN CLASS="i">(residue, peakDim=None, resonance=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Sets the MolSystem.Molsystem for all experiments with assignments to a given             resonance and/or the experiment for a given peakDim             Displays a warning if an assignment is made outside an experiment's             list of molSystems.    </TD><TD CLASS="pageBody"> MolSystem.Residue, Nmr.PeakDim, Nmr.Resonance    </TD><TD CLASS="pageBody"> Boolean  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setQuickShiftList <SPAN CLASS="i">(shift)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Sets up a list of lists of shifts for a shift list accessed by shift.value: quicker than searching all    </TD><TD CLASS="pageBody"> Nmr.Shift    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setResonanceTypeFromRefExp <SPAN CLASS="i">(resonance, refExpDimRef)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Set a resonance's assign names based on a refExpDimRef to which it is assigned.             Currently limited to CO, CA, CB.    </TD><TD CLASS="pageBody"> Nmr.Resonance, NmrExpPrototype.RefExpDimRef    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">setupAssignmentNotifiers <SPAN CLASS="i">()</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Set up the notification calls to automatically update annotations             and quick shift lookups when assignments change.    </TD><TD CLASS="pageBody"> None    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">splitResonance <SPAN CLASS="i">(resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Split assignments that were once thought to be from one resonance             into assignments from two.    </TD><TD CLASS="pageBody"> Nmr.Resonance    </TD><TD CLASS="pageBody"> Nmr.Resonance  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">swapProchiralResonance <SPAN CLASS="i">(resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> If a resonance is assigned to a prociral centre in a sterospecific manner, change             the assignment to the other prochiral atom set. Automatically swaps over any other             resonance that may be assigned to the other prochiral option.    </TD><TD CLASS="pageBody"> Nmr.Resonance    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">swapSpinSystemResonances <SPAN CLASS="i">(spinSystemB, spinSystemA)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Swaps the resonances for as pair of spin systems.             Spin systen assignments updates according to resonance assignments    </TD><TD CLASS="pageBody"> Nmr.ResonanceGroup, Nmr.ResonanceGroup    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">updateAllShifts <SPAN CLASS="i">(shiftList)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Recalculate the values for all shifts in a shift list given peak assignments    </TD><TD CLASS="pageBody"> Nmr.ShiftList    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">updateAtomSetMapping <SPAN CLASS="i">(atomSetMapping, atomSets=None)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Refresh an AtomSetMapping according to the current assignment status.             AtomSets optionally passed into increase speed    </TD><TD CLASS="pageBody"> Analysis.AtomSetMapping, List of Nmr.AtomSets    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">updateContribPeakDimAnnotation <SPAN CLASS="i">(contrib)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Updates annotation string for the peak dimension of a given contribution according to its assignment status    </TD><TD CLASS="pageBody"> Nmr.PeakDimContrib    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">updateResidueAnnotation <SPAN CLASS="i">(residue)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Update the annotations for the peaks assigned to a residues resonances    </TD><TD CLASS="pageBody"> MolSystem.Residue    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">updateResonShift <SPAN CLASS="i">(resonance, peakDim)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Update the shift values for a given resonance given assignment to a given peak dimension    </TD><TD CLASS="pageBody"> Nmr.Resonance, Nmr.PeakDim    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">updateResonanceAnnotation <SPAN CLASS="i">(resonance)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Update the annotations for the peaks assigned to a given resonance    </TD><TD CLASS="pageBody"> Nmr.Resonance    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+    <TR><TD COLSPAN=3 CLASS="pageHead">updateResonanceSetAnnotation <SPAN CLASS="i">(resonanceSet)</SPAN></TD></TR>
+    <TR><TD WIDTH=100% CLASS="pageDull">Description</TD><TD CLASS="pageDull">Input</TD><TD CLASS="pageDull">Output</TD></TR>
+    <TR><TD CLASS="pageBody"> Update the annotations for the peaks assigned to a resonanceSet's resonances    </TD><TD CLASS="pageBody"> Nmr.ResonanceSet    </TD><TD CLASS="pageBody"> None  </TD></TR>
+    <TR><TD></TD></TR>
+  </TABLE>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

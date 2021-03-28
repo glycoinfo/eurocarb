@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompCoord/ChemCompVarCoord
+END
+descriptor.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompCoord/ChemCompVarCoord/descriptor.html
+END
+chemCompCoord.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompCoord/ChemCompVarCoord/chemCompCoord.html
+END
+chemAtomCoords.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompCoord/ChemCompVarCoord/chemAtomCoords.html
+END
+chemCompVars.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompCoord/ChemCompVarCoord/chemCompVars.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompCoord/ChemCompVarCoord/index.html
+END
+getChemCompVars.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompCoord/ChemCompVarCoord/getChemCompVars.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompCoord/ChemCompVarCoord/parent.html
+END
+linking.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/ChemCompCoord/ChemCompVarCoord/linking.html
+END

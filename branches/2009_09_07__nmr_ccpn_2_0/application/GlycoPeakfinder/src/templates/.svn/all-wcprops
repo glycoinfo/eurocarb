@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/templates
+END
+download.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/templates/download.ftl
+END
+side_menu.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/templates/side_menu.ftl
+END
+header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/templates/header.ftl
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/templates/error.ftl
+END
+footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/templates/footer.ftl
+END
+contact_form.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/templates/contact_form.ftl
+END
+introduction.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/templates/introduction.ftl
+END
+critical_error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/templates/critical_error.ftl
+END
+contact_success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/templates/contact_success.ftl
+END

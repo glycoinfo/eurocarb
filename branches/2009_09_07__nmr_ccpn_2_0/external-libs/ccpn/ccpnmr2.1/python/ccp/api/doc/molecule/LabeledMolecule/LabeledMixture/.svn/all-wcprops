@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/LabeledMolecule/LabeledMixture
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/LabeledMolecule/LabeledMixture/index.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/LabeledMolecule/LabeledMixture/parent.html
+END
+molComponents.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/LabeledMolecule/LabeledMixture/molComponents.html
+END
+averageComposition.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/LabeledMolecule/LabeledMixture/averageComposition.html
+END
+labeledMolecule.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/LabeledMolecule/LabeledMixture/labeledMolecule.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/LabeledMolecule/LabeledMixture/serial.html
+END
+molLabelFractions.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/LabeledMolecule/LabeledMixture/molLabelFractions.html
+END
+experiments.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/molecule/LabeledMolecule/LabeledMixture/experiments.html
+END

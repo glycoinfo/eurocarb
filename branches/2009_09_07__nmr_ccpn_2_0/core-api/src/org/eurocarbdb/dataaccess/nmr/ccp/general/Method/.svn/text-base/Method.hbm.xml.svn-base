@@ -1,0 +1,455 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Method">
+  <class
+    name="Method"
+    table="METH_METHOD"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Description of method or procedure, be it computational (calculation or processing) or real-world (e.g. purification).</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.general.Method.MethodStore"
+    not-null="true"
+    unique="false"
+    foreign-key="METH_METHOD_METHSTOR_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text, for notes, explanatory comments, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Method name</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_procedure"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Description of the procedure carried out. Typically in the form of a script executable by the relevant Software, but could be a more general description.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PROCEDURE_" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="methodUniqueKey" />
+  </property>
+  
+  <property
+    name="_task"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Operation caried out or result calculated e.g. 'Peak intensity', 'T1 fit', 'NMR processing', 'linear prediction', 'HPLC purification'.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="TASK" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="METH_METHOD2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbInstrument"
+    column="INSTRUMENTID"
+    class="ccp.api.general.Instrument.Instrument" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="METH_METHOD_INSTRUMENT_FK" 
+  >
+    <meta attribute="field-description">Instrument associated to a given method.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbMethodStore"
+    column="METHODSTOREID"
+    class="ccp.api.general.Method.MethodStore" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="METH_METHOD_METHSTOR_FK" 
+    unique-key="methodUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbSoftware"
+    column="SOFTWAREID"
+    class="ccp.api.general.Method.Software" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="METH_METHOD_SOFTWARE_FK" 
+  >
+    <meta attribute="field-description">Software used to execute method. Method.procedure will frequently be a script directly executable by the Software.</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbColumns" 
+    table="INST_COLUMN"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Columns that use this loading method.</meta>
+    <meta attribute="base-name">hbColumn</meta>
+    <cache usage="read-write"/>
+    <key column="LOADINGMETHODID"/>
+    <one-to-many class="ccp.api.general.Instrument.Column"/>
+  </set>
+  
+  <set 
+    name="hbParameters" 
+    table="METH_PARAMETER"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbParameter</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID"/>
+    <one-to-many class="ccp.api.general.Method.Parameter"/>
+  </set>
+  
+  <set 
+    name="hbDataDerivations" 
+    table="NMR_ABSTRACTDATADERIVATION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">DataDerivations calculated using Method</meta>
+    <meta attribute="base-name">hbDataDerivation</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.AbstractDataDerivation"/>
+  </set>
+  
+  <set 
+    name="hbDataDims" 
+    table="NMR_ABSTRACTDATADIM"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Nmr DataDims linear predicted with Method</meta>
+    <meta attribute="base-name">hbDataDim</meta>
+    <cache usage="read-write"/>
+    <key column="PREDICTMETHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.AbstractDataDim"/>
+  </set>
+  
+  <set 
+    name="hbMeasurements" 
+    table="NMR_ABSTRACTMEASUREMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Measurements calculated using Method</meta>
+    <meta attribute="base-name">hbMeasurement</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.AbstractMeasurement"/>
+  </set>
+  
+  <set 
+    name="hbMeasurementLists" 
+    table="NMR_ABSTRACTMEASUREMENTLIST"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Measurement lists calculated using Method</meta>
+    <meta attribute="base-name">hbMeasurementList</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.AbstractMeasurementList"/>
+  </set>
+  
+  <set 
+    name="hbCompressDataSources" 
+    table="NMR_DATASOURCE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Nmr DataSources compresed with Method</meta>
+    <meta attribute="base-name">hbCompressDataSource</meta>
+    <cache usage="read-write"/>
+    <key column="COMPRESSMETHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.DataSource"/>
+  </set>
+  
+  <set 
+    name="hbProcessDataSources" 
+    table="NMR_DATASOURCE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Nmr DataSources processed with Method.</meta>
+    <meta attribute="base-name">hbProcessDataSource</meta>
+    <cache usage="read-write"/>
+    <key column="PROCESSMETHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.DataSource"/>
+  </set>
+  
+  <set 
+    name="hbSnDataSources" 
+    table="NMR_DATASOURCE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">DataSources that use this method for S/N ratio determination</meta>
+    <meta attribute="base-name">hbSnDataSource</meta>
+    <cache usage="read-write"/>
+    <key column="SNMETHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.DataSource"/>
+  </set>
+  
+  <set 
+    name="hbDerivedDataLists" 
+    table="NMR_DERIVEDDATALIST"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">DerivedDataLists calculated using Method</meta>
+    <meta attribute="base-name">hbDerivedDataList</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.DerivedDataList"/>
+  </set>
+  
+  <set 
+    name="hbDerivedNmrExperiments" 
+    table="NMR_EXPERIMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Nmr.Experiments derived using Method</meta>
+    <meta attribute="base-name">hbDerivedNmrExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="DERIVATIONMETHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Experiment"/>
+  </set>
+  
+  <set 
+    name="hbPeaks" 
+    table="NMR_PEAK"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Peaks fitted using Method</meta>
+    <meta attribute="base-name">hbPeak</meta>
+    <cache usage="read-write"/>
+    <key column="FITMETHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Peak"/>
+  </set>
+  
+  <set 
+    name="hbPeakIntensities" 
+    table="NMR_PEAKINTENSITY"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Peak intensities determined using Method.</meta>
+    <meta attribute="base-name">hbPeakIntensity</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.PeakIntensity"/>
+  </set>
+  
+  <set 
+    name="hbFitPeakLists" 
+    table="NMR_PEAKLIST"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Nmr Peak Lists using Method as default fitting method.</meta>
+    <meta attribute="base-name">hbFitPeakList</meta>
+    <cache usage="read-write"/>
+    <key column="FITMETHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.PeakList"/>
+  </set>
+  
+  <set 
+    name="hbIntensPeakLists" 
+    table="NMR_PEAKLIST"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">PeakLists using Method as 'Preferred' peak intensity deternmination method.</meta>
+    <meta attribute="base-name">hbIntensPeakList</meta>
+    <cache usage="read-write"/>
+    <key column="INTENSMETHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.PeakList"/>
+  </set>
+  
+  <set 
+    name="hbStructureAnalyses" 
+    table="NMR_STRUCTUREANALYSIS"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">StructureAnalyses carried out using method</meta>
+    <meta attribute="base-name">hbStructureAnalysis</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.StructureAnalysis"/>
+  </set>
+  
+  <set 
+    name="hbStructureGenerations" 
+    table="NMR_STRUCTUREGENERATION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">StructureGenerations carried out using method</meta>
+    <meta attribute="base-name">hbStructureGeneration</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.StructureGeneration"/>
+  </set>
+  
+  <set 
+    name="hbConstraints" 
+    table="NMRC_ABSTRACTCONSTRAINT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Constraints calculated using Method</meta>
+    <meta attribute="base-name">hbConstraint</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID"/>
+    <one-to-many class="ccp.api.nmr.NmrConstraint.AbstractConstraint"/>
+  </set>
+  
+  <set 
+    name="hbConstraintLists" 
+    table="NMRC_ABSTRACTCONSTRAINTLIST"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">ConstraintLists calculated using Method</meta>
+    <meta attribute="base-name">hbConstraintList</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID"/>
+    <one-to-many class="ccp.api.nmr.NmrConstraint.AbstractConstraintList"/>
+  </set>
+  
+  <set 
+    name="hbViolations" 
+    table="NMRC_VIOLATION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Nmr Constraint violations calculated using Method</meta>
+    <meta attribute="base-name">hbViolation</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID"/>
+    <one-to-many class="ccp.api.nmr.NmrConstraint.Violation"/>
+  </set>
+  
+  <set 
+    name="hbCitations" 
+    table="METH_METHOD2CITATIONS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Citations describing method.</meta>
+    <meta attribute="base-name">hbCitation</meta>
+    <cache usage="read-write"/>
+    <key column="METHODID" foreign-key="CITA_CITATION_METHODS_FK"/>
+    <many-to-many column="CITATIONID" class="ccp.api.general.Citation.Citation" foreign-key="METH_METHOD_CITATIONS_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

@@ -1,0 +1,52 @@
+10
+
+dir
+1997
+http://eurocarb.googlecode.com/svn/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb
+http://eurocarb.googlecode.com/svn
+
+
+
+2010-09-29T06:48:09.079243Z
+1988
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b1b7f5f2-413c-11de-998b-8fedbbe774c7
+
+gui
+dir
+
+tranche
+dir
+
+servlet
+dir
+
+dataaccess
+dir
+
+action
+dir
+
+interceptor
+dir
+
+result
+dir
+
+soap
+dir
+

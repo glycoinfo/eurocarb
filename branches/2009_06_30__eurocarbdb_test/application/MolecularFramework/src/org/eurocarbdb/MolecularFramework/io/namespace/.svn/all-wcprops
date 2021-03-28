@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace
+END
+GlycoVisitorFuseSubstituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorFuseSubstituent.java
+END
+GlycoVisitorLinkageTypeNormalisation.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorLinkageTypeNormalisation.java
+END
+AlternativeMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/AlternativeMapping.java
+END
+GlycoVisitorFromGlycoCTIsolated.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorFromGlycoCTIsolated.java
+END
+GlycoVisitorSubstituentUnknownPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorSubstituentUnknownPosition.java
+END
+GlycoVisitorToGlycoCTextendMSDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorToGlycoCTextendMSDB.java
+END
+GlycoVisitorToGlycoCT.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorToGlycoCT.java
+END
+GlycoVisitorFromGlycoCT.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorFromGlycoCT.java
+END

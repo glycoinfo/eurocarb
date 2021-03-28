@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="ResidueTypeProb"
+    extends="ccp.api.general.Template.AbstractProbability"
+    table="NMR_RESIDUETYPEPROB"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Connecting record, expressing the probability that a SpinSystem corresponds to a ChemComp</meta>
+  <key column="ABSTRACTPROBABILITYID" foreign-key="NMR_RESITYPEPROB_ABSTPROB_FK"/>
+  
+  <many-to-one
+    name="hbPossibility"
+    column="POSSIBILITYID"
+    class="ccp.api.molecule.ChemComp.ChemComp" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_RESITYPEPROB_POSS_FK" 
+    unique-key="residueTypeProbUniqueKey" 
+  >
+    <meta attribute="field-description">ChemComp that the ResonanceGroup has a probability of corresponding to.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbResonanceGroup"
+    column="RESONANCEGROUPID"
+    class="ccp.api.nmr.Nmr.ResonanceGroup" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_RESITYPEPROB_RESOGROU_FK" 
+    unique-key="residueTypeProbUniqueKey" 
+  >
+    <meta attribute="field-description">ResonanceGroup whose type probability is described.</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/parent.html
+END
+coords.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/coords.html
+END
+getChemAtom.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/getChemAtom.html
+END
+chemAtom.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/chemAtom.html
+END
+atomValidations.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/atomValidations.html
+END
+getElementSymbol.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/getElementSymbol.html
+END
+elementSymbol.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/elementSymbol.html
+END
+residue.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/residue.html
+END
+getAtom.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/getAtom.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/name.html
+END
+atom.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/atom.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolStructure/Atom/index.html
+END

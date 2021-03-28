@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/test/eurocarbdb/util
+END
+VisitorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/test/eurocarbdb/util/VisitorTest.java
+END
+XmlSerialiserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/test/eurocarbdb/util/XmlSerialiserTest.java
+END
+VersionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/test/eurocarbdb/util/VersionTest.java
+END
+StringUtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/test/eurocarbdb/util/StringUtilsTest.java
+END
+BitSetTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/test/eurocarbdb/util/BitSetTest.java
+END

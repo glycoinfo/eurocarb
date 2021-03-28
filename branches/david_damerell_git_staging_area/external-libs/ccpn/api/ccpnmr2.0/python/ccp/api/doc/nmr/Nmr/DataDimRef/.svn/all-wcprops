@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef
+END
+valueToPoint.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/valueToPoint.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/parent.html
+END
+pointToValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/pointToValue.html
+END
+getValuePerPoint.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/getValuePerPoint.html
+END
+valuePerPoint.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/valuePerPoint.html
+END
+spectralWidthOrig.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/spectralWidthOrig.html
+END
+getSpectralWidthOrig.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/getSpectralWidthOrig.html
+END
+dataDim.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/dataDim.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/index.html
+END
+localValuePerPoint.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/localValuePerPoint.html
+END
+refValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/refValue.html
+END
+spectralWidth.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/spectralWidth.html
+END
+getSpectralWidth.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/getSpectralWidth.html
+END
+expDimRef.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/expDimRef.html
+END
+refPoint.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/Nmr/DataDimRef/refPoint.html
+END

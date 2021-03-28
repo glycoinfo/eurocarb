@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-cascade="save-update">
+
+    <!-- all hand coded by jmci on 27 aug 2009, based on ms.acquisition -->
+
+    <!-- nmr.NmrEvidence subclasses core.Evidence -->
+    <joined-subclass name="org.eurocarbdb.dataaccess.nmr.NmrEvidence"
+                     extends="org.eurocarbdb.dataaccess.core.Evidence"
+                     table="nmr_evidence"
+                     schema="nmr"
+    >
+
+    <!-- node="nmr_evidence" -->
+
+        <!-- joins evidence table on fkey evidence_id -->
+        <key column="evidence_id" unique="true" property-ref="evidenceId" />
+
+        <!--======================  properties  =============================-->
+
+        <property name="nmrEvidenceId" unique="true" type="int" insert="false" generated="insert" access="field">
+            <column name="nmr_evidence_id" />
+        </property>
+
+        <!--======================  associations  ===========================-->
+
+        <many-to-one name="memopsRoot" class="memops.api.Implementation.MemopsRoot">
+            <column name="memops_root_id" not-null="true" />
+        </many-to-one>
+
+        <!--=====================  named queries  =============================-->
+
+        <!--
+        query : BY_ID
+        author: jmci
+        -->
+
+        <query name="BY_ID" comment="Retrieve NMR evidence by nmrEvidenceId.">
+            select nmre from NmrEvidence as nmre
+            where nmre.evidenceId = :evidenceId
+        </query>
+
+        <!--
+        query : LoadLink
+        author: jmci
+        note  : this method calls a stored procedure that populates the
+                links to the core schema (glycan_id, evidence_id) in the
+                nmr.tune_shift2atoms table. The return value is a
+                placeholder to keep hibernate happy.
+        -->
+
+        <sql-query name="LoadLink" callable="false">  
+           <return-scalar column="csum" type="int"/>
+            select count(*) as csum from nmr.atom_shift_evid_proc(:rootId)
+        </sql-query> 
+
+
+        <!--
+        query : COMP_BY_ID
+        author: jmci
+        -->
+
+        <query name="COMP_BY_ID" comment="Retrieve ChemComp by ccpCode.">
+            select comp from ccp.api.molecule.ChemComp.ChemComp as comp
+            where comp._ccpCode = :ccpCode
+        </query>
+
+        <!--
+        query : NmrProjects, NmrExperiments, NmrSpectrometer
+        author: jmci
+        notes : first attempt at writing HQL queries for show_project. Currently
+                use SQL rather than HQL. The objects returned are not yet
+                fully functional (see release notes)
+        -->
+
+        <query name="NmrProjects" comment="Retrieve NmrProjects in MemopsRoot">
+            select nmrp from ccp.api.nmr.Nmr.NmrProject as nmrp 
+            where nmrp._segment = :projectName
+        </query>
+
+        <query name="NmrExperiments" comment="Retrieve Nmr Experiments in MemopsRoot">
+            select nmre 
+            from ccp.api.nmr.Nmr.Experiment nmre, ccp.api.nmr.Nmr.NmrProject nmrp
+            where nmre._topObject = nmrp
+            and nmrp._segment = :projectName            
+        </query>
+
+
+
+
+        <query name="NmrSpectrometer" comment="Get Spectrometer for Nmr Experiment">
+            select spec 
+            from ccp.api.nmr.Nmr.Experiment nmre, ccp.api.general.Instrument.NmrSpectrometer spec
+            where nmre.hbSpectrometer = spec
+            and nmre = :experiment            
+        </query>
+
+        <query name="ExperimentTable" comment="Get Experiment Table">
+            select new list (nmre._name, nmre._numDim, spec._nominalFreq, nmre._details, nmre._dbId)
+            from ccp.api.nmr.Nmr.Experiment nmre, ccp.api.nmr.Nmr.NmrProject nmrp
+            left outer join nmre.hbSpectrometer as spec
+            where nmre._topObject = nmrp
+            and nmrp._segment = :projectName            
+        </query>
+
+        <!--
+        query : ShiftTable
+        author: jmci
+        notes : initial HQL query for shift table for use by show_project.
+                Superceded by tuned SQL query below
+        -->
+
+
+        <query name="ShiftTable" comment="Get Full Table of shifts">
+            select new list(res._seqId, cc._ccpCode, atom._name, shift._value, shift._error )
+            from ccp.api.molecule.MolSystem.Atom as atom
+            inner join atom.hbAtomSet as atomset
+            inner join atomset.hbResonanceSets as resonanceset
+            inner join resonanceset.hbResonances as resonance
+            inner join resonance.hbShifts as shift
+            inner join atom.hbResidue as res
+            inner join res.hbChain as chain
+            inner join res.MolResidue as molRes
+            inner join molRes.hbChemComp as cc
+            inner join chain._topObject as molSys
+            where molSys._segment = :projectName
+            order by res._seqId, atom._name
+        </query>
+
+
+        <!--
+        query : BondTable, CoordTable
+        author: jmci
+        notes : initial HQL queries for list of bonds and coords in ChemComp for
+                use in building image. Not currently used
+        -->
+
+        <query name="BondTable" comment="Get Full Table of Shifts for ChemCompVar">
+            select new list(atom1._name, atom2._name, bond._bondType, atom1._elementSymbol,  atom2._elementSymbol)
+            from ccp.api.molecule.ChemComp.ChemBond as bond
+            inner join bond.hbChemAtoms as atom1
+            inner join bond.hbChemAtoms as atom2
+            inner join atom1.hbChemCompVars as var1
+            inner join atom2.hbChemCompVars as var2
+            inner join bond.hbChemComp as comp
+            where comp._ccpCode = :ccpCode
+            and atom1._dbId != atom2._dbId
+            and atom1._dbId >= atom2._dbId
+            and var1._linking = :linking
+            and var1._descriptor = :descriptor
+            and atom1._elementSymbol is not null 
+            and atom2._elementSymbol is not null 
+            and var1 = var2
+        </query>
+
+        <query name="CoordTable" comment="Get Full Table of Shifts for ChemCompVar">
+            select atom
+            from ccp.api.molecule.ChemCompCoord.ChemAtomCoord as atom
+            inner join atom.hbChemCompVarCoords as var
+            inner join atom.hbChemCompCoord as comp
+            where comp._ccpCode = :ccpCode
+            and var._linking = :linking
+            and var._descriptor = :descriptor
+            and comp._sourceName = :sourceName 
+        </query>
+
+
+        <!-- SQL QUERIES TO BE RUN OFF HEAVILY DENORMALISED QUERY TABLES -->
+
+        <!-- This needs to be far more flexible (probably made up into a
+             stored procedure) but will do for now. In fact, this should
+             not be stored as a named query, but rather be composed on the
+             fly. That way we can send arbitrary number of constraints
+        -->
+
+        <sql-query name="MeasListsByProject" comment="Get table of shift list per project">
+          <return-scalar column="shift_list_id" type="integer"/>
+           select distinct shift_list_id as shift_list_id
+           from nmr.tune_shift2atoms
+           where project_name = :projectName
+           and is_simulated = false
+           order by shift_list_id
+         </sql-query>
+
+
+        <!--
+        query : ExptsByProject
+        author: jmci
+        notes : tuned query for listing Experiment by NmrProject. Currently in use,
+                but not significantly faster than using HQL. Target for deprecation
+        -->
+
+        <sql-query name="ExptsByProject" comment="Get table of experiments per project">
+          <return-scalar column="expt_name" type="string"/>
+          <return-scalar column="expt_num_dims" type="int"/>
+          <return-scalar column="spec_freq" type="string"/>
+          <return-scalar column="syn" type="boolean"/>
+           select expt_name as expt_name,
+                  expt_num_dims as expt_num_dims,
+                  spec_freq as spec_freq,
+                  shift_list_syn as syn
+           from nmr.tune_expts
+           where project_name = :projectName
+           order by shift_list_id
+         </sql-query>
+        
+        <!--
+        query : LinkingByCompTable
+        author: jmci
+        notes : list of linking types per residue. Not currently used. Aimed to be
+                used in show_comp to allow users to toggle the linking state.
+        -->
+
+        <sql-query name="LinkingByCompTable" comment="Get table of linking by residue type">
+          <return-scalar column="linking" type="string"/>
+           select distinct(resid_linking) as linking
+           from nmr.tune_shift2atoms
+           where comp_name = :ccpCode
+           group by resid_linking
+           order by resid_linking
+        </sql-query>
+
+        <!--
+        query : AvgShiftByCompTable
+        author: jmci
+        notes : mean and variation of shift per resiude as used in show_comp.
+                This is a first cut of the query as used in Dublin Sep 2009, 
+                and ingores the linking state. Superceded by the query 
+                AvgShiftByCompLinkTable below.
+        -->
+
+        <sql-query name="AvgShiftByCompTable" comment="Get table of atoms and average shifts per residue">
+          <return-scalar column="atom_name" type="string"/>
+          <return-scalar column="shift_avg" type="float"/>
+          <return-scalar column="shift_err" type="float"/>
+          <return-scalar column="atom_count" type="int"/>
+           select distinct(atom_name) as atom_name, 
+                  AVG(shift_freq) as shift_avg, 
+                  STDDEV(shift_freq) as shift_err,
+                  count(atom_name) as atom_count
+           from nmr.tune_shift2atoms
+           where comp_name = :ccpCode
+           and residue_descrip = :descriptor
+           and is_simulated = false
+           group by atom_name
+           order by atom_name
+        </sql-query>
+
+        <!--
+        query : AvgShiftByCompLinkTable
+        author: jmci
+        notes : mean and variation of shift per resiude as used in show_comp.
+                This is the second version of the query which takes into
+                account the linking state. 
+        -->
+
+        <sql-query name="AvgShiftByCompLinkTable" comment="Get table of atoms and average shifts per residue">
+          <return-scalar column="atom_name" type="string"/>
+          <return-scalar column="shift_avg" type="float"/>
+          <return-scalar column="shift_err" type="float"/>
+          <return-scalar column="atom_count" type="int"/>
+           select distinct(atom_name) as atom_name, 
+                  AVG(shift_freq) as shift_avg, 
+                  STDDEV(shift_freq) as shift_err,
+                  count(atom_name) as atom_count
+           from nmr.tune_shift2atoms
+           where comp_name = :ccpCode
+           and residue_descrip = :descriptor
+           and residue_linking = :linking
+           and is_simulated = false
+           group by atom_name
+           order by atom_name
+        </sql-query>
+
+        <!--
+        query : CompAllTable
+        author: jmci
+        notes : summary of all shifts within all comps. Not currently used
+        -->
+
+        <sql-query name="CompAllTable" comment="Summary of all comps with shifts">
+          <return-scalar column="comp_name" type="string"/>
+          <return-scalar column="residue_descrip" type="string"/>
+          <return-scalar column="count" type="int"/>
+           select distinct comp_name, residue_descrip, count(1) as count
+           from nmr.tune_shift2atoms
+           where is_casper = false
+           group by comp_name, residue_descrip
+        </sql-query>
+
+        <!--
+        query : CompByShiftTable
+        author: jmci
+        notes : major search query and reason for structuring the DB in
+                the way it was done. We want to be able to query across
+                all shifts and identify shifts that match a certain
+                pattern. Here we have hard coded that only two shifts
+                are allowed. For further development this should be extended
+                so that we can query on an arbitrary number of shifts.
+        -->
+
+        <sql-query name="CompByShiftTable" comment="Get Full Table of shifts">
+          <return-scalar column="ccpCode" type="string"/>
+          <return-scalar column="atom1" type="string"/>
+          <return-scalar column="shift1" type="float"/>
+          <return-scalar column="atom2" type="string"/>
+          <return-scalar column="shift2" type="float"/>
+          <return-scalar column="projectName" type="string"/>
+          <return-scalar column="seq_id" type="string"/>
+          <return-scalar column="descriptor" type="string"/>
+          <return-scalar column="linking" type="string"/> 
+          <return-scalar column="glycanId" type="int"/>
+          <return-scalar column="evidId" type="int"/>
+            select r1.comp_name as ccpCode,
+                   r1.atom_name as atom1, 
+                   r1.shift_freq as shift1,
+                   r2.atom_name as atom2,
+                   r2.shift_freq as shift2,
+                   r1.project_name as projectName,
+                   r1.residue_seqid as seq_id,
+                   r1.residue_descrip as descriptor,
+                   r1.residue_linking as linking,
+                   r1.glycan_id as glycanId,
+                   r1.evidence_id as evidId
+            from nmr.tune_shift2atoms r1,
+                 nmr.tune_shift2atoms r2
+            where r1.residue_id = r2.residue_id
+            and r1.elementsymbol = :el_1
+            and r1.shift_freq &gt; :s_low_1
+            and r1.shift_freq &lt; :s_high_1
+            and r2.elementsymbol = :el_2
+            and r2.shift_freq &gt; :s_low_2
+            and r2.shift_freq &lt; :s_high_2
+            and r1.atom_id != r2.atom_id
+            and r1.shift_list_id = r2.shift_list_id
+            and r1.is_simulated = false
+            and r2.is_simulated = false
+            order by r1.comp_name, r1.project_name;
+        </sql-query>
+
+        <!--
+        query : ShiftByExptTable
+        author: jmci
+        notes : Gets the list of shifts from a given shiftList. Used in
+                show_project to retrieve the chemcial shift data.
+        -->
+
+        <sql-query name="ShiftByExptTable" comment="Get table of atoms and average shifts per residue">
+          <return-scalar column="seq_id" type="string"/>
+          <return-scalar column="comp_name" type="string"/>
+          <return-scalar column="atom_name" type="string"/>
+          <return-scalar column="shift_freq" type="float"/>
+          <return-scalar column="casper_score" type="float"/>
+          <return-scalar column="descriptor" type="string"/>
+          <return-scalar column="linking" type="string"/>
+           select r1.residue_seqid as seq_id,
+                  r1.comp_name as comp_name,
+                  r1.atom_name as atom_name,
+                  r1.shift_freq as shift_freq,
+                  r1.casper_score as casper_score,
+                  r1.residue_descrip as descriptor,
+                  r1.residue_linking as linking
+           from nmr.tune_shift2atoms r1
+           where r1.project_name = :projectName
+           and r1.shift_list_id = :shiftListId
+           and r1.is_simulated = false
+           order by r1.shift_list_id, r1.residue_seqid, r1.residue_descrip, r1.atom_name;
+        </sql-query>
+
+
+
+   </joined-subclass>
+
+</hibernate-mapping>

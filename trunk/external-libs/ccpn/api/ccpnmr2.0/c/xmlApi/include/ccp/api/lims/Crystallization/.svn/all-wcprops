@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Crystallization
+END
+Cryz_Image.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Crystallization/Cryz_Image.h
+END
+Cryz_CrystallizationStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Crystallization/Cryz_CrystallizationStore.h
+END
+Cryz_ScoringScheme.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Crystallization/Cryz_ScoringScheme.h
+END
+Cryz_ParameterDefinition.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Crystallization/Cryz_ParameterDefinition.h
+END
+Cryz_Score.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Crystallization/Cryz_Score.h
+END
+Cryz_DropAnnotation.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Crystallization/Cryz_DropAnnotation.h
+END
+Cryz_Parameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Crystallization/Cryz_Parameter.h
+END

@@ -1,0 +1,89 @@
+10
+
+dir
+1997
+http://eurocarb.googlecode.com/svn/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action
+http://eurocarb.googlecode.com/svn
+
+
+
+2010-02-22T16:08:46.641714Z
+1869
+david@nixbioinf.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b1b7f5f2-413c-11de-998b-8fedbbe774c7
+
+echo.ftl
+file
+
+
+
+
+2016-01-08T01:26:19.823849Z
+288245e2aeb02dae2c1e8a9027861ff3
+2008-04-18T17:30:57.703405Z
+1
+aceroni
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+107
+
+hplc
+dir
+
+admin
+dir
+
+core
+dir
+
+misc
+dir
+
+nmr
+dir
+
+user
+dir
+
+examples
+dir
+
+ms
+dir
+
+devel
+dir
+

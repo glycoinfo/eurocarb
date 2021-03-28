@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/sugar/seq
+END
+SequenceIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/sugar/seq/SequenceIterator.java
+END
+IupacSequenceFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/sugar/seq/IupacSequenceFormat.java
+END
+CarbbankSequenceFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/sugar/seq/CarbbankSequenceFormat.java
+END
+GlycoctSequenceFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/sugar/seq/GlycoctSequenceFormat.java
+END
+GlycoctXmlSequenceFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/sugar/seq/GlycoctXmlSequenceFormat.java
+END
+MultiSequenceFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/sugar/seq/MultiSequenceFormat.java
+END

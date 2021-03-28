@@ -1,0 +1,59 @@
+#summary Frequently anticipated questions
+
+<wiki:toc />
+
+=Frequently anticipated questions for developers=
+
+
+==Database design==
+
+
+==Core API==
+
+
+==Actions/Web app==
+
+===How does the web application work?===
+
+The webapp is based around the webwork/struts2 framework. There are a couple of informative articles on the [Eurocarbdb_Webapp_architecture eurocarbdb webapp architecture] and the [Eurocarbdb_webapp_lifecycle lifecycle of a HTTP request].
+
+==Web UI and templates==
+
+===How do I create a new HTML template for my Action?===
+
+----
+
+===How do I add a stylesheet to `<head/>`? ===
+
+{{{
+<@ecdb.include_css url="any/relative/or/absolute/url" />
+}}}
+
+This macro can appear anywhere in a template.
+
+----
+
+===How do I add a javascript to `<head/>`? ===
+
+{{{
+<@ecdb.include_js url="any/relative/or/absolute/url" />
+}}}
+
+This macro can appear anywhere in a template.
+
+----
+
+===How do I create those right-floated context boxes? ===
+
+{{{
+    <@ecdb.context_box title="Page Title"> 
+        Your content here.
+    </@>
+}}}    
+Additional args to the above macro:
+
+    # id          - optional string - DOM id of the HTML div
+    # title       - optional string - title text for this box
+    # prepend     - optional boolean - if true, content is prepended instead of appended.
+
+Context boxes can appear anywhere in the template.

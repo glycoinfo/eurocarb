@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.RefSampleComponent">
+  <joined-subclass
+    name="Composite"
+    extends="ccp.api.lims.RefSampleComponent.AbstractComponent"
+    table="REFS_COMPOSITE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Composite is a subclass of AbstractComponent. It is a non-covalent complex of any kind. E.g. A DNA duplex, a micelle, possibly containing other molecules. A protein with an inhibitor bound. A cell containing plasmids.</meta>
+  <key column="ABSTRACTCOMPONENTID" foreign-key="REFS_COMPOSITE_ABSTCOMP_FK"/>
+  
+  <property
+    name="_assessmentMethod"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">The assessment Method used to determine the composite.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ASSESSMENTMETHOD" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_molecularMass"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The experimental molecular mass in dalton (Da).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MOLECULARMASS" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_molecularMassMethod"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">The method used to determine the experimental molecular mass.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MOLECULARMASSMETHOD" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <set 
+    name="hbElements" 
+    table="REFS_COMPOSITEELEMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbElement</meta>
+    <cache usage="read-write"/>
+    <key column="COMPOSITEID"/>
+    <one-to-many class="ccp.api.lims.RefSampleComponent.CompositeElement"/>
+  </set>
+  
+  <set 
+    name="hbInteractions" 
+    table="REFS_COMPOSITEINTERACTION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbInteraction</meta>
+    <cache usage="read-write"/>
+    <key column="COMPOSITEID"/>
+    <one-to-many class="ccp.api.lims.RefSampleComponent.CompositeInteraction"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

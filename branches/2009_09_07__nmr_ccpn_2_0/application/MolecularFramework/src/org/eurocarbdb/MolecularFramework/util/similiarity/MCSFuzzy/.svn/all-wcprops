@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MCSFuzzy
+END
+ExampleUsage.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MCSFuzzy/ExampleUsage.java
+END
+MCSEdgeComparatorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MCSFuzzy/MCSEdgeComparatorFuzzy.java
+END
+MCSNodeComparatorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MCSFuzzy/MCSNodeComparatorFuzzy.java
+END
+MCSFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MCSFuzzy/MCSFuzzy.java
+END
+MCSVisitorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/MCSFuzzy/MCSVisitorFuzzy.java
+END

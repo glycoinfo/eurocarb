@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/webServer
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/webServer/__init__.py
+END
+webFc.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/webServer/webFc.py
+END
+INFO.TODO
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/webServer/INFO.TODO
+END
+INFO.DEPENDENCIES
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/webServer/INFO.DEPENDENCIES
+END
+Util.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/webServer/Util.py
+END

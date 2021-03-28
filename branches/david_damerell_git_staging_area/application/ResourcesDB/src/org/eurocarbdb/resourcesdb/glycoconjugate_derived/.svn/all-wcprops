@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived
+END
+EcdbAnomer.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbAnomer.java
+END
+EcdbSuperclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbSuperclass.java
+END
+EcdbModification.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbModification.java
+END
+EcdbModificationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbModificationType.java
+END
+EcdbBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbBaseType.java
+END
+EcdbResidueParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbResidueParser.java
+END
+GlycoconjugateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/GlycoconjugateException.java
+END
+LinkageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/LinkageType.java
+END
+ComparatorModification.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/ComparatorModification.java
+END
+EcdbMonosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbMonosaccharide.java
+END

@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-EntryEdit</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>EntryEdit</H1>
+            <H2>Creating an Entry for deposition.
+        </H2>
+        <P ALIGN="LEFT">In this window you can create an 'Entry' object. An Entry groups data
+        from your project together for archiving purposes. For example, if you want to deposit
+        your coordinate and NMR information via the MSD website, or if you want to create an
+        NMR-STAR file, you should create an Entry that groups together all the final data in
+        your project. You can then send your CCPN XML files to the E-MSD deposition site, where
+        all the relevant information will be extracted, and you will then have the option to
+        further your NMR information on to the BioMagResBank for deposition there.</P>
+        <P ALIGN="LEFT"><B>NOTE: Deposition via the <a
+        href="www.ebi.ac.uk/msd-srv/autodep4/index.jsp">MSD</a> is not yet working. It should be
+        functional by the end of 2005!</b></P>
+        <P ALIGN="LEFT">You can have multiple entries that you can select from the 'Pick entry'
+        list. To create a new Entry, click the 'Create New' button at the bottom of the page.
+        'Delete current' will delete the currently selected Entry, 'Update current' will update
+        the window values, and 'Close' will close this window.</P>
+        <P ALIGN="LEFT">A Study connects multiple entries together (e.g. if you have a project
+        that contains information on both the free and ligand-bound protein, you can create
+        different Entries for them and group them under the same Study.). To create a new Study,
+        click the 'Edit/new Study' button.</P>
+        <P ALIGN="LEFT">You should also enter information on the people and laboratories
+        involved in the project (this will be automatically used during deposition). Using the
+        'Select contactPersons', 'Select authors' and 'Select laboratories' options. Create new
+        persons/labs or edit existing ones with the 'Edit/new' buttons. Note that <b>only</b>
+        the selected (grey highlighted) persons/labs are the ones currently connected to this
+        Entry!</P>
+        <P ALIGN="LEFT">Next, select the MolSystem (molecular system) in your project that is
+        relevant for this Entry. You can add information on the journal, book, thesis or
+        conference citations connected to the currently selected MolSystem using 'Select
+        citations'. Create new citations or edit existing ones with the 'Edit/new' buttons.
+        Note that <b>only</b> the selected (grey highlighted) citations are the ones currently
+        connected to this Entry!</P>
+        <P ALIGN="LEFT">Finally, you can select all the relevant Experiments, Structure
+        Generations, and Measurement and Derived Data List that you want to connect to this
+        Entry.</P>
+
+    </TABLE>
+  </BODY>
+</HTML>

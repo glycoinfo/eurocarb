@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target
+END
+topology.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/topology.html
+END
+pathway.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/pathway.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/serial.html
+END
+getSeqString.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/getSeqString.html
+END
+seqString.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/seqString.html
+END
+protein.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/protein.html
+END
+proteinName.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/proteinName.html
+END
+targetGroups.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/targetGroups.html
+END
+functionDescription.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/functionDescription.html
+END
+commonName.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/commonName.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/parent.html
+END
+catalyticActivity.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/catalyticActivity.html
+END
+similarityDetails.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/similarityDetails.html
+END
+annotations.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/annotations.html
+END
+targetStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/targetStore.html
+END
+biologicalProcess.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/biologicalProcess.html
+END
+dbRefs.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/dbRefs.html
+END
+whyChosen.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/whyChosen.html
+END
+cellLocation.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/cellLocation.html
+END
+geneName.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/geneName.html
+END
+details.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/details.html
+END
+orf.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/orf.html
+END
+nucleicAcids.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/nucleicAcids.html
+END
+systematicName.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/systematicName.html
+END
+projects.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/projects.html
+END
+targetStatus.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/targetStatus.html
+END
+localName.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/localName.html
+END
+species.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/species.html
+END
+citations.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/citations.html
+END
+creator.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/creator.html
+END
+biochemicalFunction.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/biochemicalFunction.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/index.html
+END
+blueprintComponents.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Target/Target/blueprintComponents.html
+END

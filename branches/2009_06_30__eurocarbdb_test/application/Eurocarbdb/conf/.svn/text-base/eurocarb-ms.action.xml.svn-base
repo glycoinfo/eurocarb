@@ -1,0 +1,245 @@
+<?xml version="1.0"?>
+<!DOCTYPE xwork PUBLIC "-//OpenSymphony Group//XWork 1.1.1//EN" "http://www.opensymphony.com/xwork/xwork-1.1.1.dtd">
+<xwork>
+    <package name="eurocarb-ms" extends="eurocarb-core">
+<!-- mass-spec actions go here; pls arrange in alphabetical order! -->
+<!-- *************************************
+                    Creation
+         ************************************* -->
+        <action name="create_ms" class="org.eurocarbdb.action.ms.StartWorkflow">
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="select_context" type="freemarker">/template/action/ms/create_ms/select_context.ftl</result>
+            <result name="success" type="redirect-action">
+                <param name="actionName">create_acquisition</param>
+                <param name="method">input</param>
+                <param name="parse">true</param>
+                <param name="glycanSequenceContext.glycanSequenceContextId">${glycanSequenceContextId}</param>
+            </result>
+        </action>
+<!-- Select a BiologicalContext from the list of those associated
+         to the ExperimentStep or the GlycanSequence -->
+        <action name="create_ms_selbc" class="org.eurocarbdb.action.core.SelectBiologicalContext">
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="cancel" type="redirect-action">contribute</result>
+            <result name="input" type="freemarker">/template/action/core/select_biological_context/input.ftl</result>
+            <result name="empty" type="redirect-action">create_ms_createbc</result>
+            <result name="create_new" type="redirect-action">create_ms_createbc</result>
+            <result name="success" type="redirect-action">create_ms_selref</result>
+        </action>
+<!-- Create a new BiologicalContext for this Acquisition -->
+        <action name="create_ms_createbc" class="org.eurocarbdb.action.core.CreateBiologicalContext">
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="cancel" type="redirect-action">contribute</result>
+            <result name="input" type="freemarker">/template/action/core/create_biological_context/select.ftl</result>
+            <result name="success" type="redirect-action">create_ms_createref</result>
+        </action>
+<!-- Define a set of Reference objects for this acquisition -->
+        <action name="create_ms_createref" class="org.eurocarbdb.action.core.CreateReferences">
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="cancel" type="redirect-action">contribute</result>
+            <result name="input" type="freemarker">/template/action/ms/create_ms/select_references.ftl</result>
+            <result name="success" type="freemarker">/template/action/ms/create_ms/select_references.ftl</result>
+        </action>
+<!-- Create a new acquisition object from an MzXML file or from a set of parameters
+         specified by the user. Need experimentStepId as input parameter. 
+	 The new object is stored into the database and connected to the given experimentStep. -->
+        <action name="create_acquisition" class="org.eurocarbdb.action.ms.CreateAcquisition">
+            <interceptor-ref name="fileUpload"/>
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="cancel" type="redirect-action">contribute</result>
+            <result name="input" type="freemarker">/template/action/ms/create_acquisition/input.ftl</result>
+            <result name="error" type="freemarker">/template/action/ms/create_acquisition/error.ftl</result>
+            <result name="success" type="redirect-action">
+                <param name="actionName">edit_acquisition</param>
+                <param name="method">input</param>
+                <param name="parse">true</param>
+                <param name="acquisition.acquisitionId">${acquisition.acquisitionId}</param>
+            </result>
+        </action>
+<!-- Edit an existing aquisition object by setting it's parameters
+	 and adding Scan objects to it. -->
+        <action name="edit_acquisition" class="org.eurocarbdb.action.ms.EditAcquisition">
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="input" type="freemarker">/template/action/ms/edit_acquisition/input.ftl</result>
+            <result name="error" type="freemarker">/template/action/ms/edit_acquisition/error.ftl</result>
+            <result name="success" type="freemarker">/template/action/ms/edit_acquisition/input.ftl</result>
+        </action>
+<!-- Create a new Scan object from a set of parameters specified by the user.  -->
+        <action name="create_scan" class="org.eurocarbdb.action.ms.CreateScan">
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="input" type="freemarker">/template/action/ms/create_scan/input.ftl</result>
+            <result name="success" type="freemarker">/template/action/ms/show_scan/success.ftl</result>
+        </action>
+<!-- Add a peaklist and its annotations to a current scan object. -->
+        <action name="edit_scan" class="org.eurocarbdb.action.ms.EditScan">
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="input" type="freemarker">/template/action/ms/edit_scan/input.ftl</result>
+            <result name="success" type="freemarker">/template/action/ms/edit_scan/input.ftl</result>
+        </action>
+        
+        <action name="delete_scan" class="org.eurocarbdb.action.ms.EditScan" method="delete">
+            <result name="success" type="freemarker">/template/action/ms/edit_scan/delete_scan_success.ftl</result>            
+        </action>
+        
+<!-- Return the stream associated with the ScanImage -->
+        <action name="get_scan_image" class="org.eurocarbdb.action.ms.GetScanImage">
+            <result name="image" type="stream">
+                <param name="contentType">image/jpeg</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">filename="scan_image.jpg"</param>
+            </result>
+            <result name="report" type="stream">
+                <param name="contentType">text/plain</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">filename="annotation_report.gwr"</param>
+            </result>
+            <result name="error" type="freemarker">/template/common/generic_error.ftl</result>
+        </action>
+<!-- Show a page containing the image or the applet !-->
+        <action name="show_scan_image" class="org.eurocarbdb.action.ms.ShowScanImage">
+            <result name="image" type="stream">
+                <param name="contentType">image/jpeg</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">filename="scan_image.jpg"</param>
+            </result>
+            <result name="report" type="freemarker">/template/action/ms/show_scan_image/report.ftl</result>
+            <result name="error" type="freemarker">/template/common/generic_error.ftl</result>
+        </action>
+<!-- Create a ScanImage from a file and associate it to the Scan -->
+        <action name="create_scan_image" class="org.eurocarbdb.action.ms.CreateScanImage">
+            <param name="progress">Set Biological Context,Create Acquisition,#Create Scan,Set Annotations</param>
+            <interceptor-ref name="fileUpload"/>
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="input" type="freemarker">/template/action/ms/create_scan_image/input.ftl</result>
+            <result name="exists" type="freemarker">/template/action/ms/create_scan_image/exists.ftl</result>
+            <result name="error" type="freemarker">/template/action/ms/create_scan_image/error.ftl</result>
+        </action>
+<!-- Add a peaklist to a Scan reading the m/z and intensity values from file. Allow the user to manually add and remove peaks. -->
+        <action name="create_peaklist" class="org.eurocarbdb.action.ms.CreatePeakList">
+            <param name="progress">Set Biological Context,Create Acquisition,Create Scan,#Set Annotations</param>
+            <interceptor-ref name="fileUpload"/>
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="input" type="freemarker">/template/action/ms/create_peaklist/input.ftl</result>
+            <result name="success" type="freemarker">/template/action/ms/create_peaklist/input.ftl</result>
+        </action>
+        <action name="create_annotations" class="org.eurocarbdb.action.ms.CreateAnnotations">
+            <param name="progress">Set Biological Context,Create Acquisition,Create Scan,#Set Annotations</param>
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="input" type="freemarker">/template/action/ms/create_annotations/input.ftl</result>
+            <result name="edit" type="freemarker">/template/action/ms/create_annotations/edit.ftl</result>
+            <result name="error" type="freemarker">/template/action/ms/create_annotations/error.ftl</result>
+            <result name="select" type="redirect-action">create_annotations_select</result>
+            <result name="edit" type="freemarker">/template/action/ms/create_annotations/edit.ftl</result>
+            <result name="back" type="redirect">edit_scan.action</result>
+            <result name="finish" type="redirect">edit_scan.action</result>
+        </action>
+        <action name="create_annotations_select" class="org.eurocarbdb.action.core.SelectStructure">
+            <param name="progress">Set Biological Context,Create Acquisition,Create Scan,#Set Annotations</param>
+            <interceptor-ref name="scope">
+                <param name="session">glycanSequence</param>
+                <param name="key">workflow_ms</param>
+            </interceptor-ref>
+            <interceptor-ref name="fileUpload"/>
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="cancel" type="redirect-action">create_annotations</result>
+            <result name="input" type="freemarker">/template/action/core/select_structure/create.ftl</result>
+            <result name="structure_exists" type="redirect-action">create_annotations</result>
+            <result name="success" type="redirect-action">create_annotations</result>
+        </action>
+<!-- Upload an annotated peak list using the GWB format. Need the scanId as input.-->
+        <action name="upload_annotations" class="org.eurocarbdb.action.ms.UploadAnnotations">
+            <param name="progress">Set Biological Context,Create Acquisition,Create Scan,#Set Annotations</param>
+            <interceptor-ref name="fileUpload"/>
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="input" type="freemarker">/template/action/ms/upload_annotations/input.ftl</result>
+            <result name="edit" type="freemarker">/template/action/ms/upload_annotations/edit.ftl</result>
+            <result name="success" type="redirect-action">
+                <param name="actionName">show_scan</param>
+                <param name="method">input</param>
+                <param name="parse">true</param>
+                <param name="scanId">${scan.scanId}</param>
+            </result>
+            <result name="back" type="redirect">edit_scan.action</result>
+            <result name="finish" type="redirect">edit_scan.action</result>
+        </action>
+<!-- *************************************
+                    Browsing
+         ************************************* -->
+        <action name="browse_acquisitions" class="org.eurocarbdb.action.ms.BrowseAcquisitions">
+            <result name="success" type="freemarker">/template/action/ms/browse_acquisitions/success.ftl</result>
+        </action>
+<!-- action name="show_ms" class="org.eurocarbdb.action.ms.StartWorkflow">
+      <interceptor-ref name="scope">
+	<param name="session">acquisition,evidenceId</param>
+	<param name="autoCreateSession">true</param>
+	<param name="key">workflow_ms</param>
+	<param name="type">start</param>
+      </interceptor-ref>
+      <interceptor-ref name="ecdb_default_stack" />
+      
+      <result name="next" type="redirect-action">show_acquisition</result>
+    </action -->
+        <action name="show_ms" class="org.eurocarbdb.action.ms.ShowAcquisition">
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="success_xml" type="stream">
+                <param name="contentType">application/xml</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">filename="acquisition.xml"</param>
+            </result>
+            <result name="success" type="freemarker">/template/action/ms/show_acquisition/success.ftl</result>
+            <result name="error" type="freemarker">/template/action/ms/show_acquisition/error.ftl</result>
+        </action>
+<!-- 
+     action: show_acquisition
+     author: ac
+     desc: Shows a detail page for a given acquisition ID.
+    -->
+        <action name="show_acquisition" class="org.eurocarbdb.action.ms.ShowAcquisition">
+            <interceptor-ref name="ecdb_default_stack"/>
+            <result name="success_xml" type="stream">
+                <param name="contentType">application/xml</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">filename="acquisition.xml"</param>
+            </result>
+            <result name="success" type="freemarker">/template/action/ms/show_acquisition/success.ftl</result>
+            <result name="error" type="freemarker">/template/action/ms/show_acquisition/error.ftl</result>
+<!-- result name="back" type="redirect-action" >show_experiment</result -->
+        </action>
+        <action name="show_scan" class="org.eurocarbdb.action.ms.ShowScan">
+            <result name="success" type="freemarker">/template/action/ms/show_scan/success.ftl</result>
+            <result name="error" type="freemarker">/template/action/ms/show_scan/error.ftl</result>
+        </action>
+        <action name="get_file" class="org.eurocarbdb.action.ms.GetFile">
+            <result name="success" type="stream">
+                <param name="contentType">octet/stream</param>
+                <param name="inputName">stream</param>
+                <param name="contentDisposition">filename="data.mzXML"</param>
+            </result>
+            <result name="error" type="freemarker">/template/common/generic_error.ftl</result>
+        </action>
+<!-- *************************************
+	              Init
+         ************************************* -->
+        <action name="init_devices" class="org.eurocarbdb.action.ms.InitDevices">
+            <result name="success" type="freemarker">/template/action/ms/init_devices/success.ftl</result>
+            <result name="error" type="freemarker">/template/action/ms/init_devices/error.ftl</result>
+        </action>
+        <action name="init_ions" class="org.eurocarbdb.action.ms.InitIons">
+            <result name="success" type="freemarker">/template/action/ms/init_ions/success.ftl</result>
+        </action>
+<!-- *************************************
+                    Test
+         ************************************* -->
+        <action name="test_show_session" class="org.eurocarbdb.action.ms.TestShowSession">
+            <result name="success" type="freemarker">/template/action/ms/test_show_session/success.ftl</result>
+        </action>
+<!-- as of 10/11/08 this action does not have a corresponding class - pls fix or it gets removed ==
+    <action name="test_fill_session" class="org.eurocarbdb.action.ms.TestFillSession">
+      <result name="success" type="freemarker">/template/action/ms/test_fill_session/success.ftl</result>
+    </action>
+    -->
+        <action name="test_select" class="org.eurocarbdb.action.ms.TestSelect">
+            <result name="success" type="freemarker">/template/action/ms/test_select/success.ftl</result>
+        </action>
+    </package>
+</xwork>

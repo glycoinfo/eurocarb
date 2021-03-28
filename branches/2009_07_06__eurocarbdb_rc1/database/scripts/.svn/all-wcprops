@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/database/scripts
+END
+parse_mesh_txt.pl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/database/scripts/parse_mesh_txt.pl
+END
+parse_mesh_tree.pl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/database/scripts/parse_mesh_tree.pl
+END
+reference_data.pl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/database/scripts/reference_data.pl
+END
+parse_ddl.pl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/database/scripts/parse_ddl.pl
+END

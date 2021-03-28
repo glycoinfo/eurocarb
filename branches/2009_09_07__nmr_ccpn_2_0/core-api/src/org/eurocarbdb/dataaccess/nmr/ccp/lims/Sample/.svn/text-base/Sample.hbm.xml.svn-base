@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Sample">
+  <joined-subclass
+    name="Sample"
+    extends="ccp.api.lims.Sample.AbstractSample"
+    table="SAM_SAMPLE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">The information on the sample. The sample conforms to a particular sample reference information. The sample is the contents that has been used during an experiment that contains the sample components which is located in an Holder.</meta>
+  <key column="ABSTRACTSAMPLEID" foreign-key="SAM_SAMPLE_ABSTSAMP_FK"/>
+  
+  <property
+    name="_amountDisplayUnit"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">This is the unit entered by user and used for display.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="AMOUNTDISPLAYUNIT" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_amountUnit"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">One of the three possible units: kg, m3 or number.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="AMOUNTUNIT" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_batchNum"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">This is the batch or lot number of the sample.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="BATCHNUM" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_colPosition"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">The column position of the sample in the holder.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="COLPOSITION" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_currentAmount"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The current amount of the sample. Can be deduced by a subtraction between the initial amount and all the amount which are implied in experiments.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CURRENTAMOUNT" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_currentAmountFlag"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="false"
+  >
+    <meta attribute="field-description">Was current amount validated?</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CURRENTAMOUNTFLAG" sql-type="BOOLEAN" not-null="false"/>
+  </property>
+  
+  <property
+    name="_initialAmount"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The initial amount of the sample at the creation date.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="INITIALAMOUNT" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_rowPosition"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">The row position of the sample in the holder.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ROWPOSITION" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_subPosition"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">The sub-position of the sample in the holder.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SUBPOSITION" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <many-to-one
+    name="hbHolder"
+    column="HOLDERID"
+    class="ccp.api.lims.Holder.Holder" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="SAM_SAMPLE_HOLDER_FK" 
+  >
+    <meta attribute="field-description">The holder to which the samples belong.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbRefSample"
+    column="REFSAMPLEID"
+    class="ccp.api.lims.Sample.RefSample" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="SAM_SAMPLE_REFSAMPLE_FK" 
+  >
+    <meta attribute="field-description">The RefSample that conforms to the Sample.</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbNmrExperiments" 
+    table="NMR_EXPERIMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Nmrr experiments carried out on Sample</meta>
+    <meta attribute="base-name">hbNmrExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="SAMPLEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Experiment"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

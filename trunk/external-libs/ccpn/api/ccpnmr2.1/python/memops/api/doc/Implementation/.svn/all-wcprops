@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation
+END
+NegativeInt.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/NegativeInt.html
+END
+PaperFormat.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/PaperFormat.html
+END
+Token.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Token.html
+END
+StringKeyDict.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/StringKeyDict.html
+END
+PaperOrientation.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/PaperOrientation.html
+END
+Text.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Text.html
+END
+Any.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Any.html
+END
+Line.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Line.html
+END
+NegativeFloat.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/NegativeFloat.html
+END
+SingleLine.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/SingleLine.html
+END
+LongWord.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/LongWord.html
+END
+DateTime.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/DateTime.html
+END
+NegativeDouble.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/NegativeDouble.html
+END
+Long.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Long.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/index.html
+END
+NonNegativeDouble.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/NonNegativeDouble.html
+END
+RgbColor.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/RgbColor.html
+END
+SpacelessString.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/SpacelessString.html
+END
+Double.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Double.html
+END
+IntSign.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/IntSign.html
+END
+StorageFormat.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/StorageFormat.html
+END
+PositiveInt.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/PositiveInt.html
+END
+GuidString.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/GuidString.html
+END
+Boolean.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Boolean.html
+END
+PathString.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/PathString.html
+END
+Dict.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Dict.html
+END
+UrlProtocol.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/UrlProtocol.html
+END
+NonNegativeInt.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/NonNegativeInt.html
+END
+PositiveFloat.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/PositiveFloat.html
+END
+Int.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Int.html
+END
+PositiveDouble.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/PositiveDouble.html
+END
+NonNegativeFloat.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/NonNegativeFloat.html
+END
+FloatRatio.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/FloatRatio.html
+END
+PrintFormat.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/PrintFormat.html
+END
+Float.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Float.html
+END
+String.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/String.html
+END
+PaperUnit.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/PaperUnit.html
+END
+Word.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Word.html
+END
+Page.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/Page.html
+END

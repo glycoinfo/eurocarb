@@ -1,0 +1,6 @@
+# properties for the db connection
+
+db.className = org.postgresql.Driver
+db.url = jdbc:postgresql://localhost/eurocarb_devel
+db.username = jionides
+db.password = 

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT
+END
+GlycoCTLinkageComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTLinkageComparator.java
+END
+SugarImporterGlycoCT.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/SugarImporterGlycoCT.java
+END
+SugarImporterGlycoCTCondensed.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/SugarImporterGlycoCTCondensed.java
+END
+GlycoCTGraphAlternativeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTGraphAlternativeComparator.java
+END
+LevelGZIPOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/LevelGZIPOutputStream.java
+END
+SugarExporterGlycoCT.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/SugarExporterGlycoCT.java
+END
+GlycoCTGlycoEdgeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTGlycoEdgeComparator.java
+END
+GlycoCTGlycoNodeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTGlycoNodeComparator.java
+END
+GlycoCTTraverser.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTTraverser.java
+END
+SugarExporterGlycoCTCondensed.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/SugarExporterGlycoCTCondensed.java
+END
+BasetypeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/BasetypeFactory.java
+END
+GlycoCTUnderdeterminedSubtreeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTUnderdeterminedSubtreeComparator.java
+END

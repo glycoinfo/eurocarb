@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/admin
+END
+upload_representation_success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/admin/upload_representation_success.ftl
+END
+upload_representation_step1.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/admin/upload_representation_step1.ftl
+END
+upload_representation_step2.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/admin/upload_representation_step2.ftl
+END

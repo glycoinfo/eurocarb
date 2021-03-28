@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 54
+ccpn		http://eurocarbdb-nmr.googlecode.com/svn/trunk/
+
+END

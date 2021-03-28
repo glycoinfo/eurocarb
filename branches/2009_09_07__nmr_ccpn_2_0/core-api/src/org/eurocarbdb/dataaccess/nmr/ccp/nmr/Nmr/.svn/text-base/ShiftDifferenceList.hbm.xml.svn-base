@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="ShiftDifferenceList"
+    extends="ccp.api.nmr.Nmr.AbstractMeasurementList"
+    table="NMR_SHIFTDIFFERENCELIST"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">List of Chemical Shift differences (e.g. isotope shifts, ligand binding shifts). The values given are : modifiedShift - shift_in_referenceShiftList</meta>
+  <key column="ABSTRACTMEASUREMENTLISTID" foreign-key="NMR_SHIFDIFFLIST_ABSTMEASLIST_FK"/>
+  
+  <property
+    name="_differenceType"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">Type of chemical shift difference measured.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DIFFERENCETYPE" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <many-to-one
+    name="hbReferenceShiftList"
+    column="REFERENCESHIFTLISTID"
+    class="ccp.api.nmr.Nmr.ShiftList" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_SHIFDIFFLIST_REFESHIFLIST_FK" 
+  >
+    <meta attribute="field-description">List of chemical shifts serving as reference for the shift differences reported.</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbExperiments" 
+    table="NMR_EXPERIMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Experiments for which chemical shift difference lists is valid.</meta>
+    <meta attribute="base-name">hbExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="SHIFTDIFFERENCELISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Experiment"/>
+  </set>
+  
+  <set 
+    name="hbMeasurements" 
+    table="NMR_SHIFTDIFFERENCE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbMeasurement</meta>
+    <cache usage="read-write"/>
+    <key column="PARENTLISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.ShiftDifference"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

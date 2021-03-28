@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Stereochemistry
+END
+StereochemistryStore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Stereochemistry/StereochemistryStore.hbm.xml
+END
+RefStereochemistry.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Stereochemistry/RefStereochemistry.hbm.xml
+END

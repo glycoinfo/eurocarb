@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem
+END
+nmrSimRuns.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/nmrSimRuns.html
+END
+molSystemSysNames.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/molSystemSysNames.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/name.html
+END
+nmrExperiments.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/nmrExperiments.html
+END
+numChains.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/numChains.html
+END
+details.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/details.html
+END
+getNumChains.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/getNumChains.html
+END
+getIsParamagnetic.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/getIsParamagnetic.html
+END
+dbReferences.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/dbReferences.html
+END
+isParamagnetic.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/isParamagnetic.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/parent.html
+END
+citations.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/citations.html
+END
+molSystemLinks.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/molSystemLinks.html
+END
+structureEnsembles.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/structureEnsembles.html
+END
+structureGroups.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/structureGroups.html
+END
+memopsRoot.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/memopsRoot.html
+END
+molSystemSymmetrySets.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/molSystemSymmetrySets.html
+END
+chains.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/chains.html
+END
+chainInteractions.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/chainInteractions.html
+END
+molecularMass.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/molecularMass.html
+END
+getMolecularMass.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/getMolecularMass.html
+END
+keywords.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/keywords.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/index.html
+END
+functions.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/functions.html
+END
+entries.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/entries.html
+END
+code.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/code.html
+END
+hasChemExchange.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/hasChemExchange.html
+END
+commonNames.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/commonNames.html
+END
+nonCovalentBonds.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/MolSystem/MolSystem/nonCovalentBonds.html
+END

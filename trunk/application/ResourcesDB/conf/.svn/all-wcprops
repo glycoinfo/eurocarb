@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/297/trunk/application/ResourcesDB/conf
+END
+hibernate.heidelberg.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/297/trunk/application/ResourcesDB/conf/hibernate.heidelberg.cfg.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/297/trunk/application/ResourcesDB/conf/log4j.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/297/trunk/application/ResourcesDB/conf/hibernate.cfg.xml
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ResourcesDB/conf/config.xml
+END

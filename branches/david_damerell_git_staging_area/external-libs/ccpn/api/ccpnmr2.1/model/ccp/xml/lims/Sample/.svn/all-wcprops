@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Sample
+END
+SampleStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Sample/SampleStore.xml
+END
+RefSample.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Sample/RefSample.xml
+END
+RefSampleSource.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Sample/RefSampleSource.xml
+END
+Sample.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Sample/Sample.xml
+END
+AmountUnit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Sample/AmountUnit.xml
+END
+CrystalSample.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Sample/CrystalSample.xml
+END
+SampleComponent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Sample/SampleComponent.xml
+END
+AbstractSample.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Sample/AbstractSample.xml
+END
+ConcentrationUnit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Sample/ConcentrationUnit.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Sample/package.xml
+END

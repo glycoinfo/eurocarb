@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general
+END
+ChemCompOverview.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general/ChemCompOverview.py
+END
+SelectObject.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general/SelectObject.py
+END
+Io.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general/Io.py
+END
+ArgumentServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general/ArgumentServer.py
+END
+Copy.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general/Copy.py
+END
+Geometry.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general/Geometry.py
+END
+Constants.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general/Constants.py
+END
+_licenseInfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general/_licenseInfo.py
+END
+Util.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general/Util.py
+END
+Command.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general/Command.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/general/__init__.py
+END

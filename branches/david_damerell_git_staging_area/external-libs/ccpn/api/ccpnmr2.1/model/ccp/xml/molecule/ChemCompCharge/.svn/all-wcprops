@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemCompCharge
+END
+ChemCompVarCharge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemCompCharge/ChemCompVarCharge.xml
+END
+ChemCompCharge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemCompCharge/ChemCompCharge.xml
+END
+ChemAtomCharge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemCompCharge/ChemAtomCharge.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemCompCharge/package.xml
+END

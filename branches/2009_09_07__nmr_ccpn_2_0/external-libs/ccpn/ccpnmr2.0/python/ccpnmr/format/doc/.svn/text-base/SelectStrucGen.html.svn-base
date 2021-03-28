@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-SelectStrucGen</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>SelectStrucGen</H1>
+            <H2>Structure generation selection
+        </H2>
+        <P ALIGN="LEFT">It is necessary to select a valid structure generation before the script can continue. A structure generation ('StructureGeneration') connects together all objects relevant for one structure generation cycle (e.g. contraint lists, coordinates, ...).
+        </P>
+        <P ALIGN="LEFT">If available, press the '<B>Create new</B>' button if you have to create a new structure generation in the Data Model.
+        </P>        
+
+    </TABLE>
+  </BODY>
+</HTML>

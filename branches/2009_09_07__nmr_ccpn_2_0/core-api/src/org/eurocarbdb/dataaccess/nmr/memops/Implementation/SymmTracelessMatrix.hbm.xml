@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="memops.api.Implementation">
+  <class
+    name="SymmTracelessMatrix"
+    table="IMPL_SYMMTRACELESSMATRIX"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Symmetric traceless tenaor, used for instance for alignment tensors.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="MEMOPSDATATYPEOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <property
+    name="_aAxial"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Axial component</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="AAXIAL" sql-type="FLOAT" not-null="true"/>
+  </property>
+  
+  <property
+    name="_aRhombic"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">rhombic component</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ARHOMBIC" sql-type="FLOAT" not-null="true"/>
+  </property>
+  
+  <property
+    name="_alpha"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Euler angle alpha in radians</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ALPHA" sql-type="FLOAT" not-null="true"/>
+  </property>
+  
+  <property
+    name="_beta"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Euler angle beta in radians</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="BETA" sql-type="FLOAT" not-null="true"/>
+  </property>
+  
+  <property
+    name="_gamma"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Euler angle gamma in radians</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="GAMMA" sql-type="FLOAT" not-null="true"/>
+  </property>
+
+  </class>
+
+</hibernate-mapping>

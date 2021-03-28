@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample
+END
+isActive.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/isActive.html
+END
+ph.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/ph.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/index.html
+END
+localRiskPhrases.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/localRiskPhrases.html
+END
+getLocalRiskPhrases.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/getLocalRiskPhrases.html
+END
+ionicStrength.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/ionicStrength.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/name.html
+END
+details.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/details.html
+END
+sampleCategories.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/sampleCategories.html
+END
+rPhrases.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/rPhrases.html
+END
+getRPhrases.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/getRPhrases.html
+END
+sampleComponents.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/sampleComponents.html
+END
+sPhrases.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/sPhrases.html
+END
+getSPhrases.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/getSPhrases.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/parent.html
+END
+sampleStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/sampleStore.html
+END
+hazardPhrases.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/hazardPhrases.html
+END
+isHazard.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Sample/AbstractSample/isHazard.html
+END

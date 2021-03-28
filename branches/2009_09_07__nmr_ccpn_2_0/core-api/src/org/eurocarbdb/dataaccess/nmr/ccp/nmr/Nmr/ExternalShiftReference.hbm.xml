@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="ExternalShiftReference"
+    extends="ccp.api.nmr.Nmr.ShiftReference"
+    table="NMR_EXTERNALSHIFTREFERENCE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Chemical Shift referencing. The reference actually used (not the one quoted against). Reference is external to the sample (e.g. in a coaxial capillary).</meta>
+  <key column="SHIFTREFERENCEID" foreign-key="NMR_EXTESHIFREFE_SHIFREFE_FK"/>
+  
+  <property
+    name="_axis"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Orientation of external refrence container with respect to B0 axis (e.g. 'parallel', 'perpendicular').</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="AXIS" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_location"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">External reference container location ( e.g. 'in the sample', 'external to the sample')</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LOCATION" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_sampleGeometry"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Geometry of external reference container (e.g. 'cylindrical', 'spherical')</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SAMPLEGEOMETRY" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

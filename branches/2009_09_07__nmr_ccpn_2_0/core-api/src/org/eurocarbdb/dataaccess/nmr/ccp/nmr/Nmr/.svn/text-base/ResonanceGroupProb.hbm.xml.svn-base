@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="ResonanceGroupProb"
+    extends="ccp.api.general.Template.AbstractProbability"
+    table="NMR_RESONANCEGROUPPROB"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Link class for ResonanceGroup-to-ResonanceGroup link. Holds information about the kind of link and its probability. To calculate probabilities, weights are summed over all ResonanceGroupProbs belonging to the same resonance with the same linktype and the same sequenceOffset. sequenceOffset and the linktype are cooperative, so that e.g. linkType == 'basepaired', sequenceOffset == -1 means the base that is basepaired to the preceding base of the sequence. For non-polymers sequenceOffsets are strictly speaking meaningless, but as a special convention the sequenceOffset '1' is interpreted as 'directly bonded to current ResonanceGroup'. </meta>
+  <key column="ABSTRACTPROBABILITYID" foreign-key="NMR_RESOGROUPROB_ABSTPROB_FK"/>
+  
+  <property
+    name="_isSelected"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="false"
+  >
+    <meta attribute="field-description">if True signifies that this link is considered certain rather than merely probable. This allows the selection of links without removing the accumulated probability information. All other ResonanceGroupProbs with the same linkType and sequenceOffset (but only those) are then considered incorrect.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISSELECTED" sql-type="BOOLEAN" not-null="false"/>
+  </property>
+  
+  <property
+    name="_linkType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">Type of link between fromResonanceGroup and possibility</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LINKTYPE" sql-type="VARCHAR(80)" length="80" not-null="true" unique-key="resonanceGroupProbUniqueKey" />
+  </property>
+  
+  <property
+    name="_sequenceOffset"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">The number of residues distant that the possibility is from the fromResonanceGroup. If it is thought that fromResonanceGroup is e.g. Ala-39 and possibility is Thr-38, the correct value for sequenceOffset is -1.</meta>
+    <meta attribute="default-value">new java.lang.Integer(0)</meta>
+    <column name="SEQUENCEOFFSET" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <many-to-one
+    name="hbFromResonanceGroup"
+    column="FROMRESONANCEGROUPID"
+    class="ccp.api.nmr.Nmr.ResonanceGroup" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_RESOGROUPROB_FROMRESOGROU_FK" 
+    unique-key="resonanceGroupProbUniqueKey" 
+  >
+    <meta attribute="field-description">ResonanceGroup owning the ResonanceGroup link probability</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbPossibility"
+    column="POSSIBILITYID"
+    class="ccp.api.nmr.Nmr.ResonanceGroup" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_RESOGROUPROB_POSS_FK" 
+    unique-key="resonanceGroupProbUniqueKey" 
+  >
+    <meta attribute="field-description">Resonance group whose link probability is described.</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

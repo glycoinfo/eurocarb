@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis
+END
+AxisLabel.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AxisLabel.html
+END
+SpectrumFileType.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/SpectrumFileType.html
+END
+AxisXyLabel.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AxisXyLabel.html
+END
+AutoLevelMode.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AutoLevelMode.html
+END
+SymbolStyle.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/SymbolStyle.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/index.html
+END
+PeakFindVolumeMethod.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/PeakFindVolumeMethod.html
+END
+MappingType.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/MappingType.html
+END
+PeakDrawMethod.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/PeakDrawMethod.html
+END

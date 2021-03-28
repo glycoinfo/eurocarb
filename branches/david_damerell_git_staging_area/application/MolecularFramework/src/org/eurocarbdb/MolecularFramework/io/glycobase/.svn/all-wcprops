@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/glycobase
+END
+GlycobaseResidueComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/glycobase/GlycobaseResidueComparator.java
+END
+GlycobaseResidue.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/glycobase/GlycobaseResidue.java
+END
+SugarImporterGlycobase.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/glycobase/SugarImporterGlycobase.java
+END

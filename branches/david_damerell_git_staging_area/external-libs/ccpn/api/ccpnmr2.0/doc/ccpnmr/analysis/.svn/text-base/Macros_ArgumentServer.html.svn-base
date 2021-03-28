@@ -1,0 +1,459 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Macros:ArgumentServer</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Macros:ArgumentServer</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Coding Library:</NOBR> <NOBR>Macros</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Macros_DefaultMacros.html">Default Macros</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="Macros_ArgumentServer.html">ArgumentServer</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <H2>Currently available functions</H2>
+      <P>
+      These functions are available from the instance of ArgumentServer which is automatically
+      passed into Analysis macros as an argument. Using these functions allows the macro to
+      get a hendle on many of the objects available within Analysis without having to make extensive
+      use of the Data Model.
+      </P>
+      <P>
+      Several of these functions relate to objects that have been specified by
+      user using graphical means. Also, many of the other functions maybe used when Analysis is
+      not in graphical mode, thus allowing a macro to take arguments from the Python command line.
+      These functions will work with graphics if they are available.
+      </P>
+      <P>
+        <TABLE>
+          <TR>
+            <TD class="pageHead">Function</TD>
+            <TD class="pageHead">Description</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getProgressBar</TD>
+            <TD class="pageBody">Provides a progress bar object which may be used in
+	    macros to indicate graphically the proportion of its completion.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">chooseObject</TD>
+            <TD class="pageBody">Displays a list of the input objects so that the
+	    user can choose one form among them. Works with a single type of otherwise
+	    arbitrary Data Model objects.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">objectSelectionPopup</TD>
+            <TD class="pageBody">Pops up a list of the input objects so that the
+	    user can choose one form among them. Works with a single type of otherwise
+	    arbitrary Data Model objects. Note that this function is only of use if the
+	    macro is used with Analysis in graphical mode - it had no ability to fall back to
+	    the python shell.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">askString</TD>
+            <TD class="pageBody">Pops up a dialogue box to promt for an arbitrary string input</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">askInteger</TD>
+            <TD class="pageBody">Pops up a dialogue box to promt for an arbitrary integer</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">askFloat</TD>
+            <TD class="pageBody">Pops up a dialogue box to promt for an arbitrary floating point number</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">askYesNo</TD>
+            <TD class="pageBody">Provides a dialogue box with a specified message with [Yes] and [No]
+	    buttons below. Clicking these return True and False respectively.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">showWarning</TD>
+            <TD class="pageBody">Provides a dialogue box with a specified warning message with and an [OK] button.
+	    Clicking [OK] removes the dialogue and allows the program to continue.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">showInfo</TD>
+            <TD class="pageBody"></TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getCurrentPeaks</TD>
+            <TD class="pageBody">Returns the peaks that are currently selected within analysis.
+	    These are the boxed crosspeaks visible in the spectrum windows and listed in 
+	    <A HREF="SelectedPeaksPopup.html">SelectedPeaksPopup</A></TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getCurrentPeak</TD>
+            <TD class="pageBody">Returns the crosspeak currently under the mouse cursor when the
+	    <A HREF="WindowPopup.html">WindowPopup</A> right mouse menu was activated.
+	    It is intended that macros that use this function are bound to the right mouse menu.
+	    </TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getCurrentWindow</TD>
+            <TD class="pageBody">Returns the spectrum window currently under the mouse cursor when the
+	    <A HREF="WindowPopup.html">WindowPopup</A> right mouse menu was activated.
+	    It is intended that macros that use this function are bound to the right mouse menu.
+            </TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getCurrentWindowPopup</TD>
+            <TD class="pageBody">
+	    Returns the <A HREF="WindowPopup.html">WindowPopup</A> in which the right mouse menu was last activated.
+	    It is intended that macros that use this function are bound to the right mouse menu.
+            </TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getCurrentSpectra</TD>
+            <TD class="pageBody">Returns the currently visible spectra in the spectrum window
+	    under the mouse cursor when the
+	    <A HREF="WindowPopup.html">WindowPopup</A> right mouse menu was activated.
+	    It is intended that macros that use this function are bound to the right mouse menu.
+            </TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getCurrentPeakLists</TD>
+            <TD class="pageBody">Returns the active peak lists of currently visible spectra in the spectrum window
+	    under the mouse cursor when the
+	    <A HREF="WindowPopup.html">WindowPopup</A> right mouse menu was activated.
+	    It is intended that macros that use this function are bound to the right mouse menu.
+            </TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getCurrentPosition</TD>
+            <TD class="pageBody">Returns poistion the mouse cursor (as a dictionary {'x': ,'y': , 'z1':})
+	    in units appropriate to the axes of the window (usually PPM)
+	    when the <A HREF="WindowPopup.html">WindowPopup</A> right mouse menu was last activated.
+	    It is intended that macros that use this function are bound to the right mouse menu.
+            </TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getCurrentSpectrum</TD>
+            <TD class="pageBody">Returns the spectrum containing the
+	    crosspeak currently under the mouse cursor when the
+	    <A HREF="WindowPopup.html">WindowPopup</A> right mouse menu was activated.
+	    It is intended that macros that use this function are bound to the right mouse menu.
+	    </TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getSpectrum</TD>
+            <TD class="pageBody">Gets a spectrum from the current project.
+	    If more than one spectrum is present the user is prompted to choose one.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getPeakList</TD>
+            <TD class="pageBody">Gets a peak list from the current project.
+            If more than one is present, the user is prompted to choose one via a series of
+	    lists that decends the object hierarchy.</TD>
+	    </TR>
+          <TR>
+            <TD class="pageBody">getPeak</TD>
+            <TD class="pageBody">Gets a peak from the current project.
+	    If more than one is present, the user is prompted to choose one via a series of
+	    lists that decends the object hierarchy.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getCurrentPeakDim</TD>
+            <TD class="pageBody">Allows the user to select a peak dimension from the
+	    currently selected peak.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getProject</TD>
+            <TD class="pageBody">
+	      Returns the top level project object of the ArgumentServer, i.e. the one that is
+	      active within Analysis.
+	    </TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getResonance</TD>
+            <TD class="pageBody">Gets a resonance object from the current project.
+	    If more than one is present, the user is prompted to choose one from a list.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getViolationList</TD>
+            <TD class="pageBody">Gets a violation list from the current project.
+            The user is prompted to choose one via a series of
+	    lists that decends the object hierarchy.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getConstraint</TD>
+            <TD class="pageBody">Gets a constraint from the current project.
+            The user is prompted to choose one via a series of
+	    lists that decends the object hierarchy.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getStructure</TD>
+            <TD class="pageBody">Gets a structure from the current project.
+	    If more than one is present, the user is prompted to choose one from a list.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getStructureGeneration</TD>
+            <TD class="pageBody">Gets a structure generation from the current project.
+	    If more than one is present, the user is prompted to choose one from a list.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getExperiment</TD>
+            <TD class="pageBody">Gets an NMR experiment (the session object not its prototype/template)
+	     from the current project.
+	     If more than one is present, the user is prompted to choose one from a list.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getWindow</TD>
+            <TD class="pageBody">Gets a spectrum window from the current project.
+	    If more than one is present, the user is prompted to choose one from a list.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getColor</TD>
+            <TD class="pageBody">Gets a Color from the current project.
+	    The user is prompted to choose one from a list.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getColorScheme</TD>
+            <TD class="pageBody">Gets a colour scheme from the current project.
+	    If more than one is present, the user is prompted to choose one from a list.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getShiftList</TD>
+            <TD class="pageBody">Gets a shift list from the current project.
+	    If more than one is present, the user is prompted to choose one from a list.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getSpinSystem</TD>
+            <TD class="pageBody">Gets a spin system (ResonanceGroup) from the current project.
+	    If more than one is present, the user is prompted to choose one from a list.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getChain</TD>
+            <TD class="pageBody">Gets a Chain from the current project's molsystems.
+            The user is prompted to choose one via a series of
+	    lists that decends the object hierarchy.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getResidue</TD>
+            <TD class="pageBody">Gets a residue from the current project's molSystems.
+            The user is prompted to choose one via a series of
+	    lists that decends the object hierarchy.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getAtomSet</TD>
+            <TD class="pageBody">Gets an atomSet from the current project.
+	    If more than one is present, the user is prompted to choose one from a list.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getAtom</TD>
+            <TD class="pageBody">Gets an atom from the current project's molSystems.
+            The user is prompted to choose one via a series of
+	    lists that decends the object hierarchy.</TD>
+          </TR>
+          <TR>
+            <TD class="pageBody">getIsotope</TD>
+            <TD class="pageBody">Gets an isotope from the current project.
+	    If more than one is present, the user is prompted to choose one from a list.</TD>
+          </TR>:
+        </TABLE>
+      </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

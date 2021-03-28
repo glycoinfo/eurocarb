@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1890/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation
+END
+ChainValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/ChainValidation.hbm.xml
+END
+MolSysChainValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1890/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/MolSysChainValidation.hbm.xml
+END
+EnsembleValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/EnsembleValidation.hbm.xml
+END
+ValidationStore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/ValidationStore.hbm.xml
+END
+MolSystemValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1890/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/MolSystemValidation.hbm.xml
+END
+NmrConstraintListValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/NmrConstraintListValidation.hbm.xml
+END
+NmrMeasurementListValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/NmrMeasurementListValidation.hbm.xml
+END
+StructureValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/StructureValidation.hbm.xml
+END
+AtomValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/AtomValidation.hbm.xml
+END
+ResidueValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/ResidueValidation.hbm.xml
+END
+EntryValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/EntryValidation.hbm.xml
+END
+NmrConstraintValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/NmrConstraintValidation.hbm.xml
+END
+NmrMeasurementValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/NmrMeasurementValidation.hbm.xml
+END
+MolSysAtomValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1890/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/MolSysAtomValidation.hbm.xml
+END
+MolSysResidueValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1890/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/MolSysResidueValidation.hbm.xml
+END
+PeakListValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/PeakListValidation.hbm.xml
+END
+ValidationResult.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/ValidationResult.hbm.xml
+END
+PeakValidation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/Validation/PeakValidation.hbm.xml
+END

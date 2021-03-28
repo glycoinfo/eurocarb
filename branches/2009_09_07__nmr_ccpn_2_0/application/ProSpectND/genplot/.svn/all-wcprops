@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot
+END
+color_lookup.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/color_lookup.h
+END
+genrbtree.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/genrbtree.c
+END
+genplot.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/genplot.h
+END
+genclip.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/genclip.c
+END
+genrbtree.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/genrbtree.h
+END
+pixmaps.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/pixmaps.h
+END
+buttons_xpm.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/buttons_xpm.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/Makefile
+END
+header_icon.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/header_icon.h
+END
+genui.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/genui.c
+END
+g_inter1.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/g_inter1.h
+END
+Makefile.sgi
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/Makefile.sgi
+END
+g_inter2.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/g_inter2.h
+END
+icon32.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/icon32.xpm
+END
+xpm2ico.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/xpm2ico.c
+END
+mshell.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mshell.c
+END
+gendisk.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/gendisk.c
+END
+Makefile.win
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/Makefile.win
+END
+mshell.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/mshell.h
+END
+filelist
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/filelist
+END
+Makefile.linux
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/Makefile.linux
+END
+g_inter.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/g_inter.h
+END
+psnd.ico
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/psnd.ico
+END
+btree.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/btree.c
+END
+genlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/genlist.c
+END
+colors.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/colors.h
+END
+btree.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/btree.h
+END
+genplot.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/genplot.c
+END
+datafile.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/datafile.c
+END
+gentest.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/gentest.c
+END
+icon.rc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/icon.rc
+END
+genevent.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ProSpectND/genplot/genevent.c
+END

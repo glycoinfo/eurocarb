@@ -1,0 +1,110 @@
+<project name="eurocarb" default="help" xmlns:ac="antlib:net.sf.antcontrib" >
+
+    <!--
+    !   this import defines the following:
+    !
+    !   1) 'project.*' properties  
+    !   2) 'project.classpath' path, containing all external and eurocarb-compiled jars.
+    !   3) 'build-XXX' tasks, where 'XXX' is the name of a sub-project                
+    !
+    -->
+    <import file="./build.common.xml"/>
+  
+    
+    <!--============================ TARGETS ===============================-->
+    <!--                  in alphabetical order please                      -->
+    
+    
+    <!-- TARGET: build ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+	<target name="build" 
+        depends="build-check, build-eurocarbdb" 
+        description="Builds all sub-projects" 
+        >
+        <echo>Finished building sub-projects</echo>
+
+    </target>
+
+  
+    <!-- TARGET: clean ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Removes compiled binaries/libs from all sub-projects.
+    -->
+	<target name="clean" depends="" description="Removes compiled binaries/libs from all sub-projects">
+        <echo>Cleaning ${ant.project.name}</echo>
+        <delete includeemptydirs="true" >
+            <fileset dir="${project.binary.dir}" includes="**/*"/>
+            <fileset dir="${project.java.lib.dir}" includes="**/*"/>
+            <fileset dir="${project.webapp.dir}" includes="**/*"/>
+        </delete>	        
+        <subant failonerror="false" verbose="true">
+            <fileset dir="." includes="core-api/build.xml" excludes="build.xml"/>
+            <fileset dir="." includes="application/*/build.xml" excludes="build.xml"/>
+            <target name="clean"/>
+        </subant>
+    </target>	
+    
+    
+    <!-- TARGET: setup ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <target name="setup" 
+        depends="resolve-external-dependencies" 
+        description="Initialises config files from a fresh checkout of eurocarb, or when config properties have been changed"
+        >
+        <echo>initialising site project properties from default:</echo>
+        <echo>    ${project.conf.dir}/default.site.properties</echo>
+        <copy file="${project.conf.dir}/default.site.properties" 
+            tofile="${project.conf}" 
+            verbose="true" />
+    </target>
+    
+
+    <!-- TARGET: install ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <target name="install" description="Downloads and installs the database">
+        <echo>sorry folks, this target won't do anything until we make our final</echo>
+        <echo>release to googlecode. until then, contact a developer for a database dump</echo>
+        
+        <fail>TODO</fail>
+    </target>
+        
+    
+    <!-- TARGET: start ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <target name="start" description="">
+        <echo>starting tomcat</echo>
+        <mkdir dir="${project.log.dir}" />
+        <mkdir dir="${project.temp.dir}"/>
+        <touch file="${project.log.dir}/catalina.out"/>
+        <!--
+        <touch file="${project.log.dir}/catalina.out"/>
+        <java jar="${tomcat.home}/bin/bootstrap.jar" fork="true" spawn="true">
+            <jvmarg value="-Dcatalina.home=${tomcat.home}" />
+            <jvmarg value="-Dcatalina.base=${project.dir}" />
+            <jvmarg value="-Dcatalina.pid=${project.log.dir}/catalina.pid" />
+            <arg line="start"/>
+        </java>
+        -->
+        <exec executable="${project.dir}/application/Eurocarbdb/bin/start.sh"/>
+    </target>
+
+
+    <!-- TARGET: stop ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    <target name="stop" description="">
+        <!-- <java jar="${tomcat.home}/bin/bootstrap.jar" fork="true">
+            <jvmarg value="-Dcatalina.home=${tomcat.home}" />
+            <jvmarg value="-Dcatalina.base=${project.dir}" />
+            <jvmarg value="-Dcatalina.pid=${project.log.dir}/catalina.pid" />
+            <arg line="stop"/>
+        </java> -->
+        <exec executable="${project.dir}/application/Eurocarbdb/bin/stop.sh"/>
+    </target>    
+
+
+    <!-- TARGET: help ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+	<target name="help" depends="">
+		<echo>the 'help' target is being reworked. be patient.</echo>
+	</target>
+	
+</project>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/dialogs
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/dialogs/.cvsignore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/dialogs/build.xml
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycoWorkbench/dialogs/manifest.mf
+END

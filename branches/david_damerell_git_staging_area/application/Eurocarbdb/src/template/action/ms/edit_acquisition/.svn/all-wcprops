@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1849/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/ms/edit_acquisition
+END
+select_structure.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1849/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/ms/edit_acquisition/select_structure.ftl
+END
+review_reference.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/ms/edit_acquisition/review_reference.ftl
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1849/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/ms/edit_acquisition/input.ftl
+END
+select_scan.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/ms/edit_acquisition/select_scan.ftl
+END
+select_structure_success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/ms/edit_acquisition/select_structure_success.ftl
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/ms/edit_acquisition/error.ftl
+END

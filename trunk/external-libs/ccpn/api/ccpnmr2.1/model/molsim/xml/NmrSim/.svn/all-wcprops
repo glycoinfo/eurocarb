@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/NmrSim
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/NmrSim/package.xml
+END
+EnergyTermParameter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/NmrSim/EnergyTermParameter.xml
+END
+NmrSimStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/NmrSim/NmrSimStore.xml
+END
+Run.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/NmrSim/Run.xml
+END
+RunParameter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/NmrSim/RunParameter.xml
+END
+NmrSimEnergyTerm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/molsim/xml/NmrSim/NmrSimEnergyTerm.xml
+END

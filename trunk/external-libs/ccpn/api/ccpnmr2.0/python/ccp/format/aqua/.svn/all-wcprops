@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/aqua
+END
+generalIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/aqua/generalIO.py
+END
+hBondConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/aqua/hBondConstraintsIO.py
+END
+distanceConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/aqua/distanceConstraintsIO.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/aqua/__init__.py
+END
+readAquaInfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/aqua/readAquaInfo.py
+END

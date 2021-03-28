@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 3/08/2006 11:10:28 by Hibernate Tools 3.1.0.beta4 -->
+<hibernate-mapping>
+
+    <class name="org.eurocarbdb.dataaccess.core.Taxonomy" table="taxonomy" 
+           schema="core" 
+           mutable="false"
+           node="taxonomy"
+           >
+        
+        <id name="taxonomyId" type="int" node="@id">
+            <column name="taxonomy_id" />
+			<generator class="sequence" >
+				<param name="sequence">core.taxonomy_taxonomy_id_seq</param>
+			</generator>
+        </id>
+        
+        <!--======================  properties  =============================-->
+        
+        <!-- NCBI Taxonomy id -->
+        <property name="ncbiId" type="int">
+            <column name="ncbi_id" not-null="true" />
+        </property>
+            
+        <property name="rank" type="string">
+            <column name="rank" length="16" not-null="true" />
+        </property>
+        
+        <property name="taxon" type="string" access="field">
+            <column name="taxon" length="128" not-null="true" />
+        </property>
+
+        <!--======================  associations  ===========================-->
+        
+        <!-- parent taxonomy -->
+        <many-to-one 
+            name="parentTaxonomy" 
+            class="org.eurocarbdb.dataaccess.core.Taxonomy" 
+            fetch="select"
+        >
+            <column name="parent_taxonomy_id" not-null="true" />
+        </many-to-one>
+        
+        <!-- child taxonomies -->
+        <set name="childTaxonomies" inverse="true" node="children" embed-xml="false">
+            <key>
+                <column name="parent_taxonomy_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.core.Taxonomy" />
+        </set>
+                
+        <!-- BCs this tax is associated to -->
+        <set name="biologicalContexts" inverse="true" embed-xml="false">
+            <key>
+                <column name="taxonomy_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.core.BiologicalContext" />
+        </set>
+        
+        <!-- synonyms of this taxonomy -->
+        <set name="taxonomySynonyms" inverse="true" node="synonyms">
+            <key>
+                <column name="taxonomy_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.core.TaxonomySynonym" />
+        </set>	
+
+        <!-- all children of this taxonomy (read-only) -->
+        <set name="taxonomySubtypes" inverse="true" node="subtypes">
+            <key>
+                <column name="taxonomy_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.core.TaxonomySubtype" />
+        </set>	
+
+        <!-- all parents of this taxonomy (read-only) -->
+        <set name="taxonomySupertypes" inverse="true" node="supertypes">
+            <key>
+                <column name="sub_taxonomy_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.core.TaxonomySubtype" />
+        </set>	
+        
+        <!-- 
+        taxonomyRelations:
+        there is a direct 1-1 primary key relationship between this and
+        its associated Relations class.
+        -->
+        <one-to-one name="relations" 
+                    class="org.eurocarbdb.dataaccess.core.TaxonomyRelations" 
+                    cascade="save-update"
+                    lazy="false"
+        />
+        
+
+        <!--=====================  named queries  =============================
+        
+        without XML escaping:                                          
+           <query name="...">    <put query here>    </query>          
+                                                                       
+        with XML escaping:                                             
+           <query name="..."><![CDATA[  <put query here>  ] ]></query>  
+                                                                        
+        Note that the given name of the query will need to be fully    
+        qualified with the name of the class in which it is declared. 
+        ie: query name will be "<class-name>.<query-name>".
+        -->
+        
+
+        <!-- 
+        query : MATCHING_NAME
+        desc  : Retrieves all taxonomies whose name matches the given name,
+                ordering results by highest in the hierarchy first.
+        author: mjh
+        -->
+        <query name="MATCHING_NAME">
+            select  
+                tax
+            from    
+                Taxonomy as tax
+            join fetch 
+                tax.relations as rel
+            where   
+                tax.taxon like :taxon_name 
+            order by 
+                rel.rightIndex - rel.leftIndex desc
+        </query>
+       
+        <!-- 
+        query : MATCHING_NAME_OR_SYNONYM
+        desc  : Retrieves all taxonomies whose name or synonyms match the given name,
+                ordering results by highest in the hierarchy first.
+        author: mjh
+        -->
+        <query name="MATCHING_NAME_OR_SYNONYM">
+            select
+              tax_outer
+            from
+                Taxonomy as tax_outer
+            inner join fetch
+                tax_outer.relations as rel
+            where
+              tax_outer.id in (
+            select  
+                distinct tax.id
+            from    
+                Taxonomy as tax
+            left outer join 
+                tax.taxonomySynonyms as syn 
+            where   
+                tax.taxon like :taxon_name 
+            or  
+                syn.synonym like :taxon_name  
+            ) 
+            order by 
+                rel.rightIndex - rel.leftIndex desc
+        </query>
+
+        <!-- 
+        query : MATCHING_NCBI_ID
+        desc  : Retrieves a taxonomy by NCBI id.
+        author: mjh
+        -->
+        <query name="MATCHING_NCBI_ID">
+            FROM    Taxonomy AS tax
+            WHERE   tax.ncbiId = :ncbi_id
+        </query>
+       
+
+        <!-- 
+        query : ALL_CHILD_TAXONOMIES
+        desc  : Retrieves all child taxonomies of the given taxonomy id.
+                see http://www.dkfz.de/spec/EUROCarbDB-Wiki/index.php/Sql_using_nested_sets 
+        author: mjh
+        
+        -->
+        <query name="ALL_CHILD_TAXONOMIES">
+        <!--
+            SELECT  tax
+            FROM    Taxonomy AS tax
+            WHERE   tax.taxonomyId IN 
+                    (
+                        SELECT  t1.taxonomyId
+                        FROM    TaxonomyRelations AS t1,
+                                TaxonomyRelations AS t2
+                        WHERE   t1.leftIndex BETWEEN t2.leftIndex AND t2.rightIndex
+                        AND     t2.taxonomyId = :taxonomy_id
+                        AND     t1.taxonomyId != :taxonomy_id
+                    )
+        -->
+              FROM Taxonomy AS tax
+        INNER JOIN tax.relations AS tr1
+        INNER JOIN tax.relations AS tr2 
+              with (tr1.leftIndex BETWEEN tr2.leftIndex AND tr2.rightIndex)
+             WHERE tr2.taxonomyId = :taxonomy_id
+               AND tr1.taxonomyId != :taxonomy_id
+        </query>
+
+         <!--
+         query : ALL_CHILD_TAXONOMIES_WITH_CONTEXT
+         desc  : Retrieves all child taxonomies of the given taxonomy id that have
+                  been already associated with a biological context. Based upon the above
+                  ALL_CHILD_TAXONOMIES query, but using a JOIN to limit results
+                  to only those that have been used to create a biological context.
+         author: hirenj 
+         -->
+         <query name="ALL_CHILD_TAXONOMIES_WITH_CONTEXT">
+            select  
+                distinct tax    
+            from    
+                Taxonomy as tax 
+                inner join fetch tax.biologicalContexts as bc
+                inner join fetch bc.glycanSequenceContexts as gc
+                inner join fetch tax.taxonomySynonyms as syn
+                inner join fetch tax.relations as rel
+            where   
+                tax.taxonomyId in 
+                (
+                    select  
+                        t1.taxonomyId
+                    from    
+                        TaxonomyRelations as t1,
+                        TaxonomyRelations as t2
+                    where   
+                        t1.leftIndex between t2.leftIndex and t2.rightIndex
+                        and t2.taxonomyId = :taxonomy_id
+                        and t1.taxonomyId != :taxonomy_id
+                )
+        </query>
+
+         <!--
+         query : GET_SEQUENCES
+         desc  : 
+         author: mjh
+         -->
+         <query name="GET_SEQUENCES">
+            select  
+                distinct gsc.glycanSequence
+            from
+                GlycanSequenceContext gsc 
+            inner join
+                gsc.biologicalContext bc
+            inner join 
+                bc.taxonomy t
+            where 
+                t.taxonomyId = :id
+            order by 
+                gsc.glycanSequence.dateEntered desc
+        </query>            
+
+        <!--
+        Counts the number of glycan sequences associated to given :taxonomy_id 
+        and all its sub-taxonomies; returns a 4 column list, sorted by taxonomy name: 
+        ( tax id, ncbi id, taxon name, count )
+        -->
+        <sql-query name="count_structures_for_sub_taxonomies"
+            comment="Counts the number of glycan sequences associated to given :taxonomy_id and all its sub-taxonomies">
+            <return-scalar column="taxonomyId" type="int" />
+            <return-scalar column="ncbiId" type="int" />
+            <return-scalar column="taxon" type="string" />
+            <return-scalar column="structure_count" type="int" />
+            select  
+                tax.taxonomy_id as taxonomyId,   
+                tax.ncbi_id as ncbiId,   
+                tax.taxon as taxon,   
+                count( distinct gc.glycan_sequence_id ) as structure_count
+            from  
+                core.taxonomy as tax
+            inner join 
+                core.taxonomy_relations as child
+                on tax.taxonomy_id = child.taxonomy_id 
+            inner join 
+                core.taxonomy_relations as parent 
+                on child.left_index between parent.left_index and parent.right_index 
+            inner join 
+                core.biological_context as bc 
+                on bc.taxonomy_id = child.taxonomy_id
+            inner join 
+                core.glycan_sequence_to_biological_context as gc 
+                on bc.biological_context_id = gc.biological_context_id
+            where   
+                parent.taxonomy_id = :taxonomy_id 
+                <!-- and child.taxonomy_id != :taxonomy_id -->
+            group by 
+                tax.taxonomy_id, 
+                tax.ncbi_id, 
+                tax.taxon
+            order by
+                structure_count desc
+            limit 50
+        </sql-query>
+
+
+        <!-- 
+        Counts the number of glycan sequences associated to given :taxonomy_id and all its sub-taxonomies
+        -->
+        <sql-query 
+            name="count_structures_for_this_taxonomy"
+            comment="Counts the number of glycan sequences associated to given :taxonomy_id and all its sub-taxonomies">
+            <return-scalar column="structure_count" type="int" />
+        select 
+            count( distinct gc.glycan_sequence_id ) as structure_count             
+        from
+            core.taxonomy_relations as child   
+        inner join
+            core.taxonomy_relations as parent 
+                on child.left_index between parent.left_index and parent.right_index
+        inner join
+            core.biological_context as bc                  
+                on bc.taxonomy_id = child.taxonomy_id             
+        inner join
+            core.glycan_sequence_to_biological_context as gc                  
+                on bc.biological_context_id = gc.biological_context_id             
+        where
+            parent.taxonomy_id = :taxonomy_id
+        </sql-query>
+
+        
+        <!-- 
+        query : ALL_PARENT_TAXONOMIES
+        desc  : Retrieves all parent taxonomies of the given taxonomy id.
+                see http://www.dkfz.de/spec/EUROCarbDB-Wiki/index.php/Sql_using_nested_sets 
+        author: mjh
+        -->
+        <query name="ALL_PARENT_TAXONOMIES">
+            select  
+                tax
+            from    
+                Taxonomy as tax
+            where   
+                tax.taxonomyId in 
+                (
+                    select  
+                        t2.taxonomyId
+                    from    
+                        TaxonomyRelations as t1,
+                        TaxonomyRelations as t2
+                    where   
+                        t1.leftIndex between t2.leftIndex and t2.rightIndex
+                        and t1.taxonomyId = :taxonomy_id
+                        and t2.taxonomyId != :taxonomy_id
+                )        
+        </query>
+        
+        <!-- 
+        query : selective_parent_taxonomies
+        desc  : Retrieves some of the parent taxonomies of the given taxonomy id.
+                see http://www.dkfz.de/spec/EUROCarbDB-Wiki/index.php/Sql_using_nested_sets 
+        author: mjh
+        -->
+        <query name="selective_parent_taxonomies">
+            select  
+                tax
+            from    
+                Taxonomy AS tax
+            where   
+                tax.taxonomyId in 
+                (
+                    select  
+                        t2.taxonomyId
+                    from    
+                        TaxonomyRelations as t1,
+                        TaxonomyRelations as t2
+                    where   
+                        t1.leftIndex between t2.leftIndex and t2.rightIndex
+                        and t1.taxonomyId = :taxonomy_id
+                        and t2.taxonomyId != :taxonomy_id
+                )
+            and
+                tax.rank in ('phylum', 'class', 'genus', 'kingdom', 'order')
+            order by 
+                tax.relations.leftIndex 
+        </query>
+
+        <!-- 
+        query : highest_number_of_glycan_sequences
+        desc  : 
+        author: mjh
+        -->
+        <!--
+        <query name="highest_number_of_glycan_sequences">
+        select  
+                tax.taxonomyId,
+                tax.taxonName,
+                count( gsc.glycanSequenceId ) as countSeqs
+            from    
+                Taxonomy as tax
+            inner join 
+                tax.biologicalContexts bc
+            inner join     
+                bc.glycanSequenceContexts gsc
+            group by
+                tax.taxonomyId,
+                tax.taxonName
+            order by
+                countSeqs desc
+            limit 10
+            </query>
+        -->
+            
+
+    </class>
+    
+</hibernate-mapping>

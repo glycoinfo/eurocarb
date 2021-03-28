@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/xmlfiles
+END
+DBInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/xmlfiles/DBInterface.java
+END
+ExporterXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/xmlfiles/ExporterXML.java
+END
+GeneratorFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/xmlfiles/GeneratorFragment.java
+END
+GeneratorDefault.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/xmlfiles/GeneratorDefault.java
+END

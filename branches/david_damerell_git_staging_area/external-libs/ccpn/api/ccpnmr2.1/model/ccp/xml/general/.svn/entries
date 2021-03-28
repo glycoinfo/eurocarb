@@ -1,0 +1,92 @@
+10
+
+dir
+26
+http://eurocarbdb-nmr.googlecode.com/svn/trunk/api/ccpnmr2.1/model/ccp/xml/general
+http://eurocarbdb-nmr.googlecode.com/svn
+
+
+
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ccabb5d2-bd44-11dd-94c0-21daf384169b
+
+DbRef
+dir
+
+DataLocation
+dir
+
+Affiliation
+dir
+
+Instrument
+dir
+
+Annotation
+dir
+
+Citation
+dir
+
+package.xml
+file
+
+
+
+
+2016-01-08T01:32:08.393462Z
+d8d653c2de82ca920b43351e2eee3221
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4595
+
+Template
+dir
+
+KeywordDefinition
+dir
+
+Taxonomy
+dir
+
+Method
+dir
+

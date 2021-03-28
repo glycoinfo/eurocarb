@@ -1,0 +1,261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-Tutorial</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>Tutorial</H1>
+            <H1>Quick tutorial on how to use the Data Model.</H1>
+        <H2>How to convert?</H2>
+        <P>This tutorial describes how to import an NMRVIEW sequence and peak list file
+        into the Data Model framework, how to create a chemical shift list from the peak
+        list data, and finally how to export the data to XEASY format files. The example
+        NMRVIEW files used in this tutorial can be downloaded as a tar file <A
+        href="http://www.ebi.ac.uk/msd-srv/docs/NMR/NMRtoolkit/tutorial/fcTutorial.tar">
+        here</A> (only downloadable via normal browser).</P>
+        <H2>Creating a project</H2>
+        <P>The first thing to do when starting with a new set of data is to create a
+        <B>Project</B> in the Data Model. A Project groups data together, and you need
+        to have such a Project available in the Data Model before you can do anything
+        else.</P>
+        <P>After starting the FormatConverter, either create a new project from
+        <I>'Project->New'</I> (and type in a name for your project, e.g. 'test'), or
+        load an existing one from a CCPN XML file via <I>'Project->Load'</I>.</P>
+        <H2>The data to be imported</H2>
+        <P>The NMRVIEW data files describe a simple hypothetical peptide homodimer. The
+        'nmrView.seq' file contains the sequence of the molecule, the 'nmrView.xpk'
+        file a peak list for a <SUP>15</SUP>N HSQC NOESY. In the peak list files, the
+        residues for the first chain in the homodimer are numbered from 1-12, for the
+        second chain from 101-112.</P>
+        <H2>Importing a sequence</H2>
+        <P>The molecular information in the Data Model is highly organized, and
+        consists of a layer of reference chemical compounds (the <B>ChemComp</B>), a
+        layer that describes the molecules used in this project (the <B>Molecule</B>),
+        and a final layer that describes the actual situation in the sample(s) that are
+        being used (the <B>Molecular System</B>). For example, a homodimer would
+        consist of only one <B>Molecule</B> that describes the sequence (and links to
+        the correct reference chemical compounds), and one <B>Molecular System</B>,
+        with two <B>Chains</B>, each of which is linked to the <B>Molecule</B>. Each
+        chain then has <B>Residues</B> and <B>Atoms</B>.</P>
+        <P>Now go to <I>'Import->Single files->Sequence->NmrView'</I>. The window that
+        pops up allows you to specify the file location and additional settings (in
+        this type of  window, you can click on the <B>'i'</B> button to get short
+        information on what a specific setting means). First, click on 'Select file'. A
+        file browser window will pop up: select the 'nmrView.seq' file, and press
+        'Select' at the bottom of this window. The file name should appear where
+        'Select file' was displayed. To see the additional (non-obligatory) options,
+        press on the blue arrow next to 'Additional options'. Do not change the default
+        settings for now.</P>
+        <P>To import the file, press the 'IMPORT' button. The (simple) sequence in the
+        'nmrView.seq' file will now be parsed and converted to the Data Model
+        framework. Note that a text output window should appear that displays the
+        output from the conversion scripts.</P>
+        <P>The window that appears next allows you to edit the information from the
+        sequence file that was just read in. On the left is the information from the
+        original external file, on the right the information that is Data Model
+        specific. First, click on the <I>'GLU-ASP-VAL-...-GLY-GLY-LEU'</I> button. In
+        the window that appears now you can change the protonation state of residues
+        and modify the sequence (e.g. split it up into separate molecules). This is not
+        the aim of this tutorial, but click the <I>'Help'</I> button for more
+        information on how to do this. Click the <I>'Cancel'</I> button and go back to
+        the previous window. The molecule name can be reset by clicking on the
+        button(s) below <I>'Molecule name'</I>. Leave the name as is for now. Finally,
+        the number of chains that have to be created for this molecule can be set.
+        Since this is a homodimer, enter '2' in the 'Number of chains' box, and finally
+        press <I>'OK'</I> to continue.</P>
+        <P>The next window asks for a name for the molecular system you are about to
+        create. Leave the name as is and press <I>'OK'</I>. Then, you will be prompted
+        to give chain codes for the two chains that are created. Press <I>'OK'</I> for
+        both. A window stating <I>'Successfully imported file: ...'</I> should now
+        appear. Press 'OK' - you have now successfully created the molecular
+        information inside the Data Model!</P>
+        <H2>Saving a project</H2>
+        <P>It is always safest to save a project after a successful import. Go to
+        'Project->Save'. The first time you do this, a window will appear where you
+        can define all the specific information on where storage files are located.
+        Leave this as is for now and press 'Save'. The name of your project is used
+        as the default file name: a '<project name>.xml' file (this contains all
+        high-level information), and a <project name> directory will be created. The
+        directory contains subdirectories with XML files that describe all low-level
+        information stored in the Data Model. Press <I>'OK'</I> when the file is
+        saved, and <I>'Close'</I> in the <I>'Save Project'</I> window.</P>
+        <H2>Importing a peak list</H2>
+        <P>Go to <I>'Import->Single files->Peaks->NmrView'</I>. Select the
+        'nmrView.xpk' file in the same way as described before. You can here also
+        select the 'Assignment separator' that is used in the NMRVIEW peak list file -
+        it is currently a space. Leave all settings as they are and press
+        <I>'IMPORT'</I>.</P>
+        <P>In the Data Model, you have to describe the NMR <B>Experiment</B> from which
+        the peak list is derived before you can create the peak list itself. You will now
+        get a popup where you can create an NMR experiment based on the list of 'NMR
+        Experiment Prototypes' that CCPN provides. These 'reference experiments' contain
+        information on the experiment steps, atoms involved, ... . It is important that
+        you select the right experiment as this information is used later on, for example
+        when doing backbone assignments.</P>
+        <P>From the <I>'Create Experiment'</I> popup, select the '15N HSQC-NOESY' with
+        experiment name 'H[N]_H.NOESY', and press 'Create'. Next, you can give your own
+        name to the experiment - you can change this or leave as is, then press 'OK'.
+        You will now be prompted for a name for the <B>DataSource</B>. A DataSource is an
+        'implementation' of the NMR experiment: for example you need a DataSource for the
+        raw original NMR data, and then a separate DataSource for each differently
+        processed spectrum (<I>e.g.</I> the full 3D version, 2D projections, ...). Just
+        press <I>'OK'</I> to continue.</P>
+        <P>The next prompt asks for a name for the peak list. Again press <I>'OK'</I>.
+        The window that appears now is very important: the order of the spectrum
+        dimensions in the Data Model and inside the external peak file might not be the
+        same, and here you can specify what each dimension means. On the left (in
+        black) are the peak dimensions (with chemical shift range) from the external
+        file, on the right (in blue) the experiment dimensions for this particular
+        Experiment in the Data Model. The 2nd and 3rd dimension have to be switched in
+        this case: for 'Peak dim' number 1 (in the middle), change 'DataDimRef
+        selection' to 'Dim 2, nucl 15N, ...', and for 'Peak dim' number 2 (the last
+        one), change 'DataDimRef selection' to 'Dim 3, nucl 1H, ...'. The mapping is
+        now set correctly, so press <I>'OK'</I> to continue.</P>
+        <P>A window will now pop up that allows you to correct or modify the parameters
+        describing the reference data and the spectrum processing for the NMR experiment
+        (like number of points, ...). The formatConverter will try to pick up as much
+        information as possible, but this is sometimes difficult. Change the settings as
+        desired, or leave as is, and press 'Exit/continue'.</P>
+        <P>A window stating <I>'Successfully imported file: ...'</I> should now appear.
+        Press 'OK' - you have now successfully created an NMR experiment and peak list
+        inside the Data Model!</P>
+        <H2>LinkResonances: Defining what the external atom names mean...</H2>
+        <P>A 'Run linkResonances' popup should now appear. At this stage you have created
+        on the one hand the molecular system with all the chains, residues and atoms, and
+        on the other hand a peak list and chemical shift list. However, this information
+        is currently <B>not</B> linked to each other. This is possible because the NMR
+        information is not linked directly to <B>Atoms</B>, but is instead connected to
+        what we call <B>Resonances</B>. These <B>Resonances</B> do not have the
+        traditional NMR meaning, but instead link all information that arises from one
+        atom or a group of atoms together (click <A
+        href="Concepts_Resonance.html">here</A> for a detailed description - only
+        available in online version of documentation). For example, a Resonance exists
+        that connects all the information from what is called '4.HN' in the external
+        NMRVIEW file. We now have to connect this Resonance to the HN Atom in residue 4,
+        chain A.</P>
+        <P>The script that does this for you is called linkResonances (click <A
+        href="Concepts_LinkResonances.html">here</A> for more information. Only available
+        online). Click 'Yes' in the 'Run linkResonances' popup that appeared (not that you
+        can run the linkResonances script at any time by going to 'Process->Run
+        linkResonances'). Another popup will then appear that will ask you if you want to
+        'Use fast linking'. Click 'No' for the purposes of this tutorial. If you click
+        'Yes', the linkResonances script will be executed with default settings - skip the
+        next paragraph should you do that.</P>
+        <P>A window will now appear where you can set the preferences for this script.
+        Again, it is not the aim of this tutorial to go into details at this stage - click
+        on <I>'Help'</I> for more information. Leave all settings as they are, and click
+        on <I>'Link resonances to atoms'</I> to continue.</P>
+        <P>First, you will have to specify what the sequence numbering in the external
+        file means in relation to the molecular system inside the Data Model. This
+        window will only pop up if it is not obvious how the information from the
+        external file connects to the information in the Data Model. In this case, the
+        sequence codes 1-12 from the external NMRVIEW file connect to Data Model
+        residues 1-12 for chain A, while external sequence codes 101-112 connect to
+        residues 1-12 for chain B. On the left, in blue, is the molecular system
+        information inside the Data Model, on the right, in black, the information from
+        the external file.</P>
+        <P>For <I>'Ccp chain code'</I> row <I>'A (12 res...)'</I>, click on the <I>'Do not
+        link'</I> selection, and select <I>'Link to code ' ' (range '2 '-'5 ')'</I>. The
+        numbering here ranges from 2 to 5 because no information was present for 1 and
+        6-12 in the provided peak list. Under <I>'Sequence Id (code) start'</I>, the <I>'2
+        (2)'</I> entry should be automatically selected. You have now specified that
+        sequence codes 2-5 in the external file correspond to residues 2-5 for chain A in
+        the Data Model. Do the same thing for <I>'Ccp chain code'</I> row <I>'B (12
+        res...)'</I>, but now select <I>'Link to code ' ' (range '102 '-'105 ')'</I>. You
+        also have to select <I>'2 (2)'</I> on the left hand side in this case. Finally,
+        press <I>'OK'</I> to accept this mapping. You will be asked if you want to change
+        the sequence codes for chain B to reflect the ones from the external file
+        (<I>i.e.</I> 102-105). Click 'Yes'. If you selected 'Yes' earlier for 'Use fast
+        linking', skip to the last paragraph of this heading.</P>
+        <P>A 'Choose namingSys' window will appear next. In this window, you can select
+        the naming system that best applies to the atom names read in from the external
+        file. If you click on the selection list, you will see that many naming systems
+        are available, but that only 'XPLOR' and 'XPLOR-INV' match 94.12 percent of the
+        external atom names. In this case, XPLOR gives the best match, so click
+        <I>'OK'</I> to continue. </P>
+        <P>If an atom name does not match the naming system you selected, you will have
+        to manually tell the script what this atom name means. The ' .3.HXX' atom in
+        this case corresponds to the HA atom of residue 3, chain A. First click
+        <I>'Show all atoms'</I> to show all the atoms for residue 3, chain A in the
+        'Pick atom' list, then select 'HA' from this list. You can also propagate this
+        HXX->HA atom name mapping to other residues by selecting an option in
+        <I>'Propagate mapping to'</I>. Leave this as is for now, and press <I>'OK'</I>
+        to continue.</P>
+        <P>There are cases where only one atom of a prochiral pair is listed in the
+        external file format (e.g. HB2 for an ASP). This can either mean that, in this
+        case, the HB3 atom carries the same information as the HB2 (has the same
+        chemical shift here, essentially), or that it is not visible. The window that
+        is shown now allows you to select the correct handling of such a case. Click on
+        the selection menu to see the options, but leave as is and click <I>'OK'</I> to
+        continue.</P>
+        <P>Similar to the prochiral case, it is possible that only one atom of a
+        usually equivalent atom pair is listed in the external file format (<I>e.g.</I>
+        only aromatic atom HE1 for a PHE). This can either mean that, in this case, the
+        HE2 atom is equivalent to the HE1 atom, or that they are not equivalent
+        (<I>i.e.</I> are separately visible in the spectrum). The window that is shown
+        now allows you to select the correct handling of such a case. Click on the
+        selection menu to see the options, but leave as is and click <I>'OK'</I> to
+        continue.</P>
+        <P>The window 'LinkResonances ran successfully' should now appear. The
+        Resonances are now linked to Atoms, and their assignment is unambiguously
+        described. You can also have a look at the text output window to see how the
+        link between the Resonances (on the left) and the atom(s) (on the right) was
+        made.</P>
+        <P>Save the project again at this stage.</P>
+        <H2>Creating a chemical shift list inside the Data Model</H2>
+        <P>Now that the peak list information is stored inside the Data Model, you can
+        run a simple generic script that creates a chemical shift list
+        (<B>ShiftList</B>). Go to <I>'Process->Create chemical shifts from
+        peaklist(s)'</I>. You can select the peak list(s) you want to use from the top
+        selection window. There is only one available: select this one. Since no current
+        chemical shift list exists inside the Data Model, leave the next selection to
+        'None'. Click the 'Use multiple assignments': this way peaks with ambiguous
+        assignments will still be used for deriving the chemical shift values. Leave the
+        default shift error as is, and click <I>'Create shift list'</I>. Give a name for
+        the chemical shift list, and press <I>'OK'</I>. The peak list will now be created
+        - press <I>'OK'</I> when the popup announcing this appears.</P>
+        <P>Save the project again at this stage.</P>
+        <H2>Exporting a sequence, chemical shift and peak list</H2>
+        <P>You can only export assignments after you have successfully linked the
+        Resonances to the Atoms. Since this is now done, go to 'Export->XEasy' to write
+        out XEASY files based on the NMRVIEW information that we imported.</P>
+        <P>The window that pops up only lists information that is currently available
+        in the Data Model. In this case, sequence, chemical shift, peak and peak
+        assignment files can be written out.</P>
+        <P>First write out the sequence file: select both the 'A' and 'B' chain from
+        the <I>'Select chains to export'</I> selection, click on the <I>'Select export
+        file'</I> button and press <I>'Select'</I> in the file selection window (or
+        change the output name if you want to). Click <I>'export sequence'</I> to write
+        out the XEASY sequence file. A window will now pop up where you can set the
+        mapping to the external file. Since XEASY does not handle multiple chain codes,
+        enter '101' in the box for <I>'Ccp Chain Code'</I> entry 'B', so that residues
+        for chain B will be written out with sequence codes 101-112. <I>This mapping
+        will also be used for the chemical shift and peak lists!</I> Press <I>'OK'</I>
+        after the file is exported.</P>
+        <P>Now write out a chemical shift file: for XEASY this has to be done before
+        writing the peak list, otherwise assignments cannot be written out. Leave the
+        <I>'Select shift list to export'</I> selection as is (there is only one
+        chemical shift list), click on <I>'Select export file'</I> button and press
+        <I>'Select'</I> in the file selection window (or change the output name if you
+        want to). Click <I>'export shifts'</I> to write out the XEASY chemical shift
+        file, and press <I>'OK'</I> when the file is exported.</P>
+        <P>Finally, export the peak file. Leave the <I>'Select peak list to export'</I>
+        selection as is (there is only one peak list), click on <I>'Select export
+        file'</I> button and press <I>'Select'</I> in the file selection window (or
+        change the output name if you want to). Click <I>'export peaks'</I> to write
+        out the XEASY peak list file. You will (similar to the NMRVIEW peak list
+        import) get a window to map the peak dimensions for the external peak list file
+        to the experiment dimensions in the Data Model. Change this at will, or leave
+        as is, and press <I>'OK'</I>. Finally, press <I>'OK'</I> again when the file is
+        exported.</P>
+        <P>Note that the XEASY peak list format does not support ambiguous assignments:
+        you have to write out a 'peak assignments' file to handle this.</P>
+        <H2>Final notes</H2>
+        <P>This quick tutorial for the FormatConverter hopefully gave you an idea of
+        how to handle import/export of external files. If you have any comments on this
+        tutorial or would like to see other steps explained, please let us know!</P>
+
+    </TABLE>
+  </BODY>
+</HTML>

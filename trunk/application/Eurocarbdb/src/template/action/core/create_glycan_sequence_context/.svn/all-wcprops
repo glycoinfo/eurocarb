@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/core/create_glycan_sequence_context
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/core/create_glycan_sequence_context/input.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/core/create_glycan_sequence_context/success.ftl
+END

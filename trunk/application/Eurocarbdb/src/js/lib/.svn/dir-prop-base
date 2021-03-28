@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 81
+MochiKit http://svn.mochikit.com/mochikit/branches/MochiKit-1.4/packed/MochiKit/
+
+END

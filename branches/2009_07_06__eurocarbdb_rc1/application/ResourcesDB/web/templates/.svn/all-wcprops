@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates
+END
+footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/footer.ftl
+END
+msdb_error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/msdb_error.ftl
+END
+show_monosaccharide.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/show_monosaccharide.ftl
+END
+msdb_start.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/msdb_start.ftl
+END
+todo.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/todo.ftl
+END
+header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/header.ftl
+END
+show_substituent.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/show_substituent.ftl
+END
+builder_form_atomgroups.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/builder_form_atomgroups.ftl
+END
+show_element.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/show_element.ftl
+END
+about.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/about.ftl
+END
+msdb_index.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/msdb_index.html
+END
+contact.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/contact.ftl
+END
+msdb_styles.css
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/web/templates/msdb_styles.css
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1580/trunk/application/Eurocarbdb/src/template/action/core/show_taxonomy
+END
+success.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/675/trunk/application/Eurocarbdb/src/template/action/core/show_taxonomy/success.xml.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1580/trunk/application/Eurocarbdb/src/template/action/core/show_taxonomy/success.ftl
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/core/show_taxonomy/error.ftl
+END
+subtaxonomy_table.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/core/show_taxonomy/subtaxonomy_table.ftl
+END

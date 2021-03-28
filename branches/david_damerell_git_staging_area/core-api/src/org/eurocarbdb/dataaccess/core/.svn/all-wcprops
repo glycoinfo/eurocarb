@@ -1,0 +1,533 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1859/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core
+END
+ExperimentContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/ExperimentContext.java
+END
+EvidenceContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/EvidenceContext.java
+END
+TaxonomySubtype.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TaxonomySubtype.java
+END
+JournalReference.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/JournalReference.xml.ftl
+END
+GlycanSequenceEvidence.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/GlycanSequenceEvidence.hbm.xml
+END
+BiologicalContextToGlycoconjugate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/BiologicalContextToGlycoconjugate.hbm.xml
+END
+Glycoconjugate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Glycoconjugate.hbm.xml
+END
+DiseaseContext.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/DiseaseContext.hbm.xml
+END
+Technique.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Technique.hbm.xml
+END
+ExternalDatabaseReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/ExternalDatabaseReference.hbm.xml
+END
+EvidenceContext.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/EvidenceContext.hbm.xml
+END
+TissueTaxonomyRelations.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TissueTaxonomyRelations.hbm.xml
+END
+Evidence.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Evidence.java
+END
+DiseaseRelations.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/DiseaseRelations.hbm.xml
+END
+GlycanSequenceReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/GlycanSequenceReference.java
+END
+Evidence.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Evidence.xml.ftl
+END
+GlycanSequenceRelations.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/GlycanSequenceRelations.java
+END
+ReferencedEvidence.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/ReferencedEvidence.hbm.xml
+END
+GlycanSequence.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/GlycanSequence.hbm.xml
+END
+TissueTaxonomyRelations.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TissueTaxonomyRelations.java
+END
+BiologicalContext.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1791/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/BiologicalContext.hbm.xml
+END
+Reference.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Reference.java
+END
+TaxonomyRelations.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TaxonomyRelations.java
+END
+PerturbationRelations.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/PerturbationRelations.java
+END
+ExperimentStep.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/ExperimentStep.hbm.xml
+END
+Disease.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Disease.hbm.xml
+END
+Reference.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Reference.xml.ftl
+END
+Perturbation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Perturbation.hbm.xml
+END
+Taxonomy.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1792/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Taxonomy.hbm.xml
+END
+Composition.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Composition.java
+END
+GlycanSequenceEvidence.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/GlycanSequenceEvidence.java
+END
+Contributor.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Contributor.java
+END
+Journal.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Journal.java
+END
+DiseaseSynonym.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/DiseaseSynonym.java
+END
+TaxonomySynonym.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TaxonomySynonym.java
+END
+ExperimentStep.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/ExperimentStep.java
+END
+Contributor.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Contributor.xml.ftl
+END
+JournalReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/JournalReference.hbm.xml
+END
+Glycoconjugate.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Glycoconjugate.java
+END
+TissueTaxonomy.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TissueTaxonomy.xml.ftl
+END
+TaxonomySubtype.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TaxonomySubtype.hbm.xml
+END
+Glycoprotein.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Glycoprotein.java
+END
+PerturbationRelations.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/PerturbationRelations.hbm.xml
+END
+TaxonomyRelations.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TaxonomyRelations.hbm.xml
+END
+Technique.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Technique.java
+END
+Composition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Composition.hbm.xml
+END
+TaxonomySynonym.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TaxonomySynonym.hbm.xml
+END
+Experiment.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Experiment.hbm.xml
+END
+ReferencedEvidence.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/ReferencedEvidence.java
+END
+BiologicalContextAssociation.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/BiologicalContextAssociation.java
+END
+Evidence.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Evidence.hbm.xml
+END
+ExperimentContext.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/ExperimentContext.hbm.xml
+END
+BiologicalContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1809/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/BiologicalContext.java
+END
+BiologicalContextToGlycoconjugate.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/BiologicalContextToGlycoconjugate.java
+END
+TissueTaxonomy.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TissueTaxonomy.java
+END
+GlycanSequenceContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/GlycanSequenceContext.java
+END
+Disease.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Disease.java
+END
+Experiment.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Experiment.java
+END
+CompositionId.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/CompositionId.java
+END
+DiseaseContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/DiseaseContext.java
+END
+Reference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Reference.hbm.xml
+END
+PerturbationContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/PerturbationContext.java
+END
+ExternalDatabaseReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/ExternalDatabaseReference.java
+END
+BiologicalContextContributor.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1791/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/BiologicalContextContributor.hbm.xml
+END
+JournalReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/JournalReference.java
+END
+TissueTaxonomySynonym.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TissueTaxonomySynonym.hbm.xml
+END
+DiseaseRelations.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/DiseaseRelations.java
+END
+Contributor.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1791/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Contributor.hbm.xml
+END
+Journal.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Journal.hbm.xml
+END
+DiseaseSynonym.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/DiseaseSynonym.hbm.xml
+END
+TissueTaxonomy.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TissueTaxonomy.hbm.xml
+END
+GlycanSequenceContext.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/GlycanSequenceContext.hbm.xml
+END
+TaxonomyProteomeSkRanked.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1792/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TaxonomyProteomeSkRanked.hbm.xml
+END
+Glycoprotein.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Glycoprotein.hbm.xml
+END
+Author.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Author.java
+END
+BiologicalContextContributor.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1791/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/BiologicalContextContributor.java
+END
+GlycanSequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1859/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/GlycanSequence.java
+END
+PerturbationContext.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/PerturbationContext.hbm.xml
+END
+TissueTaxonomySynonym.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TissueTaxonomySynonym.java
+END
+GlycanSequence.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/GlycanSequence.xml.ftl
+END
+GlycanSequenceReference.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/GlycanSequenceReference.hbm.xml
+END
+TaxonomyProteomeSkRanked.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1792/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/TaxonomyProteomeSkRanked.java
+END
+BiologicalContext.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1854/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/BiologicalContext.xml.ftl
+END
+Perturbation.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Perturbation.java
+END
+Taxonomy.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1855/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Taxonomy.java
+END
+Disease.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Disease.xml.ftl
+END
+Taxonomy.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Taxonomy.xml.ftl
+END
+Perturbation.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/core/Perturbation.xml.ftl
+END

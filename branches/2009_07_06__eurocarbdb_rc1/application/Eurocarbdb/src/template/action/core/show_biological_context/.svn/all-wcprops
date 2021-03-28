@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/core/show_biological_context
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/core/show_biological_context/input.ftl
+END
+short_context.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/core/show_biological_context/short_context.ftl
+END
+success.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/core/show_biological_context/success.xml.ftl
+END
+distributed-success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/core/show_biological_context/distributed-success.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/core/show_biological_context/success.ftl
+END

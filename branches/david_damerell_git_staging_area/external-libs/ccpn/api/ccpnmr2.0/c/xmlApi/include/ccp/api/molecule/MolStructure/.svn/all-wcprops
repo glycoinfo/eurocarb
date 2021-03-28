@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/6/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/MolStructure
+END
+Coor_Chain.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/MolStructure/Coor_Chain.h
+END
+Coor_Coord.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/MolStructure/Coor_Coord.h
+END
+Coor_StructureEnsemble.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/6/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/MolStructure/Coor_StructureEnsemble.h
+END
+Coor_Model.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/MolStructure/Coor_Model.h
+END
+Coor_Atom.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/MolStructure/Coor_Atom.h
+END
+Coor_Residue.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/molecule/MolStructure/Coor_Residue.h
+END

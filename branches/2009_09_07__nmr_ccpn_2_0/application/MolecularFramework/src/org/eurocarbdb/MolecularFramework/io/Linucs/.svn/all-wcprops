@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs
+END
+GlycoVisitorExport.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/GlycoVisitorExport.java
+END
+GlycoVisitorExportRepeat.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/GlycoVisitorExportRepeat.java
+END
+SugarImporterLinucs.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/SugarImporterLinucs.java
+END
+GlycoVisitorCyclic.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/GlycoVisitorCyclic.java
+END
+SugarExporterLinucs.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/SugarExporterLinucs.java
+END
+GlycoTraverserLinucs.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/GlycoTraverserLinucs.java
+END
+LinucsComparatorEdges.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/LinucsComparatorEdges.java
+END

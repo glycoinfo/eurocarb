@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1932/trunk/core-api/src/org/eurocarbdb/sugar
+END
+Modification.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/sugar/Modification.java
+END
+Molecule.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1231/trunk/core-api/src/org/eurocarbdb/sugar/Molecule.java
+END
+BasicMolecule.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1208/trunk/core-api/src/org/eurocarbdb/sugar/BasicMolecule.java
+END
+CustomBasetype.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1561/trunk/core-api/src/org/eurocarbdb/sugar/CustomBasetype.java
+END
+SugarSequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1552/trunk/core-api/src/org/eurocarbdb/sugar/SugarSequence.java
+END
+Substituents.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1259/trunk/core-api/src/org/eurocarbdb/sugar/Substituents.java
+END
+Basetype.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1561/trunk/core-api/src/org/eurocarbdb/sugar/Basetype.java
+END
+LinkageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/sugar/LinkageType.java
+END
+SugarRepeatAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1561/trunk/core-api/src/org/eurocarbdb/sugar/SugarRepeatAnnotation.java
+END
+Monosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1231/trunk/core-api/src/org/eurocarbdb/sugar/Monosaccharide.java
+END
+SequenceFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1233/trunk/core-api/src/org/eurocarbdb/sugar/SequenceFormat.java
+END
+Anomer.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1561/trunk/core-api/src/org/eurocarbdb/sugar/Anomer.java
+END
+SugarRepeat.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1561/trunk/core-api/src/org/eurocarbdb/sugar/SugarRepeat.java
+END
+Superclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1263/trunk/core-api/src/org/eurocarbdb/sugar/Superclass.java
+END
+GlycosidicLinkage.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1932/trunk/core-api/src/org/eurocarbdb/sugar/GlycosidicLinkage.java
+END
+Substituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1231/trunk/core-api/src/org/eurocarbdb/sugar/Substituent.java
+END
+Element.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1208/trunk/core-api/src/org/eurocarbdb/sugar/Element.java
+END
+Basetypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1273/trunk/core-api/src/org/eurocarbdb/sugar/Basetypes.java
+END
+CarbohydrateChemistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1259/trunk/core-api/src/org/eurocarbdb/sugar/CarbohydrateChemistry.java
+END
+PositionOccupiedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1254/trunk/core-api/src/org/eurocarbdb/sugar/PositionOccupiedException.java
+END
+SugarException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1186/trunk/core-api/src/org/eurocarbdb/sugar/SugarException.java
+END
+SugarVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1208/trunk/core-api/src/org/eurocarbdb/sugar/SugarVisitor.java
+END
+CommonSubstituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1499/trunk/core-api/src/org/eurocarbdb/sugar/CommonSubstituent.java
+END
+Composition.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1231/trunk/core-api/src/org/eurocarbdb/sugar/Composition.java
+END
+ModificationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1231/trunk/core-api/src/org/eurocarbdb/sugar/ModificationType.java
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/sugar/changelog
+END
+ResidueFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1259/trunk/core-api/src/org/eurocarbdb/sugar/ResidueFormat.java
+END
+Linkage.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1561/trunk/core-api/src/org/eurocarbdb/sugar/Linkage.java
+END
+BasicLinkage.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1561/trunk/core-api/src/org/eurocarbdb/sugar/BasicLinkage.java
+END
+SugarAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/sugar/SugarAnnotation.java
+END
+RingConformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1561/trunk/core-api/src/org/eurocarbdb/sugar/RingConformation.java
+END
+PositionNotOccupiedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1186/trunk/core-api/src/org/eurocarbdb/sugar/PositionNotOccupiedException.java
+END
+Sugar.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1561/trunk/core-api/src/org/eurocarbdb/sugar/Sugar.java
+END
+Ion.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/sugar/Ion.java
+END
+CommonBasetype.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1271/trunk/core-api/src/org/eurocarbdb/sugar/CommonBasetype.java
+END
+StereoConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1561/trunk/core-api/src/org/eurocarbdb/sugar/StereoConfig.java
+END
+SugarChemistryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1259/trunk/core-api/src/org/eurocarbdb/sugar/SugarChemistryException.java
+END
+Attachable.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1253/trunk/core-api/src/org/eurocarbdb/sugar/Attachable.java
+END
+Massclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/sugar/Massclass.java
+END
+Residue.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/sugar/Residue.java
+END
+SequenceFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/sugar/SequenceFormatException.java
+END
+PotentiallyIndefinite.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1561/trunk/core-api/src/org/eurocarbdb/sugar/PotentiallyIndefinite.java
+END
+SimpleSubstituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1259/trunk/core-api/src/org/eurocarbdb/sugar/SimpleSubstituent.java
+END

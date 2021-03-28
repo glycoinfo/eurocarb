@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemCompCharge
+END
+ChemCompCharge.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemCompCharge/ChemCompCharge.hbm.xml
+END
+ChemAtomCharge.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemCompCharge/ChemAtomCharge.hbm.xml
+END
+ChemCompVarCharge.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemCompCharge/ChemCompVarCharge.hbm.xml
+END

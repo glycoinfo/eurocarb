@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/examples/workshop/session5
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/examples/workshop/session5/__init__.py
+END
+exercises.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/examples/workshop/session5/exercises.txt
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/examples/workshop/session5/INFO
+END
+nmrConstraints.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/examples/workshop/session5/nmrConstraints.py
+END
+nmrMeasurements.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/examples/workshop/session5/nmrMeasurements.py
+END
+resonanceToSingleAtoms.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/examples/workshop/session5/resonanceToSingleAtoms.py
+END
+resonanceToMethyls.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/examples/workshop/session5/resonanceToMethyls.py
+END

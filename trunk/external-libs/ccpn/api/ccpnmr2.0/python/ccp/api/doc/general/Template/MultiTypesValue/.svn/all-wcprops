@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/Template/MultiTypesValue
+END
+intValues.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/Template/MultiTypesValue/intValues.html
+END
+boolValues.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/Template/MultiTypesValue/boolValues.html
+END
+textValues.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/Template/MultiTypesValue/textValues.html
+END
+floatValues.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/Template/MultiTypesValue/floatValues.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/Template/MultiTypesValue/index.html
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua
+END
+AtomLIB-pdbm
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/AtomLIB-pdbm
+END
+AtomLIB-biosym
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/AtomLIB-biosym
+END
+AtomLIB-pdbn
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/AtomLIB-pdbn
+END
+AtomLIB-xplor
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/AtomLIB-xplor
+END
+AtomLIB-pdb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/AtomLIB-pdb
+END
+PseudoLIB-aqua
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/PseudoLIB-aqua
+END
+AtomLIB-gromos
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/AtomLIB-gromos
+END
+StereoLIB-aqua
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/StereoLIB-aqua
+END
+ProchiralLIB-aqua
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/ProchiralLIB-aqua
+END
+AtomLIB-disgeo
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/AtomLIB-disgeo
+END
+AtomLIB-disman
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/AtomLIB-disman
+END
+AtomLIB-diana
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/AtomLIB-diana
+END
+AtomLIB-xplor-inv
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/data/ccpn_ref_data/ccp/aqua/AtomLIB-xplor-inv
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/web
+END
+.tomcatplugin
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/web/.tomcatplugin
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/web/.project
+END
+build_heidelberg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/web/build_heidelberg.xml
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/web/.cvsignore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/web/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/web/.classpath
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation
+END
+SugarGraphInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/SugarGraphInformation.java
+END
+GlycoVisitorContainsNodeBelow.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/GlycoVisitorContainsNodeBelow.java
+END
+SugarGraphAglycon.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/SugarGraphAglycon.java
+END
+GlycoVisitorSugarGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/GlycoVisitorSugarGraph.java
+END
+GlycoVisitorContainsNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/GlycoVisitorContainsNode.java
+END
+GlycoVisitorValidation.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/validation/GlycoVisitorValidation.java
+END

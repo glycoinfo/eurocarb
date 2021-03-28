@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1
+END
+WriteBiologicalContext.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/WriteBiologicalContext.test.xml
+END
+ReadBiologicalContext.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadBiologicalContext.test.xml
+END
+ReadTissueTaxonomy.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadTissueTaxonomy.test.xml
+END
+WriteDisease.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/WriteDisease.test.xml
+END
+ReadDisease.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadDisease.test.xml
+END
+WriteReference.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/WriteReference.test.xml
+END
+ReadGlycoprotein.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadGlycoprotein.test.xml
+END
+ReadReference.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadReference.test.xml
+END
+ReadTaxonomy.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadTaxonomy.test.xml
+END

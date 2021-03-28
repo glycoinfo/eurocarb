@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/serial.html
+END
+fixedAtomSets.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/fixedAtomSets.html
+END
+fixedResonances.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/fixedResonances.html
+END
+dangleChains.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/dangleChains.html
+END
+nmrProject.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/nmrProject.html
+END
+violationLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/violationLists.html
+END
+constraintGroups.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/constraintGroups.html
+END
+outputFromNmrRun.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/outputFromNmrRun.html
+END
+inputToNmrRuns.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/inputToNmrRuns.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/parent.html
+END
+additionalStructureAnalyses.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/additionalStructureAnalyses.html
+END
+validationStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/validationStores.html
+END
+fixedResonanceSets.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/fixedResonanceSets.html
+END
+resStructures.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/resStructures.html
+END
+structureGenerations.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/structureGenerations.html
+END
+structureAnalyses.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/structureAnalyses.html
+END
+constraintLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/constraintLists.html
+END
+memopsRoot.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/memopsRoot.html
+END
+chainStates.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/chainStates.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/index.html
+END
+conditionStates.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/NmrConstraintStore/conditionStates.html
+END

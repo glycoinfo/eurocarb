@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/grammar
+END
+GrammarOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/grammar/GrammarOptions.java
+END
+Constraint.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/grammar/Constraint.java
+END
+Grammar.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/grammar/Grammar.java
+END
+GrammarTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/grammar/GrammarTree.java
+END
+Rule.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/grammar/Rule.java
+END
+RuleProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/grammar/RuleProfile.java
+END

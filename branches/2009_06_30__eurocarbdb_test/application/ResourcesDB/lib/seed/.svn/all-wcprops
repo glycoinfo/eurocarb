@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/lib/seed
+END
+representation_files.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/lib/seed/representation_files.xml
+END
+bcsdbSeed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/lib/seed/bcsdbSeed.xml
+END
+seed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/lib/seed/seed.xml
+END
+seed2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/lib/seed/seed2.xml
+END
+pdb_monosacc_aliasdefs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/ResourcesDB/lib/seed/pdb_monosacc_aliasdefs.xml
+END

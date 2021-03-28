@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/sugar/seq
+END
+SequenceFormatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/sugar/seq/SequenceFormatTest.java
+END
+IupacSequenceFormatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/sugar/seq/IupacSequenceFormatTest.java
+END
+GlycoctSequenceFormatTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/test/eurocarbdb/sugar/seq/GlycoctSequenceFormatTest.java
+END

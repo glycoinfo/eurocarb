@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/Sample
+END
+AbstractSample.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/Sample/AbstractSample.hbm.xml
+END
+SampleStore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/Sample/SampleStore.hbm.xml
+END
+RefSample.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/Sample/RefSample.hbm.xml
+END
+RefSampleSource.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/Sample/RefSampleSource.hbm.xml
+END
+Sample.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/Sample/Sample.hbm.xml
+END
+CrystalSample.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/Sample/CrystalSample.hbm.xml
+END
+SampleComponent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/Sample/SampleComponent.hbm.xml
+END

@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1931/trunk/database/sql
+END
+load_ms_data.sql
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1/trunk/database/sql/load_ms_data.sql
+END
+create_schema_core_views.sql
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/181/trunk/database/sql/create_schema_core_views.sql
+END
+create_schema_hplc.sql.changelog
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/database/sql/create_schema_hplc.sql.changelog
+END
+import_hplc.sql
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/920/trunk/database/sql/import_hplc.sql
+END
+create_schema_ms.sql
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/303/trunk/database/sql/create_schema_ms.sql
+END
+create_composition_queries.sql
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1313/trunk/database/sql/create_composition_queries.sql
+END
+create_schema_core_uniprotkb.sql
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1870/trunk/database/sql/create_schema_core_uniprotkb.sql
+END
+create_schema_hplc.sql
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/88/trunk/database/sql/create_schema_hplc.sql
+END
+debug_structures.sql
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1/trunk/database/sql/debug_structures.sql
+END
+create_substructure_queries.sql
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1/trunk/database/sql/create_substructure_queries.sql
+END
+hplc_data_starting.sql
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1/trunk/database/sql/hplc_data_starting.sql
+END
+create_indexes_core.sql
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1152/trunk/database/sql/create_indexes_core.sql
+END
+create_schema_core.sql
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1870/trunk/database/sql/create_schema_core.sql
+END
+create_schema_seq.sql
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1313/trunk/database/sql/create_schema_seq.sql
+END
+create_glycopeakfinder.sql.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/319/trunk/database/sql/create_glycopeakfinder.sql.tar.gz
+END
+create_substructure.sql
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/database/sql/create_substructure.sql
+END
+create_schema_local.sql
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/database/sql/create_schema_local.sql
+END
+init_eurocarb.sql.template
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/database/sql/init_eurocarb.sql.template
+END
+import_glycomedb.sql
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/919/trunk/database/sql/import_glycomedb.sql
+END
+create_schema_nmr.sql
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/841/trunk/database/sql/create_schema_nmr.sql
+END
+create_schema_core_comments.sql
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1/trunk/database/sql/create_schema_core_comments.sql
+END
+create_resources_db.sql
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/118/trunk/database/sql/create_resources_db.sql
+END
+create_substructure_queries_debugging.sql
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/database/sql/create_substructure_queries_debugging.sql
+END
+export_glycomedb.sql
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/918/trunk/database/sql/export_glycomedb.sql
+END
+debug_ecdb_structures.sql
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1313/trunk/database/sql/debug_ecdb_structures.sql
+END

@@ -1,0 +1,63 @@
+CCPN Data Model C API 2.1 installation notes
+
+The CCPN Data Model C API 2.1 release includes all source
+code required, including third-party code (if required).
+
+The only third-party application required is Python 2.4.
+Users who want to use their own (e.g. system) copies of this
+code can do so.
+
+To install the code go into the ccpnmr directory (the top-level
+directory of the distribution) and run the installCApi.py script:
+ 
+  python installCApi.py
+ 
+This assumes that your computer has a working version of Python >= 2.4.
+The script will ask whether you want to compile Python (2.4), and
+if not where your version of Python (>= 2.4) is located.
+
+*********Start of Interlude***************************************
+ 
+Alternatively, if for some reason the script does not work, below is
+what you need to do to install the code (CCPNMR_TOP_DIR is the ccpnmr
+directory created by the unpacking of the tar file):
+
+(1) If you need our version of Python:
+      cd $CCPNMR_TOP_DIR/python2.4
+    Unpack tar file:
+      tar xvzf Python-2.4.2.tgz
+      (or "gunzip" followed by "tar xvf" if your tar does not understand "z")
+    Compile code:
+      cd Python-2.4.2
+      ./configure --prefix=$CCPNMR_TOP_DIR/python2.4
+      make
+      make install
+ 
+(2) Make C API:
+      cd $CCPNMR_TOP_DIR/ccpnmr2.1/c/xmlApi
+      make
+      make examples       (if you want the example code compiled)
+
+*********End of Interlude*****************************************
+
+After successful installation of the code the following environment
+variables also need setting or updating (for example, in .cshrc):
+
+  CCPNMR_TOP_DIR must be set to the ccpnmr directory created by the
+    unpacking of the tar file
+  PYTHONPATH must include $CCPNMR_TOP_DIR/ccpnmr2.1/python
+
+For example, in .cshrc you could place:
+
+  setenv CCPNMR_TOP_DIR directory_where_you_unpacked_release/ccpnmr
+  setenv PYTHONPATH .:${CCPNMR_TOP_DIR}/ccpnmr2.1/python
+
+******************************************************************
+
+You can also optionally install Analysis by running:
+
+  python installAnalysis.py
+
+This requires not only Python >= 2.4 but also Tcl/Tk >= 8.4 and
+optionally OpenGL (including glut).
+

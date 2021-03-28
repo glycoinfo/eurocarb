@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage
+END
+AnnotationEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/AnnotationEntity.java
+END
+PeakAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/PeakAnnotation.java
+END
+CalculationParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationParameter.java
+END
+CalculationPeak.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationPeak.java
+END
+ResidueSpecial.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/ResidueSpecial.java
+END
+CalculationFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationFragment.java
+END
+SpectraType.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/SpectraType.java
+END
+Persubstitution.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/Persubstitution.java
+END
+Scan.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/Scan.java
+END
+CalculationIon.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationIon.java
+END
+CalculationMolecule.java
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationMolecule.java
+END
+CalculationDerivatisation.java
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationDerivatisation.java
+END

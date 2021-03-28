@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/motif
+END
+genmcons.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/motif/genmcons.c
+END
+gen_xm.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/motif/gen_xm.c
+END
+genmotif.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/motif/genmotif.h
+END
+genmscr.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/motif/genmscr.c
+END
+genmcomm.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/motif/genmcomm.c
+END
+genmcurs.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/motif/genmcurs.c
+END
+genmpop.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/motif/genmpop.c
+END
+genmmen.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/motif/genmmen.c
+END

@@ -1,0 +1,59 @@
+# Novel synthesis of monosulphated methyl
+# a-D-galactopyranosides
+# A. Rashid, W. Mackie, I.J. Colquhoun, D. Lamba
+set ref 'Can. J. Chem. 68 (1990) 1122-1127'
+# correct ref 13C/1H
+
+type 'SO3' {
+info 'sulfate substituent'
+priority 'Z'
+atom 'S' 0 silent link free
+atom 'O' 0 silent free
+connect 'S' 'O'
+ctclass 'subst'
+}
+
+residue 'SO3' 'SO3' {
+info 'Sulfate'
+}
+
+dimer 'SO3(S->2)aDGalOMe'
+{
+shift -;-
+shift 98.38 5.13; 76.38 4.44; 69.11 3.93; 70.80 4.03; 71.55 3.92; 62.12 3.75 3.76
+shift 55.88 3.43
+error 0.2
+extract
+info $ref
+}
+
+dimer 'SO3(S->3)aDGalOMe'
+{
+shift -;-
+shift 100.16 4.90; 67.65 3.98; 78.36 4.48; 68.34 4.32; 71.22 3.95; 62.19 3.75 3.75
+shift  56.01 3.43
+error 0.2
+extract
+info $ref
+}
+
+dimer 'SO3(S->4)aDGalOMe'
+{
+shift -;-
+shift 100.00 4.83; 69.01 3.84; 69.25 3.94; 78.34 4.68; 70.84 4.03; 61.94 3.78 3.76
+shift  55.94 3.37
+error 0.2
+extract
+info $ref
+}
+
+dimer 'SO3(S->6)aDGalOMe'
+{
+shift -;-
+shift 100.14 4.83; 68.79 3.82; 69.72 3.80; 69.98 4.00; 69.26 4.13; 68.39 4.16 4.15
+shift  55.85 3.41
+error 0.2
+extract
+info $ref
+}
+

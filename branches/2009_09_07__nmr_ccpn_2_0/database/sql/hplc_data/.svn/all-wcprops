@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/database/sql/hplc_data
+END
+ref_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/database/sql/hplc_data/ref_share.txt
+END
+glycan_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/database/sql/hplc_data/glycan_share.txt
+END
+digest_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/database/sql/hplc_data/digest_share.txt
+END
+reflink_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/database/sql/hplc_data/reflink_share.txt
+END

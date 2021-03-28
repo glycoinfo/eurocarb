@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.ChemComp">
+  <joined-subclass
+    name="StdChemComp"
+    extends="ccp.api.molecule.ChemComp.ChemComp"
+    table="CHEM_STDCHEMCOMP"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Standard ChemComp, or ChemComp that has a one-letter Code (unique within the molType). In practice one of the twenty standard amino acids or the four standrad DNA or RNA bases</meta>
+  <key column="CHEMCOMPID" foreign-key="CHEM_STDCHEMCOMP_CHEMCOMP_FK"/>
+  
+  <property
+    name="_code1Letter"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">One letter code, defined only for standard chem comps. For each molType there must be only one StdChemComp with a given oneLetterCode. This constraint is not checked by the model, as it would entail looping over all ChemComps whenever a check was made.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CODE1LETTER" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

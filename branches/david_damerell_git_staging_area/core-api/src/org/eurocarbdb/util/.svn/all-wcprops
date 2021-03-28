@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1804/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/util
+END
+BitSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/util/BitSet.java
+END
+ProgressWatchable.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/util/ProgressWatchable.java
+END
+Visitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/util/Visitor.java
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/util/Logger.java
+END
+JavaUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/util/JavaUtils.java
+END
+XmlSerialiser.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/util/XmlSerialiser.java
+END
+CompositionVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/util/CompositionVisitor.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/util/Version.java
+END
+FTP_Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/util/FTP_Client.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/util/StringUtils.java
+END

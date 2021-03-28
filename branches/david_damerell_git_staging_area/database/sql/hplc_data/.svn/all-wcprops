@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/hplc_data
+END
+reflink_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/hplc_data/reflink_share.txt
+END
+ref_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/hplc_data/ref_share.txt
+END
+glycan_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/hplc_data/glycan_share.txt
+END
+digest_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/hplc_data/digest_share.txt
+END

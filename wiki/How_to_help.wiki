@@ -1,0 +1,12 @@
+#summary How _you_ can contribute to making eurocarb better
+
+=How you can help=
+
+Just using [http://www.ebi.ac.uk/eurocarb the public version of the software online] is a good start, however active contribution of structures, data or even code is highly encouraged. Eurocarb is a long-term, publically accessible data- and knowledge-base, and there are many avenues for improvement, both scientifically in terms of content, and on the IT side in terms of new features, fixes and usability enhancements. If you are interested in contributing to or influencing the direction of the project we highly recommend joining one or more of the following group mailing lists. 
+
+==Mailing lists==
+ * [http://groups.google.com/group/eurocarb-users/topics eurocarb-users@googlegroups.com]
+This is a low-traffic group for discussion of eurocarb features and content, intended for scientific users and other interested parties. It is publically readable but you must be a member to post anything. 
+ * [http://groups.google.com/group/eurocarb-devel/topics eurocarb-devel@googlegroups.com]
+This is a low-traffic, general developer's discussion list, which may include both technical IT and/or scientific content. It is publically readable but you must be a member to post anything. 
+ 

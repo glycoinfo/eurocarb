@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/LinkEnd
+END
+boundChemAtom.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/LinkEnd/boundChemAtom.html
+END
+boundLinkAtom.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/LinkEnd/boundLinkAtom.html
+END
+chemCompVars.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/LinkEnd/chemCompVars.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/LinkEnd/index.html
+END
+getChemCompVars.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/LinkEnd/getChemCompVars.html
+END
+linkCode.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/LinkEnd/linkCode.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/LinkEnd/parent.html
+END
+remoteChemAtom.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/LinkEnd/remoteChemAtom.html
+END
+remoteLinkAtom.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/LinkEnd/remoteLinkAtom.html
+END
+chemComp.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/molecule/ChemComp/LinkEnd/chemComp.html
+END

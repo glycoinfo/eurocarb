@@ -1,0 +1,497 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc
+END
+contractStructuresCT.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/contractStructuresCT.java
+END
+ShowGlycobase.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowGlycobase.java
+END
+ShowDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowDetector.java
+END
+CreateDetector.java.working
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateDetector.java.working
+END
+ShowGlycan.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowGlycan.java
+END
+ogbiTranslator.java_original
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ogbiTranslator.java_original
+END
+digest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/digest.java
+END
+UserCreateColumn.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/UserCreateColumn.java
+END
+Showglycancorrect
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/Showglycancorrect
+END
+update.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/update.java
+END
+Select_temp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/Select_temp
+END
+CreateColumn-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateColumn-validation.xml
+END
+meeting.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/meeting.java
+END
+temp.class
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/temp.class
+END
+BeginHplc.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/BeginHplc.java
+END
+Example.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/Example.java
+END
+CreateInstrument.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateInstrument.java
+END
+CreateDiseaseContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateDiseaseContent.java
+END
+CreateContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateContent.java
+END
+CreateMethod.java.bk
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateMethod.java.bk
+END
+ReferenceUpload.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ReferenceUpload.java
+END
+CreateHplcBiologicalContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateHplcBiologicalContext.java
+END
+CreateDetector-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateDetector-validation.xml
+END
+InitDevices.java.tmp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/InitDevices.java.tmp
+END
+CreateHplcGu.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateHplcGu.java
+END
+SelectInstrument.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/SelectInstrument.java
+END
+BeginHplc.java.okversion
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/BeginHplc.java.okversion
+END
+DetectorHplc.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/DetectorHplc.java
+END
+refUpload.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/refUpload.java
+END
+showPrelimRefine.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/showPrelimRefine.java
+END
+UploadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/UploadAction.java
+END
+digestAssign.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/digestAssign.java
+END
+ShowHplc.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowHplc.java
+END
+ShowDetector.java.working
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowDetector.java.working
+END
+EntityManaged.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/EntityManaged.java
+END
+Column.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/Column.java
+END
+ShowSummary.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowSummary.java
+END
+ShowColumn.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowColumn.java
+END
+SelectSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/SelectSettings.java
+END
+CreateParent.java.v1
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateParent.java.v1
+END
+column_why
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/column_why
+END
+InitDevices.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/InitDevices.java
+END
+CreateColumn.java.v2
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateColumn.java.v2
+END
+refinetest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/refinetest.java
+END
+CreateColumn.java.error
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateColumn.java.error
+END
+ShowGlycan.java.bak
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowGlycan.java.bak
+END
+Example_worling
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/Example_worling
+END
+CreateParent.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateParent.java
+END
+CreateColumn.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateColumn.java
+END
+ShowGlycan.working.temp
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowGlycan.working.temp
+END
+digestUpload.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/digestUpload.java
+END
+BeginHplc.java.workingint
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/BeginHplc.java.workingint
+END
+ShowDigestAssign.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowDigestAssign.java
+END
+ogbiTranslator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ogbiTranslator.java
+END
+CreateTissueContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateTissueContent.java
+END
+UserCreateDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/UserCreateDetector.java
+END
+showTax.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/showTax.java
+END
+CreateDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateDetector.java
+END
+CreateDetector-validation.xml.int
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateDetector-validation.xml.int
+END
+SelectColumn.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/SelectColumn.java
+END
+ProfileAnnotated.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ProfileAnnotated.java
+END
+SelectDetector.java.v1
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/SelectDetector.java.v1
+END
+SelectDetector.java.v2
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/SelectDetector.java.v2
+END
+showGlycobaseRefine.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/showGlycobaseRefine.java
+END
+CreateMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateMethod.java
+END
+CreateDetector-validation.xml.original
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateDetector-validation.xml.original
+END
+CreateParent.java.bk
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateParent.java.bk
+END
+refine.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/refine.java
+END
+SelectDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/SelectDetector.java
+END
+ShowDigest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowDigest.java
+END
+ShowSummaryDigests.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowSummaryDigests.java
+END
+BeginHplc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/BeginHplc.txt
+END
+SelectSettings.java.bk
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/SelectSettings.java.bk
+END
+preAssign.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/preAssign.java
+END
+coreIntegration.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/coreIntegration.java
+END
+searchGlycobase.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/searchGlycobase.java
+END
+ShowPrelimAssign.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/ShowPrelimAssign.java
+END
+CreateGu.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateGu.java
+END
+CreateColumn.java.test
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateColumn.java.test
+END
+CreateColumn.java.working
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateColumn.java.working
+END
+CreateDetector-validation.xml.tmp
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateDetector-validation.xml.tmp
+END
+CreateColumn-validation.xml.or
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/hplc/CreateColumn-validation.xml.or
+END

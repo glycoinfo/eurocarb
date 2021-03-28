@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="Noe"
+    extends="ccp.api.nmr.Nmr.AbstractMeasurement"
+    table="NMR_NOE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">NOE intensity measurement</meta>
+  <key column="ABSTRACTMEASUREMENTID" foreign-key="NMR_NOE_ABSTMEAS_FK"/>
+  
+  <many-to-one
+    name="hbParentList"
+    column="PARENTLISTID"
+    class="ccp.api.nmr.Nmr.NoeList" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_NOE_PARENTLIST_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbResonances" 
+    table="NMR_RESONANCE2NOES"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Resonances bwtween which NOE is measured.</meta>
+    <meta attribute="base-name">hbResonance</meta>
+    <cache usage="read-write"/>
+    <key column="NOEID" foreign-key="NMR_RESONANCE_NOES_FK"/>
+    <many-to-many column="RESONANCEID" class="ccp.api.nmr.Nmr.Resonance" foreign-key="NMR_NOE_RESONANCES_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

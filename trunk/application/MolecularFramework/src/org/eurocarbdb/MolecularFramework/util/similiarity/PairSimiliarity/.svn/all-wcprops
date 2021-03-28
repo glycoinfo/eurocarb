@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/PairSimiliarity
+END
+PairData.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/PairSimiliarity/PairData.java
+END
+PairSimiliarity.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/PairSimiliarity/PairSimiliarity.java
+END
+ExampleUsage.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/PairSimiliarity/ExampleUsage.java
+END

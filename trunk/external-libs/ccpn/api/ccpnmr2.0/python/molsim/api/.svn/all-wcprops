@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/__init__.py
+END
+AnnealProtocol.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/AnnealProtocol.py
+END
+NmrSim.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/NmrSim.py
+END
+Symmetry.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/Symmetry.py
+END

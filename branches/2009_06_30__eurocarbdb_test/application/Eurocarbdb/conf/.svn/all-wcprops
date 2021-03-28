@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1383/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf
+END
+tomcat-users.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/tomcat-users.xml
+END
+eurocarb-proxied.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/eurocarb-proxied.action.xml
+END
+xwork-conversion.properties
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/xwork-conversion.properties
+END
+eurocarb-examples.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/eurocarb-examples.action.xml
+END
+eurocarb-ms.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/eurocarb-ms.action.xml
+END
+eurocarb-gwb.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/eurocarb-gwb.action.xml
+END
+log4j.properties.production
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/log4j.properties.production
+END
+eurocarb-hplc.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/eurocarb-hplc.action.xml
+END
+eurocarb-core.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/eurocarb-core.action.xml
+END
+eurocarb-admin.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/eurocarb-admin.action.xml
+END
+eurocarbdb-application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/eurocarbdb-application.properties
+END
+server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/server.xml
+END
+eurocarb-nmr.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/eurocarb-nmr.action.xml
+END
+log4j.properties.devel
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/log4j.properties.devel
+END
+binding.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/binding.xml
+END
+xwork.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/xwork.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1382/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/log4j.properties
+END
+eurocarb-devel.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/eurocarb-devel.action.xml
+END
+webwork.properties
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1383/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/webwork.properties
+END
+eurocarb-auth.action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/eurocarb-auth.action.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/web.xml
+END
+context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/conf/context.xml
+END

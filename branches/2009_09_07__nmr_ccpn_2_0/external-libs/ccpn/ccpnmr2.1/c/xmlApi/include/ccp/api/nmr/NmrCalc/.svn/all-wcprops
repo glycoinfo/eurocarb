@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc
+END
+Calc_MolResidueData.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_MolResidueData.h
+END
+Calc_Run.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_Run.h
+END
+Calc_RunParameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_RunParameter.h
+END
+Calc_StructureEnsembleData.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_StructureEnsembleData.h
+END
+Calc_PeakListData.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_PeakListData.h
+END
+Calc_DerivedListData.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_DerivedListData.h
+END
+Calc_SpinSystemData.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_SpinSystemData.h
+END
+Calc_Data.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_Data.h
+END
+Calc_MeasurementListData.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_MeasurementListData.h
+END
+Calc_ExternalData.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_ExternalData.h
+END
+Calc_DefaultParameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_DefaultParameter.h
+END
+Calc_MolSystemData.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_MolSystemData.h
+END
+Calc_ViolationListData.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_ViolationListData.h
+END
+Calc_ConstraintStoreData.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_ConstraintStoreData.h
+END
+Calc_SpectrumData.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_SpectrumData.h
+END
+Calc_NmrCalcStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrCalc/Calc_NmrCalcStore.h
+END

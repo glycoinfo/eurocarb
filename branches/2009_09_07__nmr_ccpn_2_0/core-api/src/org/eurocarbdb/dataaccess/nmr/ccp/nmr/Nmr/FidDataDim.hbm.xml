@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="FidDataDim"
+    extends="ccp.api.nmr.Nmr.AbstractDataDim"
+    table="NMR_FIDDATADIM"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">An FID dimension or any other dimension with a regular grid of values. A FidDataDim can contain any kind of regularly sampled data subjected to any kind of processing, except that data in the Fourier transformed domain relative to the originally acquired data must be put in a FreqDataDim.</meta>
+  <key column="ABSTRACTDATADIMID" foreign-key="NMR_FIDDATADIM_ABSTDATADIM_FK"/>
+  
+  <property
+    name="_alternateSign"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Default is 'False'. If true means that every second (real or complex) point should have its sign changed before further processing, as for classical TPPI or States-TPPI.</meta>
+    <meta attribute="default-value">false</meta>
+    <column name="ALTERNATESIGN" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_firstValue"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Value of first point.</meta>
+    <meta attribute="default-value">new java.lang.Float(0.0)</meta>
+    <column name="FIRSTVALUE" sql-type="FLOAT" not-null="true"/>
+  </property>
+  
+  <property
+    name="_negateImaginary"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Default is 'False'. If true the imaginary part of complex numbers should be negated before further processing. </meta>
+    <meta attribute="default-value">false</meta>
+    <column name="NEGATEIMAGINARY" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_numPointsValid"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Number of points containing valid data. Assumed to start at point one. Must be smaller or equal than numPoints. To account for experiments stopped early or that otherwise have not filled all storage slots with valid data. The valid data points will be those from pointOffset+1 to pointOffset+numPointsValid (inclusive).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NUMPOINTSVALID" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_oversamplingInfo"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Text field describing oversampling of data, if any.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="OVERSAMPLINGINFO" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_phase0"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">(Approximate) zero order phase correction in degrees to be applied after Fourier transformation</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PHASE0" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_phase1"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">(Approximate) first order phase correction in degrees to be applied after Fourier transformation. By definition the point of no effect of the first order correction is point number one (before removal of points). </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PHASE1" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_pointOffset"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Number of points at beginning of FID to ignore. Default zero. The first point with valid data will always be point 1 + pointOffset</meta>
+    <meta attribute="default-value">new java.lang.Integer(0)</meta>
+    <column name="POINTOFFSET" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_valuePerPoint"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Value per point. Corresponds to the difference between successive time (e.g.) values whether or not the points are complex.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VALUEPERPOINT" sql-type="FLOAT" not-null="true"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

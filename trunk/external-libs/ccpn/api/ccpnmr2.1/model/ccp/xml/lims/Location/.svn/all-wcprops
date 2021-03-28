@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Location
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Location/package.xml
+END
+LocationStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Location/LocationStore.xml
+END
+Location.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/Location/Location.xml
+END

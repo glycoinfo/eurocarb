@@ -1,0 +1,282 @@
+<#assign title>Glycan Entry</#assign>
+<#include "/template/common/header.ftl" />
+
+<div class="hplc_glycan_entry">
+Glycan Id: ${glycan.glycanId?c}
+</div>
+
+<h1>HPLC Glycan Details</h1>
+
+<#assign testing = displayMultipleCt?size>
+
+
+<p>The translator failed, number of Alternative/Manual CT entries: ${testing}</p>
+<#if reportValue != 0 >
+<b>Report Value:</b> ${reportValue?string("0.##")}
+</#if>
+
+<#if (testing == 0) >
+
+<table>
+	<tr><td>
+<!--src="/ecdb/ww/get_sugar_image.action?download=true&scale=0.5&inputType=Ogbi&outputType=png&notation=${imageStyle}&sequences=${glycan.name}"/> -->
+<#if (imageStyle == "uoxf" || imageStyle == "cfg") && trueCT == "no" >
+<img style="display: block;"
+      src="get_sugar_image.action?download=true&scale=0.4&outputType=png&glycanSequenceId=530/>
+</#if>
+
+<#if imageStyle == "original" >
+<img style="display: block;"
+      src="/ecdb/images/hplc/${glycan.glycanId?c}.png"/>
+</#if>
+
+<#if (imageStyle == "uoxf" || imageStyle == "cfg") && trueCT == "yes">
+<p>Viewing Core Glycan Integration</p>
+<img style="display: block;"
+      src="/ecdb/ww/get_sugar_image.action?download=true&scale=0.5&inputType=Ogbi&outputType=png&notation=${imageStyle}&glycanSequenceId=${glycan.ogbitranslation?c}"/>
+</#if>
+
+
+
+	</td>
+	<td>
+
+         <ul>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=original">Original UOXF Nomenclature</a></li>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=uoxf&trueCT=no">UOXF Format (embedded translator)</a></li>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=cfg&trueCT=no">CFG Format (embedded translator)</a></li>
+	    <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=uoxf&trueCT=yes">UOXF Format (core integration)</a></li>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=cfg&trueCT=yes">CFG Format (core integration)</a></li>
+	</ul>
+
+	</td>
+
+</#if>
+
+
+<p>Show all manual corrections (note format probs)</p>
+
+
+
+<#if (testing != 0) && (imageStyle == "uoxf" || imageStyle == "cfg") && trueCT == "yes" && imageStyle != "original"  >
+<table><tr><td>
+	<#list displayMultipleCt as multiple>
+	<!--${multiple.sequenceId?c}-->
+
+	<img style="display: block;"
+      src="/ecdb/ww/get_sugar_image.action?download=true&scale=0.5&inputType=Ogbi&outputType=png&notation=${imageStyle}&glycanSequenceId=${multiple.sequenceId?c}"/>
+	<#if multiple_has_next></#if>
+	</#list>
+
+	</td>
+	<td>
+
+         <ul>
+            <!--<li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=original">Original UOXF Nomenclature</a></li>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=uoxf&trueCT=no">UOXF Format (embedded translator)</a></li>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=cfg&trueCT=no">CFG Format (embedded translator)</a></li>
+	     -->
+	    <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=uoxf&trueCT=yes">UOXF Format (core integration)</a></li>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=cfg&trueCT=yes">CFG Format (core integration)</a></li>
+	    
+	 </ul>
+
+	</td></tr></table>
+</#if>
+
+<!--
+<#if (testing != 0) && (imageStyle == "uoxf" || imageStyle == "cfg") && trueCT == "no" && imageStyle != "original"  >
+<table><tr><td>
+	<#list displayMultipleCt as multiple>
+	
+
+	<img style="display: block;"
+      src="/ecdb/ww/get_sugar_image.action?download=true&scale=0.5&inputType=Ogbi&outputType=png&notation=${imageStyle}&sequences=${glycan.name}"/>
+	<#if multiple_has_next></#if>
+	</#list>
+
+	</td>
+	<td>
+
+         <ul>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=original">Original UOXF Nomenclature</a></li>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=uoxf&trueCT=no">UOXF Format (embedded translator)</a></li>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=cfg&trueCT=no">CFG Format (embedded translator)</a></li>
+	    <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=uoxf&trueCT=yes">UOXF Format (core integration)</a></li>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=cfg&trueCT=yes">CFG Format (core integration)</a></li>
+	    
+	 </ul>
+
+	</td></tr></table>
+</#if>
+
+
+
+
+<#if (testing != 0 && imageStyle == "original")  >
+	<#list displayMultipleCt as multiple>
+	
+<table><tr><td>
+	<img style="display: block;"
+      src="/ecdb/images/hplc/${glycan.glycanId?c}.png"/>
+	<#if multiple_has_next></#if>
+	</#list>
+
+	</td>
+	<td>
+
+         <ul>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=original&trueCT=no">Original UOXF Nomenclature</a></li>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=uoxf&trueCT=no">UOXF Nomenclature (translation tool)</a></li>
+            <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=cfg&trueCT=no">CFG Format (translation tool)</a></li>
+	    <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=uoxf&trueCT=yes">UOXF Manual CT</a></li>
+	    <li><a href="show_glycanEntry.action?glycanId=${glycanId?c}&imageStyle=cfg&trueCT=yes">CFG Manual CT</a></li>
+	    
+	 </ul>
+
+	</td>
+	</tr></table>
+</#if>
+-->
+
+</table>	
+
+<table class="hplc_table_entry">
+     <tr>
+       <td><b>Glycan Name<b></td>
+       <td>${glycan.name}</td>
+     </tr>
+     <!--<tr>
+       <td><b>GU Value</b></td><td>${glycan.gu}</td>
+     </tr>
+     <tr>
+       <td><b>Standard Dev</b></td><td>${glycan.std}</td>
+     </tr>
+-->
+</table>
+
+<table class="hplc_table_entry">
+     <#list displayStats as s>
+     <tr>
+       <td><b>GU Value:</b></td><td>${s[1]?string("0.##")}</td>  
+     </tr>
+     <#if s[2] !=1 >
+     <tr>
+       <td><b>Standard Dev:</b></td><td>${s[0]?string("0.##")}</td>
+     </tr>
+     </#if>
+     </#list>
+</table>
+
+
+
+<p></p>
+<h2>Monosaccharide Composition</h2>
+<table class="hplc_table_entry">
+      	<tr>
+        <#if glycan.hex?size != 0 >
+       <td>Hex: ${glycan.hex}</td>
+	</#if>
+       </tr>
+       <tr>
+      <#if glycan.hexnac?size != 0 >
+       <td>HexNAc: ${glycan.hexnac}</td>
+      </#if>
+        </tr>
+ 	<tr>
+      <#if glycan.neunac?size != 0 >
+       <td>NeuNAc: ${glycan.neunac}</td>
+      </#if>
+        </tr>
+	<tr>
+      <#if glycan.fucose?size != 0 >
+       <td>Fucose: ${glycan.fucose}</td>
+      </#if>
+	</tr>
+	<tr>
+      <#if glycan.xylose?size != 0>
+       <td>Xylose: ${glycan.xylose}</td>
+      </#if>
+</tr>
+
+</table>
+
+<p></p>
+
+
+<h2>Digest Pathways</h2>
+<table class="hplc_table_entry">
+         <#if (testing == 0) >
+
+
+	<#list displayDigestSingle as digest>
+        
+	<#if (imageStyle == "uoxf" || imageStyle == "cfg") && trueCT == "no">
+	<tr><td><img src="/ecdb/ww/get_sugar_image.action?download=true&scale=0.5&inputType=Ogbi&outputType=png&notation=${imageStyle}&sequences=${glycan.name}"/></td><td>${digest[0]}<br/><img src="/ecdb/images/longarrow.gif"/></td><td><img src="/ecdb/ww/get_sugar_image.action?download=true&scale=0.5&inputType=Ogbi&outputType=png&notation=${imageStyle}&sequences=${digest[2]}"/></td></tr>
+ 	</#if>
+
+	<#if imageStyle == "original">
+	<tr><td><img src="/ecdb/images/hplc/${glycan.glycanId?c}.png"/></td><td>${digest[0]}<br/><img src="/ecdb/images/longarrow.gif"/></td><td><img src="/ecdb/images/hplc/${glycan.glycanId?c}.png"/></td>
+	</tr>
+	</#if>
+
+        <#if (imageStyle == "uoxf" || imageStyle == "cfg") && trueCT == "yes" >
+	<tr><td><img style="display: block;"
+      src="/ecdb/ww/get_sugar_image.action?download=true&scale=0.5&inputType=Ogbi&outputType=png&notation=${imageStyle}&glycanSequenceId=${glycan.ogbitranslation?c}"/></td><td>${digest[0]}<br/><img src="/ecdb/images/longarrow.gif"/></td><td><a href="show_glycanEntry.action?glycanId=${digest[1]}&trueCT=yes&imageStyle=uoxf"><img src="/ecdb/ww/get_sugar_image.action?download=true&scale=0.5&inputType=Ogbi&outputType=png&notation=${imageStyle}&sequences=${digest[2]}"/></a></td></tr>
+       	</#if>
+
+
+	<tr><td>${glycan.name}</td><td></td><td><a href="show_glycanEntry.action?glycanId=${digest[1]}&trueCT=yes&imageStyle=uoxf">${digest[2]}</a></td></tr>
+
+	<#if digest_has_next></#if>
+	</#list>
+	</#if>
+</table>
+
+
+	<#if (testing != 0) >
+        <#list displayMultiDigests as digestMultiple>
+	<#if (digestMultiple[4]?exists)>
+	<#if (testing != 0) && (imageStyle == "uoxf" || imageStyle == "cfg") && trueCT == "yes" && imageStyle != "original"  >
+        <table class="hplc_table_entry" >
+	<tr><td><img style="display: block;"
+      src="/ecdb/ww/get_sugar_image.action?download=true&scale=0.5&inputType=Ogbi&outputType=png&notation=${imageStyle}&glycanSequenceId=${digestMultiple[2]?c}"/></td><td>${digestMultiple[0]}<img src="/ecdb/images/longarrow.gif"/></td><td><a href="show_glycanEntry.action?glycanId=${digestMultiple[1]}&trueCT=yes&imageStyle=uoxf"><img src="/ecdb/ww/get_sugar_image.action?download=true&scale=0.5&inputType=Ogbi&outputType=png&notation=${imageStyle}&glycanSequenceId=${digestMultiple[4]?c}"/></a></td></tr>
+	<tr><td>${glycan.name}</td><td></td><td><a href="show_glycanEntry.action?glycanId=${digestMultiple[1]}&trueCT=yes&imageStyle=uoxf">${digestMultiple[5]}</a></td></tr>
+       
+</table> </#if>
+	</#if>
+	</#list>
+	</#if> 
+
+
+
+
+
+
+
+
+
+<h2>Publication  Information</h2>
+<table class="table_top_header half_width">
+	<tr><th>Author</th><th>Year</th><th>Reported GU</th><th>MS</th><th>MS/MS</th><th>Tax Link</th></tr>
+
+      <#list displayRefs as p>
+	<#if (p[4]?exists) >
+	<tr><td style="text-align:left"><a href="http://www.ncbi.nlm.nih.gov/pubmed/${p[4]?c}">${p[3]}</a><td style="text-align:center" >${p[5]?c}<td style="text-align:center">${p[0]}<td style="text-align:center">${p[2]}<td style="text-align:center">${p[1]}<td style="text-align:center"><a href="show_tax.action?refId=${p[6]?c}&glycanId=${glycan.glycanId}&glycanName=${glycan.name}&imageStyle=uoxf">link</a><#if p_has_next></#if>
+      
+        </#if>
+      </#list>
+</table>
+
+<#if displayReportGu?exists>
+<h2>Report Data</h2>
+<table class="table_top_header half_width">
+	<tr><th>Sample</th><th>GU</th><th>MS</th><th>MS/MS</th></tr>
+
+	<#list displayReportGu as d>
+	<tr><td style="text-align:left">${d[3]}</td><td style="text-align:left">${d[0]}</td><td style="text-align:left">${d[1]}</td><td style="text-align:left">${d[2]}</td>
+	</#list>
+</table>
+</#if>
+
+<#include "/template/common/footer.ftl" />

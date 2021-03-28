@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="SpectralDensityList"
+    extends="ccp.api.nmr.Nmr.DerivedDataList"
+    table="NMR_SPECTRALDENSITYLIST"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">List of spectral density sets.</meta>
+  <key column="DERIVEDDATALISTID" foreign-key="NMR_SPECDENSLIST_DERIDATALIST_FK"/>
+  
+  <property
+    name="_unit"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Unit of measurement for SpectralDensity.</meta>
+    <meta attribute="default-value">"s-1"</meta>
+    <column name="UNIT" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <set 
+    name="hbDerivations" 
+    table="NMR_SPECTRALDENSITYDERIVATION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbDerivation</meta>
+    <cache usage="read-write"/>
+    <key column="PARENTLISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.SpectralDensityDerivation"/>
+  </set>
+  
+  <set 
+    name="hbExperiments" 
+    table="NMR_EXPERIMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Experiments for which list of spectral densities is valid.</meta>
+    <meta attribute="base-name">hbExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="SPECTRALDENSITYLISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Experiment"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

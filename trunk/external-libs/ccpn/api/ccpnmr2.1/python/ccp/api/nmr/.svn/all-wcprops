@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/nmr
+END
+NmrReference.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/nmr/NmrReference.py
+END
+Nmr.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/nmr/Nmr.py
+END
+NmrEntry.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/nmr/NmrEntry.py
+END
+NmrCalc.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/nmr/NmrCalc.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/nmr/__init__.py
+END
+NmrExpPrototype.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/nmr/NmrExpPrototype.py
+END
+NmrConstraint.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/nmr/NmrConstraint.py
+END

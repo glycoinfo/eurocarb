@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/hplc/create_detector
+END
+input.ftl.v1
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/hplc/create_detector/input.ftl.v1
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/hplc/create_detector/success.ftl
+END
+input.select
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/hplc/create_detector/input.select
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/hplc/create_detector/error.ftl
+END
+input.or
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/hplc/create_detector/input.or
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/hplc/create_detector/input.ftl
+END

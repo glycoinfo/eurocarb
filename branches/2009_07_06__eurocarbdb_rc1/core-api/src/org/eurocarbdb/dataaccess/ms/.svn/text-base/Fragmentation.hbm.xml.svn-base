@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 3, 2007 6:49:07 PM by Hibernate Tools 3.1.0.beta4 -->
+<hibernate-mapping default-cascade="save-update">
+
+    <class name="org.eurocarbdb.dataaccess.ms.Fragmentation" table="fragmentation" schema="ms">
+    
+        <id name="fragmentationId" type="int">
+            <column name="fragmentation_id" />
+            <generator class="sequence">
+                <param name="sequence">ms.fragmentation_fragmentation_id_seq</param>
+            </generator>
+        </id>
+        
+        <many-to-one name="peakAnnotated" class="org.eurocarbdb.dataaccess.ms.PeakAnnotated" fetch="select">
+            <column name="peak_annotated_id" not-null="true" />
+        </many-to-one>
+        
+        <property name="fragmentType" type="string">
+            <column name="fragment_type" length="1" />
+        </property>
+        
+        <property name="fragmentDc" type="string">
+            <column name="fragment_dc" not-null="true" />
+        </property>
+        
+        <property name="fragmentAlt" type="string">
+            <column name="fragment_alt" />
+        </property>
+        
+        <property name="fragmentPosition" type="java.lang.Integer">
+            <column name="fragment_position" />
+        </property>
+        
+        <property name="cleavageOne" type="java.lang.Integer">
+            <column name="cleavage_one" />
+        </property>
+        
+        <property name="cleavageTwo" type="java.lang.Integer">
+            <column name="cleavage_two" />
+        </property>
+        
+    </class>
+    
+</hibernate-mapping>

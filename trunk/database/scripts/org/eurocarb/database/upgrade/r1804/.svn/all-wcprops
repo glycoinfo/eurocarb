@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1870/trunk/database/scripts/org/eurocarb/database/upgrade/r1804
+END
+create_schema_core_net_extra.sql
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1870/trunk/database/scripts/org/eurocarb/database/upgrade/r1804/create_schema_core_net_extra.sql
+END
+mergeGuestTuplesWithDifferentContributorIds.pgplsql
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1870/trunk/database/scripts/org/eurocarb/database/upgrade/r1804/mergeGuestTuplesWithDifferentContributorIds.pgplsql
+END
+upgrade_script.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1870/trunk/database/scripts/org/eurocarb/database/upgrade/r1804/upgrade_script.sql
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1870/trunk/database/scripts/org/eurocarb/database/upgrade/r1804/README.txt
+END

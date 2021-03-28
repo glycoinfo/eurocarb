@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/nmr/create_nmr_project
+END
+index.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/nmr/create_nmr_project/index.ftl
+END
+step1.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/nmr/create_nmr_project/step1.ftl
+END
+step2.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/nmr/create_nmr_project/step2.ftl
+END
+step3.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/nmr/create_nmr_project/step3.ftl
+END
+finish.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/nmr/create_nmr_project/finish.ftl
+END

@@ -1,0 +1,23 @@
+# Spectroscopic characterisation of disaccharides derived from keratan sulfates
+# Thomas N. HUCKERBY, Gavin M. BROWN, John M. DICKENSON and Ian A. NIEDUSZYNSKI
+# Eur. J. Biochem. 229, 119-131 (1995)
+
+set ref 'Eur J Biochem (1995) 229: 119-131'
+
+dimer 'bDGal(1->4)DGlcNAcol' {
+shift 105.85 4.52; 74.04 3.58; 75.57 3.67; 71.60 3.94; 77.96 3.69; 64.94 3.78 3.81
+shift 63.90 3.67 3.76; 55.48 4.27; 71.36 3.96; 81.94 3.88; 74.22 3.95; 63.93 3.75 3.86
+shift 24.97 2.06; 177.26
+extract
+correct -2.1 0
+error 1.5
+}
+
+dimer 'bDGal(1->6)DGlcNAcol' {
+shift 106.29 4.44; 73.79 3.58; 75.61 3.67; 71.57 3.94; 77.97 3.70; 63.85 3.76 3.81
+shift 63.82 3.65 3.74; 56.47 4.09; 71.23 3.98; 73.85 3.69; 72.98 3.91; 74.09 3.83 4.14
+shift 24.95 2.05; 177.23
+extract
+correct -2.1 0
+error 1.5
+}

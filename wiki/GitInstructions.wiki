@@ -1,0 +1,154 @@
+#summary Instructions to use git with the EuroCarbDB source.
+= Introduction =
+
+We are currently using a single subversion repository to manage all EuroCarb projects.  Therefore most developers are using subversion to communicate with our repository.  Most open-source projects are moving from SVN and CVS to the new SCM originally created by Linus Torvalds called git.  Although designed to replace SVN and CVS, git does provide the program git-svn which allows two-way communication with subversion repositories.  Until we move across to git, follow the instructions below to communicate with our repository using git.
+
+The instructions below are very new so your millage may vary; if you have any problems please leave us a [http://groups.google.com/group/eurocarb-devel/topics   message].  In the future we may make this process easier by providing a git repository that you can clone which is synced with the SVN.
+
+The instructions below assume that you are going to be contributing back to our repository, if this is true you will need to obtain [write access] to the repository.  If you don't want to contribute yet or are just checking the code out, please remove the "--username " argument from all git commands below.
+
+
+= Details =
+The following is meant as only a quick introduction to using git with our svn repository; it will be highly beneficial if you have at least some experience with using git before you continue.
+== Installing git ==
+The following instructions are for Ubuntu only; see the git website for help installing git from source.
+
+{{{
+sudo apt-get install git git-core git-gui gitk
+}}}
+
+== Cloning repository ==
+Start by creating and moving into a new directory, within which we will checkout the eurocarb code.
+{{{
+mkdir eurocarbdb
+cd eurocarbdb
+}}}
+Now initialise the repository with the "git-svn" init command.  The first argument specifies your commit access username, you will be prompted for your password, [http://code.google.com/hosting/settings found here], when you hit enter - leave out this argument for read only access.  Next we specify the URL for the eurocarb svn repository.  Finally we use the "-T,-b,-t" arguments to inform git of the directories within our repository which contains the; trunk, branches and tag objects.
+{{{
+git svn init --username userName@domainName.com https://eurocarb.googlecode.com/svn/ -T trunk -b branches -t tags
+}}}
+You haven't actually checked any code out yet, to do this you use the "git" command "fetch".  Without any arguments "fetch" will retrieve the whole repository including the complete repository history, turning each SVN commit into a git commit; even with a small repository like ours this will take about an hour.  Once git has retrieved the complete history it will checkout the latest revision from the local ".git" directory and layout the files in the state represented by this revision.
+{{{
+git svn fetch
+}}}
+To avoid retrieving the whole repository history you can use the "-r" argument to specify the revision that you would like to start with.  All revision history from revisions before the revision you selected will not be visible within your local clone of the repository; which is fine as long as you don't need to read the revision messages.
+{{{
+git svn fetch -r 1793
+}}}
+Before we go any further it is necessary to introduce the way that git deals with svn branches; in particular I have picked a revision in the above command which will fail to layout any code within your working directory.
+== Branches ==
+Git-svn treats the branches within the SVN repository as "remote branches" which you can switch between as explained below.  If you have tried to execute the above "fetch" command with revision "1793" you should have recieved the following error.
+{{{
+r1793 = f9fe8778f922b50e7f382fe1bf78cdbddd834f5e (refs/remotes/david_damerell_git_staging_area)
+fatal: refs/remotes/trunk: not a valid SHA1
+}}}
+Understanding this cryptic error message is essential to understanding the way git relates svn revisions and branches together.  "git-svn fetch" has tried to checkout the "trunk" branch of the svn repository, however revision 1793 only exists within the branch "david_damerell_git_staging_area".  This error message isn't terminal however, you can checkout the "david_damerell_git_staging_area" branch with the following command.
+{{{
+git checkout -t -b master remotes/david_damerell_git_staging_area
+}}}
+The "checkout" command finds the associated snapshot of the eurocarb project associated with the requested commit/branch and expands this snapshot into your working directory.  The "-t" argument is used to tell git that we wish to track the remote branch; which as you will see latter on makes it easier to push and pull from the remote repository.  The "-b" argument is used to create a new local branch called "master".
+
+To get a list of the available local branches you use the "git" "branch" command with no arguments.
+{{{
+git branch
+}}}
+Adding the "-r" argument will show you the remote tracking branches, if you checked out revision "1793" you will only have one remote tracking branch.  If you cloned the whole repository you might see a longer list of branches, such as that shown below.
+{{{
+2009_05_21__refactor_build_process
+2009_06_30__eurocarbdb_test
+2009_07_06__eurocarbdb_rc1
+2009_09_07__nmr_ccpn_2_0
+damerell_test
+damerell_test@1766
+david_damerell_git_staging_area
+trunk
+}}}
+
+To checkout an existing local branch you simply add the "branch name" to the end of the "git checkout" command.
+{{{
+git checkout myBranch
+}}}
+If you have made changes to a file which is already committed to the repository, but haven't committed the changes yet, git will refuse to checkout the requested branch; below I have attempted to checkout the trunk branch when I have already edited the "README.txt" file.
+{{{
+error: You have local changes to 'trunk/README.txt'; cannot switch branches.
+}}}
+To get around this issue either commit the changes to the current branch (explained below) or alternatively you can use the "git stash" command.  Git stash squirrels away the changes until you are ready to commit them; see the [http://www.kernel.org/pub/software/scm/git-core/docs/git-stash.html manual page] for more details.
+
+The command to checkout a remote branch has already been given above; but here is the command again. 
+{{{
+git checkout -t -b trunk_git remotes/trunk
+}}}
+This time we are trying to create a new local branch called "trunk_git" which is going to track the changes within the remote branch "track".
+
+= Pulling in new commits from upstream =
+The git "fetch" command is used to retrieve new revisions from the upstream svn server and layout these changes within your working copy of the eurocarb code.  It was previously stated that by tracking a remote branch this makes it easier to push and pull to and from a remote repository; without tracking a branch we would have to add the location of the remote branch to the "git fetch" command.
+{{{
+git fetch
+git fetch remotes/trunk
+}}}
+Fetch actually performs two operations, the first updates your local repository so that it is aware of the changes upstream, the second then merges these changes with your checked out copy of eurocarb.  You can run these two processes separately with the "git pull" and "git merge" commands.
+{{{
+git pull [remotes/trunk]
+git merge
+}}}
+= Commiting changes to your local repository =
+Commiting changes to a git repository is a two step process; which involves staging the changes you would like to commit before actually committing the changes to your local repository.  You first stage your changes to the special staging area; you can decide to add all changes within a file or just particular hunks or lines, you can also remove changes that you have added to the staging area.  The "git add" command is used to add changes to the staging area.
+{{{
+git add README.txt
+}}}
+This command would stage all changes within the README.txt file to the staging area.
+To commit a change you use the "git commit" command, this command will launch your default text editor and ask you to type a commit message.
+{{{
+git commit
+}}}
+
+If you find yourself dealing with complicated patches, you might want to checkout the "git-gui" program which provides a nice interface which allows you to select specific files/hunks or lines to check into the staging area.
+= Pushing commits to a remote SVN branch =
+When you are ready to push your commits to the remote svn branch you run the command, "git-svn dcommit", each individual commit you have made will appear as a new revision within the svn repository on the branch you are tracking.  This command forces your local repository into the same state as the remote svn repository, so as before if you have local uncommitted changes you will need to either, commit or stash, the changes before running this command.
+
+= Creating new branches =
+To create a new branch first make sure that you have checked out the existing branch that you would like to fork development from.
+{{{
+git checkout trunk_git
+}}}
+In this case we have checked out the local branch "trunk_git".  Now you can create a new branch using the "git branch" command.
+{{{
+git branch trunk_git_new_system
+}}}
+This command only creates a new branch which points to the same commit as the currently checked out branch (HEAD); to checkout this branch you have to use the git "checkout" command.
+{{{
+git checkout trunk_git_new_system
+}}}
+
+If you would like to create a new remote branch in the svn repository you have to use the "git-svn branch" command.
+{{{
+git svn branch "myNewUpstreamBranch"
+}}}
+Remember that an svn branch is not as lightweight as a git one; so keep the number of branches within the upstream server to a minimum.
+
+= Merging branches =
+This section will be updated as we come across issues merging branches; below are just a few points that you should be aware of.  SVN doesn't deal with merges between more than two branches in the same way that git's normal three point (last common ancestor of the two branches you are going to merge, plus the two branches you are going to merge) merge routine can.  SVN can only track a merge involving two branches; if you do a merge within git when you push the changes to the svn repository all of the new commits will appear as one revision.  See the pro-git book linked to below as well as the "git-rebase" command which provides an alternative method of merging branches (which replays commits onto the last common ancestor of two branches, maintaining the history).
+
+See the "git-rebase" command as an alternative to the "git-merge" command.
+
+= Removing a previous commit =
+At some point you will commit something to your local branch that you latter wish you hadn't.  Fortunately you can use the git-rebase command in interactive mode to rewrite your commit history.  This process works no matter how far back in your commit history the erroneous commit is.
+
+For example if you have made two commits since the erroneous one you could use the following command.
+{{{
+git rebase -i HEAD~3
+}}}
+Your text editor will be opened with a file which contains each of the three commits, one-per line, starting with the oldest.  To remove a commit you simply have to remove the corresponding line of text.
+
+= Further reading =
+[http://github.com/progit/progit ProGit]
+
+The author of this book as kindly made the source available at [http://github.com/progit/progit GitHub].  If you prefer you can buy a printed copy from Amazon.  Follow the instructions below to fetch the source and create a PDF of the book.
+{{{
+git clone git://github.com/progit/progit.git
+cd progit/latex
+./makepdf en
+}}}
+If a translation exists within the root of the progit directory you can substitute en for the correct language code.
+
+[http://www.kernel.org/pub/software/scm/git/docs/git-svn.html git-svn manual]

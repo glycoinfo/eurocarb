@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition
+END
+label.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/label.html
+END
+unit.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/unit.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/serial.html
+END
+possibleValues.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/possibleValues.html
+END
+minValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/minValue.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/name.html
+END
+defaultValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/defaultValue.html
+END
+paramType.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/paramType.html
+END
+maxValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/maxValue.html
+END
+parameters.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/parameters.html
+END
+displayUnit.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/displayUnit.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/index.html
+END
+crystallizationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/crystallizationStore.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Crystallization/ParameterDefinition/parent.html
+END

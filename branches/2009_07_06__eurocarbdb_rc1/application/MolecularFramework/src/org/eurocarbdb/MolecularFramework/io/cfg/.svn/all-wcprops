@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/cfg
+END
+CFGSubTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/cfg/CFGSubTree.java
+END
+CFGUnderdeterminedTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/cfg/CFGUnderdeterminedTree.java
+END
+SugarImporterCFG.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/cfg/SugarImporterCFG.java
+END

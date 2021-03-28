@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/action/admin
+END
+CreateDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/action/admin/CreateDatabase.java
+END
+AbstractDownloadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/action/admin/AbstractDownloadAction.java
+END
+TestException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/action/admin/TestException.java
+END
+LoadTaxonomy.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/action/admin/LoadTaxonomy.java
+END
+ImportGlycomeDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/action/admin/ImportGlycomeDB.java
+END
+UpdateTaxonomy.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/action/admin/UpdateTaxonomy.java
+END
+DownloadNCBI.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/action/admin/DownloadNCBI.java
+END
+SendBugReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/action/admin/SendBugReport.java
+END
+DownloadMesh.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/action/admin/DownloadMesh.java
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util
+END
+Structure.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/Structure.py
+END
+Spectrum.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/Spectrum.py
+END
+Molecule.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/Molecule.py
+END
+Assignment.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/Assignment.py
+END
+Software.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/Software.py
+END
+Validation.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/Validation.py
+END
+_licenseInfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/_licenseInfo.py
+END
+ShapeUtil.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/ShapeUtil.py
+END
+LabeledMolecule.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/LabeledMolecule.py
+END
+NmrCalc.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/NmrCalc.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/__init__.py
+END
+NmrExpPrototype.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/util/NmrExpPrototype.py
+END

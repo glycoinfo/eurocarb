@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.MolSystem">
+  <class
+    name="MolSystemLinkEnd"
+    table="MOLS_MOLSYSTEMLINKEND"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">LinkEnd, equivalent to ChemComp.LinkEnd. Part of the description of MolSystem level additional links. Note that the MolSeqLinkEnds defined in the Molecule corresponding to this Chain are also valid for the Chain, so that both need to be considered when describing the topology of the MolSystem</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.molecule.MolSystem.MolSystem"
+    not-null="true"
+    unique="false"
+    foreign-key="MOLS_MOLSYSTLINKEND_MOLSYSTEM_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_linkCode"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Link Code identifying Link End for Residue. Part of Key for the derived link 'linkEnd'. </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LINKCODE" sql-type="VARCHAR(32)" length="32" not-null="true" unique-key="molSystemLinkEndUniqueKey" />
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="MOLS_MOLSYSTLINKEND2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbMolSystemLink"
+    column="MOLSYSTEMLINKID"
+    class="ccp.api.molecule.MolSystem.MolSystemLink" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="MOLS_MOLSYSTLINKEND_MOLSYSTLINK_FK" 
+  >
+    <meta attribute="field-description">Link made up from the two LinkEnds.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbResidue"
+    column="RESIDUEID"
+    class="ccp.api.molecule.MolSystem.Residue" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="MOLS_MOLSYSTLINKEND_RESIDUE_FK" 
+    unique-key="molSystemLinkEndUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+
+  </class>
+
+</hibernate-mapping>

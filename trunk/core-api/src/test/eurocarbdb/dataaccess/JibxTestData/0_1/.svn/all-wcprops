@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1/trunk/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1
+END
+ReadDisease.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1/trunk/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadDisease.test.xml
+END
+WriteReference.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1/trunk/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/WriteReference.test.xml
+END
+ReadGlycoprotein.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1/trunk/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadGlycoprotein.test.xml
+END
+ReadReference.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1/trunk/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadReference.test.xml
+END
+ReadTaxonomy.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1/trunk/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadTaxonomy.test.xml
+END
+WriteBiologicalContext.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1/trunk/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/WriteBiologicalContext.test.xml
+END
+ReadBiologicalContext.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1/trunk/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadBiologicalContext.test.xml
+END
+ReadTissueTaxonomy.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1/trunk/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/ReadTissueTaxonomy.test.xml
+END
+WriteDisease.test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1/trunk/core-api/src/test/eurocarbdb/dataaccess/JibxTestData/0_1/WriteDisease.test.xml
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/CentrifugationStep
+END
+gnum.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/CentrifugationStep/gnum.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/CentrifugationStep/index.html
+END
+tempDisplayUnit.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/CentrifugationStep/tempDisplayUnit.html
+END
+distFromAxis.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/CentrifugationStep/distFromAxis.html
+END
+centrifugeModel.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/CentrifugationStep/centrifugeModel.html
+END
+temperature.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/CentrifugationStep/temperature.html
+END
+centrifugationSpeed.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/lims/Protocol/CentrifugationStep/centrifugationSpeed.html
+END

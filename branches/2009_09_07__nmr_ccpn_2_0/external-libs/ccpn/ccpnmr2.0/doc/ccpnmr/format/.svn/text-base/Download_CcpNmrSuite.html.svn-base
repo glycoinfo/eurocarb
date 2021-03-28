@@ -1,0 +1,253 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-Download:CcpNmr Suite</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #C0C0FF;
+                background-color: #E0E0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr FormatConverter Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_FormatConverterinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoFormatConverter.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MenuOverview.html">Main menu</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>F.A.Q.</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="QuickStart.html">Quick start</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Tutorial.html">Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Examples.html">Examples</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AcqProcParsEditAzara.html">FormatConverter</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MeasurementSelect.html">FormatConverter selections</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Other</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Concepts_Resonance.html">Concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Glossary.html">Glossary</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Download:CcpNmr Suite</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+       There are three independent releases, in general you only need to download one
+       of them. The third party code is packaged separately in case you do not need
+       it.&nbsp; Unpack all the tar files you download in one directory.  There is a README
+       and INSTALL instructions in the ccpnmr directory which is thus created. 
+      </P>
+      <H2 ALIGN=CENTER>
+        <TABLE>
+         <TR>
+            <TD class="pageHead">
+              <P>
+              <B>CcpNmr Analysis <BR></B>(includes API and FormatConverter) <BR>
+              <A HREF="http://www.ccpn.ac.uk/downloads/temporary_license/temporary_license.html"><I>CCPN (temporary testing) license</I></A>
+              </P>
+            </TD>
+            <TD class="pageBody">
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/analysis1.0.b19.tar.gz">analysis1.0.b19.tar.gz</A>
+              (unpacks into ccpnmr/ccpnmr1.0)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/python2.2.tar.gz">python2.2.tar.gz</A>
+              (unpacks into ccpnmr/python2.2)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/tcltk8.3.tar.gz">tcltk8.3.tar.gz</A>
+              (unpacks into ccpnmr/tcl8.3 and tk8.3)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/mesa6.0.tar.gz">mesa6.0.tar.gz</A>
+              ( unpacks into ccpnmr/mesa6.0)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/analysisTutorial.tar.gz">analysisTutorial.tar.gz</A>
+              (unpacks into analysisTutorial)<BR>
+              (contains two 3D data sets and is around 65Mb in size)
+            </TD>
+          </TR>
+          <TR>
+            <TD class="pageHead">
+              <P>
+              <B>CcpNmr FormatConverter <BR></B>(includes API)<BR><A HREF="http://www.gnu.org/copyleft/lesser.html"><I>LGPL license</I></A>
+              </P>
+             </TD>
+            <TD class="pageBody">
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/format1.0.b21.tar.gz">format1.0.b21.tar.gz</A>
+              (unpacks into ccpnmr/ccpnmr1.0)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/python2.2.tar.gz">python2.2.tar.gz</A>
+              (unpacks into ccpnmr/python2.2)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/tcltk8.3.tar.gz">tcltk8.3.tar.gz</A>
+              (unpacks into ccpnmr/tcl8.3 and tk8.3)
+            </TD>
+          </TR>
+          <TR>
+            <TD class="pageHead">
+              <P>
+              <B>CCPN Data Model </B><BR>(API only)<BR>
+              <A HREF="http://www.gnu.org/copyleft/lesser.html"><I>LGPL license</I></A>
+             </P>
+             </TD>
+            <TD class="pageBody">
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/api1.0.b15.tar.gz">api1.0.b15.tar.gz</A> (unpacks into ccpnmr/ccpnmr1.0)<BR>
+              <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/python2.2.tar.gz">python2.2.tar.gz</A> (unpacks into ccpnmr/python2.2)
+            </TD>
+          </TR>
+         </TABLE>
+      </H2>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/memops/AccessControl
+END
+UserGroup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/memops/AccessControl/UserGroup.hbm.xml
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/memops/AccessControl/User.hbm.xml
+END
+AccessControlStore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/memops/AccessControl/AccessControlStore.hbm.xml
+END
+AccessObject.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/memops/AccessControl/AccessObject.hbm.xml
+END
+Permission.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/memops/AccessControl/Permission.hbm.xml
+END

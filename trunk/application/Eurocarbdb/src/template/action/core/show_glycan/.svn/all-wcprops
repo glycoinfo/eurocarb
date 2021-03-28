@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1987/trunk/application/Eurocarbdb/src/template/action/core/show_glycan
+END
+short_summary.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1580/trunk/application/Eurocarbdb/src/template/action/core/show_glycan/short_summary.ftl
+END
+context_summary.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1870/trunk/application/Eurocarbdb/src/template/action/core/show_glycan/context_summary.ftl
+END
+short_context_contribute.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1870/trunk/application/Eurocarbdb/src/template/action/core/show_glycan/short_context_contribute.ftl
+END
+short_context.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1870/trunk/application/Eurocarbdb/src/template/action/core/show_glycan/short_context.ftl
+END
+success.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/675/trunk/application/Eurocarbdb/src/template/action/core/show_glycan/success.xml.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1987/trunk/application/Eurocarbdb/src/template/action/core/show_glycan/success.ftl
+END

@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject
+END
+isModified.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/isModified.html
+END
+packageLocator.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/packageLocator.html
+END
+getPackageLocator.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/getPackageLocator.html
+END
+load.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/load.html
+END
+removeFrom.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/removeFrom.html
+END
+touch.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/touch.html
+END
+activeRepositories.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/activeRepositories.html
+END
+lastUnlockedBy.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/lastUnlockedBy.html
+END
+restore.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/restore.html
+END
+isLoaded.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/isLoaded.html
+END
+isModifiable.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/isModifiable.html
+END
+guid.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/guid.html
+END
+save.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/save.html
+END
+saveTo.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/saveTo.html
+END
+createdBy.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/createdBy.html
+END
+loadFrom.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/loadFrom.html
+END
+setIsModifiable.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/setIsModifiable.html
+END
+memopsRoot.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/memopsRoot.html
+END
+isReading.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/isReading.html
+END
+backup.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/backup.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/TopObject/index.html
+END

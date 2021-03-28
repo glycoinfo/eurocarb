@@ -1,0 +1,398 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis (1):EditAssignmentPopup</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis (1):EditAssignmentPopup</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>Analysis (1)</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisPopup.html">AnalysisPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BackupProjectPopup.html">BackupProjectPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseAtomsPopup.html">BrowseAtomsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseConstraintSetsPopup.html">BrowseConstraintSetsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseConstraintsPopup.html">BrowseConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseReferenceShiftsPopup.html">BrowseReferenceShiftsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseResonancesPopup.html">BrowseResonancesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseStrucGenPopup.html">BrowseStrucGenPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseViolationsPopup.html">BrowseViolationsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcAmbigDistConstraintsPopup.html">CalcAmbigDistConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcDistConstraintsPopup.html">CalcDistConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcHeteroNoePopup.html">CalcHeteroNoePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcRatesPopup.html">CalcRatesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ChangeAxisMappingPopup.html">ChangeAxisMappingPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisPopup.html">CreateAxisPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisTypePopup.html">CreateAxisTypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisUnitPopup.html">CreateAxisUnitPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreatePanelTypePopup.html">CreatePanelTypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SpinSystemTypingPopup.html">SpinSystemTypingPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SpinSystemTypeScoresPopup.html">SpinSystemTypeScoresPopup</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="EditAssignmentPopup.html">EditAssignmentPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditAxisPanelPopup.html">EditAxisPanelPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditColorSchemesPopup.html">EditColorSchemesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditColorsPopup.html">EditColorsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditContourLevelsPopup.html">EditContourLevelsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditContourFilesPopup.html">EditContourFilesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AddContourFilePopup.html">AddContourFilePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateContourFilePopup.html">CreateContourFilePopup</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+      This popup is used to specify or alter which resonances are assigned to a chosen
+      peak. One or more resonances may be connected to each dimension of the peak.
+      The peak currently represented in the popup is the one closest to the mouse
+      cursor when the popup was activated. The popup is activated either by pressing
+      the "a" key or by selecting the Assign option from the Peak sub-menu of the
+      window menu (opened with a right mouse click).
+      </P>
+      <P>
+      If the popup is opened from the main Analysis menu (Assignment::AssignmentPanel)
+      the displayed peak is the last peak for which the popup was activated (or none).
+      </P>
+      <H2>Structure: &lt;list&gt;</H2>
+      <P>
+      This menu sets which structure is used for measuring H-H distances,
+      and displaying peak connections or assignment possibilities
+      (according to the current ststus of the popup). 
+      </P>
+      <H2>- Assignment possibilities -</H2>
+      <P>
+      The rows of tables in this section correspond to the dimensions of the current
+      peak. The left hand tables display the positions and connected resonances for
+      each of these dimensions. The right hand tables display the resonances to which
+      the peak dimension could possibly be assigned. The resonances present in these
+      tables are determined by the assignment tolerances (set via <A HREF="EditSpectrumPopup.html">EditSpectrumPopup.</A>
+      and any options selected below. There is also always the possibility of using a
+      new resonance, which will be created when the peak connection is set.
+      </P>
+      <P>
+      Clicking on one of the resonance possibilities connects the resonance to the
+      peak dimension and the left hand table is updated accordingly. If a current
+      resonance is selected in the left hand table and a possibility in the right hand
+      table is clicked, the selected resonance is replaced with the new option. If
+      there is no currently selected resonance in the left hand table the resonance
+      from the right hand table will be added to the peak dimension.
+      </P>
+      <P>
+      Multiple resonances assigned to a peak dimension indicate that the peak is
+      ambiguously assigned or assigned to both/all resonances. This is common where a
+      peak is due to the resonances of two sets of atoms with unresolvable chemical
+      shifts. For example, unresolvable lysine delta hydrogens (Hd*) means the
+      connection to both Hd2 and Hd3 atoms.
+      </P>
+      <P>
+      By default the resonances in the right hand table are ordered in terms of
+      difference in chemical shift to the position of the peak dimension (delta).
+      However if a structure (preliminary or otherwise) is active within the current
+      project, hydrogen resonance possibilities may also be sorted in to order of
+      distance (of any assigned atoms) given the structure. The distance, if
+      displayed, is that between the resonance option and any resonance assigned to
+      the next hydrogen dimension. The average position is used if multiple
+      resonances are assigned to a dimension.
+      </P>
+      <H2>- Options -</H2>
+      <P>
+      These options set which resonance possibilities are displayed in the right hand
+      tables.
+      </P>
+      <H2>&lt;&gt; Peak may be aliased?</H2>
+        <P>
+        With this option set to ON the list of possible resonances (right hand table)
+        includes those that may be assignable to the peak dimension (within tolerances)
+        only if the position of the peak in this dimension were unaliased (moved an
+        integral number of spectral widths). Such resonance options are coloured
+        yellow in the right hand table.
+        </P>
+        <P>
+        If a peak dimension is then connected to one of these resonances its aliasing
+        will be appropriately set, i.e. its position will be unaliased so that the
+        position of the peak closely matches that of the assigned resonance.
+        </P>
+      <H2>&lt;&gt; Restrict to repeated spin systems?</H2>
+        <P>
+        With this option set to ON the list of possible resonances for a dimension may be restricted to those
+	that have spin systems which appear in at least two dimensions
+        </P>
+        <P>
+	Note that no restrictions will be applied to resonances that are not associated with any spin system.
+	Also, if an entire dimension has no resonance possibility with a repeated spin ststem,
+	then the dimension will not be subjected to restrictions. The idea here is that it is better to leave the
+	resonance possibilites unrestricted rather than have a dimension with no possibilites.
+        </P>
+      <H2>&lt;&gt; Bound resonances</H2>
+        <P>
+          With this option set to ON the choice of resonances available in the right hand tables is
+          restricted to show only those resonances that are assigned to an atom (or atoms) that are
+          directly bonded to another atomic assigned resonance in the list of possibities.
+        </P>
+        <P>
+          For example this option allows the user to narrow many resonance possibilities for each
+          dimension down to justs a few directly bound resonances. For example when assigning an
+          15N-HSQC-TOCSY the resonances may be limited to only connected amide proton and nitrogens.
+        </P>
+      <H2>&lt;&gt; Double tolerances</H2>
+        <P>
+          With this option set to ON the peak dimension assignment tolerances are temporarily doubled
+          for the purposes of increasing the number of resonance possibilities (within tolerances)
+          displayed for each of the peak dimensions.
+        </P>
+      <H2>[ Assign &lt;resonanceName&gt; ] / [Re-assign &lt;resonaonceName&gt;]</H2>
+        <P>
+        Assigns the currently selected resonance (from the left hand tables) to a
+        specified set of atoms. If the resonance already carries atom assignment this
+        will be replaced by the new selection. This option opens <A HREF="BrowseAtomsPopup.html">BrowseAtomsPopup</A>
+        select the atoms to which the resonance will be assigned.
+        </P>
+        <P>
+        Before an atom set is chosen this button becomes [ Cancel assign ] and may be
+        used to exit form the assignment process.
+        </P>
+      <H2>[ Set atom type ]</H2>
+        <P>
+        Sets the atom type (and only this) of the currently selected peak-connected
+        resonance (left hand table). This option opens <A HREF="BrowseAtomsPopup.html">BrowseAtomsPopup</A>
+        to select the
+        atom type for the resonance. Here the atom type may be selected by selecting
+        any atom from any molecular chain of the desired type.
+        </P>
+      <H2>[ Deassign &lt;resonanceName&gt; ]</H2>
+        <P>
+        This allows a selected resonance (from a peak dimension) to be cleared of any atomic or spin
+        system assignments. If the user confirms to clear atomic assignments the user will then be
+        prompted to clear the spin system assignments. In this way a resonance can be disconnected form
+        an atom but left in a given residue of spin system. 
+        </P>
+      <H2>[ Clear contrib ]</H2>
+        <P>
+        Removes the currently selected resonance (in the left hand tables) from its
+        peak dimension. The assignment of the resonance to any atoms remains.
+        </P>
+      <H2>[ Show On Structure ]</H2>
+        <P>
+        Highlights any atoms assigned to the current peak on the currently selected structure.
+        If the peak has hydrogen atom assignments in two dimensions then this will be shown as a connection on
+        the structure. If there is one hydrogen dimension fully assigned 
+        then all of the atomic assignment possibilites for any unassigned hydrogen dimension will be displyed as
+        connections. Such connections will be coloured according to distance: &lt;5.5 A; green, 5.5-8.0 A;  yellow,
+        &gt;8.0 A; red. 
+        </P>
+      <H2>[ Merge &lt;dimension&gt; Resonances ]</H2>
+        <P>
+        This option will merge all of the resonances assigned to the peak dimension of the currently
+        selected resonance into one single resonance.
+        </P>
+        Any resonances that the user does not wish to merge may be removed from the peak dimension using
+        the [ Clear Contrib ] option, and then re-assigned after the merge.
+        </P>
+      <H2>[ Show All Peaks ]</H2>
+        <P>
+        This option uses <A HREF="SelectedPeaksPopup.html">SelectedPeaksPopup</A> to display a list of
+        peaks within the current project that are assigned to any of the resonances assigned to the
+        peak curretnl;y considered within the EditAssignmentPopup.
+        </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

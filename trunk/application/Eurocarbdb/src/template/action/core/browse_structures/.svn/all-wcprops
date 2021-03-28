@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1984/trunk/application/Eurocarbdb/src/template/action/core/browse_structures
+END
+common-success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/core/browse_structures/common-success.ftl
+END
+browse.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1984/trunk/application/Eurocarbdb/src/template/action/core/browse_structures/browse.ftl
+END
+get_glycan_sequence_ids.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1161/trunk/application/Eurocarbdb/src/template/action/core/browse_structures/get_glycan_sequence_ids.xml.ftl
+END
+success.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1162/trunk/application/Eurocarbdb/src/template/action/core/browse_structures/success.xml.ftl
+END
+distributed-success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/core/browse_structures/distributed-success.ftl
+END

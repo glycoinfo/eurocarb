@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="T1"
+    extends="ccp.api.nmr.Nmr.AbstractMeasurement"
+    table="NMR_T1"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">T1 measurement</meta>
+  <key column="ABSTRACTMEASUREMENTID" foreign-key="NMR_T1_ABSTMEAS_FK"/>
+  
+  <many-to-one
+    name="hbParentList"
+    column="PARENTLISTID"
+    class="ccp.api.nmr.Nmr.T1List" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_T1_PARENTLIST_FK" 
+    unique-key="t1UniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbResonance"
+    column="RESONANCEID"
+    class="ccp.api.nmr.Nmr.Resonance" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_T1_RESONANCE_FK" 
+    unique-key="t1UniqueKey" 
+  >
+    <meta attribute="field-description">Resonance that holds T1 measurements</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

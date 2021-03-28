@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/conf
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/conf/web.xml
+END
+default.site.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/conf/default.site.properties
+END
+server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/conf/server.xml
+END

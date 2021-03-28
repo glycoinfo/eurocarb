@@ -1,0 +1,48 @@
+#summary One-sentence summary of this page.
+
+Updating Eurocarb database
+
+= How to run =
+1.Download Eurocarb project and follow the instruction below.
+
+http://code.google.com/p/eurocarb/wiki/StableBuild
+
+2.Go to GlycomeDB folder and edit build.xml to current user setting.
+  Initial setting is below for an example. 
+
+  //currentDir is where GlycomeDB folder is located.
+  <property name="currentDir" location="/home/kitaemyoung/workspace/GlycomeDB"/>
+  //bin is where GlycomeDB/bin is located.
+  <property name="bin" location="/home/kitaemyoung/workspace/GlycomeDB/bin"/>
+  //external-lib is where eurocarb/exterbal-lib/java is located.
+  <property name="external-lib" location="/home/kitaemyoung/eurocarb/external-libs/java"/>
+  //eurocarb-lib is where eurocarb/lib is located.
+  <property name="eurocarb-lib" location="/home/kitaemyoung/eurocarb/lib"/>
+
+3.Need to change property.ini file.
+   //user name for database
+   
+   DBuser=GlycomeDBBot
+
+   //user full name for database
+   
+   DBuserFullName=Automatic script to fill database with crossreferences
+   
+   //user Email address
+   
+   DBuserEmailAddress=123@gmail.com
+   
+   //URL for downloading xml file
+   
+   DBurl=http://www.glycome-db.org/http-services/getStructureDump.action?user=eurocarbdb
+   
+   //current folder where GlycomeDB is located
+   
+   CurrentFolder=/home/kitaemyoung/workspace/GlycomeDB/
+   
+   //xml file name for DBurl
+   
+   outXMLFilename=glycomedb.xml
+ 
+
+4.Type "ant run"

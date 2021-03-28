@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/LabeledMolecule
+END
+Lmol_MolLabelFraction.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/LabeledMolecule/Lmol_MolLabelFraction.h
+END
+Lmol_LabeledMolecule.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/LabeledMolecule/Lmol_LabeledMolecule.h
+END
+Lmol_ResLabelFraction.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/LabeledMolecule/Lmol_ResLabelFraction.h
+END
+Lmol_AtomLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/LabeledMolecule/Lmol_AtomLabel.h
+END
+Lmol_UniformAtomLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/LabeledMolecule/Lmol_UniformAtomLabel.h
+END
+Lmol_SingleAtomLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/LabeledMolecule/Lmol_SingleAtomLabel.h
+END
+Lmol_LabeledMixture.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/LabeledMolecule/Lmol_LabeledMixture.h
+END
+Lmol_MolLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/LabeledMolecule/Lmol_MolLabel.h
+END
+Lmol_ResLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/molecule/LabeledMolecule/Lmol_ResLabel.h
+END

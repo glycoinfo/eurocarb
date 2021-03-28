@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint
+END
+ConditionState.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/ConditionState.hbm.xml
+END
+JCouplingConstraintList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/JCouplingConstraintList.hbm.xml
+END
+HBondConstraintList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/HBondConstraintList.hbm.xml
+END
+FixedResonance.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/FixedResonance.hbm.xml
+END
+HBondConstraint.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/HBondConstraint.hbm.xml
+END
+JCouplingConstraint.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/JCouplingConstraint.hbm.xml
+END
+ViolationList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/ViolationList.hbm.xml
+END
+ConstraintGroup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/ConstraintGroup.hbm.xml
+END
+Violation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/Violation.hbm.xml
+END
+PairwiseConstraintItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/PairwiseConstraintItem.hbm.xml
+END
+RdcConstraintList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/RdcConstraintList.hbm.xml
+END
+ChemShiftConstraintList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/ChemShiftConstraintList.hbm.xml
+END
+RdcConstraint.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/RdcConstraint.hbm.xml
+END
+DihedralConstraintList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/DihedralConstraintList.hbm.xml
+END
+HBondConstraintItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/HBondConstraintItem.hbm.xml
+END
+JCouplingConstraintItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/JCouplingConstraintItem.hbm.xml
+END
+ChemShiftConstraint.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/ChemShiftConstraint.hbm.xml
+END
+ResCoord.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/ResCoord.hbm.xml
+END
+DihedralConstraint.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/DihedralConstraint.hbm.xml
+END
+SingleConstraint.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/SingleConstraint.hbm.xml
+END
+DistanceConstraintList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/DistanceConstraintList.hbm.xml
+END
+FixedAtomSet.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/FixedAtomSet.hbm.xml
+END
+RdcConstraintItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/RdcConstraintItem.hbm.xml
+END
+DistanceConstraint.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/DistanceConstraint.hbm.xml
+END
+DihedralConstraintItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/DihedralConstraintItem.hbm.xml
+END
+ChainStateLink.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/ChainStateLink.hbm.xml
+END
+AbstractConstraintList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/AbstractConstraintList.hbm.xml
+END
+ConstraintPeakContrib.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/ConstraintPeakContrib.hbm.xml
+END
+CsaConstraintList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/CsaConstraintList.hbm.xml
+END
+AbstractConstraint.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/AbstractConstraint.hbm.xml
+END
+FixedResonanceSet.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/FixedResonanceSet.hbm.xml
+END
+ResStructure.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/ResStructure.hbm.xml
+END
+CsaConstraint.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/CsaConstraint.hbm.xml
+END
+DistanceConstraintItem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/DistanceConstraintItem.hbm.xml
+END
+NmrConstraintStore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrConstraint/NmrConstraintStore.hbm.xml
+END

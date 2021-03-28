@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis
+END
+AxisPanel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AxisPanel.xml
+END
+SpectrumWindowView.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/SpectrumWindowView.xml
+END
+SymbolStyle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/SymbolStyle.xml
+END
+SpectrumWindow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/SpectrumWindow.xml
+END
+Mark.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/Mark.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/package.xml
+END
+SpectrumWindowPane.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/SpectrumWindowPane.xml
+END
+PeakDrawMethod.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/PeakDrawMethod.xml
+END
+AxisUnit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AxisUnit.xml
+END
+SidePanel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/SidePanel.xml
+END
+AutoLevelMode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AutoLevelMode.xml
+END
+AnalysisSpectrum.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AnalysisSpectrum.xml
+END
+AxisType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AxisType.xml
+END
+SpectrumWindowGroup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/SpectrumWindowGroup.xml
+END
+AnalysisDataDim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AnalysisDataDim.xml
+END
+AxisRegion.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AxisRegion.xml
+END
+AnalysisProject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AnalysisProject.xml
+END
+ResidueMapping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/ResidueMapping.xml
+END
+AbstractMark.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AbstractMark.xml
+END
+SlicePanel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/SlicePanel.xml
+END
+MarkDim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/MarkDim.xml
+END
+AxisXyLabel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AxisXyLabel.xml
+END
+AxisRegionGroup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AxisRegionGroup.xml
+END
+AtomSetMapping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AtomSetMapping.xml
+END
+Ruler.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/Ruler.xml
+END
+PopupOption.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/PopupOption.xml
+END
+MappingType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/MappingType.xml
+END
+ChainMapping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/ChainMapping.xml
+END
+GraphicsHandlerType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/GraphicsHandlerType.xml
+END
+PanelType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/PanelType.xml
+END
+WindowPeakList.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/WindowPeakList.xml
+END
+AxisLabel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AxisLabel.xml
+END
+SpectrumFileType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/SpectrumFileType.xml
+END
+AnalysisPopup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AnalysisPopup.xml
+END
+StoredContour.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/StoredContour.xml
+END
+PeakFindVolumeMethod.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/PeakFindVolumeMethod.xml
+END
+AnalysisPeakList.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AnalysisPeakList.xml
+END
+AxisMapping.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccpnmr/xml/Analysis/AxisMapping.xml
+END

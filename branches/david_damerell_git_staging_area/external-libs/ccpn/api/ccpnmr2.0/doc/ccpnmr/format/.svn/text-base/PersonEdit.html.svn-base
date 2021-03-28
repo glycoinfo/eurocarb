@@ -1,0 +1,254 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-FormatConverter:PersonEdit</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #C0C0FF;
+                background-color: #E0E0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr FormatConverter Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_FormatConverterinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoFormatConverter.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MenuOverview.html">Main menu</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>F.A.Q.</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="QuickStart.html">Quick start</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Tutorial.html">Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Examples.html">Examples</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AcqProcParsEditAzara.html">FormatConverter</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MeasurementSelect.html">FormatConverter selections</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Other</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Concepts_Resonance.html">Concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Glossary.html">Glossary</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>FormatConverter:PersonEdit</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>FormatConverter</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AcqProcParsEditAzara.html">AcqProcParsEditAzara</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AcqProcParsEditFidPars.html">AcqProcParsEditFidPars</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AcqProcParsEditMain.html">AcqProcParsEditMain</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AcqProcParsEditNmrPipe.html">AcqProcParsEditNmrPipe</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AcqProcParsEditRefPars.html">AcqProcParsEditRefPars</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AtomSelect.html">AtomSelect</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ChainExport.html">ChainExport</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ChainLink.html">ChainLink</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ChemCompAtomBondInfo.html">ChemCompAtomBondInfo</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ChemCompInfo.html">ChemCompInfo</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ChemCompSelection.html">ChemCompSelection</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CitationCreate.html">CitationCreate</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CitationEdit.html">CitationEdit</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CoordinateAtomSelect.html">CoordinateAtomSelect</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateShiftList.html">CreateShiftList</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="DataShifter.html">DataShifter</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="DataDimRefSelectByPeakDim.html">DataDimRefSelectByPeakDim</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EntryEdit.html">EntryEdit</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="GroupCreate.html">GroupCreate</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="GroupEdit.html">GroupEdit</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ExperimentCreate.html">ExperimentCreate</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ExperimentTypeEdit.html">ExperimentTypeEdit</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ExportFormat.html">ExportFormat</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ImportFormatComponent.html">ImportFormatComponent</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ImportFormat.html">ImportFormat</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="LinkResonances.html">LinkResonances</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="NamingSystem.html">NamingSystem</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="OrganisationCreate.html">OrganisationCreate</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="OrganisationEdit.html">OrganisationEdit</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="PeakDimSelect.html">PeakDimSelect</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="PersonCreate.html">PersonCreate</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="PersonEdit.html">PersonEdit</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="PersonInGroupCreate.html">PersonInGroupCreate</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="PersonInGroupEdit.html">PersonInGroupEdit</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ProcFile.html">ProcFile</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ProchiralStatus.html">ProchiralStatus</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ResonanceGroup.html">ResonanceGroup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SequenceChemCompSelect.html">SequenceChemCompSelect</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SequenceLink.html">SequenceLink</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SingleProchiralStatus.html">SingleProchiralStatus</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SingleResonanceStatus.html">SingleResonanceStatus</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="StudyCreate.html">StudyCreate</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="StudyEdit.html">StudyEdit</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="TextOutput.html">TextOutput</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="WindowFunctionSelect.html">WindowFunctionSelect</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="WriteBmrbChemShiftDep.html">WriteBmrbChemShiftDep</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="WriteMapping.html">WriteMapping</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>        <H2>Entering details for a Person.</H2>
+        <P ALIGN="LEFT">Enter all the information related to this Person. For the
+        middleInitials entry, you can add initials to the list, by clicking 'Add value'. To
+        delete initials, select the value and click 'Delete selected'.</P>
+        <P ALIGN="LEFT">Note that you should create a 'PersonInGroup' to enter specific details
+        about the current whereabouts of this Person. Also, 'currentGroup' should only be set
+        to a group that is connected to a 'PersonInGroup'. You can only create a new Group if
+        there are Organisations present.</P>
+        <P ALIGN="LEFT">Click 'Create new' to create a new Person, 'Delete current' to delete
+        the currently selected Person, 'Update current' to update the window values, and
+        'Close' to close this window.</P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

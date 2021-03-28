@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.RefSampleComponent">
+  <joined-subclass
+    name="RestrictionEnzyme"
+    extends="ccp.api.lims.RefSampleComponent.MolComponent"
+    table="REFS_RESTRICTIONENZYME"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">This is a subtype of MolComponent. Restriction enzymes are known to cleave nucleic acide sequences at certain positions.</meta>
+  <key column="MOLCOMPONENTID" foreign-key="REFS_RESTENZY_MOLCOMP_FK"/>
+  
+  <property
+    name="_cutOffsetCoding"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">Enzyme cut offset on coding strand.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CUTOFFSETCODING" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_cutOffsetNonCoding"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">Enzyme cut offset on non-coding strand.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CUTOFFSETNONCODING" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_recogSeqCoding"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Recognition sequence on coding strand.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="RECOGSEQCODING" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_recogSeqNonCoding"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Recognition sequence on non-coding strand.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="RECOGSEQNONCODING" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

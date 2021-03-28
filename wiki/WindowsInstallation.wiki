@@ -1,0 +1,68 @@
+#summary Detailed instructions to install onto Windows
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+==PostgreSQL==
+
+Download PostgreSQL: http://www.enterprisedb.com/products/pgdownload.do#windows
+
+ * Accept all defaults
+ * Locate pgAdmin within the start menu (found under the PostgreSQL folder)
+ * Right-click "localhost", enable "Save password"
+ * Add the Postgres bin directory to your path
+
+==TomCat==
+
+Download TomCat 5.5.x as a standalone zip: http://tomcat.apache.org/download-55.cgi
+  
+  * unzip archive to a chosen directory
+  * Right-click "MyComputer"->Select "Advanced System Settings"->Select "Advanced"->Select "Environment Variables"->New
+  * Set the "Variable name" to "TOMCAT_DIR"
+  * Set the "Variable value" to the directory that you unzipped the archive into
+
+==Perl==
+  
+Download Strawberry Perl: http://strawberryperl.com/
+
+ * Select the latest 5.x series available
+ * Open a terminal/powershell
+ * cpan DBD::PgPP
+
+==Ant==
+
+Download Apache ant: http://ant.apache.org/bindownload.cgi
+
+ * Download the zip archive
+ * Extract to a chosen directory
+ * Right-click "MyComputer"->Select "Advanced System Settings"->Select "Advanced"->Select "Environment Variables"->New
+ * Set the "Variable name" to "ANT_HOME"
+ * Set the "Variable value" to the directory that you unzipped the archive into
+
+ * Append the location of the ANT bin directory to the PATH ENV
+
+==Download a Subversion client==
+
+Recommended client: http://tortoisesvn.tigris.org/
+
+==Java SDK==
+
+Download the latest JDK 6.x release: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+ * Add the location of the bin directory to the PATH
+ * Add the JAVA_HOME ENV and set it to the directory Java is installed into
+
+==wget==
+
+Download the win32 wget: http://gnuwin32.sourceforge.net/packages/wget.htm
+
+ * Add the bin directory of wget to your PATH env
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/dialogs
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/application/GlycoWorkbench/dialogs/manifest.mf
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/application/GlycoWorkbench/dialogs/.cvsignore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1/trunk/application/GlycoWorkbench/dialogs/build.xml
+END

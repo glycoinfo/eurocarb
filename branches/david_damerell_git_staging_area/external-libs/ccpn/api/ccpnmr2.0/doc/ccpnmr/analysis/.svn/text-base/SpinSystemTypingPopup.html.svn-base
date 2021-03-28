@@ -1,0 +1,375 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis (1):SpinSystemTypingPopup</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis (1):SpinSystemTypingPopup</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>Analysis (1)</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisPopup.html">AnalysisPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BackupProjectPopup.html">BackupProjectPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseAtomsPopup.html">BrowseAtomsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseConstraintSetsPopup.html">BrowseConstraintSetsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseConstraintsPopup.html">BrowseConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseReferenceShiftsPopup.html">BrowseReferenceShiftsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseResonancesPopup.html">BrowseResonancesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseStrucGenPopup.html">BrowseStrucGenPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseViolationsPopup.html">BrowseViolationsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcAmbigDistConstraintsPopup.html">CalcAmbigDistConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcDistConstraintsPopup.html">CalcDistConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcHeteroNoePopup.html">CalcHeteroNoePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcRatesPopup.html">CalcRatesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ChangeAxisMappingPopup.html">ChangeAxisMappingPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisPopup.html">CreateAxisPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisTypePopup.html">CreateAxisTypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisUnitPopup.html">CreateAxisUnitPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreatePanelTypePopup.html">CreatePanelTypePopup</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="SpinSystemTypingPopup.html">SpinSystemTypingPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SpinSystemTypeScoresPopup.html">SpinSystemTypeScoresPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditAssignmentPopup.html">EditAssignmentPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditAxisPanelPopup.html">EditAxisPanelPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditColorSchemesPopup.html">EditColorSchemesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditColorsPopup.html">EditColorsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditContourLevelsPopup.html">EditContourLevelsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditContourFilesPopup.html">EditContourFilesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AddContourFilePopup.html">AddContourFilePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateContourFilePopup.html">CreateContourFilePopup</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+        This popup is used to predict the residue types of spin systems. There are two ways of
+        performing a prediction: One is to predict on an individual basis for a spin system and the
+        other is to predict the types of many spin systems at once bearing in mind that the
+        classification as one spin system affects the classification of another because there are a
+        limited number of residues of each type. 
+      </P>
+      <P>
+        The residue type predictions are based upon the chemical shifts of the resonances within each
+        spin system. These shifts are matched to the distribution of known chemical shifts in the BMRB
+        database to create typing scores.
+      </P>
+      <P>
+        The global spin system typin calculation used a Monte Carlo algorithm to =search for the top
+        scoring mappings of residue type to spin systems. The search considered the shifts from one
+        shift list and the residue types represented in one protein chain.
+      </P>
+      <H3>Chain: &lt;list&gt;</H3>
+        <P>
+          This option sets which protein chain the conidered spin systems correpond to. It is assumed
+          that the residues of the selected chains are the only possible matches to the considered spin
+          systems.
+        </P>
+      <H3>Shift List: &lt;list&gt;</H3>
+        <P>
+          Here the user sets which shift list (and hence conditions) is used to provide the the
+          resonances chemical shift information for the spin system type prediction. 
+        </P>
+      <H2>- Options -</H2>
+        <H3>&lt;&gt; Keep existing types?</H3>
+          <P>
+            With this option set to ON any existing assignment of spin systems to a residue type will
+            be preserved as much as possible during the prediction calculations. The spin system is not
+            guaranteed to be predicted to be its assigned type if the currect assignment strongly
+            contradicts the overall high scoring type predictions.
+          </P>
+        <H3>Assignment threshold: &lt;number_entry&gt;</H3>
+          <P>
+            The minimum score value necessary for a spin system, with a unique classification within the global
+            typing ensemble, to be assigned to the prediced type.
+          </P>
+        <H3>Ensemble size: &lt;number_entry&gt;</H3>
+          <P>
+            The number of top scoring (highest probability) global spin system to residue type mappings
+            to consider. These top scoring mappings (sequences) are used to check the consistency of
+            residue type prediction for each spin system. 
+          </P>
+        <H3>Num Search Steps: &lt;number_entry&gt;</H3>
+          <P>
+            Here the user can specify the number of steps in the Monte Carlo search used to find the
+            best mach to amino acid type to spin system chemical shifts. The default number is 100,000
+            which was tested to be sufficient for a 10 Kda protein.
+          </P>
+        <H3>Isotopes to consider: [1H][13C][15N]</H3>
+          <P>
+            These buttons allow the user to specify which isotopes the prediction
+            consider chemical shifts for.
+          </P>
+     <H2>- Spin Systems -</H2>
+        <P>
+          This table lists all of the spin systems available within the current project that may be
+          considered for residue type prediction. It displayes any currently assigned typing and the
+          results of the global residue type prediction calculation.
+        </P>
+        <H3>| Residue |</H3>
+          <P>
+            Any existing residue type or sequence assignment that a spin system may have. Such an
+            existing assignment will not have an influence on prediction if the Keep existing types?
+            option (above) is set to OFF.
+          </P>
+        <H3>| Use? |</H3>
+          <P>
+            Double cliking on this column sets whether an individual spin system is to be considered for
+            global residue type prediction.
+          </P>
+        <H3>| Score |</H3>
+          <P>
+            This is the score of the spin system to residue type match for an individual spin system 
+            according to the globally most probably mapping after a type prediction run.
+          </P>
+          <P>
+            It is this value that is compared to the Assigment threshold (set above) when determining if
+            the spin system should be assigne to its predicted type. Note that this value reflects the
+            goodness of match of type to the indiviadual spin system's chemical shifts; it does not
+            represent the global fit.
+          </P>
+        <H3>| Types |</H3>
+          <P>
+            The predicted spin system types (if any) that the spin system is predicted to be. If there
+            is only one predicted spin type after a typing run then the spin system may be assigned to
+            the predicted type using the [ Assign Types ] button (below).
+          </P>
+        <H3>| Shifts |</H3>
+          <P>
+            The chemical shifts represented by resonances in a spin system for the selected isotope
+            type.
+          </P>
+      <H3>[ Run Typing ]</H3>
+        <P>
+          This starts the global spin system type prediction calculation for the selected spin ystems
+          representing residues of the selected protein chain.
+        </P>
+        <P>
+          Once the calculation begins it's prograss is illustrated by another popup window which displays
+          the proportion of the search steps completed, the globaly best spin system to residue type
+          mappings (in the form of a sequence ensemble) and a graph of the local typing scores for each
+          residue in the best scoring mapping so far; Showing how good a macth is made between shifts and
+          an individual type.
+        </P>
+      <H3>[ Assign Types ]</H3>
+        <P>
+          Clicking this button after the global residue typing calculation has run assigns the high
+          scoring spin systems to their predicted residue type. The assignment is only made for a spin
+          system if it was considered in the last typing run, has a best match with a score below the
+          input assignment threshold and has only one predicted spin system type in the global typing
+          ensemble.
+        </P>
+      <H3>[ Show Individual Classification ]</H3>
+        <P>
+          Here the user can predict the pobability of the selected spin system having any of the
+          possible residue types, by solely considering the shifts of the individual spin system; i.e. the
+          possibilities for the other spin systems have no influence. This option opens
+          <A HREF="SpinSystemTypeScoresPopup.html">SpinSystemTypeScoresPopup</A>.
+        </P>
+      <H3>[ Show Peaks ]</H3>
+        <P>
+          The option opens <A HREF="SelectedPeaksPopup.html">SelectedPeaksPopup</A> to display all of the
+          peaks that are assigned to any of the resonances represented within the currently selected spin
+          system.
+        </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

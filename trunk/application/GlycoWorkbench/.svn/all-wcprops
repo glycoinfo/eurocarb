@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1942/trunk/application/GlycoWorkbench
+END
+update_server.pl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/update_server.pl
+END
+winInstaller.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/winInstaller.nsi
+END
+wine_make_nsis.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/wine_make_nsis.sh
+END
+todo
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/689/trunk/application/GlycoWorkbench/todo
+END
+remove_old_builds.pl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/remove_old_builds.pl
+END
+changes
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/621/trunk/application/GlycoWorkbench/changes
+END
+fix_carriage_return.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/fix_carriage_return.sh
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/README.txt
+END
+peaklist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/peaklist.xml
+END
+win64Installer.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/win64Installer.nsi
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/build.xml
+END
+winInstaller.nsi.old
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/winInstaller.nsi.old
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1882/trunk/application/GlycoWorkbench/LICENSE.txt
+END
+auto_build.pl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/auto_build.pl
+END

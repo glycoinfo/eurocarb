@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem
+END
+Mols_ChainInteraction.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Mols_ChainInteraction.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Makefile
+END
+Mols_Chain.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Mols_Chain.c
+END
+Mols_ChainFragment.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Mols_ChainFragment.c
+END
+Mols_NonCovalentBond.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Mols_NonCovalentBond.c
+END
+Mols_MolSystemLink.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Mols_MolSystemLink.c
+END
+Mols_MolSystemSysName.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Mols_MolSystemSysName.c
+END
+Mols_MolSystem.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Mols_MolSystem.c
+END
+Mols_StructureGroup.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Mols_StructureGroup.c
+END
+Mols_Atom.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Mols_Atom.c
+END
+Mols_Residue.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Mols_Residue.c
+END
+Mols_MolSystemLinkEnd.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccp/api/molecule/MolSystem/Mols_MolSystemLinkEnd.c
+END

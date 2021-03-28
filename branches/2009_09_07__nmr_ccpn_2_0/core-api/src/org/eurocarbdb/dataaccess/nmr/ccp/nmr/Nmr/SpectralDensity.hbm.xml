@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="SpectralDensity"
+    extends="ccp.api.nmr.Nmr.DerivedData"
+    table="NMR_SPECTRALDENSITY"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Spectral density for a pair of resonances at a given frequency.</meta>
+  <key column="DERIVEDDATAID" foreign-key="NMR_SPECDENS_DERIDATA_FK"/>
+  
+  <property
+    name="_frequency"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The frequency that the spectral density refers to (in MHz).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="FREQUENCY" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <many-to-one
+    name="hbDerivation"
+    column="DERIVATIONID"
+    class="ccp.api.nmr.Nmr.SpectralDensityDerivation" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_SPECDENS_DERIVATION_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbResonances" 
+    table="NMR_SPECDENS2RESONANCES"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Resonances to which spectral density is ascribed.</meta>
+    <meta attribute="base-name">hbResonance</meta>
+    <cache usage="read-write"/>
+    <key column="SPECTRALDENSITYID" foreign-key="NMR_RESONANCE_SPECDENS_FK"/>
+    <many-to-many column="RESONANCEID" class="ccp.api.nmr.Nmr.Resonance" foreign-key="NMR_SPECDENS_RESONANCES_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

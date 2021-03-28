@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process
+END
+cleanProjectAppData.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process/cleanProjectAppData.py
+END
+stereoAssignmentSwap.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process/stereoAssignmentSwap.py
+END
+writeBmrbChemShiftDeposition.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process/writeBmrbChemShiftDeposition.py
+END
+writeMappingFile.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process/writeMappingFile.py
+END
+CleanConstraints.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process/CleanConstraints.py
+END
+cleanResonanceAppData.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process/cleanResonanceAppData.py
+END
+matchResonToMolSys.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process/matchResonToMolSys.py
+END
+linkResonances.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process/linkResonances.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process/__init__.py
+END
+makeChemShiftsFromPeakLists.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process/makeChemShiftsFromPeakLists.py
+END
+makeChemShiftSelections.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/process/makeChemShiftSelections.py
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1576/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/core/show_glycan
+END
+success.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/core/show_glycan/success.xml.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1576/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/core/show_glycan/success.ftl
+END
+short_summary.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/core/show_glycan/short_summary.ftl
+END
+short_context.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/template/action/core/show_glycan/short_context.ftl
+END

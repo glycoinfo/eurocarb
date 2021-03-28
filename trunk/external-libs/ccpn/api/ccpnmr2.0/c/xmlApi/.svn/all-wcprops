@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/16/trunk/api/ccpnmr2.0/c/xmlApi
+END
+environment.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/environment.txt
+END
+environment_default.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/environment_default.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/Makefile
+END
+environment.bak
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/environment.bak
+END

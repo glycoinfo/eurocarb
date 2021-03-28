@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/visitor
+END
+GlycoVisitorCountResidue.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/visitor/GlycoVisitorCountResidue.java
+END
+GlycoVisitorReplaceName.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/visitor/GlycoVisitorReplaceName.java
+END
+GlycoVisitorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/visitor/GlycoVisitorException.java
+END
+GlycoVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/visitor/GlycoVisitor.java
+END
+GlycoVisitorCountNodeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/visitor/GlycoVisitorCountNodeType.java
+END
+GlycoVisitorCountBranchingPoints.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/visitor/GlycoVisitorCountBranchingPoints.java
+END
+GlycoVisitorCountLongestBranch.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/visitor/GlycoVisitorCountLongestBranch.java
+END
+Visitable.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/visitor/Visitable.java
+END
+GlycoVisitorCountResidueTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/visitor/GlycoVisitorCountResidueTerminal.java
+END
+GlycoVisitorNodeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/visitor/GlycoVisitorNodeType.java
+END

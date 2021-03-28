@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/glycobase
+END
+GlycobaseResidue.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/glycobase/GlycobaseResidue.java
+END
+SugarImporterGlycobase.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/glycobase/SugarImporterGlycobase.java
+END
+GlycobaseResidueComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/glycobase/GlycobaseResidueComparator.java
+END

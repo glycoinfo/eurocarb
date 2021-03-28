@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/examples/mzXMLs
+END
+maldi_tof.mzXML
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/examples/mzXMLs/maldi_tof.mzXML
+END
+maldi_toftof_2605_msms.mzXML
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/examples/mzXMLs/maldi_toftof_2605_msms.mzXML
+END
+maldi_toftof_ms.mzXML
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/examples/mzXMLs/maldi_toftof_ms.mzXML
+END
+Qtof MSMS.mzXML
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/examples/mzXMLs/Qtof%20MSMS.mzXML
+END
+Qtof MS.mzXML
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/examples/mzXMLs/Qtof%20MS.mzXML
+END

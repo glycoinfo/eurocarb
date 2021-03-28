@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/NmrSim
+END
+Nsim_RunParameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/NmrSim/Nsim_RunParameter.h
+END
+Nsim_NmrSimEnergyTerm.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/NmrSim/Nsim_NmrSimEnergyTerm.h
+END
+Nsim_EnergyTermParameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/NmrSim/Nsim_EnergyTermParameter.h
+END
+Nsim_NmrSimStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/NmrSim/Nsim_NmrSimStore.h
+END
+Nsim_Run.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/NmrSim/Nsim_Run.h
+END

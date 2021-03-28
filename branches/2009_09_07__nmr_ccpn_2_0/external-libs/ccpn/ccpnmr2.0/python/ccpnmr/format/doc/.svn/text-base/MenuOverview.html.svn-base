@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-MenuOverview</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>MenuOverview</H1>
+            <UL>
+        <LI><A HREF = 'Project.html'>Project menu</A>: To create a project, and
+			save and close the current project.
+        <LI><A HREF = 'Setup.html'>Setup menu</A>: To create NMR experiment(s)
+			in the current project.
+        <LI><A HREF = 'Process.html'>Process menu</A>: To handle data inside the
+			current project.
+        <LI><A HREF = 'Import.html'>Import menu</A>: To import data from
+			external data format file(s).
+        <LI><A HREF = 'Export.html'>Export menu</A>: To export data to external
+			data format file(s).
+        <LI><A HREF = 'Other.html'>Other menu</A>: Additional functionality.
+        <LI><A HREF = 'Help.html'>Help menu</A>: General help for the
+			FormatConverter.
+        </UL>
+
+    </TABLE>
+  </BODY>
+</HTML>

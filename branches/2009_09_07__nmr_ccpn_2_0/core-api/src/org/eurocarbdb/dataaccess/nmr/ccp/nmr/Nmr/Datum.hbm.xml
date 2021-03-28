@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="Datum"
+    extends="ccp.api.nmr.Nmr.DerivedData"
+    table="NMR_DATUM"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Measurement, possibly derived, not fitting into a predefined type</meta>
+  <key column="DERIVEDDATAID" foreign-key="NMR_DATUM_DERIDATA_FK"/>
+  
+  <many-to-one
+    name="hbDerivation"
+    column="DERIVATIONID"
+    class="ccp.api.nmr.Nmr.DataDerivation" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_DATUM_DERIVATION_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbResonances" 
+    table="NMR_RESONANCE2DATUMS"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Resonances to which measurement applies</meta>
+    <meta attribute="base-name">hbResonance</meta>
+    <cache usage="read-write"/>
+    <key column="DATUMID" foreign-key="NMR_RESONANCE_DATUMS_FK"/>
+    <many-to-many column="RESONANCEID" class="ccp.api.nmr.Nmr.Resonance" foreign-key="NMR_DATUM_RESONANCES_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

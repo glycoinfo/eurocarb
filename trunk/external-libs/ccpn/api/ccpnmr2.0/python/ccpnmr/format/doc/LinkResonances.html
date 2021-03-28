@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-LinkResonances</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>LinkResonances</H1>
+            <H2>Link resonances setup</H2>
+        <P ALIGN="LEFT">In this window you can set the parameters for running the linkResonances script. This
+        script is essential to fully assimilate the assignments from external data files into the Data Model.</P>
+        <P ALIGN="LEFT">To run this script, you will need to have created on the one hand a valid <b>molecular
+        system</b> with chains, residues and atoms (try Import->Single Files->Sequence), and on the other hand
+        <b>resonances</b>. These resonances will be created automatically when you import NMR information (e.g.
+        chemical shift lists, ...). This script will then link the existing resonances to existing atoms. To
+        run it, select your preferred settings and click '<B>Link resonances to atoms</B>' to start.</P>
+        <P ALIGN="LEFT">The following options are available:</P>
+        <P ALIGN="LEFT">'<B>File format reference</B>': The data formats of the external files you imported are
+        listed here. You can only run linkResonances on one data format at a time - rerun the script if you
+        imported from multiple data formats.</P>
+        <P ALIGN="LEFT">'<B>Try to link unrecognized atom names</B>': If selected, a popup will appear if
+        the script is not able to recognize an atom name from the external file(s). You will be prompted to
+        select the correct atom match in such cases.</P>
+        <P ALIGN="LEFT">'<B>Try IUPAC names (as backup)</B>': If selected, atom names from the external
+        file(s) that are not recognized within the selected naming system will also be matched against IUPAC
+        names.</P>
+        <P ALIGN="LEFT">'<B>Use ambiguous name information</B>': If selected, ambiguous names will be
+        translated; some atom names (e.g. HG* for THR) will be converted using their expected meaning (in this
+        case to HG1 and HG2*). Use with care as this can result in misassignments.</P>
+        <P ALIGN="LEFT">'<B>Complete stereospecific assignment</B>': If selected, all prochiral atoms are
+        assumed to be stereospecifically assigned.</P>
+        <P ALIGN="LEFT">'<B>Force shift merges</B>': If selected, ambiguous chemical shift values (two or more
+        values in one chemical shift list for the same resonance) will be merged automatically. The average of
+        all values will be used as the new value.</P>
+        <P ALIGN="LEFT">'<B>Status other atom for all single prochiral atoms</B>': This determines how to
+        handle cases where, in the external files, information was found for only one of two prochiral
+        resonances/atoms (e.g. info for the HB2 of an ASP, but nothing for the HB3). The options are:</P>
+        <UL>
+        <LI><B>Unknown</B>: Handle each case individually (a popup will appear).
+        <LI><B>Same information</B>: Always assume the other prochiral contains the same information (i.e. they
+			have the same chemical shift)
+        <LI><B>Always ignore</B>: Always assume that nothing is known about the other prochiral (i.e. you
+			cannot find it in the spectra); do not create a resonance for it.
+        </UL>
+        <P ALIGN="LEFT">'<B>Status other atom for all possibly equivalent single atoms</B>': This determines
+        how to handle cases where, in the external files, information was found for only one of two
+        resonances/atoms that are often equivalent (e.g. info for the HD2 of a PHE, but nothing for the HD1).
+        The options are:</P>
+        <UL>
+        <LI><B>Unknown</B>: Handle each case individually (a popup will appear).
+        <LI><B>Always equivalent</B>: Always assume that the atoms are equivalent (i.e. treat 'HD2' as 'HD*')
+        <LI><B>Always ignore</B>: Always assume that the single atom is not equivalent (i.e. treat 'HD1' and
+			'HD2' as separate)
+        </UL>
+        <P ALIGN="LEFT">'<B>Use minimal number of popups</B>': If selected, a minimal number of popups will
+        appear. <B>Warning:</B> this also means that the script will make as many automatic choices as
+        possible, and these might not always be to your liking!</P>
+        <P ALIGN="LEFT">'<B>Verbose output</B>': If selected, detailed information on how the linkResonance
+        script handles the data will be printed out.</P>
+
+    </TABLE>
+  </BODY>
+</HTML>

@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="DataList"
+    extends="ccp.api.nmr.Nmr.DerivedDataList"
+    table="NMR_DATALIST"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">List of measurements, derived or not. Designed to accomodate measurements that do not fit any of the predefined categories.</meta>
+  <key column="DERIVEDDATALISTID" foreign-key="NMR_DATALIST_DERIDATALIST_FK"/>
+  
+  <property
+    name="_definition"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Definition of the new measurement type.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DEFINITION" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">name of MeasurementList</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_sf"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">spectrometer frequency (in MHz) at which measurements were carried out</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SF" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_unit"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Measurement unit used.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="UNIT" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <set 
+    name="hbDerivations" 
+    table="NMR_DATADERIVATION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbDerivation</meta>
+    <cache usage="read-write"/>
+    <key column="PARENTLISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.DataDerivation"/>
+  </set>
+  
+  <set 
+    name="hbCitations" 
+    table="NMR_DATALIST2CITATIONS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Citations describing Measurements listed in MeasurementList</meta>
+    <meta attribute="base-name">hbCitation</meta>
+    <cache usage="read-write"/>
+    <key column="DATALISTID" foreign-key="CITA_CITATION_DATALISTS_FK"/>
+    <many-to-many column="CITATIONID" class="ccp.api.general.Citation.Citation" foreign-key="NMR_DATALIST_CITATIONS_FK"/>
+  </set>
+  
+  <set 
+    name="hbExperiments" 
+    table="NMR_EXPERIMENT2DATALISTS"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Experiments where measurement list is valid</meta>
+    <meta attribute="base-name">hbExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="DATALISTID" foreign-key="NMR_EXPERIMENT_DATALISTS_FK"/>
+    <many-to-many column="EXPERIMENTID" class="ccp.api.nmr.Nmr.Experiment" foreign-key="NMR_DATALIST_EXPE_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

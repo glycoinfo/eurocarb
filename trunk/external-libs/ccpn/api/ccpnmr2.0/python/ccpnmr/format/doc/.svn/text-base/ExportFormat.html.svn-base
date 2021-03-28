@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-ExportFormat</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>ExportFormat</H1>
+            <H2>Export format</H2>
+        <P ALIGN="LEFT">This window allows you to select objects in the Data Model and export them to the chosen
+        external format. Press the '<B>i</B>' button on the right hand side to get concise information about the
+        selections/buttons.</P>
+        <P ALIGN="LEFT">To export a particular file (e.g. a <I>peak list</I>), select the relevant Data Model
+        object (e.g. a <I>peakList</I>) from the '<B>Select ... to export</B>' selection list. This selection list
+        can allow either single or multi selection depending on the format and the component. Then select the file
+        to export to by pressing '<B>Select export file</B>', and press the '<B>export ...</B> button to export
+        the file.</P>
+        <P ALIGN="LEFT">You can also click on the '<B>Additional options</B>' blue arrow to obtain more
+        (non-essential) options for export. Common options are:</P>
+        <UL>
+        <LI>'<B>Use original resonance names</B>': If selected, the originally imported resonance (atom) names
+            will be exported instead of the names that were selected for this particular format. <I><B>Caution</B>:
+            if changes were made to the resonances in the Data Model this can result in errors in the output,
+            since the originally imported names are never changed (it would be impossible to know how and when).
+            Also, if the chosen format only allows a particular type of naming system the originally imported
+            names will not be used.</I>
+        <LI>'<B>Compress names in output</B>' If available and selected, the atom names will be 'compressed' in
+            the output. For constraints, this means that constraint items will be regrouped into atom sets (e.g. a
+            constraint with items HA-HB1, HA-HB2 becomes HA-HB*), for measurements this means that atoms with
+            exactly the same measurement value and with a shared atom set are grouped (e.g. if in a shift list HB2
+            and HB3 have shift 2.74, it will be written out as HB* with shift 2.74. This also works for isopropyl
+            methyl groups).
+        </UL>
+
+    </TABLE>
+  </BODY>
+</HTML>

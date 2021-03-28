@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1021/trunk/application/Eurocarbdb/src/template/action/hplc/create_hplc_createbc
+END
+check.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1021/trunk/application/Eurocarbdb/src/template/action/hplc/create_hplc_createbc/check.ftl
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1021/trunk/application/Eurocarbdb/src/template/action/hplc/create_hplc_createbc/input.ftl
+END
+select.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1021/trunk/application/Eurocarbdb/src/template/action/hplc/create_hplc_createbc/select.ftl
+END
+style.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1021/trunk/application/Eurocarbdb/src/template/action/hplc/create_hplc_createbc/style.ftl
+END
+create.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1021/trunk/application/Eurocarbdb/src/template/action/hplc/create_hplc_createbc/create.ftl
+END
+scripts.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1021/trunk/application/Eurocarbdb/src/template/action/hplc/create_hplc_createbc/scripts.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1021/trunk/application/Eurocarbdb/src/template/action/hplc/create_hplc_createbc/success.ftl
+END

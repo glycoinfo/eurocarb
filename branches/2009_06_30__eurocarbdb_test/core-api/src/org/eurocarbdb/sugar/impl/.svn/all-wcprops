@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/impl
+END
+SimpleMonosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/impl/SimpleMonosaccharide.java
+END
+ResidueDisjunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/impl/ResidueDisjunction.java
+END
+GenericResidue.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/impl/GenericResidue.java
+END
+LinkageDisjunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/impl/LinkageDisjunction.java
+END
+ComplexMonosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/core-api/src/org/eurocarbdb/sugar/impl/ComplexMonosaccharide.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui
+END
+ViewChemCompVarFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui/ViewChemCompVarFrame.py
+END
+DataLocationFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui/DataLocationFrame.py
+END
+_licenseInfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui/_licenseInfo.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui/__init__.py
+END
+ChemCompEditor.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui/ChemCompEditor.py
+END
+ViewRamachandranFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui/ViewRamachandranFrame.py
+END
+DataLocationPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui/DataLocationPopup.py
+END
+ChemCompFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui/ChemCompFrame.py
+END
+NmrExpPrototypeEditor.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui/NmrExpPrototypeEditor.py
+END
+ViewStructureFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui/ViewStructureFrame.py
+END
+Io.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/gui/Io.py
+END

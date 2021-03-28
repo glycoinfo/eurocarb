@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/examples
+END
+convertCns2Pdb.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/examples/convertCns2Pdb.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/examples/__init__.py
+END
+importSequenceFile.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/examples/importSequenceFile.py
+END
+convertNmrView2XEasy.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/examples/convertNmrView2XEasy.py
+END
+importCnsConstraints.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/examples/importCnsConstraints.py
+END

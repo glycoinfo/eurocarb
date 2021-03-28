@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch
+END
+ESMFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch/ESMFuzzy.java
+END
+ESMVisitorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch/ESMVisitorFuzzy.java
+END
+ExampleUsage.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch/ExampleUsage.java
+END
+ESMEdgeComparatorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch/ESMEdgeComparatorFuzzy.java
+END
+ESMNodeComparatorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch/ESMNodeComparatorFuzzy.java
+END

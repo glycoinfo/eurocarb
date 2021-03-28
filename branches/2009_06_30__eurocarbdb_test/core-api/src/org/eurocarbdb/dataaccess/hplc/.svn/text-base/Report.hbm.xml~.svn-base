@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 26-Jan-2009 11:00:16 by Hibernate Tools 3.2.0.b9 -->
+<hibernate-mapping>
+    <class name="org.eurocarbdb.dataaccess.hplc.Report" table="report" schema="hplc">
+        <id name="referenceReportId" type="int">
+            <column name="reference_report_id" />
+            <generator class="assigned" />
+        </id>
+        <property name="lead" type="string">
+            <column name="lead" length="100" not-null="true">
+                <comment>person who did the experimental work</comment>
+            </column>
+        </property>
+        <property name="reviewedBy" type="string">
+            <column name="reviewed_by" length="100" not-null="true">
+                <comment>person who reviewed the data</comment>
+            </column>
+        </property>
+        <property name="company" type="string">
+            <column name="company" length="250" not-null="true" />
+        </property>
+        <property name="title" type="string">
+            <column name="title" length="500" not-null="true" />
+        </property>
+        <property name="reference" type="string">
+            <column name="reference" length="100">
+                <comment>an internal reference/serial number for the report e.g. NIBRT_CONTRACT_COMPANY_X</comment>
+            </column>
+        </property>
+        <property name="fileName" type="string">
+            <column name="file_name" length="250" not-null="true" />
+        </property>
+        <set name="contractSamples" inverse="true">
+            <key>
+                <column name="report_id" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.hplc.ContractSample" />
+        </set>
+        <set name="contractValueses" inverse="true">
+            <key>
+                <column name="report_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.hplc.ContractValues" />
+        </set>
+    </class>
+</hibernate-mapping>

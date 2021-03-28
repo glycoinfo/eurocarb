@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/nmr/casper
+END
+results.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/nmr/casper/results.ftl
+END
+ccpnsave.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/nmr/casper/ccpnsave.ftl
+END
+index.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/nmr/casper/index.ftl
+END
+resultslist.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/nmr/casper/resultslist.ftl
+END
+citing.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/action/nmr/casper/citing.ftl
+END

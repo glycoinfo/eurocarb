@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.ChemComp">
+  <joined-subclass
+    name="ChemAtom"
+    extends="ccp.api.molecule.ChemComp.AbstractChemAtom"
+    table="CHEM_CHEMATOM"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Atom, in the sense of a part of a toplogical description of a ChemComp. ChemAtoms, unlike LinkAtoms, are part of the ChemComp itself.</meta>
+  <key column="ABSTRACTCHEMATOMID" foreign-key="CHEM_CHEMATOM_ABSTCHEMATOM_FK"/>
+  
+  <property
+    name="_chirality"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">Chirality of atom according to IUPAC R/S system. Note for some chiral atoms chirality cannot be specified according to this system but only using the Stereochemistry class. An example would be a chirality that involves a LinkAtom susbstituent.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CHIRALITY" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_elementSymbol"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Chemical symbol of the atom. Strictly speaking an enum .E.g. H, C, Mg, Pt. Serves as key to derived link chemElement.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ELEMENTSYMBOL" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_nuclGroupType"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">String to determine Atom Group (for assignment purposes). Proposed possibilities: 'CH0','CH2','CH3','CHx','NH0','NH2','NH3', NHx, OH0m OH1, OH2, .. etc. 'OTHER'.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NUCLGROUPTYPE" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_shortVegaType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">VegaType for atom, covering only the atom itself, e.g (100) or (451). The full Vega Type is derived from the short Vegatype of the atom and the atoms bound to it.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SHORTVEGATYPE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_waterExchangeable"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Is this atom exchanging fast with solvent under aqueous conditions ( i.e. on a timescale of a milisecond or less)? Most atoms are not. The exceptions are e.g. protons bound to oxygen, or protons in  amine groups or NH2 in guanidinium groups.</meta>
+    <meta attribute="default-value">false</meta>
+    <column name="WATEREXCHANGEABLE" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <many-to-one
+    name="hbChemAtomSet"
+    column="CHEMATOMSETID"
+    class="ccp.api.molecule.ChemComp.ChemAtomSet" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="CHEM_CHEMATOM_CHEMATOMSET_FK" 
+  >
+    <meta attribute="field-description">ChemAtomSet that ChemAtom is contained in.</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbBoundLinkEnds" 
+    table="CHEM_LINKEND"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">linkEnds with an out-of-ChemComp bond parting directly from ChemAtom.</meta>
+    <meta attribute="base-name">hbBoundLinkEnd</meta>
+    <cache usage="read-write"/>
+    <key column="BOUNDCHEMATOMID"/>
+    <one-to-many class="ccp.api.molecule.ChemComp.LinkEnd"/>
+  </set>
+  
+  <set 
+    name="hbRemoteLinkEnds" 
+    table="CHEM_LINKEND"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">LinkEnds where ChemAtom participates as remote ChemAtom</meta>
+    <meta attribute="base-name">hbRemoteLinkEnd</meta>
+    <cache usage="read-write"/>
+    <key column="REMOTECHEMATOMID"/>
+    <one-to-many class="ccp.api.molecule.ChemComp.LinkEnd"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

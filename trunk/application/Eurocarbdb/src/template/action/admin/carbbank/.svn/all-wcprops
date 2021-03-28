@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/admin/carbbank
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/admin/carbbank/input.ftl
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/admin/carbbank/success.ftl
+END
+parsing_in_progress.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/admin/carbbank/parsing_in_progress.ftl
+END

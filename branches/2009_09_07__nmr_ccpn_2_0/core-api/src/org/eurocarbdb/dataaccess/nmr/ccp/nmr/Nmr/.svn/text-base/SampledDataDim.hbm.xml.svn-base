@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="SampledDataDim"
+    extends="ccp.api.nmr.Nmr.AbstractDataDim"
+    table="NMR_SAMPLEDDATADIM"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">A data dimension where points are not regularly spaced. The point values are given as an explicit list (pointValues). Intended for non-linear sampling, T1 or titration series, ...</meta>
+  <key column="ABSTRACTDATADIMID" foreign-key="NMR_SAMPDATADIM_ABSTDATADIM_FK"/>
+  
+  <property
+    name="_conditionVaried"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Description of the parameter being varied (e.g. temperature, pH, relaxation delay, ...)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CONDITIONVARIED" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text, for notes, explanatory comments, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbPointErrors"
+    table="NMR_SAMPDATADIM_POINERRO"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">List of the abscissa errors (std deviation) of the points in the dimension The order is significant and preserved. If set, the length must be the same as the length of the pointValues.</meta>
+    <cache usage="read-write" />
+    <key column="SAMPLEDDATADIMID" foreign-key="NMR_SAMPDATADIM_POINERRO_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.Float" not-null="true">
+      <column name="POINTERROR" sql-type="FLOAT" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbPointValues"
+    table="NMR_SAMPDATADIM_POINVALU"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">List of the abscissa values of the points in the dimension The order is significant and preserved. </meta>
+    <cache usage="read-write" />
+    <key column="SAMPLEDDATADIMID" foreign-key="NMR_SAMPDATADIM_POINVALU_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.Float" not-null="true">
+      <column name="POINTVALUE" sql-type="FLOAT" not-null="true"/>
+    </element>
+  </list>
+
+  </joined-subclass>
+
+</hibernate-mapping>

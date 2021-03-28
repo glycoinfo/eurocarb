@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix
+END
+complexStoredBy.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/complexStoredBy.html
+END
+isComplex.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/isComplex.html
+END
+headerSize.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/headerSize.html
+END
+scaleFactor.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/scaleFactor.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/index.html
+END
+numberType.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/numberType.html
+END
+nmrDataSources.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/nmrDataSources.html
+END
+numPoints.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/numPoints.html
+END
+getNumDims.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/getNumDims.html
+END
+isBigEndian.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/isBigEndian.html
+END
+numDims.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/numDims.html
+END
+numRecords.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/NumericMatrix/numRecords.html
+END

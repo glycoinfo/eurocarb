@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1/trunk/database/sql/hplc_data
+END
+reflink_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/database/sql/hplc_data/reflink_share.txt
+END
+ref_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/database/sql/hplc_data/ref_share.txt
+END
+glycan_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/database/sql/hplc_data/glycan_share.txt
+END
+digest_share.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/database/sql/hplc_data/digest_share.txt
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser
+END
+GlycoTraverserValdidation.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserValdidation.java
+END
+GlycoTraverser.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverser.java
+END
+GlycoTraverserTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserTree.java
+END
+GlycoTraverserTreeSingle.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserTreeSingle.java
+END
+GlycoTraverserTreePreOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserTreePreOrder.java
+END
+GlycoTraverserEdges.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserEdges.java
+END
+GlycoTraverserNodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserNodes.java
+END
+GlycoTraverserSimple.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/traverser/GlycoTraverserSimple.java
+END

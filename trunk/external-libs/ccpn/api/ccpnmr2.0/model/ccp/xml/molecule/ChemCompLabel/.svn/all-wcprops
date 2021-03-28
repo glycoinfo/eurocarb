@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/molecule/ChemCompLabel
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/molecule/ChemCompLabel/package.xml
+END
+ChemCompLabel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/molecule/ChemCompLabel/ChemCompLabel.xml
+END
+AtomLabel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/molecule/ChemCompLabel/AtomLabel.xml
+END
+Isotopomer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/molecule/ChemCompLabel/Isotopomer.xml
+END
+LabelingScheme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/molecule/ChemCompLabel/LabelingScheme.xml
+END

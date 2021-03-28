@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp
+END
+LinkEnd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/LinkEnd.xml
+END
+BondType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/BondType.xml
+END
+MolType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/MolType.xml
+END
+Stereochemistry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/Stereochemistry.xml
+END
+ChemTorsion.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemTorsion.xml
+END
+ChemTorsionSysName.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemTorsionSysName.xml
+END
+ChemComp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemComp.xml
+END
+ChemCompSysName.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemCompSysName.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/package.xml
+END
+BondStereochemistry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/BondStereochemistry.xml
+END
+ChemAtom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemAtom.xml
+END
+AtomSysName.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/AtomSysName.xml
+END
+ChemCompVar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemCompVar.xml
+END
+StdChemComp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/StdChemComp.xml
+END
+ChemCompLinking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemCompLinking.xml
+END
+ChemAtomSetSysName.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemAtomSetSysName.xml
+END
+ChemAtomSet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemAtomSet.xml
+END
+AtomChirality.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/AtomChirality.xml
+END
+NamingSystem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/NamingSystem.xml
+END
+LinkAtom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/LinkAtom.xml
+END
+ChemBond.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemBond.xml
+END
+NonStdChemComp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/NonStdChemComp.xml
+END
+AbstractChemAtom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/AbstractChemAtom.xml
+END
+TwelveLetterCode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/TwelveLetterCode.xml
+END
+ThreeLetterCode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ThreeLetterCode.xml
+END
+ChemAtomSetVar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemAtomSetVar.xml
+END
+ChemAngle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/ChemComp/ChemAngle.xml
+END

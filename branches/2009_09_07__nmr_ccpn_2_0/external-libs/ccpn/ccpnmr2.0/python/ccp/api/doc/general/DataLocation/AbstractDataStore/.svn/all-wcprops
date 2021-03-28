@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/AbstractDataStore
+END
+path.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/AbstractDataStore/path.html
+END
+dataUrl.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/AbstractDataStore/dataUrl.html
+END
+fullPath.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/AbstractDataStore/fullPath.html
+END
+getFullPath.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/AbstractDataStore/getFullPath.html
+END
+dataLocationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/AbstractDataStore/dataLocationStore.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/AbstractDataStore/serial.html
+END
+details.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/AbstractDataStore/details.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/AbstractDataStore/index.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/general/DataLocation/AbstractDataStore/parent.html
+END

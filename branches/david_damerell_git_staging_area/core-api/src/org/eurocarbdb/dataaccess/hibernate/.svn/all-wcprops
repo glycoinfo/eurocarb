@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/hibernate
+END
+GenericEnumUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/hibernate/GenericEnumUserType.java
+END
+HibernateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/hibernate/HibernateUtils.java
+END
+SugarSequenceUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/dataaccess/hibernate/SugarSequenceUserType.java
+END

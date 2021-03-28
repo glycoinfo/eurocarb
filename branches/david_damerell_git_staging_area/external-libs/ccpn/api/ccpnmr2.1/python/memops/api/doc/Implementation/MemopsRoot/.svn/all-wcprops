@@ -1,0 +1,983 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot
+END
+getCurrentKeywordDefinitionStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentKeywordDefinitionStore.html
+END
+getCurrentStructureEnsemble.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentStructureEnsemble.html
+END
+methodStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/methodStores.html
+END
+currentProtocolStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentProtocolStore.html
+END
+getCurrentChemCompCoord.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentChemCompCoord.html
+END
+chemCompCharges.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/chemCompCharges.html
+END
+currentCitationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentCitationStore.html
+END
+getCurrentAnnotationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentAnnotationStore.html
+END
+crystallizationStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/crystallizationStores.html
+END
+currentAffiliationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentAffiliationStore.html
+END
+getCurrentDatabase.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentDatabase.html
+END
+getCurrentStereochemistryStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentStereochemistryStore.html
+END
+topObjects.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/topObjects.html
+END
+currentKeywordDefinitionStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentKeywordDefinitionStore.html
+END
+currentStructureEnsemble.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentStructureEnsemble.html
+END
+override.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/override.html
+END
+sampleStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/sampleStores.html
+END
+currentChemCompCoord.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentChemCompCoord.html
+END
+affiliationStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/affiliationStores.html
+END
+taxonomies.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/taxonomies.html
+END
+repositories.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/repositories.html
+END
+getCurrentLocationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentLocationStore.html
+END
+dangleStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/dangleStores.html
+END
+currentAnnotationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentAnnotationStore.html
+END
+getCurrentNmrReferenceStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentNmrReferenceStore.html
+END
+analysisProjects.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/analysisProjects.html
+END
+save.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/save.html
+END
+getCurrentNmrEntryStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentNmrEntryStore.html
+END
+accessControlOn.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/accessControlOn.html
+END
+getCurrentAnnealProtocolStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentAnnealProtocolStore.html
+END
+getCurrentNmrExpPrototype.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentNmrExpPrototype.html
+END
+newGuid.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/newGuid.html
+END
+isReading.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/isReading.html
+END
+getCurrentTargetStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentTargetStore.html
+END
+getCurrentChemElementStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentChemElementStore.html
+END
+currentDatabase.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentDatabase.html
+END
+currentStereochemistryStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentStereochemistryStore.html
+END
+annotationStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/annotationStores.html
+END
+experimentStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/experimentStores.html
+END
+analysisProfiles.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/analysisProfiles.html
+END
+currentLocationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentLocationStore.html
+END
+molecules.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/molecules.html
+END
+stereochemistryStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/stereochemistryStores.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/parent.html
+END
+currentNmrReferenceStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentNmrReferenceStore.html
+END
+currentUserId.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentUserId.html
+END
+currentNmrEntryStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentNmrEntryStore.html
+END
+currentAnnealProtocolStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentAnnealProtocolStore.html
+END
+getCurrentExperimentStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentExperimentStore.html
+END
+saveTo.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/saveTo.html
+END
+nmrConstraintStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/nmrConstraintStores.html
+END
+getCurrentExpBlueprintStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentExpBlueprintStore.html
+END
+currentNmrExpPrototype.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentNmrExpPrototype.html
+END
+packageLocators.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/packageLocators.html
+END
+createdBy.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/createdBy.html
+END
+chemCompCoords.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/chemCompCoords.html
+END
+currentChemElementStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentChemElementStore.html
+END
+currentTargetStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentTargetStore.html
+END
+getCurrentValidationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentValidationStore.html
+END
+getCurrentNameMappingStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentNameMappingStore.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/name.html
+END
+getCurrentTaxonomy.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentTaxonomy.html
+END
+getCurrentNmrConstraintStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentNmrConstraintStore.html
+END
+touch.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/touch.html
+END
+getCurrentDataLocationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentDataLocationStore.html
+END
+nmrExpPrototypes.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/nmrExpPrototypes.html
+END
+lastUnlockedBy.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/lastUnlockedBy.html
+END
+activeRepositories.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/activeRepositories.html
+END
+getCurrentNmrProject.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentNmrProject.html
+END
+targetStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/targetStores.html
+END
+isModifiable.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/isModifiable.html
+END
+nameMappingStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/nameMappingStores.html
+END
+getCurrentHolderStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentHolderStore.html
+END
+currentExperimentStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentExperimentStore.html
+END
+currentGroupName.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentGroupName.html
+END
+currentExpBlueprintStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentExpBlueprintStore.html
+END
+molSystemSymmetrySets.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/molSystemSymmetrySets.html
+END
+getCurrentAnalysisProfile.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentAnalysisProfile.html
+END
+currentValidationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentValidationStore.html
+END
+getCurrentDangleStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentDangleStore.html
+END
+currentNameMappingStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentNameMappingStore.html
+END
+holderStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/holderStores.html
+END
+nmrCalcStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/nmrCalcStores.html
+END
+currentTaxonomy.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentTaxonomy.html
+END
+currentNmrConstraintStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentNmrConstraintStore.html
+END
+currentDataLocationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentDataLocationStore.html
+END
+getCurrentAccessControlStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentAccessControlStore.html
+END
+chemElementStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/chemElementStores.html
+END
+currentNmrProject.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentNmrProject.html
+END
+databases.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/databases.html
+END
+validationStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/validationStores.html
+END
+currentHolderStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentHolderStore.html
+END
+getCurrentChemComp.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentChemComp.html
+END
+getCurrentNmrCalcStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentNmrCalcStore.html
+END
+getCurrentMethodStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentMethodStore.html
+END
+getCurrentSampleStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentSampleStore.html
+END
+accessControlStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/accessControlStores.html
+END
+currentAnalysisProfile.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentAnalysisProfile.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/index.html
+END
+currentDangleStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentDangleStore.html
+END
+getCurrentCrystallizationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentCrystallizationStore.html
+END
+getCurrentAnalysisProject.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentAnalysisProject.html
+END
+nmrEntryStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/nmrEntryStores.html
+END
+annealProtocolStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/annealProtocolStores.html
+END
+getCurrentLabeledMolecule.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentLabeledMolecule.html
+END
+expBlueprintStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/expBlueprintStores.html
+END
+currentAccessControlStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentAccessControlStore.html
+END
+getCurrentNmrSimStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentNmrSimStore.html
+END
+saveAll.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/saveAll.html
+END
+currentChemComp.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentChemComp.html
+END
+saveModified.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/saveModified.html
+END
+currentNmrCalcStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentNmrCalcStore.html
+END
+currentMethodStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentMethodStore.html
+END
+labeledMolecules.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/labeledMolecules.html
+END
+currentSampleStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentSampleStore.html
+END
+protocolStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/protocolStores.html
+END
+nmrSimStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/nmrSimStores.html
+END
+backup.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/backup.html
+END
+getCurrentChemCompCharge.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentChemCompCharge.html
+END
+instrumentStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/instrumentStores.html
+END
+getCurrentMolecule.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentMolecule.html
+END
+nmrReferenceStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/nmrReferenceStores.html
+END
+currentCrystallizationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentCrystallizationStore.html
+END
+isModified.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/isModified.html
+END
+currentAnalysisProject.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentAnalysisProject.html
+END
+getPackageLocator.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getPackageLocator.html
+END
+getCurrentRefSampleComponentStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentRefSampleComponentStore.html
+END
+currentLabeledMolecule.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentLabeledMolecule.html
+END
+currentNmrSimStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentNmrSimStore.html
+END
+getCurrentMolSystemSymmetrySet.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentMolSystemSymmetrySet.html
+END
+labelingSchemes.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/labelingSchemes.html
+END
+getCurrentInstrumentStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentInstrumentStore.html
+END
+backupAll.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/backupAll.html
+END
+getCurrentClassification.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentClassification.html
+END
+getCurrentMolSystem.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentMolSystem.html
+END
+refSampleComponentStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/refSampleComponentStores.html
+END
+dataLocationStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/dataLocationStores.html
+END
+setIsModifiable.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/setIsModifiable.html
+END
+importData.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/importData.html
+END
+getCurrentLabelingScheme.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentLabelingScheme.html
+END
+locationStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/locationStores.html
+END
+currentChemCompCharge.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentChemCompCharge.html
+END
+currentMolecule.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentMolecule.html
+END
+citationStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/citationStores.html
+END
+chemComps.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/chemComps.html
+END
+classifications.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/classifications.html
+END
+molSystems.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/molSystems.html
+END
+packageLocator.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/packageLocator.html
+END
+removeFrom.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/removeFrom.html
+END
+currentRefSampleComponentStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentRefSampleComponentStore.html
+END
+getCurrentProtocolStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentProtocolStore.html
+END
+isLoaded.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/isLoaded.html
+END
+currentMolSystemSymmetrySet.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentMolSystemSymmetrySet.html
+END
+currentInstrumentStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentInstrumentStore.html
+END
+getCurrentCitationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentCitationStore.html
+END
+refreshTopObjects.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/refreshTopObjects.html
+END
+keywordDefinitionStores.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/keywordDefinitionStores.html
+END
+structureEnsembles.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/structureEnsembles.html
+END
+currentClassification.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentClassification.html
+END
+currentMolSystem.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentMolSystem.html
+END
+getCurrentAffiliationStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/getCurrentAffiliationStore.html
+END
+currentLabelingScheme.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/currentLabelingScheme.html
+END
+nmrProjects.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/api/doc/Implementation/MemopsRoot/nmrProjects.html
+END

@@ -1,0 +1,419 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin
+END
+WorkspacePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/WorkspacePanel.java
+END
+DictionariesSearchPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DictionariesSearchPanel.java
+END
+SearchPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SearchPlugin.java
+END
+ProgressDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ProgressDialog.java
+END
+PeakFinderOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakFinderOptions.java
+END
+GAGDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GAGDictionary.java
+END
+SearchDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SearchDialog.java
+END
+TableSorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/TableSorter.java
+END
+PeakAnnotationReportPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakAnnotationReportPanel.java
+END
+DictionariesManagerPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DictionariesManagerPanel.java
+END
+FragmentEditorPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/FragmentEditorPanel.java
+END
+PeakListPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakListPlugin.java
+END
+DictionaryStructureGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DictionaryStructureGenerator.java
+END
+Plugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/Plugin.java
+END
+FragmentCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/FragmentCanvas.java
+END
+StructureType.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/StructureType.java
+END
+PeakFinderOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakFinderOptionsDialog.java
+END
+PeakAnnotationSummaryPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakAnnotationSummaryPanel.java
+END
+ScanDataPropertiesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ScanDataPropertiesDialog.java
+END
+ScanAnnotationCascadeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ScanAnnotationCascadeThread.java
+END
+WorkspacePlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/WorkspacePlugin.java
+END
+StoreStructuresDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/StoreStructuresDialog.java
+END
+SpectraPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SpectraPlugin.java
+END
+ScanPropertiesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ScanPropertiesDialog.java
+END
+SpectraPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SpectraPanel.java
+END
+Generator.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1147/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/Generator.java
+END
+FragmentDetailsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/FragmentDetailsPanel.java
+END
+SearchDetailsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SearchDetailsPanel.java
+END
+PeakListPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakListPanel.java
+END
+PeakFinderThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakFinderThread.java
+END
+AnnotationThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/AnnotationThread.java
+END
+FragmentsPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/FragmentsPlugin.java
+END
+TablePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/TablePanel.java
+END
+ProfilerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ProfilerThread.java
+END
+GAGOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GAGOptions.java
+END
+PeakAnnotationStatsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakAnnotationStatsPanel.java
+END
+DictionarySelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DictionarySelection.java
+END
+GAGPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GAGPlugin.java
+END
+StructureScorer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1147/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/StructureScorer.java
+END
+StructureDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/StructureDictionary.java
+END
+PeakFinderPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakFinderPlugin.java
+END
+AnnotationPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/AnnotationPlugin.java
+END
+PluginManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PluginManager.java
+END
+GAGOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GAGOptionsDialog.java
+END
+GeneratorListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1147/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GeneratorListener.java
+END
+ProfilerOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ProfilerOptions.java
+END
+DocumentPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DocumentPanel.java
+END
+GAGType.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GAGType.java
+END
+MSUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/MSUtils.java
+END
+ProfilerPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ProfilerPlugin.java
+END
+FragmentSummaryPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/FragmentSummaryPanel.java
+END
+ResizingTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ResizingTable.java
+END
+SearchSummaryPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SearchSummaryPanel.java
+END
+DictionariesEditPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/DictionariesEditPanel.java
+END
+NotesPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/NotesPlugin.java
+END
+AnnotationReportApplet.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/AnnotationReportApplet.java
+END
+SortingTablePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/SortingTablePanel.java
+END
+PeakListChartPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakListChartPanel.java
+END
+ProfilerOptionsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ProfilerOptionsDialog.java
+END
+AbstractPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/AbstractPlugin.java
+END
+CollectionStructureGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/CollectionStructureGenerator.java
+END
+GlycanTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/GlycanTable.java
+END
+ReportingPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/ReportingPlugin.java
+END
+MultiLineCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/MultiLineCellRenderer.java
+END
+PeakAnnotationDetailsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakAnnotationDetailsPanel.java
+END
+MultiLineHeaderRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1210/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/MultiLineHeaderRenderer.java
+END
+PeakAnnotationCalibrationPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/PeakAnnotationCalibrationPanel.java
+END
+StructureGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1147/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/StructureGenerator.java
+END
+NotesPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/NotesPanel.java
+END

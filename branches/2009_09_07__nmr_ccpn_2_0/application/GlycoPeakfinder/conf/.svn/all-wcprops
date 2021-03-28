@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/conf
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/conf/web.xml
+END
+configuration.heidelberg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/conf/configuration.heidelberg.xml
+END
+configuration.strato.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/conf/configuration.strato.xml
+END
+configuration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/conf/configuration.xml
+END
+xwork.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/conf/xwork.xml
+END

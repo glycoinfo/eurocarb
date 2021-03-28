@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/LabeledMolecule
+END
+MolLabelFraction.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/LabeledMolecule/MolLabelFraction.hbm.xml
+END
+LabeledMolecule.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/LabeledMolecule/LabeledMolecule.hbm.xml
+END
+ResLabelFraction.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/LabeledMolecule/ResLabelFraction.hbm.xml
+END
+UniformAtomLabel.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/LabeledMolecule/UniformAtomLabel.hbm.xml
+END
+AtomLabel.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/LabeledMolecule/AtomLabel.hbm.xml
+END
+SingleAtomLabel.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/LabeledMolecule/SingleAtomLabel.hbm.xml
+END
+LabeledMixture.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/LabeledMolecule/LabeledMixture.hbm.xml
+END
+MolLabel.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/LabeledMolecule/MolLabel.hbm.xml
+END
+ResLabel.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/LabeledMolecule/ResLabel.hbm.xml
+END

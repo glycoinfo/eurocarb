@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Holder">
+  <joined-subclass
+    name="HolderType"
+    extends="ccp.api.lims.Holder.AbstractHolderType"
+    table="HOLD_HOLDERTYPE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">The information to describe a type of holder. A tube uses maxVolume, plate with one sample/well uses HolderTypePosition with no position set rather than A1.</meta>
+  <key column="ABSTRACTHOLDERTYPEID" foreign-key="HOLD_HOLDERTYPE_ABSTHOLDTYPE_FK"/>
+  
+  <property
+    name="_holdHolderFlag"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="false"
+  >
+    <meta attribute="field-description">Is this holder can hold another holder?</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="HOLDHOLDERFLAG" sql-type="BOOLEAN" not-null="false"/>
+  </property>
+  
+  <property
+    name="_maxColumn"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">The maximum number of columns.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MAXCOLUMN" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_maxRow"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">The maximum number of rows.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MAXROW" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_maxSubPosition"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">The maximum number of sub-positions.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MAXSUBPOSITION" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_maxVolume"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The maximum volume.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MAXVOLUME" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_maxVolumeDisplayUnit"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">The display unit of the max volume.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MAXVOLUMEDISPLAYUNIT" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <set 
+    name="hbHolderTypePositions" 
+    table="HOLD_HOLDERTYPEPOSITION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbHolderTypePosition</meta>
+    <cache usage="read-write"/>
+    <key column="HOLDERTYPEID"/>
+    <one-to-many class="ccp.api.lims.Holder.HolderTypePosition"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

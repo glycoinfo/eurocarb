@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.Validation">
+  <joined-subclass
+    name="MolSysChainValidation"
+    extends="ccp.api.molecule.Validation.ValidationResult"
+    table="VALD_MOLSYSCHAINVALIDATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Validation result for MolSystem.Chain</meta>
+  <key column="VALIDATIONRESULTID" foreign-key="VALD_MOLSYSCHAIVALI_VALIRESU_FK"/>
+  
+  <set 
+    name="hbChains" 
+    table="VALD_MOLSYSCHAIVALI2CHAINS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Molystem Chains being validated</meta>
+    <meta attribute="base-name">hbChain</meta>
+    <cache usage="read-write"/>
+    <key column="MOLSYSCHAINVALIDATIONID" foreign-key="MOLS_CHAIN_MOLSYSCHAIVALI_FK"/>
+    <many-to-many column="CHAINID" class="ccp.api.molecule.MolSystem.Chain" foreign-key="VALD_MOLSYSCHAIVALI_CHAINS_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

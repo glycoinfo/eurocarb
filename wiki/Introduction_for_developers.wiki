@@ -1,0 +1,5 @@
+#summary Introductory information for developers
+#labels Featured
+
+=Installation instructions=
+We have recently merged a large number of experimentally features into the trunk branch - you can now follow the [StableBuild stable build instructions].

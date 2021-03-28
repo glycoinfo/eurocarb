@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/io
+END
+PeakListLoaderExeption.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/io/PeakListLoaderExeption.java
+END
+PeakListLoaderTXT.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/io/PeakListLoaderTXT.java
+END
+PeakListLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/io/PeakListLoader.java
+END
+PeakListLoaderFlexAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/io/PeakListLoaderFlexAnalysis.java
+END

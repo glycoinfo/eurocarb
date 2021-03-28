@@ -1,0 +1,65 @@
+# dideoxy
+
+residue aPar {
+default '1' aDGlc, aDGal 0.05
+default '2' aDGlc, aDGlcOMe 0.05, aDGalOMe 0.05, aDGal 0.05
+default '4' aDGlc, aDGlcOMe 0.05, bDGlcOMe 0.05, bDGlc 0.05, aDMan 0.05, bDMan 0.05
+}
+
+residue bPar {
+default '1' bDGlc, bDGal 0.05
+default '2' bDGlc, bDGlcOMe 0.05, bDGalOMe 0.05, bDGal 0.05
+default '4' bDGlc, bDGlcOMe 0.05, aDGlcOMe 0.05, aDGlc 0.05, aDMan 0.05, bDMan 0.05
+}
+
+residue aAbe {
+default '1' aDMan, aDRha, aDGlc 1
+default '2' aDMan, aDManOMe, aDRha, aDRhaOMe
+default '4' aDMan, bDMan, aDManOMe, bDManOMe, aDRha, bDRha, aDRhaOMe, bDRhaOMe
+default '4' aDMan, aDGlc 0.5, bDGlc 0.5, aDGlcOMe 0.5, bDGlcOMe 0.5
+}
+
+residue bAbe {
+default '1' bDMan, bDRha, bDGlc 1
+default '2' bDMan, bDManOMe, bDRha, bDRhaOMe
+default '4' bDMan, aDMan, aDManOMe, bDManOMe, aDRha, bDRha, aDRhaOMe, bDRhaOMe
+default '4' bDMan, aDGlc 0.5, bDGlc 0.5, aDGlcOMe 0.5, bDGlcOMe 0.5
+}
+
+residue aAsc {
+default '1' aLRha, aLMan, aLFuc
+default '2' aLRha, aLRhaOMe, aLManOMe, bLManOMe, bLRha
+default '4' aLRha, bLRha, aLRhaOMe, aLManOMe, bLManOMe, aLMan, bLMan
+default '4' aLGlcOMe, bLGlcOMe, aLGlc, bLGlc
+}
+
+residue bAsc {
+default '1' bLRha, bLMan, bLFuc, aDMan 1
+default '2' bLRha, bLRhaOMe, aLManOMe, bLManOMe, aLRha 1, aLRhaOMe 1
+default '4' bLRha, aLRha, aLRhaOMe, aLManOMe, bLManOMe, aLMan, bLMan
+default '4' aLGlcOMe, bLGlcOMe, aLGlc, bLGlc
+}
+
+residue aTyv {
+default '1' aDGal, aDGlc
+default '2' aDGal, aDGalOMe, aDGlcOMe, aDGlc
+default '4' aDGal, aDGalOMe, bDGalOMe, aDGlcOMe 2.5, bDGlcOMe 2.5, aDGlc 2.5, bDGlc 2.5
+}
+
+residue bTyv {
+default '1' bDGal, bDGlc
+default '2' bDGal, bDGalOMe, bDGlcOMe, bDGlc
+default '4' bDGal, aDGalOMe, bDGalOMe, aDGlcOMe 2.5, bDGlcOMe 2.5, aDGlc 2.5, bDGlc 2.5
+}
+
+residue aCol {
+default '1' aLFuc, aLGlc, aLGal
+default '2' aLFuc, aLGlc, aLGlcOMe, bLGlc, bLGlcOMe, aLGal, bLGal, aLGalOMe, bLGalOMe
+default '4' aLFuc, bLFuc, aLGal, bLGal, aLGalOMe, bLGalOMe, aLGlc, aLGlcOMe, bLGlc, bLGlcOMe
+}
+
+residue bCol {
+default '1' bLFuc, bLGlc, bLGal
+default '2' bLFuc, aLGlc, aLGlcOMe, bLGlc, bLGlcOMe, aLGal, bLGal, aLGalOMe, bLGalOMe
+default '4' aLFuc, bLFuc, aLGlc, aLGlcOMe, bLGlc, bLGlcOMe, aLGal, bLGal, aLGalOMe, bLGalOMe
+}

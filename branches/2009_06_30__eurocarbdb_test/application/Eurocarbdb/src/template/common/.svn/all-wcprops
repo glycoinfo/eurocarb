@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1377/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common
+END
+header_leftopen.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/header_leftopen.ftl
+END
+error_permissions.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/error_permissions.ftl
+END
+generic_error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/generic_error.ftl
+END
+header_old.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/header_old.ftl
+END
+header_leftclose.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/header_leftclose.ftl
+END
+header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/header.ftl
+END
+default_head_section.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/default_head_section.ftl
+END
+generic_exception.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1377/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/generic_exception.ftl
+END
+footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/footer.ftl
+END
+header_minimal.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/header_minimal.ftl
+END
+html_doctype_declaration.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/html_doctype_declaration.ftl
+END
+context_panel.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/context_panel.ftl
+END
+footer_minimal.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/footer_minimal.ftl
+END
+xml_header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/xml_header.ftl
+END
+default_body_sections.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/default_body_sections.ftl
+END
+xml_footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/xml_footer.ftl
+END
+footer_noscript.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1377/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/common/footer_noscript.ftl
+END

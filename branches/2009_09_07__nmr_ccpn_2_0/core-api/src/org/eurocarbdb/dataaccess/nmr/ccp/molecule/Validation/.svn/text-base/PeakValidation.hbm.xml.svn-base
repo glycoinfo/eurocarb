@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.Validation">
+  <joined-subclass
+    name="PeakValidation"
+    extends="ccp.api.molecule.Validation.ValidationResult"
+    table="VALD_PEAKVALIDATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">N/A</meta>
+  <key column="VALIDATIONRESULTID" foreign-key="VALD_PEAKVALI_VALIRESU_FK"/>
+  
+  <set 
+    name="hbPeaks" 
+    table="NMR_PEAK2PEAKVALI"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Peaks being validated</meta>
+    <meta attribute="base-name">hbPeak</meta>
+    <cache usage="read-write"/>
+    <key column="PEAKVALIDATIONID" foreign-key="NMR_PEAK_PEAKVALI_FK"/>
+    <many-to-many column="PEAKID" class="ccp.api.nmr.Nmr.Peak" foreign-key="VALD_PEAKVALI_PEAKS_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

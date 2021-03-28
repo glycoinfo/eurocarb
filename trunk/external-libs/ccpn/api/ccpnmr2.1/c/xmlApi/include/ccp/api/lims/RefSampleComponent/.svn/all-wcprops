@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent
+END
+Refs_SpecificLabelGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_SpecificLabelGroup.h
+END
+Refs_Composite.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_Composite.h
+END
+Refs_CompositeInteraction.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_CompositeInteraction.h
+END
+Refs_ComponentDbRef.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_ComponentDbRef.h
+END
+Refs_MolComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_MolComponent.h
+END
+Refs_CompositeElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_CompositeElement.h
+END
+Refs_RefSampleComponentStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_RefSampleComponentStore.h
+END
+Refs_Label.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_Label.h
+END
+Refs_Cell.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_Cell.h
+END
+Refs_MolCompFeature.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_MolCompFeature.h
+END
+Refs_IsotopeLabel.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_IsotopeLabel.h
+END
+Refs_Construct.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_Construct.h
+END
+Refs_AbstractComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_AbstractComponent.h
+END
+Refs_Substance.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_Substance.h
+END
+Refs_RestrictionEnzyme.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_RestrictionEnzyme.h
+END
+Refs_Primer.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/lims/RefSampleComponent/Refs_Primer.h
+END

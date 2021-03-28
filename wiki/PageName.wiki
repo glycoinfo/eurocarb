@@ -1,0 +1,14 @@
+#MS work flow changes
+
+= Required MS Work flow changes =
+
+ * Only allow for one structure to be created.
+ * Right click not working.
+ * Some pop-up boxes not working.
+ * Add ability to add a new device.
+ * Field and date not taken from the last page.
+ * Linkage between the structure and evidence are wrong.
+ * When you upload an mzXML file and add a scan, some of the fields should be prefilled and none are know.
+
+= Other =
+ * Biological context does not support synthetic.

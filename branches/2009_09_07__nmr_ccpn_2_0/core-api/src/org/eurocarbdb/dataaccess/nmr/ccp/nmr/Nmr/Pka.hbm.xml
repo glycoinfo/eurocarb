@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="Pka"
+    extends="ccp.api.nmr.Nmr.DerivedData"
+    table="NMR_PKA"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Derived pKa and associated parameters</meta>
+  <key column="DERIVEDDATAID" foreign-key="NMR_PKA_DERIDATA_FK"/>
+  
+  <property
+    name="_highPHParam"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">High pH value for fitted parameter (typically, but not necessarily a shift).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="HIGHPHPARAM" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_highPHParamError"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Uncertainty (standard deviation) of high pH parameter value.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="HIGHPHPARAMERROR" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_hillCoeff"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Hill coefficient</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="HILLCOEFF" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_hillCoeffError"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Uncertainty (standard deviation) of Hill coeffficient</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="HILLCOEFFERROR" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_lowPHParam"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Low pH value for fitted parameter (typically, but not necessarily a shift).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LOWPHPARAM" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_lowPHParamError"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Uncertainty (standard deviation) of low pH parameter value.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LOWPHPARAMERROR" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_parameterType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">E.g. Shift, Jcoupling, </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PARAMETERTYPE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_parameterUnit"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Measurement unit for fitted parameter</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PARAMETERUNIT" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <many-to-one
+    name="hbDerivation"
+    column="DERIVATIONID"
+    class="ccp.api.nmr.Nmr.PKaDerivation" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_PKA_DERIVATION_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbResonance"
+    column="RESONANCEID"
+    class="ccp.api.nmr.Nmr.Resonance" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_PKA_RESONANCE_FK" 
+  >
+    <meta attribute="field-description">Resonance to which pKa attaches, i.e. the titrating proton. The Resonance(s) used to actually measure the pKa (need not be the same one) are given through the various links from the PKaDerivation.</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

@@ -1,0 +1,166 @@
+10
+
+dir
+1997
+http://eurocarb.googlecode.com/svn/trunk/application/Eurocarbdb/src/template/action/core
+http://eurocarb.googlecode.com/svn
+
+
+
+2010-09-08T03:00:25.155400Z
+1987
+glycoslave
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b1b7f5f2-413c-11de-998b-8fedbbe774c7
+
+create_experiment
+dir
+
+search_taxonomy
+dir
+
+search_perturbation
+dir
+
+create_references
+dir
+
+browse_structures
+dir
+
+create_evidence
+dir
+
+search
+dir
+
+create_technique
+dir
+
+show_glycan
+dir
+
+import_structures
+dir
+
+show_perturbation
+dir
+
+show_taxonomy
+dir
+
+create_reference
+dir
+
+browse_contributor_contexts
+dir
+
+autocompleter
+dir
+
+input_glycan_sequence
+dir
+
+search_glycan_sequence
+dir
+
+create_glycan_sequence_context
+dir
+
+search_biological_context
+dir
+
+browse_contributor_evidence
+dir
+
+create_contributor
+dir
+
+create_experiment_step
+dir
+
+contribute_structure
+dir
+
+show_reference
+dir
+
+input_experiment
+dir
+
+search_substructure
+dir
+
+input_evidence
+dir
+
+browse_evidence
+dir
+
+input_technique
+dir
+
+show_biological_context
+dir
+
+show_contributor
+dir
+
+show_tissue_taxonomy
+dir
+
+show_experiment_step
+dir
+
+input_reference
+dir
+
+show_disease
+dir
+
+show_experiment
+dir
+
+get_sugar_image
+dir
+
+show_glycan_sequence_reference
+dir
+
+home
+dir
+
+input_journal
+dir
+
+input_contributor
+dir
+
+create_biological_context
+dir
+
+browse_contributor_structures
+dir
+
+select_structure
+dir
+
+search_tissue_taxonomy
+dir
+
+search_disease
+dir
+

@@ -1,0 +1,70 @@
+# defaults for pentoses
+
+residue aLAra {
+cpydefault '1' aDGal 0.10
+#default '2' aLAraOMe 0.10
+cpydefault '2' aDGal 0.5
+#default '3' aLAraOMe 0.05, bLAraOMe 0.10
+default '3' bLAra 0.05
+cpydefault '3' aDGal 0.5
+#default '4' aLAraOMe 0.05, bLAraOMe 0.05
+default '4' bLAra 0.05
+cpydefault '4' aDGal 1.0
+}
+
+residue bLAra {
+convertalldefaults aLAra
+}
+
+residue aDLyx {
+cpydefault '1' aDMan 0.10
+#default '2' aDLyxOMe 0.10
+cpydefault '2' aDMan 0.5
+#default '3' aDLyxOMe 0.05, bDLyxOMe 0.10
+default '3' bDLyx 0.05
+cpydefault '3' aDMan 0.5
+#default '4' aDLyxOMe 0.05, bDLyxOMe 0.05
+default '4' bDLyx 0.05
+cpydefault '4' aDMan 1.0
+}
+
+residue bDLyx {
+convertalldefaults aDLyx
+}
+
+# residue DRib<->LAlt
+
+residue aDXyl {
+cpydefault '1' aDGlc 0.10
+#default '2' aDXylOMe 0.10
+cpydefault '2' aDGlc 0.05
+#default '3' aDXylOMe 0.5
+default '3' bDXyl 0.05, bDXylOMe 0.10
+cpydefault '3' aDGlc 0.5
+#default '4' aDXylOMe 0.05
+default '4' bDXyl 0.05, bDXylOMe 0.05
+cpydefault '4' aDGlc 1.0
+}
+
+residue bDXyl {
+default '2' bDXylOMe 0.10
+default '3' bDXylOMe 0.10
+default '4' bDXylOMe 0.05
+convertalldefaults aDXyl
+}
+
+residue aLXyl {
+cpydefault '1' aLGlc 0.10
+#default '2' aLXylOMe 0.10
+cpydefault '2' aLGlc 0.5
+#default '3' aLXylOMe 0.05, bLXylOMe 0.10
+default '3' bLXyl 0.05
+cpydefault '3' aLGlc 0.5
+#default '4' aLXylOMe 0.05, bLXylOMe 0.05
+default '4' bLXyl 0.05
+cpydefault '4' aLGlc 1.0
+}
+
+residue bLXyl {
+convertalldefaults aLXyl
+}

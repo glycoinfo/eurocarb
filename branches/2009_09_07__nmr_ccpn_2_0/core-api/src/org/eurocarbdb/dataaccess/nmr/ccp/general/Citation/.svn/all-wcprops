@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/general/Citation
+END
+CitationStore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/general/Citation/CitationStore.hbm.xml
+END
+Citation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/general/Citation/Citation.hbm.xml
+END
+ThesisCitation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/general/Citation/ThesisCitation.hbm.xml
+END
+ConferenceCitation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/general/Citation/ConferenceCitation.hbm.xml
+END
+JournalCitation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/general/Citation/JournalCitation.hbm.xml
+END
+BookCitation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/general/Citation/BookCitation.hbm.xml
+END

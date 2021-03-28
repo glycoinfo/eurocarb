@@ -1,0 +1,337 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-CCP:SaveProjectAs</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>CCP:SaveProjectAs</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>CCP</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="NmrExpPrototypePopup.html">NmrExpPrototypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ExpGraphPopup.html">ExpGraphPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="RefExperimentPopup.html">RefExperimentPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="NmrExpPrototypeNomenclature.html">NmrExpPrototypeNomenclature</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="SaveProjectAs.html">SaveProjectAs</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+      This popup is used the first time you save a project, and for a previously
+      saved project it lets you save it in an alternative location.  The section
+      at the top lets you do a simple save, which only lets you change a few
+      details.  The section at the bottom lets you do a more detailed save.
+      </P>
+      <P>
+      <H2>Project directory: &lt;text_entry&gt;</H2>
+      <P>
+      The location of the main project directory (where the main project file lives).
+      </P>
+      <H2>Project file: &lt;text_entry&gt;</H2>
+      <P>
+      The name of the main project file.
+      </P>
+      <H2>[] Correspondingly change related paths</H2>
+      <P>
+      Analysis stores data in many files.  Some of these files have nothing to
+      do with the specific project (e.g. the definition of chemical compounds).
+      But some are directly related to the project (e.g. the one containing the
+      peak lists).  If
+      this option is selected then the save dialog attempts to make sure that
+      if the project directory is moved or the project file name is changed
+      that corresponding project directories are renamed.  For example, if the
+      main project file is called foo.xml the other project files are normally
+      in the foo/ subdirectory and if you change the project file to bar.xml
+      then the other project files will be saved in the bar/ subdirectory
+      (if this option is selected).  Note however that the project name is not
+      changed (e.g. from "foo" to "bar") since the project name cannot be
+      changed inside Analysis.  Similarly if the main project directory is
+      moved from spam/ to ham/ then all the other project files will be saved
+      in ham/.  This is not fool proof (if you have chosen a non-standard way
+      to store the data) but should normally do what you expect.  If you want
+      to change the project name then you need to edit the main project file
+      and change it there before starting up Analysis.  If you want more detailed
+      control over what happens then use the options below.
+      </P>
+      <H2>URLs</H2>
+        <H3>| Serial |</H3>
+          <P>
+          This is the Url serial, it is determined by the API.
+          </P>
+        <H3>| Name |</H3>
+          <P>
+          The Url name.
+          </P>
+        <H3>| Path |</H3>
+          <P>
+          The Url path.
+          </P>
+        <H3>| Number of storages |</H3>
+          <P>
+          The number of storages which use this Url.
+          </P>
+        <H3>| Number of data locations |</H3>
+          <P>
+          The number of data locations which use this Url.
+          </P>
+        <H3>[Create]</H3>
+          <P>
+          Create a new Url.
+          </P>
+        <H3>[Delete]</H3>
+          <P>
+          Delete the selected Url.
+          </P>
+      <H2>Storages</H2>
+        <H3>| Type |</H3>
+          <P>
+          This is the Storage type, it can be one of 'project', 'normal', or 'content'.
+          </P>
+        <H3>| Name |</H3>
+          <P>
+          The Storage package.
+          </P>
+        <H3>| Url serial |</H3>
+          <P>
+          The Url serial.  This determines the Url used by this Storage.
+          </P>
+        <H3>| Path |</H3>
+          <P>
+          The Storage path, relative to the Url path.  The full path is the concatenation of the
+          Url path and the Storage path.
+          </P>
+        <H3>| Is modifiable |</H3>
+          <P>
+          Is the Storage modifiable.  If not then data belonging to this Storage cannot be changed.
+          </P>
+        <H3>| Is stored |</H3>
+          <P>
+          Is the Storage stored.  If yes then the data has previously been saved.
+          </P>
+        <H3>| Is modified |</H3>
+          <P>
+          Is the Storage modified.  If yes then the data has either never been saved or it has been
+          changed since it was last loaded or saved.
+          </P>
+        <H3>[Refresh]</H3>
+          <P>
+          Refresh the table (in case the information has changed elsewhere in the application meanwhile).
+          </P>
+      <H2>Data locations</H2>
+        <H3>| Url serial |</H3>
+          <P>
+          The Url serial.  This determines the Url used by this Data Location.
+          </P>
+        <H3>| Path |</H3>
+          <P>
+          The Data Location path, relative to the Url path.  The full path is the concatenation of the
+          Url path and the Data Location path.
+          </P>
+      <H2>[Save]</H2>
+        <P>
+        Save the project using the chosen paths for the Urls, Storages and Data Locations.
+        </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

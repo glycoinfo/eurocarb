@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1402/trunk/application/Eurocarbdb/src/template/action/ms/create_annotations
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1392/trunk/application/Eurocarbdb/src/template/action/ms/create_annotations/success.ftl
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/ms/create_annotations/error.ftl
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1402/trunk/application/Eurocarbdb/src/template/action/ms/create_annotations/input.ftl
+END
+edit.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1402/trunk/application/Eurocarbdb/src/template/action/ms/create_annotations/edit.ftl
+END

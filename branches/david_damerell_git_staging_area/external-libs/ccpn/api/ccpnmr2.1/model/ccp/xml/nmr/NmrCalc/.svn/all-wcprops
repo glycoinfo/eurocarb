@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/package.xml
+END
+ConstraintStoreData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/ConstraintStoreData.xml
+END
+SpectrumData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/SpectrumData.xml
+END
+NmrCalcStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/NmrCalcStore.xml
+END
+MolResidueData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/MolResidueData.xml
+END
+Run.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/Run.xml
+END
+StructureEnsembleData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/StructureEnsembleData.xml
+END
+RunParameter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/RunParameter.xml
+END
+PeakListData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/PeakListData.xml
+END
+SpinSystemData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/SpinSystemData.xml
+END
+DerivedListData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/DerivedListData.xml
+END
+Data.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/Data.xml
+END
+MeasurementListData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/MeasurementListData.xml
+END
+ExternalData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/ExternalData.xml
+END
+Status.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/Status.xml
+END
+DefaultParameter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/DefaultParameter.xml
+END
+MolSystemData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/MolSystemData.xml
+END
+IoRole.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/IoRole.xml
+END
+ViolationListData.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/nmr/NmrCalc/ViolationListData.xml
+END

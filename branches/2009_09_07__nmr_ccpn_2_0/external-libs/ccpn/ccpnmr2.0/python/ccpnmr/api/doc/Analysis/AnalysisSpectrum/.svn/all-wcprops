@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum
+END
+posColors.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/posColors.html
+END
+negLevels.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/negLevels.html
+END
+usePrecalculated.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/usePrecalculated.html
+END
+contourDir.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/contourDir.html
+END
+autoLevelChanger.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/autoLevelChanger.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/parent.html
+END
+dataSource.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/dataSource.html
+END
+analysisDataDims.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/analysisDataDims.html
+END
+negColors.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/negColors.html
+END
+useBoundingBox.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/useBoundingBox.html
+END
+autoBaseLevel.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/autoBaseLevel.html
+END
+rank.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/rank.html
+END
+storedContours.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/storedContours.html
+END
+sliceColor.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/sliceColor.html
+END
+analysisPeakLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/analysisPeakLists.html
+END
+autoNumLevels.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/autoNumLevels.html
+END
+autoLevelMode.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/autoLevelMode.html
+END
+font.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/font.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/index.html
+END
+spectrumWindowViews.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/spectrumWindowViews.html
+END
+usePeakArrow.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/usePeakArrow.html
+END
+analysisProject.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/analysisProject.html
+END
+shortcut.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/shortcut.html
+END
+posLevels.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/posLevels.html
+END
+multipletPattern.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/api/doc/Analysis/AnalysisSpectrum/multipletPattern.html
+END

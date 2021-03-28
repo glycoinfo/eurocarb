@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/conf
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/conf/config.xml
+END
+hibernate.heidelberg.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/conf/hibernate.heidelberg.cfg.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/conf/log4j.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/conf/hibernate.cfg.xml
+END

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Classification">
+  <joined-subclass
+    name="InstrumentType"
+    extends="ccp.api.lims.Classification.AbstractCategory"
+    table="CLAS_INSTRUMENTTYPE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">The type of instrument. It is an instrument classification that can be specific to a particular organisation.</meta>
+  <key column="ABSTRACTCATEGORYID" foreign-key="CLAS_INSTTYPE_ABSTCATE_FK"/>
+  
+  <many-to-one
+    name="hbClassification"
+    column="CLASSIFICATIONID"
+    class="ccp.api.lims.Classification.Classification" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="CLAS_INSTTYPE_CLAS_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbExperimentTypes" 
+    table="CLAS_INSTTYPE2EXPETYPE"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">List of experiment type associated to an instrument type.</meta>
+    <meta attribute="base-name">hbExperimentType</meta>
+    <cache usage="read-write"/>
+    <key column="INSTRUMENTTYPEID" foreign-key="CLAS_EXPETYPE_INSTTYPE_FK"/>
+    <many-to-many column="EXPERIMENTTYPEID" class="ccp.api.lims.Classification.ExperimentType" foreign-key="CLAS_INSTTYPE_EXPETYPE_FK"/>
+  </set>
+  
+  <set 
+    name="hbInstruments" 
+    table="CLAS_INSTTYPE2INST"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">List of instrument associated to an instrument type.</meta>
+    <meta attribute="base-name">hbInstrument</meta>
+    <cache usage="read-write"/>
+    <key column="INSTRUMENTTYPEID" foreign-key="INST_INSTRUMENT_INSTTYPE_FK"/>
+    <many-to-many column="INSTRUMENTID" class="ccp.api.general.Instrument.Instrument" foreign-key="CLAS_INSTTYPE_INST_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

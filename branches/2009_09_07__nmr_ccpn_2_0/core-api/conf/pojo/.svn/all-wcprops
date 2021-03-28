@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo
+END
+PojoFields.vm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/PojoFields.vm
+END
+PojoTypeDeclaration.vm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/PojoTypeDeclaration.vm
+END
+PojoConstructors.vm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/PojoConstructors.vm
+END
+PojoToString.vm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/PojoToString.vm
+END
+PojoEqualsHashcode.vm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/PojoEqualsHashcode.vm
+END
+PojoPropertyAccessors.vm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/PojoPropertyAccessors.vm
+END
+Ejb3PropertyGetAnnotation.vm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/Ejb3PropertyGetAnnotation.vm
+END
+PojoInterfacePropertyAccessors.vm
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/PojoInterfacePropertyAccessors.vm
+END
+Pojo.vm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/Pojo.vm
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/README.txt
+END
+Ejb3TypeDeclaration.vm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/Ejb3TypeDeclaration.vm
+END
+PojoExtraClassCode.vm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/conf/pojo/PojoExtraClassCode.vm
+END

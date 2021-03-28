@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <class
+    name="PeakList"
+    table="NMR_PEAKLIST"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">List of Peaks, all belonging to a specific DataSource.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_PEAKLIST_NMRPROJECT_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text, for notes, explanatory comments, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_isSimulated"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Are the peaks calculated rather than measured? </meta>
+    <meta attribute="default-value">false</meta>
+    <column name="ISSIMULATED" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Name of peaklist. Used in e.g. annotation to distinguish the peaklist from others belonging to the same dataSource. </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="peakListUniqueKey" />
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="NMR_PEAKLIST2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbDataSource"
+    column="DATASOURCEID"
+    class="ccp.api.nmr.Nmr.DataSource" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_PEAKLIST_DATASOURCE_FK" 
+    unique-key="peakListUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbFitMethod"
+    column="FITMETHODID"
+    class="ccp.api.general.Method.Method" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_PEAKLIST_FITMETHOD_FK" 
+  >
+    <meta attribute="field-description">Default fitting method for peaks in peakList. Valid for any peak that does not have an explicit fititng method.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbIntensMethod"
+    column="INTENSMETHODID"
+    class="ccp.api.general.Method.Method" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_PEAKLIST_INTEMETH_FK" 
+  >
+    <meta attribute="field-description">'Preferred' intensity determination method for peakList, the method whose results should be mostly relied on by others.</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbPeaks" 
+    table="NMR_PEAK"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbPeak</meta>
+    <cache usage="read-write"/>
+    <key column="PEAKLISTID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Peak"/>
+  </set>
+  
+  <set 
+    name="hbPeakListValidations" 
+    table="NMR_PEAKLIST2PEAKLISTVALI"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Validation result that include PeakLists</meta>
+    <meta attribute="base-name">hbPeakListValidation</meta>
+    <cache usage="read-write"/>
+    <key column="PEAKLISTID" foreign-key="VALD_PEAKLISTVALI_PEAKLISTS_FK"/>
+    <many-to-many column="PEAKLISTVALIDATIONID" class="ccp.api.molecule.Validation.PeakListValidation" foreign-key="NMR_PEAKLIST_PEAKLISTVALI_FK"/>
+  </set>
+  
+  <set 
+    name="hbEntries" 
+    table="ENTR_ENTRY2PEAKLISTS"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Nmr Entries that make use of PeakList</meta>
+    <meta attribute="base-name">hbEntry</meta>
+    <cache usage="read-write"/>
+    <key column="PEAKLISTID" foreign-key="ENTR_ENTRY_PEAKLISTS_FK"/>
+    <many-to-many column="ENTRYID" class="ccp.api.nmr.NmrEntry.Entry" foreign-key="NMR_PEAKLIST_ENTRIES_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

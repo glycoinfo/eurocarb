@@ -1,0 +1,77 @@
+10
+
+dir
+26
+http://eurocarbdb-nmr.googlecode.com/svn/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrReference
+http://eurocarbdb-nmr.googlecode.com/svn
+
+
+
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ccabb5d2-bd44-11dd-94c0-21daf384169b
+
+index.html
+file
+
+
+
+
+2016-01-08T01:28:15.549765Z
+0f32b6ac713faa09d4a67c473cfa4e88
+2009-09-19T10:43:31.278429Z
+9
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11983
+
+ChemCompVarNmrRef
+dir
+
+ChemAtomShiftCorr
+dir
+
+ChemCompNmrRef
+dir
+
+ChemAtomNmrRef
+dir
+
+NmrReferenceStore
+dir
+

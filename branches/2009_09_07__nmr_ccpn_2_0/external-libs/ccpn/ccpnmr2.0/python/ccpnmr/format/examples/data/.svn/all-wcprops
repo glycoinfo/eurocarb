@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/examples/data
+END
+cns_1.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/examples/data/cns_1.pdb
+END
+cns_2.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/examples/data/cns_2.pdb
+END
+nmrView.xpk
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/examples/data/nmrView.xpk
+END
+nmrView.seq
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/examples/data/nmrView.seq
+END
+n15noesy.tbl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/examples/data/n15noesy.tbl
+END
+ppm.out
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/examples/data/ppm.out
+END
+fasta.seq
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccpnmr/format/examples/data/fasta.seq
+END

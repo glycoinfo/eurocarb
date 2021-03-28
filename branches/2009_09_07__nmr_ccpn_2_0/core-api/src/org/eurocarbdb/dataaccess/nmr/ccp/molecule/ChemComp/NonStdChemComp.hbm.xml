@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.ChemComp">
+  <joined-subclass
+    name="NonStdChemComp"
+    extends="ccp.api.molecule.ChemComp.ChemComp"
+    table="CHEM_NONSTDCHEMCOMP"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">ChemComp that is not a standard ChemComp, but may or may not be derived from one.</meta>
+  <key column="CHEMCOMPID" foreign-key="CHEM_NONSTDCHEMCOMP_CHEMCOMP_FK"/>
+
+  </joined-subclass>
+
+</hibernate-mapping>

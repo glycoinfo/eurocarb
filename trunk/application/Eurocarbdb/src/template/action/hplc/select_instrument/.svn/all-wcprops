@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/854/trunk/application/Eurocarbdb/src/template/action/hplc/select_instrument
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/hplc/select_instrument/success.ftl
+END
+input.temp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/hplc/select_instrument/input.temp
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/854/trunk/application/Eurocarbdb/src/template/action/hplc/select_instrument/input.ftl
+END
+in.or
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/hplc/select_instrument/in.or
+END
+in
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/hplc/select_instrument/in
+END

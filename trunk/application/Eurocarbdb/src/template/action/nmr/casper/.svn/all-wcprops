@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1598/trunk/application/Eurocarbdb/src/template/action/nmr/casper
+END
+ccpnsave.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/nmr/casper/ccpnsave.ftl
+END
+index.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1451/trunk/application/Eurocarbdb/src/template/action/nmr/casper/index.ftl
+END
+resultslist.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1597/trunk/application/Eurocarbdb/src/template/action/nmr/casper/resultslist.ftl
+END
+citing.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1458/trunk/application/Eurocarbdb/src/template/action/nmr/casper/citing.ftl
+END
+results.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1444/trunk/application/Eurocarbdb/src/template/action/nmr/casper/results.ftl
+END

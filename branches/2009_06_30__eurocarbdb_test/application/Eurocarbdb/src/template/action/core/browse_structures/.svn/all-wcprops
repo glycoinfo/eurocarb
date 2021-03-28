@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/browse_structures
+END
+browse.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/browse_structures/browse.ftl
+END
+get_glycan_sequence_ids.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/browse_structures/get_glycan_sequence_ids.xml.ftl
+END
+success.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/browse_structures/success.xml.ftl
+END
+distributed-success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/browse_structures/distributed-success.ftl
+END
+common-success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/core/browse_structures/common-success.ftl
+END

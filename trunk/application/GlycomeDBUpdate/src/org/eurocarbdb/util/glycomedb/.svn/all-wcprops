@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1958/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb
+END
+CrossReferenceToStructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1934/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/CrossReferenceToStructure.java
+END
+UpdatingEuroCarbDataBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1958/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/UpdatingEuroCarbDataBase.java
+END
+GlycomeDBUpdateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1958/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/GlycomeDBUpdateUtil.java
+END
+Configuration.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1944/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/Configuration.java
+END
+CrossReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1934/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/CrossReference.java
+END
+GlycomeDBUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1958/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/GlycomeDBUpdate.java
+END

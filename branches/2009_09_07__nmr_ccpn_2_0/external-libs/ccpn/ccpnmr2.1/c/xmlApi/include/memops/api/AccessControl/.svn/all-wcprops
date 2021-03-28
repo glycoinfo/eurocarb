@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/memops/api/AccessControl
+END
+Acco_Permission.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/memops/api/AccessControl/Acco_Permission.h
+END
+Acco_AccessObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/memops/api/AccessControl/Acco_AccessObject.h
+END
+Acco_UserGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/memops/api/AccessControl/Acco_UserGroup.h
+END
+Acco_User.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/memops/api/AccessControl/Acco_User.h
+END
+Acco_AccessControlStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/memops/api/AccessControl/Acco_AccessControlStore.h
+END

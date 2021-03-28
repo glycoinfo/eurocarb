@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation
+END
+Impl_ApplicationData.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_ApplicationData.c
+END
+Impl_DataObject.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_DataObject.c
+END
+Impl_AppDataFloat.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_AppDataFloat.c
+END
+Impl_AppDataString.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_AppDataString.c
+END
+Impl_Url.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_Url.c
+END
+Impl_ComplexDataType.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_ComplexDataType.c
+END
+Impl_MemopsRoot.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/6/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_MemopsRoot.c
+END
+Impl_AppDataDouble.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_AppDataDouble.c
+END
+Impl_AppDataBoolean.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_AppDataBoolean.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Makefile
+END
+Impl_ImplementationObject.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_ImplementationObject.c
+END
+Impl_Repository.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_Repository.c
+END
+Impl_PackageLocator.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_PackageLocator.c
+END
+Impl_SymmTracelessMatrix.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_SymmTracelessMatrix.c
+END
+Impl_MemopsDataTypeObject.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_MemopsDataTypeObject.c
+END
+Impl_AppDataInt.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_AppDataInt.c
+END
+Impl_MemopsObject.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_MemopsObject.c
+END
+Impl_TopObject.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_TopObject.c
+END
+Impl_AppDataLong.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/memops/api/Implementation/Impl_AppDataLong.c
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates
+END
+msdb_start.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/msdb_start.ftl
+END
+todo.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/todo.ftl
+END
+header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/header.ftl
+END
+show_substituent.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/show_substituent.ftl
+END
+builder_form_atomgroups.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/builder_form_atomgroups.ftl
+END
+show_element.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/show_element.ftl
+END
+about.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/about.ftl
+END
+msdb_index.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/msdb_index.html
+END
+contact.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/contact.ftl
+END
+msdb_styles.css
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/msdb_styles.css
+END
+footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/footer.ftl
+END
+msdb_error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/msdb_error.ftl
+END
+show_monosaccharide.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/templates/show_monosaccharide.ftl
+END

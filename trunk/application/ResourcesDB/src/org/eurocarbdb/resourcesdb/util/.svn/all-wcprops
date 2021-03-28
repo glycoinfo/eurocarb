@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util
+END
+NumberUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/NumberUtils.java
+END
+HibernateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/HibernateUtil.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/Utils.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/FileUtils.java
+END
+NumberPrefix.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/NumberPrefix.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/StringUtils.java
+END

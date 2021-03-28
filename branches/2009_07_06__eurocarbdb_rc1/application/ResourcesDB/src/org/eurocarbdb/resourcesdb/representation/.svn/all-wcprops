@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/representation
+END
+ResidueRepresentation.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/representation/ResidueRepresentation.java
+END
+Fischer.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/representation/Fischer.java
+END
+ResidueRepresentationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/representation/ResidueRepresentationType.java
+END
+SvgFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/representation/SvgFactory.java
+END
+ResidueRepresentation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/representation/ResidueRepresentation.hbm.xml
+END
+ResidueRepresentationFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/representation/ResidueRepresentationFormat.java
+END
+Haworth.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/representation/Haworth.java
+END

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-ProchiralStatus</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>ProchiralStatus</H1>
+            <H2>Setting the stereospecific status for prochiral atoms.</H2>
+        <P ALIGN="LEFT">In this window you can determine the stereospecific status of prochiral atoms/atom
+        groups. Inside the CCPN Data Model this status is determined by the link between the prochiral atoms and
+        the resonances representing them in the 'NMR world'. This window allows you to set that link, providing
+        some information is already available that describes which resonances are connect to which atoms. </P>
+        <P><B>If this screen is empty you might have to run linkResonances first!</B></P>
+        <P>To start, select the list of resonances that you want to examine from the top left pulldown menu.
+        This is necessary because constraint lists, unlike other NMR information, are stored with their own
+        fixed separate resonance-atom link. Then select the chain from the top right pulldown menu on the top.
+        The list of atoms in the main part of the window will be adapted accordingly (if you already made
+        changes to another chain they will be remembered, and implemented if the <B>'Set all'</B> button is
+        pressed).</P>
+        <P><B>Warning: The changes made in the main window will ONLY be implemented if the 'Set all' or 'Set
+        chain' buttons at the bottom of the window are pressed!</B></P>
+        <P>The main window has the following columns:</P>
+        <UL>
+        <LH>Main window</LH>
+        <LI><B>Stereospecific status</B>: press this button to change the stereospecific assignment status of the prochiral atoms. If pressed (red), the prochiral atoms are stereospecifically assigned (the corresponding resonances will also appear red), if depressed (grey), the prochiral atoms are <B>not</B> stereospecifically assigned.
+        <LI><B>Residue ccpCode</B>: the ccp residue code
+        <LI><B>Residue sequence code</B>: the sequence code for this residue (user-defined)
+        <LI><B>Prochiral atomSet names</B>: the names for the prochiral atomSets (<I>i.e.</I> only one entry per methyl group).
+        <LI><B>Connection status</B>: the connection status between the atomSets and the corresponding resonances. If this is a straight line, the atomSet on the left of the line is <I>only and directly</I> linked (via one resonanceSet) to the resonance displayed on the right of the line. If this is a cross, then both atomSets on the left are linked to both resonances on the right (this is the non-stereospecific case).
+        <LI><B>Corresponding resonances</B>: these are the resonances representing the atomSets in the 'NMR world'. If displayed in red (the stereospecific case only), the top resonance can be changed by clicking on the pulldown menu. This will also change the bottom resonance, and the resonances will be switched compared to the atomSets, effectively switching the stereospecific assignment. Chemical shifts will be displayed here when available.
+        </UL>
+        <P>Press '<B>Set all</B>' to implement the changes made in all the chains you examined.</P>
+        <P>Press '<B>Set chain</B>' to implement the changes made for the current chain only.</P>
+        <P>Press '<B>Exit</B>' to exit without changes.</P>    
+
+    </TABLE>
+  </BODY>
+</HTML>

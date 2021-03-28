@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1100/trunk/application/Eurocarbdb/src/template/action/ms/show_scan_image
+END
+report.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1100/trunk/application/Eurocarbdb/src/template/action/ms/show_scan_image/report.ftl
+END
+report_complete.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1100/trunk/application/Eurocarbdb/src/template/action/ms/show_scan_image/report_complete.ftl
+END

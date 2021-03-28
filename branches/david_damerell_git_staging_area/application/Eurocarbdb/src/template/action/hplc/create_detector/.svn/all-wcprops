@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/hplc/create_detector
+END
+input.ftl.v1
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/hplc/create_detector/input.ftl.v1
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/hplc/create_detector/success.ftl
+END
+input.select
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/hplc/create_detector/input.select
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/hplc/create_detector/error.ftl
+END
+input.or
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/hplc/create_detector/input.or
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/template/action/hplc/create_detector/input.ftl
+END

@@ -1,0 +1,34 @@
+<!DOCTYPE xwork PUBLIC "-//OpenSymphony Group//XWork 1.1.1//EN"
+"http://www.opensymphony.com/xwork/xwork-1.1.1.dtd">
+
+
+<xwork>
+
+<package name="authentication" extends="eurocarb-base">
+
+    <!--
+    action: login
+    author: mjh
+    desc:   Typical login-type action
+    -->
+    <action name="login" class="org.eurocarbdb.action.user.UserManager" method="login">       
+        <result name="input" type="freemarker"  >/template/action/user/login.ftl</result>
+        <result name="login_success" type="freemarker">/template/action/user/login_success.ftl</result>
+        <result name="logout_success" type="freemarker">/template/action/user/success.ftl</result>
+        <result name="error__already_logged_in" type="freemarker">/template/action/user/error__already_logged_in.ftl</result>
+        <result name="error__username_doesnt_exist" type="freemarker">/template/action/user/error__username_doesnt_exist.ftl</result>
+    </action>
+
+    <!--
+    action: logout
+    author: mjh
+    desc:   Typical logout-type action
+    -->
+    <action name="logout" class="org.eurocarbdb.action.user.UserManager" method="logout">       
+        <result name="logout_success" type="freemarker">/template/action/user/logout_success.ftl</result>
+        <result name="error__not_logged_in" type="freemarker">/template/action/user/error__not_logged_in.ftl</result>
+    </action>
+    
+</package>
+
+</xwork>

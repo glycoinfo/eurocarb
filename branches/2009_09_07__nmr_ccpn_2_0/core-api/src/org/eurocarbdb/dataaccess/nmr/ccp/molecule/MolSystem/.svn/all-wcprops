@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem
+END
+Residue.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem/Residue.hbm.xml
+END
+Atom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem/Atom.hbm.xml
+END
+MolSystemLinkEnd.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem/MolSystemLinkEnd.hbm.xml
+END
+Chain.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem/Chain.hbm.xml
+END
+ChainInteraction.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem/ChainInteraction.hbm.xml
+END
+ChainFragment.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem/ChainFragment.hbm.xml
+END
+NonCovalentBond.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem/NonCovalentBond.hbm.xml
+END
+MolSystemLink.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem/MolSystemLink.hbm.xml
+END
+MolSystemSysName.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem/MolSystemSysName.hbm.xml
+END
+MolSystem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem/MolSystem.hbm.xml
+END
+StructureGroup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/MolSystem/StructureGroup.hbm.xml
+END

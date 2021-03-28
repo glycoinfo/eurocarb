@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/c
+END
+copySharedObjs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/c/copySharedObjs
+END
+linkSharedObjs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/c/linkSharedObjs
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/c/__init__.py
+END

@@ -1,0 +1,469 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Extended Tutorial:CcpNmr Analysis Tutorial 1.6</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Extended Tutorial:CcpNmr Analysis Tutorial 1.6</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+        Note this tutorial uses spectrum data which is downloadable at:
+        <A HREF="ftp://www.bio.cam.ac.uk/pub/ccpnmr/analysisTutorialData.tar.gz">analysisTutorialData.tar.gz</A>
+      </P>
+      <P>
+      <H1>CcpNmr Analysis Tutorial v1.6</H1>
+      &nbsp;&nbsp;<I>Tim Stevens 22 Jan 2006</I>
+      </P>
+        <P>
+         <H2>Topics covered in this tutorial</H2>
+          <UL>
+            <LI>Using multiple shift lists
+            <LI>Copying peaks between related spectra
+            <LI>Finding sequential spin systems by matching peak positions
+            <LI>Spin system connectivity and assignment
+          </UL>
+        </P>
+       <P>
+	 <DIV STYLE="float: left;">
+          <H3>Mouse functions</H3>
+	  <TABLE>
+            <TR><TD CLASS="pageHead">Mouse Button + Keys   </TD><TD CLASS="pageHead">Function               </TD></TR>
+            <TR><TD CLASS="pageBody">Left                  </TD><TD CLASS="pageBody">Select peak            </TD></TR>
+            <TR><TD CLASS="pageBody">Left + Shift          </TD><TD CLASS="pageBody">Select peaks in region<BR>(additive)</TD></TR>
+            <TR><TD CLASS="pageBody">Left + Control        </TD><TD CLASS="pageBody">Pick peak              </TD></TR>
+            <TR><TD CLASS="pageBody">Left + Shift + Control</TD><TD CLASS="pageBody">Pick peaks in region   </TD></TR>
+            <TR><TD CLASS="pageBody">Middle                </TD><TD CLASS="pageBody">Drag canvas            </TD></TR>
+            <TR><TD CLASS="pageBody">Middle + Shift        </TD><TD CLASS="pageBody">Zoom (with up/down)    </TD></TR>
+            <TR><TD CLASS="pageBody">Right                 </TD><TD CLASS="pageBody">Canvas options menu    </TD></TR>
+          </TABLE>
+	  </DIV>
+	  <DIV>
+          <H3>Keyboard shortcuts</H3>
+          <TABLE >
+            <TR><TD CLASS="pageHead">Key</TD><TD CLASS="pageHead">Function</TD></TR>
+            <TR><TD CLASS="pageBody">Cursor</TD><TD CLASS="pageBody">Pan in window</TD></TR>
+            <TR><TD CLASS="pageBody">PgUp</TD><TD CLASS="pageBody">Zoom Out</TD></TR>
+            <TR><TD CLASS="pageBody">PgDn</TD><TD CLASS="pageBody">Zoom In</TD></TR>
+            <TR><TD CLASS="pageBody">Del</TD><TD CLASS="pageBody">Delete Selected peaks</TD></TR>
+            <TR><TD CLASS="pageBody">1-9</TD><TD CLASS="pageBody">Toggle spectrum n</TD></TR>
+            <TR><TD CLASS="pageBody"> a </TD><TD CLASS="pageBody">Assign peak</TD></TR>
+            <TR><TD CLASS="pageBody"> h </TD><TD CLASS="pageBody">Add horizontal ruler</TD></TR>
+            <TR><TD CLASS="pageBody"> m </TD><TD CLASS="pageBody">Mark cursor position</TD></TR>
+            <TR><TD CLASS="pageBody"> p </TD><TD CLASS="pageBody">Move selected peak</TD></TR>
+            <TR><TD CLASS="pageBody"> v </TD><TD CLASS="pageBody">Add vertical ruler</TD></TR>
+          </TABLE>
+	  </DIV>
+        </P>
+        <P>
+          <H3>Document Abbreviations</H3>
+          <TABLE>
+            <TR><TD CLASS="pageHead">Abbreviation</TD><TD CLASS="pageHead">Meaning</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>M:n1</PRE></TD><TD CLASS="pageBody">A top-level menu named "n1", accessed from the main Analysis menu</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>M:n1:n2</PRE></TD><TD CLASS="pageBody">A sub-menu item accessed from top-level menu "n1"</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>R:n1:n2</PRE></TD><TD CLASS="pageBody">A menu item accessed from a spectrum window with a right mouse click</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>P:n1:n2</PRE></TD><TD CLASS="pageBody">A menu item accessed from a pull-down menu named n1</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>&lt;Return&gt;</PRE></TD><TD CLASS="pageBody">The Return key</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>[text]</PRE></TD><TD CLASS="pageBody">A button named "text"</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>text[]</PRE></TD><TD CLASS="pageBody">A text entry box named "text"</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>-></PRE></TD><TD CLASS="pageBody">OS command line prompt</TD></TR>
+            <TR><TD CLASS="pageBody"><PRE>>>></PRE></TD><TD CLASS="pageBody">Python shell line prompt</TD></TR>
+          </TABLE>
+        </P>
+      <H2>1. Opening a CCPN project</H2>
+      <P>
+      Start Analysis with the tutorial project at the command line:
+      </P>
+      <PRE>-> analysis demoProject2.xml</PRE>
+      <P>
+Here, for the purposes of an efficient tutorial we are using a project with some data
+already present. The spectra have been loaded, contoured and the peaks have been picked.
+Note that when you first load the project you may be prompted for the paths to two data
+URLs (where some of the CCPN reference information resides) - this is because the location
+of the project relative to the CCPN software installation varies according to where it was
+downloaded. If <SPAN CLASS='item'>$CCPN_HOME</SPAN> is the directory in which you have
+installed the CCPN software, then you can find the correct paths for the data urls at
+<SPAN CLASS='item'>$CCPN_HOME/ccpnmr1.0/data/...</SPAN>
+      </P>
+      <H2>Using multiple shift lists</H2>
+      <P>
+      Within Analysis it is posible to have different experiments, and hence
+      their spectra, linked to separate (or combined) shift lists. Peaks in
+      spectra linked to different shift lists may be assigned to the same
+      resonance, but the chemical shift calculation for the resonance is split into
+      separate values one for each shift list. This is done when the shift of a
+      resonance is significantly different under different experimental conditions.
+      Thus the chemical shifts in one list are calculated only from the peak
+      positions of the relevant spectra.
+      </P>
+      <H3>Setting up and linking a new shift list</H3>
+      <P>
+      Here we are going to set up a new shift list for the second HSQC
+experiment present in the demonstration project. Given that the experiment is
+already loaded, all we need to do is go to the EditExperimentPopup and in the
+shift list column double click on the cell corresponding to HSQC_II. In the
+pulldown menu that appears simply select <SPAN CLASS='item'><new></SPAN>.
+You will see that a second
+shift list is now listed. Now whenever an assignment is made in HSQC_II the
+shift remains separate from the other spectra. Indeed, any resonances that
+were already connected to HSQC_II before its shift list was changed will have
+its shift recalculated in two separate groups. 
+      </P>
+      <P>
+Assignment of HSQC_II, with its separately curated shifts proceeds pretty much
+as assignment normally does, with the only major difference being that for a
+new shift list (i.e. without any assignments under it) there will be no resonance
+possibilities that can appear when assigning a peak. - The only known shifts are distinctly
+different, representing different conditions.
+      </P>
+     <P>
+To assign HSQC_II, even though we don't have shifts set, we can say that
+certain peaks in the two HSQC spectra are equivalent if we can see how they
+have moved under the different situations. Accoringly we can select a peak in
+the first HSQC and the corresponding peak in HSQC_II and propagate
+assignments. That is to say that the peak dimensions link to the same
+resonances (and hence atoms), even though things have moved. Try this for the
+peak at 7.2,119.0 ppm in HSQC and its equivalent at 7.3,120.0 ppm in HSQC_II.
+Use the mouse with a left click to ensure that these peaks (and only these
+peaks) are selected. Then in the right mouse menu select
+<SPAN CLASS='item'>R:Assign:Propagate</SPAN>.
+Note that this function usually checks to ensure resonance positions are
+within tolerances, but here with the two shift lists it cannot so the
+connection is made anyway, which is exactly what we want.
+      </P>
+      <P>
+You may like to repeat the above procedure for several HSQC peaks and their counterparts. With a few
+resonances represented in the second shift list have a look at the resonance browser <SPAN
+CLASS='item'>M:Assignment:Resonances</SPAN> to see evidence of these links.  In the resonance browser note
+that you can choose between the two different shift lists in a pulldown menu at the top, i.e set the <SPAN
+CLASS='item'>ShiftList:</SPAN> pulldown to <SPAN CLASS='item'>"ShiftList 2"</SPAN>. Note that when the
+shift list changes the resonance positions shift and the number of peaks linked also changes. Apart from the
+resonances Analysis also provides direct access to the shift measurements. Looking in the  menu at
+<SPAN CLASS='item'>M:Measurements:Measurement Lists</SPAN>, you will see that there are tables of the shift values corresponding to each
+list. Note that other types of value like T1 rates, or Hetero-NOE values will also appear as measurements in
+these tables if they are calculated.
+      </P>
+      <H3>Copying peaks between related spectra</H3>
+      <P>
+Propagating assignments between peaks by manually selecting them, although sometimes
+necessary, can be tedious if you have large number of peaks that are
+equivalent and have closely matching positions. In this instance Analysis
+provides a utility to compare all of the peak positions in two related spectra and
+transfer the resonance assignments efficiently, whilst still leaving
+sufficient scope for human intervention. 
+      </P>
+      <P>
+In this exercise we will transfer the alpha carbon assignments from the peaks
+in the HNCOCA experiment to the HNCA experiment although you could also
+try to copy the assignments from HSQC to HSQC_II. In the main menu
+we select <SPAN CLASS='item'>M:Crosspeaks:Copy Peak Assignments</SPAN>. In the CopyPeakAssignmentsPopup
+ensure that the HNCOCA experiment is set at the assignment source and that the
+HNCA is set as the assignment target.
+      </P>
+      <P>
+In the top table you will see a list of the source peaks, together with an
+indication of how many destination peaks they match within the given
+tolerances. Note that when the <SPAN CLASS='item'>Follow Peaks?</SPAN> option is set clicking on a source
+row will cause peak to be hilighted in a relvent window (<SPAN CLASS='item'>window2</SPAN>). Also, selecting the
+source will display the potentially matching destination peaks in the lower
+table. Cliking on a target row will, as before, highlight the relevant
+peak. 
+      </P>
+      <P>
+This utility can be used in one of two ways. One can manually choose the
+correct destination for each source peak and <SPAN CLASS='item'>[Assign Selected Target]</SPAN>, or if you
+trust the completeness and accuracy of the destination one can automatically
+assign the closest destination peak to each source one with
+<SPAN CLASS='item'>[Assign all Below Threshold]</SPAN>.
+      </P>
+      <P>
+Finally, if after having transferred assignments form one spectrum to another,
+you decide that the two experiments represent two different situations and that
+this warrants the chemical shifts being calculated separately, then you can move
+the destination (or source!) experiment over to a different shift list.
+      </P>
+      <H2>Sequential spin systems</H2>
+      <P>
+In this part of the tutorial we will link some, otherwise anonymous spin
+systems, as being sequentially linked. Then hopefully you will see that when we
+finally decide upon the residue identity of the spin system that a whole
+section of sequence will be swiftly assigned.
+      </P>
+      <H3>Peak position matching</H3>
+      <P>
+In order to find the peaks in the HNCOCA and HNCA experiments that allow us to
+follow the protein backbone we will use the Analysis peak matching facility.
+Starting with the HQSC peak at 7.27,121.7 ppm goto the equivalent plane in the
+1H-13C-15N window (<SPAN CLASS='item'>window2</SPAN>). - Use the right mouse 
+menu <SPAN CLASS='item'>R:Navigation:1H 13C 15N in window2</SPAN> option when
+the cursor is over the amide peak position.
+      </P>
+      <P>
+Now with the HNCOCA peak and two HNCA peaks near 65 13C ppm selected (boxes
+around the peak crosses) in the right mouse menu
+choose <SPAN CLASS='item'>R:Peak:Match peaks:In active spectra:F2</SPAN>.
+This will bring up a table of amide positions
+that have peaks matching the 13 C shift of the HNCOCA and HNCA peaks. Here select
+the filled in top three rows (use Shift when clicking to highlight a region of the table).
+Then, ensuring that <SPAN CLASS='item'>window2</SPAN> is selected in the
+<SPAN CLASS='item'>Target window</SPAN> pulldown menu click <SPAN CLASS='item'>[Display
+groups in strips]</SPAN>.
+      </P>
+      <P>
+The amide positions corresponding to the matched peaks will now appear as
+strips in the HNCOCA/HNCA window. Note that sometimes the contours aren't
+centred properly, but can be made to do so by setting the strips for second
+time. Hopefully you will see that the first of the strips corresponds to the
+original spin system <I>i</I>. The next strip has found the preceding, C-terminal
+spin system <I>i-1</I>, i.e. the HNCOCA peaks 13C shift from spin system <I>i</I> aligns
+with the intra-residue HNCA peak. The last strip contains the <I>i+1</I> spin system,
+where its HNCOCA peak has a 13C shift that matches the intra-residue HNCA peak of spin system <I>i</I>.
+      </P>
+      <P>
+We can be confident about these sequence relationships here because no other amide regions
+within the HNCA and HNCOCA peak lists matched at all. However this example was chosen
+because it is a clear and ideal situation. In reality it is possible that there will be more than one
+possibility for the <I>i-1</I> and <I>i+1</I> spin systems and these will all appear in the match table
+for further investigation.
+      </P>
+      <H3>Setting spin system connectivity</H3>
+      <P>
+Now we will link the identified <I>i</I> and <I>i-1</I> spin systems.
+So for the <I>i-1</I> HNCA peak (second strip) select
+<SPAN CLASS='item'>R:Assign:Assign peak</SPAN> and link the second dimension of
+the peak to resonance <SPAN CLASS='item'>[227]</SPAN> - the same as
+the HNCOCA peak
+at the <I>i</I> amide position. Now link this alpha carbon shift to the spin
+system <I>i-i</I> (second strip) by selecting <SPAN CLASS='item'>R:Add to spin
+system</SPAN>. Note that the HNCOCA peak in the <I>i</I> strip now displays two
+spin system numbers, one for the amide and one for the HNCOCA alpha carbon -
+to see the HNCOCA annotation clearly it is necessary to toggle the HNCA
+contours off using the <SPAN CLASS='item'>Spectra</SPAN> toggle and
+then clicking<SPAN CLASS='item'>[HNCA:110.spc]</SPAN>. Now
+to link the spin systems (<SPAN CLASS='item'>{57} & {43}</SPAN>) as sequential,
+ using the  <I>i</I> HNCOCA peak, select
+<SPAN CLASS='item'>R:Assign:Sequential Spin Systems:F1 0,F2 -1,F3 0</SPAN>. This
+effectively says that the spin system of the second HNCOCA peak dimension is
+C-terminal to its amide dimensions. 
+      </P>
+      <P>
+Cheating for the moment, with some prior information, we will assign one of
+the spin systems and see how the linking of the spin systems causes the
+assignment to spread. So, select the HNCOCA peak in the <I>i</I> strip and assign
+its amide proton to 21 Leu H. - <SPAN CLASS='item'>R:Assign:Assign peak</SPAN>
+OR use the <SPAN CLASS='item'>"a"</SPAN> key over
+the peak and then click on the resonance <SPAN CLASS='item'>{57}[113]</SPAN>
+on the left hand table, click <SPAN CLASS='item'>[Assign {57}[113]]</SPAN>
+at the bottom of the popup and then select the <SPAN CLASS='item'>[H]</SPAN>
+in the atom browser. Finally select the amide proton <SPAN CLASS='item'>Hn</SPAN>
+corresponding to Leu 21. Hopefully you will see that all three
+dimensions if the HNCA peak in the second strip are labelled as 21 Leu, and
+that the amide resonances in the first strip are now linked to 20 Ala. 
+      </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

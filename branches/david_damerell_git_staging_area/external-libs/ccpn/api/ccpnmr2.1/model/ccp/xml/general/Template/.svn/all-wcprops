@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/general/Template
+END
+AbstractProbability.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/general/Template/AbstractProbability.xml
+END
+MultiTypeValue.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/general/Template/MultiTypeValue.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/general/Template/package.xml
+END
+MultiTypesValue.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/general/Template/MultiTypesValue.xml
+END

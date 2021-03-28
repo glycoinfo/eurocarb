@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1949/trunk/application/Eurocarbdb/src/template/ui
+END
+admin_eurocarb.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/321/trunk/application/Eurocarbdb/src/template/ui/admin_eurocarb.ftl
+END
+about_eurocarb.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1461/trunk/application/Eurocarbdb/src/template/ui/about_eurocarb.ftl
+END
+tools_home.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1949/trunk/application/Eurocarbdb/src/template/ui/tools_home.ftl
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1590/trunk/application/Eurocarbdb/src/template/action/hplc/show_glycobaseRefine
+END
+success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1590/trunk/application/Eurocarbdb/src/template/action/hplc/show_glycobaseRefine/success.ftl
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1203/trunk/application/Eurocarbdb/src/template/action/hplc/show_glycobaseRefine/error.ftl
+END

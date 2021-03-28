@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.RefSampleComponent">
+  <joined-subclass
+    name="MolComponent"
+    extends="ccp.api.lims.RefSampleComponent.AbstractComponent"
+    table="REFS_MOLCOMPONENT"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">One type of component. A Molecular component (MolComponent) represents a pure component of known melecular structure. This includes most chemicals, proteins, DNA, RNA, DNA/RNA and also enzymes, constructs and primers. Restriction enzymes, primers and constructs are subtypes of MolCOmponent with additional features recorded. NaCl is a MolComponent, so is lysozyme.</meta>
+  <key column="ABSTRACTCOMPONENTID" foreign-key="REFS_MOLCOMP_ABSTCOMP_FK"/>
+  
+  <property
+    name="_casNum"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">CAS registry number (http://www.cas.org/EO/regsys.html).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CASNUM" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_empiricalFormula"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">The molecular formula of the molComponent.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="EMPIRICALFORMULA" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_molType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Type of component, on the general lines of biopolymer/polymer/nonpolymer. See MolComponentType DataType for details</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MOLTYPE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_molecularMass"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The experimental molecular mass in dalton (Da).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MOLECULARMASS" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_seqDetails"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SEQDETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_seqString"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SEQSTRING" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <many-to-one
+    name="hbLabeledMixture"
+    column="LABELEDMIXTUREID"
+    class="ccp.api.molecule.LabeledMolecule.LabeledMixture" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="REFS_MOLCOMP_LABEMIXT_FK" 
+  >
+    <meta attribute="field-description">LabeledMixture that describes MolComponent isotope labeling</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbMolecule"
+    column="MOLECULEID"
+    class="ccp.api.molecule.Molecule.Molecule" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="REFS_MOLCOMP_MOLECULE_FK" 
+  >
+    <meta attribute="field-description">The molecule used to describe the precise topology of the MolComponent.</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbMolCompFeatures" 
+    table="REFS_MOLCOMPFEATURE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbMolCompFeature</meta>
+    <cache usage="read-write"/>
+    <key column="MOLCOMPONENTID"/>
+    <one-to-many class="ccp.api.lims.RefSampleComponent.MolCompFeature"/>
+  </set>
+  
+  <set 
+    name="hbRefMolCompFeatures" 
+    table="REFS_MOLCOMPFEATURE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbRefMolCompFeature</meta>
+    <cache usage="read-write"/>
+    <key column="REFMOLCOMPONENTID"/>
+    <one-to-many class="ccp.api.lims.RefSampleComponent.MolCompFeature"/>
+  </set>
+  
+  <set 
+    name="hbSpecificLabelGroups" 
+    table="REFS_SPECIFICLABELGROUP"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbSpecificLabelGroup</meta>
+    <cache usage="read-write"/>
+    <key column="MOLCOMPONENTID"/>
+    <one-to-many class="ccp.api.lims.RefSampleComponent.SpecificLabelGroup"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

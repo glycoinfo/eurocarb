@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp
+END
+LinkAtom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/LinkAtom.hbm.xml
+END
+NamingSystem.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/NamingSystem.hbm.xml
+END
+ChemBond.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/ChemBond.hbm.xml
+END
+NonStdChemComp.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/NonStdChemComp.hbm.xml
+END
+AbstractChemAtom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/AbstractChemAtom.hbm.xml
+END
+ChemAngle.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/ChemAngle.hbm.xml
+END
+LinkEnd.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/LinkEnd.hbm.xml
+END
+Stereochemistry.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/Stereochemistry.hbm.xml
+END
+ChemTorsion.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/ChemTorsion.hbm.xml
+END
+ChemTorsionSysName.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/ChemTorsionSysName.hbm.xml
+END
+ChemCompSysName.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/ChemCompSysName.hbm.xml
+END
+ChemComp.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/ChemComp.hbm.xml
+END
+ChemAtom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/ChemAtom.hbm.xml
+END
+AtomSysName.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/AtomSysName.hbm.xml
+END
+ChemCompVar.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/ChemCompVar.hbm.xml
+END
+StdChemComp.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/StdChemComp.hbm.xml
+END
+ChemAtomSet.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/molecule/ChemComp/ChemAtomSet.hbm.xml
+END

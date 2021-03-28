@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem
+END
+NonCovalentBond.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/NonCovalentBond.xml
+END
+MolSystemLink.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/MolSystemLink.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/package.xml
+END
+MolSystem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/MolSystem.xml
+END
+MolSystemSysName.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/MolSystemSysName.xml
+END
+StructureGroup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/StructureGroup.xml
+END
+Residue.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/Residue.xml
+END
+Atom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/Atom.xml
+END
+MolSystemLinkEnd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/MolSystemLinkEnd.xml
+END
+Chain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/Chain.xml
+END
+ChainInteraction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/ChainInteraction.xml
+END
+ChainFragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/molecule/MolSystem/ChainFragment.xml
+END

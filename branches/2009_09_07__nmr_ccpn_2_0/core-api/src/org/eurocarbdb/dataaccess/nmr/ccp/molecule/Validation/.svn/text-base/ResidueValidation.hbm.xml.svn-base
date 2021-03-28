@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.Validation">
+  <joined-subclass
+    name="ResidueValidation"
+    extends="ccp.api.molecule.Validation.ValidationResult"
+    table="VALD_RESIDUEVALIDATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Validation result for one or more Residues</meta>
+  <key column="VALIDATIONRESULTID" foreign-key="VALD_RESIVALI_VALIRESU_FK"/>
+  
+  <set 
+    name="hbResidues" 
+    table="VALD_RESIVALI2RESIDUES"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Residues being validated</meta>
+    <meta attribute="base-name">hbResidue</meta>
+    <cache usage="read-write"/>
+    <key column="RESIDUEVALIDATIONID" foreign-key="COOR_RESIDUE_RESIVALI_FK"/>
+    <many-to-many column="RESIDUEID" class="ccp.api.molecule.MolStructure.Residue" foreign-key="VALD_RESIVALI_RESIDUES_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

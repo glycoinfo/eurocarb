@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/util/carbbank
+END
+CarbbankManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/util/carbbank/CarbbankManager.java
+END
+CarbbankParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/util/carbbank/CarbbankParser.java
+END
+CarbbankRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/util/carbbank/CarbbankRecord.java
+END
+CarbbankTaxonomy.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/util/carbbank/CarbbankTaxonomy.java
+END

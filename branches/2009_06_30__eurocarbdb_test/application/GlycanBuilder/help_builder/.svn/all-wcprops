@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycanBuilder/help_builder
+END
+HelpTOC.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycanBuilder/help_builder/HelpTOC.xml
+END
+HelpMap.jhm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycanBuilder/help_builder/HelpMap.jhm
+END
+HelpBuilder.hs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/GlycanBuilder/help_builder/HelpBuilder.hs
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/bmrb
+END
+SaveFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/bmrb/SaveFrame.py
+END
+File.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/bmrb/File.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/bmrb/__init__.py
+END
+Utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/bmrb/Utils.py
+END
+TagTable.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/bmrb/TagTable.py
+END
+Text.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/format/nmrStar/bmrb/Text.py
+END

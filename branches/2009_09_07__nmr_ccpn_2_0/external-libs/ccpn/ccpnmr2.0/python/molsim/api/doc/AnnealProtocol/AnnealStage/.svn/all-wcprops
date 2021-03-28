@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage
+END
+initialTemp.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/initialTemp.html
+END
+finalTemp.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/finalTemp.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/serial.html
+END
+annealProtocol.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/annealProtocol.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/name.html
+END
+function.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/function.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/index.html
+END
+numSubSteps.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/numSubSteps.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/parent.html
+END
+functionParams.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/functionParams.html
+END
+timeStep.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/timeStep.html
+END
+potentialScales.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/potentialScales.html
+END
+timeStepScaling.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/timeStepScaling.html
+END
+numSteps.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/AnnealProtocol/AnnealStage/numSteps.html
+END

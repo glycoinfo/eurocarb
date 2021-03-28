@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.LabeledMolecule">
+  <class
+    name="LabeledMixture"
+    table="LMOL_LABELEDMIXTURE"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Mixture of labeled species.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.molecule.LabeledMolecule.LabeledMolecule"
+    not-null="true"
+    unique="false"
+    foreign-key="LMOL_LABEMIXT_LABEMOLE_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="labeledMixtureUniqueKey" />
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="LMOL_LABEMIXT2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbAverageComposition"
+    column="AVERAGECOMPOSITIONID"
+    class="ccp.api.molecule.LabeledMolecule.MolLabel" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="LMOL_LABEMIXT_AVERCOMP_FK" 
+  >
+    <meta attribute="field-description">Average composition of LabeledMixture. The average composition can also be derived from the MolLabelFractions, but the averageComposition takes precedence in case of conflict.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbLabeledMolecule"
+    column="LABELEDMOLECULEID"
+    class="ccp.api.molecule.LabeledMolecule.LabeledMolecule" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="LMOL_LABEMIXT_LABEMOLE_FK" 
+    unique-key="labeledMixtureUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbMolLabelFractions" 
+    table="LMOL_MOLLABELFRACTION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbMolLabelFraction</meta>
+    <cache usage="read-write"/>
+    <key column="LABELEDMIXTUREID"/>
+    <one-to-many class="ccp.api.molecule.LabeledMolecule.MolLabelFraction"/>
+  </set>
+  
+  <set 
+    name="hbMolComponents" 
+    table="REFS_MOLCOMPONENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">MolComponents labeled according to LabeledMixture</meta>
+    <meta attribute="base-name">hbMolComponent</meta>
+    <cache usage="read-write"/>
+    <key column="LABELEDMIXTUREID"/>
+    <one-to-many class="ccp.api.lims.RefSampleComponent.MolComponent"/>
+  </set>
+  
+  <set 
+    name="hbExperiments" 
+    table="NMR_EXPERIMENT2LABEMIXT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Nmr.Experiments labeled according to LabeledMixture</meta>
+    <meta attribute="base-name">hbExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="LABELEDMIXTUREID" foreign-key="NMR_EXPERIMENT_LABEMIXT_FK"/>
+    <many-to-many column="EXPERIMENTID" class="ccp.api.nmr.Nmr.Experiment" foreign-key="LMOL_LABEMIXT_EXPE_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

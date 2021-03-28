@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrConstraint">
+  <joined-subclass
+    name="CsaConstraintList"
+    extends="ccp.api.nmr.NmrConstraint.AbstractConstraintList"
+    table="NMRC_CSACONSTRAINTLIST"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">N/A</meta>
+  <key column="ABSTRACTCONSTRAINTLISTID" foreign-key="NMRC_CSACONSLIST_ABSTCONSLIST_FK"/>
+  
+  <property
+    name="_isotopeCode"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">String indicating Isotope (e.g. 13C, 3He, 2H, 235U  ...) to which all chemical shift anisotropies in list should belong</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISOTOPECODE" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <set 
+    name="hbConstraints" 
+    table="NMRC_CSACONSTRAINT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbConstraint</meta>
+    <cache usage="read-write"/>
+    <key column="PARENTLISTID"/>
+    <one-to-many class="ccp.api.nmr.NmrConstraint.CsaConstraint"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

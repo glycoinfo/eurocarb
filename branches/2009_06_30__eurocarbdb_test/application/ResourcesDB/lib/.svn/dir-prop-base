@@ -1,0 +1,22 @@
+K 10
+svn:ignore
+V 322
+jdom-1.0.jar
+eurocarbdb_sugar_framework.jar
+dom4j-1.6.1.jar
+antlr-2.7.6.jar
+asm-attrs.jar
+asm.jar
+cglib-2.1.3.jar
+commons-collections-2.1.1.jar
+commons-logging-1.0.4.jar
+hibernate3.jar
+jta.jar
+log4j-1.2.11.jar
+cdk-0.99.1.jar
+jniinchi-0.4.jar
+postgresql-8.1-408.jdbc2.jar
+tmp_periodic.txt
+Substitutents_template_Martin.xml
+
+END

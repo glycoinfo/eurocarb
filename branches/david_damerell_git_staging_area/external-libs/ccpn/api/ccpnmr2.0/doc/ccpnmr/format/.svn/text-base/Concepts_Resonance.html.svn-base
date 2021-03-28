@@ -1,0 +1,311 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-Concepts:Resonance</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #C0C0FF;
+                background-color: #E0E0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr FormatConverter Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_FormatConverterinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoFormatConverter.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MenuOverview.html">Main menu</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>F.A.Q.</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="QuickStart.html">Quick start</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Tutorial.html">Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Examples.html">Examples</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AcqProcParsEditAzara.html">FormatConverter</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MeasurementSelect.html">FormatConverter selections</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Other</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Concepts_Resonance.html">Concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Glossary.html">Glossary</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Concepts:Resonance</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Other:</NOBR> <NOBR>Concepts</NOBR></TD></TR><TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="Concepts_Resonance.html">Resonance</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Concepts_ResonanceAtomLinks.html">ResonanceAtomLinks</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Concepts_LinkResonances.html">LinkResonances</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>        <H2>What does 'resonance' mean in the Data Model?</H2>
+        <P>The Data Model separates the assignment of NMR information and the assignment to atoms, so
+        that it is possible to group NMR information arising from the same atom(s) without knowing
+        which atom(s) are involved. The Data Model handles this via the Resonance object (see figure
+        below). A Data Model Resonance transcends the traditional meaning attributed to the word in
+        NMR: <B>one Resonance object can have many different shift values belonging to different
+        experiments</B>.</P>
+        <P CLASS="legend">
+            <IMG SRC="../../graphics/ccp_resonance.jpg"><BR>
+        </P>
+        <P>In other words, the Resonance object links all NMR information, and makes it possible to
+        directly connect chemical shifts, peak assignments, constraints, ... . In this way the
+        assignment of the NMR data and the assignment to atoms are separated. This also means that
+        when the atom assignment for a Resonance is changed (e.g. a different stereospecific
+        assignment), all NMR information also automatically 'knows' about this new atom assignment
+        state.</P>
+        <P>&nbsp;</P>
+        <H2>An example of Resonances at work...</H2>
+        <P>Consider the following example: you have identified two separate signals in NMR Spectrum
+        1, and assigned the first one to <FONT COLOR=0000ff>Resonance 'A' (blue)</FONT>, the second
+        one to <FONT COLOR=ff0000>Resonance 'B' (red)</FONT>. In spectrum 1, <FONT
+        COLOR=0000ff>Resonance 'A'</FONT> has chemical shift value 7.89 ppm, <FONT
+        COLOR=ff0000>Resonance 'B'</FONT> is at 3.22 ppm. At this stage you know nothing about which
+        atoms these Resonances correspond to.</P>
+        <IMG SRC="../../graphics/ccp_resonanceExample.jpg"><BR>
+        <P>You then peak pick Spectrum 1. You know that for peaks 322 and 323 the first dimension
+        <I>(dim. 1)</I> corresponds to the signal at 3.22 ppm (in Spectrum 1), so you connect the
+        first dimension for these peaks to <FONT COLOR=ff0000>Resonance 'B'</FONT>. Similarly, for
+        peak 377 you know that the third dimension <I>(dim. 3)</I> corresponds to the signal at 7.89
+        ppm, so you connect the third dimension for this peak to <FONT COLOR=0000ff>Resonance
+        'A'</FONT>.</P>
+        <P>At this stage, you know the following:</P>
+        <UL>
+        <LI><FONT COLOR=0000ff>Resonance 'A'</FONT>:
+            <UL>
+            <LI> Chemical shift value of 7.89 ppm in Spectrum 1
+            <LI> Assigned to the third dimension of peak 377 in Peak list 1
+            </UL>
+        <LI><FONT COLOR=ff0000>Resonance 'B'</FONT>:
+            <UL>
+            <LI> Chemical shift value of 3.22 ppm in Spectrum 1
+            <LI> Assigned to the first dimension of peaks 322 and 323 in Peak list 1
+            </UL>
+        </UL>
+        <P>You now record Spectrum 2. Because you recorded this spectrum at, for example, a different
+        temperature or pH, it has changed compared to Spectrum 1. By comparing the two, you
+        see that the signal at 3.22 ppm is now at 3.26 ppm, and the signal at 7.89 ppm has shifted to
+        8.03 ppm. The signal, of course, still comes from the same source, so you connect the
+        chemical shift value of 8.03 ppm to <FONT COLOR=0000ff>Resonance 'A'</FONT>, and the chemical
+        shift value of 3.26 ppm to <FONT COLOR=ff0000>Resonance 'B'</FONT>.</P>
+        <P>At this stage, you know the following:</P>
+        <UL>
+        <LI><FONT COLOR=0000ff>Resonance 'A'</FONT>:
+            <UL>
+            <LI> Chemical shift value of 7.89 ppm in Spectrum 1
+            <LI> Chemical shift value of 8.03 ppm in Spectrum 2
+            <LI> Assigned to the third dimension of peak 377 in Peak list 1
+            </UL>
+        <LI><FONT COLOR=ff0000>Resonance 'B'</FONT>:
+            <UL>
+            <LI> Chemical shift value of 3.22 ppm in Spectrum 1
+            <LI> Chemical shift value of 3.26 ppm in Spectrum 2
+            <LI> Assigned to the first dimension of peaks 322 and 323 in Peak list 1
+            </UL>
+        </UL>
+        <P>You then start a sequential assignment based on the information you have, and find out
+        that <FONT COLOR=0000ff>Resonance 'A'</FONT> corresponds to the HN atom of residue 11 in
+        chain A. You connect Resonance 'A' to this Atom in the Data Model (click <A
+        href="Concepts_ResonanceAtomLinks.html">here</A> to see how this works), and this way assign it
+        unambiguously. All the NMR information you previously linked to <FONT COLOR=0000ff>Resonance
+        'A'</FONT> is now connected to the correct atom. For <FONT COLOR=ff0000>Resonance 'B'</FONT>,
+        you do not have a definite assignment, but you think it is the HB atom of residue 15 in chain
+        A, so start using 'A.15.HB?', <I>a plain text string</I>, as the <I>name</I> of <FONT
+        COLOR=ff0000>Resonance 'B'</FONT>. This is <B>not</B> the same as connecting it to the HB
+        atom of residue 15 in chain A, as 'A.15.HB?' is only a string, and though it might carry
+        useful information for the user, it does not unambiguously describe the Atom assignment of
+        Resonance 'B'. You might later decide that <FONT COLOR=ff0000>Resonance 'B'</FONT> actually
+        corresponds to atoms HD1 and HD2 of residue 25 - once you connect <FONT
+        COLOR=ff0000>Resonance 'B'</FONT> to these Atoms, this is all you need to know, and the name
+        of the Resonance ('A.15.HB?') is meaningless.</P>
+        <P>The situation is then the following:</P>
+        <UL>
+        <LI><FONT COLOR=0000ff>Resonance 'A', corresponding to atom HN in residue 11 of chain A:</FONT>:
+            <UL>
+            <LI> Chemical shift value of 7.89 ppm in Spectrum 1
+            <LI> Chemical shift value of 8.03 ppm in Spectrum 2
+            <LI> Assigned to the third dimension of peak 377 in Peak list 1
+            </UL>
+        <LI><FONT COLOR=ff0000>Resonance 'A.15.HB?'</FONT>:
+            <UL>
+            <LI> Chemical shift value of 3.22 ppm in Spectrum 1
+            <LI> Chemical shift value of 3.26 ppm in Spectrum 2
+            <LI> Assigned to the first dimension of peaks 322 and 323 in Peak list 1
+            </UL>
+        </UL>
+        <P>If you would then make a constraint list based on the information coming from your
+        spectra, you also link the constraint item members to Resonances. In this case, however, the
+        Atom assignment situation is stored separately <I>at the time of the creation of the
+        constraint list</I>, so that a constraint list never changes. If you change your mind about
+        an assignment, you have to create a new constraint list.</P>
+        <H2>How is it used in the FormatConverter?</H2>
+        <P>In the FormatConverter, all NMR related information that is imported is first linked to
+        resonances. The original chain/residue/atom names from the external format are used as the
+        temporary 'key' for each resonance.</P>
+        <P>On the other hand, sequence information is read in from an external format to create
+        molecules, a molecular system, chains, residues and atoms in the Data Model</P>
+        <P>At this stage, you have on one hand the NMR information, linked to Resonances, and on the
+        other hand information about all the Atoms in the molecular system. There are as yet no links
+        between the Resonances and the Atoms.</P>
+        <P>The <A href="Concepts_LinkResonances.html">linkResonances</A> script (also part of the FormatConverter suite) is then used to link
+        Resonances to Atoms. Once this is done, you can export the data in any external format, as
+        the Resonance-Atom link is now unambiguously described.</P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

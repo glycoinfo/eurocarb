@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1175/trunk/application/GlycanBuilder/src/conf
+END
+residue_placements_cfg
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1/trunk/application/GlycanBuilder/src/conf/residue_placements_cfg
+END
+linkage_styles_cfg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1/trunk/application/GlycanBuilder/src/conf/linkage_styles_cfg
+END
+terminal_types
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/548/trunk/application/GlycanBuilder/src/conf/terminal_types
+END
+residue_styles_uoxfcol
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1175/trunk/application/GlycanBuilder/src/conf/residue_styles_uoxfcol
+END
+residue_styles_uoxf
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/47/trunk/application/GlycanBuilder/src/conf/residue_styles_uoxf
+END
+isotopes
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/549/trunk/application/GlycanBuilder/src/conf/isotopes
+END
+residue_styles_text
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/621/trunk/application/GlycanBuilder/src/conf/residue_styles_text
+END
+linkage_styles_cfglink
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/535/trunk/application/GlycanBuilder/src/conf/linkage_styles_cfglink
+END
+residue_styles_cfgbw
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/621/trunk/application/GlycanBuilder/src/conf/residue_styles_cfgbw
+END
+residue_placements_uoxf
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/application/GlycanBuilder/src/conf/residue_placements_uoxf
+END
+core_types
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/611/trunk/application/GlycanBuilder/src/conf/core_types
+END
+linkage_styles_uoxf
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1/trunk/application/GlycanBuilder/src/conf/linkage_styles_uoxf
+END
+cross_ring_fragment_types
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/621/trunk/application/GlycanBuilder/src/conf/cross_ring_fragment_types
+END
+residue_styles_cfg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/621/trunk/application/GlycanBuilder/src/conf/residue_styles_cfg
+END
+atoms
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/549/trunk/application/GlycanBuilder/src/conf/atoms
+END
+residue_types
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/621/trunk/application/GlycanBuilder/src/conf/residue_types
+END
+compositions
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/549/trunk/application/GlycanBuilder/src/conf/compositions
+END

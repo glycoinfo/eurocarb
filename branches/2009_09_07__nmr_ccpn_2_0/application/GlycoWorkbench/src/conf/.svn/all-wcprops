@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/conf
+END
+glycosciences_dict.gwd
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/conf/glycosciences_dict.gwd
+END
+sim_human_ng_grammar.gwg
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/conf/sim_human_ng_grammar.gwg
+END
+peak_finder_ax.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/conf/peak_finder_ax.xml
+END
+carbbankraw_dict.gwd
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/conf/carbbankraw_dict.gwd
+END
+peak_finder_masses.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/conf/peak_finder_masses.xml
+END
+cfg_dict.gwd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/conf/cfg_dict.gwd
+END
+gag_backbones
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/conf/gag_backbones
+END
+glycomedb_dict.gwd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/src/conf/glycomedb_dict.gwd
+END

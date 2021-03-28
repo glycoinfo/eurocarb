@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrExpPrototype
+END
+Nmrx_SystematicName.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrExpPrototype/Nmrx_SystematicName.h
+END
+Nmrx_ExpStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrExpPrototype/Nmrx_ExpStep.h
+END
+Nmrx_RefExperiment.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrExpPrototype/Nmrx_RefExperiment.h
+END
+Nmrx_ExpGraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrExpPrototype/Nmrx_ExpGraph.h
+END
+Nmrx_NmrExpPrototype.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrExpPrototype/Nmrx_NmrExpPrototype.h
+END
+Nmrx_RefExpDimRef.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrExpPrototype/Nmrx_RefExpDimRef.h
+END
+Nmrx_ExpTransfer.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrExpPrototype/Nmrx_ExpTransfer.h
+END
+Nmrx_ExpMeasurement.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrExpPrototype/Nmrx_ExpMeasurement.h
+END
+Nmrx_RefExpDim.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrExpPrototype/Nmrx_RefExpDim.h
+END
+Nmrx_AtomSite.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrExpPrototype/Nmrx_AtomSite.h
+END

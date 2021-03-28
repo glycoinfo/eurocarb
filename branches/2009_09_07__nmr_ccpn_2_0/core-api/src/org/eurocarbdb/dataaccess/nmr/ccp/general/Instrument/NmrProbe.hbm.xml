@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Instrument">
+  <joined-subclass
+    name="NmrProbe"
+    extends="ccp.api.general.Instrument.AbstractInstrument"
+    table="INST_NMRPROBE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">NMR probe used. </meta>
+  <key column="ABSTRACTINSTRUMENTID" foreign-key="INST_NMRPROBE_ABSTINST_FK"/>
+  
+  <property
+    name="_diameter"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Probe diameter in cm.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DIAMETER" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_probeType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Probe type. </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PROBETYPE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <set 
+    name="hbExperiments" 
+    table="NMR_EXPERIMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Experiments acquired with probe.</meta>
+    <meta attribute="base-name">hbExperiment</meta>
+    <cache usage="read-write"/>
+    <key column="PROBEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Experiment"/>
+  </set>
+  
+  <set 
+    name="hbCitations" 
+    table="INST_NMRPROBE2CITATIONS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Citations describing Nmr Probe</meta>
+    <meta attribute="base-name">hbCitation</meta>
+    <cache usage="read-write"/>
+    <key column="NMRPROBEID" foreign-key="CITA_CITATION_NMRPROBES_FK"/>
+    <many-to-many column="CITATIONID" class="ccp.api.general.Citation.Citation" foreign-key="INST_NMRPROBE_CITATIONS_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>About GlycoWorkbench</title>
+  </head>
+  <body bgcolor="#ffffff">		
+    <div align="center">
+      <img src="logo.png" width="98" height="64" alt=""></img>
+      <br><br>
+      <font size="+1">
+	<b>GlycoWorkbench ver 1.2</b><br>
+	<b>build 4105</b>
+      </font>			
+      <br><br>			  
+      <p>
+	A glycomic tool for semi-automatic annotation of mass spectra
+	of glycans. <i>GlycoWorkbench</i> is part of the European
+	Carbohydrates DataBase project (<a
+	href="http://www.eurocarbdb.org/">http://www.eurocarbdb.org/</a>).
+	For questions and comments please contact: <a
+	href="mailto:a.ceroni@imperial.ac.uk?subject=GlycoWorkbench">a.ceroni@imperial.ac.uk</a>
+      </p>
+      <br>
+      <p>
+	<i>Glyco-Peakfinder</i> is a tool for composition analysis of
+	glycan MS spectra. The tool is part of EUROCarbDB and is also
+	available at <a
+	href="http://www.eurocarbdb.org/ms-tools">http://www.eurocarbdb.org/ms-tools</a>.
+	For questions and comments please use the on-line form.
+      </p> 
+    </div> 
+  </body> 
+</html>

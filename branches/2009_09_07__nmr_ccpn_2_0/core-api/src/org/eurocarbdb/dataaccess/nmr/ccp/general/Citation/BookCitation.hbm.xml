@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Citation">
+  <joined-subclass
+    name="BookCitation"
+    extends="ccp.api.general.Citation.Citation"
+    table="CITA_BOOKCITATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Citation (litterature reference) for book or book chapter.</meta>
+  <key column="CITATIONID" foreign-key="CITA_BOOKCITA_CITATION_FK"/>
+  
+  <property
+    name="_bookSeries"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Series of which book forms part</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="BOOKSERIES" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_bookTitle"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Title of book</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="BOOKTITLE" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_isbn"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">ISBN code for book</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISBN" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_publisher"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Book publisher</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PUBLISHER" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_publisherCity"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">City of book publisher</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PUBLISHERCITY" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_volume"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Volume 'number' (not an integer)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VOLUME" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

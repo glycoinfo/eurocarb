@@ -1,0 +1,271 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Core concepts:Assignment and Resonance Objects</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Core concepts:Assignment and Resonance Objects</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Software:</NOBR> <NOBR>Core concepts</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="index.html">index</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="About.html">About</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_DataModel.html">Data Model</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_CcpnCcpNmrCcpMemops.html">Ccpn/CcpNmr/Ccp/Memops</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_ProjectsandFiles.html">Projects and Files</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_TheAnalysisProgram.html">The Analysis Program</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_FormatConverter.html">Format Converter</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_ExperimentsandSpectra.html">Experiments and Spectra</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="Coreconcepts_AssignmentandResonanceObjects.html">Assignment and Resonance Objects</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_MolecularSystems.html">Molecular Systems</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_SpectrumWindows.html">Spectrum Windows</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_GraphicalWidgets.html">Graphical Widgets</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <H2>Assignment steps</H2>
+      <P>
+      Assignment in CcpNmr Analysis is a two-step process. A traditional view of NMR assignment is as the
+      connection of chemical shifts to particular atoms. This is still true of the CCPN Data Model, but by
+      recording several intermediate steps between chemical shift and atom it is able to represent
+      ambiguous, intermediate and otherwise poorly-defined assignment status. The critical point within these
+      intermediate steps is a central CCPN Data Model object called Resonance.
+      </P>
+      <H2>Resonances</H2>
+      <P>
+      The Data Model Resonance object has no obvious real-world counterpart (unlike Atom, Spectrum etc.).
+      It can be thought of as both a stand-in for a an atom or group of atoms (i.e. even anonymous) or a
+      tag for chemical shifts. However, it is more proper to think of it as the phenomenon arising from
+      the resonance of atom(s) which gives rise to the experimentally recorded chemical shift(s). It does
+      not represent a single chemical shift because the value of chemical shift varies with according to
+      experimental conditions. It does not represent a specific atom because multiple equivalent atoms can
+      give rise to a single signal. Also, the resonating atoms may not be known, and yet the
+      phenomenon can still be identified and correlated within and across spectra.
+      </P>
+      <P>
+      Accordingly, within Analysis the two steps of assignment are:
+      </P>
+     <TABLE>
+       <TR>
+        <TD CLASS="pageHead">1</TD>
+        <TD CLASS="pageBody">
+        The connection of chemical shifts, represented by crosspeak positions in a given dimension, to a
+        Resonance object. Connection of a peak dimension to multiple Resonances results in ambiguous
+        assignment.
+        </TD>
+       </TR>
+       <TR><TD></TD></TR>
+       <TR>
+        <TD CLASS="pageHead">2</TD>
+        <TD CLASS="pageBody">
+        The connection of atoms in atom sets to Resonances. Atom sets represent NMR equivalent groups
+        like methyls and fast rotating aromatic rings. When atom sets are connected to more than one
+        Resonance the situation represents the ambiguity involved with prochiral atoms; for example an HB2
+        could have either one of two hydrogen beta shifts, but its not known which.
+        </TD>
+       </TR>
+      </TABLE>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

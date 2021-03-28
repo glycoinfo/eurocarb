@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/database/scripts/lib/HTML
+END
+JsTree.pm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/database/scripts/lib/HTML/JsTree.pm
+END
+ExtendedJsTree.pm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/database/scripts/lib/HTML/ExtendedJsTree.pm
+END
+DynamicTemplate.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/database/scripts/lib/HTML/DynamicTemplate.pm
+END
+JsNode.pm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/database/scripts/lib/HTML/JsNode.pm
+END

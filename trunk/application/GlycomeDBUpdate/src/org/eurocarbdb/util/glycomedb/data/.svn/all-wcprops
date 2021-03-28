@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1929/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/data
+END
+TaxonTreeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1929/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/data/TaxonTreeType.java
+END
+DataExport.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1929/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/data/DataExport.java
+END
+ErrorType.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1929/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/data/ErrorType.java
+END
+StructureListType.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1929/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/data/StructureListType.java
+END
+DatabaseListType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1929/trunk/application/GlycomeDBUpdate/src/org/eurocarbdb/util/glycomedb/data/DatabaseListType.java
+END

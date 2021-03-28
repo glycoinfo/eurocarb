@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-AcqProcParsEditRefPars</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>AcqProcParsEditRefPars</H1>
+            <H2>Reference data
+        </H2>
+        <P ALIGN="LEFT">This window allows you to edit the reference settings for an experiment. Press
+        '<B>Update</B>' to update the automatically changed values. The '<B>Reset</B>' button does not work at
+        present. </P>
+        <UL>
+        <LI><B>Cycle reference</B>: Cycles between reference settings for this dimension (<I>e.g.</I> when this
+            dimension contains combined <sup>13</sup>C/<sup>15</sup>N information you can toggle between the
+            <sup>13</sup>C and <sup>15</sup>N settings. Note that this will affect the reference settings for
+            processing parameters.).
+        <LI><B>Carrier frequency</B>: Carrier frequency for this reference in each dimension.
+        <LI><B>Base frequency</B>: Base frequency for this reference in each dimension.
+        <LI><B>Nucleus</B>: Nucleus type for each this reference in each dimension.
+        <LI><B>Folded</B>: Toggle on if there are folded signals for this reference in this dimension.
+        </UL>
+
+    </TABLE>
+  </BODY>
+</HTML>

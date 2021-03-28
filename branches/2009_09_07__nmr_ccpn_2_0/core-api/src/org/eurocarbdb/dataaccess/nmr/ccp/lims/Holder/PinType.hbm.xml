@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Holder">
+  <joined-subclass
+    name="PinType"
+    extends="ccp.api.lims.Holder.AbstractHolderType"
+    table="HOLD_PINTYPE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">The type of pin for a crystal container</meta>
+  <key column="ABSTRACTHOLDERTYPEID" foreign-key="HOLD_PINTYPE_ABSTHOLDTYPE_FK"/>
+  
+  <property
+    name="_length"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The length of pin + hat, in millimeter.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LENGTH" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_loopLength"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The length of the loop containing the Crystal, in millimeter.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LOOPLENGTH" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_loopType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">The type of the loop.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LOOPTYPE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_wireWidth"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The width of the loop wire, in micrometer.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="WIREWIDTH" sql-type="FLOAT" not-null="false"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

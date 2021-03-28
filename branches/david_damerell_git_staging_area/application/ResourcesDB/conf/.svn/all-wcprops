@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/conf
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/conf/config.xml
+END
+hibernate.heidelberg.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/conf/hibernate.heidelberg.cfg.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/conf/log4j.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/conf/hibernate.cfg.xml
+END

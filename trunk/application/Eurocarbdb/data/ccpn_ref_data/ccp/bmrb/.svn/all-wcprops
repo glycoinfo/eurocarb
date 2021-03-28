@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/844/trunk/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb
+END
+rna.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/843/trunk/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/rna.pdb
+END
+gen_atom_list_allaa.star
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/843/trunk/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/gen_atom_list_allaa.star
+END
+dna.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/843/trunk/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/dna.pdb
+END
+pseudoatom_nom.tbl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/843/trunk/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/pseudoatom_nom.tbl
+END
+atom_nom.tbl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/843/trunk/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/atom_nom.tbl
+END
+gen_atom_list_allnuc.star
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/843/trunk/application/Eurocarbdb/data/ccpn_ref_data/ccp/bmrb/gen_atom_list_allnuc.star
+END

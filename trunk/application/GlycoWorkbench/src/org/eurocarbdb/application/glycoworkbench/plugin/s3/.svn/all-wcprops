@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3
+END
+S3Plugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/S3Plugin.java
+END
+Cockpit.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/Cockpit.java
+END
+CockpitPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1930/trunk/application/GlycoWorkbench/src/org/eurocarbdb/application/glycoworkbench/plugin/s3/CockpitPreferences.java
+END

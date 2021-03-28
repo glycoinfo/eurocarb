@@ -1,0 +1,32 @@
+# should work if suitably edited for Linux, Irix, Solaris, OSX
+
+# general rules:
+# *_LIB = required library or libraries (use -l or equivalen)
+# *_INCLUDE_FLAGS = where to find include files (use -I)
+# *_LIB_FLAGS = where to find libraries (use -L)
+
+# the C compiler
+CC = cc
+
+# compiler flags
+
+CFLAGS = -O
+
+# API
+API_LIB = -lccp
+
+# Python
+PYTHON_DIR = /sw
+PYTHON_VERSION = 2.4
+# for OSX (and others??) seem to need below
+PYTHON_LIB = -lpthread -ldl -lpython$(PYTHON_VERSION)
+# for Linux (and others??) seem to need below
+#PYTHON_LIB = -lm -lutil -lpthread -ldl -lpython$(PYTHON_VERSION)
+# for Windows seem to need below (or similar)
+#PYTHON_LIB = -lPython24
+PYTHON_INCLUDE_FLAGS = -I$(PYTHON_DIR)/include/python$(PYTHON_VERSION)
+# for Unix seem to need below
+PYTHON_LIB_FLAGS = -L$(PYTHON_DIR)/lib/python$(PYTHON_VERSION)/config
+# for Windows seem to need below (or similar)
+# PYTHON_LIB_FLAGS = -L$(PYTHON_DIR)/libs
+

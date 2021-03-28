@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Instrument">
+  <joined-subclass
+    name="Instrument"
+    extends="ccp.api.general.Instrument.AbstractInstrument"
+    table="INST_INSTRUMENT"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Instrument used.</meta>
+  <key column="ABSTRACTINSTRUMENTID" foreign-key="INST_INSTRUMENT_ABSTINST_FK"/>
+  
+  <set 
+    name="hbMethods" 
+    table="METH_METHOD"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Methods implemented on a given instrument.</meta>
+    <meta attribute="base-name">hbMethod</meta>
+    <cache usage="read-write"/>
+    <key column="INSTRUMENTID"/>
+    <one-to-many class="ccp.api.general.Method.Method"/>
+  </set>
+  
+  <set 
+    name="hbInstrumentTypes" 
+    table="CLAS_INSTTYPE2INST"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">List of instrument type associated to an instrument.</meta>
+    <meta attribute="base-name">hbInstrumentType</meta>
+    <cache usage="read-write"/>
+    <key column="INSTRUMENTID" foreign-key="CLAS_INSTTYPE_INST_FK"/>
+    <many-to-many column="INSTRUMENTTYPEID" class="ccp.api.lims.Classification.InstrumentType" foreign-key="INST_INSTRUMENT_INSTTYPE_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

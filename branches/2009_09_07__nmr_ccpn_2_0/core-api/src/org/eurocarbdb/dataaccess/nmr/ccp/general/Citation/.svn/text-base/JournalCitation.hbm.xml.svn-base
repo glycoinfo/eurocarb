@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Citation">
+  <joined-subclass
+    name="JournalCitation"
+    extends="ccp.api.general.Citation.Citation"
+    table="CITA_JOURNALCITATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Citation (litterature reference) to Journal article</meta>
+  <key column="CITATIONID" foreign-key="CITA_JOURCITA_CITATION_FK"/>
+  
+  <property
+    name="_astm"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">ASTM code .</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ASTM" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_csd"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">CSD code</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CSD" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_issn"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">ISSN code</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISSN" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_issue"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Journal issue 'number' (not an integer)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISSUE" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_journalAbbreviation"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Journal abbreviation according to ACS standard abbreviations</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="JOURNALABBREVIATION" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_journalFullName"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Full name of Journal</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="JOURNALFULLNAME" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_volume"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Journal volume 'number' (not an integer)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VOLUME" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

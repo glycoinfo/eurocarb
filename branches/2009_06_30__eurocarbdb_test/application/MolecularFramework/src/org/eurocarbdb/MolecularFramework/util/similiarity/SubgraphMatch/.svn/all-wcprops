@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch
+END
+ESMEdgeComparatorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch/ESMEdgeComparatorFuzzy.java
+END
+ESMNodeComparatorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch/ESMNodeComparatorFuzzy.java
+END
+ESMFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch/ESMFuzzy.java
+END
+ESMVisitorFuzzy.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch/ESMVisitorFuzzy.java
+END
+ExampleUsage.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/util/similiarity/SubgraphMatch/ExampleUsage.java
+END

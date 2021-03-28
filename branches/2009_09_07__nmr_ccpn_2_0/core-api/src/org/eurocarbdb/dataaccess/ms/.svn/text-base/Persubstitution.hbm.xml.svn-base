@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-cascade="save-update">
+
+    <class name="org.eurocarbdb.dataaccess.ms.Persubstitution" table="persubstitution" schema="ms">
+    
+        <id name="persubstitutionId" type="int" access="field">
+            <column name="persubstitution_id" />
+            <generator class="sequence">
+                <param name="sequence">ms.persubstitution_persubstitution_id_seq</param>
+            </generator>
+        </id>
+        
+        <!--======================  properties  =============================-->
+        
+        <property name="abbreviation" type="string">
+            <column name="abbreviation" not-null="true" unique="true" />
+        </property>
+
+        <property name="name" type="string">
+            <column name="name" not-null="true"/>
+        </property>
+        
+        <set name="annotations" inverse="true">
+            <key>
+                <column name="persubstitution_id" not-null="true" />
+            </key>
+            <one-to-many class="org.eurocarbdb.dataaccess.ms.Annotation" />
+        </set>
+
+        <!--=====================  named queries  ===========================-->
+
+        <!-- 
+        query : GET_ALL
+        desc  : returns all Persubstitutions in the db
+        author: ac
+        -->
+        <query name="GET_ALL"> 
+            from Persubstitution as p
+	    order by p.persubstitutionId 
+        </query>
+        
+	<!-- 
+        query : BY_ABBREVIATION
+        desc  : Retrieve an persubsitution of a certain type
+        author: ac
+        -->
+        <query name="BY_ABBREVIATION" cacheable="true"> 
+            SELECT  p
+            FROM    Persubstitution AS p
+            WHERE   p.abbreviation = :abbreviation
+        </query>
+
+	
+    </class>
+    
+</hibernate-mapping>

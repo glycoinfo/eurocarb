@@ -1,0 +1,461 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <class
+    name="Resonance"
+    table="NMR_RESONANCE"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">A connection record for assignment. 'Stands for' a single Atom or group of atoms in fast exchange.   The Resonance holds a central place in the Nmr package, as almost all assignment, of Chemical shifts, Atoms, Constraints, Peaks etc. is done through the intermediary of a Resonance. This allows the relationship between Shifts, Peaks, Constraints, (...) to be described precisely without first assigning the Nmr spectrum, provides a simple mechanism for handling prochiral groups, and in general permits greater flexibility.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_RESONANCE_NMRPROJECT_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text, for notes, explanatory comments, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_isotopeCode"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Isotope code for the resonance. E.g. '1H', '13C', '2H', '235U'</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISOTOPECODE" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">Name of Resonance. It is recommended to set it to the assignName (q.v.) if known, but the name can be set freely.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="resonanceUniqueKey" />
+  </property>
+  
+  <list
+    name="hbAssignNames"
+    table="NMR_RESONANCE_ASSINAME"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">Names of AtomSets to which Resonance should or could be assigned. Must be in the CCPN (=IUPAC) nomenclature. Allows you to fix assignments when you know only the residue type (e.g. Leu) not the residue number. Examples (all for Leu): ('HG'), ('CA'), non-stereospecific ('HB2','HB3') or ('HD1*','HD2*'), stereospecific ('HB2') or ('HD1*'), mixed ('HB2','HB3','HG').</meta>
+    <cache usage="read-write" />
+    <key column="RESONANCEID" foreign-key="NMR_RESONANCE_ASSINAME_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.String" not-null="true">
+      <column name="ASSIGNNAME" sql-type="VARCHAR(32)" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbApplicationData"
+    table="NMR_RESONANCE2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbNmrProject"
+    column="NMRPROJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_RESONANCE_NMRPROJECT_FK" 
+    unique-key="resonanceUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbResonanceGroup"
+    column="RESONANCEGROUPID"
+    class="ccp.api.nmr.Nmr.ResonanceGroup" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_RESONANCE_RESOGROU_FK" 
+  >
+    <meta attribute="field-description">ResonanceGroup to which Resonance definitely belongs</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbResonanceSet"
+    column="RESONANCESETID"
+    class="ccp.api.nmr.Nmr.ResonanceSet" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_RESONANCE_RESOSET_FK" 
+  >
+    <meta attribute="field-description">ResonanceSet to which Resonance belongs. Part of assignment of Resonance to Atoms.</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbHExchProtections" 
+    table="NMR_HEXCHPROTECTION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Hydrogen exchange rate protection factor measurements for resonance.</meta>
+    <meta attribute="base-name">hbHExchProtection</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.HExchProtection"/>
+  </set>
+  
+  <set 
+    name="hbHExchRates" 
+    table="NMR_HEXCHRATE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Hydrogen exchange rate measurements for resonance.</meta>
+    <meta attribute="base-name">hbHExchRate</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.HExchRate"/>
+  </set>
+  
+  <set 
+    name="hbPeakDimContribs" 
+    table="NMR_PEAKDIMCONTRIB"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">PeakDimContribs assigned to Resonance</meta>
+    <meta attribute="base-name">hbPeakDimContrib</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.PeakDimContrib"/>
+  </set>
+  
+  <set 
+    name="hbPkas" 
+    table="NMR_PKA"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">pKa values associated with Resonance</meta>
+    <meta attribute="base-name">hbPka</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Pka"/>
+  </set>
+  
+  <set 
+    name="hbResonanceProbs" 
+    table="NMR_RESONANCEPROB"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">ResonanceProbs connecting to ResonanceGroups to which this Resonace probably belongs.</meta>
+    <meta attribute="base-name">hbResonanceProb</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.ResonanceProb"/>
+  </set>
+  
+  <set 
+    name="hbShiftAnisotropies" 
+    table="NMR_SHIFTANISOTROPY"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Chemical shift anisotropies for resonance.</meta>
+    <meta attribute="base-name">hbShiftAnisotropy</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.ShiftAnisotropy"/>
+  </set>
+  
+  <set 
+    name="hbShiftDifferences" 
+    table="NMR_SHIFTDIFFERENCE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Chemical SHift Differences for resonance.</meta>
+    <meta attribute="base-name">hbShiftDifference</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.ShiftDifference"/>
+  </set>
+  
+  <set 
+    name="hbShifts" 
+    table="NMR_SHIFT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Chemical shifts for resonance</meta>
+    <meta attribute="base-name">hbShift</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.Shift"/>
+  </set>
+  
+  <set 
+    name="hbT1Rhos" 
+    table="NMR_T1RHO"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">T1 rho measurements for resonance</meta>
+    <meta attribute="base-name">hbT1Rho</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.T1Rho"/>
+  </set>
+  
+  <set 
+    name="hbT1s" 
+    table="NMR_T1"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">T1 relaxation values for resonance.</meta>
+    <meta attribute="base-name">hbT1</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.T1"/>
+  </set>
+  
+  <set 
+    name="hbT2s" 
+    table="NMR_T2"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">T2 relaxation measurements for resonance.</meta>
+    <meta attribute="base-name">hbT2</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.T2"/>
+  </set>
+  
+  <set 
+    name="hbChainStates" 
+    table="NMR_RESONANCE2CHAISTAT"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">ChainState in which this Resonance can be found</meta>
+    <meta attribute="base-name">hbChainState</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID" foreign-key="NMR_CHAINSTATE_RESONANCES_FK"/>
+    <many-to-many column="CHAINSTATEID" class="ccp.api.nmr.Nmr.ChainState" foreign-key="NMR_RESONANCE_CHAISTAT_FK"/>
+  </set>
+  
+  <set 
+    name="hbCovalentlyBound" 
+    table="NMR_RESONANCE2COVABOUN"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Resonances on both ends stand for atoms that are covalently linked.</meta>
+    <meta attribute="base-name">hbCovalentlyBound</meta>
+    <cache usage="read-write"/>
+    <key column="COVALENTLYBOUNDID2" foreign-key="NMR_RESONANCE_COVABOUN_FK2"/>
+    <many-to-many column="COVALENTLYBOUNDID1" class="ccp.api.nmr.Nmr.Resonance" foreign-key="NMR_RESONANCE_COVABOUN_FK1"/>
+  </set>
+  
+  <set 
+    name="hbDatums" 
+    table="NMR_RESONANCE2DATUMS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Measurements of non-predefined type relevant for Resonance</meta>
+    <meta attribute="base-name">hbDatum</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID" foreign-key="NMR_DATUM_RESONANCES_FK"/>
+    <many-to-many column="DATUMID" class="ccp.api.nmr.Nmr.Datum" foreign-key="NMR_RESONANCE_DATUMS_FK"/>
+  </set>
+  
+  <set 
+    name="hbDipolarRelaxations" 
+    table="NMR_RESONANCE2DIPORELA"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Dipole-dipole relaxation measurements involving resonance.</meta>
+    <meta attribute="base-name">hbDipolarRelaxation</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID" foreign-key="NMR_DIPORELA_RESONANCES_FK"/>
+    <many-to-many column="DIPOLARRELAXATIONID" class="ccp.api.nmr.Nmr.DipolarRelaxation" foreign-key="NMR_RESONANCE_DIPORELA_FK"/>
+  </set>
+  
+  <set 
+    name="hbIsotropicS2s" 
+    table="NMR_RESONANCE2ISOTS2S"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Isotropic order parameter values that apply to reonance.</meta>
+    <meta attribute="base-name">hbIsotropicS2</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID" foreign-key="NMR_ISOTS2_RESONANCES_FK"/>
+    <many-to-many column="ISOTROPICS2ID" class="ccp.api.nmr.Nmr.IsotropicS2" foreign-key="NMR_RESONANCE_ISOTS2S_FK"/>
+  </set>
+  
+  <set 
+    name="hbJCouplings" 
+    table="NMR_RESONANCE2JCOUPLINGS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">J coupling measurements for resonance</meta>
+    <meta attribute="base-name">hbJCoupling</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID" foreign-key="NMR_JCOUPLING_RESONANCES_FK"/>
+    <many-to-many column="JCOUPLINGID" class="ccp.api.nmr.Nmr.JCoupling" foreign-key="NMR_RESONANCE_JCOUPLINGS_FK"/>
+  </set>
+  
+  <set 
+    name="hbNoes" 
+    table="NMR_RESONANCE2NOES"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Homonuclear NOEs in which Resonance is involved</meta>
+    <meta attribute="base-name">hbNoe</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID" foreign-key="NMR_NOE_RESONANCES_FK"/>
+    <many-to-many column="NOEID" class="ccp.api.nmr.Nmr.Noe" foreign-key="NMR_RESONANCE_NOES_FK"/>
+  </set>
+  
+  <set 
+    name="hbPeakDimContribNs" 
+    table="NMR_RESONANCE2PEAKDIMCONTNS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">PeakDimContribNs assigned to Resonance</meta>
+    <meta attribute="base-name">hbPeakDimContribN</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID" foreign-key="NMR_PEAKDIMCONTN_RESONANCES_FK"/>
+    <many-to-many column="PEAKDIMCONTRIBNID" class="ccp.api.nmr.Nmr.PeakDimContribN" foreign-key="NMR_RESONANCE_PEAKDIMCONTNS_FK"/>
+  </set>
+  
+  <set 
+    name="hbRdcs" 
+    table="NMR_RESONANCE2RDCS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Reduced dipolar coupling measurements involving resonance.</meta>
+    <meta attribute="base-name">hbRdc</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID" foreign-key="NMR_RDC_RESONANCES_FK"/>
+    <many-to-many column="RDCID" class="ccp.api.nmr.Nmr.Rdc" foreign-key="NMR_RESONANCE_RDCS_FK"/>
+  </set>
+  
+  <set 
+    name="hbSpectralDensities" 
+    table="NMR_SPECDENS2RESONANCES"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Spectral density measurements relevant to Resonance.</meta>
+    <meta attribute="base-name">hbSpectralDensity</meta>
+    <cache usage="read-write"/>
+    <key column="RESONANCEID" foreign-key="NMR_SPECDENS_RESONANCES_FK"/>
+    <many-to-many column="SPECTRALDENSITYID" class="ccp.api.nmr.Nmr.SpectralDensity" foreign-key="NMR_RESONANCE_SPECDENS_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

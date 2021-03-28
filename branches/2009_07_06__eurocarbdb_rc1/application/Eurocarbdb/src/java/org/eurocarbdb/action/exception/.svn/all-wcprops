@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/java/org/eurocarbdb/action/exception
+END
+InsufficientPermissions.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/java/org/eurocarbdb/action/exception/InsufficientPermissions.java
+END
+InsufficientParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/java/org/eurocarbdb/action/exception/InsufficientParams.java
+END
+EurocarbActionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/src/java/org/eurocarbdb/action/exception/EurocarbActionException.java
+END

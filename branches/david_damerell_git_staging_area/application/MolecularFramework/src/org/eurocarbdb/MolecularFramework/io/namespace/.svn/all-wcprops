@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace
+END
+GlycoVisitorFuseSubstituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorFuseSubstituent.java
+END
+GlycoVisitorLinkageTypeNormalisation.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorLinkageTypeNormalisation.java
+END
+AlternativeMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/AlternativeMapping.java
+END
+GlycoVisitorFromGlycoCTIsolated.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorFromGlycoCTIsolated.java
+END
+GlycoVisitorSubstituentUnknownPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorSubstituentUnknownPosition.java
+END
+GlycoVisitorToGlycoCTextendMSDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorToGlycoCTextendMSDB.java
+END
+GlycoVisitorToGlycoCT.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorToGlycoCT.java
+END
+GlycoVisitorFromGlycoCT.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorFromGlycoCT.java
+END

@@ -1,0 +1,369 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis (3):EditSpinSystemPopup</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis (3):EditSpinSystemPopup</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>Analysis (3)</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumFilePopup.html">EditSpectrumFilePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumPopup.html">EditSpectrumPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumRefPopup.html">EditSpectrumRefPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumTolPopup.html">EditSpectrumTolPopup</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="EditSpinSystemPopup.html">EditSpinSystemPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditStructuresPopup.html">EditStructuresPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditWindowGroupPopup.html">EditWindowGroupPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditWindowPopup.html">EditWindowPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditWindowSpectraPopup.html">EditWindowSpectraPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="GetCenterCoordsPopup.html">GetCenterCoordsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="NewWindowPopup.html">NewWindowPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="OpenMacroPopup.html">OpenMacroPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="OpenSpectrumPopup.html">OpenSpectrumPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="PrintWindowPopup.html">PrintWindowPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ResidueInfoPopup.html">ResidueInfoPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectObjectPopup.html">SelectObjectPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectedPeaksPopup.html">SelectedPeaksPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SetReferencePopup.html">SetReferencePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ViewAssignmentPopup.html">ViewAssignmentPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ViewNoeMatrix.html">ViewNoeMatrix</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ViewPeakGroupsPopup.html">ViewPeakGroupsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ViewStructurePopup.html">ViewStructurePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="WindowPopup.html">WindowPopup</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+      This table displays and allows editing of the spin systems (Data Model resonanceGroups) in
+      the current project. A spin system is often used to specify resonances which derive from
+      the same molecular residue. Various amounts of assignment information may then be linked to
+      this grouping of resonances. For example the user may state that two resonances belong to
+      the same lysine residue, without saying which particular lysine residue or even which atoms
+      the resonances correspond.
+      </P>
+      <H2>Spin System Status: &lt;list&gt;</H2>
+        <P>
+        Allows the user to restrict the tabulated spin systems according to the assignment
+        information they carry. "Any" displays all spin systems. "Typed only" displays those that
+        do not have set sequence number but which are known to be of a given residue type.
+        "Assigned" are those which are known to correspond to a particular residue. "Orphaned" are
+        those that are not associated with any molecular information.
+        </P>
+      <H2>[ Display Strips ]</H2>
+        <P>
+          Displays the resonances of the selected spin system in strips within
+          the specified window. Each strip will correspond to bonded resonances
+          found in the spin system whose shifts may be located (i.e. if the
+          isotope type is correct for the window and the shift is in bounds) in
+          the X and Z dimensions of the target window..
+        </P>
+      <H2>[ Display Cells ]</H2>
+        <P>
+          The same as the [ Display Strips ] option, but the strips are divided
+          further by horizontal separators to create a grid of cells within the
+          target window. The location of the cells along the Y axis corresponds
+          to the shifts of the resonances in the selected spin systen that are
+          withing bounds and match the isotope type for the axis.
+        </P>
+      <H2>Window: &lt;list&gt;</H2>
+        <P>
+        Specifies which window (must be active in the current project) the
+        [ Display Strips ] and [ Display Cells ] options work with.
+        </P>
+      <H2>| # |</H2>
+        <P>
+        An arbitrary number for the spin system. Corresponding to the order of creation.
+        </P>
+      <H2>| Molecule |</H2>
+        <P>
+        The code and type of the molecular chain with which a spin system may be associated.
+        </P>
+      <H2>| Residue |</H2>
+        <H3>If set, the residue to which a spin system corresponds.</H3>
+      <H2>| Seq. Segment |</H2>
+        <P>
+        The location of the spin system within a sequentially connected segment of spin systems.
+        The information is displayed in the form: &lt;segment number&gt;:&lt;position&gt;.
+        </P>
+        <P>
+        Segment numbering is generated automatically and
+        starts from any assigned segments in molecular sequence order. 
+        Double clicking allows the user to set the segment and position of a spin system, but 
+        a spin system may only be moved to the start/end of a segment if it is assigned.
+        There is an option to move the spin system to a new segment.
+        If a spin system is joined to a segment that is assigned then the joined spin system will be
+        become assigned according to the sequential connectivity. Use with caution if the spin system being moved
+        is already assigned to a residue.
+        </P>
+        <P>
+        If a spin system within a segment is subsequently assigned to a specific residue then sequentially
+        appropriate residue assignments will propagate to the extent of the segment. Thus all of the
+        spin systems in the segment will be sequentially assigned.
+        </P>
+      <H2>| Resonances |</H2>
+        <P>
+        The names (or numbers if unassigned) of the resonances within the spin system.
+        </P>
+      <H2>[ Assign Residue ]</H2>
+        <P>
+        Allows the user to connect the selected spin system to a specific residue. Opens
+        <A HREF="BrowseAtomsPopup.html">BrowseAtomsPopup</A>
+        so that the user can choose a residue. This option may then be used to
+        cancel the assignment.
+        </P>
+        <P>
+        Assigning a spin system to a residue will (if the appropriate options are set in
+        <A HREF="EditPeakDrawParamsPopup.html">EditPeakDrawParamsPopup.</A>
+         change the annotation of the peaks linked to the spin systems
+        resonances.
+        </P>
+      <H2>[ Assign Type ]</H2>
+        <P>
+        Assigned the selected spin system to a particular class of residue without saying which one
+        in the chain. This option used <A HREF="BrowseAtomPopup.html">BrowseAtomPopup</A>
+        to choose the residue type. Here, it doesn't
+        matter which residue is selected as long as its type is appropriate.
+        </P>
+      <H2>[ Deassign Seq. ]</H2>
+        <P>
+        Remove any sequence information assigned to the selected spin system. This option will not
+        affect the parameter that specified which type/class of residue the spin system
+        corresponds.
+        </P>
+      <H2>[ Deassign All ]</H2>
+        <P>
+        Removes all residue typing and sequence information from the selected spin system. The spin
+        system is rendered anonymous.
+        </P>
+      <H2>[ New Spin System ]</H2>
+        <P>
+        Creates a new arbitrary spin system in the current project. The new spin system may them be
+        assigned and have resonances added to it.
+        </P>
+      <H2>[ Merge ]</H2>
+        <P>
+        Merges the currently selected spin systems into one. The resultant spin system will contain
+        all of the resonances of the original spin systems. The first residue information found
+        will be used for the merged spin system.
+        </P>
+        <P>
+        This option is useful when connecting protein backbone spin systems to side chain spin
+        systems. For example to link together backbone amide and side chain amine resonances of
+        glutamine and asparagine residues.
+        </P>
+      <H2>[ Delete ]</H2>
+        <P>
+        Deletes the currently selected spin systems. This dose not affect the assignment of
+        resonances in any way. However if a resonance is fully assigned, to a known atom in a known
+        residue, then a spin system may automatically be recreated by Analysis.
+        </P>
+      <H2>[ Show Peaks ]</H2>
+        <P>
+        Displays a table of peaks which are assigned to the selected spin systems. Used
+        <A HREF="SelectedPeaksPopup.html">SelectedPeaksPopup.</A>
+        </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run
+END
+inputPeakLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/inputPeakLists.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/serial.html
+END
+outputPeakLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/outputPeakLists.html
+END
+annealProtocol.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/annealProtocol.html
+END
+inputConstraintStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/inputConstraintStore.html
+END
+outputConstraintStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/outputConstraintStore.html
+END
+nmrSimStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/nmrSimStore.html
+END
+inputMeasurementLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/inputMeasurementLists.html
+END
+outputMeasurementLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/outputMeasurementLists.html
+END
+details.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/details.html
+END
+runParameters.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/runParameters.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/parent.html
+END
+nmrSimEnergyTerms.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/nmrSimEnergyTerms.html
+END
+molSystem.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/molSystem.html
+END
+inputStructures.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/inputStructures.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/index.html
+END
+outputEnsemble.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/molsim/api/doc/NmrSim/Run/outputEnsemble.html
+END

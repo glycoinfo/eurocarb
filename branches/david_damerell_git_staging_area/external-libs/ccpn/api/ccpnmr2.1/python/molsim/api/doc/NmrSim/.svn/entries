@@ -1,0 +1,77 @@
+10
+
+dir
+26
+http://eurocarbdb-nmr.googlecode.com/svn/trunk/api/ccpnmr2.1/python/molsim/api/doc/NmrSim
+http://eurocarbdb-nmr.googlecode.com/svn
+
+
+
+2009-11-30T11:42:33.508006Z
+25
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ccabb5d2-bd44-11dd-94c0-21daf384169b
+
+index.html
+file
+
+
+
+
+2016-01-08T01:32:10.845416Z
+bcca2553d296c9b61710ed1ba7ce22e9
+2009-11-30T11:42:33.508006Z
+25
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10974
+
+EnergyTermParameter
+dir
+
+NmrSimStore
+dir
+
+Run
+dir
+
+RunParameter
+dir
+
+NmrSimEnergyTerm
+dir
+

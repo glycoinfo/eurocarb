@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage
+END
+ResidueSpecial.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/ResidueSpecial.java
+END
+CalculationFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationFragment.java
+END
+SpectraType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/SpectraType.java
+END
+Persubstitution.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/Persubstitution.java
+END
+Scan.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/Scan.java
+END
+CalculationIon.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationIon.java
+END
+CalculationMolecule.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationMolecule.java
+END
+CalculationDerivatisation.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationDerivatisation.java
+END
+AnnotationEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/AnnotationEntity.java
+END
+PeakAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/PeakAnnotation.java
+END
+CalculationParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationParameter.java
+END
+CalculationPeak.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1210/trunk/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/storage/CalculationPeak.java
+END

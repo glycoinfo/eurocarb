@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/ms_data
+END
+persubstitution.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/ms_data/persubstitution.sql
+END
+ion.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/ms_data/ion.sql
+END
+reducing_end.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/ms_data/reducing_end.sql
+END
+manufacturer.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/ms_data/manufacturer.sql
+END
+device.sql
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/ms_data/device.sql
+END

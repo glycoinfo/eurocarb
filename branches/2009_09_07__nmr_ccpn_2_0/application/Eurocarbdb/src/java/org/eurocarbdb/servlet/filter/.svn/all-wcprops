@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/servlet/filter
+END
+HibernateSessionRequestFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/java/org/eurocarbdb/servlet/filter/HibernateSessionRequestFilter.java
+END

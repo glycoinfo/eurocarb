@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-Glossary</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>Glossary</H1>
+            <B>Resonance</B>
+        <P ALIGN="LEFT">This is the CCP resonance object. All NMR information is linked to resonance
+        objects in the Data Model. A resonance object is linked to atom objects via resonanceSet and
+        atomSet objects: the resonance derives its meaning (is 'assigned') from the way it is linked
+        to an atom via these objects. </P>
+        <P ALIGN="LEFT"><B>Imported resonance name
+        </B></P>
+        <P ALIGN="LEFT">This is the original name given to a resonance object when first created during file import. It is in the form '<chainID>.<seqCode>.<atomName>', but is fully file format and naming system specific. It is used in the linkResonances script to set the resonance to atom link - only then is the resonance 'assigned' within the Data Model. In certain cases it can be re-used for export, although errors are likely if changes were made to the Data Model objects between import and export.
+        </P>
+        <P ALIGN="LEFT"><B>CCP resonance name
+        </B></P>
+        <P ALIGN="LEFT">This is a name given to the resonance object when it is linked to atom(s) with the linkResonances script. It is in the form '<chainID>.<seqCode>.<atomName>', with the chainID and seqCode conform to the chain and residue objects in the Data Model. The atomName is derived from the atomSet(s) the resonance is linked to. In the case of non-stereospecifically assigned prochirals the name will end in a/b to denote its status (e.g. HBa and HBb for an Asp).
+        </P>
+        <P ALIGN="LEFT"><B>File format
+        </B></P>
+        <P ALIGN="LEFT">This is the format of a file. It only describes the way in which data is represented in a file (e.g. in an nmrStar file the format would be 'nmrStar', even though the information contained within it could come from XPLOR). Examples of file formats are nmrView, nmrStar, XEasy, ... .
+        </P>
+        <P ALIGN="LEFT"><B>Naming system
+        </B></P>
+        <P ALIGN="LEFT">This is the naming system used for import/export of atom names. All atom names conforming to the chosen naming system will be automatically translated: during import, the resonance to atom link will be set automatically, during export, the resonance to atom link will be interpreted and the relevant atom name written out automatically. Examples of naming systems are XPLOR, DIANA, IUPAC, ... . Within the Data Model IUPAC names are used.
+        </P>
+        <P ALIGN="LEFT"><B>Resonance set
+        </B></P>
+        <P ALIGN="LEFT">A resonance can be linked to one resonance set only, but one resonance set can have many resonances. The resonance set is also linked to atom sets. The purpose of the resonance set is to describe the ambiguity of the resonance assignment.
+        </P>
+        <P ALIGN="LEFT"><B>Atom set
+        </B></P>
+        <P ALIGN="LEFT">An atom set combines atoms that are equivalent for NMR purposes. For example, a methyl group is described by one atom set which is linked to three atoms (e.g. for alanine an HB* atom set is linked to atoms HB1, HB2, HB3). It can be linked to multiple resonance sets.
+        </P>
+        <P ALIGN="LEFT"><B>Atom
+        </B></P>
+        <P ALIGN="LEFT">An atom describes an actual atom within a molecule. It is linked to a residue and to reference information contained in the chemAtom object, which describes bond, nucleus, isotope, charge, names for the atom in different naming systems, and other information.
+        </P>  
+
+    </TABLE>
+  </BODY>
+</HTML>

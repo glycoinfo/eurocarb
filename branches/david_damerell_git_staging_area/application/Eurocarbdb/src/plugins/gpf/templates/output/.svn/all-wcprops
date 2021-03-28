@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/plugins/gpf/templates/output
+END
+glycopeakfinder_error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_error.ftl
+END
+glycopeakfinder_structure_glycosciences.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_structure_glycosciences.ftl
+END
+glycopeakfinder_result.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_result.ftl
+END
+glycopeakfinder_save.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_save.ftl
+END
+glycopeakfinder_load.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_load.ftl
+END
+glycopeakfinder_settings.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/plugins/gpf/templates/output/glycopeakfinder_settings.ftl
+END
+glycosciences_structure.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/plugins/gpf/templates/output/glycosciences_structure.ftl
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io
+END
+SugarExporterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarExporterFactory.java
+END
+SugarImporterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarImporterException.java
+END
+SugarImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarImporter.java
+END
+MonosaccharideBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/MonosaccharideBuilder.java
+END
+StructureSpecialInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/StructureSpecialInformation.java
+END
+CarbohydrateSequenceEncoding.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/CarbohydrateSequenceEncoding.java
+END
+SugarImporterText.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarImporterText.java
+END
+ErrorTextEng.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/ErrorTextEng.java
+END
+SugarExporterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarExporterException.java
+END
+SugarExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarExporter.java
+END
+SugarImporterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarImporterFactory.java
+END

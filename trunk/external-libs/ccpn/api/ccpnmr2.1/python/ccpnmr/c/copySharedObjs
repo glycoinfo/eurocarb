@@ -1,0 +1,16 @@
+rm -f *.pyd
+cp ..\\..\\..\\c\\ccpnmr\\analysis\\ContourFile.pyd ContourFile.pyd
+cp ..\\..\\..\\c\\ccpnmr\\analysis\\ContourLevels.pyd ContourLevels.pyd
+cp ..\\..\\..\\c\\ccpnmr\\analysis\\ContourStyle.pyd ContourStyle.pyd
+cp ..\\..\\..\\c\\ccpnmr\\analysis\\PeakCluster.pyd PeakCluster.pyd
+cp ..\\..\\..\\c\\ccpnmr\\analysis\\PeakList.pyd PeakList.pyd
+cp ..\\..\\..\\c\\ccpnmr\\analysis\\SliceFile.pyd SliceFile.pyd
+cp ..\\..\\..\\c\\ccpnmr\\analysis\\WinPeakList.pyd WinPeakList.pyd
+cp ..\\..\\..\\c\\ccpnmr\\clouds\\AtomCoord.pyd .
+cp ..\\..\\..\\c\\ccpnmr\\clouds\\AtomCoordList.pyd .
+cp ..\\..\\..\\c\\ccpnmr\\clouds\\DistConstraint.pyd .
+cp ..\\..\\..\\c\\ccpnmr\\clouds\\DistConstraintList.pyd .
+cp ..\\..\\..\\c\\ccpnmr\\clouds\\DistForce.pyd .
+cp ..\\..\\..\\c\\ccpnmr\\clouds\\Dynamics.pyd .
+cp ..\\..\\..\\c\\ccpnmr\\clouds\\Midge.pyd .
+cp ..\\..\\..\\c\\ccpnmr\\clouds\\Bacus.pyd .

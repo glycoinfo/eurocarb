@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.LabeledMolecule">
+  <class
+    name="MolLabel"
+    table="LMOL_MOLLABEL"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Molecule labeling pattern</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.molecule.LabeledMolecule.LabeledMolecule"
+    not-null="true"
+    unique="false"
+    foreign-key="LMOL_MOLLABEL_LABEMOLE_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">A MolLabel describes a single distribution of isotope fractions. Complex correlated labeling patterns may be described as mixtures of MolLabels.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="molLabelUniqueKey" />
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="LMOL_MOLLABEL2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbLabeledMolecule"
+    column="LABELEDMOLECULEID"
+    class="ccp.api.molecule.LabeledMolecule.LabeledMolecule" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="LMOL_MOLLABEL_LABEMOLE_FK" 
+    unique-key="molLabelUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbAverageLabeledMixtures" 
+    table="LMOL_LABELEDMIXTURE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">LabeledMixtures that have MolLabel as their averaged composition</meta>
+    <meta attribute="base-name">hbAverageLabeledMixture</meta>
+    <cache usage="read-write"/>
+    <key column="AVERAGECOMPOSITIONID"/>
+    <one-to-many class="ccp.api.molecule.LabeledMolecule.LabeledMixture"/>
+  </set>
+  
+  <set 
+    name="hbMolLabelFractions" 
+    table="LMOL_MOLLABELFRACTION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">MolLabelFractions that involve MolLabel</meta>
+    <meta attribute="base-name">hbMolLabelFraction</meta>
+    <cache usage="read-write"/>
+    <key column="MOLLABELID"/>
+    <one-to-many class="ccp.api.molecule.LabeledMolecule.MolLabelFraction"/>
+  </set>
+  
+  <set 
+    name="hbResLabels" 
+    table="LMOL_RESLABEL"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbResLabel</meta>
+    <cache usage="read-write"/>
+    <key column="MOLLABELID"/>
+    <one-to-many class="ccp.api.molecule.LabeledMolecule.ResLabel"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

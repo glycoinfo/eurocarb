@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis
+END
+Anal_MarkDim.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_MarkDim.h
+END
+Anal_AxisPanel.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AxisPanel.h
+END
+Anal_SpectrumWindowView.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_SpectrumWindowView.h
+END
+Anal_AxisRegionGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AxisRegionGroup.h
+END
+Anal_AtomSetMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AtomSetMapping.h
+END
+Anal_Ruler.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_Ruler.h
+END
+Anal_Mark.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_Mark.h
+END
+Anal_SpectrumWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_SpectrumWindow.h
+END
+Anal_PopupOption.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_PopupOption.h
+END
+Anal_ChainMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_ChainMapping.h
+END
+Anal_PanelType.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_PanelType.h
+END
+Anal_AxisUnit.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AxisUnit.h
+END
+Anal_SidePanel.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_SidePanel.h
+END
+Anal_WindowPeakList.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_WindowPeakList.h
+END
+Anal_AnalysisSpectrum.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AnalysisSpectrum.h
+END
+Anal_AxisType.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AxisType.h
+END
+Anal_AnalysisDataDim.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AnalysisDataDim.h
+END
+Anal_SpectrumWindowGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_SpectrumWindowGroup.h
+END
+Anal_AnalysisPopup.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AnalysisPopup.h
+END
+Anal_AxisRegion.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AxisRegion.h
+END
+Anal_AnalysisProject.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AnalysisProject.h
+END
+Anal_StoredContour.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_StoredContour.h
+END
+Anal_ResidueMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_ResidueMapping.h
+END
+Anal_AbstractMark.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AbstractMark.h
+END
+Anal_SlicePanel.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_SlicePanel.h
+END
+Anal_AxisMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AxisMapping.h
+END
+Anal_AnalysisPeakList.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccpnmr/api/Analysis/Anal_AnalysisPeakList.h
+END

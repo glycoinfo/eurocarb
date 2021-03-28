@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/cambridge/api/Dangle
+END
+Dang_DangleStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/cambridge/api/Dangle/Dang_DangleStore.h
+END
+Dang_DangleResidue.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/cambridge/api/Dangle/Dang_DangleResidue.h
+END
+Dang_DangleChain.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/cambridge/api/Dangle/Dang_DangleChain.h
+END

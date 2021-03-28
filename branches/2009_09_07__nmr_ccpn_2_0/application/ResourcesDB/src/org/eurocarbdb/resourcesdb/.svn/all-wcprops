@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb
+END
+GlycanNamescheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/GlycanNamescheme.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/Config.java
+END
+ResourcesDbObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/ResourcesDbObject.java
+END
+ResourcesDbException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/ResourcesDbException.java
+END
+MolecularEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/MolecularEntity.java
+END

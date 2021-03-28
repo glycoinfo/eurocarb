@@ -1,0 +1,46 @@
+#summary One-sentence summary of this page.
+
+=Summary=
+Follow the instructions below to download,compile and start the Eurocarb portal on your local machine.  There's further details regarding the individual commands within the [StableBuild stable build] instructions page.
+
+=Prerequisites=
+Postgres, git-svn, JDK >=1.5, Apache TomCat
+
+Perl modules (File::chmod, DBD, DBD::PgPP)
+{{{
+cpan File::chmod
+cpan DBD::PgPP
+}}}
+
+=Complete build guide=
+
+{{{
+mkdir eurocarb
+cd eurocarb
+git svn init  http://eurocarb.googlecode.com/svn/ -T trunk -b branches -t tags
+git svn fetch -r 1827
+git checkout -b trunk_git --track remotes/david_damerell_git_staging_area
+ant setup
+mkdir database/data
+wget http://nixbioinf.org/eurocarb/ebi_2nd_dec_2009.sql -O database/data/ebi_2nd_dec_2009.sql
+cd database/scripts/org/eurocarb/database/upgrade/
+ant upgrade-ebi_2nd_dec_2009-r1804-clean
+cd ../../../../../../application/Eurocarbdb
+ant dist
+cd ../../
+export TOMCAT_BIN=/location/for/tomcat/bin/
+ant start
+}}}
+
+Follow the instructions given, you can accept most of the default values when prompted for input.  The default credentials used for the Postgres connection are; postgres and flipper, if yours are different type them in as appropriate. 
+
+Point your web browser to http://localhost:8321/eurocarb to view the portal; obviously replace localhost with your host name.
+
+=Further information=
+The following provides a brief outline of what the above commands accomplish.
+
+The Eurocarb source code was checked out using the "git-svn" command, you are free of course to use the "svn" command instead.  We checked the code out from the development branch "david_damerell_git_staging_area", specifying a revision known to be stable.  Both the revision and branch noted in these instructions will be updated as required.
+
+The Eurocarb portal stores it's data within a PostgreSQL database; this database takes a long time to populate, in addition this process is currently broken.  Therefore a database dump was downloaded and uploaded into your local PostgreSQL database.  A series of patches were then applied to your database to update bugs and install new features.
+
+The Eurocarb portal software, and all of it's dependencies were then compiled using the "dist" target of the portal build script.  Finally the Apache TomCat server was started, making the Eurocarb portal available on your local machine.

@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.RefSampleComponent">
+  <class
+    name="CompositeInteraction"
+    table="REFS_COMPOSITEINTERACTION"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">The interaction between two composite elements.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.lims.RefSampleComponent.RefSampleComponentStore"
+    not-null="true"
+    unique="false"
+    foreign-key="REFS_COMPINTE_REFSAMPCOMPSTOR_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_affinity"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The dissociation constant K of the complex, in units of M (moles/liter) to the appropriate power, according to the formula  K=[A][B][C]/[ABC]  Here in units of M-squared (for a ternary complex).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="AFFINITY" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_assessmentMethod"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">The assessment method used to define this interaction.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ASSESSMENTMETHOD" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Detail field for comments.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_interactionType"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="true"
+  >
+    <meta attribute="field-description">The type of the interaction.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="INTERACTIONTYPE" sql-type="VARCHAR(254)" length="254" not-null="true"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Unique identifier.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="compositeInteractionUniqueKey" />
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="REFS_COMPINTE2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbComposite"
+    column="COMPOSITEID"
+    class="ccp.api.lims.RefSampleComponent.Composite" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="REFS_COMPINTE_COMPOSITE_FK" 
+    unique-key="compositeInteractionUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbElements" 
+    table="REFS_COMPINTE2ELEMENTS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">The 2 composite elements involved in an interaction.</meta>
+    <meta attribute="base-name">hbElement</meta>
+    <cache usage="read-write"/>
+    <key column="INTERACTIONID" foreign-key="REFS_COMPELEM_INTE_FK"/>
+    <many-to-many column="ELEMENTID" class="ccp.api.lims.RefSampleComponent.CompositeElement" foreign-key="REFS_COMPINTE_ELEMENTS_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

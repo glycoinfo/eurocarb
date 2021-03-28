@@ -1,0 +1,24 @@
+
+# should work if suitably edited for Linux, Irix, Solaris, OSX, Windows
+
+# the C compiler
+CC = cc
+
+# compiler flags
+
+CFLAGS = -O
+ 
+# API
+API_LIB = -lccp
+
+# Python
+PYTHON_DIR = /usr
+PYTHON_INCLUDE_FLAGS = -I$(PYTHON_DIR)/include/python2.5
+PYTHON_LIB_FLAGS = -L$(PYTHON_DIR)/lib/python2.5/config
+PYTHON_LIB = -lm -lutil -lpthread -ldl -lpython2.5
+# for Unix seem to need below
+#PYTHON_LIB_FLAGS = -L$(PYTHON_DIR)/lib/python2.5/config
+#PYTHON_LIB = -lm -lutil -lpthread -ldl -lpython2.5
+# for Windows seem to need below
+#PYTHON_LIB_FLAGS = -L$(PYTHON_DIR)/libs
+#PYTHON_LIB = -lPython25

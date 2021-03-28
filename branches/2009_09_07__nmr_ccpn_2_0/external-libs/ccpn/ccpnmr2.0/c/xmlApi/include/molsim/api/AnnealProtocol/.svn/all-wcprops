@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/AnnealProtocol
+END
+Anpr_AnnealProtocolStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/AnnealProtocol/Anpr_AnnealProtocolStore.h
+END
+Anpr_AnnealProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/AnnealProtocol/Anpr_AnnealProtocol.h
+END
+Anpr_EnergyTerm.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/AnnealProtocol/Anpr_EnergyTerm.h
+END
+Anpr_AnnealStage.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/AnnealProtocol/Anpr_AnnealStage.h
+END
+Anpr_RefPotentialTerm.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/AnnealProtocol/Anpr_RefPotentialTerm.h
+END
+Anpr_RefTermParameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/AnnealProtocol/Anpr_RefTermParameter.h
+END
+Anpr_PotentialScale.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/molsim/api/AnnealProtocol/Anpr_PotentialScale.h
+END

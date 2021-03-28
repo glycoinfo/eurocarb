@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-QuickStart</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>QuickStart</H1>
+            <H1>Quick guide to using the format conversion software</H1>
+        <P ALIGN="LEFT"><B>Step 1</B>: Create a CCP project...</P>
+        <P ALIGN="LEFT">Go to '<I>Project:New</I>', and enter a name. This will
+        create a CCP project in memory. </P>
+        <P ALIGN="LEFT"><B>Step 2</B>: Import one or more files in a particular
+		format...</P>
+        <P ALIGN="LEFT">Go to '<I>Import</I>'. There are three ways of importing
+        files: </P>
+        <UL>
+        <LI> '<I>Single files</I>': Read one file at a time (also includes
+		project files).
+        <LI> '<I>Combined files</I>': Read a set of interconnected files (e.g. a
+		shift and peak list).
+        <LI> '<I>Multiple files</I>': Read multiple files for one format in one
+		go.
+        </UL>	  
+        <P ALIGN="LEFT">Select the appropriate format, click on 'Select file' to
+        select the file name(s), then press 'IMPORT'.</P>	
+        <P ALIGN="LEFT"><B>Step 3</B>: Run linkResonances...</P>
+        <P ALIGN="LEFT">Go to '<I>Process:Run linkResonances</I>'</P>       
+        <P ALIGN="LEFT">This will give meaning within the Data Model to the <A
+        href="Concepts_Resonance.html">resonance objects</A> using the imported resonance
+        names from the file you just read in. </P>   
+        <P ALIGN="LEFT"><B>Step 4</B>: Export one or more files in a certain
+		format...</P>
+        <P ALIGN="LEFT">Go to '<I>Export</I>', select the appropriate format.
+        </P>
+        <P ALIGN="LEFT">Select the appropriate peak list, ... from the data
+        model, click '<I>Export</I>' and give the file name to write to. </P>   
+        <P ALIGN="LEFT">Note that only one file at a time can be exported this
+        way. </P>
+
+    </TABLE>
+  </BODY>
+</HTML>

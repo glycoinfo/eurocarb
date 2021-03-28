@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/ui
+END
+tools_home.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/ui/tools_home.ftl
+END
+admin_eurocarb.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/ui/admin_eurocarb.ftl
+END
+about_eurocarb.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/Eurocarbdb/src/template/ui/about_eurocarb.ftl
+END

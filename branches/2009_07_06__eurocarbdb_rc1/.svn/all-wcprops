@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1576/branches/2009_07_06__eurocarbdb_rc1
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1576/branches/2009_07_06__eurocarbdb_rc1/README.txt
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1576/branches/2009_07_06__eurocarbdb_rc1/build.xml
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/LICENSE.txt
+END
+build.common.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1576/branches/2009_07_06__eurocarbdb_rc1/build.common.xml
+END
+ivy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/ivy.xml
+END
+ivysettings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/ivysettings.xml
+END

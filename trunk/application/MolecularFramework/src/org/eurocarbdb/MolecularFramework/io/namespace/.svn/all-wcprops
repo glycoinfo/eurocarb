@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace
+END
+GlycoVisitorSubstituentUnknownPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorSubstituentUnknownPosition.java
+END
+GlycoVisitorToGlycoCTextendMSDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorToGlycoCTextendMSDB.java
+END
+GlycoVisitorToGlycoCT.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorToGlycoCT.java
+END
+GlycoVisitorFromGlycoCT.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorFromGlycoCT.java
+END
+GlycoVisitorFuseSubstituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorFuseSubstituent.java
+END
+GlycoVisitorLinkageTypeNormalisation.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorLinkageTypeNormalisation.java
+END
+AlternativeMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/AlternativeMapping.java
+END
+GlycoVisitorFromGlycoCTIsolated.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/1210/trunk/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/namespace/GlycoVisitorFromGlycoCTIsolated.java
+END

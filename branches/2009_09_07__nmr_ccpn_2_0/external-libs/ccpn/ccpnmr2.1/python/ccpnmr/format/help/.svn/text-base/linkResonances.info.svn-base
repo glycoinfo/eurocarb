@@ -1,0 +1,51 @@
+
+* LinkResonances variables status while setting resonance-atom links from
+  original assignment strings:
+
+
+AtomToResName:
+								        equiv?          normal proch		 deep proch.
+						single  multi   single group  st. n-st.   set     st. n-st.   set
+
+nmrAtoms				  1	     n         2    2/4   1    2	  2 	  3    6	  6
+nmrAtomGroups             0      1         1    1/2   1    1	  1 	  1    2	  2
+
+isProchiral               0      0         0     0	  1    1	  1 	  1    1	  1
+
+eqChemAtomSets           []     [1]       []    []	  []   []	 [] 	 [1]  [2]	 [2]
+prochChemAtomSets        []     []        []    []    []   []	 [1]	 []   []	 [1]
+groupChemAtomSets        []     []        []    [1/2] []   []	 [] 	 []   []	 []
+
+hasEmptyChemAtomSets     list has elements if normal proch. st. or n-st.
+hasEqChemAtomSets        list has elements if multi or deep proch.
+hasProchChemAtomSets     list has elements if normal or deep proch. set
+hasGroupChemAtomSets     list has elements if aromatic/amide grouped
+
+singleAtoms[resName]     dict has elements if single possibly equivalent proton found
+stereoAtoms[resName]     dict has elements if stereo assigned prochiral and also set available
+                         (e.g. both HB2 and HB* occur)
+
+Linking to existing resonances:
+
+    Resonances  
+
+'new'  needed   exist    atom match    action
+
+  1       1       1         full       copy 'new' to exist, delete 'new'
+                           partial     copy 'new' to exist, link exist to all atomSets, delete 'new'
+
+  1       2       1         full       copy 'new' to exist, set 'new' to exist resonanceSet
+                           partial     copy 'new' to exist, link exist to all atomSets,  set 'new' to exist resonanceSet
+						   
+  
+  1       1       2                    select single resonance from exist, delete 'new'
+						   
+  1       2       2 (same resSet)      copy 'new' to both exist, delete 'new'
+  1       2       2 (diff resSet)      select multi resonance from exist, delete 'new'
+			   	  
+  1      1/2      <2                   Not handled
+  
+  
+  2       2       2 (same resSet)      copy each 'new' to one exist, delete both 'new'
+  2      any     any                   for each 'new': select multi resonance from exist, delete 'new'
+  

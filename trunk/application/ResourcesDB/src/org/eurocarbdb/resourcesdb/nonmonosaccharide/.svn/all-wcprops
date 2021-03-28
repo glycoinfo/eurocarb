@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide
+END
+AminoAcid.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AminoAcid.java
+END
+AglyconAlias.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconAlias.java
+END
+AminoAcid.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AminoAcid.hbm.xml
+END
+AglyconTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconTemplate.java
+END
+NonBasetypeLinkingPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/NonBasetypeLinkingPosition.java
+END
+NonmonosaccharideException.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/NonmonosaccharideException.java
+END
+AglyconAlias.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconAlias.hbm.xml
+END
+AglyconTemplate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconTemplate.hbm.xml
+END
+NonBasetypeLinkingPosition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/NonBasetypeLinkingPosition.hbm.xml
+END

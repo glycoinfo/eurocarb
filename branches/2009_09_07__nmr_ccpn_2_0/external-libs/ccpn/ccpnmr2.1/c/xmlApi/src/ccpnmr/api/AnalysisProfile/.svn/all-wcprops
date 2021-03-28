@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccpnmr/api/AnalysisProfile
+END
+Anap_ResidueProfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccpnmr/api/AnalysisProfile/Anap_ResidueProfile.c
+END
+Anap_Macro.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccpnmr/api/AnalysisProfile/Anap_Macro.c
+END
+Anap_ColorScheme.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccpnmr/api/AnalysisProfile/Anap_ColorScheme.c
+END
+Anap_AnalysisProfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccpnmr/api/AnalysisProfile/Anap_AnalysisProfile.c
+END
+Anap_RefExpProfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccpnmr/api/AnalysisProfile/Anap_RefExpProfile.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/ccpnmr/api/AnalysisProfile/Makefile
+END

@@ -1,0 +1,122 @@
+<project name="eurocarb-glycoworkbench" default="build">
+  
+    <!--
+    !   this import defines the following:
+    !
+    !   1) 'project.*' properties  
+    !   2) 'project.classpath' path, containing all external and eurocarb-compiled jars.
+    !   3) 'build-XXX' tasks, where 'XXX' is the name of a sub-project                
+    !
+    -->
+    <import file="../../build.common.xml" />
+
+    
+    <!--===================== PROPERTIES =========================-->
+    
+    <property name="java.source.dir" value="${basedir}/src" />
+    <property name="java.build.dir" value="${basedir}/build" />
+    <property name="doc.dir" value="${basedir}/doc"/>  
+
+    <property name="java.extlib.dir" value="${project.java.extlib.dir}"/>
+    <property name="java.dist.dir" value="${project.java.lib.dir}" />
+    <property name="applet.dist.dir" value="${project.binary.dir}" />
+    
+    
+    <!--======================== PATHS ===========================-->
+
+    
+    <!--======================= TARGETS  =========================-->
+    <!--            (in alphabetical order please)                -->
+
+
+    <!-- TARGET: build ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <target name="build" depends="build-resourcesdb, build-molframework, build-glycanbuilder, build-glycopeakfinder"> 
+        <mkdir dir="${java.build.dir}" />
+        <javac 
+            srcdir="${java.source.dir}"
+            destdir="${java.build.dir}"
+            debug="on"
+            deprecation="on"
+            >
+            <!-- compilerarg value="-Xlint:unchecked"/ -->
+            <classpath refid="project.classpath" />
+        </javac>
+    </target>
+
+
+    <target name="clean" depends="">
+        <echo>Cleaning ${ant.project.name}</echo>
+        <delete includeemptydirs="true">   
+            <fileset dir="${java.build.dir}" includes="**/*"/>
+        </delete>
+    </target>  
+
+  
+    <target name="copy-resources" depends="">
+<!--        
+        <unjar 
+            src="${java.dist.dir}/${project.glycanbuilder.jar}"
+            dest="${java.build.dir}"
+        />
+-->
+        <copy todir="${java.build.dir}">
+            <fileset dir="${java.source.dir}">
+                <exclude name="**/*.java"/>
+                <exclude name="manifest.mf"/>
+            </fileset>
+            <!--            
+            <fileset dir="${project.glycanbuilder.dir}/src">
+                <exclude name="**/*.java"/>
+                <exclude name="manifest.mf"/>
+            </fileset>
+            -->
+            <!--<fileset dir="${gb.dir}/build"/>-->
+        </copy>
+    </target> 
+
+
+    <!-- mjh: wtf is this for exactly?       
+    <target name="help" depends=""> 
+        <echo>${java.dist.dir}</echo>
+        <echo>In source dir ${java.source.dir}</echo>
+        <jar destfile="${java.dist.dir}/Help.jar" 
+            basedir="${java.source.dir}/help_gwb/"
+        />
+    </target>
+    -->
+
+    
+    <target name="dist" depends="build,copy-resources">
+        <jar destfile="${java.dist.dir}/${project.glycoworkbench.jar}" basedir="${java.build.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="org.eurocarbdb.application.glycoworkbench.GlycoWorkbench"/>
+                <!--<attribute name="Class-Path" value="${jar-class-path}"/>-->
+            </manifest>
+        </jar>
+    </target>
+    
+    
+    <target name="dist-applet" depends="build,copy-resources">
+        <jar destfile="${applet.dist.dir}/${project.glycoworkbench.applet.jar}"> 
+            <manifest>
+                <attribute name="Main-Class" value="org.eurocarbdb.application.glycoworkbench.plugin.AnnotationReportApplet"/>
+            </manifest>
+            <fileset dir="${java.build.dir}" includes="conf/**" excludes="**/*.xml"/>
+            <fileset dir="${java.build.dir}" includes="cursors/**"/>
+            <fileset dir="${java.build.dir}" includes="icons/**"/>      
+            <fileset dir="${java.build.dir}" includes="**/*.class"/>
+            <zipfileset dir="${java.extlib.dir}" includes="swing-layout*.jar"/>	 
+            <zipfileset dir="${java.extlib.dir}" includes="jfreechart*.jar"/>	 
+            <zipfileset dir="${java.extlib.dir}" includes="jcommon*.jar"/>
+            <zipfileset dir="${java.extlib.dir}" includes="log4j*.jar"/>
+        </jar>
+    </target>
+
+    
+    <target name="run" depends="build,copy-resources">
+        <java classname="org.eurocarbdb.application.glycoworkbench.GlycoWorkbench" fork="yes" >
+            <classpath refid="project.classpath"/>
+        </java>
+    </target>  
+    
+</project>

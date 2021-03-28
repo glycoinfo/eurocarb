@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrConstraint">
+  <joined-subclass
+    name="ChemShiftConstraint"
+    extends="ccp.api.nmr.NmrConstraint.SingleConstraint"
+    table="NMRC_CHEMSHIFTCONSTRAINT"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Chemical shift constraint (shift value that must be reproduced by the structure).</meta>
+  <key column="SINGLECONSTRAINTID" foreign-key="NMRC_CHEMSHIFCONS_SINGCONS_FK"/>
+  
+  <many-to-one
+    name="hbParentList"
+    column="PARENTLISTID"
+    class="ccp.api.nmr.NmrConstraint.ChemShiftConstraintList" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRC_CHEMSHIFCONS_PARENTLIST_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbResonance"
+    column="RESONANCEID"
+    class="ccp.api.nmr.NmrConstraint.FixedResonance" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMRC_CHEMSHIFCONS_RESONANCE_FK" 
+  >
+    <meta attribute="field-description">FixedResonance holding Chemical shift constraint.</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

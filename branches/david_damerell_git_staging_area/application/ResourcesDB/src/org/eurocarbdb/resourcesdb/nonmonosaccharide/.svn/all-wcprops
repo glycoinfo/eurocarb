@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide
+END
+AminoAcid.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AminoAcid.hbm.xml
+END
+AglyconTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconTemplate.java
+END
+NonBasetypeLinkingPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/NonBasetypeLinkingPosition.java
+END
+NonmonosaccharideException.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/NonmonosaccharideException.java
+END
+AglyconAlias.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconAlias.hbm.xml
+END
+AglyconTemplate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconTemplate.hbm.xml
+END
+NonBasetypeLinkingPosition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/NonBasetypeLinkingPosition.hbm.xml
+END
+AminoAcid.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AminoAcid.java
+END
+AglyconAlias.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/nonmonosaccharide/AglyconAlias.java
+END

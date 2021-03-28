@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-DataDimRefSelectByPeakDim</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>DataDimRefSelectByPeakDim</H1>
+            <H2>DataDimRef selection by PeakDim
+        </H2>
+        <P ALIGN="LEFT">This window allows you to link up the peak dimensions from the imported
+        file (leftmost column) to the peak dimensions within the Data Model (selection lists in
+        rightmost column). To make the linking easier the chemical shift range observed for each
+        peak dimension in the imported file is also listed. </P>
+        <P ALIGN="LEFT">To link up, select the peak dimension within the Data Model
+        corresponding to the peak dimension. The usual order for common formats is (3,2,1) for
+        XEasy (acquisition dimension last), (1,2,3) for nmrView, and (2,3,1) for Ansig. </P>
+        <P ALIGN="LEFT">Note that each peak dimension within the Data Model can be used only
+        once.</P>    
+
+    </TABLE>
+  </BODY>
+</HTML>

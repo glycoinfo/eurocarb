@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.LabeledMolecule">
+  <joined-subclass
+    name="UniformAtomLabel"
+    extends="ccp.api.molecule.LabeledMolecule.AtomLabel"
+    table="LMOL_UNIFORMATOMLABEL"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Atom label description valid for all atoms of a given element in a given residue, except those attached to any SingleAtomLabel object.</meta>
+  <key column="ATOMLABELID" foreign-key="LMOL_UNIFATOMLABE_ATOMLABEL_FK"/>
+  
+  <property
+    name="_elementName"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Name of element. E.g. 'C', 'Cu'.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ELEMENTNAME" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+
+  </joined-subclass>
+
+</hibernate-mapping>

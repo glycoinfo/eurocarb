@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/web/WEB-INF
+END
+xwork.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/WEB-INF/xwork.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/WEB-INF/web.xml
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/WEB-INF/.cvsignore
+END

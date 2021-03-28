@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-SequenceLink</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>SequenceLink</H1>
+            <H2>Import original sequence</H2>
+        <P ALIGN="LEFT">This window allows you to do a full interpretation of the sequence that was read in for
+        a data format file, so that it can be imported into the Data Model correctly.</P>
+        <P ALIGN="LEFT">On the left (under '<B>Original import</B>) the original sequence(s) that were read in
+        are displayed. You can click on this sequence to remove sequence elements or to move them to other
+        molecules. You can also set particular chemCompVars (e.g. protonated ARG) from here.</P>
+        <P ALIGN="LEFT">On the right (under '<B>Data model</B>', in blue) the information that will be used
+        inside the Data Model is displayed. The '<B>Molecular type</B>' depends on the sequence elements that
+        were found. Current valid molecular types are 'protein', 'DNA', and 'RNA' for pure linear biopolymers,
+        and 'other' for everything else. Clicking on '<B>Molecule name</B>' allows you to set your own name for
+        the molecule that will be created (this option is not available if the molecule is already present
+        inside the Data Model). You can set the '<B>Number of chains</B>' to determine the number of chains that
+        will be created for this molecule inside the molecular system (e.g. set this to 2 for a homodimer). This
+        number can also be set to '0' if you only want to create a molecule, and no molecular system with
+        chains.</P>
+        <P ALIGN="LEFT">Finally, warning messages can appear in red on the right hand side. This occurs when
+        sequence elements could not be automatically recognized and have to be identified by the user. If they
+        are not identified, they will be ignored when the molecule is created!</P>
+        <P ALIGN="LEFT">Press '<B>OK</B>' to continue after you have set everything correctly. Press '<B>Reset
+        to original</B>' if you want to return the window to its original state. Press '<B>Cancel</B>' to use
+        the automatically set options.</P>
+
+    </TABLE>
+  </BODY>
+</HTML>

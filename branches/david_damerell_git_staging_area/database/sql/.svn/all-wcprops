@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1825/branches/david_damerell_git_staging_area/database/sql
+END
+create_schema_ms.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_schema_ms.sql
+END
+create_composition_queries.sql
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_composition_queries.sql
+END
+create_schema_core_uniprotkb.sql
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1825/branches/david_damerell_git_staging_area/database/sql/create_schema_core_uniprotkb.sql
+END
+create_schema_hplc.sql
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_schema_hplc.sql
+END
+debug_structures.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/debug_structures.sql
+END
+create_substructure_queries.sql
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_substructure_queries.sql
+END
+hplc_data_starting.sql
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/hplc_data_starting.sql
+END
+create_indexes_core.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_indexes_core.sql
+END
+create_schema_core.sql
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1822/branches/david_damerell_git_staging_area/database/sql/create_schema_core.sql
+END
+create_schema_seq.sql
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_schema_seq.sql
+END
+create_glycopeakfinder.sql.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_glycopeakfinder.sql.tar.gz
+END
+create_schema_local.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_schema_local.sql
+END
+create_substructure.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_substructure.sql
+END
+init_eurocarb.sql.template
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/init_eurocarb.sql.template
+END
+import_glycomedb.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/import_glycomedb.sql
+END
+create_schema_nmr.sql
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_schema_nmr.sql
+END
+create_schema_core_comments.sql
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_schema_core_comments.sql
+END
+create_resources_db.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_resources_db.sql
+END
+create_substructure_queries_debugging.sql
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_substructure_queries_debugging.sql
+END
+export_glycomedb.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/export_glycomedb.sql
+END
+debug_ecdb_structures.sql
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/debug_ecdb_structures.sql
+END
+load_ms_data.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/load_ms_data.sql
+END
+create_schema_core_views.sql
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_schema_core_views.sql
+END
+create_schema_hplc.sql.changelog
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/create_schema_hplc.sql.changelog
+END
+import_hplc.sql
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/database/sql/import_hplc.sql
+END

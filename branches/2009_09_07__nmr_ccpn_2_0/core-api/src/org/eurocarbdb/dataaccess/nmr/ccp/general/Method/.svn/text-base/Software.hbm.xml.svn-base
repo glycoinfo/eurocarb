@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.Method">
+  <class
+    name="Software"
+    table="METH_SOFTWARE"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Program used for some task or tasks.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.general.Method.MethodStore"
+    not-null="true"
+    unique="false"
+    foreign-key="METH_SOFTWARE_METHSTOR_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text containing notes, descriptive remarks, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">name of Software.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(80)" length="80" not-null="true" unique-key="softwareUniqueKey" />
+  </property>
+  
+  <property
+    name="_vendorAddress"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Address of vendor or software producer.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VENDORADDRESS" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_vendorName"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Name of vendor or software producer.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VENDORNAME" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_vendorWebAddress"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Web address (home page) of vendor or software producer.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VENDORWEBADDRESS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_version"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">Software version used.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VERSION" sql-type="VARCHAR(80)" length="80" not-null="true" unique-key="softwareUniqueKey" />
+  </property>
+  
+  <list
+    name="hbTasks"
+    table="METH_SOFTWARE_TASKS"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">Tasks carried out with the software.</meta>
+    <cache usage="read-write" />
+    <key column="SOFTWAREID" foreign-key="METH_SOFTWARE_TASKS_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.String" not-null="true">
+      <column name="TASK" sql-type="VARCHAR(80)" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbApplicationData"
+    table="METH_SOFTWARE2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbMethodStore"
+    column="METHODSTOREID"
+    class="ccp.api.general.Method.MethodStore" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="METH_SOFTWARE_METHSTOR_FK" 
+    unique-key="softwareUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbMethods" 
+    table="METH_METHOD"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Methods carried out using the Software.</meta>
+    <meta attribute="base-name">hbMethod</meta>
+    <cache usage="read-write"/>
+    <key column="SOFTWAREID"/>
+    <one-to-many class="ccp.api.general.Method.Method"/>
+  </set>
+  
+  <set 
+    name="hbValidationStores" 
+    table="VALD_VALIDATIONSTORE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">ValaidationStores with data validated using software</meta>
+    <meta attribute="base-name">hbValidationStore</meta>
+    <cache usage="read-write"/>
+    <key column="SOFTWAREID"/>
+    <one-to-many class="ccp.api.molecule.Validation.ValidationStore"/>
+  </set>
+  
+  <set 
+    name="hbCitations" 
+    table="METH_SOFTWARE2CITATIONS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Citations describing software.</meta>
+    <meta attribute="base-name">hbCitation</meta>
+    <cache usage="read-write"/>
+    <key column="SOFTWAREID" foreign-key="CITA_CITATION_SOFTWARE_FK"/>
+    <many-to-many column="CITATIONID" class="ccp.api.general.Citation.Citation" foreign-key="METH_SOFTWARE_CITATIONS_FK"/>
+  </set>
+  
+  <set 
+    name="hbEntries" 
+    table="ENTR_ENTRY2SOFTWARE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">BMRB entries where software is used</meta>
+    <meta attribute="base-name">hbEntry</meta>
+    <cache usage="read-write"/>
+    <key column="SOFTWAREID" foreign-key="ENTR_ENTRY_SOFTWARE_FK"/>
+    <many-to-many column="ENTRYID" class="ccp.api.nmr.NmrEntry.Entry" foreign-key="METH_SOFTWARE_ENTRIES_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

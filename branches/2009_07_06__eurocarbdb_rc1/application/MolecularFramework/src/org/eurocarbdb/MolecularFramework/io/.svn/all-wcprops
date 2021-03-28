@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io
+END
+SugarExporterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarExporterFactory.java
+END
+SugarImporterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarImporterException.java
+END
+SugarImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarImporter.java
+END
+MonosaccharideBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/MonosaccharideBuilder.java
+END
+StructureSpecialInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/StructureSpecialInformation.java
+END
+CarbohydrateSequenceEncoding.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/CarbohydrateSequenceEncoding.java
+END
+SugarImporterText.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarImporterText.java
+END
+ErrorTextEng.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/ErrorTextEng.java
+END
+SugarExporterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarExporterException.java
+END
+SugarExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarExporter.java
+END
+SugarImporterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/SugarImporterFactory.java
+END

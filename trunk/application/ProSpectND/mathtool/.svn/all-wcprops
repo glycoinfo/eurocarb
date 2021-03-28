@@ -1,0 +1,785 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool
+END
+cdexp.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cdexp.c
+END
+zcopy.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zcopy.c
+END
+negstep.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/negstep.c
+END
+csroot.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/csroot.c
+END
+slasv2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slasv2.c
+END
+zscal.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zscal.c
+END
+gauss.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/gauss.c
+END
+interlv.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/interlv.c
+END
+ctrevc.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/ctrevc.c
+END
+cunglq.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cunglq.c
+END
+cungl2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cungl2.c
+END
+pythag.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/pythag.c
+END
+cunmlq.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cunmlq.c
+END
+cunml2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cunml2.c
+END
+zswap.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zswap.c
+END
+zdotu.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zdotu.c
+END
+slasq2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slasq2.c
+END
+clarft.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clarft.c
+END
+clarfx.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clarfx.c
+END
+cgeqr2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgeqr2.c
+END
+slabad.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slabad.c
+END
+clarf.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clarf.c
+END
+cgeev.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgeev.c
+END
+s_cat.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/s_cat.c
+END
+cdotc.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cdotc.c
+END
+slartg.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slartg.c
+END
+s_copy.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/s_copy.c
+END
+cungqr.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cungqr.c
+END
+ctrsv.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/ctrsv.c
+END
+cgemv.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgemv.c
+END
+icamax.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/icamax.c
+END
+cunmqr.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cunmqr.c
+END
+slasrt.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slasrt.c
+END
+csscal.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/csscal.c
+END
+zsortip.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zsortip.c
+END
+zaxpy.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zaxpy.c
+END
+claset.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/claset.c
+END
+cgelq2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgelq2.c
+END
+isamax.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/isamax.c
+END
+cgerc.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgerc.c
+END
+cgebd2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgebd2.c
+END
+cgebrd.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgebrd.c
+END
+slaset.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slaset.c
+END
+mathtool.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/mathtool.h
+END
+cgehrd.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgehrd.c
+END
+cgehd2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgehd2.c
+END
+cung2r.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cung2r.c
+END
+cunm2r.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cunm2r.c
+END
+slasq3.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slasq3.c
+END
+complex.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/complex.c
+END
+cgeqrf.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgeqrf.c
+END
+cgesvd.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgesvd.c
+END
+complex.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/complex.h
+END
+ilaenv.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/ilaenv.c
+END
+slas2.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slas2.c
+END
+dscal.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/dscal.c
+END
+clatrs.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clatrs.c
+END
+minmax.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/minmax.c
+END
+csrscl.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/csrscl.c
+END
+zsvdc.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zsvdc.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/Makefile
+END
+clacgv.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clacgv.c
+END
+cgelqf.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgelqf.c
+END
+clascl.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clascl.c
+END
+zdrot.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zdrot.c
+END
+csign.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/csign.c
+END
+scnrm2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/scnrm2.c
+END
+memcof.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/memcof.c
+END
+slamch.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slamch.c
+END
+zppsl.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zppsl.c
+END
+cungbr.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cungbr.c
+END
+cgelss.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgelss.c
+END
+slascl.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slascl.c
+END
+zdotc.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zdotc.c
+END
+cdiv.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cdiv.c
+END
+chseqr.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/chseqr.c
+END
+cunmbr.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cunmbr.c
+END
+clabrd.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clabrd.c
+END
+lpsvd.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/lpsvd.c
+END
+clarfb.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clarfb.c
+END
+csrot.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/csrot.c
+END
+clahrd.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clahrd.c
+END
+mrqmin.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/mrqmin.c
+END
+hsvd.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/hsvd.c
+END
+clasr.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clasr.c
+END
+slasq4.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slasq4.c
+END
+clanhs.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clanhs.c
+END
+slapy2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slapy2.c
+END
+clacpy.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clacpy.c
+END
+dznrm2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/dznrm2.c
+END
+cgebak.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgebak.c
+END
+zpoly.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zpoly.c
+END
+ccopy.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/ccopy.c
+END
+xxsumz.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/xxsumz.c
+END
+cbdsqr.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cbdsqr.c
+END
+ampfit.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/ampfit.c
+END
+ctrmm.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/ctrmm.c
+END
+cscal.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cscal.c
+END
+clange.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clange.c
+END
+scopy.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/scopy.c
+END
+lfit.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/lfit.c
+END
+svdfit.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/svdfit.c
+END
+s_cmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/s_cmp.c
+END
+vector.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/vector.c
+END
+cladiv.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cladiv.c
+END
+sscal.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/sscal.c
+END
+clahqr.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clahqr.c
+END
+simplx.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/simplx.c
+END
+cswap.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cswap.c
+END
+cdotu.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cdotu.c
+END
+drotg.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/drotg.c
+END
+zppfa.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/zppfa.c
+END
+comqr.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/comqr.c
+END
+sladiv.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/sladiv.c
+END
+classq.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/classq.c
+END
+cunghr.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cunghr.c
+END
+cdlog.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cdlog.c
+END
+scasum.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/scasum.c
+END
+givens.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/givens.c
+END
+gaussj.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/gaussj.c
+END
+clarfg.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/clarfg.c
+END
+slasq1.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slasq1.c
+END
+slapy3.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/slapy3.c
+END
+inverse.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/inverse.c
+END
+cgebal.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgebal.c
+END
+corth.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/corth.c
+END
+caxpy.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/caxpy.c
+END
+cgemm.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cgemm.c
+END
+ctrmv.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/ctrmv.c
+END
+cbal.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1/trunk/application/ProSpectND/mathtool/cbal.c
+END

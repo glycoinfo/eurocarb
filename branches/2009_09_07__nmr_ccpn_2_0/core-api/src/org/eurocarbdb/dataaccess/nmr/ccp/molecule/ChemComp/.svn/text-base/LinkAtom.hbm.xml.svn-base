@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.ChemComp">
+  <joined-subclass
+    name="LinkAtom"
+    extends="ccp.api.molecule.ChemComp.AbstractChemAtom"
+    table="CHEM_LINKATOM"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description"> Atom used to specify LinkEnds. Serves as a placeholder for ChemAtoms that are not part of the present ChemComp but of other ChemComps linked to it. As such allows the definition of bonds, Torsions, Stereochemistry etc. involving ChemAtoms from several ChemComps. The key element in the definition of LinkEnds. </meta>
+  <key column="ABSTRACTCHEMATOMID" foreign-key="CHEM_LINKATOM_ABSTCHEMATOM_FK"/>
+  
+  <many-to-one
+    name="hbBoundLinkEnd"
+    column="BOUNDLINKENDID"
+    class="ccp.api.molecule.ChemComp.LinkEnd" 
+    not-null="false"
+    unique="true"
+    foreign-key="CHEM_LINKATOM_BOUNLINKEND_FK" 
+  >
+    <meta attribute="field-description">linkEnd with link directly bound to LinkAtom</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbRemoteLinkEnd"
+    column="REMOTELINKENDID"
+    class="ccp.api.molecule.ChemComp.LinkEnd" 
+    not-null="false"
+    unique="true"
+    foreign-key="CHEM_LINKATOM_REMOLINKEND_FK" 
+  >
+    <meta attribute="field-description">LinkEnd where LinkAtom is remoteLinkAtom</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

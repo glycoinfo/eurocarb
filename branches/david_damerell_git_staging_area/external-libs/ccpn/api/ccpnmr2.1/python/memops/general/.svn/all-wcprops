@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general
+END
+Implementation.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general/Implementation.py
+END
+Version.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general/Version.py
+END
+Io.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general/Io.py
+END
+TextWriter_py_2_1.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general/TextWriter_py_2_1.py
+END
+Constants.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general/Constants.py
+END
+Credits.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general/Credits.py
+END
+_licenseInfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general/_licenseInfo.py
+END
+Util.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general/Util.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general/__init__.py
+END
+TextWriter.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general/TextWriter.py
+END
+Application.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/23/trunk/api/ccpnmr2.1/python/memops/general/Application.py
+END

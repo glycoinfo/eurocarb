@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/sugar/impl
+END
+SimpleMonosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/sugar/impl/SimpleMonosaccharide.java
+END
+ResidueDisjunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/sugar/impl/ResidueDisjunction.java
+END
+GenericResidue.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/sugar/impl/GenericResidue.java
+END
+LinkageDisjunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/sugar/impl/LinkageDisjunction.java
+END
+ComplexMonosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/core-api/src/org/eurocarbdb/sugar/impl/ComplexMonosaccharide.java
+END

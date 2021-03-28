@@ -1,0 +1,196 @@
+<project name="eurocarb-glycoworkbench" default="build">
+  
+    <!--
+    !   this import defines the following:
+    !
+    !   1) 'project.*' properties  
+    !   2) 'project.classpath' path, containing all external and eurocarb-compiled jars.
+    !   3) 'build-XXX' tasks, where 'XXX' is the name of a sub-project                
+    !
+    -->
+    <import file="../../build.common.xml" />
+
+    
+    <!--===================== PROPERTIES =========================-->
+    
+    <property name="java.source.dir" value="${basedir}/src" />
+    <property name="java.build.dir" value="${basedir}/build" />
+    <property name="doc.dir" value="${basedir}/doc"/>  
+    <property name="apidoc.dir" value="${doc.dir}/api"/>  
+
+    <property name="java.extlib.dir" value="${project.java.extlib.dir}"/>
+    <property name="java.dist.dir" value="${project.java.lib.dir}" />
+    <property name="applet.dist.dir" value="${project.binary.dir}" />
+    
+    
+    <!--======================== PATHS ===========================-->
+
+    
+    <!--======================= TARGETS  =========================-->
+    <!--            (in alphabetical order please)                -->
+
+
+    <!-- TARGET: build ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <target name="build" depends="build-resourcesdb, build-molframework, build-glycanbuilder, build-glycopeakfinder"> 
+        <mkdir dir="${java.build.dir}" />
+        <javac 
+            srcdir="${java.source.dir}"
+            destdir="${java.build.dir}"
+            debug="on"
+            deprecation="on"
+            >
+            <!-- compilerarg value="-Xlint:unchecked"/ -->
+            <classpath refid="project.classpath" />
+        </javac>
+    </target>
+
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    TARGET: build-apidocs
+    creates API documentation from sources 
+    -->
+	<target name="build-apidocs" depends="build" 
+            description="Creates javadoc from sources in src/ and the core API" 
+            >
+	    <echo>Building GlycanBuilder API documentation</echo>	    
+        <delete dir="${apidoc.dir}" />
+	    <mkdir dir="${apidoc.dir}" />
+        <javadoc 
+            destdir="${apidoc.dir}"
+            Author="true"
+            Use="true"
+            Version="true"
+            linksource="true"
+            stylesheetfile="${project.coreapi.dir}/doc/eurocarb_apidoc.css"
+            windowtitle="GlycoWorkbench API"
+            doctitle="GlycoWorkbench API"
+         >  
+            <classpath>
+                <path refid="project.classpath"/>
+            </classpath>
+            
+            <sourcepath>
+                <pathelement path="${java.source.dir}" />
+            </sourcepath>
+            
+            <!-- link to java stdlib API -->
+            <link href="http://java.sun.com/j2se/1.5.0/docs/api/" />
+
+            <!-- link to hibernate API -->
+            <link href="https://www.hibernate.org/hib_docs/v3/api/" />
+
+            <!-- link to webwork API -->
+            <link href="http://www.opensymphony.com/webwork/api/" />
+
+            <!-- link to commons logging -->
+            <link href="http://commons.apache.org/logging/apidocs/" />
+            
+            <!-- link to google collections -->
+            <link href="http://google-collections.googlecode.com/svn/trunk/javadoc/" />
+            
+            <!-- link to ANTLR API, grammar/parser generator -->
+            <link href="http://www.antlr2.org/javadoc/" />
+            
+            <!-- link to TestNG API, unit testing framework -->
+            <link href="http://testng.org/javadocs/" />
+            
+            <!-- link to eurocarb core API -->
+            <link href="../../../../core-api/doc/api/" />
+            
+            <!-- other eurocarb projects -->
+            <link href="../../../ResourcesDB/doc/api/" />
+            <link href="../../../GlycanBuilder/doc/api/" />
+            <link href="../../../MolecularFramework/doc/api/" />
+                
+            <!-- groups: used to partition package overview into logical groups -->
+            <!--<group title="Core application logic (Actions)" packages="org.eurocarbdb.action*"/>-->
+
+        </javadoc>
+        <echo>See ${apidoc.dir} for generated javadoc</echo>
+
+        <exec executable="open" os="Mac OS X">
+            <arg value="${apidoc.dir}/index.html"/>
+        </exec>
+
+    </target>
+    
+    
+   <target name="clean" depends="">
+        <echo>Cleaning ${ant.project.name}</echo>
+        <delete includeemptydirs="true">   
+            <fileset dir="${java.build.dir}" includes="**/*"/>
+        </delete>
+    </target>  
+
+  
+    <target name="copy-resources" depends="">
+<!--        
+        <unjar 
+            src="${java.dist.dir}/${project.glycanbuilder.jar}"
+            dest="${java.build.dir}"
+        />
+-->
+        <copy todir="${java.build.dir}">
+            <fileset dir="${java.source.dir}">
+                <exclude name="**/*.java"/>
+                <exclude name="manifest.mf"/>
+            </fileset>
+            <!--            
+            <fileset dir="${project.glycanbuilder.dir}/src">
+                <exclude name="**/*.java"/>
+                <exclude name="manifest.mf"/>
+            </fileset>
+            -->
+            <!--<fileset dir="${gb.dir}/build"/>-->
+        </copy>
+    </target> 
+
+
+    <!-- mjh: wtf is this for exactly?       
+    <target name="help" depends=""> 
+        <echo>${java.dist.dir}</echo>
+        <echo>In source dir ${java.source.dir}</echo>
+        <jar destfile="${java.dist.dir}/Help.jar" 
+            basedir="${java.source.dir}/help_gwb/"
+        />
+    </target>
+    -->
+
+    
+    <target name="dist" depends="build,copy-resources">
+	<manifestclasspath  jarfile="${java.dist.dir}/${project.glycoworkbench.jar}" property="manifest.class.path">
+	  <classpath refid="project.glycoworkbench.classpath"/>
+	</manifestclasspath>
+        <jar destfile="${java.dist.dir}/${project.glycoworkbench.jar}" basedir="${java.build.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="org.eurocarbdb.application.glycoworkbench.GlycoWorkbench"/>
+                <attribute name="Class-Path" value="${manifest.class.path}"/>
+            </manifest>
+        </jar>
+    </target>
+    
+    
+    <target name="dist-applet" depends="build,copy-resources">
+        <jar destfile="${applet.dist.dir}/${project.glycoworkbench.applet.jar}"> 
+            <manifest>
+                <attribute name="Main-Class" value="org.eurocarbdb.application.glycoworkbench.plugin.AnnotationReportApplet"/>
+            </manifest>
+            <fileset dir="${java.build.dir}" includes="conf/**" excludes="**/*.xml"/>
+            <fileset dir="${java.build.dir}" includes="cursors/**"/>
+            <fileset dir="${java.build.dir}" includes="icons/**"/>      
+            <fileset dir="${java.build.dir}" includes="**/*.class"/>
+            <zipfileset src="${java.extlib.dir}/swing-layout-1.0.jar"/>	 
+            <zipfileset src="${java.extlib.dir}/jfreechart-1.0.9.jar"/>	 
+            <zipfileset src="${java.extlib.dir}/jcommon-1.0.12.jar"/>
+            <zipfileset src="${java.extlib.dir}/log4j-1.2.12.jar"/>
+        </jar>
+    </target>
+
+    
+    <target name="run" depends="build,copy-resources">
+        <java classname="org.eurocarbdb.application.glycoworkbench.GlycoWorkbench" fork="yes" >
+            <classpath refid="project.classpath"/>
+        </java>
+    </target>  
+    
+</project>

@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/index.html
+END
+constraints.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/constraints.html
+END
+nmrConstraintStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/nmrConstraintStore.html
+END
+serial.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/serial.html
+END
+setExperiments.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/setExperiments.html
+END
+unit.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/unit.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/name.html
+END
+setMeasurementLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/setMeasurementLists.html
+END
+method.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/method.html
+END
+measureListSerials.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/measureListSerials.html
+END
+details.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/details.html
+END
+usedForCalculation.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/usedForCalculation.html
+END
+conditionState.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/conditionState.html
+END
+addExperiment.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/addExperiment.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/parent.html
+END
+addMeasurementList.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/addMeasurementList.html
+END
+nmrSimEnergyTerms.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/nmrSimEnergyTerms.html
+END
+nmrConstraintListValidations.html
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/nmrConstraintListValidations.html
+END
+removeExperiment.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/removeExperiment.html
+END
+removeMeasurementList.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/removeMeasurementList.html
+END
+getExperiments.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/getExperiments.html
+END
+experimentSerials.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/experimentSerials.html
+END
+experiments.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/experiments.html
+END
+measurementLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/measurementLists.html
+END
+getMeasurementLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrConstraint/AbstractConstraintList/getMeasurementLists.html
+END

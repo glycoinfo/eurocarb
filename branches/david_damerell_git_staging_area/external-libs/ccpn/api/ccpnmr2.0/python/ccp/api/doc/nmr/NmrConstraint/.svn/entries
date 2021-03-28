@@ -1,0 +1,167 @@
+10
+
+dir
+26
+http://eurocarbdb-nmr.googlecode.com/svn/trunk/api/ccpnmr2.0/python/ccp/api/doc/nmr/NmrConstraint
+http://eurocarbdb-nmr.googlecode.com/svn
+
+
+
+2009-07-09T11:35:58.877203Z
+4
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ccabb5d2-bd44-11dd-94c0-21daf384169b
+
+NmrConstraintStore
+dir
+
+DistanceConstraintItem
+dir
+
+ConditionState
+dir
+
+JCouplingConstraintList
+dir
+
+HBondConstraintList
+dir
+
+FixedResonance
+dir
+
+JCouplingConstraint
+dir
+
+HBondConstraint
+dir
+
+ViolationList
+dir
+
+ConstraintGroup
+dir
+
+Violation
+dir
+
+PairwiseConstraintItem
+dir
+
+RdcConstraintList
+dir
+
+ChemShiftConstraintList
+dir
+
+RdcConstraint
+dir
+
+DihedralConstraintList
+dir
+
+HBondConstraintItem
+dir
+
+JCouplingConstraintItem
+dir
+
+ChemShiftConstraint
+dir
+
+ResCoord
+dir
+
+DihedralConstraint
+dir
+
+SingleConstraint
+dir
+
+DistanceConstraintList
+dir
+
+FixedAtomSet
+dir
+
+RdcConstraintItem
+dir
+
+DistanceConstraint
+dir
+
+DihedralConstraintItem
+dir
+
+ChainStateLink
+dir
+
+AbstractConstraintList
+dir
+
+ConstraintPeakContrib
+dir
+
+CsaConstraintList
+dir
+
+AbstractConstraint
+dir
+
+FixedResonanceSet
+dir
+
+ResStructure
+dir
+
+index.html
+file
+
+
+
+
+2016-01-08T01:31:36.822053Z
+fb3dd97e58e369f26049939daf87112d
+2009-07-09T11:35:58.877203Z
+4
+magnusl@organ.su.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21649
+
+CsaConstraint
+dir
+

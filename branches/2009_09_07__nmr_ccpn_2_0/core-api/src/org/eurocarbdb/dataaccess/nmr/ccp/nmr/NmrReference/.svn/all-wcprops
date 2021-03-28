@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrReference
+END
+ChemCompVarNmrRef.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrReference/ChemCompVarNmrRef.hbm.xml
+END
+ChemAtomShiftCorr.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrReference/ChemAtomShiftCorr.hbm.xml
+END
+ChemCompNmrRef.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrReference/ChemCompNmrRef.hbm.xml
+END
+ChemAtomNmrRef.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrReference/ChemAtomNmrRef.hbm.xml
+END
+NmrReferenceStore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/nmr/NmrReference/NmrReferenceStore.hbm.xml
+END

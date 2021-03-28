@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1932/trunk/core-api/src/org/eurocarbdb/util/graph
+END
+GraphVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/util/graph/GraphVisitor.java
+END
+Graph.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1932/trunk/core-api/src/org/eurocarbdb/util/graph/Graph.java
+END
+BreadthFirstGraphVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/util/graph/BreadthFirstGraphVisitor.java
+END
+Graphs.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1423/trunk/core-api/src/org/eurocarbdb/util/graph/Graphs.java
+END
+Edge.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1426/trunk/core-api/src/org/eurocarbdb/util/graph/Edge.java
+END
+Graphable.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/util/graph/Graphable.java
+END
+GraphIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/util/graph/GraphIterator.java
+END
+Path.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1500/trunk/core-api/src/org/eurocarbdb/util/graph/Path.java
+END
+Vertex.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1423/trunk/core-api/src/org/eurocarbdb/util/graph/Vertex.java
+END
+DepthFirstGraphVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/util/graph/DepthFirstGraphVisitor.java
+END
+Tree.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/util/graph/Tree.java
+END

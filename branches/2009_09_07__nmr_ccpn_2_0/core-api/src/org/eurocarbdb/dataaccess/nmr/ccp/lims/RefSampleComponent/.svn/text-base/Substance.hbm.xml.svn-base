@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.RefSampleComponent">
+  <joined-subclass
+    name="Substance"
+    extends="ccp.api.lims.RefSampleComponent.AbstractComponent"
+    table="REFS_SUBSTANCE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">A Substance should be limited to cases that cannot be put under any of the others. Typically: bovine calf serum, light petroleum, wheat germ extract, algal hydrolysate.</meta>
+  <key column="ABSTRACTCOMPONENTID" foreign-key="REFS_SUBSTANCE_ABSTCOMP_FK"/>
+
+  </joined-subclass>
+
+</hibernate-mapping>

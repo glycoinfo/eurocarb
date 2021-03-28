@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="IsotropicS2"
+    extends="ccp.api.nmr.Nmr.DerivedData"
+    table="NMR_ISOTROPICS2"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Order parameter (S2), calculated assuming isotropic motion.</meta>
+  <key column="DERIVEDDATAID" foreign-key="NMR_ISOTS2_DERIDATA_FK"/>
+  
+  <property
+    name="_modelFit"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Which model used in fitting</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MODELFIT" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_rexError"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Uncertainty (standard deviation) in value of Rex</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="REXERROR" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_rexValue"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">R value for relaxation from other mechanisms</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="REXVALUE" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_sumSquaredErrors"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Sum-Of-Squared-Errors from the fitting</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SUMSQUAREDERRORS" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_tauEError"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Uncertainty (standard deviation) in overall correlation time.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="TAUEERROR" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_tauEValue"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Overall correlation time for the molecule</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="TAUEVALUE" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_tauSError"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Uncertainty (standard deviation) in internal correlation time.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="TAUSERROR" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_tauSValue"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Correlation time for internal motion</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="TAUSVALUE" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <many-to-one
+    name="hbDerivation"
+    column="DERIVATIONID"
+    class="ccp.api.nmr.Nmr.IsotropicS2Derivation" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_ISOTS2_DERIVATION_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbResonances" 
+    table="NMR_RESONANCE2ISOTS2S"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Resonances to which isotropic order parameter values belongs.</meta>
+    <meta attribute="base-name">hbResonance</meta>
+    <cache usage="read-write"/>
+    <key column="ISOTROPICS2ID" foreign-key="NMR_RESONANCE_ISOTS2S_FK"/>
+    <many-to-many column="RESONANCEID" class="ccp.api.nmr.Nmr.Resonance" foreign-key="NMR_ISOTS2_RESONANCES_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

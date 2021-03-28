@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-ChemCompSelection</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>ChemCompSelection</H1>
+            <H2>ChemComp selection window</H2>
+        <P>This window can pop up for two reasons:
+        <UL>
+        <LI><B>An unknown residue/molecule code was found in a sequence file</B>: At this stage you can
+        define the chemical component ('ChemComp') that describes this residue/molecule (if it is
+        available). First, in the top half of the window, determine which chemical compound you want to
+        use, and double click on its 'show details' column. The 'variants' for this chemComp will show up
+        in the lower window. Select the one you require and click 'OK'. Note that you can use the <A
+        href="http://www.ebi.ac.uk/msd-srv/chempdb/cgi-bin/cgi.pl">MSDchem</A> service to find the
+        correct CIF code for your chemComp (this will make searching much easier when a large number of
+        compounds are available). 
+        <LI><B>You want to select a variant of a known chemical compound</B>: Select the chemComp variant you
+        require from the bottom window and click 'OK'.
+        </UL>
+        <P><B>What is a chemComp</B>: A 'ChemComp' contains the definitions of what makes up a chemical
+        compound (e.g. the atoms, bonds, etc. found in an alanine residue, in glucose, ...). This
+        information is derived from the <A href="http://www.ebi.ac.uk/msd">E-MSD database</A>, but
+        additional NMR specific information about naming systems, ...  was added for CCPN. The final
+        information is stored in reference files in XML format.</P>
+        <P>&nbsp;</P>
+        <P>The top half of the window shows:</P>
+        <UL>
+        <LI><B>number</B>: a serial number for identification only
+        <LI><B>show details</B>: double-click this column to show the chemComp variants in the bottom part of the window
+        <LI><B>molType</B>: the 'molecular type' of the chemComp
+        <LI><B>ccpCode</B>: the code used internally by CCPN for this chemComp
+        <LI><B>code1Letter</B>: the one letter code for this chemComp (if any)
+        <LI><B>cifCode</B>: the CIF code for this chemComp (if any)
+        <LI><B>name</B>: the name of this chemComp
+        </UL>
+        <P>The button '<B>Show all in details window</B>' will list all available chemComps in the bottom
+        window. The button '<B>Clear details window</B>' will remove all available chemComps from the
+        bottom window.</P>
+        <P>&nbsp;</P>
+        <P>The bottom half of the window shows:</P>
+        <UL>
+        <LI><B>number</B>: a serial number for identification only
+        <LI><B>molType</B>: the 'molecular type' of the chemComp
+        <LI><B>ccpCode</B>: the code used internally by CCPN for this chemComp
+        <LI><B>linking</B>: if part of a polymer, the sequence location of the chemCompVar
+        <LI><B>descriptor</B>: the protonation/binding state of the chemCompVar
+        <LI><B>molecularMass</B>: the  molecular weight of the chemCompVar
+        <LI><B>formula</B>: the chemical formula of the chemCompVar
+        <LI><B>nonStereoSmiles/stereoSmiles</B>: the SMILES representation(s) of the chemComp (if
+        available).
+        </UL>
+        <P>Select the correct chemComp from the lower list and press <B>OK</B> to continue. If you cannot find the correct chemComp, press <B>CANCEL</B>. The sequence cannot be handled correctly in this case.</P>
+
+    </TABLE>
+  </BODY>
+</HTML>

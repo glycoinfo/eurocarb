@@ -1,0 +1,363 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis (3):WindowPopup</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis (3):WindowPopup</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>Analysis (3)</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumFilePopup.html">EditSpectrumFilePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumPopup.html">EditSpectrumPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumRefPopup.html">EditSpectrumRefPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpectrumTolPopup.html">EditSpectrumTolPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditSpinSystemPopup.html">EditSpinSystemPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditStructuresPopup.html">EditStructuresPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditWindowGroupPopup.html">EditWindowGroupPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditWindowPopup.html">EditWindowPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditWindowSpectraPopup.html">EditWindowSpectraPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="GetCenterCoordsPopup.html">GetCenterCoordsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="NewWindowPopup.html">NewWindowPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="OpenMacroPopup.html">OpenMacroPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="OpenSpectrumPopup.html">OpenSpectrumPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="PrintWindowPopup.html">PrintWindowPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ResidueInfoPopup.html">ResidueInfoPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectObjectPopup.html">SelectObjectPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SelectedPeaksPopup.html">SelectedPeaksPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SetReferencePopup.html">SetReferencePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ViewAssignmentPopup.html">ViewAssignmentPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ViewNoeMatrix.html">ViewNoeMatrix</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ViewPeakGroupsPopup.html">ViewPeakGroupsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ViewStructurePopup.html">ViewStructurePopup</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="WindowPopup.html">WindowPopup</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      WindowPopup is the main spectrum window display. Here the contours of spectra and any peaks picked
+      in them are represented graphically. The window also carries a menu, accessed with the right mouse
+      button, which may be used to access functions based upon the spectra and peaks, from navigation tools
+      to assignment.
+      <H2>Controls Overview</H2>
+      <P>
+        The main contour display may be manipulated with the use of the keyboard and mouse cursor as
+	follows:
+      </P>
+        <P>
+	 <DIV STYLE="float: left;">
+          <H3>Mouse functions</H3>
+	  <TABLE BORDER=0 CELLPADDING=4>
+            <TR><TD CLASS="pageHead">Mouse Button + Keys   </TD><TD CLASS="pageHead">Function               </TD></TR>
+            <TR><TD CLASS="pageBody">Left                  </TD><TD CLASS="pageBody">Select peak            </TD></TR>
+            <TR><TD CLASS="pageBody">Left + Shift          </TD><TD CLASS="pageBody">Select peaks in region<BR>(additive)</TD></TR>
+            <TR><TD CLASS="pageBody">Left + Control        </TD><TD CLASS="pageBody">Pick peak              </TD></TR>
+            <TR><TD CLASS="pageBody">Left + Shift + Control</TD><TD CLASS="pageBody">Pick peaks in region   </TD></TR>
+            <TR><TD CLASS="pageBody">Middle                </TD><TD CLASS="pageBody">Drag canvas            </TD></TR>
+            <TR><TD CLASS="pageBody">Middle + Shift        </TD><TD CLASS="pageBody">Zoom (with up/down)    </TD></TR>
+            <TR><TD CLASS="pageBody">Right                 </TD><TD CLASS="pageBody">Canvas options menu    </TD></TR>
+          </TABLE>
+	  </DIV>
+	  <DIV>
+          <H3>Keyboard shortcuts</H3>
+          <TABLE BORDER=0 CELLPADDING=4>
+            <TR><TD CLASS="pageHead">Key</TD><TD CLASS="pageHead">Function</TD></TR>
+            <TR><TD CLASS="pageBody">Cursor</TD><TD CLASS="pageBody">Pan in window</TD></TR>
+            <TR><TD CLASS="pageBody">PgUp</TD><TD CLASS="pageBody">Zoom Out</TD></TR>
+            <TR><TD CLASS="pageBody">PgDn</TD><TD CLASS="pageBody">Zoom In</TD></TR>
+            <TR><TD CLASS="pageBody">Del</TD><TD CLASS="pageBody">Delete Selected peaks</TD></TR>
+            <TR><TD CLASS="pageBody">1-9</TD><TD CLASS="pageBody">Toggle spectrum n</TD></TR>
+            <TR><TD CLASS="pageBody"> a </TD><TD CLASS="pageBody">Assign peak</TD></TR>
+            <TR><TD CLASS="pageBody"> h </TD><TD CLASS="pageBody">Add horizontal ruler</TD></TR>
+            <TR><TD CLASS="pageBody"> m </TD><TD CLASS="pageBody">Mark cursor position</TD></TR>
+            <TR><TD CLASS="pageBody"> p </TD><TD CLASS="pageBody">Move selected peak</TD></TR>
+            <TR><TD CLASS="pageBody"> v </TD><TD CLASS="pageBody">Add vertical ruler</TD></TR>
+          </TABLE>
+	  </DIV>
+        </P>
+      <H2>Top Panel</H2>
+      Clicking on the blue triangles of the top panel activates one of several sections which control the
+      contents of the main window:
+      <H2>&gt; Spectra</H2>
+      <H3>[ &lt;Experiment:SpectrumName&gt> ]<H3>
+      <P>
+        Toggling these buttons sets whether the named spectrum is visible within the main display. Note
+	that if the "Shortcuts Global" option is set to ON in
+	<A HREF="EditOptionsPopup.html">EditOptionsPopup</A> (Main Menu::Other::General Options) tolling a
+	spectrum ON or OFF will also set the visibility of the same spectrum in any other window that it
+	may be shown.
+      </P>
+      <H2>&gt; Contours</H2>
+      <H3>Contour level: [----++++]</H3>
+      <P>
+	By clicking a spot on this button the base contour levels of the displayed spectra are
+	continuously increased (over a "+") or decreased (over a "-"), with the speed of change depending
+	on how far the mouse is from the centre point.
+      </P>
+      <H3>[ Detailed Settings ]</H3>
+      <P>
+        This option opens <A HREF="EditContourLevelsPopup.html">EditContourLevelsPopup</A> which allows the
+	user to specify the level represented by each contour.
+      </P> 
+      <H2>&gt; Peaks</H2> 
+      <H3>Peak List: [ &lt;SpectrumName:PeakListNumber&gt> ]</H3>
+      <P>
+	Clicking these buttons toggles whether the crosspeaks (with annotations) for the named peak list
+	are displayed within the main window. Only peak lists pertaining to the spectra
+	currently visible in the window can be toggled. Note that toggling a peak list ON or OFF in one
+	window does not have any effect upon its visibility in any other window.
+      </P>
+      <H2>&gt; Strips</H2> 
+      <H3>Active strips:[All][ &lt;StripNumber&gt> ]</H3>
+      <P>
+	Clicking these options set which of the numbered window strips is/are currently active. Only one
+	strip or all strips may be active. An active strip will be used for orthogonal dimension (z1,z2
+	etc.) navigation via the lower scrollbars and the "Goto Position" function in the right mouse
+	menu.
+      </P>
+      <H3>[ Add ]</H3>
+      <P>
+        Adds a new vertical strip to the current window to the right side of the display.
+      </P>
+      <H3>[ Remove ]</H3>
+      <P>
+        Removes the right most strip from the current window. This option is only available if the window
+	has at least two vertical strips.
+      </P>
+      <H3>X/Y scrollbars</H3>
+      <P>
+	These are located immediately adjacent to the lower and right hand edge of the main contour
+	display. There will be separate scrollbars for each strip and panel in the window, which operates
+	independently for that dimension. Note that these scrollbars may be reversibly removed in <A
+	HREF="EditWindowPopup.html">EditWindowPopup</A>. Predictably, clicking and dragging the scrollbar
+	sliders moves the region in which contours are displayed. Movement of the contour canvas is also
+	possible by dragging with the middle mouse button in the main display. 
+      </P>
+      <H3>Global locator (bottom right)</H3>
+      <P>
+	This section, with the same aspect ratio as the main display, has boxes that reflect which
+	contour regions are currently visible relative to the maximum bounds of the spectra (the
+	'universe').Left clicking on a region box and dragging it expands or contracts the displayed
+	contour regions - the same as the zoom function. Clicking and dragging a box with the middle mouse
+	button moves the contour regions within the spectrum bounds.
+      </P>
+      <H3>&lt;isotope&gt; &lt;number_entry&gt;</H3>
+      <P>
+	This number entry widget is associated with an orthogonal dimension of the window. It allows the
+        user to specify the centre position in the corresponding dimension. This results in the contour
+	display moving to a new plane (or plane region) corresponding to that position. Note that if the
+	window has multiple vertical strips, only the active ones will be affected.
+      </P>
+      <H3>Z1/Z2... scrollbars</H3>
+      <P>
+	These are located at the bottom of the popup, below any X axis scrollbar. Here the user can set
+	which depth region in the orthogonal dimensions to display contours for. The region can be moved
+	to higher or lower planes by clicking and dragging with the left mouse button. Clicking and
+	dragging with the middle mouse button on the edge of the slider allows the user to expand and
+	contract the thickness of the planes in the contour display. The extent of this region is
+	indicated numerically at the sides of the scrollbar. Note that if the window has multiple vertical
+	strips, only the active ones will be affected.
+      </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

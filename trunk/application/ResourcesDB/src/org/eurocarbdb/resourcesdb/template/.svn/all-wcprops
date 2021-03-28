@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template
+END
+TemplateContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/TemplateContainer.java
+END
+NonBasetypeTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/NonBasetypeTemplate.java
+END
+SubstituentTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/SubstituentTemplate.java
+END
+MonosaccharideDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/MonosaccharideDictionary.java
+END
+TrivialnameTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/TrivialnameTemplate.java
+END
+MonosaccharideDictionaryEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/MonosaccharideDictionaryEntry.java
+END
+BasetypeTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/BasetypeTemplate.java
+END
+SubstituentTemplateContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/SubstituentTemplateContainer.java
+END
+SubstituentTemplate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/SubstituentTemplate.hbm.xml
+END
+TrivialnameTemplateContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/TrivialnameTemplateContainer.java
+END
+AglyconTemplateContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/AglyconTemplateContainer.java
+END
+BasetypeTemplateContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/template/BasetypeTemplateContainer.java
+END

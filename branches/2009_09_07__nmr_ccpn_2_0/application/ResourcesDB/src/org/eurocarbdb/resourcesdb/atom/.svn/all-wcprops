@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom
+END
+Composition.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Composition.java
+END
+AtomConnection.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/AtomConnection.hbm.xml
+END
+Atom.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Atom.hbm.xml
+END
+Isotope.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Isotope.hbm.xml
+END
+Mol2Type.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Mol2Type.java
+END
+AtomTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/AtomTemplate.java
+END
+Periodic.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Periodic.java
+END
+AtomConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/AtomConnection.java
+END
+Atom.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Atom.java
+END
+Isotope.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Isotope.java
+END
+Periodic.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/atom/Periodic.hbm.xml
+END

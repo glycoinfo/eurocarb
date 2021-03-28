@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/templates
+END
+footer.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/templates/footer.ftl
+END
+contact_form.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/templates/contact_form.ftl
+END
+introduction.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/templates/introduction.ftl
+END
+critical_error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/templates/critical_error.ftl
+END
+contact_success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/templates/contact_success.ftl
+END
+download.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/templates/download.ftl
+END
+side_menu.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/templates/side_menu.ftl
+END
+header.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/templates/header.ftl
+END
+error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/templates/error.ftl
+END

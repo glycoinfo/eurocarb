@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor
+END
+PrintPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/PrintPopup.py
+END
+WebBrowser.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/WebBrowser.py
+END
+_licenseInfo.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/_licenseInfo.py
+END
+BasePopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/BasePopup.py
+END
+ApplicationTemplate.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/ApplicationTemplate.py
+END
+PopupTemplate.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/PopupTemplate.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/__init__.py
+END
+UrlViewerFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/UrlViewerFrame.py
+END
+SaveProjectFrame.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/SaveProjectFrame.py
+END
+EditObjectPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/EditObjectPopup.py
+END
+ObjectTablePopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/ObjectTablePopup.py
+END
+SaveProjectPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/SaveProjectPopup.py
+END
+OpenProjectPopup.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/OpenProjectPopup.py
+END
+Util.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/Util.py
+END
+ObjectTable.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/memops/editor/ObjectTable.py
+END

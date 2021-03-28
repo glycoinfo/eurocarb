@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT
+END
+GlycoCTGlycoNodeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTGlycoNodeComparator.java
+END
+GlycoCTTraverser.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTTraverser.java
+END
+SugarExporterGlycoCTCondensed.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/SugarExporterGlycoCTCondensed.java
+END
+BasetypeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/BasetypeFactory.java
+END
+GlycoCTUnderdeterminedSubtreeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTUnderdeterminedSubtreeComparator.java
+END
+GlycoCTLinkageComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTLinkageComparator.java
+END
+SugarImporterGlycoCT.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/SugarImporterGlycoCT.java
+END
+SugarImporterGlycoCTCondensed.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/SugarImporterGlycoCTCondensed.java
+END
+GlycoCTGraphAlternativeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTGraphAlternativeComparator.java
+END
+LevelGZIPOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/LevelGZIPOutputStream.java
+END
+SugarExporterGlycoCT.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/SugarExporterGlycoCT.java
+END
+GlycoCTGlycoEdgeComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/GlycoCT/GlycoCTGlycoEdgeComparator.java
+END

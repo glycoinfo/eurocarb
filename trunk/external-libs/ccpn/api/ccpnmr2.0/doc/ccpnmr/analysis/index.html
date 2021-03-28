@@ -1,0 +1,424 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Core concepts:index</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Core concepts:index</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Software:</NOBR> <NOBR>Core concepts</NOBR></TD></TR><TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="index.html">index</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="About.html">About</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_DataModel.html">Data Model</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_CcpnCcpNmrCcpMemops.html">Ccpn/CcpNmr/Ccp/Memops</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_ProjectsandFiles.html">Projects and Files</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_TheAnalysisProgram.html">The Analysis Program</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_FormatConverter.html">Format Converter</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_ExperimentsandSpectra.html">Experiments and Spectra</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_AssignmentandResonanceObjects.html">Assignment and Resonance Objects</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_MolecularSystems.html">Molecular Systems</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_SpectrumWindows.html">Spectrum Windows</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="Coreconcepts_GraphicalWidgets.html">Graphical Widgets</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+        If you've not seen this documentation before you may want to know what it's
+	all about, so here are some highlights of the CcpNmr Analysis software.
+      </P>
+      <H2>Windows</H2>
+      <DIV>
+        <SPAN CLASS="float">
+	  <P CLASS="legend">
+            <IMG SRC="../../graphics/analysis_window.jpg"><BR>
+	    A three dimensional spectrum window with
+            vertical strips
+	  </P>
+	</SPAN>
+	<P>
+	An Analysis project may contain an almost limitless number of
+	spectrum windows. The windows are are inherently N-dimensional with
+	scrollbars for not only the screen dimensions but also for
+	orthogonal planes, with the ability to select any plane thickness. A
+	window can be divided into several strips for easy comparison of
+	different regions of spectra.
+	</P>
+	<P>
+	Many spectra may be superimposed in the same window where their
+	contours and peaks are readily toggled on or off. Navigation is
+	achieved by using the mouse or keyboard and there are inbuilt
+	navigation functions to easily find orthogonal planes and return-peak
+	positions.
+	</P>
+	<P>
+        Many functions may be applied to crosspeaks directly from the window
+	menu. For example peaks may be assigned, deleted, unaliased and
+	shift matched. Several of these functions can be used on several
+	peaks at once to improve user efficiency. For example, columns of NOE
+	peaks derived from the same amide resonances may be assigned to this
+	amide at the same time.
+	</P>
+      </DIV>
+      <BR CLEAR=ALL>
+      <H2>Molecules</H2>
+      <DIV>
+        <SPAN CLASS="float">
+	  <P CLASS="legend">
+	    <IMG SRC="../../graphics/analysis_smallMol.jpg"><BR>
+	    The small molecule selection popup.
+	  </P>
+	</SPAN>
+	<P>
+	  Polymer chains and small molecules are readily put into NMR
+	  projects. Sequences may be imported or entered and from this
+	  Analysis will build the molecules with all of their NMR assignable
+	  atoms.
+	</P>
+	<P>
+	  Many molecules of different types can be included and may be
+	  connected together into chains. For example, a GIP-anchored
+	  glycoprotein may be constructed by joining protein, sugar and
+	  lipid components.
+	</P>
+	<P>
+	  By using data provided by the MSD at the EBI, CcpNmr software
+	  has access to a large number small molecule templates - those
+	  that have appeared in PDB structures.
+	</P>
+      </DIV>
+      <BR CLEAR=ALL>
+      <H2>Tables</H2>
+      <DIV>
+        <SPAN CLASS="float">
+	  <P CLASS="legend">
+	  <IMG SRC="../../graphics/analysis_table.jpg"><BR>
+	  The ScrolledMatrix object is a versatile table<BR>
+	  display used in CcpNmr software.
+	  </P>
+	</SPAN>
+	<P>
+	  Virtually all of the information within a project is available to
+	  the user via a graphical interface (and a Python shell should you
+	  be brave enough to use it) and much of the commonly used
+	  information is presented in tabular form. These tables are used
+	  to display peak lists, chemical shifts, constraints, coordinates,
+	  spectrum configuration and the like.
+	</P>
+	<P>
+	  To allow the user to change
+	  information (peak position, contour colour, experiment name to 
+	  name only a few...)
+	  they often have editable columns. The rows of the table may be
+	  sorted on any of the column types, may be filtered according
+	  to a search expression and may be selected (often several at once)
+	  to apply specific functions.
+	</P>
+	<P>
+	  Also, the data in a table may be exported to a text file, output
+	  as PostScript and if numerical may be plotted in a graph.
+	</P>
+      </DIV>
+      <BR CLEAR=ALL>
+      <H2>Assignment</H2>
+      <DIV>
+        <SPAN CLASS="float">
+	  <P CLASS="legend">
+	    <IMG SRC="../../graphics/analysis_assign.jpg"><BR>
+	     The popup displaying the resonance possibilities<BR>
+	     for the dimensions of a crosspeak.
+	  </P>
+	  <P CLASS="legend">
+            <IMG SRC="../../graphics/analysis_atoms.jpg"><BR>
+	     The atom browser is where atoms, sets of atoms and<BR> residues are
+	     chosen during assignment.
+	  </P>
+	</SPAN>
+	<P>
+	  Assignment in CcpNmr software is a two-step process proceeding via
+	  an intermediate Resonance object. This allows the user to
+	  represent anonymous but connected assignment states, and allows
+	  atomic assignment to be made to several peaks at once.
+	</P>
+	<P>
+	  Most crosspeak assignment is made by the user choosing a resonance
+	  (which need not be assigned to specific atoms) from a
+	  curated/ranked list. The choice is made with a single click (and
+	  is readily reversible) from a list of possibilities that are close
+	  in chemical shift.
+	</P>
+	<P>
+	  Structural information can also be used in assignment. Here
+	  hydrogen resonances may be ranked according to their distance in
+	  an intermediate structure.
+	</P>
+	<P>
+	  Assignment of resonances to specific atoms is achieved through
+	  scrollable lists. This needs to only be done once for each resonance as
+	  all peaks which correspond to the same resonance will automatically
+          share the atom information.
+	</P>
+	<P>
+	  A resonance may be assigned, where appropriate, in a stereospecific or
+	  non-stereospecific manner. For example, it is possible to say that two
+	  peaks represent two different hydrogen beta atoms in a residue, with
+	  different chemical shifts, but without necessarily specifying the
+	  stereochemical arrangement of the two atoms.
+	</P>
+      </DIV>
+      <BR CLEAR=ALL>
+      <H2>Structure constraints</H2>
+      <DIV>
+        <SPAN CLASS="float">
+	  <P CLASS="legend">
+            <IMG SRC="../../graphics/analysis_constraintGen.jpg"><BR>
+	    The Analysis popup used to create distance<BR>
+	    constraints (often ambiguous) by matching<BR>
+	    known chemical shifts to NOE peaks.
+	  </P>
+	</SPAN>
+	<P>
+	  Analysis can be used to generate distance constraints for structure
+	  generation. Currently this uses (fully configurable) lookup tables for
+	  obtaining distance values from peak intensities.
+	</P>
+	<P>
+	  Constraints may be generated from assigned NOESY peaks, or may be
+	  created by performing shift matching on unassigned peaks. The
+	  potentially ambiguous constraints thus output may then be used by
+	  programs such as ARIA.
+	</P>
+	<P>
+	  The violations that result from a structure generation cycle may be
+	  imported into Analysis, from where the user can readily follow a link
+	  to the peaks which were used in the generation of the violated
+	  constraint.
+	</P>
+      </DIV>
+      <BR CLEAR=ALL>
+      <H2>Reference information</H2>
+      <DIV>
+	<SPAN CLASS="float">
+          <P CLASS="legend">
+            <IMG SRC="../../graphics/analysis_refShifts.jpg"><BR>
+	    Chemical shift distributions from the BMRB form<BR>
+	    part of the CCPN reference information
+	  </P>
+	</SPAN>
+        <P>
+	  All the CcpNmr programs have access to a library of reference
+	  information. This includes chemical compound descriptions, chemical
+	  shift distributions, isotope information, idealised residue coordinates
+	  etc.
+	</P>
+	<P>
+	  This is often used implicitly within Analysis, so that the user
+	  doesn't have to worry about how to get hold of such information.
+	  Some of the data is visualised where it can be helpful. For example,
+	  chemical shift distributions during assignment.
+	</P>
+      </DIV>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

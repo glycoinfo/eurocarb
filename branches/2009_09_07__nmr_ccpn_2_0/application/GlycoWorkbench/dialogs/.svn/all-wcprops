@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/.cvsignore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/build.xml
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoWorkbench/dialogs/manifest.mf
+END

@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-index</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>index</H1>
+          <P>The CcpNmr FormatConverter is a set of Python scripts that you can use
+      to interact with external data formats from the CCPN Data Model. The
+      documentation here refers mainly to the top Graphical User Interface (GUI)
+      layer of the <A href="FormatConverterGeneral.html">FormatConverter</A>.</P>
+	  <P CLASS="legend">
+        <IMG SRC="../../graphics/fc_gui.jpg"><BR>
+	    <I>The FormatConverter graphical interface</I>
+	  </P>
+
+    </TABLE>
+  </BODY>
+</HTML>

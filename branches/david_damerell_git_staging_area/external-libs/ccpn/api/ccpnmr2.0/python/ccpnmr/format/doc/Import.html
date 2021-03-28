@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr FormatConverter documentation-Import</TITLE>
+  </HEAD>
+  <BODY>
+    <H1>Import</H1>
+            <UL>
+        <LI><UL><LH><B>Single files:</B>Read in a single file, and...</LH>
+        <LI><B>Sequence</B>: Create relevant molecule(s), chain(s), residue(s)
+            and atom(s) in the Data Model.
+        <LI><B>Chemical Compounds</B>: Create a reference chemical compound
+            (e.g. a ligand) in the Data Model.
+        <LI><B>Coordinates</B>: Create structural coordinates in the Data Model.
+            Will create the relevant molecules/chains if possible.
+        <LI><B>Chemical Shifts</B>: Create chemical shift list and corresponding
+			resonances in the Data Model.
+        <LI><B>Peaks</B>: Create a peak list and corresponding resonances in the
+			Data Model.
+        <LI><B>Peak assignments</B>: Reset peak list assignments for an existing
+			peak list in the Data Model.
+        <LI><B>Dihedral constraints</B>: Create dihedral constraint list and
+			corresponding resonances in the Data Model.
+        <LI><B>Distance constraints</B>: Create distance constraint list and
+			corresponding resonances in the Data Model.
+        <LI><B>H-bond constraints</B>: Create H-bond constraint list and
+			corresponding resonances in the Data Model.
+        <LI><B>Rdc constraints</B>: Create residual dipolar coupling constraint
+			list and corresponding resonances in the Data Model.
+        <LI><B>Acquisition parameters</B>: Get the acquisition parameters from
+            original spectrometer files, and create the relevant NMR experiment
+            and raw dataSource in the Data Model. <I>After the file is read a
+            window to edit the parameters will automatically pop up.</I>
+        <LI><B>Processing parameters</B>: Get processing parameters from
+            processing files, and create the relevant NMR experiment and
+            processed dataSource in the Data Model.
+        <LI><B>Project file</B>: Also reads in all files that are referred to in
+            the project file. Creates all relevant objects (resonances,
+            corresponding resonances in the Data Model, peak lists, ...) in the
+            Data Model.
+        </UL>
+        <P>&nbsp;</P>
+        <LI><UL><LH><B>Combined files:</B>Read in a specific combination of
+            external data files.</LH>
+        <LI><B>Chemical shifts and peaks</B>: Reads in a chemical shift list and
+            peak list as for single files, but also connects the information
+            from these files in the Data Model.
+        </UL>
+        <P>&nbsp;</P>
+        <LI><UL><LH><B>Multiple files:</B> Read in multiple files from one data
+			format.</LH>.
+        </UL>
+        </UL>
+
+    </TABLE>
+  </BODY>
+</HTML>

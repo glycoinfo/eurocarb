@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb
+END
+ResourcesDbException.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/ResourcesDbException.java
+END
+MolecularEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/MolecularEntity.java
+END
+GlycanNamescheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/GlycanNamescheme.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/Config.java
+END
+ResourcesDbObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/ResourcesDbObject.java
+END

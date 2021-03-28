@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol
+END
+Prot_ParameterDefinition.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_ParameterDefinition.h
+END
+Prot_TemperatureStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_TemperatureStep.h
+END
+Prot_RefInputSample.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_RefInputSample.h
+END
+Prot_RefOutputSample.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_RefOutputSample.h
+END
+Prot_WaitStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_WaitStep.h
+END
+Prot_Protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_Protocol.h
+END
+Prot_SonicationStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_SonicationStep.h
+END
+Prot_FlowStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_FlowStep.h
+END
+Prot_FiltrationStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_FiltrationStep.h
+END
+Prot_Step.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_Step.h
+END
+Prot_CentrifugationStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_CentrifugationStep.h
+END
+Prot_ProtocolStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_ProtocolStore.h
+END
+Prot_AddStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_AddStep.h
+END
+Prot_PressStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_PressStep.h
+END
+Prot_Procedure.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/include/ccp/api/lims/Protocol/Prot_Procedure.h
+END

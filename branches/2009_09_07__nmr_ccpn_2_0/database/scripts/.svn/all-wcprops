@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/database/scripts
+END
+parse_ddl.pl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/database/scripts/parse_ddl.pl
+END
+parse_mesh_txt.pl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/database/scripts/parse_mesh_txt.pl
+END
+parse_mesh_tree.pl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/database/scripts/parse_mesh_tree.pl
+END
+reference_data.pl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/database/scripts/reference_data.pl
+END

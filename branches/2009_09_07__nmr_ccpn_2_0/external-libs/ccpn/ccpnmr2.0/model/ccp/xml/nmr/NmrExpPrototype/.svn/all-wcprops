@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype
+END
+ExpTransferSubType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/ExpTransferSubType.xml
+END
+RefExperiment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/RefExperiment.xml
+END
+ExpGraph.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/ExpGraph.xml
+END
+NamingSystem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/NamingSystem.xml
+END
+RefExpDimRef.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/RefExpDimRef.xml
+END
+RefExpDim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/RefExpDim.xml
+END
+AtomSite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/AtomSite.xml
+END
+SystematicName.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/SystematicName.xml
+END
+ExpStep.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/ExpStep.xml
+END
+ExpCategory.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/ExpCategory.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/package.xml
+END
+NmrExpPrototype.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/NmrExpPrototype.xml
+END
+ExpTransfer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/ExpTransfer.xml
+END
+ExpKeyword.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/ExpKeyword.xml
+END
+ExpMeasurement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/ExpMeasurement.xml
+END
+ExpTransferType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/ExpTransferType.xml
+END
+ExpMeasurementType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/ExpMeasurementType.xml
+END
+ConstantTimeType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/ccp/xml/nmr/NmrExpPrototype/ConstantTimeType.xml
+END

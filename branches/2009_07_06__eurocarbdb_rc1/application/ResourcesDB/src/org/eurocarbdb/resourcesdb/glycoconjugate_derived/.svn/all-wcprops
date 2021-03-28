@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived
+END
+EcdbBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbBaseType.java
+END
+EcdbResidueParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbResidueParser.java
+END
+GlycoconjugateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/GlycoconjugateException.java
+END
+LinkageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/LinkageType.java
+END
+ComparatorModification.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/ComparatorModification.java
+END
+EcdbMonosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbMonosaccharide.java
+END
+EcdbAnomer.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbAnomer.java
+END
+EcdbSuperclass.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbSuperclass.java
+END
+EcdbModification.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbModification.java
+END
+EcdbModificationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/glycoconjugate_derived/EcdbModificationType.java
+END

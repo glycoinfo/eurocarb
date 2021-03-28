@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io
+END
+HibernateGenericEnumUserType.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/HibernateGenericEnumUserType.java
+END
+CarbbankImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/CarbbankImporter.java
+END
+MonosaccharideConversion.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MonosaccharideConversion.java
+END
+GlycoCTImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/GlycoCTImporter.java
+END
+CfgExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/CfgExporter.java
+END
+StandardExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/StandardExporter.java
+END
+CarbbankExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/CarbbankExporter.java
+END
+GlycoCTExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/GlycoCTExporter.java
+END
+BcsdbImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/BcsdbImporter.java
+END
+MonosaccharideImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MonosaccharideImporter.java
+END
+Mol2Exporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/Mol2Exporter.java
+END
+BcsdbExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/BcsdbExporter.java
+END
+MonosaccharideConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MonosaccharideConverter.java
+END
+MonosaccharideExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MonosaccharideExporter.java
+END
+MsdbSeedImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MsdbSeedImporter.java
+END
+MonosaccharideExchangeObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/MonosaccharideExchangeObject.java
+END
+CfgImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/CfgImporter.java
+END
+StandardImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/StandardImporter.java
+END
+HibernateAccess.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/HibernateAccess.java
+END
+NameParsingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/NameParsingException.java
+END
+SubstituentExchangeObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/io/SubstituentExchangeObject.java
+END

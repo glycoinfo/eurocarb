@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1945/trunk/application/Eurocarbdb/src/java/org/eurocarbdb/dataaccess
+END
+AuthenticationInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1891/trunk/application/Eurocarbdb/src/java/org/eurocarbdb/dataaccess/AuthenticationInterceptor.java
+END
+InsertionQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1549/trunk/application/Eurocarbdb/src/java/org/eurocarbdb/dataaccess/InsertionQueue.java
+END
+SavedGlycanSequenceSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1557/trunk/application/Eurocarbdb/src/java/org/eurocarbdb/dataaccess/SavedGlycanSequenceSearch.java
+END
+DateConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1549/trunk/application/Eurocarbdb/src/java/org/eurocarbdb/dataaccess/DateConverter.java
+END

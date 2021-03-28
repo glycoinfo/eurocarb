@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.Validation">
+  <joined-subclass
+    name="ValidationResult"
+    extends="ccp.api.general.Template.MultiTypeValue"
+    table="VALD_VALIDATIONRESULT"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">N/A</meta>
+  <key column="MULTITYPEVALUEID" foreign-key="VALD_VALIRESU_MULTTYPEVALU_FK"/>
+  
+  <property
+    name="_context"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">The context where tthe keyword and value is defined. Typically the name of a program that both defines the parameter and calculates its value.E.g. 'PROCHECK', 'SHIFTX', ...Used to derive the keywordDefinition</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CONTEXT" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text, for notes, explanatory comments, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_figOfMerit"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Figure of merit for validated result - 1.0 is perfect, 0.0 is totally wrong.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="FIGOFMERIT" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_keyword"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">keyword that defines the validation result</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="KEYWORD" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="validationResultUniqueKey" />
+  </property>
+  
+  <many-to-one
+    name="hbValidationStore"
+    column="VALIDATIONSTOREID"
+    class="ccp.api.molecule.Validation.ValidationStore" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="VALD_VALIRESU_VALISTOR_FK" 
+    unique-key="validationResultUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

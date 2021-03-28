@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Sample">
+  <joined-subclass
+    name="RefSample"
+    extends="ccp.api.lims.Sample.AbstractSample"
+    table="SAM_REFSAMPLE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Reference data to which a 'real' sample conforms. This is a means to store details which are shared by instances of the same reagent but are supplier and batch independant.</meta>
+  <key column="ABSTRACTSAMPLEID" foreign-key="SAM_REFSAMPLE_ABSTSAMP_FK"/>
+  
+  <set 
+    name="hbConformings" 
+    table="SAM_SAMPLE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">List of samples that are conforming to the RefSample.</meta>
+    <meta attribute="base-name">hbConforming</meta>
+    <cache usage="read-write"/>
+    <key column="REFSAMPLEID"/>
+    <one-to-many class="ccp.api.lims.Sample.Sample"/>
+  </set>
+  
+  <set 
+    name="hbRefSamplePositions" 
+    table="HOLD_REFSAMPLEPOSITION"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbRefSamplePosition</meta>
+    <cache usage="read-write"/>
+    <key column="REFSAMPLEID"/>
+    <one-to-many class="ccp.api.lims.Holder.RefSamplePosition"/>
+  </set>
+  
+  <set 
+    name="hbRefSampleSources" 
+    table="SAM_REFSAMPLESOURCE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbRefSampleSource</meta>
+    <cache usage="read-write"/>
+    <key column="REFSAMPLEID"/>
+    <one-to-many class="ccp.api.lims.Sample.RefSampleSource"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

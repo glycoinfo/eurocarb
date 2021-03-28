@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Protocol/AddStep
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Protocol/AddStep/index.html
+END
+amountDisplayUnit.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Protocol/AddStep/amountDisplayUnit.html
+END
+refInputSample.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Protocol/AddStep/refInputSample.html
+END
+amountUnit.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Protocol/AddStep/amountUnit.html
+END
+amount.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/api/doc/lims/Protocol/AddStep/amount.html
+END

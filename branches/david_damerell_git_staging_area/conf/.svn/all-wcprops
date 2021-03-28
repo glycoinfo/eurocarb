@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/conf
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/conf/web.xml
+END
+default.site.properties
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/conf/default.site.properties
+END
+server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/conf/server.xml
+END

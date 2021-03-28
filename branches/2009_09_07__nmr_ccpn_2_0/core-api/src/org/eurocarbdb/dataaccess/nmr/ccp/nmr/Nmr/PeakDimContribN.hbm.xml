@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="PeakDimContribN"
+    extends="ccp.api.nmr.Nmr.AbstractPeakDimContrib"
+    table="NMR_PEAKDIMCONTRIBN"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">PeakDimContrib for cases where assignments are made to two or more Resonances (e.g. J couplings, multiple quantum coherences).</meta>
+  <key column="ABSTRACTPEAKDIMCONTRIBID" foreign-key="NMR_PEAKDIMCONTN_ABSTPEAKDIMCONT_FK"/>
+  
+  <set 
+    name="hbResonances" 
+    table="NMR_RESONANCE2PEAKDIMCONTNS"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Resonances assigned to PeakDimContribN. NBNB TBD uniquenes constraint should be added on link same as the link for the PeakDimContrib </meta>
+    <meta attribute="base-name">hbResonance</meta>
+    <cache usage="read-write"/>
+    <key column="PEAKDIMCONTRIBNID" foreign-key="NMR_RESONANCE_PEAKDIMCONTNS_FK"/>
+    <many-to-many column="RESONANCEID" class="ccp.api.nmr.Nmr.Resonance" foreign-key="NMR_PEAKDIMCONTN_RESONANCES_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

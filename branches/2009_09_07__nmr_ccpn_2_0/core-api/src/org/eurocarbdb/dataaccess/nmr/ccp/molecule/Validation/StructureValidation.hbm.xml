@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.Validation">
+  <joined-subclass
+    name="StructureValidation"
+    extends="ccp.api.molecule.Validation.ValidationResult"
+    table="VALD_STRUCTUREVALIDATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Validation result for one or more MolStructures</meta>
+  <key column="VALIDATIONRESULTID" foreign-key="VALD_STRUVALI_VALIRESU_FK"/>
+  
+  <set 
+    name="hbModels" 
+    table="VALD_STRUVALI2MODELS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Structure models being validated</meta>
+    <meta attribute="base-name">hbModel</meta>
+    <cache usage="read-write"/>
+    <key column="STRUCTUREVALIDATIONID" foreign-key="COOR_MODEL_STRUVALI_FK"/>
+    <many-to-many column="MODELID" class="ccp.api.molecule.MolStructure.Model" foreign-key="VALD_STRUVALI_MODELS_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

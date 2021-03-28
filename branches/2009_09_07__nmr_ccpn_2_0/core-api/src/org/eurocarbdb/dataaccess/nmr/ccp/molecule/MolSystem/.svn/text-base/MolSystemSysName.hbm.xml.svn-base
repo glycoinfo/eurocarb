@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.MolSystem">
+  <class
+    name="MolSystemSysName"
+    table="MOLS_MOLSYSTEMSYSNAME"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Systematic name of MolSystem according to namingSystem</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.molecule.MolSystem.MolSystem"
+    not-null="true"
+    unique="false"
+    foreign-key="MOLS_MOLSYSTSYSNAME_MOLSYSTEM_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">name of MolSystem accordign to namingSystem</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_namingSystem"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">name of alternative nomenclature system. E.g. EC enzyme classification.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAMINGSYSTEM" sql-type="VARCHAR(32)" length="32" not-null="true" unique-key="molSystemSysNameUniqueKey" />
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="MOLS_MOLSYSTSYSNAME2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbMolSystem"
+    column="MOLSYSTEMID"
+    class="ccp.api.molecule.MolSystem.MolSystem" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="MOLS_MOLSYSTSYSNAME_MOLSYSTEM_FK" 
+    unique-key="molSystemSysNameUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+
+  </class>
+
+</hibernate-mapping>

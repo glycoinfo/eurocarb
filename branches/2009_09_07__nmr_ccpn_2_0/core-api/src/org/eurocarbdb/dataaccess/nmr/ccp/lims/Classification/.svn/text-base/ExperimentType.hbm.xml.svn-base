@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Classification">
+  <joined-subclass
+    name="ExperimentType"
+    extends="ccp.api.lims.Classification.AbstractCategory"
+    table="CLAS_EXPERIMENTTYPE"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">The type of experiment classified by namingSystem. Different organisations can have their own types.</meta>
+  <key column="ABSTRACTCATEGORYID" foreign-key="CLAS_EXPETYPE_ABSTCATE_FK"/>
+  
+  <many-to-one
+    name="hbClassification"
+    column="CLASSIFICATIONID"
+    class="ccp.api.lims.Classification.Classification" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="CLAS_EXPETYPE_CLAS_FK" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbInstrumentTypes" 
+    table="CLAS_INSTTYPE2EXPETYPE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">List of instrument type associated to an experiment type.</meta>
+    <meta attribute="base-name">hbInstrumentType</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTTYPEID" foreign-key="CLAS_INSTTYPE_EXPETYPE_FK"/>
+    <many-to-many column="INSTRUMENTTYPEID" class="ccp.api.lims.Classification.InstrumentType" foreign-key="CLAS_EXPETYPE_INSTTYPE_FK"/>
+  </set>
+  
+  <set 
+    name="hbSampleCategories" 
+    table="CLAS_SAMPCATE2EXPETYPE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">List of sample category associated to an experiment type. It represents the list of possible sample category that can be used by a certain type of experiment.</meta>
+    <meta attribute="base-name">hbSampleCategory</meta>
+    <cache usage="read-write"/>
+    <key column="EXPERIMENTTYPEID" foreign-key="CLAS_SAMPCATE_EXPETYPE_FK"/>
+    <many-to-many column="SAMPLECATEGORYID" class="ccp.api.lims.Classification.SampleCategory" foreign-key="CLAS_EXPETYPE_SAMPCATE_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

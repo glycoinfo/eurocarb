@@ -1,0 +1,773 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="memops.api.Implementation">
+  <class
+    name="MemopsRoot"
+    table="IMPL_MEMOPSROOT"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Unique root class, located at the top of the parent-child tree of objects. The  attributes adn operations are different in the File and Db Implementations</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="IMPLEMENTATIONOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <property
+    name="_accessControlOn"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Is access control active?</meta>
+    <meta attribute="default-value">false</meta>
+    <column name="ACCESSCONTROLON" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_currentGroupName"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">name of current group. Used for access control, record of who creates and modifies objects, etc.</meta>
+    <meta attribute="default-value">"user"</meta>
+    <column name="CURRENTGROUPNAME" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_currentUserId"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">user Id for current user. Used for access control, record of who creates and modifies objects, etc.</meta>
+    <meta attribute="default-value">"user"</meta>
+    <column name="CURRENTUSERID" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">Memops root name - used in naming files etc</meta>
+    <meta attribute="default-value">"ccpProject"</meta>
+    <column name="NAME" sql-type="VARCHAR(32)" length="32" not-null="true"/>
+  </property>
+  
+  <property
+    name="_override"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Override switch - switches off validity and constraint checking. NB anyone setting override takes reponsibility for unsetting it again and ensuring that the final result is valid. It is strongly recommended to check the validity of any changes afterwards. NBNB TBD we need to prevent the storing of override=True data somehow.</meta>
+    <meta attribute="default-value">false</meta>
+    <column name="OVERRIDE" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <many-to-one
+    name="hbCurrentAccessControlStore"
+    column="CURRENTACCESSCONTROLSTOREID"
+    class="memops.api.AccessControl.AccessControlStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRACCECONTSTOR_FK" 
+  >
+    <meta attribute="field-description">current accessControlStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentNmrReferenceStore"
+    column="CURRENTNMRREFERENCESTOREID"
+    class="ccp.api.nmr.NmrReference.NmrReferenceStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRNMRREFESTOR_FK" 
+  >
+    <meta attribute="field-description">current nmrReferenceStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentNmrExpPrototype"
+    column="CURRENTNMREXPPROTOTYPEID"
+    class="ccp.api.nmr.NmrExpPrototype.NmrExpPrototype"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRNMREXPPROT_FK" 
+  >
+    <meta attribute="field-description">current nmrExpPrototype - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentNmrEntryStore"
+    column="CURRENTNMRENTRYSTOREID"
+    class="ccp.api.nmr.NmrEntry.NmrEntryStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRNMRENTRSTOR_FK" 
+  >
+    <meta attribute="field-description">current nmrEntryStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentNmrConstraintStore"
+    column="CURRENTNMRCONSTRAINTSTOREID"
+    class="ccp.api.nmr.NmrConstraint.NmrConstraintStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRNMRCONSSTOR_FK" 
+  >
+    <meta attribute="field-description">current nmrConstraintStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentNmrProject"
+    column="CURRENTNMRPROJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRNMRPROJ_FK" 
+  >
+    <meta attribute="field-description">current nmrProject - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentValidationStore"
+    column="CURRENTVALIDATIONSTOREID"
+    class="ccp.api.molecule.Validation.ValidationStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRVALISTOR_FK" 
+  >
+    <meta attribute="field-description">current validationStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentStereochemistryStore"
+    column="CURRENTSTEREOCHEMISTRYSTOREID"
+    class="ccp.api.molecule.Stereochemistry.StereochemistryStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRSTERSTOR_FK" 
+  >
+    <meta attribute="field-description">current stereochemistryStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentMolecule"
+    column="CURRENTMOLECULEID"
+    class="ccp.api.molecule.Molecule.Molecule"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRMOLE_FK" 
+  >
+    <meta attribute="field-description">current molecule - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentMolSystem"
+    column="CURRENTMOLSYSTEMID"
+    class="ccp.api.molecule.MolSystem.MolSystem"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRMOLSYST_FK" 
+  >
+    <meta attribute="field-description">current molSystem - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentStructureEnsemble"
+    column="CURRENTSTRUCTUREENSEMBLEID"
+    class="ccp.api.molecule.MolStructure.StructureEnsemble"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRSTRUENSE_FK" 
+  >
+    <meta attribute="field-description">current structureEnsemble - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentLabeledMolecule"
+    column="CURRENTLABELEDMOLECULEID"
+    class="ccp.api.molecule.LabeledMolecule.LabeledMolecule"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRLABEMOLE_FK" 
+  >
+    <meta attribute="field-description">current labeledMolecule - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentChemElementStore"
+    column="CURRENTCHEMELEMENTSTOREID"
+    class="ccp.api.molecule.ChemElement.ChemElementStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRCHEMELEMSTOR_FK" 
+  >
+    <meta attribute="field-description">current chemElementStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentLabelingScheme"
+    column="CURRENTLABELINGSCHEMEID"
+    class="ccp.api.molecule.ChemCompLabel.LabelingScheme"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRLABESCHE_FK" 
+  >
+    <meta attribute="field-description">current labelingScheme - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentChemCompCoord"
+    column="CURRENTCHEMCOMPCOORDID"
+    class="ccp.api.molecule.ChemCompCoord.ChemCompCoord"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRCHEMCOMPCOOR_FK" 
+  >
+    <meta attribute="field-description">current chemCompCoord - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentChemCompCharge"
+    column="CURRENTCHEMCOMPCHARGEID"
+    class="ccp.api.molecule.ChemCompCharge.ChemCompCharge"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRCHEMCOMPCHAR_FK" 
+  >
+    <meta attribute="field-description">current chemCompCharge - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentChemComp"
+    column="CURRENTCHEMCOMPID"
+    class="ccp.api.molecule.ChemComp.ChemComp"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRCHEMCOMP_FK" 
+  >
+    <meta attribute="field-description">current chemComp - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentSampleStore"
+    column="CURRENTSAMPLESTOREID"
+    class="ccp.api.lims.Sample.SampleStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRSAMPSTOR_FK" 
+  >
+    <meta attribute="field-description">current sampleStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentRefSampleComponentStore"
+    column="CURRENTREFSAMPLECOMPONENTSTOREID"
+    class="ccp.api.lims.RefSampleComponent.RefSampleComponentStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRREFSAMPCOMPSTOR_FK" 
+  >
+    <meta attribute="field-description">current refSampleComponentStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentLocationStore"
+    column="CURRENTLOCATIONSTOREID"
+    class="ccp.api.lims.Location.LocationStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRLOCASTOR_FK" 
+  >
+    <meta attribute="field-description">current locationStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentHolderStore"
+    column="CURRENTHOLDERSTOREID"
+    class="ccp.api.lims.Holder.HolderStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRHOLDSTOR_FK" 
+  >
+    <meta attribute="field-description">current holderStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentClassification"
+    column="CURRENTCLASSIFICATIONID"
+    class="ccp.api.lims.Classification.Classification"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRCLAS_FK" 
+  >
+    <meta attribute="field-description">current classification - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentTaxonomy"
+    column="CURRENTTAXONOMYID"
+    class="ccp.api.general.Taxonomy.Taxonomy"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRTAXO_FK" 
+  >
+    <meta attribute="field-description">current taxonomy - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentMethodStore"
+    column="CURRENTMETHODSTOREID"
+    class="ccp.api.general.Method.MethodStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRMETHSTOR_FK" 
+  >
+    <meta attribute="field-description">current methodStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentKeywordDefinitionStore"
+    column="CURRENTKEYWORDDEFINITIONSTOREID"
+    class="ccp.api.general.KeywordDefinition.KeywordDefinitionStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRKEYWDEFISTOR_FK" 
+  >
+    <meta attribute="field-description">current keywordDefinitionStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentInstrumentStore"
+    column="CURRENTINSTRUMENTSTOREID"
+    class="ccp.api.general.Instrument.InstrumentStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRINSTSTOR_FK" 
+  >
+    <meta attribute="field-description">current instrumentStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentDatabase"
+    column="CURRENTDATABASEID"
+    class="ccp.api.general.DbRef.Database"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRDATA_FK" 
+  >
+    <meta attribute="field-description">current database - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentDataLocationStore"
+    column="CURRENTDATALOCATIONSTOREID"
+    class="ccp.api.general.DataLocation.DataLocationStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRDATALOCASTOR_FK" 
+  >
+    <meta attribute="field-description">current dataLocationStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentCitationStore"
+    column="CURRENTCITATIONSTOREID"
+    class="ccp.api.general.Citation.CitationStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRCITASTOR_FK" 
+  >
+    <meta attribute="field-description">current citationStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbCurrentAffiliationStore"
+    column="CURRENTAFFILIATIONSTOREID"
+    class="ccp.api.general.Affiliation.AffiliationStore"
+    not-null="false"
+    foreign-key="IMPL_MEMOPSROOT_CURRAFFISTOR_FK" 
+  >
+    <meta attribute="field-description">current affiliationStore - may be reset by implementation.</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbAccessControlStores" 
+    table="IMPL_MEMOPSROOT2ACCECONTSTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbAccessControlStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="ACCO_ACCECONTSTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="ACCESSCONTROLSTOREID" class="memops.api.AccessControl.AccessControlStore" foreign-key="IMPL_MEMOPSROOT_ACCECONTSTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbNmrReferenceStores" 
+    table="IMPL_MEMOPSROOT2NMRREFESTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbNmrReferenceStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="NMRR_NMRREFESTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="NMRREFERENCESTOREID" class="ccp.api.nmr.NmrReference.NmrReferenceStore" foreign-key="IMPL_MEMOPSROOT_NMRREFESTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbNmrExpPrototypes" 
+    table="IMPL_MEMOPSROOT2NMREXPPROT"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbNmrExpPrototype</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="NMRX_NMREXPPROT_MEMOPSROOT_FK"/>
+    <many-to-many column="NMREXPPROTOTYPEID" class="ccp.api.nmr.NmrExpPrototype.NmrExpPrototype" foreign-key="IMPL_MEMOPSROOT_NMREXPPROT_FK"/>
+  </set>
+  
+  <set 
+    name="hbNmrEntryStores" 
+    table="IMPL_MEMOPSROOT2NMRENTRSTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbNmrEntryStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="ENTR_NMRENTRSTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="NMRENTRYSTOREID" class="ccp.api.nmr.NmrEntry.NmrEntryStore" foreign-key="IMPL_MEMOPSROOT_NMRENTRSTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbNmrConstraintStores" 
+    table="IMPL_MEMOPSROOT2NMRCONSSTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbNmrConstraintStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="NMRC_NMRCONSSTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="NMRCONSTRAINTSTOREID" class="ccp.api.nmr.NmrConstraint.NmrConstraintStore" foreign-key="IMPL_MEMOPSROOT_NMRCONSSTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbNmrProjects" 
+    table="IMPL_MEMOPSROOT2NMRPROJ"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbNmrProject</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="NMR_NMRPROJECT_MEMOPSROOT_FK"/>
+    <many-to-many column="NMRPROJECTID" class="ccp.api.nmr.Nmr.NmrProject" foreign-key="IMPL_MEMOPSROOT_NMRPROJ_FK"/>
+  </set>
+  
+  <set 
+    name="hbValidationStores" 
+    table="IMPL_MEMOPSROOT2VALISTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbValidationStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="VALD_VALISTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="VALIDATIONSTOREID" class="ccp.api.molecule.Validation.ValidationStore" foreign-key="IMPL_MEMOPSROOT_VALISTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbStereochemistryStores" 
+    table="IMPL_MEMOPSROOT2STERSTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbStereochemistryStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="STER_STERSTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="STEREOCHEMISTRYSTOREID" class="ccp.api.molecule.Stereochemistry.StereochemistryStore" foreign-key="IMPL_MEMOPSROOT_STERSTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbMolecules" 
+    table="IMPL_MEMOPSROOT2MOLECULES"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbMolecule</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="MOLE_MOLECULE_MEMOPSROOT_FK"/>
+    <many-to-many column="MOLECULEID" class="ccp.api.molecule.Molecule.Molecule" foreign-key="IMPL_MEMOPSROOT_MOLECULES_FK"/>
+  </set>
+  
+  <set 
+    name="hbMolSystems" 
+    table="IMPL_MEMOPSROOT2MOLSYSTEMS"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbMolSystem</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="MOLS_MOLSYSTEM_MEMOPSROOT_FK"/>
+    <many-to-many column="MOLSYSTEMID" class="ccp.api.molecule.MolSystem.MolSystem" foreign-key="IMPL_MEMOPSROOT_MOLSYSTEMS_FK"/>
+  </set>
+  
+  <set 
+    name="hbStructureEnsembles" 
+    table="IMPL_MEMOPSROOT2STRUENSE"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbStructureEnsemble</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="COOR_STRUENSE_MEMOPSROOT_FK"/>
+    <many-to-many column="STRUCTUREENSEMBLEID" class="ccp.api.molecule.MolStructure.StructureEnsemble" foreign-key="IMPL_MEMOPSROOT_STRUENSE_FK"/>
+  </set>
+  
+  <set 
+    name="hbLabeledMolecules" 
+    table="IMPL_MEMOPSROOT2LABEMOLE"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbLabeledMolecule</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="LMOL_LABEMOLE_MEMOPSROOT_FK"/>
+    <many-to-many column="LABELEDMOLECULEID" class="ccp.api.molecule.LabeledMolecule.LabeledMolecule" foreign-key="IMPL_MEMOPSROOT_LABEMOLE_FK"/>
+  </set>
+  
+  <set 
+    name="hbChemElementStores" 
+    table="IMPL_MEMOPSROOT2CHEMELEMSTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbChemElementStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="CHEL_CHEMELEMSTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="CHEMELEMENTSTOREID" class="ccp.api.molecule.ChemElement.ChemElementStore" foreign-key="IMPL_MEMOPSROOT_CHEMELEMSTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbLabelingSchemes" 
+    table="IMPL_MEMOPSROOT2LABESCHE"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbLabelingScheme</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="CCLB_LABESCHE_MEMOPSROOT_FK"/>
+    <many-to-many column="LABELINGSCHEMEID" class="ccp.api.molecule.ChemCompLabel.LabelingScheme" foreign-key="IMPL_MEMOPSROOT_LABESCHE_FK"/>
+  </set>
+  
+  <set 
+    name="hbChemCompCoords" 
+    table="IMPL_MEMOPSROOT2CHEMCOMPCOOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbChemCompCoord</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="CCCO_CHEMCOMPCOOR_MEMOPSROOT_FK"/>
+    <many-to-many column="CHEMCOMPCOORDID" class="ccp.api.molecule.ChemCompCoord.ChemCompCoord" foreign-key="IMPL_MEMOPSROOT_CHEMCOMPCOOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbChemCompCharges" 
+    table="IMPL_MEMOPSROOT2CHEMCOMPCHAR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbChemCompCharge</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="CCCA_CHEMCOMPCHAR_MEMOPSROOT_FK"/>
+    <many-to-many column="CHEMCOMPCHARGEID" class="ccp.api.molecule.ChemCompCharge.ChemCompCharge" foreign-key="IMPL_MEMOPSROOT_CHEMCOMPCHAR_FK"/>
+  </set>
+  
+  <set 
+    name="hbChemComps" 
+    table="IMPL_MEMOPSROOT2CHEMCOMPS"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbChemComp</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="CHEM_CHEMCOMP_MEMOPSROOT_FK"/>
+    <many-to-many column="CHEMCOMPID" class="ccp.api.molecule.ChemComp.ChemComp" foreign-key="IMPL_MEMOPSROOT_CHEMCOMPS_FK"/>
+  </set>
+  
+  <set 
+    name="hbSampleStores" 
+    table="IMPL_MEMOPSROOT2SAMPSTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbSampleStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="SAM_SAMPSTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="SAMPLESTOREID" class="ccp.api.lims.Sample.SampleStore" foreign-key="IMPL_MEMOPSROOT_SAMPSTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbRefSampleComponentStores" 
+    table="IMPL_MEMOPSROOT2REFSAMPCOMPSTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbRefSampleComponentStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="REFS_REFSAMPCOMPSTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="REFSAMPLECOMPONENTSTOREID" class="ccp.api.lims.RefSampleComponent.RefSampleComponentStore" foreign-key="IMPL_MEMOPSROOT_REFSAMPCOMPSTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbLocationStores" 
+    table="IMPL_MEMOPSROOT2LOCASTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbLocationStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="LOCA_LOCASTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="LOCATIONSTOREID" class="ccp.api.lims.Location.LocationStore" foreign-key="IMPL_MEMOPSROOT_LOCASTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbHolderStores" 
+    table="IMPL_MEMOPSROOT2HOLDSTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbHolderStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="HOLD_HOLDSTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="HOLDERSTOREID" class="ccp.api.lims.Holder.HolderStore" foreign-key="IMPL_MEMOPSROOT_HOLDSTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbClassifications" 
+    table="IMPL_MEMOPSROOT2CLAS"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbClassification</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="CLAS_CLAS_MEMOPSROOT_FK"/>
+    <many-to-many column="CLASSIFICATIONID" class="ccp.api.lims.Classification.Classification" foreign-key="IMPL_MEMOPSROOT_CLAS_FK"/>
+  </set>
+  
+  <set 
+    name="hbTaxonomies" 
+    table="IMPL_MEMOPSROOT2TAXONOMIES"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbTaxonomy</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="TAXO_TAXONOMY_MEMOPSROOT_FK"/>
+    <many-to-many column="TAXONOMYID" class="ccp.api.general.Taxonomy.Taxonomy" foreign-key="IMPL_MEMOPSROOT_TAXONOMIES_FK"/>
+  </set>
+  
+  <set 
+    name="hbMethodStores" 
+    table="IMPL_MEMOPSROOT2METHSTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbMethodStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="METH_METHSTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="METHODSTOREID" class="ccp.api.general.Method.MethodStore" foreign-key="IMPL_MEMOPSROOT_METHSTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbKeywordDefinitionStores" 
+    table="IMPL_MEMOPSROOT2KEYWDEFISTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbKeywordDefinitionStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="KWDF_KEYWDEFISTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="KEYWORDDEFINITIONSTOREID" class="ccp.api.general.KeywordDefinition.KeywordDefinitionStore" foreign-key="IMPL_MEMOPSROOT_KEYWDEFISTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbInstrumentStores" 
+    table="IMPL_MEMOPSROOT2INSTSTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbInstrumentStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="INST_INSTSTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="INSTRUMENTSTOREID" class="ccp.api.general.Instrument.InstrumentStore" foreign-key="IMPL_MEMOPSROOT_INSTSTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbDatabases" 
+    table="IMPL_MEMOPSROOT2DATABASES"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbDatabase</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="DBR_DATABASE_MEMOPSROOT_FK"/>
+    <many-to-many column="DATABASEID" class="ccp.api.general.DbRef.Database" foreign-key="IMPL_MEMOPSROOT_DATABASES_FK"/>
+  </set>
+  
+  <set 
+    name="hbDataLocationStores" 
+    table="IMPL_MEMOPSROOT2DATALOCASTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbDataLocationStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="DLOC_DATALOCASTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="DATALOCATIONSTOREID" class="ccp.api.general.DataLocation.DataLocationStore" foreign-key="IMPL_MEMOPSROOT_DATALOCASTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbCitationStores" 
+    table="IMPL_MEMOPSROOT2CITASTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbCitationStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="CITA_CITASTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="CITATIONSTOREID" class="ccp.api.general.Citation.CitationStore" foreign-key="IMPL_MEMOPSROOT_CITASTOR_FK"/>
+  </set>
+  
+  <set 
+    name="hbAffiliationStores" 
+    table="IMPL_MEMOPSROOT2AFFISTOR"
+      schema="nmr" 
+    cascade="merge, save-update"
+  >
+    <meta attribute="field-description">child link</meta>
+    <meta attribute="base-name">hbAffiliationStore</meta>
+    <cache usage="read-write"/>
+    <key column="MEMOPSROOTID" foreign-key="AFFI_AFFISTOR_MEMOPSROOT_FK"/>
+    <many-to-many column="AFFILIATIONSTOREID" class="ccp.api.general.Affiliation.AffiliationStore" foreign-key="IMPL_MEMOPSROOT_AFFISTOR_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

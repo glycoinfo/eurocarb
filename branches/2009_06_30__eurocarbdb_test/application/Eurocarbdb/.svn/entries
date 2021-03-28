@@ -1,0 +1,89 @@
+10
+
+dir
+1997
+http://eurocarb.googlecode.com/svn/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb
+http://eurocarb.googlecode.com/svn
+
+
+
+2009-07-02T09:04:27.945282Z
+1383
+glycoslave
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+b1b7f5f2-413c-11de-998b-8fedbbe774c7
+
+build.xml
+file
+
+
+
+
+2016-01-08T01:27:03.211073Z
+2714a82f0253374212f3019e94d289c5
+2009-06-30T08:56:13.926075Z
+1344
+hirenj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16719
+
+build
+dir
+
+webapps
+dir
+
+tranche
+dir
+
+conf
+dir
+
+doc
+dir
+
+src
+dir
+
+bin
+dir
+
+data
+dir
+
+resources
+dir
+

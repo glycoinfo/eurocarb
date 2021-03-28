@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="FreqDataDim"
+    extends="ccp.api.nmr.Nmr.AbstractDataDim"
+    table="NMR_FREQDATADIM"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">A frequency domain dimension in the data source file, i.e. a regularly sampled dimension that is in the Fourier transform domain relative to the original data.</meta>
+  <key column="ABSTRACTDATADIMID" foreign-key="NMR_FREQDATADIM_ABSTDATADIM_FK"/>
+  
+  <property
+    name="_numPointsOrig"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Original number of points, i.e. number of points before points were removed. The spectalWidthOrig is by definition numPointsOrig * valuePerPoint. Serves to account for cases where points were removed after Fourier transformation.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NUMPOINTSORIG" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_phase0"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Zero order phase correction (in degrees) applied after Fourier transformation.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PHASE0" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_phase1"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">First order phase correction (in degrees) applied after Fourier transformation. By definition the point fo no effect of the first order phase correction is point number one (before removal of points, if any). </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PHASE1" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_pointOffset"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Offset of first point, in point numbers relative to original number of points. To account for cases where points have been removed after Fourier transformation. The current point number 1 corresponds to the original point number 1+pointOffset.</meta>
+    <meta attribute="default-value">new java.lang.Integer(0)</meta>
+    <column name="POINTOFFSET" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_valuePerPoint"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Conversion between point number and frequency - in the normal case conversion between point number and Herz. Does *not* include any corrections for scaling etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VALUEPERPOINT" sql-type="FLOAT" not-null="true"/>
+  </property>
+  
+  <set 
+    name="hbDataDimRefs" 
+    table="NMR_DATADIMREF"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbDataDimRef</meta>
+    <cache usage="read-write"/>
+    <key column="DATADIMID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.DataDimRef"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

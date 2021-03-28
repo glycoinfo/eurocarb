@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib
+END
+checkGu.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/checkGu.js
+END
+mootools.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/mootools.js
+END
+EurocarbCommon.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/EurocarbCommon.js
+END
+DatePicker.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/DatePicker.js
+END
+glycan.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/glycan.js
+END
+digests.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/digests.js
+END
+AlphabetisedTabbedList.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/AlphabetisedTabbedList.js
+END
+AutoCompleter.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/AutoCompleter.js
+END
+addGu.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/addGu.js
+END
+ContextImageSearcher.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/ContextImageSearcher.js
+END
+AjaxFormSubmitter.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/AjaxFormSubmitter.js
+END
+TagVisualisation.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/js/lib/TagVisualisation.js
+END

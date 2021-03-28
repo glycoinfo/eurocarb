@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Holder">
+  <class
+    name="HolderTypePosition"
+    table="HOLD_HOLDERTYPEPOSITION"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Description of the position in a certain holder type.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.lims.Holder.HolderStore"
+    not-null="true"
+    unique="false"
+    foreign-key="HOLD_HOLDTYPEPOSI_HOLDSTOR_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_colPosition"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">The column position in the holder type.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="COLPOSITION" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text, for notes, explanatory comments, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_maxVolume"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The maximum volume.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MAXVOLUME" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_maxVolumeDiplayUnit"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">The display unit of the max volume.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MAXVOLUMEDIPLAYUNIT" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">The name of the position in holder could be reservoir, well,...</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_rowPosition"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">The row position in the holder type.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ROWPOSITION" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="holderTypePositionUniqueKey" />
+  </property>
+  
+  <property
+    name="_subPosition"
+    access="field"
+    type="java.lang.Integer"
+    not-null="false"
+  >
+    <meta attribute="field-description">The sub-position in the holder type.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SUBPOSITION" sql-type="INTEGER" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="HOLD_HOLDTYPEPOSI2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbHolderType"
+    column="HOLDERTYPEID"
+    class="ccp.api.lims.Holder.HolderType" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="HOLD_HOLDTYPEPOSI_HOLDERTYPE_FK" 
+    unique-key="holderTypePositionUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+
+  </class>
+
+</hibernate-mapping>

@@ -1,0 +1,361 @@
+=Using nested sets to model trees in SQL=
+
+<wiki:toc />
+
+
+Eurocarb uses nested sets in multiple locations to facillitate 
+tree-based searching of tree/graph hierachies. This page is 
+a collection of some of the more common kinds of queries that
+are possible with nested sets. Most of these examples relate to
+the Eurocarb [[Taxonomy]] heirachy.
+
+
+For more info, see: <a href="http://www.intelligententerprise.com/001020/celko.jhtml?_requestid=1266295">  
+this gentle intro</a>, or <a href="http://dev.mysql.com/tech-resources/articles/hierarchical-data.html">
+this one</a>, and/or <a href="http://troels.arvin.dk/db/rdbms/links/#hierarchical">these additional links</a>. 
+You might also want to look up <a href="http://en.wikipedia.org/wiki/Adjacency_list">adjacency lists</a>.
+
+
+==Parent queries==
+
+
+===To find all parents of a specific tissue taxon, inclusive ===
+{{{
+SELECT tt.tissue_taxonomy_id, tt.mesh_id, tt.tissue_taxon
+FROM   core.tissue_taxonomy AS tt
+WHERE  tt.tissue_taxonomy_id IN 
+(
+    SELECT ttr2.tissue_taxonomy_id 
+    FROM   core.tissue_taxonomy_relations AS ttr1,
+           core.tissue_taxonomy_relations AS ttr2
+    WHERE  ttr1.left_index BETWEEN ttr2.left_index AND ttr2.right_index
+       AND ttr1.tissue_taxonomy_id = 1005
+)
+}}}
+
+Result:
+{{{
+ tissue_taxonomy_id |     mesh_id     |     tissue_taxon      
+--------------------+-----------------+-----------------------
+                  1 | Anatomy         | Anatomy
+                961 | A14             | Stomatognathic System
+                973 | A14.549         | Mouth
+                985 | A14.549.167     | Dentition
+               1005 | A14.549.167.900 | Tooth Components
+(5 rows)
+}}}
+
+
+===To find all parents of a specific tissue taxon, exclusive ===
+{{{
+SELECT tt.tissue_taxonomy_id, tt.mesh_id, tt.tissue_taxon
+FROM   core.tissue_taxonomy AS tt
+WHERE  tt.tissue_taxonomy_id IN 
+(
+    SELECT ttr2.tissue_taxonomy_id 
+    FROM   core.tissue_taxonomy_relations AS ttr1,
+           core.tissue_taxonomy_relations AS ttr2
+    WHERE  ttr1.left_index BETWEEN ttr2.left_index AND ttr2.right_index
+       AND ttr1.tissue_taxonomy_id = 1005
+       AND ttr2.tissue_taxonomy_id != 1005
+)
+}}}
+
+Result:
+{{{
+ tissue_taxonomy_id |   mesh_id   |     tissue_taxon      
+--------------------+-------------+-----------------------
+                  1 | Anatomy     | Anatomy
+                961 | A14         | Stomatognathic System
+                973 | A14.549     | Mouth
+                985 | A14.549.167 | Dentition
+(4 rows)
+}}}
+
+
+
+Similarly for the taxonomy tree -- list parents of 'homo sapiens':
+{{{
+SELECT ttr2.taxonomy_id, tax.ncbi_id, tax.taxon, tax.rank
+    FROM   core.taxonomy_relations AS ttr1,
+           core.taxonomy_relations AS ttr2,
+           core.taxonomy as tax
+    WHERE  ttr1.left_index BETWEEN ttr2.left_index AND ttr2.right_index
+       AND ttr1.taxonomy_id = (select taxonomy_id from core.taxonomy where taxon = 'homo sapiens')
+       and tax.taxonomy_id = ttr2.taxonomy_id
+       and tax.rank in ( 'superkingdom', 'kingdom', 'phylum', 'class', 'order', 'family', 'species')
+       order by ttr2.left_index
+}}}
+
+Result:
+{{{
+ taxonomy_id | ncbi_id |    taxon     |     rank     
+-------------+---------+--------------+--------------
+        6454 |    2759 | eukaryota    | superkingdom
+       85504 |   33208 | metazoa      | kingdom
+       94542 |    7711 | chordata     | phylum
+      109105 |   40674 | mammalia     | class
+      109114 |    9443 | primates     | order
+      109154 |    9604 | hominidae    | family
+      109157 |    9606 | homo sapiens | species
+(7 rows)
+}}}
+
+==Child queries==
+
+
+As for the parents query, the subselect obtains the list of child ids, and the outer query joins them for the useful info.
+
+
+===To find all children of a specific node===
+{{{
+SELECT tt.tissue_taxonomy_id, tt.mesh_id, tt.tissue_taxon
+FROM   core.tissue_taxonomy AS tt
+WHERE  tt.tissue_taxonomy_id IN 
+(
+    SELECT ttr1.tissue_taxonomy_id 
+    FROM   core.tissue_taxonomy_relations AS ttr1,
+           core.tissue_taxonomy_relations AS ttr2
+    WHERE  ttr1.left_index BETWEEN ttr2.left_index AND ttr2.right_index
+       AND ttr2.tissue_taxonomy_id = 1005
+)
+}}}
+
+Result:
+{{{
+ tissue_taxonomy_id |         mesh_id         |    tissue_taxon    
+--------------------+-------------------------+--------------------
+               1005 | A14.549.167.900         | Tooth Components
+               1006 | A14.549.167.900.280     | Dentin
+               1007 | A14.549.167.900.280.280 | Dentin, Secondary
+               1008 | A14.549.167.900.710     | Tooth Crown
+               1009 | A14.549.167.900.250     | Dental Cementum
+               1010 | A14.549.167.900.720     | Tooth Germ
+               1011 | A14.549.167.900.720.265 | Enamel Organ
+               1012 | A14.549.167.900.720.250 | Dental Papilla
+               1013 | A14.549.167.900.720.255 | Dental Sac
+               1014 | A14.549.167.900.700     | Tooth Cervix
+               1015 | A14.549.167.900.750     | Tooth Root
+               1016 | A14.549.167.900.750.700 | Tooth Apex
+               1017 | A14.549.167.900.265     | Dental Pulp Cavity
+               1018 | A14.549.167.900.260     | Dental Pulp
+               1019 | A14.549.167.900.255     | Dental Enamel
+               1020 | A14.549.167.900.255.500 | Dental Pellicle
+(16 rows)
+}}}
+
+
+===To find total number of children of a specific node===
+Solution 1
+{{{
+  SELECT ttr2.tissue_taxonomy_id, 
+         COUNT(ttr1.tissue_taxonomy_id) - 1 AS count_children
+    FROM core.tissue_taxonomy_relations AS ttr1, 
+         core.tissue_taxonomy_relations AS ttr2
+   WHERE ttr1.left_index BETWEEN ttr2.left_index AND ttr2.right_index
+     AND ttr2.tissue_taxonomy_id = 1005
+GROUP BY ttr2.tissue_taxonomy_id
+}}}
+
+Result:
+{{{
+ tissue_taxonomy_id | count_children 
+--------------------+----------------
+               1005 |             15
+(1 row)
+}}}
+Solution 2 - exploits a mathematical property of the sequential numbering scheme used, that is the number of children for a given node = (right_index - left_index - 1) / 2. This method is considerably faster than the previous method.
+{{{
+SELECT ttr.tissue_taxonomy_id, 
+       ((ttr.right_index - ttr.left_index - 1) / 2) AS count_children
+  FROM core.tissue_taxonomy_relations AS ttr
+ WHERE ttr.tissue_taxonomy_id = 1005
+}}}
+Result:
+{{{
+ tissue_taxonomy_id | count_children 
+--------------------+----------------
+               1005 |             15
+(1 row)
+}}}
+
+===To find the total number of children for all nodes===
+
+{{{
+ SELECT ttr2.tissue_taxonomy_id, 
+        COUNT(ttr1.tissue_taxonomy_id) as count_children
+   FROM tissue_taxonomy_relations AS ttr1, 
+        tissue_taxonomy_relations AS ttr2
+  WHERE ttr1.left_index BETWEEN ttr2.left_index AND ttr2.right_index
+  GROUP BY ttr2.tissue_taxonomy_id;
+}}}
+or, the faster version:
+{{{
+SELECT ttr.tissue_taxonomy_id, 
+       ((ttr.right_index - ttr.left_index - 1) / 2) AS count_children
+  FROM core.tissue_taxonomy_relations AS ttr
+}}}
+Result:
+{{{
+ tissue_taxonomy_id | count_children 
+--------------------+----------------
+                  1 |           2342
+                  2 |             51
+                  3 |              6
+                  4 |              0
+                  5 |              4
+                  6 |              2
+                  7 |              0
+                  8 |              0
+                  9 |              0
+                 10 |              7
+...
+}}}
+
+===To find the depth of a specific node===
+{{{
+ SELECT COUNT(ttr2.tissue_taxonomy_id) AS depth, 
+        ttr1.tissue_taxonomy_id
+   FROM core.tissue_taxonomy_relations AS ttr1, 
+        core.tissue_taxonomy_relations AS ttr2
+  WHERE ttr1.left_index BETWEEN ttr2.left_index AND ttr2.right_index
+    AND ttr1.tissue_taxonomy_id = 1005
+  GROUP BY ttr1.tissue_taxonomy_id, ttr1.left_index
+}}}
+Result:
+{{{
+ depth | tissue_taxonomy_id 
+-------+--------------------
+     5 |               1005
+(1 row)
+}}}
+
+===To find the depth of all nodes as a list===
+
+{{{
+ SELECT COUNT(ttr2.tissue_taxonomy_id) AS depth, 
+        ttr1.tissue_taxonomy_id
+   FROM core.tissue_taxonomy_relations AS ttr1, 
+        core.tissue_taxonomy_relations AS ttr2
+  WHERE ttr1.left_index BETWEEN ttr2.left_index AND ttr2.right_index
+  GROUP BY ttr1.tissue_taxonomy_id, ttr1.left_index
+  ORDER BY ttr1.left_index;
+}}}
+
+===Find node info, as well as depth and number of children for all nodes===
+
+{{{
+  SELECT tt.tissue_taxonomy_id,
+         tt.tissue_taxon,
+         tt.mesh_id,
+         node.depth, 
+         node.count_children
+    FROM (  SELECT COUNT(ttr2.tissue_taxonomy_id) AS depth, 
+                   ((ttr1.right_index - ttr1.left_index - 1) / 2) AS count_children,
+                   ttr1.tissue_taxonomy_id
+              FROM core.tissue_taxonomy_relations AS ttr1, 
+                   core.tissue_taxonomy_relations AS ttr2
+             WHERE ttr1.left_index BETWEEN ttr2.left_index AND ttr2.right_index
+          GROUP BY ttr1.tissue_taxonomy_id, 
+                   ttr1.left_index, 
+                   ttr1.right_index ) 
+                AS node,
+         core.tissue_taxonomy AS tt
+   WHERE node.tissue_taxonomy_id = tt.tissue_taxonomy_id
+ORDER BY tt.tissue_taxonomy_id
+}}}
+
+Result:
+{{{
+ tissue_taxonomy_id |              tissue_taxon              |       mesh_id       | depth | count_children 
+--------------------+----------------------------------------+---------------------+-------+----------------
+                  1 | Anatomy                                | Anatomy             |     1 |           2342
+                  2 | Endocrine System                       | A06                 |     2 |             51
+                  3 | Neurosecretory Systems                 | A06.688             |     3 |              6
+                  4 | Pineal Gland                           | A06.688.733         |     4 |              0
+                  5 | Hypothalamo-Hypophyseal System         | A06.688.357         |     4 |              4
+                  6 | Pituitary Gland                        | A06.688.357.750     |     5 |              2
+                  7 | Pituitary Gland, Anterior              | A06.688.357.750.700 |     6 |              0
+                  8 | Pituitary Gland, Posterior             | A06.688.357.750.734 |     6 |              0
+                  9 | Median Eminence                        | A06.688.357.500     |     5 |              0
+                 10 | Enteroendocrine Cells                  | A06.390             |     3 |              7
+                 11 | Gastrin-Secreting Cells                | A06.390.065         |     4 |              0
+                 12 | Pancreatic Polypeptide-Secreting Cells | A06.390.650         |     4 |              0
+                 13 | Enterochromaffin Cells                 | A06.390.021         |     4 |              0
+                 14 | Insulin-Secreting Cells                | A06.390.131         |     4 |              0
+                 15 | Somatostatin-Secreting Cells           | A06.390.825         |     4 |              0
+                 16 | Glucagon-Secreting Cells               | A06.390.087         |     4 |              0
+                 17 | Enterochromaffin-like Cells            | A06.390.043         |     4 |              0
+                 18 | Chromaffin System                      | A06.224             |     3 |              6
+                 19 | Enterochromaffin-like Cells            | A06.224.365         |     4 |              0
+...
+}}}
+
+===Print a hierachical report of all nodes===
+
+    Check it out:
+
+{{{
+  SELECT LPAD('', node.depth * 4, '.   ' )
+         || tt.tissue_taxon 
+         || ' (' 
+         || tt.mesh_id 
+         || ')'
+         AS mesh_tree
+    FROM (
+            SELECT ttr1.tissue_taxonomy_id,
+                   CAST( COUNT(ttr2.tissue_taxonomy_id) AS INT) AS depth
+              FROM core.tissue_taxonomy_relations AS ttr1, 
+                   core.tissue_taxonomy_relations AS ttr2
+             WHERE ttr1.left_index BETWEEN ttr2.left_index AND ttr2.right_index
+          GROUP BY ttr1.tissue_taxonomy_id, 
+                   ttr1.left_index
+          ORDER BY ttr1.left_index
+         ) 
+      AS node,
+         core.tissue_taxonomy AS tt
+   WHERE tt.tissue_taxonomy_id = node.tissue_taxonomy_id  
+}}}
+
+    Result:
+
+{{{
+                                                  mesh_tree                                                   
+--------------------------------------------------------------------------------------------------------------
+ Anatomy (Anatomy)
+ .   Endocrine System (A06)
+ .   .   Neurosecretory Systems (A06.688)
+ .   .   .   Pineal Gland (A06.688.733)
+ .   .   .   Hypothalamo-Hypophyseal System (A06.688.357)
+ .   .   .   .   Pituitary Gland (A06.688.357.750)
+ .   .   .   .   .   Pituitary Gland, Anterior (A06.688.357.750.700)
+ .   .   .   .   .   Pituitary Gland, Posterior (A06.688.357.750.734)
+ .   .   .   .   Median Eminence (A06.688.357.500)
+ .   .   Enteroendocrine Cells (A06.390)
+ .   .   .   Gastrin-Secreting Cells (A06.390.065)
+ .   .   .   Pancreatic Polypeptide-Secreting Cells (A06.390.650)
+ .   .   .   Enterochromaffin Cells (A06.390.021)
+ .   .   .   Insulin-Secreting Cells (A06.390.131)
+ .   .   .   Somatostatin-Secreting Cells (A06.390.825)
+ .   .   .   Glucagon-Secreting Cells (A06.390.087)
+ .   .   .   Enterochromaffin-like Cells (A06.390.043)
+ .   .   Chromaffin System (A06.224)
+ .   .   .   Enterochromaffin-like Cells (A06.224.365)
+ .   .   .   Chromaffin Cells (A06.224.161)
+ .   .   .   Para-Aortic Bodies (A06.224.636)
+ .   .   .   Chromaffin Granules (A06.224.207)
+ .   .   .   Paraganglia, Chromaffin (A06.224.736)
+ .   .   .   Enterochromaffin Cells (A06.224.358)
+ .   .   Endocrine Glands (A06.407)
+ .   .   .   Pituitary Gland (A06.407.747)
+ .   .   .   .   Pituitary Gland, Anterior (A06.407.747.608)
+ .   .   .   .   Pituitary Gland, Posterior (A06.407.747.734)
+ .   .   .   Pineal Gland (A06.407.635)
+ .   .   .   Adrenal Glands (A06.407.071)
+ .   .   .   .   Adrenal Medulla (A06.407.071.265)
+ .   .   .   .   Adrenal Cortex (A06.407.071.140)
+ .   .   .   .   .   Zona Reticularis (A06.407.071.140.970)
+ .   .   .   .   .   Zona Fasciculata (A06.407.071.140.950)
+ .   .   .   .   .   Zona Glomerulosa (A06.407.071.140.960)
+ .   .   .   Thyroid Gland (A06.407.900)
+}}}

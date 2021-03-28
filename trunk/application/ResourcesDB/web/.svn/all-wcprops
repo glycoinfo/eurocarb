@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1210/trunk/application/ResourcesDB/web
+END
+.tomcatplugin
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/.tomcatplugin
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/.project
+END
+build_heidelberg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/build_heidelberg.xml
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/.cvsignore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/917/trunk/application/ResourcesDB/web/.classpath
+END

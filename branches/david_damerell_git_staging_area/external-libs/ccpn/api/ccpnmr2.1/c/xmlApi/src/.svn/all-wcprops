@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/Makefile
+END
+makeSharedCode.mk
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/src/makeSharedCode.mk
+END

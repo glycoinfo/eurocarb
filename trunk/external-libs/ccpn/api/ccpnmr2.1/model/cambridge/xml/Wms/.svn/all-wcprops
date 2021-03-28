@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/cambridge/xml/Wms
+END
+Task.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/cambridge/xml/Wms/Task.xml
+END
+TestTask1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/cambridge/xml/Wms/TestTask1.xml
+END
+AbstractTask.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/cambridge/xml/Wms/AbstractTask.xml
+END
+Project.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/cambridge/xml/Wms/Project.xml
+END
+WmsSegment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/cambridge/xml/Wms/WmsSegment.xml
+END
+Basket.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/cambridge/xml/Wms/Basket.xml
+END
+RawFile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/cambridge/xml/Wms/RawFile.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/cambridge/xml/Wms/package.xml
+END
+ProjectVersion.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/cambridge/xml/Wms/ProjectVersion.xml
+END
+User.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/cambridge/xml/Wms/User.xml
+END

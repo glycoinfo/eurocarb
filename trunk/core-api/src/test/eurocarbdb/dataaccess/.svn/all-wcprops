@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1552/trunk/core-api/src/test/eurocarbdb/dataaccess
+END
+HibernateEntityManagerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1210/trunk/core-api/src/test/eurocarbdb/dataaccess/HibernateEntityManagerTest.java
+END
+HibernateXmlEntityManagerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1210/trunk/core-api/src/test/eurocarbdb/dataaccess/HibernateXmlEntityManagerTest.java
+END
+EntityManagerTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1210/trunk/core-api/src/test/eurocarbdb/dataaccess/EntityManagerTests.java
+END
+CoreApplicationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1147/trunk/core-api/src/test/eurocarbdb/dataaccess/CoreApplicationTest.java
+END

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.Validation">
+  <joined-subclass
+    name="NmrConstraintValidation"
+    extends="ccp.api.molecule.Validation.ValidationResult"
+    table="VALD_NMRCONSTRAINTVALIDATION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Validation result for one or more NmrConstraint.AbstractConstraints</meta>
+  <key column="VALIDATIONRESULTID" foreign-key="VALD_NMRCONSVALI_VALIRESU_FK"/>
+  
+  <set 
+    name="hbNmrConstraints" 
+    table="NMRC_ABSTCONS2NMRCONSVALI"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">NmrConstraints being validated</meta>
+    <meta attribute="base-name">hbNmrConstraint</meta>
+    <cache usage="read-write"/>
+    <key column="NMRCONSTRAINTVALIDATIONID" foreign-key="NMRC_ABSTCONS_NMRCONSVALI_FK"/>
+    <many-to-many column="NMRCONSTRAINTID" class="ccp.api.nmr.NmrConstraint.AbstractConstraint" foreign-key="VALD_NMRCONSVALI_NMRCONS_FK"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

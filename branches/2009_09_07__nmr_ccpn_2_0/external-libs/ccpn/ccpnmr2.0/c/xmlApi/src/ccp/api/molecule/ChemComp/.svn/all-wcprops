@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp
+END
+Chem_AtomSysName.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_AtomSysName.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Makefile
+END
+Chem_ChemCompVar.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_ChemCompVar.c
+END
+Chem_StdChemComp.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_StdChemComp.c
+END
+Chem_ChemAtomSet.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_ChemAtomSet.c
+END
+Chem_LinkAtom.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_LinkAtom.c
+END
+Chem_NamingSystem.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_NamingSystem.c
+END
+Chem_ChemBond.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_ChemBond.c
+END
+Chem_NonStdChemComp.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_NonStdChemComp.c
+END
+Chem_AbstractChemAtom.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_AbstractChemAtom.c
+END
+Chem_ChemAngle.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_ChemAngle.c
+END
+Chem_LinkEnd.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_LinkEnd.c
+END
+Chem_Stereochemistry.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_Stereochemistry.c
+END
+Chem_ChemTorsionSysName.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_ChemTorsionSysName.c
+END
+Chem_ChemTorsion.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_ChemTorsion.c
+END
+Chem_ChemCompSysName.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_ChemCompSysName.c
+END
+Chem_ChemComp.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_ChemComp.c
+END
+Chem_ChemAtom.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/c/xmlApi/src/ccp/api/molecule/ChemComp/Chem_ChemAtom.c
+END

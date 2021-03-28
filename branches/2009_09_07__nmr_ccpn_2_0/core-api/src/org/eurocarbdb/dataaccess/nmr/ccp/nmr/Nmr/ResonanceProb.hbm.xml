@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="ResonanceProb"
+    extends="ccp.api.general.Template.AbstractProbability"
+    table="NMR_RESONANCEPROB"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Probability for a Resonance to belong to a given Reasonance group. For cases where precise belonging can not be established, e.g. with a HNCA experiment where the CA could be from either the i or the i-1 ResonanceGroup</meta>
+  <key column="ABSTRACTPROBABILITYID" foreign-key="NMR_RESOPROB_ABSTPROB_FK"/>
+  
+  <many-to-one
+    name="hbPossibility"
+    column="POSSIBILITYID"
+    class="ccp.api.nmr.Nmr.ResonanceGroup" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_RESOPROB_POSS_FK" 
+    unique-key="resonanceProbUniqueKey" 
+  >
+    <meta attribute="field-description">ResonanceGroup to which appropriate Resonance has a probability of belonging</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbResonance"
+    column="RESONANCEID"
+    class="ccp.api.nmr.Nmr.Resonance" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_RESOPROB_RESONANCE_FK" 
+    unique-key="resonanceProbUniqueKey" 
+  >
+    <meta attribute="field-description">Resonance whose probability of belonging to appropriate ResonanceGroup is being described.</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

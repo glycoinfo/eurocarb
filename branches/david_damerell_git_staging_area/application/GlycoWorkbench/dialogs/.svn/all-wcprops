@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1849/branches/david_damerell_git_staging_area/application/GlycoWorkbench/dialogs
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/dialogs/.cvsignore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/dialogs/build.xml
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoWorkbench/dialogs/manifest.mf
+END

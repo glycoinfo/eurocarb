@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin
+END
+layoutmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin/layoutmgr.c
+END
+genwcons.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin/genwcons.c
+END
+genwmenu.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin/genwmenu.c
+END
+gen_win.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin/gen_win.c
+END
+genwscr.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin/genwscr.c
+END
+layoutmgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin/layoutmgr.h
+END
+genwin.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin/genwin.h
+END
+genwcomm.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin/genwcomm.c
+END
+genwcurs.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin/genwcurs.c
+END
+genwprint.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin/genwprint.c
+END
+genwpop.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/application/ProSpectND/genplot/mswin/genwpop.c
+END

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.NmrConstraint">
+  <joined-subclass
+    name="HBondConstraintList"
+    extends="ccp.api.nmr.NmrConstraint.AbstractConstraintList"
+    table="NMRC_HBONDCONSTRAINTLIST"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">List of hydrogen bond constraints.</meta>
+  <key column="ABSTRACTCONSTRAINTLISTID" foreign-key="NMRC_HBONDCONSLIST_ABSTCONSLIST_FK"/>
+  
+  <set 
+    name="hbConstraints" 
+    table="NMRC_HBONDCONSTRAINT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbConstraint</meta>
+    <cache usage="read-write"/>
+    <key column="PARENTLISTID"/>
+    <one-to-many class="ccp.api.nmr.NmrConstraint.HBondConstraint"/>
+  </set>
+
+  </joined-subclass>
+
+</hibernate-mapping>

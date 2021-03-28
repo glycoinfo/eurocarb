@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/molsim/xml/AnnealProtocol
+END
+PotentialScale.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/molsim/xml/AnnealProtocol/PotentialScale.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/molsim/xml/AnnealProtocol/package.xml
+END
+ScaleFunction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/molsim/xml/AnnealProtocol/ScaleFunction.xml
+END
+AnnealProtocolStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/molsim/xml/AnnealProtocol/AnnealProtocolStore.xml
+END
+AnnealProtocol.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/molsim/xml/AnnealProtocol/AnnealProtocol.xml
+END
+EnergyTerm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/molsim/xml/AnnealProtocol/EnergyTerm.xml
+END
+AnnealStage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/molsim/xml/AnnealProtocol/AnnealStage.xml
+END
+RefPotentialTerm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/molsim/xml/AnnealProtocol/RefPotentialTerm.xml
+END
+RefTermParameter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/model/molsim/xml/AnnealProtocol/RefTermParameter.xml
+END

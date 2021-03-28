@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/src/template/action/user
+END
+error__username_doesnt_exist.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/user/error__username_doesnt_exist.ftl
+END
+error__not_logged_in.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/user/error__not_logged_in.ftl
+END
+showBlockedContributors.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/src/template/action/user/showBlockedContributors.ftl
+END
+login_success_popup.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1104/trunk/application/Eurocarbdb/src/template/action/user/login_success_popup.ftl
+END
+showPromotableContributors.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/src/template/action/user/showPromotableContributors.ftl
+END
+status.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1906/trunk/application/Eurocarbdb/src/template/action/user/status.ftl
+END
+error__login_failed.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1087/trunk/application/Eurocarbdb/src/template/action/user/error__login_failed.ftl
+END
+showUnblockedContributors.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/src/template/action/user/showUnblockedContributors.ftl
+END
+reset_status.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/src/template/action/user/reset_status.ftl
+END
+error__already_logged_in.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/user/error__already_logged_in.ftl
+END
+login_success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/src/template/action/user/login_success.ftl
+END
+logout_success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1/trunk/application/Eurocarbdb/src/template/action/user/logout_success.ftl
+END
+changePasswordSuccess.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/src/template/action/user/changePasswordSuccess.ftl
+END
+user_details_input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1906/trunk/application/Eurocarbdb/src/template/action/user/user_details_input.ftl
+END
+registration_success.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1892/trunk/application/Eurocarbdb/src/template/action/user/registration_success.ftl
+END
+resetPassword.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1906/trunk/application/Eurocarbdb/src/template/action/user/resetPassword.ftl
+END
+error__login_failed_popup.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1104/trunk/application/Eurocarbdb/src/template/action/user/error__login_failed_popup.ftl
+END
+changePassword.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1892/trunk/application/Eurocarbdb/src/template/action/user/changePassword.ftl
+END
+login.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/src/template/action/user/login.ftl
+END
+firstChangePasswordSuccess.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/src/template/action/user/firstChangePasswordSuccess.ftl
+END
+registration.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1892/trunk/application/Eurocarbdb/src/template/action/user/registration.ftl
+END
+showdemotableContributors.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/src/template/action/user/showdemotableContributors.ftl
+END
+showRequests.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1926/trunk/application/Eurocarbdb/src/template/action/user/showRequests.ftl
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrCalc/ConstraintStoreData
+END
+constraintStoreSerial.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrCalc/ConstraintStoreData/constraintStoreSerial.html
+END
+constraintListSerials.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrCalc/ConstraintStoreData/constraintListSerials.html
+END
+getConstraintLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrCalc/ConstraintStoreData/getConstraintLists.html
+END
+constraintLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrCalc/ConstraintStoreData/constraintLists.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrCalc/ConstraintStoreData/index.html
+END
+setNmrConstraintStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrCalc/ConstraintStoreData/setNmrConstraintStore.html
+END
+getNmrConstraintStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrCalc/ConstraintStoreData/getNmrConstraintStore.html
+END
+nmrConstraintStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrCalc/ConstraintStoreData/nmrConstraintStore.html
+END
+setConstraintLists.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/python/ccp/api/doc/nmr/NmrCalc/ConstraintStoreData/setConstraintLists.html
+END

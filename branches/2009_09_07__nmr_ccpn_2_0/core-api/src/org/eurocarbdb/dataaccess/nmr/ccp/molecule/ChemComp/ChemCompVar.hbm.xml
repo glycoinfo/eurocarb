@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.ChemComp">
+  <class
+    name="ChemCompVar"
+    table="CHEM_CHEMCOMPVAR"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">ChemComp with a given chain location (for polymers) or sybstitution/lin king pattern (for non-polymers) and a given topological variant. Topological variants are e.g. protonation states, and in general topological variations that can change over time for a given molecule. For Polymers topological variations (defined through the descriptor attribute) also include linking patterns in addition to those that make up the linear polymer links.  A Polymer ChemComp is any ChemComp with at least one ChemCompVar with  linking 'start', 'middle', or 'end'.   If linking is 'start', there must be a 'next' link but no 'prev' link if linking is 'end' there must be a 'prev' link but no 'next' link if linking is 'middle' there must be both a 'next' and 'a prev' if linking is neither there must be neither a 'next' nor a 'prev' link if linking is 'none' and the ChemComp is not a linear polymer, there must be no links at all. If there are no links, liking must be 'none'  The relevant constraints are placed on ChemCompVar and LinkEnd.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.molecule.ChemComp.ChemComp"
+    not-null="true"
+    unique="false"
+    foreign-key="CHEM_CHEMCOMPVAR_CHEMCOMP_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_descriptor"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">Short string distinguishing the topological variant of the ChemCompVar (e.g. protonation state) of the ChemCompVar. For ChemComps of linear polymer type (only) also distinguishes substitution patterns not related to the polymer bonds. The formatting rules are complex - see comment in 'descriptor_format_rule' constraint for details.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DESCRIPTOR" sql-type="VARCHAR(80)" length="80" not-null="true" unique-key="chemCompVarUniqueKey" />
+  </property>
+  
+  <property
+    name="_formalCharge"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Formal charge of ChemCompVar</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="FORMALCHARGE" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_glycoCtCode"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">glycoCT chem_comp_code specific to ChemCompVar. If not set use chemComp.baseGlycoCtCode</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="GLYCOCTCODE" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_isAromatic"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">is ChemCompVar  aromatic?</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISAROMATIC" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_isDefaultVar"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Is this ChemCompVar the default for its linking? Or, in other words, is this the ChemCompVar to use by default when creating a MolResidue with this particular molType, ccpCode, and linking?  Note that myChemComp.findAllChemCompVars(linking=x,isDefaultVar=True)  will return either one object or none for any value of x.</meta>
+    <meta attribute="default-value">false</meta>
+    <column name="ISDEFAULTVAR" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_isParamagnetic"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">is ChemCompVar paramagnetic?</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISPARAMAGNETIC" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_linking"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="true"
+  >
+    <meta attribute="field-description">String distinguishing the pattern of linkEnds (substitution pattern) of the ChemCompVar.  For a linear polymer type ChemComp linking must be 'start', 'middle', 'end', or 'none', and other linking patterns are taken care of by the descriptor attribute. For Other ChemComps linking distinguishes all possible substitution patterns. Here the format is 'link:' followed by a comma-separated list of the linkCodes for the active links. E.g. 'link:SG,C1_2'</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LINKING" sql-type="VARCHAR(32)" length="32" not-null="true" unique-key="chemCompVarUniqueKey" />
+  </property>
+  
+  <property
+    name="_nonStereoSmiles"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Smiles description of topology (non-stereo)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NONSTEREOSMILES" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_stereoSmiles"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Smiles description of topology (stereo)</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="STEREOSMILES" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_varName"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Name for ChemCompVar. Overrides ChemComp.name and should only be set when different from this. See ChemCompVar.name documentation</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VARNAME" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="CHEM_CHEMCOMPVAR2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbChemComp"
+    column="CHEMCOMPID"
+    class="ccp.api.molecule.ChemComp.ChemComp" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="CHEM_CHEMCOMPVAR_CHEMCOMP_FK" 
+    unique-key="chemCompVarUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbChemAtoms" 
+    table="CHEM_CHEMCOMPVAR2CHEMATOMS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">AbstractChemAtoms making up ChemCompVar</meta>
+    <meta attribute="base-name">hbChemAtom</meta>
+    <cache usage="read-write"/>
+    <key column="CHEMCOMPVARID" foreign-key="CHEM_ABSTCHEMATOM_CHEMCOMPVARS_FK"/>
+    <many-to-many column="CHEMATOMID" class="ccp.api.molecule.ChemComp.AbstractChemAtom" foreign-key="CHEM_CHEMCOMPVAR_CHEMATOMS_FK"/>
+  </set>
+  
+  <set 
+    name="hbSpecificSysNames" 
+    table="CHEM_CHEMCOMPVAR2SPECSYSNAME"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Systematic names that are valid for this ChemCompVar but not for all others. In addition to the specific ChemCompSysNames in this link, any ChemCompSysName that is not linked to specific ChemCompVars is valid for all ChemCompVars. Each ChemCompVar can have only one ChemCompSysName within a given naming system.</meta>
+    <meta attribute="base-name">hbSpecificSysName</meta>
+    <cache usage="read-write"/>
+    <key column="SPECIFICCHEMCOMPVARID" foreign-key="CHEM_CHEMCOMPSYSNAME_SPECCHEMCOMPVARS_FK"/>
+    <many-to-many column="SPECIFICSYSNAMEID" class="ccp.api.molecule.ChemComp.ChemCompSysName" foreign-key="CHEM_CHEMCOMPVAR_SPECSYSNAME_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

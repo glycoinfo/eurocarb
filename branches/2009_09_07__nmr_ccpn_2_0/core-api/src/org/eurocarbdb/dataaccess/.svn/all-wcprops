@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1890/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess
+END
+HibernateEntityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1765/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/HibernateEntityManager.java
+END
+EurocarbObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/EurocarbObject.java
+END
+HibernateXMLEntityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/HibernateXMLEntityManager.java
+END
+BasicEurocarbObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/BasicEurocarbObject.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/package.html
+END
+Eurocarb.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1728/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/Eurocarb.java
+END
+Contributed.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/Contributed.java
+END
+EntityDoesntExistException.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/EntityDoesntExistException.java
+END
+EntityManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1765/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/EntityManager.java
+END

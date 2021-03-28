@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr
+END
+PictureStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/PictureStream.java
+END
+Casper_determine.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper_determine.java
+END
+Casper.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper.java
+END
+Casper_curate.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper_curate.java
+END
+Casper_simulate.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper_simulate.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/util
+END
+ComparatorMolecule.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/util/ComparatorMolecule.java
+END
+DefaultMasses.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/util/DefaultMasses.java
+END
+AnnotationToString.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/util/AnnotationToString.java
+END
+MassValueStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/util/MassValueStorage.java
+END
+ComparatorCalculationPeak.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/!svn/ver/1602/branches/2009_09_07__nmr_ccpn_2_0/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/calculation/util/ComparatorCalculationPeak.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/StringUtils.java
+END
+NumberUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/NumberUtils.java
+END
+HibernateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/HibernateUtil.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/Utils.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/FileUtils.java
+END
+NumberPrefix.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/ResourcesDB/src/org/eurocarbdb/resourcesdb/util/NumberPrefix.java
+END

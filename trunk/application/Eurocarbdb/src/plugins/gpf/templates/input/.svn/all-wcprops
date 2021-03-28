@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/653/trunk/application/Eurocarbdb/src/plugins/gpf/templates/input
+END
+glycopeakfinder_save.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/653/trunk/application/Eurocarbdb/src/plugins/gpf/templates/input/glycopeakfinder_save.ftl
+END
+glycopeakfinder_load.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/653/trunk/application/Eurocarbdb/src/plugins/gpf/templates/input/glycopeakfinder_load.ftl
+END
+glycopeakfinder_residue.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/653/trunk/application/Eurocarbdb/src/plugins/gpf/templates/input/glycopeakfinder_residue.ftl
+END
+glycopeakfinder_mass.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/644/trunk/application/Eurocarbdb/src/plugins/gpf/templates/input/glycopeakfinder_mass.ftl
+END
+glycopeakfinder_modification.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/653/trunk/application/Eurocarbdb/src/plugins/gpf/templates/input/glycopeakfinder_modification.ftl
+END
+glycopeakfinder_ion.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/653/trunk/application/Eurocarbdb/src/plugins/gpf/templates/input/glycopeakfinder_ion.ftl
+END
+glycopeakfinder_error.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/653/trunk/application/Eurocarbdb/src/plugins/gpf/templates/input/glycopeakfinder_error.ftl
+END

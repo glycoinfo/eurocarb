@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.general.DataLocation">
+  <joined-subclass
+    name="BlockedBinaryMatrix"
+    extends="ccp.api.general.DataLocation.NumericMatrix"
+    table="DLOC_BLOCKEDBINARYMATRIX"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">NumericMatrix stored in blocked binary format</meta>
+  <key column="NUMERICMATRIXID" foreign-key="DLOC_BLOCBINAMATR_NUMEMATR_FK"/>
+  
+  <property
+    name="_blockHeaderSize"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Block header size in bytes</meta>
+    <meta attribute="default-value">new java.lang.Integer(0)</meta>
+    <column name="BLOCKHEADERSIZE" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_hasBlockPadding"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Are data padded to fill all blocks completely? Alternatively incomplete blocks store only the actual data.</meta>
+    <meta attribute="default-value">true</meta>
+    <column name="HASBLOCKPADDING" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_nByte"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Number of bytes per number</meta>
+    <meta attribute="default-value">new java.lang.Integer(4)</meta>
+    <column name="NBYTE" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <list
+    name="hbBlockSizes"
+    table="DLOC_BLOCBINAMATR_BLOCKSIZES"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">Block sizes in dimension order</meta>
+    <cache usage="read-write" />
+    <key column="BLOCKEDBINARYMATRIXID" foreign-key="DLOC_BLOCBINAMATR_BLOCKSIZES_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.Integer" not-null="true">
+      <column name="BLOCKSIZE" sql-type="INTEGER" not-null="true"/>
+    </element>
+  </list>
+
+  </joined-subclass>
+
+</hibernate-mapping>

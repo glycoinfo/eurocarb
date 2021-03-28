@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql
+END
+create_schema_hplc.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_schema_hplc.sql
+END
+debug_structures.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/debug_structures.sql
+END
+create_substructure_queries.sql
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_substructure_queries.sql
+END
+hplc_data_starting.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/hplc_data_starting.sql
+END
+create_indexes_core.sql
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_indexes_core.sql
+END
+create_schema_core.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_schema_core.sql
+END
+create_schema_seq.sql
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_schema_seq.sql
+END
+create_glycopeakfinder.sql.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_glycopeakfinder.sql.tar.gz
+END
+create_schema_local.sql
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_schema_local.sql
+END
+create_substructure.sql
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_substructure.sql
+END
+init_eurocarb.sql.template
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/init_eurocarb.sql.template
+END
+import_glycomedb.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/import_glycomedb.sql
+END
+create_schema_nmr.sql
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_schema_nmr.sql
+END
+create_schema_core_comments.sql
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_schema_core_comments.sql
+END
+create_resources_db.sql
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_resources_db.sql
+END
+create_substructure_queries_debugging.sql
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_substructure_queries_debugging.sql
+END
+export_glycomedb.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/export_glycomedb.sql
+END
+debug_ecdb_structures.sql
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/debug_ecdb_structures.sql
+END
+load_ms_data.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/load_ms_data.sql
+END
+create_schema_core_views.sql
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_schema_core_views.sql
+END
+create_schema_hplc.sql.changelog
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_schema_hplc.sql.changelog
+END
+import_hplc.sql
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/import_hplc.sql
+END
+create_schema_ms.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_schema_ms.sql
+END
+create_composition_queries.sql
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1358/branches/2009_06_30__eurocarbdb_test/database/sql/create_composition_queries.sql
+END

@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.molecule.Molecule">
+  <class
+    name="Molecule"
+    table="MOLE_MOLECULE"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Abstract molecule, with defined topology but no location, coordinates, etc. </meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="TOPOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <property
+    name="_segment"
+    access="field"
+    type="java.lang.String" length="20"
+    not-null="false"
+  >
+    <meta attribute="field-description"></meta>
+    <column name="SEGMENT" sql-type="VARCHAR(20)" length="20" not-null="false"  unique-key="moleculeUniqueKey" />
+  </property>
+  
+  <property
+    name="_guid"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">global unique identifier - set by implementation.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="GUID" sql-type="VARCHAR(80)" length="80" not-null="true"/>
+  </property>
+  
+  <property
+    name="_calcIsoelectricPoint"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Calculated isoelectric point of molecule. The pI indicates the value of pH at which the net charge of the molecule would be neutralized, if the molecule would have a conformation with each amino acid fully exposed to the solvent. NB This is derived information, this should be moved when this gets developed.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CALCISOELECTRICPOINT" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text, for notes, explanatory comments, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_fragmentDetails"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Details on what (if anything) this Molecule is a fragment of).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="FRAGMENTDETAILS" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_isFinalised"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Non-finalised molecules may not have links to Samples etc. Finalised molecules can no longer have residues added or removed. Note that you can add MolResidues to non-finalised molecules even if they already have chanis, but that you must make sure of adding new MolSystem.Residues as necessary.</meta>
+    <meta attribute="default-value">false</meta>
+    <column name="ISFINALISED" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_longName"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Long form of molecule name.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="LONGNAME" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_mutationDetails"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Details on mutations in the sequence (e.g. this is A54K relative to the wildtype).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MUTATIONDETAILS" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">Name of Molecule. Used as key. Should be correct and informative, but may be an abbreviation or an acronym if the alternative is too long. Recommended e.g. NaCl, Lysozyme, Lac headpiece, morphine.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(80)" length="80" not-null="true" unique-key="moleculeUniqueKey" />
+  </property>
+  
+  <property
+    name="_seqDetails"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Details, notes, comments etc. about the sequence.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SEQDETAILS" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_smiles"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">SMILES (Simplified Molecular Input Line Entry Specification) string describing molecule. </meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SMILES" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_smilesType"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">Type of Smiles string in smiles attribute</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SMILESTYPE" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbCommonNames"
+    table="MOLE_MOLECULE_COMMNAME"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">List of molecule common names.</meta>
+    <cache usage="read-write" />
+    <key column="MOLECULEID" foreign-key="MOLE_MOLECULE_COMMNAME_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.String" not-null="true">
+      <column name="COMMONNAME" sql-type="VARCHAR(80)" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbFunctions"
+    table="MOLE_MOLECULE_FUNCTIONS"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">Keywords describing functions for molecule. e.g. 'enzyme', 'structure', ...</meta>
+    <cache usage="read-write" />
+    <key column="MOLECULEID" foreign-key="MOLE_MOLECULE_FUNCTIONS_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.String" not-null="true">
+      <column name="FUNCTION" sql-type="VARCHAR(80)" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbKeywords"
+    table="MOLE_MOLECULE_KEYWORDS"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">Keywords for searching molecule. e.g. 'DNA binding', 'receptor', 'Zinc finger'...</meta>
+    <cache usage="read-write" />
+    <key column="MOLECULEID" foreign-key="MOLE_MOLECULE_KEYWORDS_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.String" not-null="true">
+      <column name="KEYWORD" sql-type="VARCHAR(80)" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbApplicationData"
+    table="MOLE_MOLECULE2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbNaturalSource"
+    column="NATURALSOURCEID"
+    class="ccp.api.general.Taxonomy.NaturalSource" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="MOLE_MOLECULE_NATUSOUR_FK" 
+  >
+    <meta attribute="field-description">Natural source for molecule</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbAlignments" 
+    table="MOLE_ALIGNMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbAlignment</meta>
+    <cache usage="read-write"/>
+    <key column="MOLECULEID"/>
+    <one-to-many class="ccp.api.molecule.Molecule.Alignment"/>
+  </set>
+  
+  <set 
+    name="hbMolResLinks" 
+    table="MOLE_MOLRESLINK"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbMolResLink</meta>
+    <cache usage="read-write"/>
+    <key column="MOLECULEID"/>
+    <one-to-many class="ccp.api.molecule.Molecule.MolResLink"/>
+  </set>
+  
+  <set 
+    name="hbMolResidues" 
+    table="MOLE_MOLRESIDUE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbMolResidue</meta>
+    <cache usage="read-write"/>
+    <key column="MOLECULEID"/>
+    <one-to-many class="ccp.api.molecule.Molecule.MolResidue"/>
+  </set>
+  
+  <set 
+    name="hbMolSeqFragments" 
+    table="MOLE_MOLSEQFRAGMENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbMolSeqFragment</meta>
+    <cache usage="read-write"/>
+    <key column="MOLECULEID"/>
+    <one-to-many class="ccp.api.molecule.Molecule.MolSeqFragment"/>
+  </set>
+  
+  <set 
+    name="hbMoleculeSysNames" 
+    table="MOLE_MOLECULESYSNAME"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbMoleculeSysName</meta>
+    <cache usage="read-write"/>
+    <key column="MOLECULEID"/>
+    <one-to-many class="ccp.api.molecule.Molecule.MoleculeSysName"/>
+  </set>
+  
+  <set 
+    name="hbEntryMolecules" 
+    table="ENTR_ENTRYMOLECULE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Connection to NmrEntries that reference this Molecule</meta>
+    <meta attribute="base-name">hbEntryMolecule</meta>
+    <cache usage="read-write"/>
+    <key column="MOLECULEID"/>
+    <one-to-many class="ccp.api.nmr.NmrEntry.EntryMolecule"/>
+  </set>
+  
+  <set 
+    name="hbChains" 
+    table="MOLS_CHAIN"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">MolSystem Chains corresponding to Molecule</meta>
+    <meta attribute="base-name">hbChain</meta>
+    <cache usage="read-write"/>
+    <key column="MOLECULEID"/>
+    <one-to-many class="ccp.api.molecule.MolSystem.Chain"/>
+  </set>
+  
+  <set 
+    name="hbMolComponents" 
+    table="REFS_MOLCOMPONENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">The list of MolComponent associated to a particular Molecule.</meta>
+    <meta attribute="base-name">hbMolComponent</meta>
+    <cache usage="read-write"/>
+    <key column="MOLECULEID"/>
+    <one-to-many class="ccp.api.lims.RefSampleComponent.MolComponent"/>
+  </set>
+  
+  <set 
+    name="hbCitations" 
+    table="MOLE_MOLECULE2CITATIONS"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Citations describing molecule.</meta>
+    <meta attribute="base-name">hbCitation</meta>
+    <cache usage="read-write"/>
+    <key column="MOLECULEID" foreign-key="CITA_CITATION_MOLECULES_FK"/>
+    <many-to-many column="CITATIONID" class="ccp.api.general.Citation.Citation" foreign-key="MOLE_MOLECULE_CITATIONS_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

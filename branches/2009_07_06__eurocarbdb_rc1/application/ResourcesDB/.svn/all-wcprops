@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/.project
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/.classpath
+END

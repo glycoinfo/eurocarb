@@ -1,0 +1,154 @@
+10
+
+dir
+1997
+http://eurocarb.googlecode.com/svn/branches/2009_06_30__eurocarbdb_test/application/Eurocarbdb/src/template/action/hplc
+http://eurocarb.googlecode.com/svn
+
+
+
+2009-06-12T16:40:23.758793Z
+1217
+matthew.campbell1980
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b1b7f5f2-413c-11de-998b-8fedbbe774c7
+
+create_disease_content
+dir
+
+create_detector
+dir
+
+select_column
+dir
+
+show_summary
+dir
+
+search_glycobase
+dir
+
+select_settings
+dir
+
+create_hplc_createbc
+dir
+
+show_glycobaseRefine
+dir
+
+create_hplc_gu
+dir
+
+create_new_detector
+dir
+
+select_detector
+dir
+
+show_digest
+dir
+
+digest_assign
+dir
+
+create_glycoct
+dir
+
+show_digestionAnalysis
+dir
+
+begin_hplc
+dir
+
+pre_assign
+dir
+
+core_integration
+dir
+
+create_taxonomy_content
+dir
+
+create_instrument
+dir
+
+show_tax
+dir
+
+show_refinement
+dir
+
+show_column
+dir
+
+show_prelimAssign
+dir
+
+create_gu
+dir
+
+show_glycanEntry
+dir
+
+upload_reference
+dir
+
+create_method
+dir
+
+select_instrument
+dir
+
+show_digestsAssign
+dir
+
+doUpload
+dir
+
+show_glycobase
+dir
+
+createbc
+dir
+
+show_detector
+dir
+
+create_parent
+dir
+
+show_glycan
+dir
+
+create_column
+dir
+
+show_summaryDigests
+dir
+
+create_prelimAssign
+dir
+
+show_prelimRefine
+dir
+
+show_hplc
+dir
+
+create_tissue_taxonomy_content
+dir
+

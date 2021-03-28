@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/conf
+END
+configuration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/conf/configuration.xml
+END
+xwork.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/conf/xwork.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/conf/web.xml
+END
+configuration.heidelberg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/conf/configuration.heidelberg.xml
+END
+configuration.strato.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/conf/configuration.strato.xml
+END

@@ -1,0 +1,57 @@
+<!DOCTYPE xwork PUBLIC "-//OpenSymphony Group//XWork 1.1.1//EN"
+"http://www.opensymphony.com/xwork/xwork-1.1.1.dtd">
+
+
+<xwork>
+
+<package name="ecdb-proxied" extends="eurocarb-base" namespace="/distributed" >
+
+    <result-types>
+    	<result-type name="collated-result" class="org.eurocarbdb.result.EurocarbObjectsResult" default="true"/>
+    </result-types>
+
+    <interceptors>
+
+        <!-- interceptors written by eurocarb -->
+	    <interceptor name="ecdb_soap_runner" class="org.eurocarbdb.interceptor.SoapDispatchInterceptor"/>
+
+        <!-- interceptor stack for soap-enabled actions -->
+        <interceptor-stack name="ecdb_soap_stack">
+    		<interceptor-ref name="ecdb_default_stack"/>
+    		<interceptor-ref name="ecdb_soap_runner"/>
+        </interceptor-stack>
+        
+    </interceptors>
+
+	<default-interceptor-ref name="ecdb_soap_stack" />
+    
+	<action name="show_biological_context" class="org.eurocarbdb.action.core.ShowBiologicalContext">
+		<result name="success-xml" type="collated-result"/>
+		<result name="input" type="freemarker">/template/action/core/show_biological_context/input.ftl</result>
+		<result name="success" type="freemarker">/template/action/core/show_biological_context/distributed-success.ftl</result>
+	</action>
+
+	<action name="show_tissue_taxonomy" class="org.eurocarbdb.action.core.ShowTissueTaxonomy">
+		<result name="success-xml" type="collated-result"/>
+		<result name="success" type="freemarker">/template/action/core/show_tissue_taxonomy/distributed-success.ftl</result>
+	</action>
+
+	<action name="search_taxonomy" class="org.eurocarbdb.action.core.SearchTaxonomy">
+		<result name="success-xml" type="collated-result"/>
+		<result name="success" type="freemarker">/template/action/core/search_taxonomy/distributed-success.ftl</result>
+		<result name="input" type="freemarker">/template/action/core/search_taxonomy/input.ftl</result>
+	</action>
+
+	<action name="echo" class="org.eurocarbdb.action.Echo">
+		<result name="success-xml" type="collated-result"/>
+		<result name="success" type="freemarker">/template/action/misc/echo/distributed-success.ftl</result>
+	</action>
+
+    <action name="browse_structures" class="org.eurocarbdb.action.core.BrowseStructures">
+    	<result name="success" type="freemarker">/template/action/core/browse_structures/distributed-success.ftl</result>
+    	<result name="success-xml" type="collated-result">/template/action/core/browse_structures/browse.ftl</result>
+    </action>
+
+</package>
+
+</xwork>

@@ -1,0 +1,90 @@
+#summary Procedures/Plan for hosting the database on the EBI servers
+
+= Current status =
+
+== Odin ==
+
+The database and application are running on a machine called <tt>odin</tt>. The upstream proxy expects the application to be running on the path <tt>http://odin:8123/eurocarb/</tt>.
+
+=== Application setup ===
+
+||  *Setting*           ||  *Value*                   ||
+||  Application path    ||  /nfs/msd/eurocarb/        ||
+||  Application user    ||  matt                      ||
+||  Database user       ||  postgres                  ||
+||  Revision/Branch     ||  [http://code.google.com/p/eurocarb/source/browse/#svn/branches/2009_07_06__eurocarbdb_rc1 RC1] ||
+
+=== Tomcat setup ===
+
+||  *Setting* ||  *Value*   ||
+||  Port      ||  8123      ||
+||  war       ||  eurocarb  ||
+
+=== Installed infrastructure ===
+
+||  *App*     ||  *Version* ||
+||  Postgres  ||  x.x.x     ||
+||  Tomcat    ||  x.x.x     ||
+
+=== Proxy settings ===
+
+The application needs access to external sites (namely PubMed) to do lookups. Currently, the proxy settings have not been applied to the server.
+
+=== Application Startup/Shutdown script ===
+
+<tt>
+LOG IN TO ODIN
+PATH_TO_SERVER_STARTUP
+</tt>
+
+<tt>
+LOG IN TO ODIN
+PATH_TO_SERVER_SHUTDOWN
+</tt>
+
+=== Application capabilities ===
+
+Currently the application is in read/write mode, with user accounts managed by the database using the table based authentication.
+
+= Future setup =
+
+We will be moving hosting of the application to a more managed setup, where the database and application machines will be separated. This organisation has a much more stringent set of requirements on the quality of the code, so there is a lot of clean-up that needs to be done to enable this.
+
+The to-do list for the infrastructure issues that need to be resolved for getting the server out can be tracked here:
+
+http://code.google.com/p/eurocarb/issues/detail?id=31
+
+=== Machines at EBI ===
+
+||  *Machine Name*  ||  *Users with access* ||  *Role*                ||
+||  production-web  ||                      ||  Production tomcat     ||
+||  production-db   ||                      ||  Production DB         ||
+||  wwdev           ||                      ||  Tomcat staging area   ||
+||  dbdev           ||                      ||  Database staging area ||
+
+== Access to machines ==
+
+We need to use remote (ssh tunnel/vpn) access in to the EBI so that we can release any bits of software to the production/staging environments. Users with access to the servers are matt and hirenj. Our point of contact at the EBI is SOME PERSON.
+
+=== Production level hosting ===
+
+For production level hosting of the database, we need to ensure that we have no significant memory leaks. There's a tool to check for memory leaks that currently exists at the EBI. We should provide two packages for deployment: An application war, and a database install/update package.
+
+==== Load balancing ====
+
+We should really do load balancing, running multiple instances of the application for better page response times. This task is tracked here:
+
+http://code.google.com/p/eurocarb/issues/detail?id=35
+
+=== Staging area ===
+
+We can use the development database and tomcat servers to work as a staging area. We should test our RC war and database packages here, revising them until the upgrade procedure works completely automatically. It's important that the staging environments exactly duplicate the production environment.
+
+ # Take a snapshot of the current production database, and apply this to the staging area database.
+ # Apply the database upgrade/install RC scripts
+ # Load up an RC level war
+ # Perform tests on the server
+ # Fix up any bugs with the upgrade process, incorporating changes into a new RC.
+ # Roll back to the current production database/war if there were bugs with the upgrade process, and start the upgrade again.
+ # Continue doing this until there are no bugs with the upgrade process.
+ # Mark the RCs as finals.

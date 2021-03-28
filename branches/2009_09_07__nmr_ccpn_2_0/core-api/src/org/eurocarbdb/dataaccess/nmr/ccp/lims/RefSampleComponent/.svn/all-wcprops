@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent
+END
+MolComponent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/MolComponent.hbm.xml
+END
+CompositeElement.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/CompositeElement.hbm.xml
+END
+RefSampleComponentStore.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/RefSampleComponentStore.hbm.xml
+END
+Label.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/Label.hbm.xml
+END
+Cell.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/Cell.hbm.xml
+END
+MolCompFeature.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/MolCompFeature.hbm.xml
+END
+IsotopeLabel.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/IsotopeLabel.hbm.xml
+END
+Construct.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/Construct.hbm.xml
+END
+AbstractComponent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/AbstractComponent.hbm.xml
+END
+Substance.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/Substance.hbm.xml
+END
+RestrictionEnzyme.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/RestrictionEnzyme.hbm.xml
+END
+Primer.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/Primer.hbm.xml
+END
+Composite.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1603/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/Composite.hbm.xml
+END
+SpecificLabelGroup.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/SpecificLabelGroup.hbm.xml
+END
+CompositeInteraction.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/CompositeInteraction.hbm.xml
+END
+ComponentDbRef.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/1764/branches/2009_09_07__nmr_ccpn_2_0/core-api/src/org/eurocarbdb/dataaccess/nmr/ccp/lims/RefSampleComponent/ComponentDbRef.hbm.xml
+END

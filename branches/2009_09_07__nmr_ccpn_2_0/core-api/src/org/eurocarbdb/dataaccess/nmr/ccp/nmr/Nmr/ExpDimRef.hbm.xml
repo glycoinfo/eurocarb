@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <class
+    name="ExpDimRef"
+    table="NMR_EXPDIMREF"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">This class describes the referencing for values that can appear on an axis in an NMR spectrum. There may be several ExpDimRef for each dim, either because the experiment is the sum of several experiments with differently referenced axes (e.g. 15N/13C HSQC), or because the actual peak position is a linear combination of different contributions with different referencings (J-coupling, reduced-dimensionality, or projection experiments).The kinds of linear combiantion possible are determined by the dimensionScalings;whether the experiment is a sum of several experiments is determined by the groupingNumber. Note that ExpDimRefs are only relevant to an AbstractDataDim if they are linked with a DimensionScaling</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_EXPDIMREF_NMRPROJECT_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_baseFrequency"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The nominal base frequency in MHz for the measured frequency. Instrument parameter. The actual carrier frequency (sf) can be seen as the sum of a base frequency (this attribute) and a relative offset (O1 in Bruker terms - not stored in this data model but equal to (sf minus baseFrequency) in Hz). Not relevant in all cases (see sf attribute). Should be left blank where not relevant, but set equal to sf where no separate baseFrequency is known.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="BASEFREQUENCY" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_constantTimePeriod"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Total constant-time period available; the period over which the relevant coupling constants are active rather than the maximum value of the increment (which can be calculated from other data). Alternative formulation: the time between 90 deg pulses, ignoring 180 deg pulses (normal, shaped, or composite). Note that this parameter serves for nomal NMR experiments, but may be irrelevant in some other cases.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="CONSTANTTIMEPERIOD" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_displayName"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">Short string e.g. 'H1',' H', 'CA', 'Ca-1' used for display annotation, for naming decomposition shapes, etc. Should be unique within an experiment, but it is up to the user to enforce the constraint</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DISPLAYNAME" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_groupingNumber"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Divides ExpDimRefs belonging to a given ExpDim into mutually exclusive groupings. If a PeakDim is connected to several ExpDimRefs (via DataDimRefs and possible PeakDimComponents), the ExpDimRefs must all have teh same groupingNumber. Only wexperiments that have different kinds of peaks on the same axis will use more than one groupingNumber. The only practical example seems to be H[{C|N}]_H.NOESY - a 13C HSQC-NOESY and 15N HSQC-NOESY acquired together in a single dataset.</meta>
+    <meta attribute="default-value">new java.lang.Integer(1)</meta>
+    <column name="GROUPINGNUMBER" sql-type="INTEGER" not-null="true"/>
+  </property>
+  
+  <property
+    name="_isAxisReversed"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Set to true if the highest value on the axis corresponds to the lowest point number, and to false otherwise. Most real cases will have isAxisReversed true, as this is how ppm axes behave.</meta>
+    <meta attribute="default-value">true</meta>
+    <column name="ISAXISREVERSED" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_isFolded"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="true"
+  >
+    <meta attribute="field-description">Boolean defining whether the dimension is folded in the true meaning of the word (default is False, which is the case for most experiments in 2003). All regularly sampled experiments are in principle aliased (which is a different question).</meta>
+    <meta attribute="default-value">false</meta>
+    <column name="ISFOLDED" sql-type="BOOLEAN" not-null="true"/>
+  </property>
+  
+  <property
+    name="_maxAliasedFreq"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Describes aliasing - maximum value actually possible for the (unaliased) frequency in units of ExpDimRef.unit. Note that all Fourier transformed data are by definition aliased - the difference lies in which frequency regions may contain signals. This attribute serves for normal NMR spectra but may be irrelevant in some other cases.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MAXALIASEDFREQ" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_measurementType"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">String enum for measurement type of the referenced parameter in this dimension. Describes the type of measurementList that would hold values measured on this axis. enum would include 'None' for e.g. temperature axes.</meta>
+    <meta attribute="default-value">"Shift"</meta>
+    <column name="MEASUREMENTTYPE" sql-type="VARCHAR(80)" length="80" not-null="true"/>
+  </property>
+  
+  <property
+    name="_minAliasedFreq"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Describes aliasing - minimum value actually possible for the (unaliased) frequency in units of ExpDimRef.unit. Note that all Fourier transformed data are by definition aliased - the difference lies in which frequency regions may contain signals. This attribute serves for normal NMR spectra but may be irrelevant in some other cases.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="MINALIASEDFREQ" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">Name of the measurement being measured by the ExpDimRef. Equivalent to the NmrExpPrototype.AtomSite.name, but does not have to be the same. Serves for user-specific names.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_nominalRefValue"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Reference value in ExpDimRef.unit for carrier frequency (or 0.0 for splittings), for use in DataDimRef. E.g. 4.7ppm for protons in water. This value describes the nominal referencing; actual referencing used may include various correction factors, internal referencing etc. and is set in the individual DataDimRef. This attribute serves for normal NMR spectra but may be irrelevant in other cases.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NOMINALREFVALUE" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="expDimRefUniqueKey" />
+  </property>
+  
+  <property
+    name="_sf"
+    access="field"
+    type="java.lang.Float"
+    not-null="true"
+  >
+    <meta attribute="field-description">Absolute frequency at carrier frequency (or at measured frequency 0.0 for splittings) of the spectrum in MHz (or dimensionless - see below). Used for conversion between Hz and ppm, and for scaling with the magnetic field. By definition DataDimRef.valuePerPoint = FreqDataDim.valuePerPoint/ExpDimRef.sf. This is also the case for e.g. coupling constant dimensions, where sf then becomes a dimensionless scaling factor.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SF" sql-type="FLOAT" not-null="true"/>
+  </property>
+  
+  <property
+    name="_unit"
+    access="field"
+    type="java.lang.String" length="32"
+    not-null="false"
+  >
+    <meta attribute="field-description">Unit used for value in DataDimRefs (if any). As DataDimRefs are defined only for FreqDataDims this attribute is only relevant for dimensions eventually transformed into FreqDataDims, essentially dimensions that are eventually Fourier Transformed or similar. Unit will be 'ppm' for most standard NMR experiments.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="UNIT" sql-type="VARCHAR(32)" length="32" not-null="false"/>
+  </property>
+  
+  <property
+    name="_variableIncrFraction"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">Describes the fraction of the incrementation done by actually incrementing  delays rather than by constant time. Defined as (actual time increment)/(total increment). Is 0.0 for a pure constant-time experiment and 1.0 for a pure variable-time experiment. This parameter serves for normal NMR experiments but may be irrelevant in some other cases.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="VARIABLEINCRFRACTION" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbIsotopeCodes"
+    table="NMR_EXPDIMREF_ISOTCODE"
+      schema="nmr" 
+    cascade="all"
+  >
+    <meta attribute="field-description">Isotope identification strings for isotopes. NB there can be several isotopes for e.g. J-coupling or multiple quantum coherence.</meta>
+    <cache usage="read-write" />
+    <key column="EXPDIMREFID" foreign-key="NMR_EXPDIMREF_ISOTCODE_FK"/>
+    <index>
+      <column name="order_" sql-type="int8" not-null="true"/>
+    </index>
+    <element type="java.lang.String" not-null="true">
+      <column name="ISOTOPECODE" sql-type="VARCHAR(32)" not-null="true"/>
+    </element>
+  </list>
+  
+  <list
+    name="hbApplicationData"
+    table="NMR_EXPDIMREF2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbExpDim"
+    column="EXPDIMID"
+    class="ccp.api.nmr.Nmr.ExpDim" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_EXPDIMREF_EXPDIM_FK" 
+    unique-key="expDimRefUniqueKey" 
+  >
+    <meta attribute="field-description">parent link</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbRefExpDimRef"
+    column="REFEXPDIMREFID"
+    class="ccp.api.nmr.NmrExpPrototype.RefExpDimRef" 
+    cascade="merge,save-update"
+    not-null="false"
+    unique="false"
+    foreign-key="NMR_EXPDIMREF_REFEXPDIMREF_FK" 
+  >
+    <meta attribute="field-description">Corresponding ExpDimRef for RefExperiment</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbDataDimRefs" 
+    table="NMR_DATADIMREF"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">DatDimRefs corresponding to ExpDimRef</meta>
+    <meta attribute="base-name">hbDataDimRef</meta>
+    <cache usage="read-write"/>
+    <key column="EXPDIMREFID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.DataDimRef"/>
+  </set>
+  
+  <set 
+    name="hbDerivedTo" 
+    table="NMR_EXPDIMREFMAPPING"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">ExpDimRefMappings for ExpDimRefs derived from current ExpDimRef</meta>
+    <meta attribute="base-name">hbDerivedTo</meta>
+    <cache usage="read-write"/>
+    <key column="DERIVEDFROMID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.ExpDimRefMapping"/>
+  </set>
+  
+  <set 
+    name="hbDimensionScalings" 
+    table="NMR_DIMENSIONSCALING"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">ScalingFactors that apply to ExpDimRef</meta>
+    <meta attribute="base-name">hbDimensionScaling</meta>
+    <cache usage="read-write"/>
+    <key column="EXPDIMREFID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.DimensionScaling"/>
+  </set>
+  
+  <set 
+    name="hbExpDimRefMappings" 
+    table="NMR_EXPDIMREFMAPPING"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbExpDimRefMapping</meta>
+    <cache usage="read-write"/>
+    <key column="EXPDIMREFID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.ExpDimRefMapping"/>
+  </set>
+  
+  <set 
+    name="hbExpTransfers" 
+    table="NMR_EXPTRAN2EXPDIMREFS"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Magentisation transfers involving ExpDimRef</meta>
+    <meta attribute="base-name">hbExpTransfer</meta>
+    <cache usage="read-write"/>
+    <key column="EXPDIMREFID" foreign-key="NMR_EXPTRAN_EXPDIMREFS_FK"/>
+    <many-to-many column="EXPTRANSFERID" class="ccp.api.nmr.Nmr.ExpTransfer" foreign-key="NMR_EXPDIMREF_EXPTRAN_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage
+END
+GlycoPeakfinderSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/GlycoPeakfinderSettings.java
+END
+GPResidue.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/GPResidue.java
+END
+MassMolecule.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/MassMolecule.java
+END
+GPOtherResidue.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/GPOtherResidue.java
+END
+GPMolecule.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/GPMolecule.java
+END
+ResidueCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/ResidueCategory.java
+END
+LimitValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/LimitValues.java
+END
+ErrorInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/ErrorInformation.java
+END
+ContactInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/ContactInformation.java
+END
+GPAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/GPAnnotation.java
+END
+GPResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/GPResult.java
+END
+GPPeakAnnotated.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/GPPeakAnnotated.java
+END
+GPPeak.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/GPPeak.java
+END
+MassResidue.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/MassResidue.java
+END
+Compound.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/GlycoPeakfinder/src/java/org/eurocarbdb/applications/ms/glycopeakfinder/storage/Compound.java
+END

@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent
+END
+FeatureType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/FeatureType.xml
+END
+RestrictionEnzyme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/RestrictionEnzyme.xml
+END
+Primer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/Primer.xml
+END
+SpecificLabelGroup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/SpecificLabelGroup.xml
+END
+CompositeInteraction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/CompositeInteraction.xml
+END
+Composite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/Composite.xml
+END
+ComponentDbRef.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/ComponentDbRef.xml
+END
+MolComponent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/MolComponent.xml
+END
+CompositeElement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/CompositeElement.xml
+END
+RefSampleComponentStore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/RefSampleComponentStore.xml
+END
+Cell.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/Cell.xml
+END
+Label.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/Label.xml
+END
+LabelName.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/LabelName.xml
+END
+LabelType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/LabelType.xml
+END
+MolCompFeature.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/MolCompFeature.xml
+END
+IsotopeLabel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/IsotopeLabel.xml
+END
+Construct.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/Construct.xml
+END
+StatusType.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/StatusType.xml
+END
+AbstractComponent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/AbstractComponent.xml
+END
+Substance.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/Substance.xml
+END
+ConstructStatus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/ConstructStatus.xml
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/model/ccp/xml/lims/RefSampleComponent/package.xml
+END

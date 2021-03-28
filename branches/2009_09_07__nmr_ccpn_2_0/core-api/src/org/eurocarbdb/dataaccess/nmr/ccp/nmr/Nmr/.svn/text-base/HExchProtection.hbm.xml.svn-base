@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <joined-subclass
+    name="HExchProtection"
+    extends="ccp.api.nmr.Nmr.AbstractMeasurement"
+    table="NMR_HEXCHPROTECTION"
+    schema="nmr" 
+  >
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">Hydrogen exchange protection factor measurement. Strictly speaking this is simply a list of exchange rate as a ratio to a reference value (newValue/refValue). </meta>
+  <key column="ABSTRACTMEASUREMENTID" foreign-key="NMR_HEXCHPROT_ABSTMEAS_FK"/>
+  
+  <many-to-one
+    name="hbParentList"
+    column="PARENTLISTID"
+    class="ccp.api.nmr.Nmr.HExchProtectionList" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_HEXCHPROT_PARENTLIST_FK" 
+    unique-key="hExchProtectionUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbResonance"
+    column="RESONANCEID"
+    class="ccp.api.nmr.Nmr.Resonance" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_HEXCHPROT_RESONANCE_FK" 
+    unique-key="hExchProtectionUniqueKey" 
+  >
+    <meta attribute="field-description">Resonance that holds measurement.</meta>
+  </many-to-one>
+
+  </joined-subclass>
+
+</hibernate-mapping>

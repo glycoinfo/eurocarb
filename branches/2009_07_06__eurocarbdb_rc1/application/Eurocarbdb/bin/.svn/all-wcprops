@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1503/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/bin
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1503/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/bin/start.sh
+END
+stop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1503/branches/2009_07_06__eurocarbdb_rc1/application/Eurocarbdb/bin/stop.sh
+END

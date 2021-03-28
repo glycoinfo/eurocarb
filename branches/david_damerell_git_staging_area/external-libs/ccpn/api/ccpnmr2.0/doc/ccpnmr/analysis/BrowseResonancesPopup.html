@@ -1,0 +1,341 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-Analysis (1):BrowseResonancesPopup</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>Analysis (1):BrowseResonancesPopup</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>Analysis (1)</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AnalysisPopup.html">AnalysisPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BackupProjectPopup.html">BackupProjectPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseAtomsPopup.html">BrowseAtomsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseConstraintSetsPopup.html">BrowseConstraintSetsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseConstraintsPopup.html">BrowseConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseReferenceShiftsPopup.html">BrowseReferenceShiftsPopup</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="BrowseResonancesPopup.html">BrowseResonancesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseStrucGenPopup.html">BrowseStrucGenPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="BrowseViolationsPopup.html">BrowseViolationsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcAmbigDistConstraintsPopup.html">CalcAmbigDistConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcDistConstraintsPopup.html">CalcDistConstraintsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcHeteroNoePopup.html">CalcHeteroNoePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CalcRatesPopup.html">CalcRatesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ChangeAxisMappingPopup.html">ChangeAxisMappingPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisPopup.html">CreateAxisPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisTypePopup.html">CreateAxisTypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateAxisUnitPopup.html">CreateAxisUnitPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreatePanelTypePopup.html">CreatePanelTypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SpinSystemTypingPopup.html">SpinSystemTypingPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SpinSystemTypeScoresPopup.html">SpinSystemTypeScoresPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditAssignmentPopup.html">EditAssignmentPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditAxisPanelPopup.html">EditAxisPanelPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditColorSchemesPopup.html">EditColorSchemesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditColorsPopup.html">EditColorsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditContourLevelsPopup.html">EditContourLevelsPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="EditContourFilesPopup.html">EditContourFilesPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="AddContourFilePopup.html">AddContourFilePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="CreateContourFilePopup.html">CreateContourFilePopup</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+      Displays a table of the resonances present in the current project with a stated status.
+      </P>
+      <H2>Main Table</H2>
+        <H3> | Shift | </H3>
+          <P>
+          The chemical shift value for a resonance in the selected shift list. This value is calculated from the
+          peak positions that the resonance is assigned to in under agiven set of conditions (corresponding to
+          one shift list).
+          The shift value may be set by double clicking 
+          only if the resonance is not connected to any peaks under the current shift list.
+          </P>
+        <H3> | Total Peaks | </H3>
+          <P>
+          The total number of peaks (under all shift lists) that a resonance is connected to.
+          </P>
+        <H3> | Shift List Peaks | </H3>
+          <P>
+          The number of peaks under only the current shift list that a resonance is connected to.
+          </P>
+      <H2>Shift List: &lt;list&gt;</H2>
+        <P>
+        A list of the shift lists in the current project (or none). The displayed resonances
+        are those that have a shift within the selected shift list or, if None is selected,
+        the resonances are those that have no shifts within any shift list.
+        </P>
+      <H2>Isotope: &lt;list&gt;</H2>
+        <P>
+        Used to display resonances derived from a particular isotope. The "Any" option may be
+        selected to display all resonances, regardless of isotope and the "unknown" option is
+        used to display resonances without a specified isotope.
+        </P>
+      <H2>Status: &lt;list&gt;</H2>
+        <P>
+        Selects resonances to be displayed according to their assignment status. Orphaned,
+        assigned, unassigned or all ("Any") resonances may be chosen. Orphaned resonances
+        represent those which are not connected to any
+        peaks. This option may be used to clean up a project of resonances that are no longer
+        in use.
+        </P>
+      <H2>[ Deassign ]</H2>
+        <P>
+        Remove all atomic assignments from the currently selected resonances. This does not
+        affect the connection of these resonances to crosspeaks. The resonances, connected
+        to peaks or otherwise simply become anonymous. The deassigned resonances remain
+        within any spin systems to which the may be allocated.
+        </P>
+      <H2>[ Assign ]</H2>
+        <P>
+        Assigns the selected/primary resonance to an atom set. This option opens
+        <A HREF="BrowseAtomsPopup.html">BrowseAtomsPopup</A>
+        to select the atom(s) to which the resonance is to be assigned. If a
+        resonance is already assigned it may be assigned to something else using this option.
+        Resonances assigned to specific atoms will be added to the appropriate spin system
+        for that atom. This means that a new spin system may be created is none currently
+        exists for the relevant residue.
+        </P>
+      <H2>[ Add to Spin System ]</H2>
+        <P>
+        Add the currently selected/primary resonance to a spin system. The spin systems are
+        selected with <A HREF="EditSpinSystemPopup.html">EditSpinSystemPopup.</A>
+         If the resonance is assigned, but the selected
+        spin system is not then the spin system will be assigned accordingly.
+        </P>
+      <H2>[ Remove from Spin System ]</H2>
+        <P>
+        Remove the currently selected resonances from any spin systems that they may be
+        associated with. This does not affect any atomic assignments that the resonances may
+        have.
+        </P>
+      <H2>[ Delete ]</H2>
+        <H3>Delete the currently selected resonances.</H3>
+      <H2>[ Delete Orphans ]</H2>
+        <P>
+        Delete the shifts of the orphaned resonances in the currently selected shift list.
+        Orphaned resonances are those that have no connections to any peaks for the current shift list.
+        The resonances (as well as their shifts) will also be deleted if the deletion causes the resonance
+        to have no shifts in any shift list.
+        </P>
+      <H2>[ Merge ]</H2>
+        <P>
+        Merge the currently selected resonances into one resonance. All of the objects to
+        which the resonances were connected (peaks etc.) will become connected to the
+        resultant, merged resonance. The chemical shift values associated with the merged
+        resonances will be averaged (if the shifts are in the same shift list).
+        </P>
+      <H2>[ Show Total Peaks ]</H2>
+        <P>
+        Displays all of the peaks (in all shift lists) assigned to the currently selected resonances in a
+        separate popup table. Opens <A HREF="SelectedPeaksPopup.html">SelectedPeaksPopup.</A>
+        </P>
+      <H2>[ Show Shift List Peaks ]</H2>
+        <P>
+        Displays the peaks in only the selected shift list that have assignments to the currently selected resonances in a
+        separate popup table. Opens <A HREF="SelectedPeaksPopup.html">SelectedPeaksPopup.</A>
+        </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr
+END
+PictureStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/PictureStream.java
+END
+Casper_determine.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper_determine.java
+END
+Casper.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper.java
+END
+Casper_curate.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper_curate.java
+END
+Casper_simulate.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/Eurocarbdb/src/java/org/eurocarbdb/action/nmr/Casper_simulate.java
+END

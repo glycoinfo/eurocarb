@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/cns
+END
+sequenceIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/cns/sequenceIO.py
+END
+coordinatesIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/cns/coordinatesIO.py
+END
+generalIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/cns/generalIO.py
+END
+chemShiftsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/cns/chemShiftsIO.py
+END
+rdcConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/cns/rdcConstraintsIO.py
+END
+jCouplingConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/cns/jCouplingConstraintsIO.py
+END
+hBondConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/cns/hBondConstraintsIO.py
+END
+distanceConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/cns/distanceConstraintsIO.py
+END
+dihedralConstraintsIO.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/cns/dihedralConstraintsIO.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/python/ccp/format/cns/__init__.py
+END

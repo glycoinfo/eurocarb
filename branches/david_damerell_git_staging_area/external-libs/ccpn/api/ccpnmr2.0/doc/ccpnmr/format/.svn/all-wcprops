@@ -1,0 +1,497 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format
+END
+Installation_FormatConverterinstallationscript.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Installation_FormatConverterinstallationscript.html
+END
+PeakDimSelect.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/PeakDimSelect.html
+END
+Import.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Import.html
+END
+PersonEdit.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/PersonEdit.html
+END
+LinkResonances.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/LinkResonances.html
+END
+NamingSystem.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/NamingSystem.html
+END
+CreditsContact_TheAuthors.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/CreditsContact_TheAuthors.html
+END
+PersonInGroupEdit.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/PersonInGroupEdit.html
+END
+OrganisationCreate.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/OrganisationCreate.html
+END
+SelectChain.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SelectChain.html
+END
+Download_CcpNmrSuite.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Download_CcpNmrSuite.html
+END
+SequenceChemCompSelect.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SequenceChemCompSelect.html
+END
+MeasurementSelect.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/MeasurementSelect.html
+END
+QuickStart.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/QuickStart.html
+END
+SelectDataSource.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SelectDataSource.html
+END
+ChemCompAtomBondInfo.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ChemCompAtomBondInfo.html
+END
+StudyCreate.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/StudyCreate.html
+END
+Concepts_ResonanceAtomLinks.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Concepts_ResonanceAtomLinks.html
+END
+AtomSelect.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/AtomSelect.html
+END
+SelectExperimentFromPeakList.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SelectExperimentFromPeakList.html
+END
+GroupEdit.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/GroupEdit.html
+END
+AcqProcParsEditAzara.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/AcqProcParsEditAzara.html
+END
+EntryEdit.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/EntryEdit.html
+END
+CoordinateAtomSelect.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/CoordinateAtomSelect.html
+END
+Concepts_Resonance.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Concepts_Resonance.html
+END
+SelectSpectrometer.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SelectSpectrometer.html
+END
+SelectExperiment.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SelectExperiment.html
+END
+ImportFormat.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ImportFormat.html
+END
+DataDimRefSelectByPeakDim.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/DataDimRefSelectByPeakDim.html
+END
+ExperimentTypeEdit.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ExperimentTypeEdit.html
+END
+SingleProchiralStatus.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SingleProchiralStatus.html
+END
+ResonanceGroup.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ResonanceGroup.html
+END
+MenuOverview.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/MenuOverview.html
+END
+AcqProcParsEditFidPars.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/AcqProcParsEditFidPars.html
+END
+CitationCreate.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/CitationCreate.html
+END
+Setup.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Setup.html
+END
+SelectEntry.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SelectEntry.html
+END
+Tutorial.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Tutorial.html
+END
+WriteMapping.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/WriteMapping.html
+END
+FutureFeatures_ComingsoontoFormatConverter.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/FutureFeatures_ComingsoontoFormatConverter.html
+END
+SelectExperimentForAcq.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SelectExperimentForAcq.html
+END
+Concepts_LinkResonances.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Concepts_LinkResonances.html
+END
+WindowFunctionSelect.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/WindowFunctionSelect.html
+END
+StudyEdit.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/StudyEdit.html
+END
+Process.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Process.html
+END
+FormatConverterGeneral.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/FormatConverterGeneral.html
+END
+Examples.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Examples.html
+END
+AcqProcParsEditNmrPipe.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/AcqProcParsEditNmrPipe.html
+END
+WriteBmrbChemShiftDep.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/WriteBmrbChemShiftDep.html
+END
+SingleResonanceStatus.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SingleResonanceStatus.html
+END
+ChainExport.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ChainExport.html
+END
+SelectPeakListForAssignFile.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SelectPeakListForAssignFile.html
+END
+AcqProcParsEditMain.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/AcqProcParsEditMain.html
+END
+PersonCreate.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/PersonCreate.html
+END
+SelectStrucGen.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SelectStrucGen.html
+END
+ExportFormat.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ExportFormat.html
+END
+CreateShiftList.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/CreateShiftList.html
+END
+PersonInGroupCreate.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/PersonInGroupCreate.html
+END
+DataShifter.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/DataShifter.html
+END
+ChemCompSelection.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ChemCompSelection.html
+END
+ExperimentCreate.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ExperimentCreate.html
+END
+Project.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Project.html
+END
+ImportFormatComponent.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ImportFormatComponent.html
+END
+CitationEdit.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/CitationEdit.html
+END
+GroupCreate.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/GroupCreate.html
+END
+Export.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Export.html
+END
+Other.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Other.html
+END
+Bugreporting_CcpNmrSuite.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Bugreporting_CcpNmrSuite.html
+END
+SelectExperimentToMeasurementList.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SelectExperimentToMeasurementList.html
+END
+SequenceLink.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SequenceLink.html
+END
+ProchiralStatus.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ProchiralStatus.html
+END
+Help.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Help.html
+END
+SelectMolSystem.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/SelectMolSystem.html
+END
+Guidetowidgets_TablesScrolledMatrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Guidetowidgets_TablesScrolledMatrix.html
+END
+ChainLink.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ChainLink.html
+END
+OrganisationEdit.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/OrganisationEdit.html
+END
+Glossary.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/Glossary.html
+END
+ProcFile.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ProcFile.html
+END
+TextOutput.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/TextOutput.html
+END
+ChemCompInfo.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/ChemCompInfo.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/index.html
+END
+AcqProcParsEditRefPars.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/trunk/api/ccpnmr2.0/doc/ccpnmr/format/AcqProcParsEditRefPars.html
+END

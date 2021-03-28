@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/39/trunk/application/Eurocarbdb/src/template/action/hplc/show_summaryDigests
+END
+input.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/39/trunk/application/Eurocarbdb/src/template/action/hplc/show_summaryDigests/input.ftl
+END

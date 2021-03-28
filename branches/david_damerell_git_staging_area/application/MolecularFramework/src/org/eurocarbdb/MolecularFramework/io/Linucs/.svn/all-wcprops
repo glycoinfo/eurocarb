@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs
+END
+GlycoVisitorCyclic.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/GlycoVisitorCyclic.java
+END
+SugarExporterLinucs.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/SugarExporterLinucs.java
+END
+GlycoTraverserLinucs.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/GlycoTraverserLinucs.java
+END
+LinucsComparatorEdges.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/LinucsComparatorEdges.java
+END
+GlycoVisitorExport.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/GlycoVisitorExport.java
+END
+GlycoVisitorExportRepeat.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/GlycoVisitorExportRepeat.java
+END
+SugarImporterLinucs.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/1769/branches/david_damerell_git_staging_area/application/MolecularFramework/src/org/eurocarbdb/MolecularFramework/io/Linucs/SugarImporterLinucs.java
+END

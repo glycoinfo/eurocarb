@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1/trunk/application/GlycanBuilder/src/cursors
+END
+dnd-nomove.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1/trunk/application/GlycanBuilder/src/cursors/dnd-nomove.png
+END
+dnd-move.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/application/GlycanBuilder/src/cursors/dnd-move.png
+END
+hand.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1/trunk/application/GlycanBuilder/src/cursors/hand.png
+END
+dnd-nocopy.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1/trunk/application/GlycanBuilder/src/cursors/dnd-nocopy.png
+END
+cut.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1/trunk/application/GlycanBuilder/src/cursors/cut.png
+END
+dnd-copy.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1/trunk/application/GlycanBuilder/src/cursors/dnd-copy.png
+END

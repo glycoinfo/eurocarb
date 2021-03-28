@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/lib
+END
+elements.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/lib/elements.xml
+END
+bcsdb_residue_defs.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/lib/bcsdb_residue_defs.txt
+END
+ms_dictionary.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/lib/ms_dictionary.xml
+END
+substituent_templates.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/lib/substituent_templates.xml
+END
+trivialname_templates.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/lib/trivialname_templates.xml
+END
+basetype_templates.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/lib/basetype_templates.xml
+END
+aglycon_templates.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/application/ResourcesDB/lib/aglycon_templates.xml
+END

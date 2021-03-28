@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint
+END
+Nmrc_DistanceConstraintList.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_DistanceConstraintList.h
+END
+Nmrc_FixedAtomSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_FixedAtomSet.h
+END
+Nmrc_RdcConstraintItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_RdcConstraintItem.h
+END
+Nmrc_DistanceConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_DistanceConstraint.h
+END
+Nmrc_DihedralConstraintItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_DihedralConstraintItem.h
+END
+Nmrc_ChainStateLink.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_ChainStateLink.h
+END
+Nmrc_AbstractConstraintList.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_AbstractConstraintList.h
+END
+Nmrc_ConstraintPeakContrib.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_ConstraintPeakContrib.h
+END
+Nmrc_CsaConstraintList.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_CsaConstraintList.h
+END
+Nmrc_AbstractConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_AbstractConstraint.h
+END
+Nmrc_FixedResonanceSet.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_FixedResonanceSet.h
+END
+Nmrc_ResStructure.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_ResStructure.h
+END
+Nmrc_CsaConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_CsaConstraint.h
+END
+Nmrc_NmrConstraintStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_NmrConstraintStore.h
+END
+Nmrc_DistanceConstraintItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_DistanceConstraintItem.h
+END
+Nmrc_ConditionState.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_ConditionState.h
+END
+Nmrc_HBondConstraintList.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_HBondConstraintList.h
+END
+Nmrc_JCouplingConstraintList.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_JCouplingConstraintList.h
+END
+Nmrc_FixedResonance.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_FixedResonance.h
+END
+Nmrc_JCouplingConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_JCouplingConstraint.h
+END
+Nmrc_HBondConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_HBondConstraint.h
+END
+Nmrc_ViolationList.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_ViolationList.h
+END
+Nmrc_ConstraintGroup.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_ConstraintGroup.h
+END
+Nmrc_Violation.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_Violation.h
+END
+Nmrc_PairwiseConstraintItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_PairwiseConstraintItem.h
+END
+Nmrc_RdcConstraintList.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_RdcConstraintList.h
+END
+Nmrc_ChemShiftConstraintList.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_ChemShiftConstraintList.h
+END
+Nmrc_RdcConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_RdcConstraint.h
+END
+Nmrc_DihedralConstraintList.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_DihedralConstraintList.h
+END
+Nmrc_HBondConstraintItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_HBondConstraintItem.h
+END
+Nmrc_JCouplingConstraintItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_JCouplingConstraintItem.h
+END
+Nmrc_ChemShiftConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_ChemShiftConstraint.h
+END
+Nmrc_ResCoord.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_ResCoord.h
+END
+Nmrc_DihedralConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_DihedralConstraint.h
+END
+Nmrc_SingleConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/api/ccpnmr2.1/c/xmlApi/include/ccp/api/nmr/NmrConstraint/Nmrc_SingleConstraint.h
+END

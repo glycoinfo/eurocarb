@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters
+END
+VarianFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/VarianFormat.py
+END
+ProntoFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/ProntoFormat.py
+END
+MonteFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/MonteFormat.py
+END
+PistachioFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/PistachioFormat.py
+END
+NmrStarFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/NmrStarFormat.py
+END
+MolFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/MolFormat.py
+END
+NmrViewFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/NmrViewFormat.py
+END
+CyanaFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/CyanaFormat.py
+END
+AzaraFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/AzaraFormat.py
+END
+MolmolFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/MolmolFormat.py
+END
+AnsigFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/AnsigFormat.py
+END
+AuremolFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/AuremolFormat.py
+END
+PdbFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/PdbFormat.py
+END
+ShiftxFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/ShiftxFormat.py
+END
+CharmmFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/CharmmFormat.py
+END
+PippFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/PippFormat.py
+END
+DataFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/DataFormat.py
+END
+Mol2Format.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/Mol2Format.py
+END
+NmrDrawFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/NmrDrawFormat.py
+END
+AutoAssignFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/AutoAssignFormat.py
+END
+CsiFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/CsiFormat.py
+END
+DiscoverFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/DiscoverFormat.py
+END
+TalosFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/TalosFormat.py
+END
+CnsFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/CnsFormat.py
+END
+PseudoPdbFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/PseudoPdbFormat.py
+END
+ModuleFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/ModuleFormat.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/__init__.py
+END
+AquaFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/AquaFormat.py
+END
+XEasyFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/XEasyFormat.py
+END
+BrukerFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/BrukerFormat.py
+END
+DyanaFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/DyanaFormat.py
+END
+MarvinFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/MarvinFormat.py
+END
+AriaXmlFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/AriaXmlFormat.py
+END
+FastaFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/FastaFormat.py
+END
+MarsFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/MarsFormat.py
+END
+CosmosFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/CosmosFormat.py
+END
+Tool.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/Tool.py
+END
+ConcoordFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/ConcoordFormat.py
+END
+FelixFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/FelixFormat.py
+END
+SparkyFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/SparkyFormat.py
+END
+NmrPipeFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/NmrPipeFormat.py
+END
+AriaFormat.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/converters/AriaFormat.py
+END

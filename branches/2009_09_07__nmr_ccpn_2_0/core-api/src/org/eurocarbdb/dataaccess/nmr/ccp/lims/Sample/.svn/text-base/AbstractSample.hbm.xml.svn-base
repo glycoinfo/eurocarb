@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.lims.Sample">
+  <class
+    name="AbstractSample"
+    table="SAM_ABSTRACTSAMPLE"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">General information on the sample or reagent.</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.lims.Sample.SampleStore"
+    not-null="true"
+    unique="false"
+    foreign-key="SAM_ABSTSAMP_SAMPSTOR_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text, for notes, explanatory comments, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="TEXT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_ionicStrength"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The ionic strength (dimensionless quantity).</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="IONICSTRENGTH" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <property
+    name="_isActive"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="false"
+  >
+    <meta attribute="field-description">True if the sample is active.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISACTIVE" sql-type="BOOLEAN" not-null="false"/>
+  </property>
+  
+  <property
+    name="_isHazard"
+    access="field"
+    type="java.lang.Boolean"
+    not-null="false"
+  >
+    <meta attribute="field-description">Is the sample hazard?</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="ISHAZARD" sql-type="BOOLEAN" not-null="false"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="true"
+  >
+    <meta attribute="field-description">The name of the sample or the code to identify it. It is the unique identifier.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(80)" length="80" not-null="true" unique-key="abstractSampleUniqueKey" />
+  </property>
+  
+  <property
+    name="_ph"
+    access="field"
+    type="java.lang.Float"
+    not-null="false"
+  >
+    <meta attribute="field-description">The pH.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="PH" sql-type="FLOAT" not-null="false"/>
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="SAM_ABSTSAMP2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbSampleStore"
+    column="SAMPLESTOREID"
+    class="ccp.api.lims.Sample.SampleStore" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="SAM_ABSTSAMP_SAMPSTOR_FK" 
+    unique-key="abstractSampleUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbSampleComponents" 
+    table="SAM_SAMPLECOMPONENT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="all"
+  >
+    <meta attribute="field-description">N/A</meta>
+    <meta attribute="base-name">hbSampleComponent</meta>
+    <cache usage="read-write"/>
+    <key column="ABSTRACTSAMPLEID"/>
+    <one-to-many class="ccp.api.lims.Sample.SampleComponent"/>
+  </set>
+  
+  <set 
+    name="hbHazardPhrases" 
+    table="SAM_ABSTSAMP2HAZAPHRA"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">List of all hazard pharses associated to a particular sample.</meta>
+    <meta attribute="base-name">hbHazardPhrase</meta>
+    <cache usage="read-write"/>
+    <key column="OTHERROLE" foreign-key="SAM_ABSTSAMP_OTHERROLE_FK"/>
+    <many-to-many column="HAZARDPHRASEID" class="ccp.api.lims.Classification.HazardPhrase" foreign-key="SAM_ABSTSAMP_HAZAPHRA_FK"/>
+  </set>
+  
+  <set 
+    name="hbSampleCategories" 
+    table="SAM_ABSTSAMP2SAMPCATE"
+      schema="nmr" 
+    inverse="false" 
+    cascade="none"
+  >
+    <meta attribute="field-description">List of sample category associated to a sample.</meta>
+    <meta attribute="base-name">hbSampleCategory</meta>
+    <cache usage="read-write"/>
+    <key column="ABSTRACTSAMPLEID" foreign-key="CLAS_SAMPCATE_ABSTSAMP_FK"/>
+    <many-to-many column="SAMPLECATEGORYID" class="ccp.api.lims.Classification.SampleCategory" foreign-key="SAM_ABSTSAMP_SAMPCATE_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

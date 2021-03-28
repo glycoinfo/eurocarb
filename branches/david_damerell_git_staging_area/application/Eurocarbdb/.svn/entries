@@ -1,0 +1,89 @@
+10
+
+dir
+1997
+http://eurocarb.googlecode.com/svn/branches/david_damerell_git_staging_area/application/Eurocarbdb
+http://eurocarb.googlecode.com/svn
+
+
+
+2010-02-22T16:08:46.641714Z
+1869
+david@nixbioinf.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+b1b7f5f2-413c-11de-998b-8fedbbe774c7
+
+conf
+dir
+
+doc
+dir
+
+src
+dir
+
+bin
+dir
+
+data
+dir
+
+resources
+dir
+
+build.xml
+file
+
+
+
+
+2016-01-08T01:26:22.635799Z
+a1d02f6e071cad700f9bad83b1d9cdff
+2009-07-24T15:49:23.865418Z
+1578
+hirenj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17822
+
+build
+dir
+
+webapps
+dir
+
+tranche
+dir
+

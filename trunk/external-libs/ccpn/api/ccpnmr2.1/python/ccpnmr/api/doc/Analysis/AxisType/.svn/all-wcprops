@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType
+END
+isotopeCodes.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/isotopeCodes.html
+END
+name.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/name.html
+END
+numDecimals.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/numDecimals.html
+END
+isSampled.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/isSampled.html
+END
+region.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/region.html
+END
+getIsotopes.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/getIsotopes.html
+END
+isotopes.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/isotopes.html
+END
+axisUnits.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/axisUnits.html
+END
+measurementType.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/measurementType.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/index.html
+END
+diagonalExclusion.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/diagonalExclusion.html
+END
+parent.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/parent.html
+END
+analysisProject.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/analysisProject.html
+END
+peakSize.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/24/trunk/api/ccpnmr2.1/python/ccpnmr/api/doc/Analysis/AxisType/peakSize.html
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1932/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq
+END
+GlycanSubstituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1258/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanSubstituent.java
+END
+SubstructureQueryGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1574/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/SubstructureQueryGenerator.java
+END
+SubstructureQueryGeneratorImpl1.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1574/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/SubstructureQueryGeneratorImpl1.java
+END
+SubstructureQueryGeneratorImpl2.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1932/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/SubstructureQueryGeneratorImpl2.java
+END
+GlycanSubstituent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1258/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanSubstituent.hbm.xml
+END
+GlycanMonosaccharide.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1262/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanMonosaccharide.java
+END
+GlycanResidue.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1357/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanResidue.java
+END
+SubstructureQueryResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/SubstructureQueryResult.java
+END
+SubstructureQueryCriterion.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1552/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/SubstructureQueryCriterion.java
+END
+SubstructureQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1574/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/SubstructureQuery.java
+END
+GlycanMonosaccharide.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1262/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanMonosaccharide.hbm.xml
+END
+GlycanResidue.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1258/trunk/core-api/src/org/eurocarbdb/dataaccess/core/seq/GlycanResidue.hbm.xml
+END

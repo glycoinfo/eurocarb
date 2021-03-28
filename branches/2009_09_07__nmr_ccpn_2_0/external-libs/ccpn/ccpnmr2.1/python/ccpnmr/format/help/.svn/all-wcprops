@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help
+END
+createLinkResonancesParametersDoc.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/createLinkResonancesParametersDoc.py
+END
+FormatConverterDoc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/FormatConverterDoc.txt
+END
+Install.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/Install.txt
+END
+Util.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/Util.py
+END
+createFormatConverterParametersDoc.py
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/createFormatConverterParametersDoc.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/__init__.py
+END
+FormatConverterDocGen.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/FormatConverterDocGen.py
+END
+linkResonances.info
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/linkResonances.info
+END
+FormatConverterHelpHtmlTemplate.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/FormatConverterHelpHtmlTemplate.txt
+END
+makeDoc.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/makeDoc.py
+END
+Readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/Readme.txt
+END
+FormatConverterHtmlTemplate.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/api/ccpnmr2.1/python/ccpnmr/format/help/FormatConverterHtmlTemplate.txt
+END

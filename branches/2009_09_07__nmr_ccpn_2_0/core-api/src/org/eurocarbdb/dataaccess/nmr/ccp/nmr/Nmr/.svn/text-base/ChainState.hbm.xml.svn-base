@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping auto-import="false" package="ccp.api.nmr.Nmr">
+  <class
+    name="ChainState"
+    table="NMR_CHAINSTATE"
+    schema="nmr" 
+  >
+  <meta attribute="extends" inherit="false">memops.general.AbstractModelObject</meta>
+  <meta attribute="implements">java.lang.Comparable</meta>
+  <meta attribute="class-description">One state of a molecule, belonging to a specific ChainStateSite. E.g. 'cis', 'protonated', 'bound-form', or 'loop-conformation-A'</meta>
+  <cache usage="read-write"/>
+
+  <id
+    name="_dbId"
+    access="field"
+    column="DATAOBJECTID"
+    type="java.lang.Long">
+    <meta attribute="scope-set">protected</meta>
+    <generator class="native"/>
+  </id>
+  
+  <many-to-one
+    name="_topObject"
+    access="field"
+    column="TOPOBJECTID"
+    class="ccp.api.nmr.Nmr.NmrProject"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_CHAINSTATE_NMRPROJECT_TO_FK"
+  >
+    <meta attribute="field-description">hard coded link to topObject</meta>
+  </many-to-one>
+  
+  <property
+    name="_details"
+    access="field"
+    type="java.lang.String" length="254"
+    not-null="false"
+  >
+    <meta attribute="field-description">Free text, for notes, explanatory comments, etc.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="DETAILS" sql-type="VARCHAR(254)" length="254" not-null="false"/>
+  </property>
+  
+  <property
+    name="_name"
+    access="field"
+    type="java.lang.String" length="80"
+    not-null="false"
+  >
+    <meta attribute="field-description">name of ChainState. Used to characterise the state (e.g. 'cis' and 'trans' would be a good name for the states of a cis/trans ChainStateSet). See documentation to ChainStateSet for detailed recommendations.</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="NAME" sql-type="VARCHAR(80)" length="80" not-null="false"/>
+  </property>
+  
+  <property
+    name="_serial"
+    access="field"
+    type="java.lang.Integer"
+    not-null="true"
+  >
+    <meta attribute="field-description">Serial number of object. Serves as object main key. Serial numbers of deleted objects are not re-used. Serial numbers can only be set by the implementation. Values are in practice always positive, since negative values are interpreted as a signal to set the next free serial</meta>
+    <meta attribute="default-value">null</meta>
+    <column name="SERIAL" sql-type="INTEGER" not-null="true" unique-key="chainStateUniqueKey" />
+  </property>
+  
+  <list
+    name="hbApplicationData"
+    table="NMR_CHAINSTATE2APPLDATA"
+      schema="nmr" 
+    access="property"
+    cascade="all"
+  >
+    <meta attribute="field-description">Application-specific data</meta>
+    <key column="DATAOBJECTID"/>
+    <list-index column="ORDER_applicationData_" base="1"/>
+    <many-to-many
+      column="APPLICATIONDATAID"
+      class="memops.api.Implementation.ApplicationData"
+      foreign-key="IMPL_DATAOBJECT_APPLDATA_FK"
+      unique="true">
+    </many-to-many>
+  </list>
+  
+  <many-to-one
+    name="hbAccess"
+    column="ACCESSID"
+    class="memops.api.AccessControl.AccessObject" 
+    not-null="false"
+    unique="true"
+    foreign-key="IMPL_DATAOBJECT_ACCESS_FK" 
+  >
+    <meta attribute="field-description">Access object that controls object access</meta>
+  </many-to-one>
+  
+  <many-to-one
+    name="hbChainStateSet"
+    column="CHAINSTATESETID"
+    class="ccp.api.nmr.Nmr.ChainStateSet" 
+    cascade="merge,save-update"
+    not-null="true"
+    unique="false"
+    foreign-key="NMR_CHAINSTATE_CHAISTATSET_FK" 
+    unique-key="chainStateUniqueKey" 
+  >
+    <meta attribute="field-description">N/A</meta>
+  </many-to-one>
+  
+  <set 
+    name="hbExpChainStates" 
+    table="NMR_EXPCHAINSTATE"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">ExpChainStates in which ChainState is involved.</meta>
+    <meta attribute="base-name">hbExpChainState</meta>
+    <cache usage="read-write"/>
+    <key column="CHAINSTATEID"/>
+    <one-to-many class="ccp.api.nmr.Nmr.ExpChainState"/>
+  </set>
+  
+  <set 
+    name="hbResonances" 
+    table="NMR_RESONANCE2CHAISTAT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">Resonances that are found only in this chainState.</meta>
+    <meta attribute="base-name">hbResonance</meta>
+    <cache usage="read-write"/>
+    <key column="CHAINSTATEID" foreign-key="NMR_RESONANCE_CHAISTAT_FK"/>
+    <many-to-many column="RESONANCEID" class="ccp.api.nmr.Nmr.Resonance" foreign-key="NMR_CHAINSTATE_RESONANCES_FK"/>
+  </set>
+  
+  <set 
+    name="hbNmrConstraintStores" 
+    table="NMRC_NMRCONSSTOR2CHAISTAT"
+      schema="nmr" 
+    inverse="true" 
+    cascade="none"
+  >
+    <meta attribute="field-description">NmrConstraintStores using for this particular ChainState</meta>
+    <meta attribute="base-name">hbNmrConstraintStore</meta>
+    <cache usage="read-write"/>
+    <key column="CHAINSTATEID" foreign-key="NMRC_NMRCONSSTOR_CHAISTAT_FK"/>
+    <many-to-many column="NMRCONSTRAINTSTOREID" class="ccp.api.nmr.NmrConstraint.NmrConstraintStore" foreign-key="NMR_CHAINSTATE_NMRCONSSTOR_FK"/>
+  </set>
+
+  </class>
+
+</hibernate-mapping>

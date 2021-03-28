@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1434/branches/2009_07_06__eurocarbdb_rc1/core-api/conf
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/conf/hibernate.cfg.xml
+END
+hibernate.properties.production
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1434/branches/2009_07_06__eurocarbdb_rc1/core-api/conf/hibernate.properties.production
+END
+hibernate.jndi.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/conf/hibernate.jndi.cfg.xml
+END
+hibernate.reveng.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/conf/hibernate.reveng.xml
+END
+hibernate.properties.reference
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/conf/hibernate.properties.reference
+END
+eurocarbdb-core.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/conf/eurocarbdb-core.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1434/branches/2009_07_06__eurocarbdb_rc1/core-api/conf/log4j.properties
+END
+hibernate.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1434/branches/2009_07_06__eurocarbdb_rc1/core-api/conf/hibernate.properties
+END
+hibernate.properties.development
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1433/branches/2009_07_06__eurocarbdb_rc1/core-api/conf/hibernate.properties.development
+END

@@ -1,0 +1,391 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML LANG="en">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <TITLE>CcpNmr Analysis documentation-CCP:RefExperimentPopup</TITLE>
+      <STYLE type="text/css">
+	body	{
+		background-color: #fffff;
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	ul, li	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	p	{
+		font: 11pt arial,helvetica,sans-serif;
+                margin-top: 8;
+                margin-bottom: 8;
+                margin-left: 5;
+                margin-right: 5;
+                text-align: justify;
+		}
+	pre	{
+		font: 10pt courier, fixed;
+		color: #004000;
+                margin-left: 8;
+		}
+	h1	{
+		font: bold 16pt arial,helvetica,sans-serif;
+		color: #000000;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h2	{
+		font: 12pt arial,helvetica,sans-serif;
+		color: #000080;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	h3	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000040;
+                margin-top: 4;
+                margin-bottom: 1;
+		}
+	span	{
+		font: 11pt arial,helvetica,sans-serif;
+		}
+	span.float {
+	        float: right;
+		margin-left: 8;
+	        }
+	span.item	{
+		font: 10pt courier, fixed;
+		color: #004000;
+		}
+	p.legend	{
+		font: italic 10pt arial,helvetica,sans-serif;
+		color: #004000;
+		}
+	span.p2	{
+                padding: 8;
+		}
+	span.i	{
+		font: italic 10pt arial,helvetica,sans-serif;
+ 		}
+	span.h1	{
+		font: bold 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h2	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000080;
+		}
+	span.h3	{
+		font: 11pt arial,helvetica,sans-serif;
+		color: #000040;
+		}
+	td	{
+		font: 12pt arial,helvetica,sans-serif;
+		}
+	td.siteTitle{
+		font: bold 14pt arial,helvetica,sans-serif;
+                padding: 4;
+                background-color: #DDDDFF;
+                border-style: solid;
+                border-width: 1;
+		border-color: #B0B0FF;
+		color: #000080;
+		}
+	td.section{
+		font: bold 11pt arial,helvetica,sans-serif;
+                padding-left: 3;
+                background-color: #000040;
+		color: #FFFFFF;
+		}
+	td.subsec {
+		font: 10pt arial,helvetica,sans-serif;
+                padding-left: 5;
+                background-color: #DDDDFF;
+                border-bottom: thin solid #B0B0FF;
+                border-left:   thin solid #B0B0FF;
+                border-right:  thin solid #B0B0FF;
+		color: #B0B0FF;
+		}
+	td.pagesec{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #808080;
+                background-color: #D0D0D0;
+		color: #808080;
+		}
+	td.pagesel{
+		font: 9pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #6060FF;
+                background-color: #C0C0FF;
+		color: #808080;
+		}
+	td.pageHead{
+		font: bold 10pt arial,helvetica,sans-serif;
+                border-style: solid;
+                border-width: 1;
+                border-color: #A0A0FF;
+                background-color: #D0D0FF;
+		color: #000000;
+                padding: 3;
+		}
+	td.pageBody{
+		font: 10pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #000000;
+		}
+	td.pageDull {
+		font: bold 9pt arial,helvetica,sans-serif;
+                background-color: #E0E0E0;
+                padding: 3;
+		color: #808080;
+		}
+		
+	a	{
+		text-decoration: none;
+		color: #800000;
+		}
+	a.menu	{
+		text-decoration: none;
+		color: #000000;
+		}
+	a.menuSel {
+		text-decoration: none;
+		color: #000080;
+		}
+}
+		
+  </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH='100%'>
+      <TR>
+        <TD COLSPAN=5 CLASS='siteTitle' ALIGN='CENTER'>CcpNmr Analysis Documentation</TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=170 VALIGN=TOP ROWSPAN=3 BGCOLOR="#E0E0FF">
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Software</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="index.html">Core concepts</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Installation_Analysisinstallationscript.html">Installation</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="FutureFeatures_ComingsoontoAnalysis.html">Future Features</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Changes_release.html">Changes</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="CreditsContact_TheAuthors.html">Credits & Contact</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Download_CcpNmrSuite.html">Download</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Bugreporting_CcpNmrSuite.html">Bug reporting</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Menu Options</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="MainMenu_Project.html">Main Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="WindowMenu_Assign.html">Window Menu</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="OtherMenus_TablesScrolledMatrix.html">Other Menus</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Tutorials</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="BasicTutorial_CcpNmrAnalysisTutorial14.html">Basic Tutorial</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="ExtendedTutorial_CcpNmrAnalysisTutorial16.html">Extended Tutorial</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Popups</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Guidetowidgets_TablesScrolledMatrix.html">Guide to widgets</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisPopup.html">Analysis (1)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditCovalentLinksPopup.html">Analysis (2)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="EditSpectrumFilePopup.html">Analysis (3)</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="TableExportPopup.html">Memops</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="NmrExpPrototypePopup.html">CCP</A></TD></TR>
+<TR><TD></TD></TR><TR><TD CLASS="section" BGCOLOR="#000040"><NOBR>Coding Library</NOBR></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="Macros_DefaultMacros.html">Macros</A></TD></TR>
+<TR><TD CLASS="subsec"><A CLASS="menu" HREF="AnalysisFunctions_AssignmentBasic.html">Analysis Functions</A></TD></TR>
+<TR><TD></TD></TR><TR><TD></TD></TR></TABLE></TD><TR></TABLE></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP WIDTH='100%' HEIGHT=10><H1>CCP:RefExperimentPopup</H1></TD>
+        <TD ROWSPAN=3>&nbsp;</TD>
+        <TD VALIGN=TOP ROWSPAN=3>
+          <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+          <TR><TD BGCOLOR='#FFFFFF'><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=1 WIDTH="100%" VALIGN=TOP>
+<TR><TD CLASS="section"><NOBR>Popups:</NOBR> <NOBR>CCP</NOBR></TD></TR><TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="NmrExpPrototypePopup.html">NmrExpPrototypePopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="ExpGraphPopup.html">ExpGraphPopup</A></TD></TR>
+<TR><TD CLASS="pagesel" ><A CLASS="menuSel" HREF="RefExperimentPopup.html">RefExperimentPopup</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="NmrExpPrototypeNomenclature.html">NmrExpPrototypeNomenclature</A></TD></TR>
+<TR><TD CLASS="pagesec" ><A CLASS="menu" HREF="SaveProjectAs.html">SaveProjectAs</A></TD></TR>
+<TR><TD></TD></TR></TABLE></TD><TR></TABLE>
+        </TD>
+      </TR>
+      <TR>
+        <TD VALIGN=TOP>      <P>
+      This popup allows the user to create and edit reference experiments.
+      These define which of the measurements possible for the NmrExpPrototype
+      are actually made, the order of the dimensions, and which splittings and
+      couplings are relevant.
+      </P>
+      <H2>NmrExpPrototype &lt;list&gt;</H2>
+      <P>
+      Select the NmrExpPrototype you want to view/edit
+      </P>
+      <H2>- RefExperiments -</H2>
+        <P>
+        Create/select the RefExperiment.
+        </P>
+        <H3>| Name |</H3>
+          <P>
+          Names follow the same conventions as the NmrExpPrototype names, where
+          possible. They may have to be less systematic to distinguish the
+          various detailed possibilities.
+          </P>
+        <H3>| numDims |</H3>
+          <P>
+          Number of dimensions in the RefExperiment. This parameter may be set
+          before editing RefExpDimRefs. When set it creates a default set of
+          RefExpDimRefs for further editing. <BR>NOTE: As a matter of convention
+          you should create a RefExperiment with the maximum possible number of
+          dimensions, even if this makes for a 5D or 6D experiment. This also
+          makes it easy to create lower-dimensional versions by using 'Create
+          Copy' and editing the result.
+          </P>
+        <H3>| isReversed |</H3>
+          <P>
+          Is the magnetisation transfer in the RefExperiment in the opposite
+          direction to what is defined in the NmrExpPrototype? For reversed
+          RefExperiments the RefExpDim are given in the same order as for the
+          normal version of the RefExperiment, but are read backwards.
+          </P>
+        <H3>| Synonym |</H3>
+          <P>
+          Synonym or common name for the RefExperiment.
+          </P>
+        <H3>| Systematic name |</H3>
+          <P>
+          Ssytematic name for the RefExperiment in the curently selected naming system.
+          </P>
+        <H3>| isEditable |</H3>
+          <P>
+          This column says if the RefExperiment may be modified, or if it is frozen.
+          </P>
+        <H3>[ Create New ]</H3>
+          <P>
+          Adds a new RefExperiment.
+          </P>
+        <H3>[ Create Copy ]</H3>
+          <P>
+          Adds a RefExperiment that is a copy of the currently selected one. 
+          The parameters can be changed by editing them afterwards.
+          </P>
+        <H3>[ Freeze ]</H3>
+          <P>
+          Freezes the reference experiment so it can no longer be modified.
+          Reference Experiments are reference information.
+          They should generally not be changed once made, as there may be experiments
+          using them. Reference Experiments that are loaded from file are in a frozen
+          state. The ony way to unfreeze a RefExperiment is via the command line. To
+          unfreeze the RefExperiment with serial 2 belonging to the
+          NmrExpPrototype with serial 5 (e.g.) you do<BR>
+          myProject = top.project<BR>
+          myPrototype = myProject.findFirstNmrExpPrototype(serial=5)<BR>
+          myPrototype.isModifiable = True<BR>
+          myRefExperiment = myPrototype.findFirstRefExperiment(serial=2)<BR>
+          myRefExperiment.isEditable = True<BR>
+          after which you click some editable field to update the popup.<BR>
+          This procedure should only be used if you know what you are doing - that is
+          why it has been made so deliberately obscure.
+          </P>
+        <H3>[ Delete ]</H3>
+          <P>
+          Deletes the currently selected reference experiment.
+          </P>
+      <H2>- RefExpDimRefs -</H2>
+        <P>
+        Create and edit RefExpDimRefs. These describe the measurements that can appear
+        in a dimension. There may be several 
+        </P>
+        <H3>| Dim |</H3>
+          <P>
+          The dimension number to which the RefExpDimRef applies. A RefExpDIm
+          and one RefExpDimRef is created automatically for every dimension when 
+          RefExperiment.numDims is set. RefExpDimRefs can be added or removed. 
+          Note that once a RefExpDim is deleted it cannot be added again.
+          </P>
+        <H3>| expMeasurement |</H3>
+          <P>
+          ExpMeasurement being referenced.
+          </P>
+        <H3>| valid scaling factors |</H3>
+          <P>
+          Scaling factors that can apply to the relevant measurement. In the normal
+          case (a single shift per dimension) the only valid scaling factor is 1.0. A
+          reduced-dimensionality experiment where e.g. a CO shift is measured as a cosine
+          modulation on a CA shit, would have valid scaling factors (1.0,-1.0) for the CO.
+          A RefExpDimRef describing one-bond proton coupling on a carbon dimension would
+          have valid scaling factors (1.5,0.5,0.0,-0.5,-1.5). Where the scaling factors do
+          not form a limited set, like for proton-proton multiplets, the valid scaling
+          factors is set to empty.
+          </P>
+        <H3>| groupng number |</H3>
+          <P>
+          The RefExpDimRef grouping ID. RefExpDimRefs on the same RefExpDim with different
+          RefExpDimRefs must appear on differeent peaks. There is generally only one grouping
+          number. The H[{N|C}]_H.NOESY experiment would have two grouping numbers, one for
+          13C shifts (and J-CH couplings if relevant), another for 15N shifts (and J-NH
+          couplings if relevant).
+          </P>
+        <H3>| coupled Isotopes |</H3>
+          <P>
+          To which isotopes is coupling active in this dimension? If 'Coupled
+          Isotopes' is set, the NMR Experiment will have a reference created to
+          let you assign this type of coupling. Accordingly 'Coupled Isotopes'
+          is generally left blank even if there are active couplings, unless it
+          is likely that someone might want to assign the splittings.
+          </P>
+        <H3>| Constant Time |</H3>
+          <P>
+          Is the experiment acquired as constant time, partially constant time
+          (harmonica) or variable time?
+          </P>
+        <H3>| ExpSteps |</H3>
+          <P>
+          Which of the possible ExpSteps are actually used to measure the
+          ExpMeasurement? Can be used to distinguish e.g. in a HSQC-NOESY if the
+          indirect proton dimension  is measured before or after the nitrogen
+          dimension, or to exclude certain steps, as for instance in the
+          H[N[{CA|caC}]] experiment.
+          </P>
+        <H3>[ Create New ]</H3>
+          <P>
+          Adds a new RefExpDimRef to the same dimension as the currently
+          selected RefExpDimRef.
+          </P>
+        <H3>[ Delete RefExpDim ]</H3>
+          <P>
+          Delete the RefExpDim and dimension of the currently selected
+          RefExpDimRef, together with all its RefExpDimRefs. This permanently
+          reduces the  dimensionality of the RefExperiment, and renumbers the
+          remaining dimensions.
+          </P>
+        <H3>[ Delete RefExpDimRef ]</H3>
+          <P>
+          Delete the currently selected RefExpDimRef, leaving the dimension
+          intact. Only possible when the currently selected dimension has more
+          than one RefExpDimRef
+          </P>
+      <H2>[ Purge RefExpDims ]</H3>
+        <P>
+          This button is not used in normal circumstances, and is mostly greyed
+          out.<br>
+          The button will be active when any RefExperiment in the
+          NmrExpPrototype has one or more RefExpDim without any RefExpDimRef,
+          and will delete these RefExpDim. <br>
+          Note that in normal operation, all RefExpDim will have at least one
+          RefExpDimRef, and will be addressable through the RefExpDimRef table.
+          Unusual situations where the button is active may arise when
+          ExpMeasurements are deleted, or when the NmrExpPrototypes have been
+          modified without using the Editor Popup. It is generally a good idea
+          to use the button when it is active, but you should also try to find
+          out how the system got into this situation.  
+        </P>
+</TD>
+      </TR>
+    </TABLE>
+  </BODY>
+</HTML>

@@ -1,0 +1,617 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1997/trunk/core-api/src/org/eurocarbdb/dataaccess/ms
+END
+FragmentationType.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/FragmentationType.hbm.xml
+END
+Source.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Source.hbm.xml
+END
+MsMsRelationship.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1947/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MsMsRelationship.hbm.xml
+END
+MaldiParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MaldiParameter.java
+END
+PeakAnnotatedToIon.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakAnnotatedToIon.java
+END
+ReducingEnd.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1940/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/ReducingEnd.java
+END
+PeakLabeled.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1995/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakLabeled.java
+END
+PeakListToDataProcessing.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1940/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakListToDataProcessing.hbm.xml
+END
+Acquisition.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/752/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Acquisition.xml.ftl
+END
+Manufacturer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1947/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Manufacturer.java
+END
+MassDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MassDetector.java
+END
+MassDetectorParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MassDetectorParameter.java
+END
+AcquisitionToPersubstitution.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1924/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/AcquisitionToPersubstitution.java
+END
+PeakList.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1980/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakList.hbm.xml
+END
+MsMsRelationship.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1947/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MsMsRelationship.java
+END
+TandemScanMethod.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/TandemScanMethod.hbm.xml
+END
+DeviceSettings.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1980/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/DeviceSettings.hbm.xml
+END
+DataProcessing.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1940/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/DataProcessing.java
+END
+Annotation.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/448/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Annotation.xml.ftl
+END
+ScanToDataProcessing.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/ScanToDataProcessing.java
+END
+Analyser.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Analyser.java
+END
+Manufacturer.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1947/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Manufacturer.hbm.xml
+END
+Fragmentation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Fragmentation.hbm.xml
+END
+FragmentationParameter.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/FragmentationParameter.hbm.xml
+END
+Device.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1997/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Device.hbm.xml
+END
+Acquisition.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1980/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Acquisition.java
+END
+Software.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1981/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Software.java
+END
+Laser.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Laser.hbm.xml
+END
+LaserParameter.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/LaserParameter.hbm.xml
+END
+MaldiMatrix.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MaldiMatrix.hbm.xml
+END
+PeakAnnotatedToSmallMolecule.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakAnnotatedToSmallMolecule.java
+END
+PeakAnnotated.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1995/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakAnnotated.hbm.xml
+END
+PeakListToDataProcessing.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakListToDataProcessing.java
+END
+Ion.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1940/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Ion.hbm.xml
+END
+ReducingEnd.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1916/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/ReducingEnd.hbm.xml
+END
+PeakAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakAnnotation.java
+END
+PeakAnnotatedToIon.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1940/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakAnnotatedToIon.hbm.xml
+END
+MaldiParameter.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MaldiParameter.hbm.xml
+END
+Acquisition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1980/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Acquisition.hbm.xml
+END
+TofParameter.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/TofParameter.hbm.xml
+END
+PeakAnnotation.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/448/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakAnnotation.xml.ftl
+END
+TandemScanMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/TandemScanMethod.java
+END
+AnalyserParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/AnalyserParameter.java
+END
+PeakLabeledComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakLabeledComparator.java
+END
+SmallMolecule.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/SmallMolecule.hbm.xml
+END
+AcquisitionToPersubstitution.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1980/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/AcquisitionToPersubstitution.hbm.xml
+END
+Persubstitution.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1940/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Persubstitution.java
+END
+PeakAnnotatedToSmallMolecule.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1916/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakAnnotatedToSmallMolecule.hbm.xml
+END
+Ion.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1940/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Ion.java
+END
+SourceParameter.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/SourceParameter.hbm.xml
+END
+ScanImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/ScanImage.java
+END
+Scan.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/448/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Scan.xml.ftl
+END
+MethodOfCombination.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MethodOfCombination.java
+END
+TofParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/TofParameter.java
+END
+PeakLabeled.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/448/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakLabeled.xml.ftl
+END
+SoftwareType.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1940/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/SoftwareType.java
+END
+Fragmentation.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Fragmentation.java
+END
+Annotation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Annotation.hbm.xml
+END
+IontrapParameter.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/IontrapParameter.hbm.xml
+END
+SourceParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/SourceParameter.java
+END
+PeakProcessing.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1940/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakProcessing.hbm.xml
+END
+SumAverageRelationship.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1916/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/SumAverageRelationship.hbm.xml
+END
+SmallMoleculeComposition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1916/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/SmallMoleculeComposition.hbm.xml
+END
+Laser.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Laser.java
+END
+MethodOfCombination.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MethodOfCombination.hbm.xml
+END
+IontrapParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/IontrapParameter.java
+END
+PeakProcessing.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1940/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakProcessing.java
+END
+PeakAnnotated.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1995/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakAnnotated.java
+END
+SoftwareType.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1981/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/SoftwareType.hbm.xml
+END
+SumAverageRelationship.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/SumAverageRelationship.java
+END
+MassDetectorParameter.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MassDetectorParameter.hbm.xml
+END
+Scan.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1995/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Scan.java
+END
+DataProcessing.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1940/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/DataProcessing.hbm.xml
+END
+IonComposition.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/IonComposition.hbm.xml
+END
+SmallMolecule.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/SmallMolecule.java
+END
+FragmentationParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1147/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/FragmentationParameter.java
+END
+PeakAnnotation.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakAnnotation.hbm.xml
+END
+Manufacturer.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/448/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Manufacturer.xml.ftl
+END
+Device.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1997/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Device.java
+END
+FragmentationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/FragmentationType.java
+END
+Source.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Source.java
+END
+ScanToDataProcessing.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1947/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/ScanToDataProcessing.hbm.xml
+END
+Device.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/448/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Device.xml.ftl
+END
+Analyser.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Analyser.hbm.xml
+END
+AnalyserParameter.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/AnalyserParameter.hbm.xml
+END
+PeakAnnotationComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakAnnotationComparator.java
+END
+EsiParameter.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/EsiParameter.hbm.xml
+END
+LaserParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/LaserParameter.java
+END
+Persubstitution.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1947/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Persubstitution.hbm.xml
+END
+Scan.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1995/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Scan.hbm.xml
+END
+IonComposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/IonComposition.java
+END
+Annotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1425/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Annotation.java
+END
+MaldiMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MaldiMatrix.java
+END
+ScanImage.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/ScanImage.hbm.xml
+END
+PeakList.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1943/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakList.java
+END
+PeakLabeled.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1995/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakLabeled.hbm.xml
+END
+Software.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1981/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/Software.hbm.xml
+END
+DeviceSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/DeviceSettings.java
+END
+EsiParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1210/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/EsiParameter.java
+END
+PeakAnnotated.xml.ftl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/448/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/PeakAnnotated.xml.ftl
+END
+MassDetector.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/MassDetector.hbm.xml
+END
+SmallMoleculeComposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1922/trunk/core-api/src/org/eurocarbdb/dataaccess/ms/SmallMoleculeComposition.java
+END
